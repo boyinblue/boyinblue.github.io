@@ -10,7 +10,7 @@ GitHub Blog (GitHub Pages)
 ---
 - [무료 웹서버 추천(GitHub 블로그 개설 방법)](002_github_blog/001_advantage_of_github_blog.html "무료 웹서버 추천(GitHub 블로그 개설 방법)")
 - [GitHub Pages에 구글 서치 콘솔 등록 방법 아주 쉽다 (사이트 소유권 확인 방법)](002_github_blog/002_google_search_console_apply.html "구글 서비 콘솔 등록 방법")
-- [네이버 서치 어드바이저에 등록 방법 (네이버 웹마스터 도구에 사이트 추가 방법)](002_github_blog/003_naver_search_advisor.html "네이버 서치 어드바이저에 등록 방법"]
+- [네이버 서치 어드바이저에 등록 방법 (네이버 웹마스터 도구에 사이트 추가 방법)](002_github_blog/003_naver_search_advisor.html "네이버 서치 어드바이저에 등록 방법")
 
 Python
 ---
