@@ -95,6 +95,12 @@ echo "token : ${token}"
 
 직접 입력이 불편하신 분들을 위해서 아래의 GitHub에 업데이트했습니다.   
 [get_token_from_credential.sh](https://raw.githubusercontent.com/boyinblue/blog_automation/main/get_token_from_credential.sh "get_token_from_credential.sh")
+   
+다운로드가 번거로우신 분들은 아래와 같이 wget 명령을 통해서 해당 스크립트를 손쉽게 다운로드 하실 수 있습니다.   
+   
+<pre><code>
+$ wget https://raw.githubusercontent.com/boyinblue/blog_automation/main/get_token_from_credential.sh
+</code></pre>
 
 <pre><code>
 credential=$(cat ~/.git-credentials)
