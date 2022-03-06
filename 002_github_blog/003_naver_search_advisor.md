@@ -1,4 +1,4 @@
-[GitHub 블로그] 네이버 서치 어드바이저에 등록 (네이버 웹마스터 도구에 사이트 등록)
+[GitHub 블로그] 네이버 서치 어드바이저에 등록 방법 (네이버 웹마스터 도구에 사이트 추가 방법)
 ===
    
 지난번에는 [GitHub 블로그의 장점과 무료로 개설하는 방법](https://boyinblue.github.io/002_github_blog/001_advantage_of_github_blog.html "GitHub 블로그의 장점과 무료로 개설하는 방법")에 대해서 기술하였습니다. 
