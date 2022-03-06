@@ -45,7 +45,7 @@ $ ./update_to_github.sh
 갑자기 꺼림칙한 생각이 들었습니다. 
 최근에 GitHub에 업데이트한 스크립트에 토큰값이 포함되어 있었던 것입니다.   
    
-![Alt text](github-badcredential-token-expire.png "GitHub 토큰이 유출되어 자동으로 폐기된 후 해당 내용이 이메일로 수신됨.")   
+![Alt text](001_github-badcredential-token-expire.png "GitHub 토큰이 유출되어 자동으로 폐기된 후 해당 내용이 이메일로 수신됨.")   
    
 메일함을 살펴봤더니 친절하게도 GitHub로부터 위와 같은 메일이 수신되었습니다. 
 제 실수로 토큰값을 GitHub에 커밋하여 토큰값이 누출되었고, 보안상의 이유로 GitHub에서 유출된 해당 토큰을 자동으로 폐기했던 것입니다. 
@@ -58,7 +58,7 @@ $ ./update_to_github.sh
    
 GitHub는 친절하게도 아래와 같이 메일 아래쪽에 토큰을 재발급할 수 있는 링크까지 포함시켜 놓았습니다.   
 
-![Alt text](github-badcredential-regenerate-token.png "GitHub 토큰 재발급을 위한 링크")
+![Alt text](001_github-badcredential-regenerate-token.png "GitHub 토큰 재발급을 위한 링크")
    
 해당 문제를 해결하는 방법은 아주 간단합니다. 
 "Generate New Token" 버튼을 선택하여 토큰을 재발급하시면 됩니다. 
