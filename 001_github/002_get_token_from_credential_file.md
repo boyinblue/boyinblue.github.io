@@ -93,6 +93,9 @@ echo "token : ${token}"
 위의 짧은 bash script는 .git-credentials 파일로부터 id와 token을 파싱합니다. 
 최초에 가져온 인증 정보는 "https://{id}:{token}@github.com" 형식입니다.   
 
+직접 입력이 불편하신 분들을 위해서 아래의 GitHub에 업데이트했습니다.   
+[get_token_from_credential.sh](https://raw.githubusercontent.com/boyinblue/blog_automation/main/get_token_from_credential.sh "get_token_from_credential.sh")
+
 <pre><code>
 credential=$(cat ~/.git-credentials)
 credential=${credential##https://}
