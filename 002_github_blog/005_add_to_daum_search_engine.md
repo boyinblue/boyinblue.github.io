@@ -1,4 +1,4 @@
-GitHub Pages를 다음 검색 엔진에 등록하는 방법
+GitHub Pages를 다음 검색 엔진에 등록 신청하는 방법
 ===
    
 GitHub Pages로 홈페이지를 개설해서 운영하기 시작했습니다. 
