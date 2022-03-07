@@ -1,6 +1,10 @@
-boyinblue 개인 블로그
+현업 SW 개발자의 연구 노트
 ===
 
+본 페이지는 현업 SW 개발자의 연구 노트입니다. 
+프로젝트를 진행하면서 습득하게 된 내용들과 개인적으로 공부한 내용들을 본 페이지에 정리하고 있습니다. 
+저에게는 종합장이지만 다른 누군가에게는 유레카가 될 수 있기를 바랍니다.  
+   
 GitHub API
 ---
 - [API bad credentials 문제점 해결 방법](001_github_api/001_bad_credential.html "API bad credentials 문제점 해결 방법") 
