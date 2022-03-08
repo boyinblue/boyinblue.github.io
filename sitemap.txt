@@ -6,4 +6,6 @@ https://boyinblue.github.io/002_github_blog/003_naver_search_advisor.html
 https://boyinblue.github.io/002_github_blog/004_google_adsense_github_pages.html
 https://boyinblue.github.io/002_github_blog/005_add_to_daum_search_engine.html
 https://boyinblue.github.io/002_github_blog/006.html
+https://boyinblue.github.io/002_github_blog/007.html
 https://boyinblue.github.io/003_jenkins/001.html
+https://boyinblue.github.io/005_bash/001.html

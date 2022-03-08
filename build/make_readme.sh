@@ -18,6 +18,8 @@ function parse_html()
   dirname=${1}
   fname=${2}
 
+#  echo "parse_html(${dirname} ${fname})"
+
   while read line
   do
     if [[ "${line}" == *"<title>"* ]]; then
@@ -49,4 +51,5 @@ function parse_sitemap()
   done < ${SITEMAP_TXT_FILE}
 }
 
+rm -f ${README_FILE}
 parse_sitemap
