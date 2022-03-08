@@ -2,10 +2,12 @@
 프로젝트를 진행하면서 습득하게 된 내용들과 개인적으로 공부한 내용들을 본 페이지에 정리하고 있습니다. 
 저에게는 종합장이지만 다른 누군가에게는 유레카가 될 수 있기를 바랍니다.  
    
+   
 001_github_api
 ---
 [ API 호출시 Bad Credentials 에러 발생시 조치 방법 ](001_github_api/001_bad_credential.html)   
 [ .git-credentials 파일로부터 id와 token을 안전하게 파싱하는 방법 ](001_github_api/002_get_token_from_credential_file.html)   
+   
 002_github_blog
 ---
 [무료 도메인 네임 및 무료 웹서버 추천 (GitHub 블로그 개설 방법 및 장점) ](002_github_blog/001_advantage_of_github_blog.html)   
@@ -15,9 +17,11 @@
 [GitHub Pages를 다음 검색 엔진에 등록 신청하는 방법 ](002_github_blog/005_add_to_daum_search_engine.html)   
 [GitHub Pages에서 php 문법을 사용 가능할까? ](002_github_blog/006.html)   
 [ 사이트맵을 자동으로 생성해주는 bash 스크립트 ](002_github_blog/007.html)   
+   
 003_jenkins
 ---
 [Jenkins Hook이 제대로 전달되지 못하는 경우 해결 방법 (GitHub Pull Request Builder 오류 및 역방향 프록시 설정 오류) ](003_jenkins/001.html)   
+   
 005_bash
 ---
 [ 파일의 마지막 수정 시간을 가져오는 방법 ](005_bash/001.html)   
