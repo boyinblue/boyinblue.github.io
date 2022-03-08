@@ -3,6 +3,7 @@
 SITEMAP_TXT_FILE="../sitemap.txt"
 README_FILE="../README.md"
 HOMEPAGE_URL="https://boyinblue.github.io"
+pre_dir_name=""
 
 if [ ! -e ${SITEMAP_TXT_FILE} ]; then
   echo "There is no site map file"
@@ -20,6 +21,12 @@ function parse_html()
 
   echo "parse_html(${dirname} ${fname})"
 
+  if [ "${dirname}" != "${pre_dirname}" ]; then
+    pre_dirname="${dirname}"
+    echo "${dirname}" >> ${README_FILE}
+    echo "---" >> ${README_FILE}
+  fi
+
   while read line
   do
     if [[ "${line}" == *"<title>"* ]]; then
@@ -29,7 +36,7 @@ function parse_html()
       title=${title##*]}
       title=${title%%|*}
       echo "title : ${title}"
-      echo "[${title}](${dirname}/${fname})" >> ${README_FILE}
+      echo "[${title}](${dirname}/${fname})   " >> ${README_FILE}
     fi
   done < /tmp/${dirname}_${fname}
 }
@@ -50,7 +57,7 @@ function parse_sitemap()
     dirname=${local_path%/*}
     echo "dirname : ${dirname}"
 
-    wget -O /tmp/${dirname}_${fname} ${line}
+    wget -q -O /tmp/${dirname}_${fname} ${line}
     parse_html ${dirname} ${fname}
   done < ${SITEMAP_TXT_FILE}
 }
