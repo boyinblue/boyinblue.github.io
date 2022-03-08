@@ -18,14 +18,16 @@ function parse_html()
   dirname=${1}
   fname=${2}
 
-#  echo "parse_html(${dirname} ${fname})"
+  echo "parse_html(${dirname} ${fname})"
 
   while read line
   do
     if [[ "${line}" == *"<title>"* ]]; then
-      title=${line##<title>}
-      title=${title%%</title>}
+      echo "line : ${line}"
+      title=${line##*<title>}
+      title=${title%%</title>*}
       title=${title##*]}
+      echo "title : ${title}"
       echo "[${title}](${dirname}/${fname})" >> ${README_FILE}
     fi
   done < /tmp/${dirname}_${fname}
@@ -53,4 +55,5 @@ function parse_sitemap()
 }
 
 rm -f ${README_FILE}
+cp ${README_FILE}.pre ${README_FILE}
 parse_sitemap
