@@ -27,6 +27,7 @@ function parse_html()
       title=${line##*<title>}
       title=${title%%</title>*}
       title=${title##*]}
+      title=${title%%|*}
       echo "title : ${title}"
       echo "[${title}](${dirname}/${fname})" >> ${README_FILE}
     fi
