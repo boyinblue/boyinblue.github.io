@@ -25,7 +25,9 @@ function print_list()
       files=$(ls ${dir}/*.md)
       for file in ${files[@]}
       do
+	echo "<url>"
         echo "<loc>${HOMEPAGE_URL}/$dir/${file/.md/.html}</loc>"
+	echo "</url>"
       done
     fi
   done

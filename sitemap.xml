@@ -1,12 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
 <loc>https://boyinblue.github.io/001_github_api/001_github_api/001_bad_credential.html</loc>
+</url>
+<url>
 <loc>https://boyinblue.github.io/001_github_api/001_github_api/002_get_token_from_credential_file.html</loc>
+</url>
+<url>
 <loc>https://boyinblue.github.io/002_github_blog/002_github_blog/001_advantage_of_github_blog.html</loc>
+</url>
+<url>
 <loc>https://boyinblue.github.io/002_github_blog/002_github_blog/002_google_search_console_apply.html</loc>
+</url>
+<url>
 <loc>https://boyinblue.github.io/002_github_blog/002_github_blog/003_naver_search_advisor.html</loc>
+</url>
+<url>
 <loc>https://boyinblue.github.io/002_github_blog/002_github_blog/004_google_adsense_github_pages.html</loc>
+</url>
+<url>
 <loc>https://boyinblue.github.io/002_github_blog/002_github_blog/005_add_to_daum_search_engine.html</loc>
+</url>
+<url>
 <loc>https://boyinblue.github.io/002_github_blog/002_github_blog/006.html</loc>
+</url>
+<url>
 <loc>https://boyinblue.github.io/003_jenkins/003_jenkins/001.html</loc>
+</url>
 </urlset>
