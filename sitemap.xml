@@ -1,34 +1,12 @@
----
----
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <xslt basedir="${001}"
-        destdir="${999}"
-        extension=".md"
-        includes="**/*.md"
-        style="create_list.xsl">
-  </xslt>
-  {% for post in site.posts %}
-    <url>
-      <loc>{{ site.url }}{{ post.url }}</loc>
-      {% if post.lastmod == null %}
-        <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
-      {% else %}
-        <lastmod>{{ post.lastmod | date_to_xmlschema }}</lastmod>
-      {% endif %}
-
-      {% if post.sitemap.changefreq == null %}
-        <changefreq>daily</changefreq>
-      {% else %}
-        <changefreq>{{ post.sitemap.changefreq }}</changefreq>
-      {% endif %}
-
-      {% if post.sitemap.priority == null %}
-          <priority>0.5</priority>
-      {% else %}
-        <priority>{{ post.sitemap.priority }}</priority>
-      {% endif %}
-
-    </url>
-  {% endfor %}
+<loc>https://boyinblue.github.io/001_github_api/001_github_api/001_bad_credential.html</loc>
+<loc>https://boyinblue.github.io/001_github_api/001_github_api/002_get_token_from_credential_file.html</loc>
+<loc>https://boyinblue.github.io/002_github_blog/002_github_blog/001_advantage_of_github_blog.html</loc>
+<loc>https://boyinblue.github.io/002_github_blog/002_github_blog/002_google_search_console_apply.html</loc>
+<loc>https://boyinblue.github.io/002_github_blog/002_github_blog/003_naver_search_advisor.html</loc>
+<loc>https://boyinblue.github.io/002_github_blog/002_github_blog/004_google_adsense_github_pages.html</loc>
+<loc>https://boyinblue.github.io/002_github_blog/002_github_blog/005_add_to_daum_search_engine.html</loc>
+<loc>https://boyinblue.github.io/002_github_blog/002_github_blog/006.html</loc>
+<loc>https://boyinblue.github.io/003_jenkins/003_jenkins/001.html</loc>
 </urlset>
