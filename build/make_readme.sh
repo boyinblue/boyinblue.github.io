@@ -25,6 +25,7 @@ function parse_html()
     if [[ "${line}" == *"<title>"* ]]; then
       title=${line##<title>}
       title=${title%%</title>}
+      title=${title##*]}
       echo "[${title}](${dirname}/${fname})" >> ${README_FILE}
     fi
   done < /tmp/${dirname}_${fname}
