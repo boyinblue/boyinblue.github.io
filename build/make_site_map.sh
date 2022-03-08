@@ -26,7 +26,7 @@ function print_list()
       for file in ${files[@]}
       do
 	echo "<url>"
-        echo "<loc>${HOMEPAGE_URL}/$dir/${file/.md/.html}</loc>"
+        echo "<loc>${HOMEPAGE_URL}/${file/.md/.html}</loc>"
 	echo "<changefreq>weekly</changefreq>"
 	echo "</url>"
       done
