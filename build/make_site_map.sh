@@ -27,6 +27,7 @@ function print_list()
       do
 	echo "<url>"
         echo "<loc>${HOMEPAGE_URL}/$dir/${file/.md/.html}</loc>"
+	echo "<changefreq>weekly</changefreq>"
 	echo "</url>"
       done
     fi
