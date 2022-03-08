@@ -18,5 +18,9 @@ GitHub Blog (GitHub Pages)
 - [GitHub 블로그에 구글 애드센스 스크립트 삽입하는 방법 및 삽입 위치](002_github_blog/004_google_adsense_github_pages.html "GitHub 블로그에 구글 애드센스 스크립트 삽입하는 방법 및 삽입 위치")
 - [GitHub Pages를 다음 검색 엔진에 등록 신청하는 방법](002_github_blog/005_add_to_daum_search_engine.html "GitHub Pages를 다음 검색 엔진에 등록 신청하는 방법")
 
+Jenkins
+---
+- [GitHub Pull Request Builder가 제대로 동작하지 않는 경우](003_jenkins/001.html)
+
 Python
 ---
