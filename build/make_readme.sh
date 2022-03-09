@@ -64,5 +64,4 @@ function parse_sitemap()
 }
 
 rm -f ${README_FILE}
-cp ${README_FILE}.pre ${README_FILE}
 parse_sitemap
