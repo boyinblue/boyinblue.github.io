@@ -14,7 +14,7 @@ rm -rf "$SITEMAP_TXT_FILE_TMP"
 function print_header()
 {
   echo '<?xml version="1.0" encoding="UTF-8"?>'
-  echo '<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' 
+  echo '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'
 }
 
 function print_tail()
