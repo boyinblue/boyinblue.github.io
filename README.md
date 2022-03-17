@@ -29,3 +29,7 @@
 007_javascript
 ---
 [자바스크립트에서 2차원 배열 선언 및 사용 방법 ](007_javascript/001.html)   
+   
+008_ubuntu
+---
+[Ubuntu Linux에서 ssmtp로 이메일 전송하는 초간단 방법 ](008_ubuntu/001.html)   
