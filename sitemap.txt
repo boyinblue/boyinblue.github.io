@@ -13,3 +13,4 @@ https://boyinblue.github.io/004_python/README.html
 https://boyinblue.github.io/005_bash/001.html
 https://boyinblue.github.io/007_javascript/001.html
 https://boyinblue.github.io/008_ubuntu/001.html
+https://boyinblue.github.io/008_ubuntu/002.html
