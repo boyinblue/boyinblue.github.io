@@ -3,6 +3,7 @@
 ---
 [ API 호출시 Bad Credentials 에러 발생시 조치 방법 ](001_github_api/001_bad_credential.html)   
 [ .git-credentials 파일로부터 id와 token을 안전하게 파싱하는 방법 ](001_github_api/002_get_token_from_credential_file.html)   
+[ “server certificate verification failed. CAfile: none CRLfile: none” 에러 조치 방법 ](001_github_api/003-server-certificate-verification-fail.html)   
    
 002_github_blog
 ---
@@ -21,6 +22,7 @@
 004_python
 ---
 [OpenCV를 이용하여 이미지를 출력하는 방법과 캠을 동작시키는 방법 ](004_python/001.html)   
+[파이선 터틀 그래픽을 이용해서 간단한 랜덤 문자 출력 방법 ](004_python/002.html)   
    
 005_bash
 ---

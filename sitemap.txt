@@ -1,5 +1,6 @@
 https://boyinblue.github.io/001_github_api/001_bad_credential.html
 https://boyinblue.github.io/001_github_api/002_get_token_from_credential_file.html
+https://boyinblue.github.io/001_github_api/003-server-certificate-verification-fail.html
 https://boyinblue.github.io/002_github_blog/001_advantage_of_github_blog.html
 https://boyinblue.github.io/002_github_blog/002_google_search_console_apply.html
 https://boyinblue.github.io/002_github_blog/003_naver_search_advisor.html
@@ -9,6 +10,7 @@ https://boyinblue.github.io/002_github_blog/006.html
 https://boyinblue.github.io/002_github_blog/007.html
 https://boyinblue.github.io/003_jenkins/001.html
 https://boyinblue.github.io/004_python/001.html
+https://boyinblue.github.io/004_python/002.html
 https://boyinblue.github.io/004_python/README.html
 https://boyinblue.github.io/005_bash/001.html
 https://boyinblue.github.io/007_javascript/001.html
