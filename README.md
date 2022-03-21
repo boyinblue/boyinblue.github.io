@@ -3,6 +3,7 @@
 ---
 [ API 호출시 Bad Credentials 에러 발생시 조치 방법 ](001_github_api/001_bad_credential.html)   
 [ .git-credentials 파일로부터 id와 token을 안전하게 파싱하는 방법 ](001_github_api/002_get_token_from_credential_file.html)   
+[ “server certificate verification failed. CAfile: none CRLfile: none” 에러 조치 방법 ](001_github_api/003-server-certificate-verification-fail.html)   
    
 002_github_blog
 ---
