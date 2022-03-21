@@ -39,7 +39,7 @@ GitHub 블로그는 최상위 경로에 임의의 파일을 업로드할 수 있
 새로 생성한 GitHub Pages의 소유권을 확인하려면 먼저 구글 서치 콘솔 홈페이지에 접속해야 합니다. 
 구글에서 "구글 사이트 소유 확인" 등의 키워드로 검색하면 최상단에 "Search Console 고객센터"가 표시됩니다. 
 아래 URL로 접속하면 소유권 확인을 할 수 있는 페이지로 바로 접속이 됩니다.   
-[구글 사이트 소유권 확인 - 구글 Search Console 고객센터](https://search.google.com/search-console/not-verified?original_url=/search-console/ownership&original_resource_id "구글 사이트 소유권 확인 - 구글 Search Console 고객센터)
+[구글 사이트 소유권 확인 - 구글 Search Console 고객센터](https://search.google.com/search-console/not-verified?original_url=/search-console/ownership&original_resource_id "구글 사이트 소유권 확인 - 구글 Search Console 고객센터")
    
 ### Step 2. 속성 추가 (URL 접두어 선택)
    
