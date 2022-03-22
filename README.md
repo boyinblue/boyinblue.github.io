@@ -27,6 +27,7 @@ github_blog
 [ 사이트맵을 자동으로 생성해주는 bash 스크립트 ](002_github_blog/007.html)   
 [GitHub Pages 운영시의 꿀팁들 ](002_github_blog/008.html)   
 [SEO를 위해 GitHub Pages 의 md 파일에 헤더를 입력하는 방법 ](002_github_blog/009.html)   
+[GitHub Pages 빌드 에러 ](002_github_blog/010-github-no-uploaded-artifact-was-found.html)   
    
 jenkins
 ---
@@ -41,9 +42,6 @@ bash
 ---
 [ 파일의 마지막 수정 시간을 가져오는 방법 ](005_bash/001.html)   
    
-java
----
-   
 javascript
 ---
 [자바스크립트에서 2차원 배열 선언 및 사용 방법 ](007_javascript/001.html)   
@@ -57,3 +55,4 @@ ubuntu
    
 raspberry
 ---
+[라즈베리파이로 GPIO 제어시 “RuntimeError: Not running on a RPi!” 문제 해결 방법 (3가지) ](010_raspberry/001-not-running-on-RPi.html)   

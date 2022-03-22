@@ -2,127 +2,127 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://boyinblue.github.io/001_github_api/001_bad_credential.html</loc>
-    <lastmod>03-22-2022T16:54:29+09:00</lastmod>
+    <lastmod>03-08-2022T11:41:17+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://boyinblue.github.io/001_github_api/002_get_token_from_credential_file.html</loc>
-    <lastmod>03-22-2022T16:54:29+09:00</lastmod>
+    <lastmod>03-08-2022T11:41:17+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://boyinblue.github.io/001_github_api/003-server-certificate-verification-fail.html</loc>
-    <lastmod>03-22-2022T16:54:29+09:00</lastmod>
+    <lastmod>03-22-2022T14:09:28+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://boyinblue.github.io/001_github_api/004-github-how-to-get-the-creation-date-of-repository.html</loc>
-    <lastmod>03-22-2022T16:54:29+09:00</lastmod>
+    <lastmod>03-22-2022T14:09:28+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://boyinblue.github.io/002_github_blog/001_advantage_of_github_blog.html</loc>
-    <lastmod>03-22-2022T16:54:29+09:00</lastmod>
+    <lastmod>03-08-2022T11:41:17+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://boyinblue.github.io/002_github_blog/002_google_search_console_apply.html</loc>
-    <lastmod>03-22-2022T16:54:29+09:00</lastmod>
+    <lastmod>03-22-2022T14:09:28+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://boyinblue.github.io/002_github_blog/003_naver_search_advisor.html</loc>
-    <lastmod>03-22-2022T16:54:29+09:00</lastmod>
+    <lastmod>03-08-2022T11:41:17+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://boyinblue.github.io/002_github_blog/004_google_adsense_github_pages.html</loc>
-    <lastmod>03-22-2022T16:54:29+09:00</lastmod>
+    <lastmod>03-08-2022T11:41:17+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://boyinblue.github.io/002_github_blog/005_add_to_daum_search_engine.html</loc>
-    <lastmod>03-22-2022T16:54:29+09:00</lastmod>
+    <lastmod>03-08-2022T11:41:17+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://boyinblue.github.io/002_github_blog/006.html</loc>
-    <lastmod>03-22-2022T16:54:29+09:00</lastmod>
+    <lastmod>03-22-2022T14:09:28+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://boyinblue.github.io/002_github_blog/007.html</loc>
-    <lastmod>03-22-2022T16:54:29+09:00</lastmod>
+    <lastmod>03-18-2022T19:58:33+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://boyinblue.github.io/002_github_blog/008.html</loc>
-    <lastmod>03-22-2022T16:54:29+09:00</lastmod>
+    <lastmod>03-22-2022T16:41:51+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://boyinblue.github.io/002_github_blog/009.html</loc>
-    <lastmod>03-22-2022T16:54:29+09:00</lastmod>
+    <lastmod>03-22-2022T16:41:51+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://boyinblue.github.io/002_github_blog/010-github-no-uploaded-artifact-was-found.html</loc>
+    <lastmod>03-23-2022T06:28:14+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://boyinblue.github.io/003_jenkins/001.html</loc>
-    <lastmod>03-22-2022T16:54:29+09:00</lastmod>
+    <lastmod>03-18-2022T19:58:33+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://boyinblue.github.io/004_python/001.html</loc>
-    <lastmod>03-22-2022T16:54:29+09:00</lastmod>
+    <lastmod>03-18-2022T19:58:33+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://boyinblue.github.io/004_python/002.html</loc>
-    <lastmod>03-22-2022T16:54:29+09:00</lastmod>
+    <lastmod>03-22-2022T14:09:28+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://boyinblue.github.io/004_python/README.html</loc>
-    <lastmod>03-22-2022T16:54:29+09:00</lastmod>
+    <lastmod>03-18-2022T19:58:33+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://boyinblue.github.io/005_bash/001.html</loc>
-    <lastmod>03-22-2022T16:54:29+09:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>https://boyinblue.github.io/006_java/001.html</loc>
-    <lastmod>03-22-2022T16:54:29+09:00</lastmod>
+    <lastmod>03-18-2022T19:58:33+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://boyinblue.github.io/007_javascript/001.html</loc>
-    <lastmod>03-22-2022T16:54:29+09:00</lastmod>
+    <lastmod>03-18-2022T19:58:33+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://boyinblue.github.io/008_ubuntu/001.html</loc>
-    <lastmod>03-22-2022T16:54:29+09:00</lastmod>
+    <lastmod>03-22-2022T14:09:28+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://boyinblue.github.io/008_ubuntu/002.html</loc>
-    <lastmod>03-22-2022T16:54:29+09:00</lastmod>
+    <lastmod>03-18-2022T19:58:33+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://boyinblue.github.io/008_ubuntu/003-ubuntu-crontab-does-not-work.html</loc>
-    <lastmod>03-22-2022T16:54:29+09:00</lastmod>
+    <lastmod>03-22-2022T14:09:28+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://boyinblue.github.io/008_ubuntu/004-thunderbird-email-setting-naver-gmail-daum.html</loc>
-    <lastmod>03-22-2022T16:54:29+09:00</lastmod>
+    <lastmod>03-22-2022T14:09:28+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://boyinblue.github.io/010_raspberry/001-not-running-on-RPi.html</loc>
-    <lastmod>03-23-2022T05:15:29+09:00</lastmod>
+    <lastmod>03-23-2022T05:27:24+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
 </urlset>

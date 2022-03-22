@@ -11,12 +11,12 @@ https://boyinblue.github.io/002_github_blog/006.html
 https://boyinblue.github.io/002_github_blog/007.html
 https://boyinblue.github.io/002_github_blog/008.html
 https://boyinblue.github.io/002_github_blog/009.html
+https://boyinblue.github.io/002_github_blog/010-github-no-uploaded-artifact-was-found.html
 https://boyinblue.github.io/003_jenkins/001.html
 https://boyinblue.github.io/004_python/001.html
 https://boyinblue.github.io/004_python/002.html
 https://boyinblue.github.io/004_python/README.html
 https://boyinblue.github.io/005_bash/001.html
-https://boyinblue.github.io/006_java/001.html
 https://boyinblue.github.io/007_javascript/001.html
 https://boyinblue.github.io/008_ubuntu/001.html
 https://boyinblue.github.io/008_ubuntu/002.html
