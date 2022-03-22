@@ -9,6 +9,8 @@ https://boyinblue.github.io/002_github_blog/004_google_adsense_github_pages.html
 https://boyinblue.github.io/002_github_blog/005_add_to_daum_search_engine.html
 https://boyinblue.github.io/002_github_blog/006.html
 https://boyinblue.github.io/002_github_blog/007.html
+https://boyinblue.github.io/002_github_blog/008.html
+https://boyinblue.github.io/002_github_blog/009.html
 https://boyinblue.github.io/003_jenkins/001.html
 https://boyinblue.github.io/004_python/001.html
 https://boyinblue.github.io/004_python/002.html
@@ -18,3 +20,4 @@ https://boyinblue.github.io/007_javascript/001.html
 https://boyinblue.github.io/008_ubuntu/001.html
 https://boyinblue.github.io/008_ubuntu/002.html
 https://boyinblue.github.io/008_ubuntu/003-ubuntu-crontab-does-not-work.html
+https://boyinblue.github.io/008_ubuntu/004-thunderbird-email-setting-naver-gmail-daum.html

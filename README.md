@@ -25,6 +25,8 @@ github_blog
 [GitHub Pages를 다음 검색 엔진에 등록 신청하는 방법 ](002_github_blog/005_add_to_daum_search_engine.html)   
 [GitHub Pages에서 php 문법을 사용 가능할까? ](002_github_blog/006.html)   
 [ 사이트맵을 자동으로 생성해주는 bash 스크립트 ](002_github_blog/007.html)   
+[GitHub Pages 운영시의 꿀팁들 ](002_github_blog/008.html)   
+[SEO를 위해 GitHub Pages 의 md 파일에 헤더를 입력하는 방법 ](002_github_blog/009.html)   
    
 jenkins
 ---
@@ -48,3 +50,4 @@ ubuntu
 [Ubuntu Linux에서 ssmtp로 이메일 전송하는 초간단 방법 (이메일 전송 자동화) ](008_ubuntu/001.html)   
 [Ubuntu Linux에서 공인 IP를 확인하는 방법(Windows, Linux 공통) ](008_ubuntu/002.html)   
 [Ubuntu Linux Crontab 실행 안됨 (crontab에서는 bash 문법 허용 안됨) ](008_ubuntu/003-ubuntu-crontab-does-not-work.html)   
+[모질라 썬더버드 메일 설정 방법 (네이버, gmail, 다음, 네이트) ](008_ubuntu/004-thunderbird-email-setting-naver-gmail-daum.html)   

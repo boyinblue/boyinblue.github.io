@@ -56,6 +56,16 @@
     <changefreq>weekly</changefreq>
   </url>
   <url>
+    <loc>https://boyinblue.github.io/002_github_blog/008.html</loc>
+    <lastmod>03-22-2022T16:42:25+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://boyinblue.github.io/002_github_blog/009.html</loc>
+    <lastmod>03-22-2022T16:42:25+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
     <loc>https://boyinblue.github.io/003_jenkins/001.html</loc>
     <lastmod>03-18-2022T19:59:06+09:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -98,6 +108,11 @@
   <url>
     <loc>https://boyinblue.github.io/008_ubuntu/003-ubuntu-crontab-does-not-work.html</loc>
     <lastmod>03-19-2022T11:15:02+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://boyinblue.github.io/008_ubuntu/004-thunderbird-email-setting-naver-gmail-daum.html</loc>
+    <lastmod>03-22-2022T16:42:25+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
 </urlset>
