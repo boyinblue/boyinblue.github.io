@@ -54,3 +54,6 @@ ubuntu
 [Ubuntu Linux에서 공인 IP를 확인하는 방법(Windows, Linux 공통) ](008_ubuntu/002.html)   
 [Ubuntu Linux Crontab 실행 안됨 (crontab에서는 bash 문법 허용 안됨) ](008_ubuntu/003-ubuntu-crontab-does-not-work.html)   
 [모질라 썬더버드 메일 설정 방법 (네이버, gmail, 다음, 네이트) ](008_ubuntu/004-thunderbird-email-setting-naver-gmail-daum.html)   
+   
+raspberry
+---
