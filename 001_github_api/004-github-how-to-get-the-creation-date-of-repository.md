@@ -36,7 +36,7 @@ https://api.github.com/repos/boyinblue/boyinblue.github.io
 실행 결과는 아래와 같습니다. 
 
 
-![GitHub 레포지토리의 생성일을 확인하는 방법](https://api.github.com/repos/boyinblue/boyinblue.github.io "GitHub 레포지토리의 생성일을 확인하는 방법")
+![GitHub 레포지토리의 생성일을 확인하는 방법](github-how-to-get-creation-date-of-repository.png "GitHub 레포지토리의 생성일을 확인하는 방법")
 
 
 GitHub API의 응답은 json 형식으로 리턴됩니다. 
