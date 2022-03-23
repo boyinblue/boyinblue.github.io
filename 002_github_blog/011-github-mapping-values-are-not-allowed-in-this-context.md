@@ -57,6 +57,30 @@ Title: \"mapping values are not allwed in this context at line 2 column 33\" 해
 문제점을 수정하고 push 하면 정상적으로 빌드 및 발행이 되는 것을 확인할 수 있다. 
 
 
+Invalid scheme format 에러 발생 시 조치 방법
+---
+
+
+Invalid scheme format 에러가 발생할 경우 렌더링을 지원하지 않는 파일 포맷에 의한 것일 수 있다.
+
+
+```
+Error:  Invalid scheme format: '2022-03-23T00'
+```
+
+
+만약 위와 같은 에러가 빌드 과정에서 확인되면, 
+파일명에 <code>:</code>가 포함되어 있지는 않은지 확인이 필요하다. 
+
+
+필자의 경우 자동으로 생성되는 페이지들이 있는데, 
+이 파일명에 <code>:</code>가 포함되어 있어서 빌드에 실패했다.
+
+
+<code>2022-03-23T00:00:00.md</code>와 같이 <code>:</code>가 포함된 부분을 수정했더니, 
+정상적으로 빌드가 되는 것을 확인할 수 있었다.
+
+
 결론
 ---
 
