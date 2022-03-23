@@ -1,6 +1,6 @@
 ---
-title: GitHub Pages 빌드 에러 "Error: No uploaded artifact was found! Please check if there are any errors at build step."
-description: GitHub Pages에서 빌드 에러가 발생시에 조치하는 방법에 대해서 설명합니다.
+title: 'GitHub Pages 빌드 에러 \"Error: No uploaded artifact was found! Please check if there are any errors at build step.\"'
+description: 'GitHub Pages에서 빌드 에러가 발생시에 조치하는 방법에 대해서 설명합니다.'
 ---
 
 
