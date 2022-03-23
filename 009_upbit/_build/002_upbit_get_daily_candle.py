@@ -72,6 +72,8 @@ def write_table():
         f.write("---\n")
         f.write("title: {}\n".format(title))
         f.write("description: {}\n".format(title))
+        f.write("---\n")
+
         f.write("{}\n".format(title))
         f.write("===\n")
 
