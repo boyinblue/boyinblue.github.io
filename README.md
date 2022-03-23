@@ -57,6 +57,9 @@ ubuntu
    
 upbit
 ---
+[현업 SW 개발자의 연구 노트 ](009_upbit/2022-03-23daily-candle-10days.html)   
+[업비트 API를 이용한 자동화 시스템 구축 ](009_upbit/README.html)   
+[업비트 API를 이용하여 일단위 캔들 조회 방법 ](009_upbit/UPbit-API-daily-candle-query.html)   
    
 raspberry
 ---
