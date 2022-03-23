@@ -28,6 +28,7 @@ github_blog
 [GitHub Pages 운영시의 꿀팁들 ](002_github_blog/008.html)   
 [SEO를 위해 GitHub Pages 의 md 파일에 헤더를 입력하는 방법 ](002_github_blog/009.html)   
 [GitHub Pages 빌드 에러 &quot;Error: No uploaded artifact was found! Please check if there are any errors at build step.&quot; ](002_github_blog/010-github-no-uploaded-artifact-was-found.html)   
+[현업 SW 개발자의 연구 노트 ](002_github_blog/011-github-mapping-values-are-not-allowed-in-this-context.html)   
    
 jenkins
 ---

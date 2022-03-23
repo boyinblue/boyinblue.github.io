@@ -71,6 +71,11 @@
     <changefreq>weekly</changefreq>
   </url>
   <url>
+    <loc>https://boyinblue.github.io/002_github_blog/011-github-mapping-values-are-not-allowed-in-this-context.html</loc>
+    <lastmod>03-23-2022T12:15:02+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
     <loc>https://boyinblue.github.io/003_jenkins/001.html</loc>
     <lastmod>03-22-2022T16:54:29+09:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -102,7 +107,7 @@
   </url>
   <url>
     <loc>https://boyinblue.github.io/008_ubuntu/001.html</loc>
-    <lastmod>03-22-2022T16:54:29+09:00</lastmod>
+    <lastmod>03-23-2022T12:15:02+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
