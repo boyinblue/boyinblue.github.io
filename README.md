@@ -27,7 +27,7 @@ github_blog
 [ 사이트맵을 자동으로 생성해주는 bash 스크립트 ](002_github_blog/007.html)   
 [GitHub Pages 운영시의 꿀팁들 ](002_github_blog/008.html)   
 [SEO를 위해 GitHub Pages 의 md 파일에 헤더를 입력하는 방법 ](002_github_blog/009.html)   
-[GitHub Pages 빌드 에러 ](002_github_blog/010-github-no-uploaded-artifact-was-found.html)   
+[GitHub Pages 빌드 에러 &quot;Error: No uploaded artifact was found! Please check if there are any errors at build step.&quot; ](002_github_blog/010-github-no-uploaded-artifact-was-found.html)   
    
 jenkins
 ---
