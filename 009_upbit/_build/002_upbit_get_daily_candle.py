@@ -80,7 +80,7 @@ def write_table():
         f.write("|날짜|시가|저가|고가|종가|비고|\n")
         f.write("|--|--|--|--|--|--|\n")
         for i in days:
-            f.write("|{}|{}|{}|{}|{}||\n".format(
+            f.write("|{}|{}|{}|{}|{}|    |\n".format(
                 candle_date_time_utc[i],
                 opening_price[i],
                 low_price[i],
