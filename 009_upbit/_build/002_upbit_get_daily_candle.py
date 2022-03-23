@@ -73,10 +73,10 @@ def write_table():
         f.write("title: {}\n".format(title))
         f.write("description: {}\n".format(title))
         f.write("---\n")
-
+        f.write("\n")
         f.write("{}\n".format(title))
         f.write("===\n")
-
+        f.write("\n")
         f.write("|날짜|시가|저가|고가|종가|비고|\n")
         f.write("|--|--|--|--|--|--|\n")
         for i in days:
