@@ -50,7 +50,7 @@ def load_data_from_upbit():
     candle_date_time_utc=list(map(select_date_time_utc, st_python))
 
     date = candle_date_time_utc[0]
-    title = "title: 업비트 일간 캔들 조회(" + date + ")"
+    title = "업비트 일간 캔들 조회(" + date + ")"
     description = title
     filename = "../" + date[:10] + "daily-candle-10days"
 
