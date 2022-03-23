@@ -55,6 +55,9 @@ ubuntu
 [모질라 썬더버드 메일 설정 방법 (네이버, gmail, 다음, 네이트) ](008_ubuntu/004-thunderbird-email-setting-naver-gmail-daum.html)   
 [dead.letter 파일의 정체 (삭제 요망) ](008_ubuntu/005-what-is-dead_letteres.html)   
    
+upbit
+---
+   
 raspberry
 ---
 [라즈베리파이로 GPIO 제어시 “RuntimeError: Not running on a RPi!” 문제 해결 방법 (3가지) ](010_raspberry/001-not-running-on-RPi.html)   
