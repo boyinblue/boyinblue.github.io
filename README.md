@@ -27,6 +27,8 @@ github_blog
 [ 사이트맵을 자동으로 생성해주는 bash 스크립트 ](002_github_blog/007.html)   
 [GitHub Pages 운영시의 꿀팁들 ](002_github_blog/008.html)   
 [SEO를 위해 GitHub Pages 의 md 파일에 헤더를 입력하는 방법 ](002_github_blog/009.html)   
+[GitHub Pages 빌드 에러 &quot;Error: No uploaded artifact was found! Please check if there are any errors at build step.&quot; ](002_github_blog/010-github-no-uploaded-artifact-was-found.html)   
+[현업 SW 개발자의 연구 노트 ](002_github_blog/011-github-mapping-values-are-not-allowed-in-this-context.html)   
    
 jenkins
 ---
@@ -41,9 +43,6 @@ bash
 ---
 [ 파일의 마지막 수정 시간을 가져오는 방법 ](005_bash/001.html)   
    
-java
----
-   
 javascript
 ---
 [자바스크립트에서 2차원 배열 선언 및 사용 방법 ](007_javascript/001.html)   
@@ -54,6 +53,15 @@ ubuntu
 [Ubuntu Linux에서 공인 IP를 확인하는 방법(Windows, Linux 공통) ](008_ubuntu/002.html)   
 [Ubuntu Linux Crontab 실행 안됨 (crontab에서는 bash 문법 허용 안됨) ](008_ubuntu/003-ubuntu-crontab-does-not-work.html)   
 [모질라 썬더버드 메일 설정 방법 (네이버, gmail, 다음, 네이트) ](008_ubuntu/004-thunderbird-email-setting-naver-gmail-daum.html)   
+[dead.letter 파일의 정체 (삭제 요망) ](008_ubuntu/005-what-is-dead_letteres.html)   
+   
+upbit
+---
+[업비트 일간 캔들 조회(2022-03-23T00:00:00) ](009_upbit/2022-03-23daily-candle-10days.html)   
+[가상화폐 일간 통계 (2022-03-24T00:00:00) ](009_upbit/2022-03-24-daily-candle-10days.html)   
+[업비트 API를 이용한 자동화 시스템 구축 ](009_upbit/README.html)   
+[업비트 API를 이용하여 일단위 캔들 조회 방법 ](009_upbit/UPbit-API-daily-candle-query.html)   
    
 raspberry
 ---
+[라즈베리파이로 GPIO 제어시 “RuntimeError: Not running on a RPi!” 문제 해결 방법 (3가지) ](010_raspberry/001-not-running-on-RPi.html)   

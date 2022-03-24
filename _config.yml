@@ -3,3 +3,4 @@ description: 본 페이지에서는 GitHub API, GitHub Pages, Jenkins, Bash, Pyt
 show_downloads: false
 google_analytics: G-95SGD9KQRE
 theme: jekyll-theme-slate
+markdown: kramdown
