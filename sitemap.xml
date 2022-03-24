@@ -92,7 +92,7 @@
   </url>
   <url>
     <loc>https://boyinblue.github.io/004_python/README.html</loc>
-    <lastmod>03-22-2022T16:54:29+09:00</lastmod>
+    <lastmod>03-25-2022T01:15:02+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
@@ -153,6 +153,11 @@
   <url>
     <loc>https://boyinblue.github.io/010_raspberry/001-not-running-on-RPi.html</loc>
     <lastmod>03-23-2022T10:15:02+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://boyinblue.github.io/011_opinet/001_opinet-key-acquire.html</loc>
+    <lastmod>03-25-2022T01:15:02+09:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
 </urlset>
