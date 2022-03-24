@@ -52,7 +52,7 @@ def load_data_from_upbit():
     date = candle_date_time_utc[0]
     title = "업비트 일간 캔들 조회(" + date + ")"
     description = title
-    filename = "../" + date[:10] + "daily-candle-10days"
+    filename = "../" + date[:10] + "-daily-candle-10days"
 
 def draw_graph():
     plt.plot(days, opening_price)
