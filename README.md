@@ -38,6 +38,7 @@ python
 ---
 [OpenCV를 이용하여 이미지를 출력하는 방법과 캠을 동작시키는 방법 ](004_python/001.html)   
 [파이선 터틀 그래픽을 이용해서 간단한 랜덤 문자 출력 방법 ](004_python/002.html)   
+[Python Study ](004_python/README.html)   
    
 bash
 ---
@@ -65,3 +66,7 @@ upbit
 raspberry
 ---
 [라즈베리파이로 GPIO 제어시 “RuntimeError: Not running on a RPi!” 문제 해결 방법 (3가지) ](010_raspberry/001-not-running-on-RPi.html)   
+   
+opinet
+---
+[오피넷 유가정보 API 무료 토큰 획득하는 방법 ](011_opinet/001_opinet-key-acquire.html)   
