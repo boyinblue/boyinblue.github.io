@@ -58,6 +58,7 @@ ubuntu
 upbit
 ---
 [업비트 일간 캔들 조회(2022-03-23T00:00:00) ](009_upbit/2022-03-23daily-candle-10days.html)   
+[가상화폐 일간 통계 (2022-03-24T00:00:00) ](009_upbit/2022-03-24-daily-candle-10days.html)   
 [업비트 API를 이용한 자동화 시스템 구축 ](009_upbit/README.html)   
 [업비트 API를 이용하여 일단위 캔들 조회 방법 ](009_upbit/UPbit-API-daily-candle-query.html)   
    
