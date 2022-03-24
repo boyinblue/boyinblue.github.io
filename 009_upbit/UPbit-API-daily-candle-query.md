@@ -21,9 +21,10 @@ JavaScript, Python, Ruby, Java 등 다양한 프로그래밍 언어를 이용해
 
 
 이 페이지는 아래 환경을 기준으로 작성되었음을 미리 알려드립니다.
+
 |OS|프로그래밍 언어|비고|
 |--|--|--|
-|Ubuntu Linux|Python, Curl||
+|Ubuntu Linux|Python, Curl|   |
 
 
 업비트 Open API 관련 문서
