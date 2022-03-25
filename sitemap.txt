@@ -28,5 +28,6 @@ https://boyinblue.github.io/009_upbit/2022-03-23daily-candle-10days.html
 https://boyinblue.github.io/009_upbit/2022-03-24-daily-candle-10days.html
 https://boyinblue.github.io/009_upbit/README.html
 https://boyinblue.github.io/009_upbit/UPbit-API-daily-candle-query.html
+https://boyinblue.github.io/009_upbit/UPbit-Too-many-API-requests.html
 https://boyinblue.github.io/010_raspberry/001-not-running-on-RPi.html
 https://boyinblue.github.io/011_opinet/001_opinet-key-acquire.html
