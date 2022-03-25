@@ -12,7 +12,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 세부 링크를 클릭하시면 좀 더 자세한 내용과 그래프를 확인하실 수 있습니다. 
 
 
-[가상화폐 일간 통계 (비트코인, 2022-03-24)](target_dir/2022-03-24/KRW-BTC-daily-candle-10days.html)
+[가상화폐 일간 통계 (비트코인, 2022-03-24)](KRW-BTC-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -24,7 +24,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0083939347|
 
 
-[가상화폐 일간 통계 (이더리움, 2022-03-24)](target_dir/2022-03-24/KRW-ETH-daily-candle-10days.html)
+[가상화폐 일간 통계 (이더리움, 2022-03-24)](KRW-ETH-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -36,7 +36,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0173745174|
 
 
-[가상화폐 일간 통계 (이더리움, 2022-03-24)](target_dir/2022-03-24/BTC-ETH-daily-candle-10days.html)
+[가상화폐 일간 통계 (이더리움, 2022-03-24)](BTC-ETH-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -48,7 +48,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0021980501|
 
 
-[가상화폐 일간 통계 (라이트코인, 2022-03-24)](target_dir/2022-03-24/BTC-LTC-daily-candle-10days.html)
+[가상화폐 일간 통계 (라이트코인, 2022-03-24)](BTC-LTC-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -60,7 +60,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|-0.0156161546|
 
 
-[가상화폐 일간 통계 (리플, 2022-03-24)](target_dir/2022-03-24/BTC-XRP-daily-candle-10days.html)
+[가상화폐 일간 통계 (리플, 2022-03-24)](BTC-XRP-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -72,7 +72,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|-0.0171112229|
 
 
-[가상화폐 일간 통계 (이더리움클래식, 2022-03-24)](target_dir/2022-03-24/BTC-ETC-daily-candle-10days.html)
+[가상화폐 일간 통계 (이더리움클래식, 2022-03-24)](BTC-ETC-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -84,7 +84,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|-0.0219411224|
 
 
-[가상화폐 일간 통계 (오미세고, 2022-03-24)](target_dir/2022-03-24/BTC-OMG-daily-candle-10days.html)
+[가상화폐 일간 통계 (오미세고, 2022-03-24)](BTC-OMG-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -96,7 +96,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0687351674|
 
 
-[가상화폐 일간 통계 (시빅, 2022-03-24)](target_dir/2022-03-24/BTC-CVC-daily-candle-10days.html)
+[가상화폐 일간 통계 (시빅, 2022-03-24)](BTC-CVC-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -108,7 +108,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|-0.0042016807|
 
 
-[가상화폐 일간 통계 (디지바이트, 2022-03-24)](target_dir/2022-03-24/BTC-DGB-daily-candle-10days.html)
+[가상화폐 일간 통계 (디지바이트, 2022-03-24)](BTC-DGB-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -120,7 +120,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.04|
 
 
-[가상화폐 일간 통계 (시아코인, 2022-03-24)](target_dir/2022-03-24/BTC-SC-daily-candle-10days.html)
+[가상화폐 일간 통계 (시아코인, 2022-03-24)](BTC-SC-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -132,7 +132,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0|
 
 
-[가상화폐 일간 통계 (스테이터스네트워크토큰, 2022-03-24)](target_dir/2022-03-24/BTC-SNT-daily-candle-10days.html)
+[가상화폐 일간 통계 (스테이터스네트워크토큰, 2022-03-24)](BTC-SNT-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -144,7 +144,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0|
 
 
-[가상화폐 일간 통계 (웨이브, 2022-03-24)](target_dir/2022-03-24/BTC-WAVES-daily-candle-10days.html)
+[가상화폐 일간 통계 (웨이브, 2022-03-24)](BTC-WAVES-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -156,7 +156,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|-0.025101755|
 
 
-[가상화폐 일간 통계 (뉴메레르, 2022-03-24)](target_dir/2022-03-24/BTC-NMR-daily-candle-10days.html)
+[가상화폐 일간 통계 (뉴메레르, 2022-03-24)](BTC-NMR-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -168,7 +168,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|-0.0090462983|
 
 
-[가상화폐 일간 통계 (넴, 2022-03-24)](target_dir/2022-03-24/BTC-XEM-daily-candle-10days.html)
+[가상화폐 일간 통계 (넴, 2022-03-24)](BTC-XEM-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -180,7 +180,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0|
 
 
-[가상화폐 일간 통계 (퀀텀, 2022-03-24)](target_dir/2022-03-24/BTC-QTUM-daily-candle-10days.html)
+[가상화폐 일간 통계 (퀀텀, 2022-03-24)](BTC-QTUM-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -192,7 +192,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0300873144|
 
 
-[가상화폐 일간 통계 (베이직어텐션토큰, 2022-03-24)](target_dir/2022-03-24/BTC-BAT-daily-candle-10days.html)
+[가상화폐 일간 통계 (베이직어텐션토큰, 2022-03-24)](BTC-BAT-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -204,7 +204,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|-0.0005138746|
 
 
-[가상화폐 일간 통계 (리스크, 2022-03-24)](target_dir/2022-03-24/BTC-LSK-daily-candle-10days.html)
+[가상화폐 일간 통계 (리스크, 2022-03-24)](BTC-LSK-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -216,7 +216,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0032837551|
 
 
-[가상화폐 일간 통계 (스팀, 2022-03-24)](target_dir/2022-03-24/BTC-STEEM-daily-candle-10days.html)
+[가상화폐 일간 통계 (스팀, 2022-03-24)](BTC-STEEM-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -228,7 +228,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0580246914|
 
 
-[가상화폐 일간 통계 (도지코인, 2022-03-24)](target_dir/2022-03-24/BTC-DOGE-daily-candle-10days.html)
+[가상화폐 일간 통계 (도지코인, 2022-03-24)](BTC-DOGE-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -240,7 +240,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0331125828|
 
 
-[가상화폐 일간 통계 (뱅코르, 2022-03-24)](target_dir/2022-03-24/BTC-BNT-daily-candle-10days.html)
+[가상화폐 일간 통계 (뱅코르, 2022-03-24)](BTC-BNT-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -252,7 +252,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0062467465|
 
 
-[가상화폐 일간 통계 (스텔라루멘, 2022-03-24)](target_dir/2022-03-24/BTC-XLM-daily-candle-10days.html)
+[가상화폐 일간 통계 (스텔라루멘, 2022-03-24)](BTC-XLM-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -264,7 +264,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.004048583|
 
 
-[가상화폐 일간 통계 (아더, 2022-03-24)](target_dir/2022-03-24/BTC-ARDR-daily-candle-10days.html)
+[가상화폐 일간 통계 (아더, 2022-03-24)](BTC-ARDR-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -276,7 +276,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0275423729|
 
 
-[가상화폐 일간 통계 (아크, 2022-03-24)](target_dir/2022-03-24/BTC-ARK-daily-candle-10days.html)
+[가상화폐 일간 통계 (아크, 2022-03-24)](BTC-ARK-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -288,7 +288,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|-0.0073159579|
 
 
-[가상화폐 일간 통계 (스토리지, 2022-03-24)](target_dir/2022-03-24/BTC-STORJ-daily-candle-10days.html)
+[가상화폐 일간 통계 (스토리지, 2022-03-24)](BTC-STORJ-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -300,7 +300,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0464054774|
 
 
-[가상화폐 일간 통계 (그로스톨코인, 2022-03-24)](target_dir/2022-03-24/BTC-GRS-daily-candle-10days.html)
+[가상화폐 일간 통계 (그로스톨코인, 2022-03-24)](BTC-GRS-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -312,7 +312,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0048342541|
 
 
-[가상화폐 일간 통계 (어거, 2022-03-24)](target_dir/2022-03-24/BTC-REP-daily-candle-10days.html)
+[가상화폐 일간 통계 (어거, 2022-03-24)](BTC-REP-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -324,7 +324,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0025537911|
 
 
-[가상화폐 일간 통계 (아이젝, 2022-03-24)](target_dir/2022-03-24/BTC-RLC-daily-candle-10days.html)
+[가상화폐 일간 통계 (아이젝, 2022-03-24)](BTC-RLC-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -336,7 +336,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0275132275|
 
 
-[가상화폐 일간 통계 (비트코인, 2022-03-24)](target_dir/2022-03-24/USDT-BTC-daily-candle-10days.html)
+[가상화폐 일간 통계 (비트코인, 2022-03-24)](USDT-BTC-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -348,7 +348,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0145104205|
 
 
-[가상화폐 일간 통계 (이더리움, 2022-03-24)](target_dir/2022-03-24/USDT-ETH-daily-candle-10days.html)
+[가상화폐 일간 통계 (이더리움, 2022-03-24)](USDT-ETH-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -360,7 +360,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|-0.0126461856|
 
 
-[가상화폐 일간 통계 (라이트코인, 2022-03-24)](target_dir/2022-03-24/USDT-LTC-daily-candle-10days.html)
+[가상화폐 일간 통계 (라이트코인, 2022-03-24)](USDT-LTC-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -372,7 +372,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0608926682|
 
 
-[가상화폐 일간 통계 (리플, 2022-03-24)](target_dir/2022-03-24/USDT-XRP-daily-candle-10days.html)
+[가상화폐 일간 통계 (리플, 2022-03-24)](USDT-XRP-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -384,7 +384,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|-0.0046077461|
 
 
-[가상화폐 일간 통계 (이더리움클래식, 2022-03-24)](target_dir/2022-03-24/USDT-ETC-daily-candle-10days.html)
+[가상화폐 일간 통계 (이더리움클래식, 2022-03-24)](USDT-ETC-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -396,7 +396,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|-0.00423662|
 
 
-[가상화폐 일간 통계 (네오, 2022-03-24)](target_dir/2022-03-24/KRW-NEO-daily-candle-10days.html)
+[가상화폐 일간 통계 (네오, 2022-03-24)](KRW-NEO-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -408,7 +408,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0126668949|
 
 
-[가상화폐 일간 통계 (메탈, 2022-03-24)](target_dir/2022-03-24/KRW-MTL-daily-candle-10days.html)
+[가상화폐 일간 통계 (메탈, 2022-03-24)](KRW-MTL-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -420,7 +420,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0350877193|
 
 
-[가상화폐 일간 통계 (라이트코인, 2022-03-24)](target_dir/2022-03-24/KRW-LTC-daily-candle-10days.html)
+[가상화폐 일간 통계 (라이트코인, 2022-03-24)](KRW-LTC-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -432,7 +432,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|-0.0099866844|
 
 
-[가상화폐 일간 통계 (리플, 2022-03-24)](target_dir/2022-03-24/KRW-XRP-daily-candle-10days.html)
+[가상화폐 일간 통계 (리플, 2022-03-24)](KRW-XRP-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -444,7 +444,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|-0.0048780488|
 
 
-[가상화폐 일간 통계 (이더리움클래식, 2022-03-24)](target_dir/2022-03-24/KRW-ETC-daily-candle-10days.html)
+[가상화폐 일간 통계 (이더리움클래식, 2022-03-24)](KRW-ETC-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -456,7 +456,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|-0.0167557932|
 
 
-[가상화폐 일간 통계 (오미세고, 2022-03-24)](target_dir/2022-03-24/KRW-OMG-daily-candle-10days.html)
+[가상화폐 일간 통계 (오미세고, 2022-03-24)](KRW-OMG-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -468,7 +468,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0747663551|
 
 
-[가상화폐 일간 통계 (스테이터스네트워크토큰, 2022-03-24)](target_dir/2022-03-24/KRW-SNT-daily-candle-10days.html)
+[가상화폐 일간 통계 (스테이터스네트워크토큰, 2022-03-24)](KRW-SNT-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -480,7 +480,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0013422819|
 
 
-[가상화폐 일간 통계 (웨이브, 2022-03-24)](target_dir/2022-03-24/KRW-WAVES-daily-candle-10days.html)
+[가상화폐 일간 통계 (웨이브, 2022-03-24)](KRW-WAVES-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -492,7 +492,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|-0.0231330148|
 
 
-[가상화폐 일간 통계 (넴, 2022-03-24)](target_dir/2022-03-24/KRW-XEM-daily-candle-10days.html)
+[가상화폐 일간 통계 (넴, 2022-03-24)](KRW-XEM-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -504,7 +504,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0|
 
 
-[가상화폐 일간 통계 (퀀텀, 2022-03-24)](target_dir/2022-03-24/KRW-QTUM-daily-candle-10days.html)
+[가상화폐 일간 통계 (퀀텀, 2022-03-24)](KRW-QTUM-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -516,7 +516,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0273899033|
 
 
-[가상화폐 일간 통계 (리스크, 2022-03-24)](target_dir/2022-03-24/KRW-LSK-daily-candle-10days.html)
+[가상화폐 일간 통계 (리스크, 2022-03-24)](KRW-LSK-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -528,7 +528,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0186915888|
 
 
-[가상화폐 일간 통계 (스팀, 2022-03-24)](target_dir/2022-03-24/KRW-STEEM-daily-candle-10days.html)
+[가상화폐 일간 통계 (스팀, 2022-03-24)](KRW-STEEM-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -540,7 +540,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0570071259|
 
 
-[가상화폐 일간 통계 (스텔라루멘, 2022-03-24)](target_dir/2022-03-24/KRW-XLM-daily-candle-10days.html)
+[가상화폐 일간 통계 (스텔라루멘, 2022-03-24)](KRW-XLM-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -552,7 +552,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0079051383|
 
 
-[가상화폐 일간 통계 (아더, 2022-03-24)](target_dir/2022-03-24/KRW-ARDR-daily-candle-10days.html)
+[가상화폐 일간 통계 (아더, 2022-03-24)](KRW-ARDR-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -564,7 +564,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.004048583|
 
 
-[가상화폐 일간 통계 (아크, 2022-03-24)](target_dir/2022-03-24/KRW-ARK-daily-candle-10days.html)
+[가상화폐 일간 통계 (아크, 2022-03-24)](KRW-ARK-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -576,7 +576,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0088888889|
 
 
-[가상화폐 일간 통계 (스토리지, 2022-03-24)](target_dir/2022-03-24/KRW-STORJ-daily-candle-10days.html)
+[가상화폐 일간 통계 (스토리지, 2022-03-24)](KRW-STORJ-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -588,7 +588,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0254545455|
 
 
-[가상화폐 일간 통계 (그로스톨코인, 2022-03-24)](target_dir/2022-03-24/KRW-GRS-daily-candle-10days.html)
+[가상화폐 일간 통계 (그로스톨코인, 2022-03-24)](KRW-GRS-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -600,7 +600,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0105124836|
 
 
-[가상화폐 일간 통계 (어거, 2022-03-24)](target_dir/2022-03-24/KRW-REP-daily-candle-10days.html)
+[가상화폐 일간 통계 (어거, 2022-03-24)](KRW-REP-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -612,7 +612,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0074074074|
 
 
-[가상화폐 일간 통계 (에이다, 2022-03-24)](target_dir/2022-03-24/KRW-ADA-daily-candle-10days.html)
+[가상화폐 일간 통계 (에이다, 2022-03-24)](KRW-ADA-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -624,7 +624,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.1392405063|
 
 
-[가상화폐 일간 통계 (에이다, 2022-03-24)](target_dir/2022-03-24/BTC-ADA-daily-candle-10days.html)
+[가상화폐 일간 통계 (에이다, 2022-03-24)](BTC-ADA-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -636,7 +636,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.1184381779|
 
 
-[가상화폐 일간 통계 (디센트럴랜드, 2022-03-24)](target_dir/2022-03-24/BTC-MANA-daily-candle-10days.html)
+[가상화폐 일간 통계 (디센트럴랜드, 2022-03-24)](BTC-MANA-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -648,7 +648,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0415793152|
 
 
-[가상화폐 일간 통계 (오미세고, 2022-03-24)](target_dir/2022-03-24/USDT-OMG-daily-candle-10days.html)
+[가상화폐 일간 통계 (오미세고, 2022-03-24)](USDT-OMG-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -660,7 +660,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0891327801|
 
 
-[가상화폐 일간 통계 (스팀달러, 2022-03-24)](target_dir/2022-03-24/KRW-SBD-daily-candle-10days.html)
+[가상화폐 일간 통계 (스팀달러, 2022-03-24)](KRW-SBD-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -672,7 +672,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0113207547|
 
 
-[가상화폐 일간 통계 (스팀달러, 2022-03-24)](target_dir/2022-03-24/BTC-SBD-daily-candle-10days.html)
+[가상화폐 일간 통계 (스팀달러, 2022-03-24)](BTC-SBD-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -684,7 +684,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0234866352|
 
 
-[가상화폐 일간 통계 (파워렛저, 2022-03-24)](target_dir/2022-03-24/KRW-POWR-daily-candle-10days.html)
+[가상화폐 일간 통계 (파워렛저, 2022-03-24)](KRW-POWR-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -696,7 +696,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0031796502|
 
 
-[가상화폐 일간 통계 (파워렛저, 2022-03-24)](target_dir/2022-03-24/BTC-POWR-daily-candle-10days.html)
+[가상화폐 일간 통계 (파워렛저, 2022-03-24)](BTC-POWR-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -708,7 +708,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|-0.013029316|
 
 
-[가상화폐 일간 통계 (비트코인골드, 2022-03-24)](target_dir/2022-03-24/KRW-BTG-daily-candle-10days.html)
+[가상화폐 일간 통계 (비트코인골드, 2022-03-24)](KRW-BTG-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -720,7 +720,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|-0.0105555556|
 
 
-[가상화폐 일간 통계 (에이다, 2022-03-24)](target_dir/2022-03-24/USDT-ADA-daily-candle-10days.html)
+[가상화폐 일간 통계 (에이다, 2022-03-24)](USDT-ADA-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -732,7 +732,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.104244898|
 
 
-[가상화폐 일간 통계 (디스트릭트0x, 2022-03-24)](target_dir/2022-03-24/BTC-DNT-daily-candle-10days.html)
+[가상화폐 일간 통계 (디스트릭트0x, 2022-03-24)](BTC-DNT-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -744,7 +744,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0223463687|
 
 
-[가상화폐 일간 통계 (제로엑스, 2022-03-24)](target_dir/2022-03-24/BTC-ZRX-daily-candle-10days.html)
+[가상화폐 일간 통계 (제로엑스, 2022-03-24)](BTC-ZRX-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -756,7 +756,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0118870728|
 
 
-[가상화폐 일간 통계 (트론, 2022-03-24)](target_dir/2022-03-24/BTC-TRX-daily-candle-10days.html)
+[가상화폐 일간 통계 (트론, 2022-03-24)](BTC-TRX-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -768,7 +768,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|-0.0066666667|
 
 
-[가상화폐 일간 통계 (트루USD, 2022-03-24)](target_dir/2022-03-24/BTC-TUSD-daily-candle-10days.html)
+[가상화폐 일간 통계 (트루USD, 2022-03-24)](BTC-TUSD-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -780,7 +780,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|-0.0089552239|
 
 
-[가상화폐 일간 통계 (루프링, 2022-03-24)](target_dir/2022-03-24/BTC-LRC-daily-candle-10days.html)
+[가상화폐 일간 통계 (루프링, 2022-03-24)](BTC-LRC-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -792,7 +792,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.4191022965|
 
 
-[가상화폐 일간 통계 (아이콘, 2022-03-24)](target_dir/2022-03-24/KRW-ICX-daily-candle-10days.html)
+[가상화폐 일간 통계 (아이콘, 2022-03-24)](KRW-ICX-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -804,7 +804,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0606060606|
 
 
-[가상화폐 일간 통계 (이오스, 2022-03-24)](target_dir/2022-03-24/KRW-EOS-daily-candle-10days.html)
+[가상화폐 일간 통계 (이오스, 2022-03-24)](KRW-EOS-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -816,7 +816,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|-0.025682183|
 
 
-[가상화폐 일간 통계 (트루USD, 2022-03-24)](target_dir/2022-03-24/USDT-TUSD-daily-candle-10days.html)
+[가상화폐 일간 통계 (트루USD, 2022-03-24)](USDT-TUSD-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -828,7 +828,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0191334642|
 
 
-[가상화폐 일간 통계 (트론, 2022-03-24)](target_dir/2022-03-24/KRW-TRX-daily-candle-10days.html)
+[가상화폐 일간 통계 (트론, 2022-03-24)](KRW-TRX-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -840,7 +840,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0090206186|
 
 
-[가상화폐 일간 통계 (폴리매쓰, 2022-03-24)](target_dir/2022-03-24/BTC-POLY-daily-candle-10days.html)
+[가상화폐 일간 통계 (폴리매쓰, 2022-03-24)](BTC-POLY-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -852,7 +852,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0276639344|
 
 
-[가상화폐 일간 통계 (시아코인, 2022-03-24)](target_dir/2022-03-24/USDT-SC-daily-candle-10days.html)
+[가상화폐 일간 통계 (시아코인, 2022-03-24)](USDT-SC-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -864,7 +864,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0700312377|
 
 
-[가상화폐 일간 통계 (트론, 2022-03-24)](target_dir/2022-03-24/USDT-TRX-daily-candle-10days.html)
+[가상화폐 일간 통계 (트론, 2022-03-24)](USDT-TRX-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -876,7 +876,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0311980362|
 
 
-[가상화폐 일간 통계 (시아코인, 2022-03-24)](target_dir/2022-03-24/KRW-SC-daily-candle-10days.html)
+[가상화폐 일간 통계 (시아코인, 2022-03-24)](KRW-SC-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -888,7 +888,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0508474576|
 
 
-[가상화폐 일간 통계 (온톨로지, 2022-03-24)](target_dir/2022-03-24/KRW-ONT-daily-candle-10days.html)
+[가상화폐 일간 통계 (온톨로지, 2022-03-24)](KRW-ONT-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -900,7 +900,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0134932534|
 
 
-[가상화폐 일간 통계 (질리카, 2022-03-24)](target_dir/2022-03-24/KRW-ZIL-daily-candle-10days.html)
+[가상화폐 일간 통계 (질리카, 2022-03-24)](KRW-ZIL-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -912,7 +912,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0780399274|
 
 
-[가상화폐 일간 통계 (폴리매쓰, 2022-03-24)](target_dir/2022-03-24/KRW-POLY-daily-candle-10days.html)
+[가상화폐 일간 통계 (폴리매쓰, 2022-03-24)](KRW-POLY-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -924,7 +924,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0278884462|
 
 
-[가상화폐 일간 통계 (제로엑스, 2022-03-24)](target_dir/2022-03-24/KRW-ZRX-daily-candle-10days.html)
+[가상화폐 일간 통계 (제로엑스, 2022-03-24)](KRW-ZRX-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -936,7 +936,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0436681223|
 
 
-[가상화폐 일간 통계 (룸네트워크, 2022-03-24)](target_dir/2022-03-24/KRW-LOOM-daily-candle-10days.html)
+[가상화폐 일간 통계 (룸네트워크, 2022-03-24)](KRW-LOOM-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -948,7 +948,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0297029703|
 
 
-[가상화폐 일간 통계 (비트코인캐시, 2022-03-24)](target_dir/2022-03-24/BTC-BCH-daily-candle-10days.html)
+[가상화폐 일간 통계 (비트코인캐시, 2022-03-24)](BTC-BCH-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -960,7 +960,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|-0.041829014|
 
 
-[가상화폐 일간 통계 (비트코인캐시, 2022-03-24)](target_dir/2022-03-24/USDT-BCH-daily-candle-10days.html)
+[가상화폐 일간 통계 (비트코인캐시, 2022-03-24)](USDT-BCH-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -972,7 +972,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0711442668|
 
 
-[가상화폐 일간 통계 (비트코인캐시, 2022-03-24)](target_dir/2022-03-24/KRW-BCH-daily-candle-10days.html)
+[가상화폐 일간 통계 (비트코인캐시, 2022-03-24)](KRW-BCH-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -984,7 +984,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|-0.0349673203|
 
 
-[가상화폐 일간 통계 (메인프레임, 2022-03-24)](target_dir/2022-03-24/BTC-MFT-daily-candle-10days.html)
+[가상화폐 일간 통계 (메인프레임, 2022-03-24)](BTC-MFT-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -996,7 +996,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0|
 
 
-[가상화폐 일간 통계 (룸네트워크, 2022-03-24)](target_dir/2022-03-24/BTC-LOOM-daily-candle-10days.html)
+[가상화폐 일간 통계 (룸네트워크, 2022-03-24)](BTC-LOOM-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -1008,7 +1008,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0|
 
 
-[가상화폐 일간 통계 (베이직어텐션토큰, 2022-03-24)](target_dir/2022-03-24/KRW-BAT-daily-candle-10days.html)
+[가상화폐 일간 통계 (베이직어텐션토큰, 2022-03-24)](KRW-BAT-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -1020,7 +1020,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0201005025|
 
 
-[가상화폐 일간 통계 (아이오에스티, 2022-03-24)](target_dir/2022-03-24/KRW-IOST-daily-candle-10days.html)
+[가상화폐 일간 통계 (아이오에스티, 2022-03-24)](KRW-IOST-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -1032,7 +1032,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0258064516|
 
 
-[가상화폐 일간 통계 (리퍼리움, 2022-03-24)](target_dir/2022-03-24/BTC-RFR-daily-candle-10days.html)
+[가상화폐 일간 통계 (리퍼리움, 2022-03-24)](BTC-RFR-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -1044,7 +1044,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0833333333|
 
 
-[가상화폐 일간 통계 (리퍼리움, 2022-03-24)](target_dir/2022-03-24/KRW-RFR-daily-candle-10days.html)
+[가상화폐 일간 통계 (리퍼리움, 2022-03-24)](KRW-RFR-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -1056,7 +1056,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.015625|
 
 
-[가상화폐 일간 통계 (디지바이트, 2022-03-24)](target_dir/2022-03-24/USDT-DGB-daily-candle-10days.html)
+[가상화폐 일간 통계 (디지바이트, 2022-03-24)](USDT-DGB-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -1068,7 +1068,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|-0.0990966642|
 
 
-[가상화폐 일간 통계 (시빅, 2022-03-24)](target_dir/2022-03-24/KRW-CVC-daily-candle-10days.html)
+[가상화폐 일간 통계 (시빅, 2022-03-24)](KRW-CVC-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -1080,7 +1080,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|-0.0053050398|
 
 
-[가상화폐 일간 통계 (에브리피디아, 2022-03-24)](target_dir/2022-03-24/KRW-IQ-daily-candle-10days.html)
+[가상화폐 일간 통계 (에브리피디아, 2022-03-24)](KRW-IQ-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -1092,7 +1092,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0173913043|
 
 
-[가상화폐 일간 통계 (아이오타, 2022-03-24)](target_dir/2022-03-24/KRW-IOTA-daily-candle-10days.html)
+[가상화폐 일간 통계 (아이오타, 2022-03-24)](KRW-IOTA-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -1104,7 +1104,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0073995772|
 
 
-[가상화폐 일간 통계 (레이븐코인, 2022-03-24)](target_dir/2022-03-24/BTC-RVN-daily-candle-10days.html)
+[가상화폐 일간 통계 (레이븐코인, 2022-03-24)](BTC-RVN-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -1116,7 +1116,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0652173913|
 
 
-[가상화폐 일간 통계 (고체인, 2022-03-24)](target_dir/2022-03-24/BTC-GO-daily-candle-10days.html)
+[가상화폐 일간 통계 (고체인, 2022-03-24)](BTC-GO-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -1128,7 +1128,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0|
 
 
-[가상화폐 일간 통계 (센티넬프로토콜, 2022-03-24)](target_dir/2022-03-24/BTC-UPP-daily-candle-10days.html)
+[가상화폐 일간 통계 (센티넬프로토콜, 2022-03-24)](BTC-UPP-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -1140,7 +1140,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0|
 
 
-[가상화폐 일간 통계 (엔진코인, 2022-03-24)](target_dir/2022-03-24/BTC-ENJ-daily-candle-10days.html)
+[가상화폐 일간 통계 (엔진코인, 2022-03-24)](BTC-ENJ-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -1152,7 +1152,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0206575502|
 
 
-[가상화폐 일간 통계 (메인프레임, 2022-03-24)](target_dir/2022-03-24/KRW-MFT-daily-candle-10days.html)
+[가상화폐 일간 통계 (메인프레임, 2022-03-24)](KRW-MFT-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -1164,7 +1164,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0196078431|
 
 
-[가상화폐 일간 통계 (온톨로지가스, 2022-03-24)](target_dir/2022-03-24/KRW-ONG-daily-candle-10days.html)
+[가상화폐 일간 통계 (온톨로지가스, 2022-03-24)](KRW-ONG-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -1176,7 +1176,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|-0.0042826552|
 
 
-[가상화폐 일간 통계 (가스, 2022-03-24)](target_dir/2022-03-24/KRW-GAS-daily-candle-10days.html)
+[가상화폐 일간 통계 (가스, 2022-03-24)](KRW-GAS-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -1188,7 +1188,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0058823529|
 
 
-[가상화폐 일간 통계 (메탈, 2022-03-24)](target_dir/2022-03-24/BTC-MTL-daily-candle-10days.html)
+[가상화폐 일간 통계 (메탈, 2022-03-24)](BTC-MTL-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -1200,7 +1200,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0282018111|
 
 
-[가상화폐 일간 통계 (센티넬프로토콜, 2022-03-24)](target_dir/2022-03-24/KRW-UPP-daily-candle-10days.html)
+[가상화폐 일간 통계 (센티넬프로토콜, 2022-03-24)](KRW-UPP-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -1212,7 +1212,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0136986301|
 
 
-[가상화폐 일간 통계 (엘프, 2022-03-24)](target_dir/2022-03-24/KRW-ELF-daily-candle-10days.html)
+[가상화폐 일간 통계 (엘프, 2022-03-24)](KRW-ELF-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -1224,7 +1224,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.002283105|
 
 
-[가상화폐 일간 통계 (도지코인, 2022-03-24)](target_dir/2022-03-24/USDT-DOGE-daily-candle-10days.html)
+[가상화폐 일간 통계 (도지코인, 2022-03-24)](USDT-DOGE-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -1236,7 +1236,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|-0.0135453077|
 
 
-[가상화폐 일간 통계 (제로엑스, 2022-03-24)](target_dir/2022-03-24/USDT-ZRX-daily-candle-10days.html)
+[가상화폐 일간 통계 (제로엑스, 2022-03-24)](USDT-ZRX-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -1248,7 +1248,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|-0.0236073702|
 
 
-[가상화폐 일간 통계 (레이븐코인, 2022-03-24)](target_dir/2022-03-24/USDT-RVN-daily-candle-10days.html)
+[가상화폐 일간 통계 (레이븐코인, 2022-03-24)](USDT-RVN-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -1260,7 +1260,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|-0.0143076425|
 
 
-[가상화폐 일간 통계 (베이직어텐션토큰, 2022-03-24)](target_dir/2022-03-24/USDT-BAT-daily-candle-10days.html)
+[가상화폐 일간 통계 (베이직어텐션토큰, 2022-03-24)](USDT-BAT-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -1272,7 +1272,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|-0.0672863622|
 
 
-[가상화폐 일간 통계 (카이버네트워크, 2022-03-24)](target_dir/2022-03-24/KRW-KNC-daily-candle-10days.html)
+[가상화폐 일간 통계 (카이버네트워크, 2022-03-24)](KRW-KNC-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -1284,7 +1284,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|-0.0336658354|
 
 
-[가상화폐 일간 통계 (모스코인, 2022-03-24)](target_dir/2022-03-24/BTC-MOC-daily-candle-10days.html)
+[가상화폐 일간 통계 (모스코인, 2022-03-24)](BTC-MOC-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -1296,7 +1296,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|-0.0050890585|
 
 
-[가상화폐 일간 통계 (질리카, 2022-03-24)](target_dir/2022-03-24/BTC-ZIL-daily-candle-10days.html)
+[가상화폐 일간 통계 (질리카, 2022-03-24)](BTC-ZIL-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -1308,7 +1308,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0654205607|
 
 
-[가상화폐 일간 통계 (비트코인에스브이, 2022-03-24)](target_dir/2022-03-24/KRW-BSV-daily-candle-10days.html)
+[가상화폐 일간 통계 (비트코인에스브이, 2022-03-24)](KRW-BSV-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -1320,7 +1320,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|-0.0260485651|
 
 
-[가상화폐 일간 통계 (비트코인에스브이, 2022-03-24)](target_dir/2022-03-24/BTC-BSV-daily-candle-10days.html)
+[가상화폐 일간 통계 (비트코인에스브이, 2022-03-24)](BTC-BSV-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -1332,7 +1332,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|-0.0220551979|
 
 
-[가상화폐 일간 통계 (아이오에스티, 2022-03-24)](target_dir/2022-03-24/BTC-IOST-daily-candle-10days.html)
+[가상화폐 일간 통계 (아이오에스티, 2022-03-24)](BTC-IOST-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -1344,7 +1344,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0166666667|
 
 
-[가상화폐 일간 통계 (쎄타토큰, 2022-03-24)](target_dir/2022-03-24/KRW-THETA-daily-candle-10days.html)
+[가상화폐 일간 통계 (쎄타토큰, 2022-03-24)](KRW-THETA-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -1356,7 +1356,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0401069519|
 
 
-[가상화폐 일간 통계 (덴트, 2022-03-24)](target_dir/2022-03-24/BTC-DENT-daily-candle-10days.html)
+[가상화폐 일간 통계 (덴트, 2022-03-24)](BTC-DENT-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -1368,7 +1368,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0|
 
 
-[가상화폐 일간 통계 (쿼크체인, 2022-03-24)](target_dir/2022-03-24/KRW-QKC-daily-candle-10days.html)
+[가상화폐 일간 통계 (쿼크체인, 2022-03-24)](KRW-QKC-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -1380,7 +1380,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0098039216|
 
 
-[가상화폐 일간 통계 (엘프, 2022-03-24)](target_dir/2022-03-24/BTC-ELF-daily-candle-10days.html)
+[가상화폐 일간 통계 (엘프, 2022-03-24)](BTC-ELF-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -1392,7 +1392,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0377128954|
 
 
-[가상화폐 일간 통계 (비트토렌트, 2022-03-24)](target_dir/2022-03-24/KRW-BTT-daily-candle-10days.html)
+[가상화폐 일간 통계 (비트토렌트, 2022-03-24)](KRW-BTT-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -1404,7 +1404,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0|
 
 
-[가상화폐 일간 통계 (아이오텍스, 2022-03-24)](target_dir/2022-03-24/BTC-IOTX-daily-candle-10days.html)
+[가상화폐 일간 통계 (아이오텍스, 2022-03-24)](BTC-IOTX-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -1416,7 +1416,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|-0.0178571429|
 
 
-[가상화폐 일간 통계 (솔브케어, 2022-03-24)](target_dir/2022-03-24/BTC-SOLVE-daily-candle-10days.html)
+[가상화폐 일간 통계 (솔브케어, 2022-03-24)](BTC-SOLVE-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -1428,7 +1428,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0|
 
 
-[가상화폐 일간 통계 (엔케이엔, 2022-03-24)](target_dir/2022-03-24/BTC-NKN-daily-candle-10days.html)
+[가상화폐 일간 통계 (엔케이엔, 2022-03-24)](BTC-NKN-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -1440,7 +1440,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0360721443|
 
 
-[가상화폐 일간 통계 (메타디움, 2022-03-24)](target_dir/2022-03-24/BTC-META-daily-candle-10days.html)
+[가상화폐 일간 통계 (메타디움, 2022-03-24)](BTC-META-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -1452,7 +1452,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|-0.0053763441|
 
 
-[가상화폐 일간 통계 (모스코인, 2022-03-24)](target_dir/2022-03-24/KRW-MOC-daily-candle-10days.html)
+[가상화폐 일간 통계 (모스코인, 2022-03-24)](KRW-MOC-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -1464,7 +1464,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0247524752|
 
 
-[가상화폐 일간 통계 (앵커, 2022-03-24)](target_dir/2022-03-24/BTC-ANKR-daily-candle-10days.html)
+[가상화폐 일간 통계 (앵커, 2022-03-24)](BTC-ANKR-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -1476,7 +1476,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0055865922|
 
 
-[가상화폐 일간 통계 (크로노스, 2022-03-24)](target_dir/2022-03-24/BTC-CRO-daily-candle-10days.html)
+[가상화폐 일간 통계 (크로노스, 2022-03-24)](BTC-CRO-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -1488,7 +1488,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0327198364|
 
 
-[가상화폐 일간 통계 (엔진코인, 2022-03-24)](target_dir/2022-03-24/KRW-ENJ-daily-candle-10days.html)
+[가상화폐 일간 통계 (엔진코인, 2022-03-24)](KRW-ENJ-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -1500,7 +1500,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0420168067|
 
 
-[가상화폐 일간 통계 (쎄타퓨엘, 2022-03-24)](target_dir/2022-03-24/KRW-TFUEL-daily-candle-10days.html)
+[가상화폐 일간 통계 (쎄타퓨엘, 2022-03-24)](KRW-TFUEL-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -1512,7 +1512,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0240384615|
 
 
-[가상화폐 일간 통계 (디센트럴랜드, 2022-03-24)](target_dir/2022-03-24/KRW-MANA-daily-candle-10days.html)
+[가상화폐 일간 통계 (디센트럴랜드, 2022-03-24)](KRW-MANA-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -1524,7 +1524,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0369747899|
 
 
-[가상화폐 일간 통계 (앵커, 2022-03-24)](target_dir/2022-03-24/KRW-ANKR-daily-candle-10days.html)
+[가상화폐 일간 통계 (앵커, 2022-03-24)](KRW-ANKR-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -1536,7 +1536,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0032467532|
 
 
-[가상화폐 일간 통계 (오브스, 2022-03-24)](target_dir/2022-03-24/BTC-ORBS-daily-candle-10days.html)
+[가상화폐 일간 통계 (오브스, 2022-03-24)](BTC-ORBS-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -1548,7 +1548,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|-0.0055865922|
 
 
-[가상화폐 일간 통계 (아르고, 2022-03-24)](target_dir/2022-03-24/BTC-AERGO-daily-candle-10days.html)
+[가상화폐 일간 통계 (아르고, 2022-03-24)](BTC-AERGO-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -1560,7 +1560,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|-0.0072727273|
 
 
-[가상화폐 일간 통계 (아르고, 2022-03-24)](target_dir/2022-03-24/KRW-AERGO-daily-candle-10days.html)
+[가상화폐 일간 통계 (아르고, 2022-03-24)](KRW-AERGO-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -1572,7 +1572,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|-0.0034722222|
 
 
-[가상화폐 일간 통계 (코스모스, 2022-03-24)](target_dir/2022-03-24/KRW-ATOM-daily-candle-10days.html)
+[가상화폐 일간 통계 (코스모스, 2022-03-24)](KRW-ATOM-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -1584,7 +1584,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.002921414|
 
 
-[가상화폐 일간 통계 (썬더코어, 2022-03-24)](target_dir/2022-03-24/KRW-TT-daily-candle-10days.html)
+[가상화폐 일간 통계 (썬더코어, 2022-03-24)](KRW-TT-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -1596,7 +1596,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0|
 
 
-[가상화폐 일간 통계 (캐리프로토콜, 2022-03-24)](target_dir/2022-03-24/KRW-CRE-daily-candle-10days.html)
+[가상화폐 일간 통계 (캐리프로토콜, 2022-03-24)](KRW-CRE-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -1608,7 +1608,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0196078431|
 
 
-[가상화폐 일간 통계 (코스모스, 2022-03-24)](target_dir/2022-03-24/BTC-ATOM-daily-candle-10days.html)
+[가상화폐 일간 통계 (코스모스, 2022-03-24)](BTC-ATOM-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -1620,7 +1620,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|-0.0080757576|
 
 
-[가상화폐 일간 통계 (에스티피, 2022-03-24)](target_dir/2022-03-24/BTC-STPT-daily-candle-10days.html)
+[가상화폐 일간 통계 (에스티피, 2022-03-24)](BTC-STPT-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -1632,7 +1632,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|-0.0093023256|
 
 
-[가상화폐 일간 통계 (무비블록, 2022-03-24)](target_dir/2022-03-24/KRW-MBL-daily-candle-10days.html)
+[가상화폐 일간 통계 (무비블록, 2022-03-24)](KRW-MBL-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -1644,7 +1644,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0121212121|
 
 
-[가상화폐 일간 통계 (이오스, 2022-03-24)](target_dir/2022-03-24/BTC-EOS-daily-candle-10days.html)
+[가상화폐 일간 통계 (이오스, 2022-03-24)](BTC-EOS-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -1656,7 +1656,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|-0.0277410832|
 
 
-[가상화폐 일간 통계 (루나, 2022-03-24)](target_dir/2022-03-24/BTC-LUNA-daily-candle-10days.html)
+[가상화폐 일간 통계 (루나, 2022-03-24)](BTC-LUNA-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -1668,7 +1668,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|9.99877e-05|
 
 
-[가상화폐 일간 통계 (다이, 2022-03-24)](target_dir/2022-03-24/BTC-DAI-daily-candle-10days.html)
+[가상화폐 일간 통계 (다이, 2022-03-24)](BTC-DAI-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -1680,7 +1680,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|-0.0042680324|
 
 
-[가상화폐 일간 통계 (메이커, 2022-03-24)](target_dir/2022-03-24/BTC-MKR-daily-candle-10days.html)
+[가상화폐 일간 통계 (메이커, 2022-03-24)](BTC-MKR-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -1692,7 +1692,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|-0.0298558209|
 
 
-[가상화폐 일간 통계 (보라, 2022-03-24)](target_dir/2022-03-24/BTC-BORA-daily-candle-10days.html)
+[가상화폐 일간 통계 (보라, 2022-03-24)](BTC-BORA-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -1704,7 +1704,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0636408485|
 
 
-[가상화폐 일간 통계 (왁스, 2022-03-24)](target_dir/2022-03-24/KRW-WAXP-daily-candle-10days.html)
+[가상화폐 일간 통계 (왁스, 2022-03-24)](KRW-WAXP-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -1716,7 +1716,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0197740113|
 
 
-[가상화폐 일간 통계 (왁스, 2022-03-24)](target_dir/2022-03-24/BTC-WAXP-daily-candle-10days.html)
+[가상화폐 일간 통계 (왁스, 2022-03-24)](BTC-WAXP-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -1728,7 +1728,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0204379562|
 
 
-[가상화폐 일간 통계 (헤데라, 2022-03-24)](target_dir/2022-03-24/KRW-HBAR-daily-candle-10days.html)
+[가상화폐 일간 통계 (헤데라, 2022-03-24)](KRW-HBAR-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -1740,7 +1740,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0114068441|
 
 
-[가상화폐 일간 통계 (메디블록, 2022-03-24)](target_dir/2022-03-24/KRW-MED-daily-candle-10days.html)
+[가상화폐 일간 통계 (메디블록, 2022-03-24)](KRW-MED-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -1752,7 +1752,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0058479532|
 
 
-[가상화폐 일간 통계 (메디블록, 2022-03-24)](target_dir/2022-03-24/BTC-MED-daily-candle-10days.html)
+[가상화폐 일간 통계 (메디블록, 2022-03-24)](BTC-MED-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -1764,7 +1764,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0|
 
 
-[가상화폐 일간 통계 (밀크, 2022-03-24)](target_dir/2022-03-24/BTC-MLK-daily-candle-10days.html)
+[가상화폐 일간 통계 (밀크, 2022-03-24)](BTC-MLK-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -1776,7 +1776,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0262210797|
 
 
-[가상화폐 일간 통계 (밀크, 2022-03-24)](target_dir/2022-03-24/KRW-MLK-daily-candle-10days.html)
+[가상화폐 일간 통계 (밀크, 2022-03-24)](KRW-MLK-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -1788,7 +1788,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0147783251|
 
 
-[가상화폐 일간 통계 (에스티피, 2022-03-24)](target_dir/2022-03-24/KRW-STPT-daily-candle-10days.html)
+[가상화폐 일간 통계 (에스티피, 2022-03-24)](KRW-STPT-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -1800,7 +1800,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|-0.0088495575|
 
 
-[가상화폐 일간 통계 (비체인, 2022-03-24)](target_dir/2022-03-24/BTC-VET-daily-candle-10days.html)
+[가상화폐 일간 통계 (비체인, 2022-03-24)](BTC-VET-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -1812,7 +1812,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.048|
 
 
-[가상화폐 일간 통계 (오브스, 2022-03-24)](target_dir/2022-03-24/KRW-ORBS-daily-candle-10days.html)
+[가상화폐 일간 통계 (오브스, 2022-03-24)](KRW-ORBS-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -1824,7 +1824,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0021551724|
 
 
-[가상화폐 일간 통계 (칠리즈, 2022-03-24)](target_dir/2022-03-24/BTC-CHZ-daily-candle-10days.html)
+[가상화폐 일간 통계 (칠리즈, 2022-03-24)](BTC-CHZ-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -1836,7 +1836,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0|
 
 
-[가상화폐 일간 통계 (비체인, 2022-03-24)](target_dir/2022-03-24/KRW-VET-daily-candle-10days.html)
+[가상화폐 일간 통계 (비체인, 2022-03-24)](KRW-VET-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -1848,7 +1848,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.044546851|
 
 
-[가상화폐 일간 통계 (펑션엑스, 2022-03-24)](target_dir/2022-03-24/BTC-FX-daily-candle-10days.html)
+[가상화폐 일간 통계 (펑션엑스, 2022-03-24)](BTC-FX-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -1860,7 +1860,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0414012739|
 
 
-[가상화폐 일간 통계 (오리진프로토콜, 2022-03-24)](target_dir/2022-03-24/BTC-OGN-daily-candle-10days.html)
+[가상화폐 일간 통계 (오리진프로토콜, 2022-03-24)](BTC-OGN-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -1872,7 +1872,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|-0.0802431611|
 
 
-[가상화폐 일간 통계 (칠리즈, 2022-03-24)](target_dir/2022-03-24/KRW-CHZ-daily-candle-10days.html)
+[가상화폐 일간 통계 (칠리즈, 2022-03-24)](KRW-CHZ-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -1884,7 +1884,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0275590551|
 
 
-[가상화폐 일간 통계 (테조스, 2022-03-24)](target_dir/2022-03-24/BTC-XTZ-daily-candle-10days.html)
+[가상화폐 일간 통계 (테조스, 2022-03-24)](BTC-XTZ-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -1896,7 +1896,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.036203147|
 
 
-[가상화폐 일간 통계 (하이브, 2022-03-24)](target_dir/2022-03-24/BTC-HIVE-daily-candle-10days.html)
+[가상화폐 일간 통계 (하이브, 2022-03-24)](BTC-HIVE-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -1908,7 +1908,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0282931354|
 
 
-[가상화폐 일간 통계 (하이브달러, 2022-03-24)](target_dir/2022-03-24/BTC-HBD-daily-candle-10days.html)
+[가상화폐 일간 통계 (하이브달러, 2022-03-24)](BTC-HBD-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -1920,7 +1920,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|-0.0086021505|
 
 
-[가상화폐 일간 통계 (옵저버, 2022-03-24)](target_dir/2022-03-24/BTC-OBSR-daily-candle-10days.html)
+[가상화폐 일간 통계 (옵저버, 2022-03-24)](BTC-OBSR-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -1932,7 +1932,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.1111111111|
 
 
-[가상화폐 일간 통계 (디카르고, 2022-03-24)](target_dir/2022-03-24/BTC-DKA-daily-candle-10days.html)
+[가상화폐 일간 통계 (디카르고, 2022-03-24)](BTC-DKA-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -1944,7 +1944,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0|
 
 
-[가상화폐 일간 통계 (스톰엑스, 2022-03-24)](target_dir/2022-03-24/KRW-STMX-daily-candle-10days.html)
+[가상화폐 일간 통계 (스톰엑스, 2022-03-24)](KRW-STMX-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -1956,7 +1956,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0760869565|
 
 
-[가상화폐 일간 통계 (스톰엑스, 2022-03-24)](target_dir/2022-03-24/BTC-STMX-daily-candle-10days.html)
+[가상화폐 일간 통계 (스톰엑스, 2022-03-24)](BTC-STMX-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -1968,7 +1968,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0857142857|
 
 
-[가상화폐 일간 통계 (아하토큰, 2022-03-24)](target_dir/2022-03-24/BTC-AHT-daily-candle-10days.html)
+[가상화폐 일간 통계 (아하토큰, 2022-03-24)](BTC-AHT-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -1980,7 +1980,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0|
 
 
-[가상화폐 일간 통계 (페이코인, 2022-03-24)](target_dir/2022-03-24/BTC-PCI-daily-candle-10days.html)
+[가상화폐 일간 통계 (페이코인, 2022-03-24)](BTC-PCI-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -1992,7 +1992,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|-0.0112359551|
 
 
-[가상화폐 일간 통계 (디카르고, 2022-03-24)](target_dir/2022-03-24/KRW-DKA-daily-candle-10days.html)
+[가상화폐 일간 통계 (디카르고, 2022-03-24)](KRW-DKA-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -2004,7 +2004,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0084033613|
 
 
-[가상화폐 일간 통계 (체인링크, 2022-03-24)](target_dir/2022-03-24/BTC-LINK-daily-candle-10days.html)
+[가상화폐 일간 통계 (체인링크, 2022-03-24)](BTC-LINK-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -2016,7 +2016,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0165639445|
 
 
-[가상화폐 일간 통계 (하이브, 2022-03-24)](target_dir/2022-03-24/KRW-HIVE-daily-candle-10days.html)
+[가상화폐 일간 통계 (하이브, 2022-03-24)](KRW-HIVE-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -2028,7 +2028,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.017699115|
 
 
-[가상화폐 일간 통계 (카바, 2022-03-24)](target_dir/2022-03-24/KRW-KAVA-daily-candle-10days.html)
+[가상화폐 일간 통계 (카바, 2022-03-24)](KRW-KAVA-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -2040,7 +2040,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0453038674|
 
 
-[가상화폐 일간 통계 (카바, 2022-03-24)](target_dir/2022-03-24/BTC-KAVA-daily-candle-10days.html)
+[가상화폐 일간 통계 (카바, 2022-03-24)](BTC-KAVA-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -2052,7 +2052,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0235187698|
 
 
-[가상화폐 일간 통계 (아하토큰, 2022-03-24)](target_dir/2022-03-24/KRW-AHT-daily-candle-10days.html)
+[가상화폐 일간 통계 (아하토큰, 2022-03-24)](KRW-AHT-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -2064,7 +2064,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0079365079|
 
 
-[가상화폐 일간 통계 (체인링크, 2022-03-24)](target_dir/2022-03-24/KRW-LINK-daily-candle-10days.html)
+[가상화폐 일간 통계 (체인링크, 2022-03-24)](KRW-LINK-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -2076,7 +2076,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0169312169|
 
 
-[가상화폐 일간 통계 (테조스, 2022-03-24)](target_dir/2022-03-24/KRW-XTZ-daily-candle-10days.html)
+[가상화폐 일간 통계 (테조스, 2022-03-24)](KRW-XTZ-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -2088,7 +2088,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0421313507|
 
 
-[가상화폐 일간 통계 (보라, 2022-03-24)](target_dir/2022-03-24/KRW-BORA-daily-candle-10days.html)
+[가상화폐 일간 통계 (보라, 2022-03-24)](KRW-BORA-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -2100,7 +2100,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0861244019|
 
 
-[가상화폐 일간 통계 (저스트, 2022-03-24)](target_dir/2022-03-24/BTC-JST-daily-candle-10days.html)
+[가상화폐 일간 통계 (저스트, 2022-03-24)](BTC-JST-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -2112,7 +2112,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0491803279|
 
 
-[가상화폐 일간 통계 (크로미아, 2022-03-24)](target_dir/2022-03-24/BTC-CHR-daily-candle-10days.html)
+[가상화폐 일간 통계 (크로미아, 2022-03-24)](BTC-CHR-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -2124,7 +2124,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.118852459|
 
 
-[가상화폐 일간 통계 (다드, 2022-03-24)](target_dir/2022-03-24/BTC-DAD-daily-candle-10days.html)
+[가상화폐 일간 통계 (다드, 2022-03-24)](BTC-DAD-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -2136,7 +2136,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|-0.0179640719|
 
 
-[가상화폐 일간 통계 (톤, 2022-03-24)](target_dir/2022-03-24/BTC-TON-daily-candle-10days.html)
+[가상화폐 일간 통계 (톤, 2022-03-24)](BTC-TON-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -2148,7 +2148,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0118655241|
 
 
-[가상화폐 일간 통계 (저스트, 2022-03-24)](target_dir/2022-03-24/KRW-JST-daily-candle-10days.html)
+[가상화폐 일간 통계 (저스트, 2022-03-24)](KRW-JST-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -2160,7 +2160,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0188087774|
 
 
-[가상화폐 일간 통계 (카르테시, 2022-03-24)](target_dir/2022-03-24/BTC-CTSI-daily-candle-10days.html)
+[가상화폐 일간 통계 (카르테시, 2022-03-24)](BTC-CTSI-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -2172,7 +2172,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0407925408|
 
 
-[가상화폐 일간 통계 (폴카닷, 2022-03-24)](target_dir/2022-03-24/BTC-DOT-daily-candle-10days.html)
+[가상화폐 일간 통계 (폴카닷, 2022-03-24)](BTC-DOT-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -2184,7 +2184,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0169134067|
 
 
-[가상화폐 일간 통계 (크로노스, 2022-03-24)](target_dir/2022-03-24/KRW-CRO-daily-candle-10days.html)
+[가상화폐 일간 통계 (크로노스, 2022-03-24)](KRW-CRO-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -2196,7 +2196,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0373280943|
 
 
-[가상화폐 일간 통계 (컴파운드, 2022-03-24)](target_dir/2022-03-24/BTC-COMP-daily-candle-10days.html)
+[가상화폐 일간 통계 (컴파운드, 2022-03-24)](BTC-COMP-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -2208,7 +2208,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0267148148|
 
 
-[가상화폐 일간 통계 (스와이프, 2022-03-24)](target_dir/2022-03-24/BTC-SXP-daily-candle-10days.html)
+[가상화폐 일간 통계 (스와이프, 2022-03-24)](BTC-SXP-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -2220,7 +2220,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0093984962|
 
 
-[가상화폐 일간 통계 (헌트, 2022-03-24)](target_dir/2022-03-24/BTC-HUNT-daily-candle-10days.html)
+[가상화폐 일간 통계 (헌트, 2022-03-24)](BTC-HUNT-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -2232,7 +2232,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0252897787|
 
 
-[가상화폐 일간 통계 (톤, 2022-03-24)](target_dir/2022-03-24/KRW-TON-daily-candle-10days.html)
+[가상화폐 일간 통계 (톤, 2022-03-24)](KRW-TON-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -2244,7 +2244,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0169671262|
 
 
-[가상화폐 일간 통계 (온버프, 2022-03-24)](target_dir/2022-03-24/BTC-ONIT-daily-candle-10days.html)
+[가상화폐 일간 통계 (온버프, 2022-03-24)](BTC-ONIT-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -2256,7 +2256,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0224719101|
 
 
-[가상화폐 일간 통계 (커브, 2022-03-24)](target_dir/2022-03-24/BTC-CRV-daily-candle-10days.html)
+[가상화폐 일간 통계 (커브, 2022-03-24)](BTC-CRV-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -2268,7 +2268,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.05380404|
 
 
-[가상화폐 일간 통계 (알고랜드, 2022-03-24)](target_dir/2022-03-24/BTC-ALGO-daily-candle-10days.html)
+[가상화폐 일간 통계 (알고랜드, 2022-03-24)](BTC-ALGO-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -2280,7 +2280,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0160123967|
 
 
-[가상화폐 일간 통계 (리저브라이트, 2022-03-24)](target_dir/2022-03-24/BTC-RSR-daily-candle-10days.html)
+[가상화폐 일간 통계 (리저브라이트, 2022-03-24)](BTC-RSR-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -2292,7 +2292,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0606060606|
 
 
-[가상화폐 일간 통계 (스와이프, 2022-03-24)](target_dir/2022-03-24/KRW-SXP-daily-candle-10days.html)
+[가상화폐 일간 통계 (스와이프, 2022-03-24)](KRW-SXP-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -2304,7 +2304,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0259067358|
 
 
-[가상화폐 일간 통계 (오키드, 2022-03-24)](target_dir/2022-03-24/BTC-OXT-daily-candle-10days.html)
+[가상화폐 일간 통계 (오키드, 2022-03-24)](BTC-OXT-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -2316,7 +2316,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0553691275|
 
 
-[가상화폐 일간 통계 (플레이댑, 2022-03-24)](target_dir/2022-03-24/BTC-PLA-daily-candle-10days.html)
+[가상화폐 일간 통계 (플레이댑, 2022-03-24)](BTC-PLA-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -2328,7 +2328,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0546590318|
 
 
-[가상화폐 일간 통계 (헌트, 2022-03-24)](target_dir/2022-03-24/KRW-HUNT-daily-candle-10days.html)
+[가상화폐 일간 통계 (헌트, 2022-03-24)](KRW-HUNT-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -2340,7 +2340,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0111223458|
 
 
-[가상화폐 일간 통계 (마로, 2022-03-24)](target_dir/2022-03-24/BTC-MARO-daily-candle-10days.html)
+[가상화폐 일간 통계 (마로, 2022-03-24)](BTC-MARO-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -2352,7 +2352,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|-0.0179640719|
 
 
-[가상화폐 일간 통계 (샌드박스, 2022-03-24)](target_dir/2022-03-24/BTC-SAND-daily-candle-10days.html)
+[가상화폐 일간 통계 (샌드박스, 2022-03-24)](BTC-SAND-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -2364,7 +2364,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0496936692|
 
 
-[가상화폐 일간 통계 (썬, 2022-03-24)](target_dir/2022-03-24/BTC-SUN-daily-candle-10days.html)
+[가상화폐 일간 통계 (썬, 2022-03-24)](BTC-SUN-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -2376,7 +2376,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0|
 
 
-[가상화폐 일간 통계 (플레이댑, 2022-03-24)](target_dir/2022-03-24/KRW-PLA-daily-candle-10days.html)
+[가상화폐 일간 통계 (플레이댑, 2022-03-24)](KRW-PLA-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -2388,7 +2388,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.05|
 
 
-[가상화폐 일간 통계 (폴카닷, 2022-03-24)](target_dir/2022-03-24/KRW-DOT-daily-candle-10days.html)
+[가상화폐 일간 통계 (폴카닷, 2022-03-24)](KRW-DOT-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -2400,7 +2400,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0311362717|
 
 
-[가상화폐 일간 통계 (세럼, 2022-03-24)](target_dir/2022-03-24/BTC-SRM-daily-candle-10days.html)
+[가상화폐 일간 통계 (세럼, 2022-03-24)](BTC-SRM-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -2412,7 +2412,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.2589102125|
 
 
-[가상화폐 일간 통계 (퀴즈톡, 2022-03-24)](target_dir/2022-03-24/BTC-QTCON-daily-candle-10days.html)
+[가상화폐 일간 통계 (퀴즈톡, 2022-03-24)](BTC-QTCON-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -2424,7 +2424,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0|
 
 
-[가상화폐 일간 통계 (엠블, 2022-03-24)](target_dir/2022-03-24/BTC-MVL-daily-candle-10days.html)
+[가상화폐 일간 통계 (엠블, 2022-03-24)](BTC-MVL-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -2436,7 +2436,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0|
 
 
-[가상화폐 일간 통계 (세럼, 2022-03-24)](target_dir/2022-03-24/KRW-SRM-daily-candle-10days.html)
+[가상화폐 일간 통계 (세럼, 2022-03-24)](KRW-SRM-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -2448,7 +2448,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.2565359477|
 
 
-[가상화폐 일간 통계 (엠블, 2022-03-24)](target_dir/2022-03-24/KRW-MVL-daily-candle-10days.html)
+[가상화폐 일간 통계 (엠블, 2022-03-24)](KRW-MVL-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -2460,7 +2460,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0092592593|
 
 
-[가상화폐 일간 통계 (레이, 2022-03-24)](target_dir/2022-03-24/BTC-REI-daily-candle-10days.html)
+[가상화폐 일간 통계 (레이, 2022-03-24)](BTC-REI-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -2472,7 +2472,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|-0.038961039|
 
 
-[가상화폐 일간 통계 (알파쿼크, 2022-03-24)](target_dir/2022-03-24/BTC-AQT-daily-candle-10days.html)
+[가상화폐 일간 통계 (알파쿼크, 2022-03-24)](BTC-AQT-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -2484,7 +2484,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0360721443|
 
 
-[가상화폐 일간 통계 (엑시인피니티, 2022-03-24)](target_dir/2022-03-24/BTC-AXS-daily-candle-10days.html)
+[가상화폐 일간 통계 (엑시인피니티, 2022-03-24)](BTC-AXS-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -2496,7 +2496,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.10870999|
 
 
-[가상화폐 일간 통계 (스트라티스, 2022-03-24)](target_dir/2022-03-24/BTC-STRAX-daily-candle-10days.html)
+[가상화폐 일간 통계 (스트라티스, 2022-03-24)](BTC-STRAX-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -2508,7 +2508,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0193033991|
 
 
-[가상화폐 일간 통계 (스트라티스, 2022-03-24)](target_dir/2022-03-24/KRW-STRAX-daily-candle-10days.html)
+[가상화폐 일간 통계 (스트라티스, 2022-03-24)](KRW-STRAX-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -2520,7 +2520,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0162601626|
 
 
-[가상화폐 일간 통계 (알파쿼크, 2022-03-24)](target_dir/2022-03-24/KRW-AQT-daily-candle-10days.html)
+[가상화폐 일간 통계 (알파쿼크, 2022-03-24)](KRW-AQT-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -2532,7 +2532,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0237717908|
 
 
-[가상화폐 일간 통계 (골렘, 2022-03-24)](target_dir/2022-03-24/BTC-GLM-daily-candle-10days.html)
+[가상화폐 일간 통계 (골렘, 2022-03-24)](BTC-GLM-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -2544,7 +2544,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|-0.022433132|
 
 
-[가상화폐 일간 통계 (골렘, 2022-03-24)](target_dir/2022-03-24/KRW-GLM-daily-candle-10days.html)
+[가상화폐 일간 통계 (골렘, 2022-03-24)](KRW-GLM-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -2556,7 +2556,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|-0.0050420168|
 
 
-[가상화폐 일간 통계 (피르마체인, 2022-03-24)](target_dir/2022-03-24/BTC-FCT2-daily-candle-10days.html)
+[가상화폐 일간 통계 (피르마체인, 2022-03-24)](BTC-FCT2-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -2568,7 +2568,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0343347639|
 
 
-[가상화폐 일간 통계 (썸씽, 2022-03-24)](target_dir/2022-03-24/BTC-SSX-daily-candle-10days.html)
+[가상화폐 일간 통계 (썸씽, 2022-03-24)](BTC-SSX-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -2580,7 +2580,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|-0.0095238095|
 
 
-[가상화폐 일간 통계 (썸씽, 2022-03-24)](target_dir/2022-03-24/KRW-SSX-daily-candle-10days.html)
+[가상화폐 일간 통계 (썸씽, 2022-03-24)](KRW-SSX-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -2592,7 +2592,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0110294118|
 
 
-[가상화폐 일간 통계 (메타디움, 2022-03-24)](target_dir/2022-03-24/KRW-META-daily-candle-10days.html)
+[가상화폐 일간 통계 (메타디움, 2022-03-24)](KRW-META-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -2604,7 +2604,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0010373444|
 
 
-[가상화폐 일간 통계 (피르마체인, 2022-03-24)](target_dir/2022-03-24/KRW-FCT2-daily-candle-10days.html)
+[가상화폐 일간 통계 (피르마체인, 2022-03-24)](KRW-FCT2-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -2616,7 +2616,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0327868852|
 
 
-[가상화폐 일간 통계 (파일코인, 2022-03-24)](target_dir/2022-03-24/BTC-FIL-daily-candle-10days.html)
+[가상화폐 일간 통계 (파일코인, 2022-03-24)](BTC-FIL-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -2628,7 +2628,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0432736455|
 
 
-[가상화폐 일간 통계 (유니스왑, 2022-03-24)](target_dir/2022-03-24/BTC-UNI-daily-candle-10days.html)
+[가상화폐 일간 통계 (유니스왑, 2022-03-24)](BTC-UNI-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -2640,7 +2640,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0079498812|
 
 
-[가상화폐 일간 통계 (베이직, 2022-03-24)](target_dir/2022-03-24/BTC-BASIC-daily-candle-10days.html)
+[가상화폐 일간 통계 (베이직, 2022-03-24)](BTC-BASIC-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -2652,7 +2652,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0909090909|
 
 
-[가상화폐 일간 통계 (인젝티브프로토콜, 2022-03-24)](target_dir/2022-03-24/BTC-INJ-daily-candle-10days.html)
+[가상화폐 일간 통계 (인젝티브프로토콜, 2022-03-24)](BTC-INJ-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -2664,7 +2664,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0049451399|
 
 
-[가상화폐 일간 통계 (프로메테우스, 2022-03-24)](target_dir/2022-03-24/BTC-PROM-daily-candle-10days.html)
+[가상화폐 일간 통계 (프로메테우스, 2022-03-24)](BTC-PROM-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -2676,7 +2676,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0177012968|
 
 
-[가상화폐 일간 통계 (밸리디티, 2022-03-24)](target_dir/2022-03-24/BTC-VAL-daily-candle-10days.html)
+[가상화폐 일간 통계 (밸리디티, 2022-03-24)](BTC-VAL-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -2688,7 +2688,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0073987082|
 
 
-[가상화폐 일간 통계 (파리생제르맹, 2022-03-24)](target_dir/2022-03-24/BTC-PSG-daily-candle-10days.html)
+[가상화폐 일간 통계 (파리생제르맹, 2022-03-24)](BTC-PSG-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -2700,7 +2700,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|-0.0194279547|
 
 
-[가상화폐 일간 통계 (유벤투스, 2022-03-24)](target_dir/2022-03-24/BTC-JUV-daily-candle-10days.html)
+[가상화폐 일간 통계 (유벤투스, 2022-03-24)](BTC-JUV-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -2712,7 +2712,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0130434783|
 
 
-[가상화폐 일간 통계 (코박토큰, 2022-03-24)](target_dir/2022-03-24/BTC-CBK-daily-candle-10days.html)
+[가상화폐 일간 통계 (코박토큰, 2022-03-24)](BTC-CBK-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -2724,7 +2724,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.010404843|
 
 
-[가상화폐 일간 통계 (포튜브, 2022-03-24)](target_dir/2022-03-24/BTC-FOR-daily-candle-10days.html)
+[가상화폐 일간 통계 (포튜브, 2022-03-24)](BTC-FOR-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -2736,7 +2736,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|-0.0192307692|
 
 
-[가상화폐 일간 통계 (코박토큰, 2022-03-24)](target_dir/2022-03-24/KRW-CBK-daily-candle-10days.html)
+[가상화폐 일간 통계 (코박토큰, 2022-03-24)](KRW-CBK-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -2748,7 +2748,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0163934426|
 
 
-[가상화폐 일간 통계 (바이프로스트, 2022-03-24)](target_dir/2022-03-24/BTC-BFC-daily-candle-10days.html)
+[가상화폐 일간 통계 (바이프로스트, 2022-03-24)](BTC-BFC-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -2760,7 +2760,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0412087912|
 
 
-[가상화폐 일간 통계 (리니어파이낸스, 2022-03-24)](target_dir/2022-03-24/BTC-LINA-daily-candle-10days.html)
+[가상화폐 일간 통계 (리니어파이낸스, 2022-03-24)](BTC-LINA-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -2772,7 +2772,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.137254902|
 
 
-[가상화폐 일간 통계 (휴먼스케이프, 2022-03-24)](target_dir/2022-03-24/BTC-HUM-daily-candle-10days.html)
+[가상화폐 일간 통계 (휴먼스케이프, 2022-03-24)](BTC-HUM-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -2784,7 +2784,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0082644628|
 
 
-[가상화폐 일간 통계 (셀로, 2022-03-24)](target_dir/2022-03-24/BTC-CELO-daily-candle-10days.html)
+[가상화폐 일간 통계 (셀로, 2022-03-24)](BTC-CELO-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -2796,7 +2796,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0586950189|
 
 
-[가상화폐 일간 통계 (샌드박스, 2022-03-24)](target_dir/2022-03-24/KRW-SAND-daily-candle-10days.html)
+[가상화폐 일간 통계 (샌드박스, 2022-03-24)](KRW-SAND-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -2808,7 +2808,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0524934383|
 
 
-[가상화폐 일간 통계 (휴먼스케이프, 2022-03-24)](target_dir/2022-03-24/KRW-HUM-daily-candle-10days.html)
+[가상화폐 일간 통계 (휴먼스케이프, 2022-03-24)](KRW-HUM-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -2820,7 +2820,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0159744409|
 
 
-[가상화폐 일간 통계 (에브리피디아, 2022-03-24)](target_dir/2022-03-24/BTC-IQ-daily-candle-10days.html)
+[가상화폐 일간 통계 (에브리피디아, 2022-03-24)](BTC-IQ-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -2832,7 +2832,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0|
 
 
-[가상화폐 일간 통계 (스택스, 2022-03-24)](target_dir/2022-03-24/BTC-STX-daily-candle-10days.html)
+[가상화폐 일간 통계 (스택스, 2022-03-24)](BTC-STX-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -2844,7 +2844,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0236142998|
 
 
-[가상화폐 일간 통계 (도지코인, 2022-03-24)](target_dir/2022-03-24/KRW-DOGE-daily-candle-10days.html)
+[가상화폐 일간 통계 (도지코인, 2022-03-24)](KRW-DOGE-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -2856,7 +2856,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0256410256|
 
 
-[가상화폐 일간 통계 (니어프로토콜, 2022-03-24)](target_dir/2022-03-24/BTC-NEAR-daily-candle-10days.html)
+[가상화폐 일간 통계 (니어프로토콜, 2022-03-24)](BTC-NEAR-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -2868,7 +2868,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.1140646545|
 
 
-[가상화폐 일간 통계 (바운스토큰, 2022-03-24)](target_dir/2022-03-24/BTC-AUCTION-daily-candle-10days.html)
+[가상화폐 일간 통계 (바운스토큰, 2022-03-24)](BTC-AUCTION-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -2880,7 +2880,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0013027619|
 
 
-[가상화폐 일간 통계 (던프로토콜, 2022-03-24)](target_dir/2022-03-24/BTC-DAWN-daily-candle-10days.html)
+[가상화폐 일간 통계 (던프로토콜, 2022-03-24)](BTC-DAWN-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -2892,7 +2892,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.000465441|
 
 
-[가상화폐 일간 통계 (플로우, 2022-03-24)](target_dir/2022-03-24/BTC-FLOW-daily-candle-10days.html)
+[가상화폐 일간 통계 (플로우, 2022-03-24)](BTC-FLOW-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -2904,7 +2904,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0147181339|
 
 
-[가상화폐 일간 통계 (스트라이크, 2022-03-24)](target_dir/2022-03-24/BTC-STRK-daily-candle-10days.html)
+[가상화폐 일간 통계 (스트라이크, 2022-03-24)](BTC-STRK-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -2916,7 +2916,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0312865968|
 
 
-[가상화폐 일간 통계 (스트라이크, 2022-03-24)](target_dir/2022-03-24/KRW-STRK-daily-candle-10days.html)
+[가상화폐 일간 통계 (스트라이크, 2022-03-24)](KRW-STRK-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -2928,7 +2928,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0321715818|
 
 
-[가상화폐 일간 통계 (펀디엑스, 2022-03-24)](target_dir/2022-03-24/BTC-PUNDIX-daily-candle-10days.html)
+[가상화폐 일간 통계 (펀디엑스, 2022-03-24)](BTC-PUNDIX-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -2940,7 +2940,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|-0.0113285273|
 
 
-[가상화폐 일간 통계 (펀디엑스, 2022-03-24)](target_dir/2022-03-24/KRW-PUNDIX-daily-candle-10days.html)
+[가상화폐 일간 통계 (펀디엑스, 2022-03-24)](KRW-PUNDIX-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -2952,7 +2952,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|-0.005|
 
 
-[가상화폐 일간 통계 (플로우, 2022-03-24)](target_dir/2022-03-24/KRW-FLOW-daily-candle-10days.html)
+[가상화폐 일간 통계 (플로우, 2022-03-24)](KRW-FLOW-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -2964,7 +2964,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0139906729|
 
 
-[가상화폐 일간 통계 (던프로토콜, 2022-03-24)](target_dir/2022-03-24/KRW-DAWN-daily-candle-10days.html)
+[가상화폐 일간 통계 (던프로토콜, 2022-03-24)](KRW-DAWN-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -2976,7 +2976,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0045045045|
 
 
-[가상화폐 일간 통계 (엑시인피니티, 2022-03-24)](target_dir/2022-03-24/KRW-AXS-daily-candle-10days.html)
+[가상화폐 일간 통계 (엑시인피니티, 2022-03-24)](KRW-AXS-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -2988,7 +2988,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.1084713973|
 
 
-[가상화폐 일간 통계 (스택스, 2022-03-24)](target_dir/2022-03-24/KRW-STX-daily-candle-10days.html)
+[가상화폐 일간 통계 (스택스, 2022-03-24)](KRW-STX-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -3000,7 +3000,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0250783699|
 
 
-[가상화폐 일간 통계 (그래프, 2022-03-24)](target_dir/2022-03-24/BTC-GRT-daily-candle-10days.html)
+[가상화폐 일간 통계 (그래프, 2022-03-24)](BTC-GRT-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -3012,7 +3012,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0206825233|
 
 
-[가상화폐 일간 통계 (신세틱스, 2022-03-24)](target_dir/2022-03-24/BTC-SNX-daily-candle-10days.html)
+[가상화폐 일간 통계 (신세틱스, 2022-03-24)](BTC-SNX-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -3024,7 +3024,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0147887899|
 
 
-[가상화폐 일간 통계 (팍스달러, 2022-03-24)](target_dir/2022-03-24/BTC-USDP-daily-candle-10days.html)
+[가상화폐 일간 통계 (팍스달러, 2022-03-24)](BTC-USDP-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -3036,7 +3036,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0148556876|
 
 
-[가상화폐 일간 통계 (이캐시, 2022-03-24)](target_dir/2022-03-24/KRW-XEC-daily-candle-10days.html)
+[가상화폐 일간 통계 (이캐시, 2022-03-24)](KRW-XEC-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -3048,7 +3048,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0|
 
 
-[가상화폐 일간 통계 (솔라나, 2022-03-24)](target_dir/2022-03-24/KRW-SOL-daily-candle-10days.html)
+[가상화폐 일간 통계 (솔라나, 2022-03-24)](KRW-SOL-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -3060,7 +3060,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0396396396|
 
 
-[가상화폐 일간 통계 (솔라나, 2022-03-24)](target_dir/2022-03-24/BTC-SOL-daily-candle-10days.html)
+[가상화폐 일간 통계 (솔라나, 2022-03-24)](BTC-SOL-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -3072,7 +3072,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0281124498|
 
 
-[가상화폐 일간 통계 (폴리곤, 2022-03-24)](target_dir/2022-03-24/KRW-MATIC-daily-candle-10days.html)
+[가상화폐 일간 통계 (폴리곤, 2022-03-24)](KRW-MATIC-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -3084,7 +3084,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.029972752|
 
 
-[가상화폐 일간 통계 (폴리곤, 2022-03-24)](target_dir/2022-03-24/BTC-MATIC-daily-candle-10days.html)
+[가상화폐 일간 통계 (폴리곤, 2022-03-24)](BTC-MATIC-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -3096,7 +3096,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0389869095|
 
 
-[가상화폐 일간 통계 (누사이퍼, 2022-03-24)](target_dir/2022-03-24/KRW-NU-daily-candle-10days.html)
+[가상화폐 일간 통계 (누사이퍼, 2022-03-24)](KRW-NU-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -3108,7 +3108,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0076923077|
 
 
-[가상화폐 일간 통계 (누사이퍼, 2022-03-24)](target_dir/2022-03-24/BTC-NU-daily-candle-10days.html)
+[가상화폐 일간 통계 (누사이퍼, 2022-03-24)](BTC-NU-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -3120,7 +3120,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0059405941|
 
 
-[가상화폐 일간 통계 (에이브, 2022-03-24)](target_dir/2022-03-24/KRW-AAVE-daily-candle-10days.html)
+[가상화폐 일간 통계 (에이브, 2022-03-24)](KRW-AAVE-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -3132,7 +3132,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0157838416|
 
 
-[가상화폐 일간 통계 (1인치네트워크, 2022-03-24)](target_dir/2022-03-24/KRW-1INCH-daily-candle-10days.html)
+[가상화폐 일간 통계 (1인치네트워크, 2022-03-24)](KRW-1INCH-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -3144,7 +3144,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.037037037|
 
 
-[가상화폐 일간 통계 (에이브, 2022-03-24)](target_dir/2022-03-24/BTC-AAVE-daily-candle-10days.html)
+[가상화폐 일간 통계 (에이브, 2022-03-24)](BTC-AAVE-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -3156,7 +3156,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|-0.0091452555|
 
 
-[가상화폐 일간 통계 (1인치네트워크, 2022-03-24)](target_dir/2022-03-24/BTC-1INCH-daily-candle-10days.html)
+[가상화폐 일간 통계 (1인치네트워크, 2022-03-24)](BTC-1INCH-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -3168,7 +3168,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0322231248|
 
 
-[가상화폐 일간 통계 (마스크네트워크, 2022-03-24)](target_dir/2022-03-24/BTC-MASK-daily-candle-10days.html)
+[가상화폐 일간 통계 (마스크네트워크, 2022-03-24)](BTC-MASK-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -3180,7 +3180,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0510451661|
 
 
-[가상화폐 일간 통계 (알고랜드, 2022-03-24)](target_dir/2022-03-24/KRW-ALGO-daily-candle-10days.html)
+[가상화폐 일간 통계 (알고랜드, 2022-03-24)](KRW-ALGO-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -3192,7 +3192,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.004950495|
 
 
-[가상화폐 일간 통계 (오디우스, 2022-03-24)](target_dir/2022-03-24/BTC-AUDIO-daily-candle-10days.html)
+[가상화폐 일간 통계 (오디우스, 2022-03-24)](BTC-AUDIO-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -3204,7 +3204,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0174319728|
 
 
-[가상화폐 일간 통계 (니어프로토콜, 2022-03-24)](target_dir/2022-03-24/KRW-NEAR-daily-candle-10days.html)
+[가상화폐 일간 통계 (니어프로토콜, 2022-03-24)](KRW-NEAR-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -3216,7 +3216,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.1261127596|
 
 
-[가상화폐 일간 통계 (일드길드게임즈, 2022-03-24)](target_dir/2022-03-24/BTC-YGG-daily-candle-10days.html)
+[가상화폐 일간 통계 (일드길드게임즈, 2022-03-24)](BTC-YGG-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -3228,7 +3228,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0499838762|
 
 
-[가상화폐 일간 통계 (깃코인, 2022-03-24)](target_dir/2022-03-24/BTC-GTC-daily-candle-10days.html)
+[가상화폐 일간 통계 (깃코인, 2022-03-24)](BTC-GTC-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -3240,7 +3240,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0180432795|
 
 
-[가상화폐 일간 통계 (오션프로토콜, 2022-03-24)](target_dir/2022-03-24/BTC-OCEAN-daily-candle-10days.html)
+[가상화폐 일간 통계 (오션프로토콜, 2022-03-24)](BTC-OCEAN-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -3252,7 +3252,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|-0.004964539|
 
 
-[가상화폐 일간 통계 (크레딧코인, 2022-03-24)](target_dir/2022-03-24/BTC-CTC-daily-candle-10days.html)
+[가상화폐 일간 통계 (크레딧코인, 2022-03-24)](BTC-CTC-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -3264,7 +3264,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.1861804223|
 
 
-[가상화폐 일간 통계 (라이브피어, 2022-03-24)](target_dir/2022-03-24/BTC-LPT-daily-candle-10days.html)
+[가상화폐 일간 통계 (라이브피어, 2022-03-24)](BTC-LPT-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -3276,7 +3276,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0057164179|
 
 
-[가상화폐 일간 통계 (위믹스, 2022-03-24)](target_dir/2022-03-24/KRW-WEMIX-daily-candle-10days.html)
+[가상화폐 일간 통계 (위믹스, 2022-03-24)](KRW-WEMIX-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -3288,7 +3288,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0332409972|
 
 
-[가상화폐 일간 통계 (위믹스, 2022-03-24)](target_dir/2022-03-24/BTC-WEMIX-daily-candle-10days.html)
+[가상화폐 일간 통계 (위믹스, 2022-03-24)](BTC-WEMIX-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -3300,7 +3300,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0107588308|
 
 
-[가상화폐 일간 통계 (아발란체, 2022-03-24)](target_dir/2022-03-24/KRW-AVAX-daily-candle-10days.html)
+[가상화폐 일간 통계 (아발란체, 2022-03-24)](KRW-AVAX-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -3312,7 +3312,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0180224062|
 
 
-[가상화폐 일간 통계 (아발란체, 2022-03-24)](target_dir/2022-03-24/BTC-AVAX-daily-candle-10days.html)
+[가상화폐 일간 통계 (아발란체, 2022-03-24)](BTC-AVAX-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -3324,7 +3324,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0073661786|
 
 
-[가상화폐 일간 통계 (이뮤터블엑스, 2022-03-24)](target_dir/2022-03-24/BTC-IMX-daily-candle-10days.html)
+[가상화폐 일간 통계 (이뮤터블엑스, 2022-03-24)](BTC-IMX-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -3336,7 +3336,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|-0.0400655618|
 
 
-[가상화폐 일간 통계 (렌더토큰, 2022-03-24)](target_dir/2022-03-24/BTC-RNDR-daily-candle-10days.html)
+[가상화폐 일간 통계 (렌더토큰, 2022-03-24)](BTC-RNDR-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -3348,7 +3348,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|-0.0278108269|
 
 
-[가상화폐 일간 통계 (랠리, 2022-03-24)](target_dir/2022-03-24/BTC-RLY-daily-candle-10days.html)
+[가상화폐 일간 통계 (랠리, 2022-03-24)](BTC-RLY-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -3360,7 +3360,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0020325203|
 
 
-[가상화폐 일간 통계 (쓰레스홀드, 2022-03-24)](target_dir/2022-03-24/KRW-T-daily-candle-10days.html)
+[가상화폐 일간 통계 (쓰레스홀드, 2022-03-24)](KRW-T-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -3372,7 +3372,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0|
 
 
-[가상화폐 일간 통계 (쓰레스홀드, 2022-03-24)](target_dir/2022-03-24/BTC-T-daily-candle-10days.html)
+[가상화폐 일간 통계 (쓰레스홀드, 2022-03-24)](BTC-T-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
@@ -3384,7 +3384,7 @@ description: 가상화폐 일간 통계 (2022-03-24)
 |가격 변동율|0.0034246575|
 
 
-[가상화폐 일간 통계 (셀로, 2022-03-24)](target_dir/2022-03-24/KRW-CELO-daily-candle-10days.html)
+[가상화폐 일간 통계 (셀로, 2022-03-24)](KRW-CELO-daily-candle-10days.html)
 
 |항목|내용|
 |--|--|
