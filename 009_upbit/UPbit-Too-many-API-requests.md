@@ -110,6 +110,8 @@ with open("tmp/market_code.json") as json_file:
 
 ```python
 # 마켓 목록을 market_code.json 파일에서 가져옴
+from json.decoder import JSONDecodeError
+
 with open("tmp/market_code.json") as json_file:
     json_data = json.load(json_file)
     for market_json_data in json_data:
@@ -126,6 +128,10 @@ with open("tmp/market_code.json") as json_file:
             except Exception as e:
                 raise e
 ```
+
+
+<code>JSONDecodeError</code>를 처리하기 위해서는 
+<code>json.decoder</code>를 import 시켜야 합니다. 
 
 
 코드를 위와 같이 수정하면 요청 수 제한에 걸리기 전까지 
