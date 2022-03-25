@@ -3,287 +3,2832 @@ title: 가상화폐 일간 통계 (2022-03-23)
 description: 가상화폐 일간 통계 (2022-03-23)
 ---
 
-|종목|종목 코드|종가|거래량|전일 대비|변화량|링크|
-|--|--|--|--|--|--|--|
-|비트코인|KRW-BTC (Bitcoin)|52138000.0|273158203021.73694|434000.0|0.0083939347|[가상화폐 일간 통계 (비트코인, 2022-03-23)](target_dir/2022-03-23/KRW-BTC-daily-candle-10days)
-|이더리움|KRW-ETH (Ethereum)|3689000.0|156345895926.0959|63000.0|0.0173745174|[가상화폐 일간 통계 (이더리움, 2022-03-23)](target_dir/2022-03-23/KRW-ETH-daily-candle-10days)
-|이더리움|BTC-ETH (Ethereum)|0.07045319|3.87943407|0.00015452|0.0021980501|[가상화폐 일간 통계 (이더리움, 2022-03-23)](target_dir/2022-03-23/BTC-ETH-daily-candle-10days)
-|라이트코인|BTC-LTC (Litecoin)|0.00285176|0.09428975|-4.524e-05|-0.0156161546|[가상화폐 일간 통계 (라이트코인, 2022-03-23)](target_dir/2022-03-23/BTC-LTC-daily-candle-10days)
-|리플|BTC-XRP (Ripple)|1.953e-05|2.67120534|-3.4e-07|-0.0171112229|[가상화폐 일간 통계 (리플, 2022-03-23)](target_dir/2022-03-23/BTC-XRP-daily-candle-10days)
-|이더리움클래식|BTC-ETC (Ethereum Classic)|0.00106315|8.54569479|-2.385e-05|-0.0219411224|[가상화폐 일간 통계 (이더리움클래식, 2022-03-23)](target_dir/2022-03-23/BTC-ETC-daily-candle-10days)
-|오미세고|BTC-OMG (OmiseGo)|0.00012159|0.91366939|7.82e-06|0.0687351674|[가상화폐 일간 통계 (오미세고, 2022-03-23)](target_dir/2022-03-23/BTC-OMG-daily-candle-10days)
-|시빅|BTC-CVC (Civic)|7.11e-06|0.00194145|-3e-08|-0.0042016807|[가상화폐 일간 통계 (시빅, 2022-03-23)](target_dir/2022-03-23/BTC-CVC-daily-candle-10days)
-|디지바이트|BTC-DGB (DigiByte)|5.2e-07|1.32991978|2e-08|0.04|[가상화폐 일간 통계 (디지바이트, 2022-03-23)](target_dir/2022-03-23/BTC-DGB-daily-candle-10days)
-|시아코인|BTC-SC (Siacoin)|2.3e-07|0.10784017|None|0|[가상화폐 일간 통계 (시아코인, 2022-03-23)](target_dir/2022-03-23/BTC-SC-daily-candle-10days)
-|스테이터스네트워크토큰|BTC-SNT (Status Network Token)|1.42e-06|0.01439233|None|0|[가상화폐 일간 통계 (스테이터스네트워크토큰, 2022-03-23)](target_dir/2022-03-23/BTC-SNT-daily-candle-10days)
-|웨이브|BTC-WAVES (Waves)|0.00074491|0.77389578|-1.918e-05|-0.025101755|[가상화폐 일간 통계 (웨이브, 2022-03-23)](target_dir/2022-03-23/BTC-WAVES-daily-candle-10days)
-|뉴메레르|BTC-NMR (Numeraire)|0.00069669|0.84483801|-6.36e-06|-0.0090462983|[가상화폐 일간 통계 (뉴메레르, 2022-03-23)](target_dir/2022-03-23/BTC-NMR-daily-candle-10days)
-|넴|BTC-XEM (NEM)|2.54e-06|0.01212497|None|0|[가상화폐 일간 통계 (넴, 2022-03-23)](target_dir/2022-03-23/BTC-XEM-daily-candle-10days)
-|퀀텀|BTC-QTUM (Qtum)|0.00018522|1.33819324|5.41e-06|0.0300873144|[가상화폐 일간 통계 (퀀텀, 2022-03-23)](target_dir/2022-03-23/BTC-QTUM-daily-candle-10days)
-|베이직어텐션토큰|BTC-BAT (Basic Attention Token)|1.945e-05|0.08386284|-1e-08|-0.0005138746|[가상화폐 일간 통계 (베이직어텐션토큰, 2022-03-23)](target_dir/2022-03-23/BTC-BAT-daily-candle-10days)
-|리스크|BTC-LSK (Lisk)|5.194e-05|0.00459342|1.7e-07|0.0032837551|[가상화폐 일간 통계 (리스크, 2022-03-23)](target_dir/2022-03-23/BTC-LSK-daily-candle-10days)
-|스팀|BTC-STEEM (Steem)|8.57e-06|0.1494796|4.7e-07|0.0580246914|[가상화폐 일간 통계 (스팀, 2022-03-23)](target_dir/2022-03-23/BTC-STEEM-daily-candle-10days)
-|도지코인|BTC-DOGE (Dogecoin)|3.12e-06|0.78910667|1e-07|0.0331125828|[가상화폐 일간 통계 (도지코인, 2022-03-23)](target_dir/2022-03-23/BTC-DOGE-daily-candle-10days)
-|뱅코르|BTC-BNT (Bancor)|5.799e-05|0.77389688|3.6e-07|0.0062467465|[가상화폐 일간 통계 (뱅코르, 2022-03-23)](target_dir/2022-03-23/BTC-BNT-daily-candle-10days)
-|스텔라루멘|BTC-XLM (Lumen)|4.96e-06|0.33915707|2e-08|0.004048583|[가상화폐 일간 통계 (스텔라루멘, 2022-03-23)](target_dir/2022-03-23/BTC-XLM-daily-candle-10days)
-|아더|BTC-ARDR (Ardor)|4.85e-06|0.01125195|1.3e-07|0.0275423729|[가상화폐 일간 통계 (아더, 2022-03-23)](target_dir/2022-03-23/BTC-ARDR-daily-candle-10days)
-|아크|BTC-ARK (Ark)|2.171e-05|0.134075|-1.6e-07|-0.0073159579|[가상화폐 일간 통계 (아크, 2022-03-23)](target_dir/2022-03-23/BTC-ARK-daily-candle-10days)
-|스토리지|BTC-STORJ (Storj)|2.751e-05|0.06620381|1.22e-06|0.0464054774|[가상화폐 일간 통계 (스토리지, 2022-03-23)](target_dir/2022-03-23/BTC-STORJ-daily-candle-10days)
-|그로스톨코인|BTC-GRS (Groestlcoin)|1.455e-05|0.29388283|7e-08|0.0048342541|[가상화폐 일간 통계 (그로스톨코인, 2022-03-23)](target_dir/2022-03-23/BTC-GRS-daily-candle-10days)
-|어거|BTC-REP (Augur)|0.00034154|0.2233939|8.7e-07|0.0025537911|[가상화폐 일간 통계 (어거, 2022-03-23)](target_dir/2022-03-23/BTC-REP-daily-candle-10days)
-|아이젝|BTC-RLC (iEx.ec)|4.855e-05|3.13561508|1.3e-06|0.0275132275|[가상화폐 일간 통계 (아이젝, 2022-03-23)](target_dir/2022-03-23/BTC-RLC-daily-candle-10days)
-|비트코인|USDT-BTC (Bitcoin)|42822.076|283587.90846766|612.479|0.0145104205|[가상화폐 일간 통계 (비트코인, 2022-03-23)](target_dir/2022-03-23/USDT-BTC-daily-candle-10days)
-|이더리움|USDT-ETH (Ethereum)|2967.46918003|19807.28363481|-38.00781997|-0.0126461856|[가상화폐 일간 통계 (이더리움, 2022-03-23)](target_dir/2022-03-23/USDT-ETH-daily-candle-10days)
-|라이트코인|USDT-LTC (Litecoin)|128.33661944|3580.16098493|7.36621095|0.0608926682|[가상화폐 일간 통계 (라이트코인, 2022-03-23)](target_dir/2022-03-23/USDT-LTC-daily-candle-10days)
-|리플|USDT-XRP (Ripple)|0.83947429|100180.43658418|-0.00388599|-0.0046077461|[가상화폐 일간 통계 (리플, 2022-03-23)](target_dir/2022-03-23/USDT-XRP-daily-candle-10days)
-|이더리움클래식|USDT-ETC (Ethereum Classic)|45.50082|24328.32584817|-0.19358985|-0.00423662|[가상화폐 일간 통계 (이더리움클래식, 2022-03-23)](target_dir/2022-03-23/USDT-ETC-daily-candle-10days)
-|네오|KRW-NEO (NEO)|29580.0|59103661900.66005|370.0|0.0126668949|[가상화폐 일간 통계 (네오, 2022-03-23)](target_dir/2022-03-23/KRW-NEO-daily-candle-10days)
-|메탈|KRW-MTL (Metal)|2065.0|4404704961.9965725|70.0|0.0350877193|[가상화폐 일간 통계 (메탈, 2022-03-23)](target_dir/2022-03-23/KRW-MTL-daily-candle-10days)
-|라이트코인|KRW-LTC (Litecoin)|148700.0|14101079794.434187|-1500.0|-0.0099866844|[가상화폐 일간 통계 (라이트코인, 2022-03-23)](target_dir/2022-03-23/KRW-LTC-daily-candle-10days)
-|리플|KRW-XRP (Ripple)|1020.0|243491910584.54114|-5.0|-0.0048780488|[가상화폐 일간 통계 (리플, 2022-03-23)](target_dir/2022-03-23/KRW-XRP-daily-candle-10days)
-|이더리움클래식|KRW-ETC (Ethereum Classic)|55160.0|715937999123.4435|-940.0|-0.0167557932|[가상화폐 일간 통계 (이더리움클래식, 2022-03-23)](target_dir/2022-03-23/KRW-ETC-daily-candle-10days)
-|오미세고|KRW-OMG (OmiseGo)|6325.0|107323270139.86621|440.0|0.0747663551|[가상화폐 일간 통계 (오미세고, 2022-03-23)](target_dir/2022-03-23/KRW-OMG-daily-candle-10days)
-|스테이터스네트워크토큰|KRW-SNT (Status Network Token)|74.6|5350648491.639873|0.1|0.0013422819|[가상화폐 일간 통계 (스테이터스네트워크토큰, 2022-03-23)](target_dir/2022-03-23/KRW-SNT-daily-candle-10days)
-|웨이브|KRW-WAVES (Waves)|38850.0|139197517187.4973|-920.0|-0.0231330148|[가상화폐 일간 통계 (웨이브, 2022-03-23)](target_dir/2022-03-23/KRW-WAVES-daily-candle-10days)
-|넴|KRW-XEM (NEM)|132.0|3954342438.080228|None|0|[가상화폐 일간 통계 (넴, 2022-03-23)](target_dir/2022-03-23/KRW-XEM-daily-candle-10days)
-|퀀텀|KRW-QTUM (Qtum)|9565.0|157436963799.2442|255.0|0.0273899033|[가상화폐 일간 통계 (퀀텀, 2022-03-23)](target_dir/2022-03-23/KRW-QTUM-daily-candle-10days)
-|리스크|KRW-LSK (Lisk)|2725.0|5224069575.68149|50.0|0.0186915888|[가상화폐 일간 통계 (리스크, 2022-03-23)](target_dir/2022-03-23/KRW-LSK-daily-candle-10days)
-|스팀|KRW-STEEM (Steem)|445.0|8309193576.709004|24.0|0.0570071259|[가상화폐 일간 통계 (스팀, 2022-03-23)](target_dir/2022-03-23/KRW-STEEM-daily-candle-10days)
-|스텔라루멘|KRW-XLM (Lumen)|255.0|11832923276.379375|2.0|0.0079051383|[가상화폐 일간 통계 (스텔라루멘, 2022-03-23)](target_dir/2022-03-23/KRW-XLM-daily-candle-10days)
-|아더|KRW-ARDR (Ardor)|248.0|3549409501.5108824|1.0|0.004048583|[가상화폐 일간 통계 (아더, 2022-03-23)](target_dir/2022-03-23/KRW-ARDR-daily-candle-10days)
-|아크|KRW-ARK (Ark)|1135.0|3374203204.072615|10.0|0.0088888889|[가상화폐 일간 통계 (아크, 2022-03-23)](target_dir/2022-03-23/KRW-ARK-daily-candle-10days)
-|스토리지|KRW-STORJ (Storj)|1410.0|7112639000.05771|35.0|0.0254545455|[가상화폐 일간 통계 (스토리지, 2022-03-23)](target_dir/2022-03-23/KRW-STORJ-daily-candle-10days)
-|그로스톨코인|KRW-GRS (Groestlcoin)|769.0|2965054870.7413383|8.0|0.0105124836|[가상화폐 일간 통계 (그로스톨코인, 2022-03-23)](target_dir/2022-03-23/KRW-GRS-daily-candle-10days)
-|어거|KRW-REP (Augur)|17680.0|5341346795.13561|130.0|0.0074074074|[가상화폐 일간 통계 (어거, 2022-03-23)](target_dir/2022-03-23/KRW-REP-daily-candle-10days)
-|에이다|KRW-ADA (Ada)|1350.0|188545211677.4565|165.0|0.1392405063|[가상화폐 일간 통계 (에이다, 2022-03-23)](target_dir/2022-03-23/KRW-ADA-daily-candle-10days)
-|에이다|BTC-ADA (Ada)|2.578e-05|2.28849088|2.73e-06|0.1184381779|[가상화폐 일간 통계 (에이다, 2022-03-23)](target_dir/2022-03-23/BTC-ADA-daily-candle-10days)
-|디센트럴랜드|BTC-MANA (Decentraland)|5.962e-05|0.79868734|2.38e-06|0.0415793152|[가상화폐 일간 통계 (디센트럴랜드, 2022-03-23)](target_dir/2022-03-23/BTC-MANA-daily-candle-10days)
-|오미세고|USDT-OMG (OmiseGo)|5.24962|3940.80222403|0.42962|0.0891327801|[가상화폐 일간 통계 (오미세고, 2022-03-23)](target_dir/2022-03-23/USDT-OMG-daily-candle-10days)
-|스팀달러|KRW-SBD (SteemDollars)|5360.0|7433826422.922325|60.0|0.0113207547|[가상화폐 일간 통계 (스팀달러, 2022-03-23)](target_dir/2022-03-23/KRW-SBD-daily-candle-10days)
-|스팀달러|BTC-SBD (SteemDollars)|0.00010415|0.06527455|2.39e-06|0.0234866352|[가상화폐 일간 통계 (스팀달러, 2022-03-23)](target_dir/2022-03-23/BTC-SBD-daily-candle-10days)
-|파워렛저|KRW-POWR (Power ledger)|631.0|11479812210.318285|2.0|0.0031796502|[가상화폐 일간 통계 (파워렛저, 2022-03-23)](target_dir/2022-03-23/KRW-POWR-daily-candle-10days)
-|파워렛저|BTC-POWR (Power ledger)|1.212e-05|0.08825999|-1.6e-07|-0.013029316|[가상화폐 일간 통계 (파워렛저, 2022-03-23)](target_dir/2022-03-23/BTC-POWR-daily-candle-10days)
-|비트코인골드|KRW-BTG (Bitcoin Gold)|53430.0|165791064452.4161|-570.0|-0.0105555556|[가상화폐 일간 통계 (비트코인골드, 2022-03-23)](target_dir/2022-03-23/KRW-BTG-daily-candle-10days)
-|에이다|USDT-ADA (Ada)|1.08216|2520.80419406|0.10216|0.104244898|[가상화폐 일간 통계 (에이다, 2022-03-23)](target_dir/2022-03-23/USDT-ADA-daily-candle-10days)
-|디스트릭트0x|BTC-DNT (district0x)|1.83e-06|2.72686332|4e-08|0.0223463687|[가상화폐 일간 통계 (디스트릭트0x, 2022-03-23)](target_dir/2022-03-23/BTC-DNT-daily-candle-10days)
-|제로엑스|BTC-ZRX (0x Protocol)|1.362e-05|0.1249575|1.6e-07|0.0118870728|[가상화폐 일간 통계 (제로엑스, 2022-03-23)](target_dir/2022-03-23/BTC-ZRX-daily-candle-10days)
-|트론|BTC-TRX (TRON)|1.49e-06|2.49714271|-1e-08|-0.0066666667|[가상화폐 일간 통계 (트론, 2022-03-23)](target_dir/2022-03-23/BTC-TRX-daily-candle-10days)
-|트루USD|BTC-TUSD (TrueUSD)|2.324e-05|0.76642261|-2.1e-07|-0.0089552239|[가상화폐 일간 통계 (트루USD, 2022-03-23)](target_dir/2022-03-23/BTC-TUSD-daily-candle-10days)
-|루프링|BTC-LRC (Loopring)|2.719e-05|916.69328695|8.03e-06|0.4191022965|[가상화폐 일간 통계 (루프링, 2022-03-23)](target_dir/2022-03-23/BTC-LRC-daily-candle-10days)
-|아이콘|KRW-ICX (Icon)|1015.0|34476987741.37822|58.0|0.0606060606|[가상화폐 일간 통계 (아이콘, 2022-03-23)](target_dir/2022-03-23/KRW-ICX-daily-candle-10days)
-|이오스|KRW-EOS (EOS)|3035.0|55882572211.642204|-80.0|-0.025682183|[가상화폐 일간 통계 (이오스, 2022-03-23)](target_dir/2022-03-23/KRW-EOS-daily-candle-10days)
-|트루USD|USDT-TUSD (TrueUSD)|1.01199953|6798.81980285|0.01899953|0.0191334642|[가상화폐 일간 통계 (트루USD, 2022-03-23)](target_dir/2022-03-23/USDT-TUSD-daily-candle-10days)
-|트론|KRW-TRX (TRON)|78.3|44379318566.719986|0.7|0.0090206186|[가상화폐 일간 통계 (트론, 2022-03-23)](target_dir/2022-03-23/KRW-TRX-daily-candle-10days)
-|폴리매쓰|BTC-POLY (Polymath)|1.003e-05|0.1673888|2.7e-07|0.0276639344|[가상화폐 일간 통계 (폴리매쓰, 2022-03-23)](target_dir/2022-03-23/BTC-POLY-daily-candle-10days)
-|시아코인|USDT-SC (Siacoin)|0.0106086|638.95350513|0.00069431|0.0700312377|[가상화폐 일간 통계 (시아코인, 2022-03-23)](target_dir/2022-03-23/USDT-SC-daily-candle-10days)
-|트론|USDT-TRX (TRON)|0.06453822|21636.61946943|0.00195255|0.0311980362|[가상화폐 일간 통계 (트론, 2022-03-23)](target_dir/2022-03-23/USDT-TRX-daily-candle-10days)
-|시아코인|KRW-SC (Siacoin)|12.4|6509287651.963645|0.6|0.0508474576|[가상화폐 일간 통계 (시아코인, 2022-03-23)](target_dir/2022-03-23/KRW-SC-daily-candle-10days)
-|온톨로지|KRW-ONT (Ontology)|676.0|5994260117.990578|9.0|0.0134932534|[가상화폐 일간 통계 (온톨로지, 2022-03-23)](target_dir/2022-03-23/KRW-ONT-daily-candle-10days)
-|질리카|KRW-ZIL (Zilliqa)|59.4|16829670396.162907|4.3|0.0780399274|[가상화폐 일간 통계 (질리카, 2022-03-23)](target_dir/2022-03-23/KRW-ZIL-daily-candle-10days)
-|폴리매쓰|KRW-POLY (Polymath)|516.0|19295972246.118465|14.0|0.0278884462|[가상화폐 일간 통계 (폴리매쓰, 2022-03-23)](target_dir/2022-03-23/KRW-POLY-daily-candle-10days)
-|제로엑스|KRW-ZRX (0x Protocol)|717.0|5102826735.408332|30.0|0.0436681223|[가상화폐 일간 통계 (제로엑스, 2022-03-23)](target_dir/2022-03-23/KRW-ZRX-daily-candle-10days)
-|룸네트워크|KRW-LOOM (Loom Network)|104.0|3106264958.9168987|3.0|0.0297029703|[가상화폐 일간 통계 (룸네트워크, 2022-03-23)](target_dir/2022-03-23/KRW-LOOM-daily-candle-10days)
-|비트코인캐시|BTC-BCH (Bitcoin Cash)|0.00850623|1.52330212|-0.00037134|-0.041829014|[가상화폐 일간 통계 (비트코인캐시, 2022-03-23)](target_dir/2022-03-23/BTC-BCH-daily-candle-10days)
-|비트코인캐시|USDT-BCH (Bitcoin Cash)|397.75228517|1500.96524634|26.41828516|0.0711442668|[가상화폐 일간 통계 (비트코인캐시, 2022-03-23)](target_dir/2022-03-23/USDT-BCH-daily-candle-10days)
-|비트코인캐시|KRW-BCH (Bitcoin Cash)|442950.0|44650630423.739746|-16050.0|-0.0349673203|[가상화폐 일간 통계 (비트코인캐시, 2022-03-23)](target_dir/2022-03-23/KRW-BCH-daily-candle-10days)
-|메인프레임|BTC-MFT (Mainframe)|2e-07|0.06613945|None|0|[가상화폐 일간 통계 (메인프레임, 2022-03-23)](target_dir/2022-03-23/BTC-MFT-daily-candle-10days)
-|룸네트워크|BTC-LOOM (Loom Network)|2e-06|0.03066617|None|0|[가상화폐 일간 통계 (룸네트워크, 2022-03-23)](target_dir/2022-03-23/BTC-LOOM-daily-candle-10days)
-|베이직어텐션토큰|KRW-BAT (Basic Attention Token)|1015.0|13566576687.837303|20.0|0.0201005025|[가상화폐 일간 통계 (베이직어텐션토큰, 2022-03-23)](target_dir/2022-03-23/KRW-BAT-daily-candle-10days)
-|아이오에스티|KRW-IOST (IOST)|31.8|3421674028.392491|0.8|0.0258064516|[가상화폐 일간 통계 (아이오에스티, 2022-03-23)](target_dir/2022-03-23/KRW-IOST-daily-candle-10days)
-|리퍼리움|BTC-RFR (Refereum)|2.6e-07|0.43369141|2e-08|0.0833333333|[가상화폐 일간 통계 (리퍼리움, 2022-03-23)](target_dir/2022-03-23/BTC-RFR-daily-candle-10days)
-|리퍼리움|KRW-RFR (Refereum)|13.0|6148387081.018634|0.2|0.015625|[가상화폐 일간 통계 (리퍼리움, 2022-03-23)](target_dir/2022-03-23/KRW-RFR-daily-candle-10days)
-|디지바이트|USDT-DGB (DigiByte)|0.02|163.62610746|-0.00219994|-0.0990966642|[가상화폐 일간 통계 (디지바이트, 2022-03-23)](target_dir/2022-03-23/USDT-DGB-daily-candle-10days)
-|시빅|KRW-CVC (Civic)|375.0|4071728637.16666|-2.0|-0.0053050398|[가상화폐 일간 통계 (시빅, 2022-03-23)](target_dir/2022-03-23/KRW-CVC-daily-candle-10days)
-|에브리피디아|KRW-IQ (Everipedia)|11.7|1815107890.4518898|0.2|0.0173913043|[가상화폐 일간 통계 (에브리피디아, 2022-03-23)](target_dir/2022-03-23/KRW-IQ-daily-candle-10days)
-|아이오타|KRW-IOTA (IOTA)|953.0|3875222628.9292293|7.0|0.0073995772|[가상화폐 일간 통계 (아이오타, 2022-03-23)](target_dir/2022-03-23/KRW-IOTA-daily-candle-10days)
-|레이븐코인|BTC-RVN (Ravencoin)|1.47e-06|122.45885085|9e-08|0.0652173913|[가상화폐 일간 통계 (레이븐코인, 2022-03-23)](target_dir/2022-03-23/BTC-RVN-daily-candle-10days)
-|고체인|BTC-GO (GoChain)|5.7e-07|4.00281494|None|0|[가상화폐 일간 통계 (고체인, 2022-03-23)](target_dir/2022-03-23/BTC-GO-daily-candle-10days)
-|센티넬프로토콜|BTC-UPP (Sentinel Protocol)|2.79e-06|0.0831147|None|0|[가상화폐 일간 통계 (센티넬프로토콜, 2022-03-23)](target_dir/2022-03-23/BTC-UPP-daily-candle-10days)
-|엔진코인|BTC-ENJ (Enjin)|3.508e-05|0.0417104|7.1e-07|0.0206575502|[가상화폐 일간 통계 (엔진코인, 2022-03-23)](target_dir/2022-03-23/BTC-ENJ-daily-candle-10days)
-|메인프레임|KRW-MFT (Mainframe)|10.4|11281040939.89921|0.2|0.0196078431|[가상화폐 일간 통계 (메인프레임, 2022-03-23)](target_dir/2022-03-23/KRW-MFT-daily-candle-10days)
-|온톨로지가스|KRW-ONG (ONG)|930.0|14454933325.223589|-4.0|-0.0042826552|[가상화폐 일간 통계 (온톨로지가스, 2022-03-23)](target_dir/2022-03-23/KRW-ONG-daily-candle-10days)
-|가스|KRW-GAS (GAS)|5985.0|4786929596.388287|35.0|0.0058823529|[가상화폐 일간 통계 (가스, 2022-03-23)](target_dir/2022-03-23/KRW-GAS-daily-candle-10days)
-|메탈|BTC-MTL (Metal)|3.974e-05|0.01795822|1.09e-06|0.0282018111|[가상화폐 일간 통계 (메탈, 2022-03-23)](target_dir/2022-03-23/BTC-MTL-daily-candle-10days)
-|센티넬프로토콜|KRW-UPP (Sentinel Protocol)|148.0|1540228680.934956|2.0|0.0136986301|[가상화폐 일간 통계 (센티넬프로토콜, 2022-03-23)](target_dir/2022-03-23/KRW-UPP-daily-candle-10days)
-|엘프|KRW-ELF (aelf)|439.0|13006278269.33942|1.0|0.002283105|[가상화폐 일간 통계 (엘프, 2022-03-23)](target_dir/2022-03-23/KRW-ELF-daily-candle-10days)
-|도지코인|USDT-DOGE (Dogecoin)|0.12823911|5259.0768375|-0.00176089|-0.0135453077|[가상화폐 일간 통계 (도지코인, 2022-03-23)](target_dir/2022-03-23/USDT-DOGE-daily-candle-10days)
-|제로엑스|USDT-ZRX (0x Protocol)|0.530567|29.78554993|-0.01282813|-0.0236073702|[가상화폐 일간 통계 (제로엑스, 2022-03-23)](target_dir/2022-03-23/USDT-ZRX-daily-candle-10days)
-|레이븐코인|USDT-RVN (Ravencoin)|0.062|10873.59187925|-0.00089995|-0.0143076425|[가상화폐 일간 통계 (레이븐코인, 2022-03-23)](target_dir/2022-03-23/USDT-RVN-daily-candle-10days)
-|베이직어텐션토큰|USDT-BAT (Basic Attention Token)|0.80491897|7911.67228919|-0.0580672|-0.0672863622|[가상화폐 일간 통계 (베이직어텐션토큰, 2022-03-23)](target_dir/2022-03-23/USDT-BAT-daily-candle-10days)
-|카이버네트워크|KRW-KNC (Kyber Network)|3875.0|36162608274.987366|-135.0|-0.0336658354|[가상화폐 일간 통계 (카이버네트워크, 2022-03-23)](target_dir/2022-03-23/KRW-KNC-daily-candle-10days)
-|모스코인|BTC-MOC (Moss Coin)|3.91e-06|0.10451176|-2e-08|-0.0050890585|[가상화폐 일간 통계 (모스코인, 2022-03-23)](target_dir/2022-03-23/BTC-MOC-daily-candle-10days)
-|질리카|BTC-ZIL (Zilliqa)|1.14e-06|0.02278825|7e-08|0.0654205607|[가상화폐 일간 통계 (질리카, 2022-03-23)](target_dir/2022-03-23/BTC-ZIL-daily-candle-10days)
-|비트코인에스브이|KRW-BSV (Bitcoin SV)|110300.0|21457719971.40937|-2950.0|-0.0260485651|[가상화폐 일간 통계 (비트코인에스브이, 2022-03-23)](target_dir/2022-03-23/KRW-BSV-daily-candle-10days)
-|비트코인에스브이|BTC-BSV (Bitcoin SV)|0.00212215|1.10663964|-4.786e-05|-0.0220551979|[가상화폐 일간 통계 (비트코인에스브이, 2022-03-23)](target_dir/2022-03-23/BTC-BSV-daily-candle-10days)
-|아이오에스티|BTC-IOST (IOST)|6.1e-07|0.18332683|1e-08|0.0166666667|[가상화폐 일간 통계 (아이오에스티, 2022-03-23)](target_dir/2022-03-23/BTC-IOST-daily-candle-10days)
-|쎄타토큰|KRW-THETA (Theta Token)|3890.0|13972924985.917458|150.0|0.0401069519|[가상화폐 일간 통계 (쎄타토큰, 2022-03-23)](target_dir/2022-03-23/KRW-THETA-daily-candle-10days)
-|덴트|BTC-DENT (Dent)|7e-08|0.38399942|None|0|[가상화폐 일간 통계 (덴트, 2022-03-23)](target_dir/2022-03-23/BTC-DENT-daily-candle-10days)
-|쿼크체인|KRW-QKC (QuarkChain)|20.6|3350502149.044764|0.2|0.0098039216|[가상화폐 일간 통계 (쿼크체인, 2022-03-23)](target_dir/2022-03-23/KRW-QKC-daily-candle-10days)
-|엘프|BTC-ELF (aelf)|8.53e-06|0.40505274|3.1e-07|0.0377128954|[가상화폐 일간 통계 (엘프, 2022-03-23)](target_dir/2022-03-23/BTC-ELF-daily-candle-10days)
-|비트토렌트|KRW-BTT (BitTorrent)|0.0023|4871145115.882959|None|0|[가상화폐 일간 통계 (비트토렌트, 2022-03-23)](target_dir/2022-03-23/KRW-BTT-daily-candle-10days)
-|아이오텍스|BTC-IOTX (IoTeX)|2.2e-06|169.03201045|-4e-08|-0.0178571429|[가상화폐 일간 통계 (아이오텍스, 2022-03-23)](target_dir/2022-03-23/BTC-IOTX-daily-candle-10days)
-|솔브케어|BTC-SOLVE (Solve.Care)|1.81e-06|11.23294768|None|0|[가상화폐 일간 통계 (솔브케어, 2022-03-23)](target_dir/2022-03-23/BTC-SOLVE-daily-candle-10days)
-|엔케이엔|BTC-NKN (NKN)|5.17e-06|3.63313799|1.8e-07|0.0360721443|[가상화폐 일간 통계 (엔케이엔, 2022-03-23)](target_dir/2022-03-23/BTC-NKN-daily-candle-10days)
-|메타디움|BTC-META (Metadium)|1.85e-06|0.00373393|-1e-08|-0.0053763441|[가상화폐 일간 통계 (메타디움, 2022-03-23)](target_dir/2022-03-23/BTC-META-daily-candle-10days)
-|모스코인|KRW-MOC (Moss Coin)|207.0|3137214273.738881|5.0|0.0247524752|[가상화폐 일간 통계 (모스코인, 2022-03-23)](target_dir/2022-03-23/KRW-MOC-daily-candle-10days)
-|앵커|BTC-ANKR (Ankr)|1.8e-06|0.06227006|1e-08|0.0055865922|[가상화폐 일간 통계 (앵커, 2022-03-23)](target_dir/2022-03-23/BTC-ANKR-daily-candle-10days)
-|크로노스|BTC-CRO (Cronos)|1.01e-05|0.18239309|3.2e-07|0.0327198364|[가상화폐 일간 통계 (크로노스, 2022-03-23)](target_dir/2022-03-23/BTC-CRO-daily-candle-10days)
-|엔진코인|KRW-ENJ (Enjin)|1860.0|16212746864.889643|75.0|0.0420168067|[가상화폐 일간 통계 (엔진코인, 2022-03-23)](target_dir/2022-03-23/KRW-ENJ-daily-candle-10days)
-|쎄타퓨엘|KRW-TFUEL (Theta Fuel)|213.0|6639544922.503984|5.0|0.0240384615|[가상화폐 일간 통계 (쎄타퓨엘, 2022-03-23)](target_dir/2022-03-23/KRW-TFUEL-daily-candle-10days)
-|디센트럴랜드|KRW-MANA (Decentraland)|3085.0|48147229763.35806|110.0|0.0369747899|[가상화폐 일간 통계 (디센트럴랜드, 2022-03-23)](target_dir/2022-03-23/KRW-MANA-daily-candle-10days)
-|앵커|KRW-ANKR (Ankr)|92.7|6056908459.234955|0.3|0.0032467532|[가상화폐 일간 통계 (앵커, 2022-03-23)](target_dir/2022-03-23/KRW-ANKR-daily-candle-10days)
-|오브스|BTC-ORBS (Orbs)|1.78e-06|0.04720563|-1e-08|-0.0055865922|[가상화폐 일간 통계 (오브스, 2022-03-23)](target_dir/2022-03-23/BTC-ORBS-daily-candle-10days)
-|아르고|BTC-AERGO (Aergo)|5.46e-06|0.02996704|-4e-08|-0.0072727273|[가상화폐 일간 통계 (아르고, 2022-03-23)](target_dir/2022-03-23/BTC-AERGO-daily-candle-10days)
-|아르고|KRW-AERGO (Aergo)|287.0|6312403888.879451|-1.0|-0.0034722222|[가상화폐 일간 통계 (아르고, 2022-03-23)](target_dir/2022-03-23/KRW-AERGO-daily-candle-10days)
-|코스모스|KRW-ATOM (Cosmos)|34330.0|48377024880.666916|100.0|0.002921414|[가상화폐 일간 통계 (코스모스, 2022-03-23)](target_dir/2022-03-23/KRW-ATOM-daily-candle-10days)
-|썬더코어|KRW-TT (ThunderCore)|10.3|2693562701.547165|None|0|[가상화폐 일간 통계 (썬더코어, 2022-03-23)](target_dir/2022-03-23/KRW-TT-daily-candle-10days)
-|캐리프로토콜|KRW-CRE (Carry Protocol)|10.4|5807666123.881363|0.2|0.0196078431|[가상화폐 일간 통계 (캐리프로토콜, 2022-03-23)](target_dir/2022-03-23/KRW-CRE-daily-candle-10days)
-|코스모스|BTC-ATOM (Cosmos)|0.00065467|0.25017195|-5.33e-06|-0.0080757576|[가상화폐 일간 통계 (코스모스, 2022-03-23)](target_dir/2022-03-23/BTC-ATOM-daily-candle-10days)
-|에스티피|BTC-STPT (Standard Tokenization Protocol)|2.13e-06|0.0100614|-2e-08|-0.0093023256|[가상화폐 일간 통계 (에스티피, 2022-03-23)](target_dir/2022-03-23/BTC-STPT-daily-candle-10days)
-|무비블록|KRW-MBL (MovieBloc)|16.7|321215905162.0625|0.2|0.0121212121|[가상화폐 일간 통계 (무비블록, 2022-03-23)](target_dir/2022-03-23/KRW-MBL-daily-candle-10days)
-|이오스|BTC-EOS (EOS)|5.888e-05|0.69897854|-1.68e-06|-0.0277410832|[가상화폐 일간 통계 (이오스, 2022-03-23)](target_dir/2022-03-23/BTC-EOS-daily-candle-10days)
-|루나|BTC-LUNA (Luna)|0.00220049|50.97664234|2.2e-07|9.99877e-05|[가상화폐 일간 통계 (루나, 2022-03-23)](target_dir/2022-03-23/BTC-LUNA-daily-candle-10days)
-|다이|BTC-DAI (Dai)|2.333e-05|0.38660574|-1e-07|-0.0042680324|[가상화폐 일간 통계 (다이, 2022-03-23)](target_dir/2022-03-23/BTC-DAI-daily-candle-10days)
-|메이커|BTC-MKR (Maker)|0.04656694|0.64931666|-0.00143308|-0.0298558209|[가상화폐 일간 통계 (메이커, 2022-03-23)](target_dir/2022-03-23/BTC-MKR-daily-candle-10days)
-|보라|BTC-BORA (BORA)|2.156e-05|1.75754479|1.29e-06|0.0636408485|[가상화폐 일간 통계 (보라, 2022-03-23)](target_dir/2022-03-23/BTC-BORA-daily-candle-10days)
-|왁스|KRW-WAXP (WAX)|361.0|12624092127.897333|7.0|0.0197740113|[가상화폐 일간 통계 (왁스, 2022-03-23)](target_dir/2022-03-23/KRW-WAXP-daily-candle-10days)
-|왁스|BTC-WAXP (WAX)|6.99e-06|0.1337837|1.4e-07|0.0204379562|[가상화폐 일간 통계 (왁스, 2022-03-23)](target_dir/2022-03-23/BTC-WAXP-daily-candle-10days)
-|헤데라|KRW-HBAR (Hedera)|266.0|7216542381.237744|3.0|0.0114068441|[가상화폐 일간 통계 (헤데라, 2022-03-23)](target_dir/2022-03-23/KRW-HBAR-daily-candle-10days)
-|메디블록|KRW-MED (MediBloc)|51.6|5712952654.727448|0.3|0.0058479532|[가상화폐 일간 통계 (메디블록, 2022-03-23)](target_dir/2022-03-23/KRW-MED-daily-candle-10days)
-|메디블록|BTC-MED (MediBloc)|9.8e-07|0.037443|None|0|[가상화폐 일간 통계 (메디블록, 2022-03-23)](target_dir/2022-03-23/BTC-MED-daily-candle-10days)
-|밀크|BTC-MLK (MiL.k)|1.996e-05|0.07251324|5.1e-07|0.0262210797|[가상화폐 일간 통계 (밀크, 2022-03-23)](target_dir/2022-03-23/BTC-MLK-daily-candle-10days)
-|밀크|KRW-MLK (MiL.k)|1030.0|11780539567.766924|15.0|0.0147783251|[가상화폐 일간 통계 (밀크, 2022-03-23)](target_dir/2022-03-23/KRW-MLK-daily-candle-10days)
-|에스티피|KRW-STPT (Standard Tokenization Protocol)|112.0|5626720622.737548|-1.0|-0.0088495575|[가상화폐 일간 통계 (에스티피, 2022-03-23)](target_dir/2022-03-23/KRW-STPT-daily-candle-10days)
-|비체인|BTC-VET (VeChain)|1.31e-06|0.70060624|6e-08|0.048|[가상화폐 일간 통계 (비체인, 2022-03-23)](target_dir/2022-03-23/BTC-VET-daily-candle-10days)
-|오브스|KRW-ORBS (Orbs)|93.0|4614667994.472987|0.2|0.0021551724|[가상화폐 일간 통계 (오브스, 2022-03-23)](target_dir/2022-03-23/KRW-ORBS-daily-candle-10days)
-|칠리즈|BTC-CHZ (Chiliz)|4.98e-06|0.1000278|None|0|[가상화폐 일간 통계 (칠리즈, 2022-03-23)](target_dir/2022-03-23/BTC-CHZ-daily-candle-10days)
-|비체인|KRW-VET (VeChain)|68.0|24173730268.68269|2.9|0.044546851|[가상화폐 일간 통계 (비체인, 2022-03-23)](target_dir/2022-03-23/KRW-VET-daily-candle-10days)
-|펑션엑스|BTC-FX (Function X)|1.308e-05|32.89287181|5.2e-07|0.0414012739|[가상화폐 일간 통계 (펑션엑스, 2022-03-23)](target_dir/2022-03-23/BTC-FX-daily-candle-10days)
-|오리진프로토콜|BTC-OGN (Origin Protocol)|1.513e-05|189.12308083|-1.32e-06|-0.0802431611|[가상화폐 일간 통계 (오리진프로토콜, 2022-03-23)](target_dir/2022-03-23/BTC-OGN-daily-candle-10days)
-|칠리즈|KRW-CHZ (Chiliz)|261.0|8481524462.909669|7.0|0.0275590551|[가상화폐 일간 통계 (칠리즈, 2022-03-23)](target_dir/2022-03-23/KRW-CHZ-daily-candle-10days)
-|테조스|BTC-XTZ (Tezos)|8.1e-05|0.14448116|2.83e-06|0.036203147|[가상화폐 일간 통계 (테조스, 2022-03-23)](target_dir/2022-03-23/BTC-XTZ-daily-candle-10days)
-|하이브|BTC-HIVE (Hive)|2.217e-05|0.69287227|6.1e-07|0.0282931354|[가상화폐 일간 통계 (하이브, 2022-03-23)](target_dir/2022-03-23/BTC-HIVE-daily-candle-10days)
-|하이브달러|BTC-HBD (Hive Dollar)|2.305e-05|0.59640573|-2e-07|-0.0086021505|[가상화폐 일간 통계 (하이브달러, 2022-03-23)](target_dir/2022-03-23/BTC-HBD-daily-candle-10days)
-|옵저버|BTC-OBSR (Observer)|1e-07|1.52726968|1e-08|0.1111111111|[가상화폐 일간 통계 (옵저버, 2022-03-23)](target_dir/2022-03-23/BTC-OBSR-daily-candle-10days)
-|디카르고|BTC-DKA (dKargo)|2.27e-06|0.03809388|None|0|[가상화폐 일간 통계 (디카르고, 2022-03-23)](target_dir/2022-03-23/BTC-DKA-daily-candle-10days)
-|스톰엑스|KRW-STMX (StormX)|19.8|4751124145.557183|1.4|0.0760869565|[가상화폐 일간 통계 (스톰엑스, 2022-03-23)](target_dir/2022-03-23/KRW-STMX-daily-candle-10days)
-|스톰엑스|BTC-STMX (StormX)|3.8e-07|0.09659177|3e-08|0.0857142857|[가상화폐 일간 통계 (스톰엑스, 2022-03-23)](target_dir/2022-03-23/BTC-STMX-daily-candle-10days)
-|아하토큰|BTC-AHT (AhaToken)|2.4e-07|0.00062865|None|0|[가상화폐 일간 통계 (아하토큰, 2022-03-23)](target_dir/2022-03-23/BTC-AHT-daily-candle-10days)
-|페이코인|BTC-PCI (PayCoin)|1.936e-05|12.72699613|-2.2e-07|-0.0112359551|[가상화폐 일간 통계 (페이코인, 2022-03-23)](target_dir/2022-03-23/BTC-PCI-daily-candle-10days)
-|디카르고|KRW-DKA (dKargo)|120.0|2052355456.9728267|1.0|0.0084033613|[가상화폐 일간 통계 (디카르고, 2022-03-23)](target_dir/2022-03-23/KRW-DKA-daily-candle-10days)
-|체인링크|BTC-LINK (Chainlink)|0.00036946|0.12477795|6.02e-06|0.0165639445|[가상화폐 일간 통계 (체인링크, 2022-03-23)](target_dir/2022-03-23/BTC-LINK-daily-candle-10days)
-|하이브|KRW-HIVE (Hive)|1150.0|6371214014.343284|20.0|0.017699115|[가상화폐 일간 통계 (하이브, 2022-03-23)](target_dir/2022-03-23/KRW-HIVE-daily-candle-10days)
-|카바|KRW-KAVA (Kava)|4730.0|5120020997.47274|205.0|0.0453038674|[가상화폐 일간 통계 (카바, 2022-03-23)](target_dir/2022-03-23/KRW-KAVA-daily-candle-10days)
-|카바|BTC-KAVA (Kava)|9.052e-05|0.0273296|2.08e-06|0.0235187698|[가상화폐 일간 통계 (카바, 2022-03-23)](target_dir/2022-03-23/BTC-KAVA-daily-candle-10days)
-|아하토큰|KRW-AHT (AhaToken)|12.7|2963496055.3258038|0.1|0.0079365079|[가상화폐 일간 통계 (아하토큰, 2022-03-23)](target_dir/2022-03-23/KRW-AHT-daily-candle-10days)
-|체인링크|KRW-LINK (Chainlink)|19220.0|17693505181.084747|320.0|0.0169312169|[가상화폐 일간 통계 (체인링크, 2022-03-23)](target_dir/2022-03-23/KRW-LINK-daily-candle-10days)
-|테조스|KRW-XTZ (Tezos)|4205.0|35606981952.1745|170.0|0.0421313507|[가상화폐 일간 통계 (테조스, 2022-03-23)](target_dir/2022-03-23/KRW-XTZ-daily-candle-10days)
-|보라|KRW-BORA (BORA)|1135.0|162657341296.6777|90.0|0.0861244019|[가상화폐 일간 통계 (보라, 2022-03-23)](target_dir/2022-03-23/KRW-BORA-daily-candle-10days)
-|저스트|BTC-JST (JUST)|1.28e-06|0.0510007|6e-08|0.0491803279|[가상화폐 일간 통계 (저스트, 2022-03-23)](target_dir/2022-03-23/BTC-JST-daily-candle-10days)
-|크로미아|BTC-CHR (Chromia)|1.092e-05|32.04335785|1.16e-06|0.118852459|[가상화폐 일간 통계 (크로미아, 2022-03-23)](target_dir/2022-03-23/BTC-CHR-daily-candle-10days)
-|다드|BTC-DAD (DAD)|3.28e-06|10.48819417|-6e-08|-0.0179640719|[가상화폐 일간 통계 (다드, 2022-03-23)](target_dir/2022-03-23/BTC-DAD-daily-candle-10days)
-|톤|BTC-TON (TON)|9.21e-05|0.08917803|1.08e-06|0.0118655241|[가상화폐 일간 통계 (톤, 2022-03-23)](target_dir/2022-03-23/BTC-TON-daily-candle-10days)
-|저스트|KRW-JST (JUST)|65.0|6672672037.203099|1.2|0.0188087774|[가상화폐 일간 통계 (저스트, 2022-03-23)](target_dir/2022-03-23/KRW-JST-daily-candle-10days)
-|카르테시|BTC-CTSI (Cartesi)|8.93e-06|21.24168998|3.5e-07|0.0407925408|[가상화폐 일간 통계 (카르테시, 2022-03-23)](target_dir/2022-03-23/BTC-CTSI-daily-candle-10days)
-|폴카닷|BTC-DOT (Polkadot)|0.00049182|2.74310955|8.18e-06|0.0169134067|[가상화폐 일간 통계 (폴카닷, 2022-03-23)](target_dir/2022-03-23/BTC-DOT-daily-candle-10days)
-|크로노스|KRW-CRO (Cronos)|528.0|2934788501.128484|19.0|0.0373280943|[가상화폐 일간 통계 (크로노스, 2022-03-23)](target_dir/2022-03-23/KRW-CRO-daily-candle-10days)
-|컴파운드|BTC-COMP (Compound)|0.00277213|0.46255343|7.213e-05|0.0267148148|[가상화폐 일간 통계 (컴파운드, 2022-03-23)](target_dir/2022-03-23/BTC-COMP-daily-candle-10days)
-|스와이프|BTC-SXP (Swipe)|3.759e-05|0.32308968|3.5e-07|0.0093984962|[가상화폐 일간 통계 (스와이프, 2022-03-23)](target_dir/2022-03-23/BTC-SXP-daily-candle-10days)
-|헌트|BTC-HUNT (HUNT)|1.946e-05|1.81543875|4.8e-07|0.0252897787|[가상화폐 일간 통계 (헌트, 2022-03-23)](target_dir/2022-03-23/BTC-HUNT-daily-candle-10days)
-|톤|KRW-TON (TON)|4795.0|17364635627.41394|80.0|0.0169671262|[가상화폐 일간 통계 (톤, 2022-03-23)](target_dir/2022-03-23/KRW-TON-daily-candle-10days)
-|온버프|BTC-ONIT (ONBUFF)|3.64e-06|31.30726578|8e-08|0.0224719101|[가상화폐 일간 통계 (온버프, 2022-03-23)](target_dir/2022-03-23/BTC-ONIT-daily-candle-10days)
-|커브|BTC-CRV (Curve)|5.582e-05|5.02826518|2.85e-06|0.05380404|[가상화폐 일간 통계 (커브, 2022-03-23)](target_dir/2022-03-23/BTC-CRV-daily-candle-10days)
-|알고랜드|BTC-ALGO (Algorand)|1.967e-05|1.09188477|3.1e-07|0.0160123967|[가상화폐 일간 통계 (알고랜드, 2022-03-23)](target_dir/2022-03-23/BTC-ALGO-daily-candle-10days)
-|리저브라이트|BTC-RSR (Reserve Rights)|3.5e-07|16.58395281|2e-08|0.0606060606|[가상화폐 일간 통계 (리저브라이트, 2022-03-23)](target_dir/2022-03-23/BTC-RSR-daily-candle-10days)
-|스와이프|KRW-SXP (Swipe)|1980.0|23257374520.38755|50.0|0.0259067358|[가상화폐 일간 통계 (스와이프, 2022-03-23)](target_dir/2022-03-23/KRW-SXP-daily-candle-10days)
-|오키드|BTC-OXT (Orchid)|6.29e-06|87.74827542|3.3e-07|0.0553691275|[가상화폐 일간 통계 (오키드, 2022-03-23)](target_dir/2022-03-23/BTC-OXT-daily-candle-10days)
-|플레이댑|BTC-PLA (PlayDapp)|2.026e-05|0.51867934|1.05e-06|0.0546590318|[가상화폐 일간 통계 (플레이댑, 2022-03-23)](target_dir/2022-03-23/BTC-PLA-daily-candle-10days)
-|헌트|KRW-HUNT (HUNT)|1000.0|18391344827.42157|11.0|0.0111223458|[가상화폐 일간 통계 (헌트, 2022-03-23)](target_dir/2022-03-23/KRW-HUNT-daily-candle-10days)
-|마로|BTC-MARO (Maro)|1.64e-06|15.51291792|-3e-08|-0.0179640719|[가상화폐 일간 통계 (마로, 2022-03-23)](target_dir/2022-03-23/BTC-MARO-daily-candle-10days)
-|샌드박스|BTC-SAND (The Sandbox)|7.71e-05|0.77492439|3.65e-06|0.0496936692|[가상화폐 일간 통계 (샌드박스, 2022-03-23)](target_dir/2022-03-23/BTC-SAND-daily-candle-10days)
-|썬|BTC-SUN (SUN)|3.1e-07|1.27673602|None|0|[가상화폐 일간 통계 (썬, 2022-03-23)](target_dir/2022-03-23/BTC-SUN-daily-candle-10days)
-|플레이댑|KRW-PLA (PlayDapp)|1050.0|25370136219.255287|50.0|0.05|[가상화폐 일간 통계 (플레이댑, 2022-03-23)](target_dir/2022-03-23/KRW-PLA-daily-candle-10days)
-|폴카닷|KRW-DOT (Polkadot)|25500.0|26427148304.82637|770.0|0.0311362717|[가상화폐 일간 통계 (폴카닷, 2022-03-23)](target_dir/2022-03-23/KRW-DOT-daily-candle-10days)
-|세럼|BTC-SRM (Serum)|7.347e-05|4.68527717|1.511e-05|0.2589102125|[가상화폐 일간 통계 (세럼, 2022-03-23)](target_dir/2022-03-23/BTC-SRM-daily-candle-10days)
-|퀴즈톡|BTC-QTCON (Quiztok)|1.6e-07|1.46468206|None|0|[가상화폐 일간 통계 (퀴즈톡, 2022-03-23)](target_dir/2022-03-23/BTC-QTCON-daily-candle-10days)
-|엠블|BTC-MVL (MVL)|2.1e-07|0.07368191|None|0|[가상화폐 일간 통계 (엠블, 2022-03-23)](target_dir/2022-03-23/BTC-MVL-daily-candle-10days)
-|세럼|KRW-SRM (Serum)|3845.0|403623773695.38367|785.0|0.2565359477|[가상화폐 일간 통계 (세럼, 2022-03-23)](target_dir/2022-03-23/KRW-SRM-daily-candle-10days)
-|엠블|KRW-MVL (MVL)|10.9|2776849730.966986|0.1|0.0092592593|[가상화폐 일간 통계 (엠블, 2022-03-23)](target_dir/2022-03-23/KRW-MVL-daily-candle-10days)
-|레이|BTC-REI (REI)|2.96e-06|117.09460593|-1.2e-07|-0.038961039|[가상화폐 일간 통계 (레이, 2022-03-23)](target_dir/2022-03-23/BTC-REI-daily-candle-10days)
-|알파쿼크|BTC-AQT (Alpha Quark Token)|6.204e-05|0.02700031|2.16e-06|0.0360721443|[가상화폐 일간 통계 (알파쿼크, 2022-03-23)](target_dir/2022-03-23/BTC-AQT-daily-candle-10days)
-|엑시인피니티|BTC-AXS (Axie Infinity)|0.00136164|0.44711034|0.00013351|0.10870999|[가상화폐 일간 통계 (엑시인피니티, 2022-03-23)](target_dir/2022-03-23/BTC-AXS-daily-candle-10days)
-|스트라티스|BTC-STRAX (Stratis)|2.429e-05|0.02397114|4.6e-07|0.0193033991|[가상화폐 일간 통계 (스트라티스, 2022-03-23)](target_dir/2022-03-23/BTC-STRAX-daily-candle-10days)
-|스트라티스|KRW-STRAX (Stratis)|1250.0|8442533324.838404|20.0|0.0162601626|[가상화폐 일간 통계 (스트라티스, 2022-03-23)](target_dir/2022-03-23/KRW-STRAX-daily-candle-10days)
-|알파쿼크|KRW-AQT (Alpha Quark Token)|3230.0|5218831385.510743|75.0|0.0237717908|[가상화폐 일간 통계 (알파쿼크, 2022-03-23)](target_dir/2022-03-23/KRW-AQT-daily-candle-10days)
-|골렘|BTC-GLM (Golem)|1.133e-05|0.00163506|-2.6e-07|-0.022433132|[가상화폐 일간 통계 (골렘, 2022-03-23)](target_dir/2022-03-23/BTC-GLM-daily-candle-10days)
-|골렘|KRW-GLM (Golem)|592.0|11270970468.741293|-3.0|-0.0050420168|[가상화폐 일간 통계 (골렘, 2022-03-23)](target_dir/2022-03-23/KRW-GLM-daily-candle-10days)
-|피르마체인|BTC-FCT2 (FirmaChain)|2.41e-06|0.0205826|8e-08|0.0343347639|[가상화폐 일간 통계 (피르마체인, 2022-03-23)](target_dir/2022-03-23/BTC-FCT2-daily-candle-10days)
-|썸씽|BTC-SSX (SOMESING)|1.04e-06|0.24390331|-1e-08|-0.0095238095|[가상화폐 일간 통계 (썸씽, 2022-03-23)](target_dir/2022-03-23/BTC-SSX-daily-candle-10days)
-|썸씽|KRW-SSX (SOMESING)|55.0|4389076165.363622|0.6|0.0110294118|[가상화폐 일간 통계 (썸씽, 2022-03-23)](target_dir/2022-03-23/KRW-SSX-daily-candle-10days)
-|메타디움|KRW-META (Metadium)|96.5|4821127441.523134|0.1|0.0010373444|[가상화폐 일간 통계 (메타디움, 2022-03-23)](target_dir/2022-03-23/KRW-META-daily-candle-10days)
-|피르마체인|KRW-FCT2 (FirmaChain)|126.0|2739250878.985888|4.0|0.0327868852|[가상화폐 일간 통계 (피르마체인, 2022-03-23)](target_dir/2022-03-23/KRW-FCT2-daily-candle-10days)
-|파일코인|BTC-FIL (Filecoin)|0.00045445|209.9338993|1.885e-05|0.0432736455|[가상화폐 일간 통계 (파일코인, 2022-03-23)](target_dir/2022-03-23/BTC-FIL-daily-candle-10days)
-|유니스왑|BTC-UNI (Uniswap)|0.00023329|2.42569148|1.84e-06|0.0079498812|[가상화폐 일간 통계 (유니스왑, 2022-03-23)](target_dir/2022-03-23/BTC-UNI-daily-candle-10days)
-|베이직|BTC-BASIC (Basic)|1.2e-07|3.53005042|1e-08|0.0909090909|[가상화폐 일간 통계 (베이직, 2022-03-23)](target_dir/2022-03-23/BTC-BASIC-daily-candle-10days)
-|인젝티브프로토콜|BTC-INJ (Injective Protocol)|0.00013006|19.5427463|6.4e-07|0.0049451399|[가상화폐 일간 통계 (인젝티브프로토콜, 2022-03-23)](target_dir/2022-03-23/BTC-INJ-daily-candle-10days)
-|프로메테우스|BTC-PROM (Prometeus)|0.0002064|4.7583359|3.59e-06|0.0177012968|[가상화폐 일간 통계 (프로메테우스, 2022-03-23)](target_dir/2022-03-23/BTC-PROM-daily-candle-10days)
-|밸리디티|BTC-VAL (Validity)|8.578e-05|4.27228572|6.3e-07|0.0073987082|[가상화폐 일간 통계 (밸리디티, 2022-03-23)](target_dir/2022-03-23/BTC-VAL-daily-candle-10days)
-|파리생제르맹|BTC-PSG (Paris Saint-Germain Fan Token)|0.00030889|8.76118201|-6.12e-06|-0.0194279547|[가상화폐 일간 통계 (파리생제르맹, 2022-03-23)](target_dir/2022-03-23/BTC-PSG-daily-candle-10days)
-|유벤투스|BTC-JUV (Juventus Fan Token)|0.00015145|43.49543788|1.95e-06|0.0130434783|[가상화폐 일간 통계 (유벤투스, 2022-03-23)](target_dir/2022-03-23/BTC-JUV-daily-candle-10days)
-|코박토큰|BTC-CBK (Cobak Token)|5.341e-05|0.09721165|5.5e-07|0.010404843|[가상화폐 일간 통계 (코박토큰, 2022-03-23)](target_dir/2022-03-23/BTC-CBK-daily-candle-10days)
-|포튜브|BTC-FOR (ForTube)|1.02e-06|9.88070566|-2e-08|-0.0192307692|[가상화폐 일간 통계 (포튜브, 2022-03-23)](target_dir/2022-03-23/BTC-FOR-daily-candle-10days)
-|코박토큰|KRW-CBK (Cobak Token)|2790.0|7864221697.980911|45.0|0.0163934426|[가상화폐 일간 통계 (코박토큰, 2022-03-23)](target_dir/2022-03-23/KRW-CBK-daily-candle-10days)
-|바이프로스트|BTC-BFC (Bifrost)|3.79e-06|74.2826483|1.5e-07|0.0412087912|[가상화폐 일간 통계 (바이프로스트, 2022-03-23)](target_dir/2022-03-23/BTC-BFC-daily-candle-10days)
-|리니어파이낸스|BTC-LINA (Linear)|5.8e-07|17.19048268|7e-08|0.137254902|[가상화폐 일간 통계 (리니어파이낸스, 2022-03-23)](target_dir/2022-03-23/BTC-LINA-daily-candle-10days)
-|휴먼스케이프|BTC-HUM (Humanscape)|6.1e-06|0.11761801|5e-08|0.0082644628|[가상화폐 일간 통계 (휴먼스케이프, 2022-03-23)](target_dir/2022-03-23/BTC-HUM-daily-candle-10days)
-|셀로|BTC-CELO (Celo)|7.269e-05|6.03327381|4.03e-06|0.0586950189|[가상화폐 일간 통계 (셀로, 2022-03-23)](target_dir/2022-03-23/BTC-CELO-daily-candle-10days)
-|샌드박스|KRW-SAND (The Sandbox)|4010.0|178694679882.6851|200.0|0.0524934383|[가상화폐 일간 통계 (샌드박스, 2022-03-23)](target_dir/2022-03-23/KRW-SAND-daily-candle-10days)
-|휴먼스케이프|KRW-HUM (Humanscape)|318.0|11157745882.982454|5.0|0.0159744409|[가상화폐 일간 통계 (휴먼스케이프, 2022-03-23)](target_dir/2022-03-23/KRW-HUM-daily-candle-10days)
-|에브리피디아|BTC-IQ (Everipedia)|2.3e-07|0.06230588|None|0|[가상화폐 일간 통계 (에브리피디아, 2022-03-23)](target_dir/2022-03-23/BTC-IQ-daily-candle-10days)
-|스택스|BTC-STX (Stacks)|3.121e-05|0.87004162|7.2e-07|0.0236142998|[가상화폐 일간 통계 (스택스, 2022-03-23)](target_dir/2022-03-23/BTC-STX-daily-candle-10days)
-|도지코인|KRW-DOGE (Dogecoin)|160.0|41173772757.4462|4.0|0.0256410256|[가상화폐 일간 통계 (도지코인, 2022-03-23)](target_dir/2022-03-23/KRW-DOGE-daily-candle-10days)
-|니어프로토콜|BTC-NEAR (NEAR Protocol)|0.00029086|1.51972234|2.978e-05|0.1140646545|[가상화폐 일간 통계 (니어프로토콜, 2022-03-23)](target_dir/2022-03-23/BTC-NEAR-daily-candle-10days)
-|바운스토큰|BTC-AUCTION (Bounce)|0.0003843|51.88625502|5e-07|0.0013027619|[가상화폐 일간 통계 (바운스토큰, 2022-03-23)](target_dir/2022-03-23/BTC-AUCTION-daily-candle-10days)
-|던프로토콜|BTC-DAWN (Dawn Protocol)|4.299e-05|0.11696316|2e-08|0.000465441|[가상화폐 일간 통계 (던프로토콜, 2022-03-23)](target_dir/2022-03-23/BTC-DAWN-daily-candle-10days)
-|플로우|BTC-FLOW (Flow)|0.00014616|0.26724642|2.12e-06|0.0147181339|[가상화폐 일간 통계 (플로우, 2022-03-23)](target_dir/2022-03-23/BTC-FLOW-daily-candle-10days)
-|스트라이크|BTC-STRK (Strike)|0.00095987|0.25997731|2.912e-05|0.0312865968|[가상화폐 일간 통계 (스트라이크, 2022-03-23)](target_dir/2022-03-23/BTC-STRK-daily-candle-10days)
-|스트라이크|KRW-STRK (Strike)|50050.0|62803469787.98834|1560.0|0.0321715818|[가상화폐 일간 통계 (스트라이크, 2022-03-23)](target_dir/2022-03-23/KRW-STRK-daily-candle-10days)
-|펀디엑스|BTC-PUNDIX (Pundi X)|1.92e-05|0.31234665|-2.2e-07|-0.0113285273|[가상화폐 일간 통계 (펀디엑스, 2022-03-23)](target_dir/2022-03-23/BTC-PUNDIX-daily-candle-10days)
-|펀디엑스|KRW-PUNDIX (Pundi X)|995.0|7481067781.59213|-5.0|-0.005|[가상화폐 일간 통계 (펀디엑스, 2022-03-23)](target_dir/2022-03-23/KRW-PUNDIX-daily-candle-10days)
-|플로우|KRW-FLOW (Flow)|7610.0|50650400224.697235|105.0|0.0139906729|[가상화폐 일간 통계 (플로우, 2022-03-23)](target_dir/2022-03-23/KRW-FLOW-daily-candle-10days)
-|던프로토콜|KRW-DAWN (Dawn Protocol)|2230.0|6259750468.576863|10.0|0.0045045045|[가상화폐 일간 통계 (던프로토콜, 2022-03-23)](target_dir/2022-03-23/KRW-DAWN-daily-candle-10days)
-|엑시인피니티|KRW-AXS (Axie Infinity)|70920.0|82647008431.45456|6940.0|0.1084713973|[가상화폐 일간 통계 (엑시인피니티, 2022-03-23)](target_dir/2022-03-23/KRW-AXS-daily-candle-10days)
-|스택스|KRW-STX (Stacks)|1635.0|32249769123.835117|40.0|0.0250783699|[가상화폐 일간 통계 (스택스, 2022-03-23)](target_dir/2022-03-23/KRW-STX-daily-candle-10days)
-|그래프|BTC-GRT (The Graph)|9.87e-06|12.28178847|2e-07|0.0206825233|[가상화폐 일간 통계 (그래프, 2022-03-23)](target_dir/2022-03-23/BTC-GRT-daily-candle-10days)
-|신세틱스|BTC-SNX (Synthetix)|0.0001242|7.42773821|1.81e-06|0.0147887899|[가상화폐 일간 통계 (신세틱스, 2022-03-23)](target_dir/2022-03-23/BTC-SNX-daily-candle-10days)
-|팍스달러|BTC-USDP (Pax Dollar)|2.391e-05|0.19025504|3.5e-07|0.0148556876|[가상화폐 일간 통계 (팍스달러, 2022-03-23)](target_dir/2022-03-23/BTC-USDP-daily-candle-10days)
-|이캐시|KRW-XEC (eCash)|0.102|12217262782.344627|None|0|[가상화폐 일간 통계 (이캐시, 2022-03-23)](target_dir/2022-03-23/KRW-XEC-daily-candle-10days)
-|솔라나|KRW-SOL (Solana)|115400.0|91754086789.29707|4400.0|0.0396396396|[가상화폐 일간 통계 (솔라나, 2022-03-23)](target_dir/2022-03-23/KRW-SOL-daily-candle-10days)
-|솔라나|BTC-SOL (Solana)|0.00221184|1.40236179|6.048e-05|0.0281124498|[가상화폐 일간 통계 (솔라나, 2022-03-23)](target_dir/2022-03-23/BTC-SOL-daily-candle-10days)
-|폴리곤|KRW-MATIC (Polygon)|1890.0|23439442951.158657|55.0|0.029972752|[가상화폐 일간 통계 (폴리곤, 2022-03-23)](target_dir/2022-03-23/KRW-MATIC-daily-candle-10days)
-|폴리곤|BTC-MATIC (Polygon)|3.651e-05|0.2251048|1.37e-06|0.0389869095|[가상화폐 일간 통계 (폴리곤, 2022-03-23)](target_dir/2022-03-23/BTC-MATIC-daily-candle-10days)
-|누사이퍼|KRW-NU (Nucypher)|524.0|7971911744.060044|4.0|0.0076923077|[가상화폐 일간 통계 (누사이퍼, 2022-03-23)](target_dir/2022-03-23/KRW-NU-daily-candle-10days)
-|누사이퍼|BTC-NU (Nucypher)|1.016e-05|0.03682594|6e-08|0.0059405941|[가상화폐 일간 통계 (누사이퍼, 2022-03-23)](target_dir/2022-03-23/BTC-NU-daily-candle-10days)
-|에이브|KRW-AAVE (Aave)|189850.0|3683194908.3604097|2950.0|0.0157838416|[가상화폐 일간 통계 (에이브, 2022-03-23)](target_dir/2022-03-23/KRW-AAVE-daily-candle-10days)
-|1인치네트워크|KRW-1INCH (1inch Network)|1960.0|10862525825.139097|70.0|0.037037037|[가상화폐 일간 통계 (1인치네트워크, 2022-03-23)](target_dir/2022-03-23/KRW-1INCH-daily-candle-10days)
-|에이브|BTC-AAVE (Aave)|0.00358843|0.02388801|-3.312e-05|-0.0091452555|[가상화폐 일간 통계 (에이브, 2022-03-23)](target_dir/2022-03-23/BTC-AAVE-daily-candle-10days)
-|1인치네트워크|BTC-1INCH (1inch Network)|3.812e-05|0.27717452|1.19e-06|0.0322231248|[가상화폐 일간 통계 (1인치네트워크, 2022-03-23)](target_dir/2022-03-23/BTC-1INCH-daily-candle-10days)
-|마스크네트워크|BTC-MASK (Mask Network)|0.00011263|30.93355346|5.47e-06|0.0510451661|[가상화폐 일간 통계 (마스크네트워크, 2022-03-23)](target_dir/2022-03-23/BTC-MASK-daily-candle-10days)
-|알고랜드|KRW-ALGO (Algorand)|1015.0|34193762931.041904|5.0|0.004950495|[가상화폐 일간 통계 (알고랜드, 2022-03-23)](target_dir/2022-03-23/KRW-ALGO-daily-candle-10days)
-|오디우스|BTC-AUDIO (Audius)|2.393e-05|22.40228924|4.1e-07|0.0174319728|[가상화폐 일간 통계 (오디우스, 2022-03-23)](target_dir/2022-03-23/BTC-AUDIO-daily-candle-10days)
-|니어프로토콜|KRW-NEAR (NEAR Protocol)|15180.0|90194450312.21408|1700.0|0.1261127596|[가상화폐 일간 통계 (니어프로토콜, 2022-03-23)](target_dir/2022-03-23/KRW-NEAR-daily-candle-10days)
-|일드길드게임즈|BTC-YGG (Yield Guild Games)|6.512e-05|17.97474817|3.1e-06|0.0499838762|[가상화폐 일간 통계 (일드길드게임즈, 2022-03-23)](target_dir/2022-03-23/BTC-YGG-daily-candle-10days)
-|깃코인|BTC-GTC (Gitcoin)|0.00016701|22.60780022|2.96e-06|0.0180432795|[가상화폐 일간 통계 (깃코인, 2022-03-23)](target_dir/2022-03-23/BTC-GTC-daily-candle-10days)
-|오션프로토콜|BTC-OCEAN (Ocean Protocol)|1.403e-05|36.73157531|-7e-08|-0.004964539|[가상화폐 일간 통계 (오션프로토콜, 2022-03-23)](target_dir/2022-03-23/BTC-OCEAN-daily-candle-10days)
-|크레딧코인|BTC-CTC (Creditcoin)|4.326e-05|176.87542469|6.79e-06|0.1861804223|[가상화폐 일간 통계 (크레딧코인, 2022-03-23)](target_dir/2022-03-23/BTC-CTC-daily-candle-10days)
-|라이브피어|BTC-LPT (Livepeer)|0.00067383|2.34526363|3.83e-06|0.0057164179|[가상화폐 일간 통계 (라이브피어, 2022-03-23)](target_dir/2022-03-23/BTC-LPT-daily-candle-10days)
-|위믹스|KRW-WEMIX (Wemix)|5595.0|45047405243.47466|180.0|0.0332409972|[가상화폐 일간 통계 (위믹스, 2022-03-23)](target_dir/2022-03-23/KRW-WEMIX-daily-candle-10days)
-|위믹스|BTC-WEMIX (Wemix)|0.00010616|0.70712597|1.13e-06|0.0107588308|[가상화폐 일간 통계 (위믹스, 2022-03-23)](target_dir/2022-03-23/BTC-WEMIX-daily-candle-10days)
-|아발란체|KRW-AVAX (Avalanche)|104500.0|21231740476.041756|1850.0|0.0180224062|[가상화폐 일간 통계 (아발란체, 2022-03-23)](target_dir/2022-03-23/KRW-AVAX-daily-candle-10days)
-|아발란체|BTC-AVAX (Avalanche)|0.00201441|0.43726884|1.473e-05|0.0073661786|[가상화폐 일간 통계 (아발란체, 2022-03-23)](target_dir/2022-03-23/BTC-AVAX-daily-candle-10days)
-|이뮤터블엑스|BTC-IMX (Immutable X)|5.271e-05|87.45386469|-2.2e-06|-0.0400655618|[가상화폐 일간 통계 (이뮤터블엑스, 2022-03-23)](target_dir/2022-03-23/BTC-IMX-daily-candle-10days)
-|렌더토큰|BTC-RNDR (Render Token)|6.537e-05|0.6442111|-1.87e-06|-0.0278108269|[가상화폐 일간 통계 (렌더토큰, 2022-03-23)](target_dir/2022-03-23/BTC-RNDR-daily-candle-10days)
-|랠리|BTC-RLY (Rally)|4.93e-06|5.73580037|1e-08|0.0020325203|[가상화폐 일간 통계 (랠리, 2022-03-23)](target_dir/2022-03-23/BTC-RLY-daily-candle-10days)
-|쓰레스홀드|KRW-T (Threshold)|152.0|8713497220.575678|None|0|[가상화폐 일간 통계 (쓰레스홀드, 2022-03-23)](target_dir/2022-03-23/KRW-T-daily-candle-10days)
-|쓰레스홀드|BTC-T (Threshold)|2.93e-06|0.34322046|1e-08|0.0034246575|[가상화폐 일간 통계 (쓰레스홀드, 2022-03-23)](target_dir/2022-03-23/BTC-T-daily-candle-10days)
-|셀로|KRW-CELO (Celo)|3820.0|56455079868.576324|255.0|0.0715287518|[가상화폐 일간 통계 (셀로, 2022-03-23)](target_dir/2022-03-23/KRW-CELO-daily-candle-10days)
+가상화폐 일간 통계 (2022-03-23)
+===
+
+
+본 페이지는 업비트에 거래되고 있는 암호화폐들의 일간 캔들 정보를 제공합니다. 
+종목 정보들은 가격 변동율을 기준으로 내림차순 정렬되어 있습니다. 
+세부 링크를 클릭하시면 좀 더 자세한 내용과 그래프를 확인하실 수 있습니다. 
+
+
+[가상화폐 일간 통계 (비트코인, 2022-03-23)](target_dir/2022-03-23/KRW-BTC-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|KRW-BTC|
+|종목|비트코인(Bitcoin)|
+|종가|52138000.0|
+|누적 거래량|273158203021.73694|
+|가격 변화|434000.0|
+|가격 변동율|0.0083939347|
+[가상화폐 일간 통계 (이더리움, 2022-03-23)](target_dir/2022-03-23/KRW-ETH-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|KRW-ETH|
+|종목|이더리움(Ethereum)|
+|종가|3689000.0|
+|누적 거래량|156345895926.0959|
+|가격 변화|63000.0|
+|가격 변동율|0.0173745174|
+[가상화폐 일간 통계 (이더리움, 2022-03-23)](target_dir/2022-03-23/BTC-ETH-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-ETH|
+|종목|이더리움(Ethereum)|
+|종가|0.07045319|
+|누적 거래량|3.87943407|
+|가격 변화|0.00015452|
+|가격 변동율|0.0021980501|
+[가상화폐 일간 통계 (라이트코인, 2022-03-23)](target_dir/2022-03-23/BTC-LTC-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-LTC|
+|종목|라이트코인(Litecoin)|
+|종가|0.00285176|
+|누적 거래량|0.09428975|
+|가격 변화|-4.524e-05|
+|가격 변동율|-0.0156161546|
+[가상화폐 일간 통계 (리플, 2022-03-23)](target_dir/2022-03-23/BTC-XRP-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-XRP|
+|종목|리플(Ripple)|
+|종가|1.953e-05|
+|누적 거래량|2.67120534|
+|가격 변화|-3.4e-07|
+|가격 변동율|-0.0171112229|
+[가상화폐 일간 통계 (이더리움클래식, 2022-03-23)](target_dir/2022-03-23/BTC-ETC-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-ETC|
+|종목|이더리움클래식(Ethereum Classic)|
+|종가|0.00106315|
+|누적 거래량|8.54569479|
+|가격 변화|-2.385e-05|
+|가격 변동율|-0.0219411224|
+[가상화폐 일간 통계 (오미세고, 2022-03-23)](target_dir/2022-03-23/BTC-OMG-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-OMG|
+|종목|오미세고(OmiseGo)|
+|종가|0.00012159|
+|누적 거래량|0.91366939|
+|가격 변화|7.82e-06|
+|가격 변동율|0.0687351674|
+[가상화폐 일간 통계 (시빅, 2022-03-23)](target_dir/2022-03-23/BTC-CVC-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-CVC|
+|종목|시빅(Civic)|
+|종가|7.11e-06|
+|누적 거래량|0.00194145|
+|가격 변화|-3e-08|
+|가격 변동율|-0.0042016807|
+[가상화폐 일간 통계 (디지바이트, 2022-03-23)](target_dir/2022-03-23/BTC-DGB-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-DGB|
+|종목|디지바이트(DigiByte)|
+|종가|5.2e-07|
+|누적 거래량|1.32991978|
+|가격 변화|2e-08|
+|가격 변동율|0.04|
+[가상화폐 일간 통계 (시아코인, 2022-03-23)](target_dir/2022-03-23/BTC-SC-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-SC|
+|종목|시아코인(Siacoin)|
+|종가|2.3e-07|
+|누적 거래량|0.10784017|
+|가격 변화|None|
+|가격 변동율|0|
+[가상화폐 일간 통계 (스테이터스네트워크토큰, 2022-03-23)](target_dir/2022-03-23/BTC-SNT-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-SNT|
+|종목|스테이터스네트워크토큰(Status Network Token)|
+|종가|1.42e-06|
+|누적 거래량|0.01439233|
+|가격 변화|None|
+|가격 변동율|0|
+[가상화폐 일간 통계 (웨이브, 2022-03-23)](target_dir/2022-03-23/BTC-WAVES-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-WAVES|
+|종목|웨이브(Waves)|
+|종가|0.00074491|
+|누적 거래량|0.77389578|
+|가격 변화|-1.918e-05|
+|가격 변동율|-0.025101755|
+[가상화폐 일간 통계 (뉴메레르, 2022-03-23)](target_dir/2022-03-23/BTC-NMR-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-NMR|
+|종목|뉴메레르(Numeraire)|
+|종가|0.00069669|
+|누적 거래량|0.84483801|
+|가격 변화|-6.36e-06|
+|가격 변동율|-0.0090462983|
+[가상화폐 일간 통계 (넴, 2022-03-23)](target_dir/2022-03-23/BTC-XEM-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-XEM|
+|종목|넴(NEM)|
+|종가|2.54e-06|
+|누적 거래량|0.01212497|
+|가격 변화|None|
+|가격 변동율|0|
+[가상화폐 일간 통계 (퀀텀, 2022-03-23)](target_dir/2022-03-23/BTC-QTUM-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-QTUM|
+|종목|퀀텀(Qtum)|
+|종가|0.00018522|
+|누적 거래량|1.33819324|
+|가격 변화|5.41e-06|
+|가격 변동율|0.0300873144|
+[가상화폐 일간 통계 (베이직어텐션토큰, 2022-03-23)](target_dir/2022-03-23/BTC-BAT-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-BAT|
+|종목|베이직어텐션토큰(Basic Attention Token)|
+|종가|1.945e-05|
+|누적 거래량|0.08386284|
+|가격 변화|-1e-08|
+|가격 변동율|-0.0005138746|
+[가상화폐 일간 통계 (리스크, 2022-03-23)](target_dir/2022-03-23/BTC-LSK-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-LSK|
+|종목|리스크(Lisk)|
+|종가|5.194e-05|
+|누적 거래량|0.00459342|
+|가격 변화|1.7e-07|
+|가격 변동율|0.0032837551|
+[가상화폐 일간 통계 (스팀, 2022-03-23)](target_dir/2022-03-23/BTC-STEEM-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-STEEM|
+|종목|스팀(Steem)|
+|종가|8.57e-06|
+|누적 거래량|0.1494796|
+|가격 변화|4.7e-07|
+|가격 변동율|0.0580246914|
+[가상화폐 일간 통계 (도지코인, 2022-03-23)](target_dir/2022-03-23/BTC-DOGE-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-DOGE|
+|종목|도지코인(Dogecoin)|
+|종가|3.12e-06|
+|누적 거래량|0.78910667|
+|가격 변화|1e-07|
+|가격 변동율|0.0331125828|
+[가상화폐 일간 통계 (뱅코르, 2022-03-23)](target_dir/2022-03-23/BTC-BNT-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-BNT|
+|종목|뱅코르(Bancor)|
+|종가|5.799e-05|
+|누적 거래량|0.77389688|
+|가격 변화|3.6e-07|
+|가격 변동율|0.0062467465|
+[가상화폐 일간 통계 (스텔라루멘, 2022-03-23)](target_dir/2022-03-23/BTC-XLM-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-XLM|
+|종목|스텔라루멘(Lumen)|
+|종가|4.96e-06|
+|누적 거래량|0.33915707|
+|가격 변화|2e-08|
+|가격 변동율|0.004048583|
+[가상화폐 일간 통계 (아더, 2022-03-23)](target_dir/2022-03-23/BTC-ARDR-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-ARDR|
+|종목|아더(Ardor)|
+|종가|4.85e-06|
+|누적 거래량|0.01125195|
+|가격 변화|1.3e-07|
+|가격 변동율|0.0275423729|
+[가상화폐 일간 통계 (아크, 2022-03-23)](target_dir/2022-03-23/BTC-ARK-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-ARK|
+|종목|아크(Ark)|
+|종가|2.171e-05|
+|누적 거래량|0.134075|
+|가격 변화|-1.6e-07|
+|가격 변동율|-0.0073159579|
+[가상화폐 일간 통계 (스토리지, 2022-03-23)](target_dir/2022-03-23/BTC-STORJ-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-STORJ|
+|종목|스토리지(Storj)|
+|종가|2.751e-05|
+|누적 거래량|0.06620381|
+|가격 변화|1.22e-06|
+|가격 변동율|0.0464054774|
+[가상화폐 일간 통계 (그로스톨코인, 2022-03-23)](target_dir/2022-03-23/BTC-GRS-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-GRS|
+|종목|그로스톨코인(Groestlcoin)|
+|종가|1.455e-05|
+|누적 거래량|0.29388283|
+|가격 변화|7e-08|
+|가격 변동율|0.0048342541|
+[가상화폐 일간 통계 (어거, 2022-03-23)](target_dir/2022-03-23/BTC-REP-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-REP|
+|종목|어거(Augur)|
+|종가|0.00034154|
+|누적 거래량|0.2233939|
+|가격 변화|8.7e-07|
+|가격 변동율|0.0025537911|
+[가상화폐 일간 통계 (아이젝, 2022-03-23)](target_dir/2022-03-23/BTC-RLC-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-RLC|
+|종목|아이젝(iEx.ec)|
+|종가|4.855e-05|
+|누적 거래량|3.13561508|
+|가격 변화|1.3e-06|
+|가격 변동율|0.0275132275|
+[가상화폐 일간 통계 (비트코인, 2022-03-23)](target_dir/2022-03-23/USDT-BTC-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|USDT-BTC|
+|종목|비트코인(Bitcoin)|
+|종가|42822.076|
+|누적 거래량|283587.90846766|
+|가격 변화|612.479|
+|가격 변동율|0.0145104205|
+[가상화폐 일간 통계 (이더리움, 2022-03-23)](target_dir/2022-03-23/USDT-ETH-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|USDT-ETH|
+|종목|이더리움(Ethereum)|
+|종가|2967.46918003|
+|누적 거래량|19807.28363481|
+|가격 변화|-38.00781997|
+|가격 변동율|-0.0126461856|
+[가상화폐 일간 통계 (라이트코인, 2022-03-23)](target_dir/2022-03-23/USDT-LTC-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|USDT-LTC|
+|종목|라이트코인(Litecoin)|
+|종가|128.33661944|
+|누적 거래량|3580.16098493|
+|가격 변화|7.36621095|
+|가격 변동율|0.0608926682|
+[가상화폐 일간 통계 (리플, 2022-03-23)](target_dir/2022-03-23/USDT-XRP-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|USDT-XRP|
+|종목|리플(Ripple)|
+|종가|0.83947429|
+|누적 거래량|100180.43658418|
+|가격 변화|-0.00388599|
+|가격 변동율|-0.0046077461|
+[가상화폐 일간 통계 (이더리움클래식, 2022-03-23)](target_dir/2022-03-23/USDT-ETC-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|USDT-ETC|
+|종목|이더리움클래식(Ethereum Classic)|
+|종가|45.50082|
+|누적 거래량|24328.32584817|
+|가격 변화|-0.19358985|
+|가격 변동율|-0.00423662|
+[가상화폐 일간 통계 (네오, 2022-03-23)](target_dir/2022-03-23/KRW-NEO-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|KRW-NEO|
+|종목|네오(NEO)|
+|종가|29580.0|
+|누적 거래량|59103661900.66005|
+|가격 변화|370.0|
+|가격 변동율|0.0126668949|
+[가상화폐 일간 통계 (메탈, 2022-03-23)](target_dir/2022-03-23/KRW-MTL-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|KRW-MTL|
+|종목|메탈(Metal)|
+|종가|2065.0|
+|누적 거래량|4404704961.9965725|
+|가격 변화|70.0|
+|가격 변동율|0.0350877193|
+[가상화폐 일간 통계 (라이트코인, 2022-03-23)](target_dir/2022-03-23/KRW-LTC-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|KRW-LTC|
+|종목|라이트코인(Litecoin)|
+|종가|148700.0|
+|누적 거래량|14101079794.434187|
+|가격 변화|-1500.0|
+|가격 변동율|-0.0099866844|
+[가상화폐 일간 통계 (리플, 2022-03-23)](target_dir/2022-03-23/KRW-XRP-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|KRW-XRP|
+|종목|리플(Ripple)|
+|종가|1020.0|
+|누적 거래량|243491910584.54114|
+|가격 변화|-5.0|
+|가격 변동율|-0.0048780488|
+[가상화폐 일간 통계 (이더리움클래식, 2022-03-23)](target_dir/2022-03-23/KRW-ETC-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|KRW-ETC|
+|종목|이더리움클래식(Ethereum Classic)|
+|종가|55160.0|
+|누적 거래량|715937999123.4435|
+|가격 변화|-940.0|
+|가격 변동율|-0.0167557932|
+[가상화폐 일간 통계 (오미세고, 2022-03-23)](target_dir/2022-03-23/KRW-OMG-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|KRW-OMG|
+|종목|오미세고(OmiseGo)|
+|종가|6325.0|
+|누적 거래량|107323270139.86621|
+|가격 변화|440.0|
+|가격 변동율|0.0747663551|
+[가상화폐 일간 통계 (스테이터스네트워크토큰, 2022-03-23)](target_dir/2022-03-23/KRW-SNT-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|KRW-SNT|
+|종목|스테이터스네트워크토큰(Status Network Token)|
+|종가|74.6|
+|누적 거래량|5350648491.639873|
+|가격 변화|0.1|
+|가격 변동율|0.0013422819|
+[가상화폐 일간 통계 (웨이브, 2022-03-23)](target_dir/2022-03-23/KRW-WAVES-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|KRW-WAVES|
+|종목|웨이브(Waves)|
+|종가|38850.0|
+|누적 거래량|139197517187.4973|
+|가격 변화|-920.0|
+|가격 변동율|-0.0231330148|
+[가상화폐 일간 통계 (넴, 2022-03-23)](target_dir/2022-03-23/KRW-XEM-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|KRW-XEM|
+|종목|넴(NEM)|
+|종가|132.0|
+|누적 거래량|3954342438.080228|
+|가격 변화|None|
+|가격 변동율|0|
+[가상화폐 일간 통계 (퀀텀, 2022-03-23)](target_dir/2022-03-23/KRW-QTUM-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|KRW-QTUM|
+|종목|퀀텀(Qtum)|
+|종가|9565.0|
+|누적 거래량|157436963799.2442|
+|가격 변화|255.0|
+|가격 변동율|0.0273899033|
+[가상화폐 일간 통계 (리스크, 2022-03-23)](target_dir/2022-03-23/KRW-LSK-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|KRW-LSK|
+|종목|리스크(Lisk)|
+|종가|2725.0|
+|누적 거래량|5224069575.68149|
+|가격 변화|50.0|
+|가격 변동율|0.0186915888|
+[가상화폐 일간 통계 (스팀, 2022-03-23)](target_dir/2022-03-23/KRW-STEEM-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|KRW-STEEM|
+|종목|스팀(Steem)|
+|종가|445.0|
+|누적 거래량|8309193576.709004|
+|가격 변화|24.0|
+|가격 변동율|0.0570071259|
+[가상화폐 일간 통계 (스텔라루멘, 2022-03-23)](target_dir/2022-03-23/KRW-XLM-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|KRW-XLM|
+|종목|스텔라루멘(Lumen)|
+|종가|255.0|
+|누적 거래량|11832923276.379375|
+|가격 변화|2.0|
+|가격 변동율|0.0079051383|
+[가상화폐 일간 통계 (아더, 2022-03-23)](target_dir/2022-03-23/KRW-ARDR-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|KRW-ARDR|
+|종목|아더(Ardor)|
+|종가|248.0|
+|누적 거래량|3549409501.5108824|
+|가격 변화|1.0|
+|가격 변동율|0.004048583|
+[가상화폐 일간 통계 (아크, 2022-03-23)](target_dir/2022-03-23/KRW-ARK-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|KRW-ARK|
+|종목|아크(Ark)|
+|종가|1135.0|
+|누적 거래량|3374203204.072615|
+|가격 변화|10.0|
+|가격 변동율|0.0088888889|
+[가상화폐 일간 통계 (스토리지, 2022-03-23)](target_dir/2022-03-23/KRW-STORJ-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|KRW-STORJ|
+|종목|스토리지(Storj)|
+|종가|1410.0|
+|누적 거래량|7112639000.05771|
+|가격 변화|35.0|
+|가격 변동율|0.0254545455|
+[가상화폐 일간 통계 (그로스톨코인, 2022-03-23)](target_dir/2022-03-23/KRW-GRS-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|KRW-GRS|
+|종목|그로스톨코인(Groestlcoin)|
+|종가|769.0|
+|누적 거래량|2965054870.7413383|
+|가격 변화|8.0|
+|가격 변동율|0.0105124836|
+[가상화폐 일간 통계 (어거, 2022-03-23)](target_dir/2022-03-23/KRW-REP-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|KRW-REP|
+|종목|어거(Augur)|
+|종가|17680.0|
+|누적 거래량|5341346795.13561|
+|가격 변화|130.0|
+|가격 변동율|0.0074074074|
+[가상화폐 일간 통계 (에이다, 2022-03-23)](target_dir/2022-03-23/KRW-ADA-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|KRW-ADA|
+|종목|에이다(Ada)|
+|종가|1350.0|
+|누적 거래량|188545211677.4565|
+|가격 변화|165.0|
+|가격 변동율|0.1392405063|
+[가상화폐 일간 통계 (에이다, 2022-03-23)](target_dir/2022-03-23/BTC-ADA-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-ADA|
+|종목|에이다(Ada)|
+|종가|2.578e-05|
+|누적 거래량|2.28849088|
+|가격 변화|2.73e-06|
+|가격 변동율|0.1184381779|
+[가상화폐 일간 통계 (디센트럴랜드, 2022-03-23)](target_dir/2022-03-23/BTC-MANA-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-MANA|
+|종목|디센트럴랜드(Decentraland)|
+|종가|5.962e-05|
+|누적 거래량|0.79868734|
+|가격 변화|2.38e-06|
+|가격 변동율|0.0415793152|
+[가상화폐 일간 통계 (오미세고, 2022-03-23)](target_dir/2022-03-23/USDT-OMG-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|USDT-OMG|
+|종목|오미세고(OmiseGo)|
+|종가|5.24962|
+|누적 거래량|3940.80222403|
+|가격 변화|0.42962|
+|가격 변동율|0.0891327801|
+[가상화폐 일간 통계 (스팀달러, 2022-03-23)](target_dir/2022-03-23/KRW-SBD-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|KRW-SBD|
+|종목|스팀달러(SteemDollars)|
+|종가|5360.0|
+|누적 거래량|7433826422.922325|
+|가격 변화|60.0|
+|가격 변동율|0.0113207547|
+[가상화폐 일간 통계 (스팀달러, 2022-03-23)](target_dir/2022-03-23/BTC-SBD-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-SBD|
+|종목|스팀달러(SteemDollars)|
+|종가|0.00010415|
+|누적 거래량|0.06527455|
+|가격 변화|2.39e-06|
+|가격 변동율|0.0234866352|
+[가상화폐 일간 통계 (파워렛저, 2022-03-23)](target_dir/2022-03-23/KRW-POWR-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|KRW-POWR|
+|종목|파워렛저(Power ledger)|
+|종가|631.0|
+|누적 거래량|11479812210.318285|
+|가격 변화|2.0|
+|가격 변동율|0.0031796502|
+[가상화폐 일간 통계 (파워렛저, 2022-03-23)](target_dir/2022-03-23/BTC-POWR-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-POWR|
+|종목|파워렛저(Power ledger)|
+|종가|1.212e-05|
+|누적 거래량|0.08825999|
+|가격 변화|-1.6e-07|
+|가격 변동율|-0.013029316|
+[가상화폐 일간 통계 (비트코인골드, 2022-03-23)](target_dir/2022-03-23/KRW-BTG-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|KRW-BTG|
+|종목|비트코인골드(Bitcoin Gold)|
+|종가|53430.0|
+|누적 거래량|165791064452.4161|
+|가격 변화|-570.0|
+|가격 변동율|-0.0105555556|
+[가상화폐 일간 통계 (에이다, 2022-03-23)](target_dir/2022-03-23/USDT-ADA-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|USDT-ADA|
+|종목|에이다(Ada)|
+|종가|1.08216|
+|누적 거래량|2520.80419406|
+|가격 변화|0.10216|
+|가격 변동율|0.104244898|
+[가상화폐 일간 통계 (디스트릭트0x, 2022-03-23)](target_dir/2022-03-23/BTC-DNT-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-DNT|
+|종목|디스트릭트0x(district0x)|
+|종가|1.83e-06|
+|누적 거래량|2.72686332|
+|가격 변화|4e-08|
+|가격 변동율|0.0223463687|
+[가상화폐 일간 통계 (제로엑스, 2022-03-23)](target_dir/2022-03-23/BTC-ZRX-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-ZRX|
+|종목|제로엑스(0x Protocol)|
+|종가|1.362e-05|
+|누적 거래량|0.1249575|
+|가격 변화|1.6e-07|
+|가격 변동율|0.0118870728|
+[가상화폐 일간 통계 (트론, 2022-03-23)](target_dir/2022-03-23/BTC-TRX-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-TRX|
+|종목|트론(TRON)|
+|종가|1.49e-06|
+|누적 거래량|2.49714271|
+|가격 변화|-1e-08|
+|가격 변동율|-0.0066666667|
+[가상화폐 일간 통계 (트루USD, 2022-03-23)](target_dir/2022-03-23/BTC-TUSD-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-TUSD|
+|종목|트루USD(TrueUSD)|
+|종가|2.324e-05|
+|누적 거래량|0.76642261|
+|가격 변화|-2.1e-07|
+|가격 변동율|-0.0089552239|
+[가상화폐 일간 통계 (루프링, 2022-03-23)](target_dir/2022-03-23/BTC-LRC-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-LRC|
+|종목|루프링(Loopring)|
+|종가|2.719e-05|
+|누적 거래량|916.69328695|
+|가격 변화|8.03e-06|
+|가격 변동율|0.4191022965|
+[가상화폐 일간 통계 (아이콘, 2022-03-23)](target_dir/2022-03-23/KRW-ICX-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|KRW-ICX|
+|종목|아이콘(Icon)|
+|종가|1015.0|
+|누적 거래량|34476987741.37822|
+|가격 변화|58.0|
+|가격 변동율|0.0606060606|
+[가상화폐 일간 통계 (이오스, 2022-03-23)](target_dir/2022-03-23/KRW-EOS-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|KRW-EOS|
+|종목|이오스(EOS)|
+|종가|3035.0|
+|누적 거래량|55882572211.642204|
+|가격 변화|-80.0|
+|가격 변동율|-0.025682183|
+[가상화폐 일간 통계 (트루USD, 2022-03-23)](target_dir/2022-03-23/USDT-TUSD-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|USDT-TUSD|
+|종목|트루USD(TrueUSD)|
+|종가|1.01199953|
+|누적 거래량|6798.81980285|
+|가격 변화|0.01899953|
+|가격 변동율|0.0191334642|
+[가상화폐 일간 통계 (트론, 2022-03-23)](target_dir/2022-03-23/KRW-TRX-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|KRW-TRX|
+|종목|트론(TRON)|
+|종가|78.3|
+|누적 거래량|44379318566.719986|
+|가격 변화|0.7|
+|가격 변동율|0.0090206186|
+[가상화폐 일간 통계 (폴리매쓰, 2022-03-23)](target_dir/2022-03-23/BTC-POLY-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-POLY|
+|종목|폴리매쓰(Polymath)|
+|종가|1.003e-05|
+|누적 거래량|0.1673888|
+|가격 변화|2.7e-07|
+|가격 변동율|0.0276639344|
+[가상화폐 일간 통계 (시아코인, 2022-03-23)](target_dir/2022-03-23/USDT-SC-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|USDT-SC|
+|종목|시아코인(Siacoin)|
+|종가|0.0106086|
+|누적 거래량|638.95350513|
+|가격 변화|0.00069431|
+|가격 변동율|0.0700312377|
+[가상화폐 일간 통계 (트론, 2022-03-23)](target_dir/2022-03-23/USDT-TRX-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|USDT-TRX|
+|종목|트론(TRON)|
+|종가|0.06453822|
+|누적 거래량|21636.61946943|
+|가격 변화|0.00195255|
+|가격 변동율|0.0311980362|
+[가상화폐 일간 통계 (시아코인, 2022-03-23)](target_dir/2022-03-23/KRW-SC-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|KRW-SC|
+|종목|시아코인(Siacoin)|
+|종가|12.4|
+|누적 거래량|6509287651.963645|
+|가격 변화|0.6|
+|가격 변동율|0.0508474576|
+[가상화폐 일간 통계 (온톨로지, 2022-03-23)](target_dir/2022-03-23/KRW-ONT-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|KRW-ONT|
+|종목|온톨로지(Ontology)|
+|종가|676.0|
+|누적 거래량|5994260117.990578|
+|가격 변화|9.0|
+|가격 변동율|0.0134932534|
+[가상화폐 일간 통계 (질리카, 2022-03-23)](target_dir/2022-03-23/KRW-ZIL-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|KRW-ZIL|
+|종목|질리카(Zilliqa)|
+|종가|59.4|
+|누적 거래량|16829670396.162907|
+|가격 변화|4.3|
+|가격 변동율|0.0780399274|
+[가상화폐 일간 통계 (폴리매쓰, 2022-03-23)](target_dir/2022-03-23/KRW-POLY-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|KRW-POLY|
+|종목|폴리매쓰(Polymath)|
+|종가|516.0|
+|누적 거래량|19295972246.118465|
+|가격 변화|14.0|
+|가격 변동율|0.0278884462|
+[가상화폐 일간 통계 (제로엑스, 2022-03-23)](target_dir/2022-03-23/KRW-ZRX-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|KRW-ZRX|
+|종목|제로엑스(0x Protocol)|
+|종가|717.0|
+|누적 거래량|5102826735.408332|
+|가격 변화|30.0|
+|가격 변동율|0.0436681223|
+[가상화폐 일간 통계 (룸네트워크, 2022-03-23)](target_dir/2022-03-23/KRW-LOOM-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|KRW-LOOM|
+|종목|룸네트워크(Loom Network)|
+|종가|104.0|
+|누적 거래량|3106264958.9168987|
+|가격 변화|3.0|
+|가격 변동율|0.0297029703|
+[가상화폐 일간 통계 (비트코인캐시, 2022-03-23)](target_dir/2022-03-23/BTC-BCH-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-BCH|
+|종목|비트코인캐시(Bitcoin Cash)|
+|종가|0.00850623|
+|누적 거래량|1.52330212|
+|가격 변화|-0.00037134|
+|가격 변동율|-0.041829014|
+[가상화폐 일간 통계 (비트코인캐시, 2022-03-23)](target_dir/2022-03-23/USDT-BCH-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|USDT-BCH|
+|종목|비트코인캐시(Bitcoin Cash)|
+|종가|397.75228517|
+|누적 거래량|1500.96524634|
+|가격 변화|26.41828516|
+|가격 변동율|0.0711442668|
+[가상화폐 일간 통계 (비트코인캐시, 2022-03-23)](target_dir/2022-03-23/KRW-BCH-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|KRW-BCH|
+|종목|비트코인캐시(Bitcoin Cash)|
+|종가|442950.0|
+|누적 거래량|44650630423.739746|
+|가격 변화|-16050.0|
+|가격 변동율|-0.0349673203|
+[가상화폐 일간 통계 (메인프레임, 2022-03-23)](target_dir/2022-03-23/BTC-MFT-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-MFT|
+|종목|메인프레임(Mainframe)|
+|종가|2e-07|
+|누적 거래량|0.06613945|
+|가격 변화|None|
+|가격 변동율|0|
+[가상화폐 일간 통계 (룸네트워크, 2022-03-23)](target_dir/2022-03-23/BTC-LOOM-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-LOOM|
+|종목|룸네트워크(Loom Network)|
+|종가|2e-06|
+|누적 거래량|0.03066617|
+|가격 변화|None|
+|가격 변동율|0|
+[가상화폐 일간 통계 (베이직어텐션토큰, 2022-03-23)](target_dir/2022-03-23/KRW-BAT-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|KRW-BAT|
+|종목|베이직어텐션토큰(Basic Attention Token)|
+|종가|1015.0|
+|누적 거래량|13566576687.837303|
+|가격 변화|20.0|
+|가격 변동율|0.0201005025|
+[가상화폐 일간 통계 (아이오에스티, 2022-03-23)](target_dir/2022-03-23/KRW-IOST-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|KRW-IOST|
+|종목|아이오에스티(IOST)|
+|종가|31.8|
+|누적 거래량|3421674028.392491|
+|가격 변화|0.8|
+|가격 변동율|0.0258064516|
+[가상화폐 일간 통계 (리퍼리움, 2022-03-23)](target_dir/2022-03-23/BTC-RFR-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-RFR|
+|종목|리퍼리움(Refereum)|
+|종가|2.6e-07|
+|누적 거래량|0.43369141|
+|가격 변화|2e-08|
+|가격 변동율|0.0833333333|
+[가상화폐 일간 통계 (리퍼리움, 2022-03-23)](target_dir/2022-03-23/KRW-RFR-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|KRW-RFR|
+|종목|리퍼리움(Refereum)|
+|종가|13.0|
+|누적 거래량|6148387081.018634|
+|가격 변화|0.2|
+|가격 변동율|0.015625|
+[가상화폐 일간 통계 (디지바이트, 2022-03-23)](target_dir/2022-03-23/USDT-DGB-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|USDT-DGB|
+|종목|디지바이트(DigiByte)|
+|종가|0.02|
+|누적 거래량|163.62610746|
+|가격 변화|-0.00219994|
+|가격 변동율|-0.0990966642|
+[가상화폐 일간 통계 (시빅, 2022-03-23)](target_dir/2022-03-23/KRW-CVC-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|KRW-CVC|
+|종목|시빅(Civic)|
+|종가|375.0|
+|누적 거래량|4071728637.16666|
+|가격 변화|-2.0|
+|가격 변동율|-0.0053050398|
+[가상화폐 일간 통계 (에브리피디아, 2022-03-23)](target_dir/2022-03-23/KRW-IQ-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|KRW-IQ|
+|종목|에브리피디아(Everipedia)|
+|종가|11.7|
+|누적 거래량|1815107890.4518898|
+|가격 변화|0.2|
+|가격 변동율|0.0173913043|
+[가상화폐 일간 통계 (아이오타, 2022-03-23)](target_dir/2022-03-23/KRW-IOTA-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|KRW-IOTA|
+|종목|아이오타(IOTA)|
+|종가|953.0|
+|누적 거래량|3875222628.9292293|
+|가격 변화|7.0|
+|가격 변동율|0.0073995772|
+[가상화폐 일간 통계 (레이븐코인, 2022-03-23)](target_dir/2022-03-23/BTC-RVN-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-RVN|
+|종목|레이븐코인(Ravencoin)|
+|종가|1.47e-06|
+|누적 거래량|122.45885085|
+|가격 변화|9e-08|
+|가격 변동율|0.0652173913|
+[가상화폐 일간 통계 (고체인, 2022-03-23)](target_dir/2022-03-23/BTC-GO-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-GO|
+|종목|고체인(GoChain)|
+|종가|5.7e-07|
+|누적 거래량|4.00281494|
+|가격 변화|None|
+|가격 변동율|0|
+[가상화폐 일간 통계 (센티넬프로토콜, 2022-03-23)](target_dir/2022-03-23/BTC-UPP-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-UPP|
+|종목|센티넬프로토콜(Sentinel Protocol)|
+|종가|2.79e-06|
+|누적 거래량|0.0831147|
+|가격 변화|None|
+|가격 변동율|0|
+[가상화폐 일간 통계 (엔진코인, 2022-03-23)](target_dir/2022-03-23/BTC-ENJ-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-ENJ|
+|종목|엔진코인(Enjin)|
+|종가|3.508e-05|
+|누적 거래량|0.0417104|
+|가격 변화|7.1e-07|
+|가격 변동율|0.0206575502|
+[가상화폐 일간 통계 (메인프레임, 2022-03-23)](target_dir/2022-03-23/KRW-MFT-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|KRW-MFT|
+|종목|메인프레임(Mainframe)|
+|종가|10.4|
+|누적 거래량|11281040939.89921|
+|가격 변화|0.2|
+|가격 변동율|0.0196078431|
+[가상화폐 일간 통계 (온톨로지가스, 2022-03-23)](target_dir/2022-03-23/KRW-ONG-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|KRW-ONG|
+|종목|온톨로지가스(ONG)|
+|종가|930.0|
+|누적 거래량|14454933325.223589|
+|가격 변화|-4.0|
+|가격 변동율|-0.0042826552|
+[가상화폐 일간 통계 (가스, 2022-03-23)](target_dir/2022-03-23/KRW-GAS-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|KRW-GAS|
+|종목|가스(GAS)|
+|종가|5985.0|
+|누적 거래량|4786929596.388287|
+|가격 변화|35.0|
+|가격 변동율|0.0058823529|
+[가상화폐 일간 통계 (메탈, 2022-03-23)](target_dir/2022-03-23/BTC-MTL-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-MTL|
+|종목|메탈(Metal)|
+|종가|3.974e-05|
+|누적 거래량|0.01795822|
+|가격 변화|1.09e-06|
+|가격 변동율|0.0282018111|
+[가상화폐 일간 통계 (센티넬프로토콜, 2022-03-23)](target_dir/2022-03-23/KRW-UPP-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|KRW-UPP|
+|종목|센티넬프로토콜(Sentinel Protocol)|
+|종가|148.0|
+|누적 거래량|1540228680.934956|
+|가격 변화|2.0|
+|가격 변동율|0.0136986301|
+[가상화폐 일간 통계 (엘프, 2022-03-23)](target_dir/2022-03-23/KRW-ELF-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|KRW-ELF|
+|종목|엘프(aelf)|
+|종가|439.0|
+|누적 거래량|13006278269.33942|
+|가격 변화|1.0|
+|가격 변동율|0.002283105|
+[가상화폐 일간 통계 (도지코인, 2022-03-23)](target_dir/2022-03-23/USDT-DOGE-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|USDT-DOGE|
+|종목|도지코인(Dogecoin)|
+|종가|0.12823911|
+|누적 거래량|5259.0768375|
+|가격 변화|-0.00176089|
+|가격 변동율|-0.0135453077|
+[가상화폐 일간 통계 (제로엑스, 2022-03-23)](target_dir/2022-03-23/USDT-ZRX-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|USDT-ZRX|
+|종목|제로엑스(0x Protocol)|
+|종가|0.530567|
+|누적 거래량|29.78554993|
+|가격 변화|-0.01282813|
+|가격 변동율|-0.0236073702|
+[가상화폐 일간 통계 (레이븐코인, 2022-03-23)](target_dir/2022-03-23/USDT-RVN-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|USDT-RVN|
+|종목|레이븐코인(Ravencoin)|
+|종가|0.062|
+|누적 거래량|10873.59187925|
+|가격 변화|-0.00089995|
+|가격 변동율|-0.0143076425|
+[가상화폐 일간 통계 (베이직어텐션토큰, 2022-03-23)](target_dir/2022-03-23/USDT-BAT-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|USDT-BAT|
+|종목|베이직어텐션토큰(Basic Attention Token)|
+|종가|0.80491897|
+|누적 거래량|7911.67228919|
+|가격 변화|-0.0580672|
+|가격 변동율|-0.0672863622|
+[가상화폐 일간 통계 (카이버네트워크, 2022-03-23)](target_dir/2022-03-23/KRW-KNC-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|KRW-KNC|
+|종목|카이버네트워크(Kyber Network)|
+|종가|3875.0|
+|누적 거래량|36162608274.987366|
+|가격 변화|-135.0|
+|가격 변동율|-0.0336658354|
+[가상화폐 일간 통계 (모스코인, 2022-03-23)](target_dir/2022-03-23/BTC-MOC-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-MOC|
+|종목|모스코인(Moss Coin)|
+|종가|3.91e-06|
+|누적 거래량|0.10451176|
+|가격 변화|-2e-08|
+|가격 변동율|-0.0050890585|
+[가상화폐 일간 통계 (질리카, 2022-03-23)](target_dir/2022-03-23/BTC-ZIL-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-ZIL|
+|종목|질리카(Zilliqa)|
+|종가|1.14e-06|
+|누적 거래량|0.02278825|
+|가격 변화|7e-08|
+|가격 변동율|0.0654205607|
+[가상화폐 일간 통계 (비트코인에스브이, 2022-03-23)](target_dir/2022-03-23/KRW-BSV-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|KRW-BSV|
+|종목|비트코인에스브이(Bitcoin SV)|
+|종가|110300.0|
+|누적 거래량|21457719971.40937|
+|가격 변화|-2950.0|
+|가격 변동율|-0.0260485651|
+[가상화폐 일간 통계 (비트코인에스브이, 2022-03-23)](target_dir/2022-03-23/BTC-BSV-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-BSV|
+|종목|비트코인에스브이(Bitcoin SV)|
+|종가|0.00212215|
+|누적 거래량|1.10663964|
+|가격 변화|-4.786e-05|
+|가격 변동율|-0.0220551979|
+[가상화폐 일간 통계 (아이오에스티, 2022-03-23)](target_dir/2022-03-23/BTC-IOST-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-IOST|
+|종목|아이오에스티(IOST)|
+|종가|6.1e-07|
+|누적 거래량|0.18332683|
+|가격 변화|1e-08|
+|가격 변동율|0.0166666667|
+[가상화폐 일간 통계 (쎄타토큰, 2022-03-23)](target_dir/2022-03-23/KRW-THETA-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|KRW-THETA|
+|종목|쎄타토큰(Theta Token)|
+|종가|3890.0|
+|누적 거래량|13972924985.917458|
+|가격 변화|150.0|
+|가격 변동율|0.0401069519|
+[가상화폐 일간 통계 (덴트, 2022-03-23)](target_dir/2022-03-23/BTC-DENT-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-DENT|
+|종목|덴트(Dent)|
+|종가|7e-08|
+|누적 거래량|0.38399942|
+|가격 변화|None|
+|가격 변동율|0|
+[가상화폐 일간 통계 (쿼크체인, 2022-03-23)](target_dir/2022-03-23/KRW-QKC-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|KRW-QKC|
+|종목|쿼크체인(QuarkChain)|
+|종가|20.6|
+|누적 거래량|3350502149.044764|
+|가격 변화|0.2|
+|가격 변동율|0.0098039216|
+[가상화폐 일간 통계 (엘프, 2022-03-23)](target_dir/2022-03-23/BTC-ELF-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-ELF|
+|종목|엘프(aelf)|
+|종가|8.53e-06|
+|누적 거래량|0.40505274|
+|가격 변화|3.1e-07|
+|가격 변동율|0.0377128954|
+[가상화폐 일간 통계 (비트토렌트, 2022-03-23)](target_dir/2022-03-23/KRW-BTT-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|KRW-BTT|
+|종목|비트토렌트(BitTorrent)|
+|종가|0.0023|
+|누적 거래량|4871145115.882959|
+|가격 변화|None|
+|가격 변동율|0|
+[가상화폐 일간 통계 (아이오텍스, 2022-03-23)](target_dir/2022-03-23/BTC-IOTX-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-IOTX|
+|종목|아이오텍스(IoTeX)|
+|종가|2.2e-06|
+|누적 거래량|169.03201045|
+|가격 변화|-4e-08|
+|가격 변동율|-0.0178571429|
+[가상화폐 일간 통계 (솔브케어, 2022-03-23)](target_dir/2022-03-23/BTC-SOLVE-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-SOLVE|
+|종목|솔브케어(Solve.Care)|
+|종가|1.81e-06|
+|누적 거래량|11.23294768|
+|가격 변화|None|
+|가격 변동율|0|
+[가상화폐 일간 통계 (엔케이엔, 2022-03-23)](target_dir/2022-03-23/BTC-NKN-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-NKN|
+|종목|엔케이엔(NKN)|
+|종가|5.17e-06|
+|누적 거래량|3.63313799|
+|가격 변화|1.8e-07|
+|가격 변동율|0.0360721443|
+[가상화폐 일간 통계 (메타디움, 2022-03-23)](target_dir/2022-03-23/BTC-META-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-META|
+|종목|메타디움(Metadium)|
+|종가|1.85e-06|
+|누적 거래량|0.00373393|
+|가격 변화|-1e-08|
+|가격 변동율|-0.0053763441|
+[가상화폐 일간 통계 (모스코인, 2022-03-23)](target_dir/2022-03-23/KRW-MOC-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|KRW-MOC|
+|종목|모스코인(Moss Coin)|
+|종가|207.0|
+|누적 거래량|3137214273.738881|
+|가격 변화|5.0|
+|가격 변동율|0.0247524752|
+[가상화폐 일간 통계 (앵커, 2022-03-23)](target_dir/2022-03-23/BTC-ANKR-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-ANKR|
+|종목|앵커(Ankr)|
+|종가|1.8e-06|
+|누적 거래량|0.06227006|
+|가격 변화|1e-08|
+|가격 변동율|0.0055865922|
+[가상화폐 일간 통계 (크로노스, 2022-03-23)](target_dir/2022-03-23/BTC-CRO-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-CRO|
+|종목|크로노스(Cronos)|
+|종가|1.01e-05|
+|누적 거래량|0.18239309|
+|가격 변화|3.2e-07|
+|가격 변동율|0.0327198364|
+[가상화폐 일간 통계 (엔진코인, 2022-03-23)](target_dir/2022-03-23/KRW-ENJ-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|KRW-ENJ|
+|종목|엔진코인(Enjin)|
+|종가|1860.0|
+|누적 거래량|16212746864.889643|
+|가격 변화|75.0|
+|가격 변동율|0.0420168067|
+[가상화폐 일간 통계 (쎄타퓨엘, 2022-03-23)](target_dir/2022-03-23/KRW-TFUEL-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|KRW-TFUEL|
+|종목|쎄타퓨엘(Theta Fuel)|
+|종가|213.0|
+|누적 거래량|6639544922.503984|
+|가격 변화|5.0|
+|가격 변동율|0.0240384615|
+[가상화폐 일간 통계 (디센트럴랜드, 2022-03-23)](target_dir/2022-03-23/KRW-MANA-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|KRW-MANA|
+|종목|디센트럴랜드(Decentraland)|
+|종가|3085.0|
+|누적 거래량|48147229763.35806|
+|가격 변화|110.0|
+|가격 변동율|0.0369747899|
+[가상화폐 일간 통계 (앵커, 2022-03-23)](target_dir/2022-03-23/KRW-ANKR-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|KRW-ANKR|
+|종목|앵커(Ankr)|
+|종가|92.7|
+|누적 거래량|6056908459.234955|
+|가격 변화|0.3|
+|가격 변동율|0.0032467532|
+[가상화폐 일간 통계 (오브스, 2022-03-23)](target_dir/2022-03-23/BTC-ORBS-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-ORBS|
+|종목|오브스(Orbs)|
+|종가|1.78e-06|
+|누적 거래량|0.04720563|
+|가격 변화|-1e-08|
+|가격 변동율|-0.0055865922|
+[가상화폐 일간 통계 (아르고, 2022-03-23)](target_dir/2022-03-23/BTC-AERGO-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-AERGO|
+|종목|아르고(Aergo)|
+|종가|5.46e-06|
+|누적 거래량|0.02996704|
+|가격 변화|-4e-08|
+|가격 변동율|-0.0072727273|
+[가상화폐 일간 통계 (아르고, 2022-03-23)](target_dir/2022-03-23/KRW-AERGO-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|KRW-AERGO|
+|종목|아르고(Aergo)|
+|종가|287.0|
+|누적 거래량|6312403888.879451|
+|가격 변화|-1.0|
+|가격 변동율|-0.0034722222|
+[가상화폐 일간 통계 (코스모스, 2022-03-23)](target_dir/2022-03-23/KRW-ATOM-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|KRW-ATOM|
+|종목|코스모스(Cosmos)|
+|종가|34330.0|
+|누적 거래량|48377024880.666916|
+|가격 변화|100.0|
+|가격 변동율|0.002921414|
+[가상화폐 일간 통계 (썬더코어, 2022-03-23)](target_dir/2022-03-23/KRW-TT-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|KRW-TT|
+|종목|썬더코어(ThunderCore)|
+|종가|10.3|
+|누적 거래량|2693562701.547165|
+|가격 변화|None|
+|가격 변동율|0|
+[가상화폐 일간 통계 (캐리프로토콜, 2022-03-23)](target_dir/2022-03-23/KRW-CRE-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|KRW-CRE|
+|종목|캐리프로토콜(Carry Protocol)|
+|종가|10.4|
+|누적 거래량|5807666123.881363|
+|가격 변화|0.2|
+|가격 변동율|0.0196078431|
+[가상화폐 일간 통계 (코스모스, 2022-03-23)](target_dir/2022-03-23/BTC-ATOM-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-ATOM|
+|종목|코스모스(Cosmos)|
+|종가|0.00065467|
+|누적 거래량|0.25017195|
+|가격 변화|-5.33e-06|
+|가격 변동율|-0.0080757576|
+[가상화폐 일간 통계 (에스티피, 2022-03-23)](target_dir/2022-03-23/BTC-STPT-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-STPT|
+|종목|에스티피(Standard Tokenization Protocol)|
+|종가|2.13e-06|
+|누적 거래량|0.0100614|
+|가격 변화|-2e-08|
+|가격 변동율|-0.0093023256|
+[가상화폐 일간 통계 (무비블록, 2022-03-23)](target_dir/2022-03-23/KRW-MBL-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|KRW-MBL|
+|종목|무비블록(MovieBloc)|
+|종가|16.7|
+|누적 거래량|321215905162.0625|
+|가격 변화|0.2|
+|가격 변동율|0.0121212121|
+[가상화폐 일간 통계 (이오스, 2022-03-23)](target_dir/2022-03-23/BTC-EOS-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-EOS|
+|종목|이오스(EOS)|
+|종가|5.888e-05|
+|누적 거래량|0.69897854|
+|가격 변화|-1.68e-06|
+|가격 변동율|-0.0277410832|
+[가상화폐 일간 통계 (루나, 2022-03-23)](target_dir/2022-03-23/BTC-LUNA-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-LUNA|
+|종목|루나(Luna)|
+|종가|0.00220049|
+|누적 거래량|50.97664234|
+|가격 변화|2.2e-07|
+|가격 변동율|9.99877e-05|
+[가상화폐 일간 통계 (다이, 2022-03-23)](target_dir/2022-03-23/BTC-DAI-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-DAI|
+|종목|다이(Dai)|
+|종가|2.333e-05|
+|누적 거래량|0.38660574|
+|가격 변화|-1e-07|
+|가격 변동율|-0.0042680324|
+[가상화폐 일간 통계 (메이커, 2022-03-23)](target_dir/2022-03-23/BTC-MKR-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-MKR|
+|종목|메이커(Maker)|
+|종가|0.04656694|
+|누적 거래량|0.64931666|
+|가격 변화|-0.00143308|
+|가격 변동율|-0.0298558209|
+[가상화폐 일간 통계 (보라, 2022-03-23)](target_dir/2022-03-23/BTC-BORA-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-BORA|
+|종목|보라(BORA)|
+|종가|2.156e-05|
+|누적 거래량|1.75754479|
+|가격 변화|1.29e-06|
+|가격 변동율|0.0636408485|
+[가상화폐 일간 통계 (왁스, 2022-03-23)](target_dir/2022-03-23/KRW-WAXP-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|KRW-WAXP|
+|종목|왁스(WAX)|
+|종가|361.0|
+|누적 거래량|12624092127.897333|
+|가격 변화|7.0|
+|가격 변동율|0.0197740113|
+[가상화폐 일간 통계 (왁스, 2022-03-23)](target_dir/2022-03-23/BTC-WAXP-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-WAXP|
+|종목|왁스(WAX)|
+|종가|6.99e-06|
+|누적 거래량|0.1337837|
+|가격 변화|1.4e-07|
+|가격 변동율|0.0204379562|
+[가상화폐 일간 통계 (헤데라, 2022-03-23)](target_dir/2022-03-23/KRW-HBAR-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|KRW-HBAR|
+|종목|헤데라(Hedera)|
+|종가|266.0|
+|누적 거래량|7216542381.237744|
+|가격 변화|3.0|
+|가격 변동율|0.0114068441|
+[가상화폐 일간 통계 (메디블록, 2022-03-23)](target_dir/2022-03-23/KRW-MED-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|KRW-MED|
+|종목|메디블록(MediBloc)|
+|종가|51.6|
+|누적 거래량|5712952654.727448|
+|가격 변화|0.3|
+|가격 변동율|0.0058479532|
+[가상화폐 일간 통계 (메디블록, 2022-03-23)](target_dir/2022-03-23/BTC-MED-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-MED|
+|종목|메디블록(MediBloc)|
+|종가|9.8e-07|
+|누적 거래량|0.037443|
+|가격 변화|None|
+|가격 변동율|0|
+[가상화폐 일간 통계 (밀크, 2022-03-23)](target_dir/2022-03-23/BTC-MLK-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-MLK|
+|종목|밀크(MiL.k)|
+|종가|1.996e-05|
+|누적 거래량|0.07251324|
+|가격 변화|5.1e-07|
+|가격 변동율|0.0262210797|
+[가상화폐 일간 통계 (밀크, 2022-03-23)](target_dir/2022-03-23/KRW-MLK-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|KRW-MLK|
+|종목|밀크(MiL.k)|
+|종가|1030.0|
+|누적 거래량|11780539567.766924|
+|가격 변화|15.0|
+|가격 변동율|0.0147783251|
+[가상화폐 일간 통계 (에스티피, 2022-03-23)](target_dir/2022-03-23/KRW-STPT-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|KRW-STPT|
+|종목|에스티피(Standard Tokenization Protocol)|
+|종가|112.0|
+|누적 거래량|5626720622.737548|
+|가격 변화|-1.0|
+|가격 변동율|-0.0088495575|
+[가상화폐 일간 통계 (비체인, 2022-03-23)](target_dir/2022-03-23/BTC-VET-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-VET|
+|종목|비체인(VeChain)|
+|종가|1.31e-06|
+|누적 거래량|0.70060624|
+|가격 변화|6e-08|
+|가격 변동율|0.048|
+[가상화폐 일간 통계 (오브스, 2022-03-23)](target_dir/2022-03-23/KRW-ORBS-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|KRW-ORBS|
+|종목|오브스(Orbs)|
+|종가|93.0|
+|누적 거래량|4614667994.472987|
+|가격 변화|0.2|
+|가격 변동율|0.0021551724|
+[가상화폐 일간 통계 (칠리즈, 2022-03-23)](target_dir/2022-03-23/BTC-CHZ-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-CHZ|
+|종목|칠리즈(Chiliz)|
+|종가|4.98e-06|
+|누적 거래량|0.1000278|
+|가격 변화|None|
+|가격 변동율|0|
+[가상화폐 일간 통계 (비체인, 2022-03-23)](target_dir/2022-03-23/KRW-VET-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|KRW-VET|
+|종목|비체인(VeChain)|
+|종가|68.0|
+|누적 거래량|24173730268.68269|
+|가격 변화|2.9|
+|가격 변동율|0.044546851|
+[가상화폐 일간 통계 (펑션엑스, 2022-03-23)](target_dir/2022-03-23/BTC-FX-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-FX|
+|종목|펑션엑스(Function X)|
+|종가|1.308e-05|
+|누적 거래량|32.89287181|
+|가격 변화|5.2e-07|
+|가격 변동율|0.0414012739|
+[가상화폐 일간 통계 (오리진프로토콜, 2022-03-23)](target_dir/2022-03-23/BTC-OGN-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-OGN|
+|종목|오리진프로토콜(Origin Protocol)|
+|종가|1.513e-05|
+|누적 거래량|189.12308083|
+|가격 변화|-1.32e-06|
+|가격 변동율|-0.0802431611|
+[가상화폐 일간 통계 (칠리즈, 2022-03-23)](target_dir/2022-03-23/KRW-CHZ-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|KRW-CHZ|
+|종목|칠리즈(Chiliz)|
+|종가|261.0|
+|누적 거래량|8481524462.909669|
+|가격 변화|7.0|
+|가격 변동율|0.0275590551|
+[가상화폐 일간 통계 (테조스, 2022-03-23)](target_dir/2022-03-23/BTC-XTZ-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-XTZ|
+|종목|테조스(Tezos)|
+|종가|8.1e-05|
+|누적 거래량|0.14448116|
+|가격 변화|2.83e-06|
+|가격 변동율|0.036203147|
+[가상화폐 일간 통계 (하이브, 2022-03-23)](target_dir/2022-03-23/BTC-HIVE-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-HIVE|
+|종목|하이브(Hive)|
+|종가|2.217e-05|
+|누적 거래량|0.69287227|
+|가격 변화|6.1e-07|
+|가격 변동율|0.0282931354|
+[가상화폐 일간 통계 (하이브달러, 2022-03-23)](target_dir/2022-03-23/BTC-HBD-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-HBD|
+|종목|하이브달러(Hive Dollar)|
+|종가|2.305e-05|
+|누적 거래량|0.59640573|
+|가격 변화|-2e-07|
+|가격 변동율|-0.0086021505|
+[가상화폐 일간 통계 (옵저버, 2022-03-23)](target_dir/2022-03-23/BTC-OBSR-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-OBSR|
+|종목|옵저버(Observer)|
+|종가|1e-07|
+|누적 거래량|1.52726968|
+|가격 변화|1e-08|
+|가격 변동율|0.1111111111|
+[가상화폐 일간 통계 (디카르고, 2022-03-23)](target_dir/2022-03-23/BTC-DKA-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-DKA|
+|종목|디카르고(dKargo)|
+|종가|2.27e-06|
+|누적 거래량|0.03809388|
+|가격 변화|None|
+|가격 변동율|0|
+[가상화폐 일간 통계 (스톰엑스, 2022-03-23)](target_dir/2022-03-23/KRW-STMX-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|KRW-STMX|
+|종목|스톰엑스(StormX)|
+|종가|19.8|
+|누적 거래량|4751124145.557183|
+|가격 변화|1.4|
+|가격 변동율|0.0760869565|
+[가상화폐 일간 통계 (스톰엑스, 2022-03-23)](target_dir/2022-03-23/BTC-STMX-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-STMX|
+|종목|스톰엑스(StormX)|
+|종가|3.8e-07|
+|누적 거래량|0.09659177|
+|가격 변화|3e-08|
+|가격 변동율|0.0857142857|
+[가상화폐 일간 통계 (아하토큰, 2022-03-23)](target_dir/2022-03-23/BTC-AHT-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-AHT|
+|종목|아하토큰(AhaToken)|
+|종가|2.4e-07|
+|누적 거래량|0.00062865|
+|가격 변화|None|
+|가격 변동율|0|
+[가상화폐 일간 통계 (페이코인, 2022-03-23)](target_dir/2022-03-23/BTC-PCI-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-PCI|
+|종목|페이코인(PayCoin)|
+|종가|1.936e-05|
+|누적 거래량|12.72699613|
+|가격 변화|-2.2e-07|
+|가격 변동율|-0.0112359551|
+[가상화폐 일간 통계 (디카르고, 2022-03-23)](target_dir/2022-03-23/KRW-DKA-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|KRW-DKA|
+|종목|디카르고(dKargo)|
+|종가|120.0|
+|누적 거래량|2052355456.9728267|
+|가격 변화|1.0|
+|가격 변동율|0.0084033613|
+[가상화폐 일간 통계 (체인링크, 2022-03-23)](target_dir/2022-03-23/BTC-LINK-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-LINK|
+|종목|체인링크(Chainlink)|
+|종가|0.00036946|
+|누적 거래량|0.12477795|
+|가격 변화|6.02e-06|
+|가격 변동율|0.0165639445|
+[가상화폐 일간 통계 (하이브, 2022-03-23)](target_dir/2022-03-23/KRW-HIVE-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|KRW-HIVE|
+|종목|하이브(Hive)|
+|종가|1150.0|
+|누적 거래량|6371214014.343284|
+|가격 변화|20.0|
+|가격 변동율|0.017699115|
+[가상화폐 일간 통계 (카바, 2022-03-23)](target_dir/2022-03-23/KRW-KAVA-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|KRW-KAVA|
+|종목|카바(Kava)|
+|종가|4730.0|
+|누적 거래량|5120020997.47274|
+|가격 변화|205.0|
+|가격 변동율|0.0453038674|
+[가상화폐 일간 통계 (카바, 2022-03-23)](target_dir/2022-03-23/BTC-KAVA-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-KAVA|
+|종목|카바(Kava)|
+|종가|9.052e-05|
+|누적 거래량|0.0273296|
+|가격 변화|2.08e-06|
+|가격 변동율|0.0235187698|
+[가상화폐 일간 통계 (아하토큰, 2022-03-23)](target_dir/2022-03-23/KRW-AHT-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|KRW-AHT|
+|종목|아하토큰(AhaToken)|
+|종가|12.7|
+|누적 거래량|2963496055.3258038|
+|가격 변화|0.1|
+|가격 변동율|0.0079365079|
+[가상화폐 일간 통계 (체인링크, 2022-03-23)](target_dir/2022-03-23/KRW-LINK-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|KRW-LINK|
+|종목|체인링크(Chainlink)|
+|종가|19220.0|
+|누적 거래량|17693505181.084747|
+|가격 변화|320.0|
+|가격 변동율|0.0169312169|
+[가상화폐 일간 통계 (테조스, 2022-03-23)](target_dir/2022-03-23/KRW-XTZ-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|KRW-XTZ|
+|종목|테조스(Tezos)|
+|종가|4205.0|
+|누적 거래량|35606981952.1745|
+|가격 변화|170.0|
+|가격 변동율|0.0421313507|
+[가상화폐 일간 통계 (보라, 2022-03-23)](target_dir/2022-03-23/KRW-BORA-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|KRW-BORA|
+|종목|보라(BORA)|
+|종가|1135.0|
+|누적 거래량|162657341296.6777|
+|가격 변화|90.0|
+|가격 변동율|0.0861244019|
+[가상화폐 일간 통계 (저스트, 2022-03-23)](target_dir/2022-03-23/BTC-JST-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-JST|
+|종목|저스트(JUST)|
+|종가|1.28e-06|
+|누적 거래량|0.0510007|
+|가격 변화|6e-08|
+|가격 변동율|0.0491803279|
+[가상화폐 일간 통계 (크로미아, 2022-03-23)](target_dir/2022-03-23/BTC-CHR-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-CHR|
+|종목|크로미아(Chromia)|
+|종가|1.092e-05|
+|누적 거래량|32.04335785|
+|가격 변화|1.16e-06|
+|가격 변동율|0.118852459|
+[가상화폐 일간 통계 (다드, 2022-03-23)](target_dir/2022-03-23/BTC-DAD-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-DAD|
+|종목|다드(DAD)|
+|종가|3.28e-06|
+|누적 거래량|10.48819417|
+|가격 변화|-6e-08|
+|가격 변동율|-0.0179640719|
+[가상화폐 일간 통계 (톤, 2022-03-23)](target_dir/2022-03-23/BTC-TON-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-TON|
+|종목|톤(TON)|
+|종가|9.21e-05|
+|누적 거래량|0.08917803|
+|가격 변화|1.08e-06|
+|가격 변동율|0.0118655241|
+[가상화폐 일간 통계 (저스트, 2022-03-23)](target_dir/2022-03-23/KRW-JST-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|KRW-JST|
+|종목|저스트(JUST)|
+|종가|65.0|
+|누적 거래량|6672672037.203099|
+|가격 변화|1.2|
+|가격 변동율|0.0188087774|
+[가상화폐 일간 통계 (카르테시, 2022-03-23)](target_dir/2022-03-23/BTC-CTSI-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-CTSI|
+|종목|카르테시(Cartesi)|
+|종가|8.93e-06|
+|누적 거래량|21.24168998|
+|가격 변화|3.5e-07|
+|가격 변동율|0.0407925408|
+[가상화폐 일간 통계 (폴카닷, 2022-03-23)](target_dir/2022-03-23/BTC-DOT-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-DOT|
+|종목|폴카닷(Polkadot)|
+|종가|0.00049182|
+|누적 거래량|2.74310955|
+|가격 변화|8.18e-06|
+|가격 변동율|0.0169134067|
+[가상화폐 일간 통계 (크로노스, 2022-03-23)](target_dir/2022-03-23/KRW-CRO-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|KRW-CRO|
+|종목|크로노스(Cronos)|
+|종가|528.0|
+|누적 거래량|2934788501.128484|
+|가격 변화|19.0|
+|가격 변동율|0.0373280943|
+[가상화폐 일간 통계 (컴파운드, 2022-03-23)](target_dir/2022-03-23/BTC-COMP-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-COMP|
+|종목|컴파운드(Compound)|
+|종가|0.00277213|
+|누적 거래량|0.46255343|
+|가격 변화|7.213e-05|
+|가격 변동율|0.0267148148|
+[가상화폐 일간 통계 (스와이프, 2022-03-23)](target_dir/2022-03-23/BTC-SXP-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-SXP|
+|종목|스와이프(Swipe)|
+|종가|3.759e-05|
+|누적 거래량|0.32308968|
+|가격 변화|3.5e-07|
+|가격 변동율|0.0093984962|
+[가상화폐 일간 통계 (헌트, 2022-03-23)](target_dir/2022-03-23/BTC-HUNT-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-HUNT|
+|종목|헌트(HUNT)|
+|종가|1.946e-05|
+|누적 거래량|1.81543875|
+|가격 변화|4.8e-07|
+|가격 변동율|0.0252897787|
+[가상화폐 일간 통계 (톤, 2022-03-23)](target_dir/2022-03-23/KRW-TON-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|KRW-TON|
+|종목|톤(TON)|
+|종가|4795.0|
+|누적 거래량|17364635627.41394|
+|가격 변화|80.0|
+|가격 변동율|0.0169671262|
+[가상화폐 일간 통계 (온버프, 2022-03-23)](target_dir/2022-03-23/BTC-ONIT-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-ONIT|
+|종목|온버프(ONBUFF)|
+|종가|3.64e-06|
+|누적 거래량|31.30726578|
+|가격 변화|8e-08|
+|가격 변동율|0.0224719101|
+[가상화폐 일간 통계 (커브, 2022-03-23)](target_dir/2022-03-23/BTC-CRV-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-CRV|
+|종목|커브(Curve)|
+|종가|5.582e-05|
+|누적 거래량|5.02826518|
+|가격 변화|2.85e-06|
+|가격 변동율|0.05380404|
+[가상화폐 일간 통계 (알고랜드, 2022-03-23)](target_dir/2022-03-23/BTC-ALGO-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-ALGO|
+|종목|알고랜드(Algorand)|
+|종가|1.967e-05|
+|누적 거래량|1.09188477|
+|가격 변화|3.1e-07|
+|가격 변동율|0.0160123967|
+[가상화폐 일간 통계 (리저브라이트, 2022-03-23)](target_dir/2022-03-23/BTC-RSR-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-RSR|
+|종목|리저브라이트(Reserve Rights)|
+|종가|3.5e-07|
+|누적 거래량|16.58395281|
+|가격 변화|2e-08|
+|가격 변동율|0.0606060606|
+[가상화폐 일간 통계 (스와이프, 2022-03-23)](target_dir/2022-03-23/KRW-SXP-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|KRW-SXP|
+|종목|스와이프(Swipe)|
+|종가|1980.0|
+|누적 거래량|23257374520.38755|
+|가격 변화|50.0|
+|가격 변동율|0.0259067358|
+[가상화폐 일간 통계 (오키드, 2022-03-23)](target_dir/2022-03-23/BTC-OXT-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-OXT|
+|종목|오키드(Orchid)|
+|종가|6.29e-06|
+|누적 거래량|87.74827542|
+|가격 변화|3.3e-07|
+|가격 변동율|0.0553691275|
+[가상화폐 일간 통계 (플레이댑, 2022-03-23)](target_dir/2022-03-23/BTC-PLA-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-PLA|
+|종목|플레이댑(PlayDapp)|
+|종가|2.026e-05|
+|누적 거래량|0.51867934|
+|가격 변화|1.05e-06|
+|가격 변동율|0.0546590318|
+[가상화폐 일간 통계 (헌트, 2022-03-23)](target_dir/2022-03-23/KRW-HUNT-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|KRW-HUNT|
+|종목|헌트(HUNT)|
+|종가|1000.0|
+|누적 거래량|18391344827.42157|
+|가격 변화|11.0|
+|가격 변동율|0.0111223458|
+[가상화폐 일간 통계 (마로, 2022-03-23)](target_dir/2022-03-23/BTC-MARO-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-MARO|
+|종목|마로(Maro)|
+|종가|1.64e-06|
+|누적 거래량|15.51291792|
+|가격 변화|-3e-08|
+|가격 변동율|-0.0179640719|
+[가상화폐 일간 통계 (샌드박스, 2022-03-23)](target_dir/2022-03-23/BTC-SAND-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-SAND|
+|종목|샌드박스(The Sandbox)|
+|종가|7.71e-05|
+|누적 거래량|0.77492439|
+|가격 변화|3.65e-06|
+|가격 변동율|0.0496936692|
+[가상화폐 일간 통계 (썬, 2022-03-23)](target_dir/2022-03-23/BTC-SUN-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-SUN|
+|종목|썬(SUN)|
+|종가|3.1e-07|
+|누적 거래량|1.27673602|
+|가격 변화|None|
+|가격 변동율|0|
+[가상화폐 일간 통계 (플레이댑, 2022-03-23)](target_dir/2022-03-23/KRW-PLA-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|KRW-PLA|
+|종목|플레이댑(PlayDapp)|
+|종가|1050.0|
+|누적 거래량|25370136219.255287|
+|가격 변화|50.0|
+|가격 변동율|0.05|
+[가상화폐 일간 통계 (폴카닷, 2022-03-23)](target_dir/2022-03-23/KRW-DOT-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|KRW-DOT|
+|종목|폴카닷(Polkadot)|
+|종가|25500.0|
+|누적 거래량|26427148304.82637|
+|가격 변화|770.0|
+|가격 변동율|0.0311362717|
+[가상화폐 일간 통계 (세럼, 2022-03-23)](target_dir/2022-03-23/BTC-SRM-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-SRM|
+|종목|세럼(Serum)|
+|종가|7.347e-05|
+|누적 거래량|4.68527717|
+|가격 변화|1.511e-05|
+|가격 변동율|0.2589102125|
+[가상화폐 일간 통계 (퀴즈톡, 2022-03-23)](target_dir/2022-03-23/BTC-QTCON-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-QTCON|
+|종목|퀴즈톡(Quiztok)|
+|종가|1.6e-07|
+|누적 거래량|1.46468206|
+|가격 변화|None|
+|가격 변동율|0|
+[가상화폐 일간 통계 (엠블, 2022-03-23)](target_dir/2022-03-23/BTC-MVL-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-MVL|
+|종목|엠블(MVL)|
+|종가|2.1e-07|
+|누적 거래량|0.07368191|
+|가격 변화|None|
+|가격 변동율|0|
+[가상화폐 일간 통계 (세럼, 2022-03-23)](target_dir/2022-03-23/KRW-SRM-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|KRW-SRM|
+|종목|세럼(Serum)|
+|종가|3845.0|
+|누적 거래량|403623773695.38367|
+|가격 변화|785.0|
+|가격 변동율|0.2565359477|
+[가상화폐 일간 통계 (엠블, 2022-03-23)](target_dir/2022-03-23/KRW-MVL-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|KRW-MVL|
+|종목|엠블(MVL)|
+|종가|10.9|
+|누적 거래량|2776849730.966986|
+|가격 변화|0.1|
+|가격 변동율|0.0092592593|
+[가상화폐 일간 통계 (레이, 2022-03-23)](target_dir/2022-03-23/BTC-REI-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-REI|
+|종목|레이(REI)|
+|종가|2.96e-06|
+|누적 거래량|117.09460593|
+|가격 변화|-1.2e-07|
+|가격 변동율|-0.038961039|
+[가상화폐 일간 통계 (알파쿼크, 2022-03-23)](target_dir/2022-03-23/BTC-AQT-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-AQT|
+|종목|알파쿼크(Alpha Quark Token)|
+|종가|6.204e-05|
+|누적 거래량|0.02700031|
+|가격 변화|2.16e-06|
+|가격 변동율|0.0360721443|
+[가상화폐 일간 통계 (엑시인피니티, 2022-03-23)](target_dir/2022-03-23/BTC-AXS-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-AXS|
+|종목|엑시인피니티(Axie Infinity)|
+|종가|0.00136164|
+|누적 거래량|0.44711034|
+|가격 변화|0.00013351|
+|가격 변동율|0.10870999|
+[가상화폐 일간 통계 (스트라티스, 2022-03-23)](target_dir/2022-03-23/BTC-STRAX-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-STRAX|
+|종목|스트라티스(Stratis)|
+|종가|2.429e-05|
+|누적 거래량|0.02397114|
+|가격 변화|4.6e-07|
+|가격 변동율|0.0193033991|
+[가상화폐 일간 통계 (스트라티스, 2022-03-23)](target_dir/2022-03-23/KRW-STRAX-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|KRW-STRAX|
+|종목|스트라티스(Stratis)|
+|종가|1250.0|
+|누적 거래량|8442533324.838404|
+|가격 변화|20.0|
+|가격 변동율|0.0162601626|
+[가상화폐 일간 통계 (알파쿼크, 2022-03-23)](target_dir/2022-03-23/KRW-AQT-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|KRW-AQT|
+|종목|알파쿼크(Alpha Quark Token)|
+|종가|3230.0|
+|누적 거래량|5218831385.510743|
+|가격 변화|75.0|
+|가격 변동율|0.0237717908|
+[가상화폐 일간 통계 (골렘, 2022-03-23)](target_dir/2022-03-23/BTC-GLM-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-GLM|
+|종목|골렘(Golem)|
+|종가|1.133e-05|
+|누적 거래량|0.00163506|
+|가격 변화|-2.6e-07|
+|가격 변동율|-0.022433132|
+[가상화폐 일간 통계 (골렘, 2022-03-23)](target_dir/2022-03-23/KRW-GLM-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|KRW-GLM|
+|종목|골렘(Golem)|
+|종가|592.0|
+|누적 거래량|11270970468.741293|
+|가격 변화|-3.0|
+|가격 변동율|-0.0050420168|
+[가상화폐 일간 통계 (피르마체인, 2022-03-23)](target_dir/2022-03-23/BTC-FCT2-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-FCT2|
+|종목|피르마체인(FirmaChain)|
+|종가|2.41e-06|
+|누적 거래량|0.0205826|
+|가격 변화|8e-08|
+|가격 변동율|0.0343347639|
+[가상화폐 일간 통계 (썸씽, 2022-03-23)](target_dir/2022-03-23/BTC-SSX-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-SSX|
+|종목|썸씽(SOMESING)|
+|종가|1.04e-06|
+|누적 거래량|0.24390331|
+|가격 변화|-1e-08|
+|가격 변동율|-0.0095238095|
+[가상화폐 일간 통계 (썸씽, 2022-03-23)](target_dir/2022-03-23/KRW-SSX-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|KRW-SSX|
+|종목|썸씽(SOMESING)|
+|종가|55.0|
+|누적 거래량|4389076165.363622|
+|가격 변화|0.6|
+|가격 변동율|0.0110294118|
+[가상화폐 일간 통계 (메타디움, 2022-03-23)](target_dir/2022-03-23/KRW-META-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|KRW-META|
+|종목|메타디움(Metadium)|
+|종가|96.5|
+|누적 거래량|4821127441.523134|
+|가격 변화|0.1|
+|가격 변동율|0.0010373444|
+[가상화폐 일간 통계 (피르마체인, 2022-03-23)](target_dir/2022-03-23/KRW-FCT2-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|KRW-FCT2|
+|종목|피르마체인(FirmaChain)|
+|종가|126.0|
+|누적 거래량|2739250878.985888|
+|가격 변화|4.0|
+|가격 변동율|0.0327868852|
+[가상화폐 일간 통계 (파일코인, 2022-03-23)](target_dir/2022-03-23/BTC-FIL-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-FIL|
+|종목|파일코인(Filecoin)|
+|종가|0.00045445|
+|누적 거래량|209.9338993|
+|가격 변화|1.885e-05|
+|가격 변동율|0.0432736455|
+[가상화폐 일간 통계 (유니스왑, 2022-03-23)](target_dir/2022-03-23/BTC-UNI-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-UNI|
+|종목|유니스왑(Uniswap)|
+|종가|0.00023329|
+|누적 거래량|2.42569148|
+|가격 변화|1.84e-06|
+|가격 변동율|0.0079498812|
+[가상화폐 일간 통계 (베이직, 2022-03-23)](target_dir/2022-03-23/BTC-BASIC-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-BASIC|
+|종목|베이직(Basic)|
+|종가|1.2e-07|
+|누적 거래량|3.53005042|
+|가격 변화|1e-08|
+|가격 변동율|0.0909090909|
+[가상화폐 일간 통계 (인젝티브프로토콜, 2022-03-23)](target_dir/2022-03-23/BTC-INJ-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-INJ|
+|종목|인젝티브프로토콜(Injective Protocol)|
+|종가|0.00013006|
+|누적 거래량|19.5427463|
+|가격 변화|6.4e-07|
+|가격 변동율|0.0049451399|
+[가상화폐 일간 통계 (프로메테우스, 2022-03-23)](target_dir/2022-03-23/BTC-PROM-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-PROM|
+|종목|프로메테우스(Prometeus)|
+|종가|0.0002064|
+|누적 거래량|4.7583359|
+|가격 변화|3.59e-06|
+|가격 변동율|0.0177012968|
+[가상화폐 일간 통계 (밸리디티, 2022-03-23)](target_dir/2022-03-23/BTC-VAL-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-VAL|
+|종목|밸리디티(Validity)|
+|종가|8.578e-05|
+|누적 거래량|4.27228572|
+|가격 변화|6.3e-07|
+|가격 변동율|0.0073987082|
+[가상화폐 일간 통계 (파리생제르맹, 2022-03-23)](target_dir/2022-03-23/BTC-PSG-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-PSG|
+|종목|파리생제르맹(Paris Saint-Germain Fan Token)|
+|종가|0.00030889|
+|누적 거래량|8.76118201|
+|가격 변화|-6.12e-06|
+|가격 변동율|-0.0194279547|
+[가상화폐 일간 통계 (유벤투스, 2022-03-23)](target_dir/2022-03-23/BTC-JUV-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-JUV|
+|종목|유벤투스(Juventus Fan Token)|
+|종가|0.00015145|
+|누적 거래량|43.49543788|
+|가격 변화|1.95e-06|
+|가격 변동율|0.0130434783|
+[가상화폐 일간 통계 (코박토큰, 2022-03-23)](target_dir/2022-03-23/BTC-CBK-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-CBK|
+|종목|코박토큰(Cobak Token)|
+|종가|5.341e-05|
+|누적 거래량|0.09721165|
+|가격 변화|5.5e-07|
+|가격 변동율|0.010404843|
+[가상화폐 일간 통계 (포튜브, 2022-03-23)](target_dir/2022-03-23/BTC-FOR-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-FOR|
+|종목|포튜브(ForTube)|
+|종가|1.02e-06|
+|누적 거래량|9.88070566|
+|가격 변화|-2e-08|
+|가격 변동율|-0.0192307692|
+[가상화폐 일간 통계 (코박토큰, 2022-03-23)](target_dir/2022-03-23/KRW-CBK-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|KRW-CBK|
+|종목|코박토큰(Cobak Token)|
+|종가|2790.0|
+|누적 거래량|7864221697.980911|
+|가격 변화|45.0|
+|가격 변동율|0.0163934426|
+[가상화폐 일간 통계 (바이프로스트, 2022-03-23)](target_dir/2022-03-23/BTC-BFC-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-BFC|
+|종목|바이프로스트(Bifrost)|
+|종가|3.79e-06|
+|누적 거래량|74.2826483|
+|가격 변화|1.5e-07|
+|가격 변동율|0.0412087912|
+[가상화폐 일간 통계 (리니어파이낸스, 2022-03-23)](target_dir/2022-03-23/BTC-LINA-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-LINA|
+|종목|리니어파이낸스(Linear)|
+|종가|5.8e-07|
+|누적 거래량|17.19048268|
+|가격 변화|7e-08|
+|가격 변동율|0.137254902|
+[가상화폐 일간 통계 (휴먼스케이프, 2022-03-23)](target_dir/2022-03-23/BTC-HUM-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-HUM|
+|종목|휴먼스케이프(Humanscape)|
+|종가|6.1e-06|
+|누적 거래량|0.11761801|
+|가격 변화|5e-08|
+|가격 변동율|0.0082644628|
+[가상화폐 일간 통계 (셀로, 2022-03-23)](target_dir/2022-03-23/BTC-CELO-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-CELO|
+|종목|셀로(Celo)|
+|종가|7.269e-05|
+|누적 거래량|6.03327381|
+|가격 변화|4.03e-06|
+|가격 변동율|0.0586950189|
+[가상화폐 일간 통계 (샌드박스, 2022-03-23)](target_dir/2022-03-23/KRW-SAND-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|KRW-SAND|
+|종목|샌드박스(The Sandbox)|
+|종가|4010.0|
+|누적 거래량|178694679882.6851|
+|가격 변화|200.0|
+|가격 변동율|0.0524934383|
+[가상화폐 일간 통계 (휴먼스케이프, 2022-03-23)](target_dir/2022-03-23/KRW-HUM-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|KRW-HUM|
+|종목|휴먼스케이프(Humanscape)|
+|종가|318.0|
+|누적 거래량|11157745882.982454|
+|가격 변화|5.0|
+|가격 변동율|0.0159744409|
+[가상화폐 일간 통계 (에브리피디아, 2022-03-23)](target_dir/2022-03-23/BTC-IQ-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-IQ|
+|종목|에브리피디아(Everipedia)|
+|종가|2.3e-07|
+|누적 거래량|0.06230588|
+|가격 변화|None|
+|가격 변동율|0|
+[가상화폐 일간 통계 (스택스, 2022-03-23)](target_dir/2022-03-23/BTC-STX-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-STX|
+|종목|스택스(Stacks)|
+|종가|3.121e-05|
+|누적 거래량|0.87004162|
+|가격 변화|7.2e-07|
+|가격 변동율|0.0236142998|
+[가상화폐 일간 통계 (도지코인, 2022-03-23)](target_dir/2022-03-23/KRW-DOGE-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|KRW-DOGE|
+|종목|도지코인(Dogecoin)|
+|종가|160.0|
+|누적 거래량|41173772757.4462|
+|가격 변화|4.0|
+|가격 변동율|0.0256410256|
+[가상화폐 일간 통계 (니어프로토콜, 2022-03-23)](target_dir/2022-03-23/BTC-NEAR-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-NEAR|
+|종목|니어프로토콜(NEAR Protocol)|
+|종가|0.00029086|
+|누적 거래량|1.51972234|
+|가격 변화|2.978e-05|
+|가격 변동율|0.1140646545|
+[가상화폐 일간 통계 (바운스토큰, 2022-03-23)](target_dir/2022-03-23/BTC-AUCTION-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-AUCTION|
+|종목|바운스토큰(Bounce)|
+|종가|0.0003843|
+|누적 거래량|51.88625502|
+|가격 변화|5e-07|
+|가격 변동율|0.0013027619|
+[가상화폐 일간 통계 (던프로토콜, 2022-03-23)](target_dir/2022-03-23/BTC-DAWN-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-DAWN|
+|종목|던프로토콜(Dawn Protocol)|
+|종가|4.299e-05|
+|누적 거래량|0.11696316|
+|가격 변화|2e-08|
+|가격 변동율|0.000465441|
+[가상화폐 일간 통계 (플로우, 2022-03-23)](target_dir/2022-03-23/BTC-FLOW-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-FLOW|
+|종목|플로우(Flow)|
+|종가|0.00014616|
+|누적 거래량|0.26724642|
+|가격 변화|2.12e-06|
+|가격 변동율|0.0147181339|
+[가상화폐 일간 통계 (스트라이크, 2022-03-23)](target_dir/2022-03-23/BTC-STRK-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-STRK|
+|종목|스트라이크(Strike)|
+|종가|0.00095987|
+|누적 거래량|0.25997731|
+|가격 변화|2.912e-05|
+|가격 변동율|0.0312865968|
+[가상화폐 일간 통계 (스트라이크, 2022-03-23)](target_dir/2022-03-23/KRW-STRK-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|KRW-STRK|
+|종목|스트라이크(Strike)|
+|종가|50050.0|
+|누적 거래량|62803469787.98834|
+|가격 변화|1560.0|
+|가격 변동율|0.0321715818|
+[가상화폐 일간 통계 (펀디엑스, 2022-03-23)](target_dir/2022-03-23/BTC-PUNDIX-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-PUNDIX|
+|종목|펀디엑스(Pundi X)|
+|종가|1.92e-05|
+|누적 거래량|0.31234665|
+|가격 변화|-2.2e-07|
+|가격 변동율|-0.0113285273|
+[가상화폐 일간 통계 (펀디엑스, 2022-03-23)](target_dir/2022-03-23/KRW-PUNDIX-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|KRW-PUNDIX|
+|종목|펀디엑스(Pundi X)|
+|종가|995.0|
+|누적 거래량|7481067781.59213|
+|가격 변화|-5.0|
+|가격 변동율|-0.005|
+[가상화폐 일간 통계 (플로우, 2022-03-23)](target_dir/2022-03-23/KRW-FLOW-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|KRW-FLOW|
+|종목|플로우(Flow)|
+|종가|7610.0|
+|누적 거래량|50650400224.697235|
+|가격 변화|105.0|
+|가격 변동율|0.0139906729|
+[가상화폐 일간 통계 (던프로토콜, 2022-03-23)](target_dir/2022-03-23/KRW-DAWN-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|KRW-DAWN|
+|종목|던프로토콜(Dawn Protocol)|
+|종가|2230.0|
+|누적 거래량|6259750468.576863|
+|가격 변화|10.0|
+|가격 변동율|0.0045045045|
+[가상화폐 일간 통계 (엑시인피니티, 2022-03-23)](target_dir/2022-03-23/KRW-AXS-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|KRW-AXS|
+|종목|엑시인피니티(Axie Infinity)|
+|종가|70920.0|
+|누적 거래량|82647008431.45456|
+|가격 변화|6940.0|
+|가격 변동율|0.1084713973|
+[가상화폐 일간 통계 (스택스, 2022-03-23)](target_dir/2022-03-23/KRW-STX-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|KRW-STX|
+|종목|스택스(Stacks)|
+|종가|1635.0|
+|누적 거래량|32249769123.835117|
+|가격 변화|40.0|
+|가격 변동율|0.0250783699|
+[가상화폐 일간 통계 (그래프, 2022-03-23)](target_dir/2022-03-23/BTC-GRT-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-GRT|
+|종목|그래프(The Graph)|
+|종가|9.87e-06|
+|누적 거래량|12.28178847|
+|가격 변화|2e-07|
+|가격 변동율|0.0206825233|
+[가상화폐 일간 통계 (신세틱스, 2022-03-23)](target_dir/2022-03-23/BTC-SNX-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-SNX|
+|종목|신세틱스(Synthetix)|
+|종가|0.0001242|
+|누적 거래량|7.42773821|
+|가격 변화|1.81e-06|
+|가격 변동율|0.0147887899|
+[가상화폐 일간 통계 (팍스달러, 2022-03-23)](target_dir/2022-03-23/BTC-USDP-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-USDP|
+|종목|팍스달러(Pax Dollar)|
+|종가|2.391e-05|
+|누적 거래량|0.19025504|
+|가격 변화|3.5e-07|
+|가격 변동율|0.0148556876|
+[가상화폐 일간 통계 (이캐시, 2022-03-23)](target_dir/2022-03-23/KRW-XEC-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|KRW-XEC|
+|종목|이캐시(eCash)|
+|종가|0.102|
+|누적 거래량|12217262782.344627|
+|가격 변화|None|
+|가격 변동율|0|
+[가상화폐 일간 통계 (솔라나, 2022-03-23)](target_dir/2022-03-23/KRW-SOL-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|KRW-SOL|
+|종목|솔라나(Solana)|
+|종가|115400.0|
+|누적 거래량|91754086789.29707|
+|가격 변화|4400.0|
+|가격 변동율|0.0396396396|
+[가상화폐 일간 통계 (솔라나, 2022-03-23)](target_dir/2022-03-23/BTC-SOL-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-SOL|
+|종목|솔라나(Solana)|
+|종가|0.00221184|
+|누적 거래량|1.40236179|
+|가격 변화|6.048e-05|
+|가격 변동율|0.0281124498|
+[가상화폐 일간 통계 (폴리곤, 2022-03-23)](target_dir/2022-03-23/KRW-MATIC-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|KRW-MATIC|
+|종목|폴리곤(Polygon)|
+|종가|1890.0|
+|누적 거래량|23439442951.158657|
+|가격 변화|55.0|
+|가격 변동율|0.029972752|
+[가상화폐 일간 통계 (폴리곤, 2022-03-23)](target_dir/2022-03-23/BTC-MATIC-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-MATIC|
+|종목|폴리곤(Polygon)|
+|종가|3.651e-05|
+|누적 거래량|0.2251048|
+|가격 변화|1.37e-06|
+|가격 변동율|0.0389869095|
+[가상화폐 일간 통계 (누사이퍼, 2022-03-23)](target_dir/2022-03-23/KRW-NU-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|KRW-NU|
+|종목|누사이퍼(Nucypher)|
+|종가|524.0|
+|누적 거래량|7971911744.060044|
+|가격 변화|4.0|
+|가격 변동율|0.0076923077|
+[가상화폐 일간 통계 (누사이퍼, 2022-03-23)](target_dir/2022-03-23/BTC-NU-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-NU|
+|종목|누사이퍼(Nucypher)|
+|종가|1.016e-05|
+|누적 거래량|0.03682594|
+|가격 변화|6e-08|
+|가격 변동율|0.0059405941|
+[가상화폐 일간 통계 (에이브, 2022-03-23)](target_dir/2022-03-23/KRW-AAVE-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|KRW-AAVE|
+|종목|에이브(Aave)|
+|종가|189850.0|
+|누적 거래량|3683194908.3604097|
+|가격 변화|2950.0|
+|가격 변동율|0.0157838416|
+[가상화폐 일간 통계 (1인치네트워크, 2022-03-23)](target_dir/2022-03-23/KRW-1INCH-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|KRW-1INCH|
+|종목|1인치네트워크(1inch Network)|
+|종가|1960.0|
+|누적 거래량|10862525825.139097|
+|가격 변화|70.0|
+|가격 변동율|0.037037037|
+[가상화폐 일간 통계 (에이브, 2022-03-23)](target_dir/2022-03-23/BTC-AAVE-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-AAVE|
+|종목|에이브(Aave)|
+|종가|0.00358843|
+|누적 거래량|0.02388801|
+|가격 변화|-3.312e-05|
+|가격 변동율|-0.0091452555|
+[가상화폐 일간 통계 (1인치네트워크, 2022-03-23)](target_dir/2022-03-23/BTC-1INCH-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-1INCH|
+|종목|1인치네트워크(1inch Network)|
+|종가|3.812e-05|
+|누적 거래량|0.27717452|
+|가격 변화|1.19e-06|
+|가격 변동율|0.0322231248|
+[가상화폐 일간 통계 (마스크네트워크, 2022-03-23)](target_dir/2022-03-23/BTC-MASK-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-MASK|
+|종목|마스크네트워크(Mask Network)|
+|종가|0.00011263|
+|누적 거래량|30.93355346|
+|가격 변화|5.47e-06|
+|가격 변동율|0.0510451661|
+[가상화폐 일간 통계 (알고랜드, 2022-03-23)](target_dir/2022-03-23/KRW-ALGO-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|KRW-ALGO|
+|종목|알고랜드(Algorand)|
+|종가|1015.0|
+|누적 거래량|34193762931.041904|
+|가격 변화|5.0|
+|가격 변동율|0.004950495|
+[가상화폐 일간 통계 (오디우스, 2022-03-23)](target_dir/2022-03-23/BTC-AUDIO-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-AUDIO|
+|종목|오디우스(Audius)|
+|종가|2.393e-05|
+|누적 거래량|22.40228924|
+|가격 변화|4.1e-07|
+|가격 변동율|0.0174319728|
+[가상화폐 일간 통계 (니어프로토콜, 2022-03-23)](target_dir/2022-03-23/KRW-NEAR-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|KRW-NEAR|
+|종목|니어프로토콜(NEAR Protocol)|
+|종가|15180.0|
+|누적 거래량|90194450312.21408|
+|가격 변화|1700.0|
+|가격 변동율|0.1261127596|
+[가상화폐 일간 통계 (일드길드게임즈, 2022-03-23)](target_dir/2022-03-23/BTC-YGG-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-YGG|
+|종목|일드길드게임즈(Yield Guild Games)|
+|종가|6.512e-05|
+|누적 거래량|17.97474817|
+|가격 변화|3.1e-06|
+|가격 변동율|0.0499838762|
+[가상화폐 일간 통계 (깃코인, 2022-03-23)](target_dir/2022-03-23/BTC-GTC-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-GTC|
+|종목|깃코인(Gitcoin)|
+|종가|0.00016701|
+|누적 거래량|22.60780022|
+|가격 변화|2.96e-06|
+|가격 변동율|0.0180432795|
+[가상화폐 일간 통계 (오션프로토콜, 2022-03-23)](target_dir/2022-03-23/BTC-OCEAN-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-OCEAN|
+|종목|오션프로토콜(Ocean Protocol)|
+|종가|1.403e-05|
+|누적 거래량|36.73157531|
+|가격 변화|-7e-08|
+|가격 변동율|-0.004964539|
+[가상화폐 일간 통계 (크레딧코인, 2022-03-23)](target_dir/2022-03-23/BTC-CTC-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-CTC|
+|종목|크레딧코인(Creditcoin)|
+|종가|4.326e-05|
+|누적 거래량|176.87542469|
+|가격 변화|6.79e-06|
+|가격 변동율|0.1861804223|
+[가상화폐 일간 통계 (라이브피어, 2022-03-23)](target_dir/2022-03-23/BTC-LPT-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-LPT|
+|종목|라이브피어(Livepeer)|
+|종가|0.00067383|
+|누적 거래량|2.34526363|
+|가격 변화|3.83e-06|
+|가격 변동율|0.0057164179|
+[가상화폐 일간 통계 (위믹스, 2022-03-23)](target_dir/2022-03-23/KRW-WEMIX-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|KRW-WEMIX|
+|종목|위믹스(Wemix)|
+|종가|5595.0|
+|누적 거래량|45047405243.47466|
+|가격 변화|180.0|
+|가격 변동율|0.0332409972|
+[가상화폐 일간 통계 (위믹스, 2022-03-23)](target_dir/2022-03-23/BTC-WEMIX-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-WEMIX|
+|종목|위믹스(Wemix)|
+|종가|0.00010616|
+|누적 거래량|0.70712597|
+|가격 변화|1.13e-06|
+|가격 변동율|0.0107588308|
+[가상화폐 일간 통계 (아발란체, 2022-03-23)](target_dir/2022-03-23/KRW-AVAX-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|KRW-AVAX|
+|종목|아발란체(Avalanche)|
+|종가|104500.0|
+|누적 거래량|21231740476.041756|
+|가격 변화|1850.0|
+|가격 변동율|0.0180224062|
+[가상화폐 일간 통계 (아발란체, 2022-03-23)](target_dir/2022-03-23/BTC-AVAX-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-AVAX|
+|종목|아발란체(Avalanche)|
+|종가|0.00201441|
+|누적 거래량|0.43726884|
+|가격 변화|1.473e-05|
+|가격 변동율|0.0073661786|
+[가상화폐 일간 통계 (이뮤터블엑스, 2022-03-23)](target_dir/2022-03-23/BTC-IMX-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-IMX|
+|종목|이뮤터블엑스(Immutable X)|
+|종가|5.271e-05|
+|누적 거래량|87.45386469|
+|가격 변화|-2.2e-06|
+|가격 변동율|-0.0400655618|
+[가상화폐 일간 통계 (렌더토큰, 2022-03-23)](target_dir/2022-03-23/BTC-RNDR-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-RNDR|
+|종목|렌더토큰(Render Token)|
+|종가|6.537e-05|
+|누적 거래량|0.6442111|
+|가격 변화|-1.87e-06|
+|가격 변동율|-0.0278108269|
+[가상화폐 일간 통계 (랠리, 2022-03-23)](target_dir/2022-03-23/BTC-RLY-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-RLY|
+|종목|랠리(Rally)|
+|종가|4.93e-06|
+|누적 거래량|5.73580037|
+|가격 변화|1e-08|
+|가격 변동율|0.0020325203|
+[가상화폐 일간 통계 (쓰레스홀드, 2022-03-23)](target_dir/2022-03-23/KRW-T-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|KRW-T|
+|종목|쓰레스홀드(Threshold)|
+|종가|152.0|
+|누적 거래량|8713497220.575678|
+|가격 변화|None|
+|가격 변동율|0|
+[가상화폐 일간 통계 (쓰레스홀드, 2022-03-23)](target_dir/2022-03-23/BTC-T-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|BTC-T|
+|종목|쓰레스홀드(Threshold)|
+|종가|2.93e-06|
+|누적 거래량|0.34322046|
+|가격 변화|1e-08|
+|가격 변동율|0.0034246575|
+[가상화폐 일간 통계 (셀로, 2022-03-23)](target_dir/2022-03-23/KRW-CELO-daily-candle-10days.html)
+
+|항목|내용|
+|--|--|
+|마켓|KRW-CELO|
+|종목|셀로(Celo)|
+|종가|3820.0|
+|누적 거래량|56455079868.576324|
+|가격 변화|255.0|
+|가격 변동율|0.0715287518|
