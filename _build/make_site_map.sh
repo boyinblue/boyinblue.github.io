@@ -28,14 +28,17 @@ function print_list_xml()
   for dir in ${dirs[@]}
   do
     if [[ "${dir:0:3}" =~ ^[0-9]+$ ]]; then
+	  if [ ! -d ${dir} ]; then
+	    continue
+      fi
       files=$(ls ${dir}/*.md)
       for file in ${files[@]}
       do
         lastmod=$(date +"%m-%d-%YT%H:%M:%S%:z" -r ${file})
 	echo "  <url>"
         echo "    <loc>${HOMEPAGE_URL}/${file/.md/.html}</loc>"
-	echo "    <lastmod>${lastmod}</lastmod>"
-	echo "    <changefreq>weekly</changefreq>"
+#	echo "    <lastmod>${lastmod}</lastmod>"
+#	echo "    <changefreq>weekly</changefreq>"
 	echo "  </url>"
       done
     fi
@@ -48,6 +51,9 @@ function print_list_txt()
   for dir in ${dirs[@]}
   do
     if [[ "${dir:0:3}" =~ ^[0-9]+$ ]]; then
+	  if [ ! -d ${dir} ]; then
+	    continue
+	  fi
       files=$(ls ${dir}/*.md)
       for file in ${files[@]}
       do
