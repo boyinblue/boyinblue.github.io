@@ -1,3 +1,9 @@
+---
+title: GitHub에서 레포지토리의 생성일을 확인하는 방법
+description: GitHub API를 이용해서 레포지토리의 생성일을 확인하는 방법에 대해서 설명합니다.
+---
+
+
 GitHub에서 레포지토리의 생성일을 확인하는 방법
 ===
 
@@ -6,6 +12,7 @@ GitHub Pages를 생성하고 16일만에 구글의 애드센스를 게시할 수
 웹 페이지를 처음 생성한 초기에는 사용법에 익숙하지 않아서 많이 힘들었습니다. 
 아시다시피 GitHub Pages는 GitHub에서 관리되는 웹서버입니다. 
 무료로 사용할 수 있는데다가 GitHub의 형상 관리 기능을 그대로 사용할 수 있기 때문에 컨텐츠 관리에도 효율적입니다.
+
 
 나름 SW 개발을 약 15년 가까이 하고 있어서 GitHub에 상당히 익숙하니다만, 
 GitHub Pages용 레포지토리를 언제 생성했는지 막상 확인하려 했더니 어떻게 확인해야 될지 조금 막막하더군요.   
@@ -32,6 +39,7 @@ https://api.github.com/repos/{username}/{repository name}
 ```html
 https://api.github.com/repos/boyinblue/boyinblue.github.io
 ```
+
 
 실행 결과는 아래와 같습니다. 
 
@@ -98,12 +106,12 @@ $ jq --version
 ```
 
 
+패키지가 제대로 설치되었다면 아래와 같이 jq 패키지의 버전이 표시되게 됩니다. 
+
+
 ```bash
 jq-1.6
 ```
-
-
-정상적으로 설치되면 위와 같이 jq 패키지의 버전이 표시되게 됩니다.
 
 
 이제 본격적으로 jq를 이용해서 레포의 생성일을 확인할 차례입니다.
@@ -112,6 +120,9 @@ jq-1.6
 ```bash
 $ curl https://api.github.com/repos/boyinblue/boyinblue.github.io | jq '.created_at'
 ```
+
+
+레포지토리의 생성일이 UTC(세계 협정시)를 기준으로 표기됩니다. 
 
 
 ```bash
@@ -133,12 +144,15 @@ $ curl https://api.github.com/repos/boyinblue/boyinblue.github.io | jq '.created
 ```
 
 
+위와 같이 수행하면 쌍따움표가 제거된 상태로 레포지토리의 생성일이 출력됩니다. 
+
+
 ```bash
 2022-03-06T06:20:09Z
 ```
 
 
-xargs 명령을 거치면서 쌍따움표가 제거되어 깔끔하게 출력되는 것을 알 수 있습니다. 
+xargs 명령을 거치면서 쌍따움표가 제거되어 원하는대로 깔끔하게 출력되었습니다.  
 
 
 결론
