@@ -18,7 +18,7 @@ function make_header()
 
   echo "본 페이지에서는 개발 업무를 수행하며 습득한 일반적인 내용들을 정리해두는 페이지입니다. " >> ${README_FILE}
   echo "C, Bash, Python, Java, Java Script 등의 프로그래밍 언어에 대해서 다루고자 합니다. " >> ${README_FILE}
-  echo "그 외에도 Jenkins, Ubunt Linux, 라즈베리파이, GitHub, GitHub API, GitHub Pages 등에 대해서도 틈틈히 기록해두고자 합니다. " >> ${README_FILE}
+  echo "그 외에도 Jenkins, Ubuntu Linux, 라즈베리파이, GitHub, GitHub API, GitHub Pages 등에 대해서도 틈틈히 기록해두고자 합니다. " >> ${README_FILE}
   echo "이 공간은 저를 위한 기록이지만, 어쩌면 누군가에게 작은 도움이라도 될 수 있기를 바랍니다. " >> ${README_FILE}
   echo "" >> ${README_FILE}
   echo "" >> ${README_FILE}
@@ -52,6 +52,11 @@ function parse_html()
       title=${title%%|*}
       echo "title : ${title}"
       echo "[${title}](${dirname}/${fname})   " >> ${README_FILE}
+	elif [[ "${line}" == *"og:description"* ]]; then
+	  echo "line : ${line}"
+	  description=${line##*content=}
+	  description=${description%%/>}
+	  echo "description : ${description}   " >> ${README_FILE}
     fi
   done < /tmp/${dirname}_${fname}
 }
