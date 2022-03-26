@@ -156,7 +156,7 @@ p img {
 
 pre, code {
   color: #222;
-  background-color: #111;
+  background-color: #333;
 
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
   font-size: 0.875em;
@@ -167,7 +167,7 @@ pre, code {
 }
 
 pre {
-  padding: 10px;
+  padding: 3px;
   box-shadow: 0 0 10px rgba(0,0,0,.1);
   overflow: auto;
 }
@@ -305,7 +305,7 @@ Full-Width Styles
 }
 
 #header_wrap .inner {
-  padding: 50px 10px 30px 10px;
+  padding: 10px 10px 10px 10px;
 }
 
 #project_title {
