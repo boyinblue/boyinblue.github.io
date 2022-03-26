@@ -44,7 +44,7 @@ description : </span><span class="s">"GitHub Pages의 헤더에 title, descripti
 [GitHub Pages 빌드 에러 &quot;Error: No uploaded artifact was found! Please check if there are any errors at build step.&quot; ](002_github_blog/010-github-no-uploaded-artifact-was-found.html)   
 description : "GitHub Pages에서 빌드 에러가 발생시에 조치하는 방법에 대해서 설명합니다."    
 [현업 SW 개발자의 연구 노트 ](002_github_blog/011-github-mapping-values-are-not-allowed-in-this-context.html)   
-description : "본 페이지에서는 GitHub API, GitHub Pages, Jenkins, Bash, Python 등의 개발 정보를 제공합니다."    
+[GitHub Pages에서 css 파일 위치 ](002_github_blog/012-github-pages-css-file-path.html)   
    
 jenkins
 ---
