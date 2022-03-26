@@ -42,6 +42,9 @@ function parse_html()
     echo "---" >> ${README_FILE}
   fi
 
+  title=""
+  description=""
+
   while read line
   do
     if [[ "${line}" == *"<title>"* ]]; then
@@ -53,10 +56,15 @@ function parse_html()
       echo "title : ${title}"
       echo "[${title}](${dirname}/${fname})   " >> ${README_FILE}
 	elif [[ "${line}" == *"og:description"* ]]; then
+	  if [ "${description}" != "" ]; then
+	    continue
+	  fi
 	  echo "line : ${line}"
 	  description=${line##*content=}
 	  description=${description%%/>}
-	  echo "description : ${description}   " >> ${README_FILE}
+	  echo "${description}   " >> ${README_FILE}
+	  echo "   " >> ${README_FILE}
+	  echo "   " >> ${README_FILE}
     fi
   done < /tmp/${dirname}_${fname}
 }

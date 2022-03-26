@@ -1,3 +1,9 @@
+---
+title: [GitHub API] .git-credentials 파일로부터 id와 token을 안전하게 파싱하는 방법
+description: 
+---
+
+
 [GitHub API] .git-credentials 파일로부터 id와 token을 안전하게 파싱하는 방법
 ===
    
@@ -62,7 +68,7 @@ $ ls ~/.git-credentials -all
    
 <pre><code>
 $ ls ~/.git-credentials 
-https://boyinblue:*******************@github.com
+https://boyinblue:\*******************@github.com
 </code></pre>   
    
 저장되는 형식은 https://{id}:{token}@github.com 형식으로 저장이 됩니다. 
@@ -81,7 +87,7 @@ GitHub API를 호출하기 위한 토큰을 위의 파일에서 파싱해서 사
 
 credential=$(cat ~/.git-credentials)
 credential=${credential##https://}
-credential=${credential%%@*}
+credential=${credential%%@\*}
 
 id=${credential%%:*}
 token=${credential##*:}
@@ -105,7 +111,7 @@ $ wget https://raw.githubusercontent.com/boyinblue/blog_automation/main/get_toke
 <pre><code>
 credential=$(cat ~/.git-credentials)
 credential=${credential##https://}
-credential=${credential%%@*}
+credential=${credential%%@\*}
 </code></pre>
    
 가장 먼저 "https://" 부분에 제거한 후, '@' 부터의 부분을 제거합니다. 
