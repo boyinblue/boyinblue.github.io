@@ -1,16 +1,18 @@
 ---
-Title: '\"mapping values are not allwed in this context at line 2 column 33\" 해결 방법'
-Description: 'GitHub Pages의 md 파일 상단에 YAML 형식의 헤더를 추가했을 때 발생하는 \"mapping values are not allwed in this context at line 2 column 33\"에러를 조치하는 방법에 대해서 설명한다.'
+title: '\"mapping values are not allwed in this context at line 2 column 33\" 해결 방법'
+description: 'GitHub Pages의 md 파일 상단에 YAML 형식의 헤더를 추가했을 때 발생하는 \"mapping values are not allwed in this context at line 2 column 33\"에러를 조치하는 방법에 대해서 설명한다.'
 ---
+
 
 지난 시간에 GitHub Pages가 더 잘 검색되도록 하기 위해서 
 md 파일의 상단에 아래와 같은 형식으로 title과 description의 YAML 형식의 헤더를 추가하는 방법에 대해서 언급했다.
 
 
+
 ```
 ---
-Title: 제목으로 사용할 문자열
-Description: 페이지에 대한 설명으로 사용할 문자열
+title: 제목으로 사용할 문자열
+description: 페이지에 대한 설명으로 사용할 문자열
 ---
 ```
 
@@ -33,7 +35,7 @@ mapping values are not allowed in this context at line 2 column 33
 
 ```
 ---
-Title: "mapping values are not allwed in this context at line 2 column 33" 해
+title: "mapping values are not allwed in this context at line 2 column 33" 해
 결 방법
 ---
 ```
@@ -44,7 +46,7 @@ Title: "mapping values are not allwed in this context at line 2 column 33" 해
 
 ```
 ---
-Title: \"mapping values are not allwed in this context at line 2 column 33\" 해
+title: \"mapping values are not allwed in this context at line 2 column 33\" 해
 결 방법
 ---
 ```
@@ -86,6 +88,9 @@ Error:  Invalid scheme format: '2022-03-23T00'
 
 
 만약 GitHub Pages의 헤더에 작성하는 YAML 형식의 정보에서 "mapping value are not allowed in this context at line 2 column 33"과 같은 에러가 빌드시에 발생한다면 값에 따옴표가 있는건 아닌지 살펴보자. 
+
+
+또한, <code>:</code>와 같은 문자도 허용되지 않기 때문에 주의가 필요하다.
 
 
 
