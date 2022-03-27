@@ -70,8 +70,8 @@ github_blog
 "GitHub Pages에서 빌드 에러가 발생시에 조치하는 방법에 대해서 설명합니다."    
    
    
-[현업 SW 개발자의 연구 노트 ](002_github_blog/011-github-mapping-values-are-not-allowed-in-this-context.html)   
-"본 페이지에서는 GitHub API, GitHub Pages, Jenkins, Bash, Python 등의 개발 정보를 제공합니다."    
+[&quot;mapping values are not allwed in this context at line 2 column 33&quot; 해결 방법 ](002_github_blog/011-github-mapping-values-are-not-allowed-in-this-context.html)   
+"GitHub Pages의 md 파일 상단에 YAML 형식의 헤더를 추가했을 때 발생하는 &quot;mapping values are not allwed in this context at line 2 column 33&quot;에러를 조치하는 방법에 대해서 설명한다."    
    
    
 [GitHub Pages에서 css 파일 위치 ](002_github_blog/012-github-pages-css-file-path.html)   
@@ -163,8 +163,8 @@ upbit
    
 raspberry
 ---
-[라즈베리파이로 GPIO 제어시 “RuntimeError: Not running on a RPi!” 문제 해결 방법 (3가지) ](010_raspberry/001-not-running-on-RPi.html)   
-"본 페이지에서는 GitHub API, GitHub Pages, Jenkins, Bash, Python 등의 개발 정보를 제공합니다."    
+[라즈베리파이로 GPIO 제어시 &quot;RuntimeError: Not running on a RPi!&quot; 문제 해결 방법 (3가지) ](010_raspberry/001-not-running-on-RPi.html)   
+"파이선으로 작성한 GPIO 제어 스크립트가 “RuntimeError: Not running on a RPi!”라는 메시지와 함께 수행되지 못하는 문제를 해결하는 방법에 대해서 설명합니다."    
    
    
    
