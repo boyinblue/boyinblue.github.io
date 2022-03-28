@@ -1,13 +1,37 @@
 import os
 from bs4 import BeautifulSoup
 
+# 체커가 돌지 않도록 제외할 경로 설정
+exclude_dir_starts_with = [
+        "../009_upbit/2022"
+        ]
+
+exclude_dir_match_with = [
+        "../README.md"
+        ]
+
+def is_exclude_path(path):
+    """ 제외할 경로인지 확인 """
+    for keyword in exclude_dir_starts_with:
+        if path.startswith(keyword):
+            return True
+    for keyword in exclude_dir_match_with:
+        if keyword == path:
+            return True
+    return False
+
 def add_line_into_body(yaml, line):
+    """ YAML 헤더가 아닌 본문은 "BODY" 항목에 누적한다. """
+    """ 공란일 경우는 누적하지 않는다. """
+    """ 공란은 PADDING 항목으로 고정되도록 하기 위함이다. """
+    """ 공란이 아닌 데이터가 한 번이라도 누적되면 그 이후의 공란으 저장된다."""
     if yaml["BODY"] == "" and line == "\n":
         return
     
     yaml["BODY"] = yaml["BODY"] + line
 
 def read_yaml_header(arrLines, yaml):
+    """ md 파일로부터 YAML 헤더 정보를 가져온다. """
     for line in arrLines:
         parsing_done = False
 
@@ -38,7 +62,7 @@ def read_yaml_header(arrLines, yaml):
                     print("Invalid YAML header :", line)
                     return 1
                 yaml[key] = line
-                print(yaml[key])
+#                print(yaml[key])
                 parsing_done = True
                 break
 
@@ -104,7 +128,9 @@ def iterate_directory(dir):
     for file in files:
         path = "{}/{}".format(dir, file)
 #        print( "file : {}".format(path) )
-        if file.endswith(".md"):
+        if is_exclude_path(path):
+            print("  Excluding :", path)
+        elif file.endswith(".md"):
 #            print("  Check md file")
             check_md_file(path)
         elif os.path.isdir(path):
