@@ -2,8 +2,6 @@ import os
 from bs4 import BeautifulSoup
 
 def read_yaml_header(arrLines, yaml):
-    yaml_flag = False
-
     for line in arrLines:
         parsing_done = False
 
@@ -11,17 +9,19 @@ def read_yaml_header(arrLines, yaml):
         if yaml["YAML_END"] == "---\n":
             yaml["BODY"] = yaml["BODY"] + line
             continue
+
         # "---" 문자열이 나오면 YAML START인지 YAML END인지 판별한다.
-        elif line == "---\n":
-            if not yaml_flag:
-                yaml_flag = True
+        if line == "---\n":
+            if yaml["YAML_START"] == "":
                 print("YAML header started!")
                 yaml["YAML_START"] = line
                 continue
-            else:
-                yaml_flag = False
+            elif yaml["YAML_END"] == "":
                 print("YAML header end!")
                 yaml["YAML_END"] = line
+                continue
+            else
+                yaml["BODY"] = yaml["BODY"] + line
                 continue
 
         # YAML 헤더를 파싱한다.
@@ -39,6 +39,8 @@ def read_yaml_header(arrLines, yaml):
         # YAML 헤더 목록에 없는 항목이 발견됨
         if not parsing_done:
 #            print("Not defined YAML header :", line)
+            yaml["YAML_START"] = "---\n"
+            yaml["YAML_END"] = "---\n"
             yaml["BODY"] = yaml["BODY"] + line
 
     return 0
@@ -46,19 +48,20 @@ def read_yaml_header(arrLines, yaml):
 def check_yaml_header(yaml, filename):
 
     if yaml["YAML_START"] == "":
-        yaml["YAML_START"] == "---\n"
+        yaml["YAML_START"] = "---\n"
     if yaml["title: "] == "":
         yaml["title: "] = "title: Need To Update\n"
     if yaml["description: "] == "":
-        yaml["description: "] == "description: Need To Update\n"
+        yaml["description: "] = "description: Need To Update\n"
     if yaml["YAML_END"] == "":
-        yaml["YAML_END"] == "---\n"
+        yaml["YAML_END"] = "---\n"
 
     f = open(filename, 'w')
     f.write(yaml["YAML_START"])
     f.write(yaml["title: "])
     f.write(yaml["description: "])
     f.write(yaml["YAML_END"])
+    f.write(yaml["PADDING"])
     f.write(yaml["BODY"])
     f.close()
 
@@ -68,6 +71,7 @@ def check_md_file(filename):
             "title: " : "",
             "description: " : "",
             "YAML_END" : "",
+            "PADDING" : "\n\n"
             "BODY" : "" }
 
     cnt = 0
