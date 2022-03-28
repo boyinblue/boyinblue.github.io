@@ -13,7 +13,7 @@ function make_header()
 {
   echo "---" >> ${README_FILE}
   echo "title: 현업 SW 개발자의 연구 노트" >> ${README_FILE}
-  echo "description: 개발 업무를 수행하며 습득한 일반적인 내용들을 정리해두ㅡㄴ 페이지입니다." >> ${README_FILE}
+  echo "description: 개발 업무를 수행하며 습득한 일반적인 내용들을 정리해두는 페이지입니다." >> ${README_FILE}
   echo "---" >> ${README_FILE}
   echo "" >> ${README_FILE}
   echo "" >> ${README_FILE}
