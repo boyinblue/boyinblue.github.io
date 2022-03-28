@@ -1,6 +1,6 @@
 ---
-title: Need To Update
-description: Need To Update
+title: 현업 SW 개발자의 연구 노트
+description: 개발 업무를 수행하며 습득한 일반적인 내용들을 정리해두ㅡㄴ 페이지입니다.
 ---
 현업 SW 개발자의 연구 노트
 ===
@@ -14,6 +14,7 @@ C, Bash, Python, Java, Java Script 등의 프로그래밍 언어에 대해서 �
 
    
 github_api
+---
 [ API 호출시 Bad Credentials 에러 발생시 조치 방법 ](001_github_api/001_bad_credential.html)   
 "본 페이지에서는 GitHub API, GitHub Pages, Jenkins, Bash, Python 등의 개발 정보를 제공합니다."    
    
@@ -32,6 +33,7 @@ github_api
    
    
 github_blog
+---
 [무료 도메인 네임 및 무료 웹서버 추천 (GitHub 블로그 개설 방법 및 장점) ](002_github_blog/001_advantage_of_github_blog.html)   
 "본 페이지에서는 무료 웹서버로 활용할 수 있는 GitHub 블로그(GitHub Pages)에 대해서 소개하고자 합니다."    
    
