@@ -89,7 +89,7 @@ function parse_sitemap()
     dirname=${local_path%/*}
     echo "dirname : ${dirname}"
 
-    if [ "fname" == "README.md" ] || [ "$fname" == "index.md" ]; then
+    if [ "$fname" == "README.md" ] || [ "$fname" == "index.md" ]; then
       continue
     fi
 
