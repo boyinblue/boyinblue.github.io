@@ -1,3 +1,7 @@
+---
+title: Need To Update
+description: Need To Update
+---
 모질라 썬더버드 메일 설정 방법 (네이버, gmail, 다음, 네이트)
 ===
 

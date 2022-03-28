@@ -1,3 +1,7 @@
+---
+title: Need To Update
+description: Need To Update
+---
 Ubuntu Linux Crontab 실행 안됨 (crontab에서는 bash 문법 허용 안됨)
 ===
    
@@ -11,7 +15,6 @@ bash 쉘에서는 잘 동작하던 스크립트가 crontab에만 등록하면
 본 페이지에서는 쉘에서는 잘 동작하는 스크립트가 crontab에 등록하면 동작하지 않는 문제에 대해서 살펴보고 기록합니다.   
    
 crontab에 pushd 명령과 popd 명령을 사용해서는 안됨
----
    
 기본적으로 Ubuntu Linux에서 터미널을 열면 쉘이 실행됩니다. 
 대부분은 bash 쉘을 사용하지요. 
@@ -43,7 +46,6 @@ crontab에서는 이를 인식할 수 없기 때문입니다.
 pushd 명령을 cd로 변경하면 그 이후부터는 의도한대로 동작하는 것을 확인할 수 있습니다.   
    
 crontab이 제대로 동작하지 않을 때 원인 분석 방법
----
    
 위의 문제는 한 가지 예시에 불과합니다. 
 지원하지 않는 pushd 명령을 사용하는 것 외에도 다양한 원인들이 있을 수 있겠지요. 
