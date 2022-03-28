@@ -20,12 +20,12 @@ C, Bash, Python, Java, Java Script 등의 프로그래밍 언어 관련 내용�
 이 공간은 저를 위한 기록이지만, 어쩌면 누군가에게 작은 도움이라도 될 수 있기를 바랍니다. 
 
 
-\n
-\n
+
+
 GITHUB API
 ---
-[ API 호출시 Bad Credentials 에러 발생시 조치 방법 ](001_github_api/001_bad_credential.html)   
-"본 페이지에서는 GitHub API, GitHub Pages, Jenkins, Bash, Python 등의 개발 정보를 제공합니다."    
+[GitHub API 호출시 Bad Credentials 에러 발생시 조치 방법 ](001_github_api/001_bad_credential.html)   
+"본 페이지에서는 GitHub API 호출시에 Bad credentials 응답이 오는 문제를 해결하는 방법을 기술하고자 합니다."    
    
    
 [GitHub API .git-credentials 파일로부터 id와 token을 안전하게 파싱하는 방법 ](001_github_api/002_get_token_from_credential_file.html)   
@@ -40,8 +40,8 @@ GITHUB API
 "GitHub API를 이용해서 레포지토리의 생성일을 확인하는 방법에 대해서 설명합니다."    
    
    
-\n
-\n
+
+
 GITHUB BLOG
 ---
 [무료 도메인 네임 및 무료 웹서버 추천 (GitHub 블로그 개설 방법 및 장점) ](002_github_blog/001_advantage_of_github_blog.html)   
@@ -92,16 +92,16 @@ GITHUB BLOG
 "GitHub Pages에서 css를 변경하고자 할 때 편집해야하는 css 파일 위치에 대해서 설명합니다."    
    
    
-\n
-\n
+
+
 JENKINS
 ---
 [Jenkins Hook이 제대로 전달되지 못하는 경우 해결 방법 (GitHub Pull Request Builder 오류 및 역방향 프록시 설정 오류) ](003_jenkins/001.html)   
 "Jenkins에서 GitHub Pull Request Builder가 역방향 프록시 설정 오류 메시지가 발생하면서 빌드되지 않는 오류를 해결하는 방법에 대해서 설명합니다."    
    
    
-\n
-\n
+
+
 PYTHON
 ---
 [OpenCV를 이용하여 이미지를 출력하는 방법과 캠을 동작시키는 방법 ](004_python/001.html)   
@@ -116,24 +116,24 @@ PYTHON
 "파이선에 관련된 내용을 정리하는 페이지입니다."    
    
    
-\n
-\n
+
+
 BASH
 ---
 [파일의 마지막 수정 시간을 가져오는 방법(Ubuntu Bash) ](005_bash/001.html)   
 "Ubuntu Bash Shell에서 파일의 마지막 수정 시간을 가져오는 방법에 대해서 설명합니다."    
    
    
-\n
-\n
+
+
 JAVASCRIPT
 ---
 [자바스크립트에서 2차원 배열 선언 및 사용 방법 ](007_javascript/001.html)   
 "자바 스크립트에서 2차원 배열의 선언을 지원하지는 않지만, 약간의 트릭을 이용하여 2차원 배열을 선언할 수 있는 방법을 설명합니다."    
    
    
-\n
-\n
+
+
 UBUNTU
 ---
 [Ubuntu Linux에서 ssmtp로 이메일 전송하는 초간단 방법 (이메일 전송 자동화) ](008_ubuntu/001.html)   
@@ -156,8 +156,8 @@ UBUNTU
 "Ubuntu Linux 파일 시스템에 생성되는 dead.letter 파일의 정체를 알아보고 어떻게 다뤄야 하는지에 대해서 알아보겠습니다."    
    
    
-\n
-\n
+
+
 UPBIT
 ---
 [업비트 일간 캔들 조회(2022-03-23T00:00:00) ](009_upbit/2022-03-23daily-candle-10days.html)   
@@ -180,16 +180,16 @@ UPBIT
 "업비트 API 호출시에 “Too many API requests.” 문제 발생시에 해결 방법에 대해서 설명합니다."    
    
    
-\n
-\n
+
+
 RASPBERRY
 ---
 [라즈베리파이로 GPIO 제어시 &quot;RuntimeError: Not running on a RPi!&quot; 문제 해결 방법 (3가지) ](010_raspberry/001-not-running-on-RPi.html)   
 "파이선으로 작성한 GPIO 제어 스크립트가 “RuntimeError: Not running on a RPi!”라는 메시지와 함께 수행되지 못하는 문제를 해결하는 방법에 대해서 설명합니다."    
    
    
-\n
-\n
+
+
 OPINET
 ---
 [오피넷 유가정보 API 무료 토큰 획득하는 방법 ](011_opinet/001_opinet-key-acquire.html)   
