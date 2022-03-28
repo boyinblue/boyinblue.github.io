@@ -30,9 +30,9 @@ function parse_html()
 	dir_title=${dir_title^^}
 
     index_path=""
-	if [ -e ${dirname}/index.md ]; then
+	if [ -e "../${dirname}/index.md" ]; then
 	  index_path="${dirname}/index.html"
-	elif [ -e ${dirname}/README.md ]; then
+	elif [ -e "../${dirname}/README.md" ]; then
 	  index_path="${dirname}/README.html"
 	fi
 
@@ -88,6 +88,10 @@ function parse_sitemap()
     echo "fname : ${fname}"
     dirname=${local_path%/*}
     echo "dirname : ${dirname}"
+
+    if [ "fname" == "README.md" ] || [ "$fname" == "index.md" ]; then
+      continue
+    fi
 
     wget -q -O /tmp/${dirname}_${fname} ${line}
     parse_html ${dirname} ${fname}
