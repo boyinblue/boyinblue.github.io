@@ -24,8 +24,8 @@ C, Bash, Python, Java, Java Script 등의 프로그래밍 언어 관련 내용�
 
 GITHUB API
 ---
-[GitHub API 호출시 Bad Credentials 에러 발생시 조치 방법 ](001_github_api/001_bad_credential.html)   
-"본 페이지에서는 GitHub API 호출시에 Bad credentials 응답이 오는 문제를 해결하는 방법을 기술하고자 합니다."    
+[ API 호출시 Bad Credentials 에러 발생시 조치 방법 ](001_github_api/001_bad_credential.html)   
+"본 페이지에서는 GitHub API, GitHub Pages, Jenkins, Bash, Python 등의 개발 정보를 제공합니다."    
    
    
 [GitHub API .git-credentials 파일로부터 id와 token을 안전하게 파싱하는 방법 ](001_github_api/002_get_token_from_credential_file.html)   
