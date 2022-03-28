@@ -47,6 +47,17 @@ Error reading file /github/workspace/006_java/001.md: invalid byte sequence in U
 실제로 해당 파일을 열어보니 파일이 깨져 있었습니다.
 
 
+빌드 에러가 아니라 deploy 에러라면?
+---
+
+
+만약 build 단계의 에러가 아니라 deploy 단계의 에러라면 
+아래의 페이지를 참조하시기 바랍니다. 
+
+
+[GitHub Pages deploy 에러 발생](013-github-pages-deploy-error-400-502.html)
+
+
 문제의 해결
 ---
 
@@ -66,4 +77,4 @@ Encoding 형식에 맞지 않는 문자가 *md* 파일에 포함되었는지 확
 파일이 깨져있거나, 처리할 수 없는 문자가 있을 경우 해당 파일을 삭제하고 push하면 정상적으로 빌드되는 것을 확인하실 수 있습니다.
 
 
-
+이상입니다. 
