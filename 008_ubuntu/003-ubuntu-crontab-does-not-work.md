@@ -1,6 +1,6 @@
 ---
-title: Need To Update
-description: Need To Update
+title: Ubuntu Linux Crontab 실행 안됨 (crontab에서는 bash 문법 허용 안됨)
+description: 우분투 리눅스에서 crontabl이 실행되지 않는 문제 해결 방법에 대해서 설명합니다.
 ---
 
 
