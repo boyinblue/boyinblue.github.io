@@ -2,33 +2,13 @@
 
 SITEMAP_TXT_FILE="../sitemap.txt"
 README_FILE="../README.md"
+README_FORMAT_FILE="../README.format"
 HOMEPAGE_URL="https://boyinblue.github.io"
 
 if [ ! -e ${SITEMAP_TXT_FILE} ]; then
   echo "There is no site map file"
   exit -1
 fi
-
-function make_header()
-{
-  echo "---" >> ${README_FILE}
-  echo "title: 현업 SW 개발자의 연구 노트" >> ${README_FILE}
-  echo "description: 개발 업무를 수행하며 습득한 일반적인 내용들을 정리해두는 페이지입니다." >> ${README_FILE}
-  echo "---" >> ${README_FILE}
-  echo "" >> ${README_FILE}
-  echo "" >> ${README_FILE}
-  echo "현업 SW 개발자의 연구 노트" >> ${README_FILE}
-  echo "===" >> ${README_FILE}
-  echo "" >> ${README_FILE}
-  echo "" >> ${README_FILE}
-
-  echo "본 페이지에서는 개발 업무를 수행하며 습득한 일반적인 내용들을 정리해두는 페이지입니다. " >> ${README_FILE}
-  echo "C, Bash, Python, Java, Java Script 등의 프로그래밍 언어에 대해서 다루고자 합니다. " >> ${README_FILE}
-  echo "그 외에도 Jenkins, Ubuntu Linux, 라즈베리파이, GitHub, GitHub API, GitHub Pages 등에 대해서도 틈틈히 기록해두고자 합니다. " >> ${README_FILE}
-  echo "이 공간은 저를 위한 기록이지만, 어쩌면 누군가에게 작은 도움이라도 될 수 있기를 바랍니다. " >> ${README_FILE}
-  echo "" >> ${README_FILE}
-  echo "" >> ${README_FILE}
-}
 
 function parse_html()
 {
@@ -43,8 +23,25 @@ function parse_html()
 
   if [ "${dirname}" != "${pre_dirname}" ]; then
     pre_dirname="${dirname}"
-    echo "   " >> ${README_FILE}
-    echo "${dirname:4}" >> ${README_FILE}
+    echo "\n" >> ${README_FILE}
+    echo "\n" >> ${README_FILE}
+	dir_title=${dirname/_/ }
+	dir_title=${dir_title/_/ }
+	dir_title=${dir_title^^}
+
+    index_path=""
+	if [ -e ${dirname}/index.md ]; then
+	  index_path="${dirname}/index.html"
+	elif [ -e ${dirname}/README.md ]; then
+	  index_path="${dirname}/README.html"
+	fi
+
+	if [ "${index_path}" != "" ]; then
+	  echo "[${dir_title:4}](${index_path})" >> ${README_FILE}
+	else
+      echo "${dir_title:4}" >> ${README_FILE}
+	fi
+
     echo "---" >> ${README_FILE}
   fi
 
@@ -83,6 +80,7 @@ function parse_sitemap()
 
   while read line
   do
+    echo ""
     echo "URL : ${line}"
     local_path=${line##${HOMEPAGE_URL}/}
     echo "Local Path : ${local_path}"
@@ -97,5 +95,5 @@ function parse_sitemap()
 }
 
 rm -f ${README_FILE}
-make_header
+cp ${README_FORMAT_FILE} ${README_FILE}
 parse_sitemap
