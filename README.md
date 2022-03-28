@@ -55,7 +55,7 @@ github_blog
    
    
 [GitHub Pages에서 php 문법을 사용 가능할까? ](002_github_blog/006.html)   
-"본 페이지에서는 GitHub API, GitHub Pages, Jenkins, Bash, Python 등의 개발 정보를 제공합니다."    
+"GitHub Pages에서 php 문법 사용 가능 여부에 대해서 설명합니다."    
    
    
 [ 사이트맵을 자동으로 생성해주는 bash 스크립트 ](002_github_blog/007.html)   
@@ -63,7 +63,7 @@ github_blog
    
    
 [GitHub Pages 운영시의 꿀팁들 ](002_github_blog/008.html)   
-"본 페이지에서는 GitHub API, GitHub Pages, Jenkins, Bash, Python 등의 개발 정보를 제공합니다."    
+"GitHub Pages를 운영하면서 체득한 유용한 팁들을 제공합니다."    
    
    
 [SEO를 위해 GitHub Pages 의 md 파일에 헤더를 입력하는 방법 ](002_github_blog/009.html)   
@@ -86,18 +86,18 @@ github_blog
 jenkins
 ---
 [Jenkins Hook이 제대로 전달되지 못하는 경우 해결 방법 (GitHub Pull Request Builder 오류 및 역방향 프록시 설정 오류) ](003_jenkins/001.html)   
-"본 페이지에서는 GitHub API, GitHub Pages, Jenkins, Bash, Python 등의 개발 정보를 제공합니다."    
+"Jenkins에서 GitHub Pull Request Builder가 역방향 프록시 설정 오류 메시지가 발생하면서 빌드되지 않는 오류를 해결하는 방법에 대해서 설명합니다."    
    
    
    
 python
 ---
 [OpenCV를 이용하여 이미지를 출력하는 방법과 캠을 동작시키는 방법 ](004_python/001.html)   
-"본 페이지에서는 GitHub API, GitHub Pages, Jenkins, Bash, Python 등의 개발 정보를 제공합니다."    
+"OpenCV를 이용해서 이미지를 출력하는 방법과 실시간으로 캠 영상을 표시하는 방법에 대해서 설명합니다."    
    
    
 [파이선 터틀 그래픽을 이용해서 간단한 랜덤 문자 출력 방법 ](004_python/002.html)   
-"본 페이지에서는 GitHub API, GitHub Pages, Jenkins, Bash, Python 등의 개발 정보를 제공합니다."    
+"파이선 터플 그래픽을 이용하여 간단한 랜덤 문자를 출력하는 방법에 대해서 설명합니다."    
    
    
 [Python Study ](004_python/README.html)   
@@ -115,26 +115,26 @@ bash
 javascript
 ---
 [자바스크립트에서 2차원 배열 선언 및 사용 방법 ](007_javascript/001.html)   
-"본 페이지에서는 GitHub API, GitHub Pages, Jenkins, Bash, Python 등의 개발 정보를 제공합니다."    
+"자바 스크립트에서 2차원 배열의 선언을 지원하지는 않지만, 약간의 트릭을 이용하여 2차원 배열을 선언할 수 있는 방법을 설명합니다."    
    
    
    
 ubuntu
 ---
 [Ubuntu Linux에서 ssmtp로 이메일 전송하는 초간단 방법 (이메일 전송 자동화) ](008_ubuntu/001.html)   
-"본 페이지에서는 GitHub API, GitHub Pages, Jenkins, Bash, Python 등의 개발 정보를 제공합니다."    
+"ssmtp 패키지를 이용하여 이메일을 전송하는 방법에 대해서 설명합니다."    
    
    
-[Ubuntu Linux에서 공인 IP를 확인하는 방법(Windows, Linux 공통) ](008_ubuntu/002.html)   
-"본 페이지에서는 GitHub API, GitHub Pages, Jenkins, Bash, Python 등의 개발 정보를 제공합니다."    
+[공인 IP를 확인하는 방법(Windows, Ubuntu Linux 공통) ](008_ubuntu/002.html)   
+"Ubuntu Linux 쉘에서 공인 IP를 확인하는 방법을 설명합니다."    
    
    
 [Ubuntu Linux Crontab 실행 안됨 (crontab에서는 bash 문법 허용 안됨) ](008_ubuntu/003-ubuntu-crontab-does-not-work.html)   
-"본 페이지에서는 GitHub API, GitHub Pages, Jenkins, Bash, Python 등의 개발 정보를 제공합니다."    
+"우분투 리눅스에서 crontabl이 실행되지 않는 문제 해결 방법에 대해서 설명합니다."    
    
    
 [모질라 썬더버드 메일 설정 방법 (네이버, gmail, 다음, 네이트) ](008_ubuntu/004-thunderbird-email-setting-naver-gmail-daum.html)   
-"본 페이지에서는 GitHub API, GitHub Pages, Jenkins, Bash, Python 등의 개발 정보를 제공합니다."    
+"Ubuntu Linux에서 기본적으로 제공하는 메일 프로그램인 모질라 썬더버드에 개인 메일 계정을 연결하는 방법에 대해서 설명합니다."    
    
    
 [dead.letter 파일의 정체 (삭제 요망) ](008_ubuntu/005-what-is-dead_letteres.html)   
