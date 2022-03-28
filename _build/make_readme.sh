@@ -23,8 +23,8 @@ function parse_html()
 
   if [ "${dirname}" != "${pre_dirname}" ]; then
     pre_dirname="${dirname}"
-    echo "\n" >> ${README_FILE}
-    echo "\n" >> ${README_FILE}
+    echo "" >> ${README_FILE}
+    echo "" >> ${README_FILE}
 	dir_title=${dirname/_/ }
 	dir_title=${dir_title/_/ }
 	dir_title=${dir_title^^}
