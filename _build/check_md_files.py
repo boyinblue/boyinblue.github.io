@@ -2,7 +2,7 @@ import os
 from bs4 import BeautifulSoup
 
 def add_line_into_body(yaml, line):
-    if yaml["BODY"] == "" && line == "\n":
+    if yaml["BODY"] == "" and line == "\n":
         return
     
     yaml["BODY"] = yaml["BODY"] + line
