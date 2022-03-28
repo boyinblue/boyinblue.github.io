@@ -14,6 +14,7 @@ https://boyinblue.github.io/002_github_blog/009.html
 https://boyinblue.github.io/002_github_blog/010-github-no-uploaded-artifact-was-found.html
 https://boyinblue.github.io/002_github_blog/011-github-mapping-values-are-not-allowed-in-this-context.html
 https://boyinblue.github.io/002_github_blog/012-github-pages-css-file-path.html
+https://boyinblue.github.io/002_github_blog/013-github-pages-deploy-error-400-502.html
 https://boyinblue.github.io/003_jenkins/001.html
 https://boyinblue.github.io/004_python/001.html
 https://boyinblue.github.io/004_python/002.html

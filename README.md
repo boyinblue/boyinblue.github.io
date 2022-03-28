@@ -92,6 +92,10 @@ GITHUB BLOG
 "GitHub Pages에서 css를 변경하고자 할 때 편집해야하는 css 파일 위치에 대해서 설명합니다."    
    
    
+[GitHub Pages deploy 시에 400 에러나 502 에러가 발생할 경우 조치 방법 ](002_github_blog/013-github-pages-deploy-error-400-502.html)   
+"GitHub Pages로 새로운 변경점을 반영하려고 할 때 400 에러나 502 에러가 발생할 경우 조치하는 방법입니다."    
+   
+   
 
 
 JENKINS
