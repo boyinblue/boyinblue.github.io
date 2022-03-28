@@ -38,8 +38,8 @@ def read_yaml_header(arrLines, yaml):
 
         # YAML 헤더 목록에 없는 항목이 발견됨
         if not parsing_done:
-            print("Not defined YAML header :", line)
-            return 2
+#            print("Not defined YAML header :", line)
+            yaml["BODY"] = yaml["BODY"] + line
 
     return 0
 
@@ -48,9 +48,9 @@ def check_yaml_header(yaml, filename):
     if yaml["YAML_START"] == "":
         yaml["YAML_START"] == "---\n"
     if yaml["title: "] == "":
-        yaml["title: "] = "title: Need To Update"
+        yaml["title: "] = "title: Need To Update\n"
     if yaml["description: "] == "":
-        yaml["description: "] == "description: Need To Update"
+        yaml["description: "] == "description: Need To Update\n"
     if yaml["YAML_END"] == "":
         yaml["YAML_END"] == "---\n"
 
@@ -81,7 +81,7 @@ def check_md_file(filename):
         arrLines.append(line)
         cnt = cnt + 1
 
-    print( "{} lines read".format(cnt))
+#    print( "{} lines read".format(cnt))
     f.close()
 
     if read_yaml_header(arrLines, yaml):
@@ -95,7 +95,7 @@ def iterate_directory(dir):
         path = "{}/{}".format(dir, file)
         print( "file : {}".format(path) )
         if file.endswith(".md"):
-            print("  Check md file")
+#            print("  Check md file")
             check_md_file(path)
         elif os.path.isdir(path):
             iterate_directory(path)
