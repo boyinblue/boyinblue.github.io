@@ -105,7 +105,7 @@ GitHub Pages deploy에러가 발생했다면 변경점이 deploy 에러를 유�
 만약 deploy 에러가 아니라 build 에러라면 아래의 페이지를 참조하세요. 
 
 
-[GitHub Pages 빌드 에러 조치 방법](010-github-no-uploaded-artifact-was-found.md)
+[GitHub Pages 빌드 에러 조치 방법](010-github-no-uploaded-artifact-was-found.html)
 
 
 이상입니다. 
