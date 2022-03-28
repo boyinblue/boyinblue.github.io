@@ -21,8 +21,8 @@ github_api
 "본 페이지에서는 GitHub API, GitHub Pages, Jenkins, Bash, Python 등의 개발 정보를 제공합니다."    
    
    
-[ .git-credentials 파일로부터 id와 token을 안전하게 파싱하는 방법 ](001_github_api/002_get_token_from_credential_file.html)   
-"본 페이지에서는 GitHub API, GitHub Pages, Jenkins, Bash, Python 등의 개발 정보를 제공합니다."    
+[GitHub API .git-credentials 파일로부터 id와 token을 안전하게 파싱하는 방법 ](001_github_api/002_get_token_from_credential_file.html)   
+"Bash 쉘 스크립트를 이용하여 GitHub 토큰를 파싱하는 방법을 설명합니다."    
    
    
 [ “server certificate verification failed. CAfile: none CRLfile: none” 에러 조치 방법 ](001_github_api/003-server-certificate-verification-fail.html)   
@@ -44,8 +44,8 @@ github_blog
 "GitHub 블로그에 구글 서치 콘솔을 등록하는 방법에 대해서 설명합니다."    
    
    
-[ 네이버 서치 어드바이저에 등록 방법 (네이버 웹마스터 도구에 사이트 추가 방법) ](002_github_blog/003_naver_search_advisor.html)   
-"본 페이지에서는 GitHub API, GitHub Pages, Jenkins, Bash, Python 등의 개발 정보를 제공합니다."    
+[GitHub 블로그를 네이버 서치 어드바이저에 등록 방법 (네이버 웹마스터 도구에 사이트 추가 방법) ](002_github_blog/003_naver_search_advisor.html)   
+"네이버 서치 어드바이저에 GitHub 블로그 등록 방법에 대해서 설명합니다."    
    
    
 [GitHub 블로그에 구글 애드센스 스크립트 삽입하는 방법 및 삽입 위치 ](002_github_blog/004_google_adsense_github_pages.html)   
@@ -60,8 +60,8 @@ github_blog
 "GitHub Pages에서 php 문법 사용 가능 여부에 대해서 설명합니다."    
    
    
-[ 사이트맵을 자동으로 생성해주는 bash 스크립트 ](002_github_blog/007.html)   
-"본 페이지에서는 GitHub API, GitHub Pages, Jenkins, Bash, Python 등의 개발 정보를 제공합니다."    
+[GitHub Pages 사이트맵을 자동으로 생성해주는 bash 스크립트 ](002_github_blog/007.html)   
+"사이트맵을 자동으로 생성하는 bash 스크립트 예제를 제공합니다."    
    
    
 [GitHub Pages 운영시의 꿀팁들 ](002_github_blog/008.html)   
@@ -109,8 +109,8 @@ python
    
 bash
 ---
-[ 파일의 마지막 수정 시간을 가져오는 방법 ](005_bash/001.html)   
-"본 페이지에서는 GitHub API, GitHub Pages, Jenkins, Bash, Python 등의 개발 정보를 제공합니다."    
+[파일의 마지막 수정 시간을 가져오는 방법(Ubuntu Bash) ](005_bash/001.html)   
+"Ubuntu Bash Shell에서 파일의 마지막 수정 시간을 가져오는 방법에 대해서 설명합니다."    
    
    
    
