@@ -10,43 +10,17 @@ if [ ! -e ${SITEMAP_TXT_FILE} ]; then
   exit -1
 fi
 
-function parse_html()
+title=""
+description=""
+
+function get_title_and_desc()
 {
-  local dirname
-  local fname
-  local line
-
-  dirname=${1}
-  fname=${2}
-
-  echo "parse_html(${dirname} ${fname})"
-
-  if [ "${dirname}" != "${pre_dirname}" ]; then
-    pre_dirname="${dirname}"
-    echo "" >> ${README_FILE}
-    echo "" >> ${README_FILE}
-	dir_title=${dirname/_/ }
-	dir_title=${dir_title/_/ }
-	dir_title=${dir_title^^}
-
-    index_path=""
-	if [ -e "../${dirname}/index.md" ]; then
-	  index_path="${dirname}/index.html"
-	elif [ -e "../${dirname}/README.md" ]; then
-	  index_path="${dirname}/README.html"
-	fi
-
-	if [ "${index_path}" != "" ]; then
-	  echo "[${dir_title:4}](${index_path})" >> ${README_FILE}
-	else
-      echo "${dir_title:4}" >> ${README_FILE}
-	fi
-
-    echo "---" >> ${README_FILE}
-  fi
+  local path=${1}
 
   title=""
   description=""
+
+  echo "get_title_and_desc(${path})"
 
   while read line
   do
@@ -57,19 +31,60 @@ function parse_html()
       title=${title##*]}
       title=${title%%|*}
       echo "title : ${title}"
-      echo "[${title}](${dirname}/${fname})   " >> ${README_FILE}
-	elif [[ "${line}" == *"og:description"* ]]; then
-	  if [ "${description}" != "" ]; then
-	    continue
-	  fi
-	  echo "line : ${line}"
-	  description=${line##*content=}
-	  description=${description%%/>}
-	  echo "${description}   " >> ${README_FILE}
-	  echo "   " >> ${README_FILE}
-	  echo "   " >> ${README_FILE}
+    elif [[ "${line}" == *"og:description"* ]]; then
+      if [ "${description}" != "" ]; then
+        continue
+      fi
+      echo "line : ${line}"
+      description=${line##*content=}
+      description=${description%%/>}
     fi
-  done < /tmp/${dirname}_${fname}
+  done < ${path}
+}
+
+function parse_html()
+{
+  local dirname
+  local fname
+  local line
+  local tmp_file
+
+  dirname=${1}
+  fname=${2}
+  tmp_file=${3}
+  path="${dirname}/${fname}"
+
+  echo "parse_html(${dirname} ${fname})"
+
+  if [ "${dirname}" != "${pre_dirname}" ]; then
+    pre_dirname="${dirname}"
+    echo "" >> ${README_FILE}
+    echo "" >> ${README_FILE}
+    dir_title=${dirname/_/ }
+    dir_title=${dir_title/_/ }
+    dir_title=${dir_title^^}
+
+    index_path=""
+    if [ -e "../${dirname}/index.md" ]; then
+      index_path="${dirname}/index.html"
+    elif [ -e "../${dirname}/README.md" ]; then
+      index_path="${dirname}/README.html"
+    fi
+
+    if [ "${index_path}" != "" ]; then
+      get_title_and_desc "${tmp_file}"
+      echo "[${dir_title:4}](${index_path})" >> ${README_FILE}
+    else
+      echo "${dir_title:4}" >> ${README_FILE}
+    fi
+    echo "---" >> ${README_FILE}
+  fi
+
+  get_title_and_desc ${tmp_file}
+  echo "[${title}]($path)   " >> ${README_FILE}
+  echo "${description}   " >> ${README_FILE}
+  echo "   " >> ${README_FILE}
+  echo "   " >> ${README_FILE}
 }
 
 function parse_sitemap()
@@ -77,6 +92,7 @@ function parse_sitemap()
   local line
   local dirname
   local fname
+  local tmp_file
 
   while read line
   do
@@ -89,12 +105,14 @@ function parse_sitemap()
     dirname=${local_path%/*}
     echo "dirname : ${dirname}"
 
-    if [ "$fname" == "README.md" ] || [ "$fname" == "index.md" ]; then
+    if [ "$fname" == "README.html" ] || [ "$fname" == "index.html" ]; then
       continue
     fi
 
-    wget -q -O /tmp/${dirname}_${fname} ${line}
-    parse_html ${dirname} ${fname}
+    tmp_file="/tmp/${dirname}_${fname}"
+    wget -q -O ${tmp_file} ${line}
+#    wget -O ${tmp_file} ${line}
+    parse_html ${dirname} ${fname} ${tmp_file}
   done < ${SITEMAP_TXT_FILE}
 }
 

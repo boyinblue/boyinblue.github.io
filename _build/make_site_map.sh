@@ -1,4 +1,5 @@
 #!/bin/bash
+set -e
 
 SITEMAP_XML_FILE="../sitemap.xml"
 SITEMAP_XML_FILE_TMP="/tmp/sitemap.xml"
