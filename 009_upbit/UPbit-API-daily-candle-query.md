@@ -113,7 +113,7 @@ curl –-request GET \
 ```
 
 
-출력 결과중에서 시장가인 <code>trade\_price</code>를 보려면 <code>'jq .[trace\_price]'</code> 명령을 수행하면 됩니다.
+출력 결과중에서 시장가인 <code>trade_price</code>를 보려면 <code>'jq .[trace_price]'</code> 명령을 수행하면 됩니다.
 
 
 ```bash
