@@ -2,7 +2,7 @@
 
 SITEMAP_TXT_FILE="../sitemap.txt"
 README_FILE="../README.md"
-README_FORMAT_FILE="../README.format"
+README_FORMAT_FILE="../_README.md"
 HOMEPAGE_URL="https://boyinblue.github.io"
 
 if [ ! -e ${SITEMAP_TXT_FILE} ]; then
