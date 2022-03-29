@@ -32,8 +32,8 @@ GITHUB API
 "Bash 쉘 스크립트를 이용하여 GitHub 토큰를 파싱하는 방법을 설명합니다."    
    
    
-[ “server certificate verification failed. CAfile: none CRLfile: none” 에러 조치 방법 ](001_github_api/003-server-certificate-verification-fail.html)   
-"본 페이지에서는 GitHub API, GitHub Pages, Jenkins, Bash, Python 등의 개발 정보를 제공합니다."    
+[server certificate verification failed. CAfile none CRLfile none 에러 조치 방법 ](001_github_api/003-server-certificate-verification-fail.html)   
+"GitHub 서버로부터 통신을 시도할 때 server certificate verification failed. CAfile none CRLfile none 에러가 발생할 경우 조치하는 방법에 대해서 설명합니다."    
    
    
 [GitHub에서 레포지토리의 생성일을 확인하는 방법 ](001_github_api/004-github-how-to-get-the-creation-date-of-repository.html)   
