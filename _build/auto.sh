@@ -8,6 +8,7 @@ git pull
 
 ./make_site_map.sh
 ./make_readme.sh
+python3 check_md_files.py
 
 diff=$(git diff)
 if [ "${diff}" != "" ]; then
