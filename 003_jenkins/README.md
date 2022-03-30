@@ -21,7 +21,7 @@ Jenkins는 자동으로 일련의 과정을 수행하고 그 결과를
 
 
 [Jenkins Hook이 제대로 전달되지 못하는 경우 해결 방법 (GitHub Pull Request Builder 오류 및 역방향 프록시 설정 오류)](001.html 'Jenkins에서 GitHub Pull Request Builder가 역방향 프록시 설정 오류 메시지가 발생하면서 빌드되지 않는 오류를 해결하는 방법에 대해서 설명합니다. ')
-===
+---
 
 
 Jenkins에서 GitHub Pull Request Builder가 역방향 프록시 설정 오류 메시지가 발생하면서 빌드되지 않는 오류를 해결하는 방법에 대해서 설명합니다. 

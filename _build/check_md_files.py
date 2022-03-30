@@ -137,7 +137,7 @@ def make_md_file_add_link(fp, title, desc, file):
         file = "{}.html".format(file[:-3])
     fp.write("\n\n[{}]({} '{}')\n".format(
         title, file, desc))
-    fp.write("===\n\n\n")
+    fp.write("---\n\n\n")
     fp.write("{}\n".format(desc))
 
 def make_md_file(dir):
