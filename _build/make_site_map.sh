@@ -1,16 +1,17 @@
 #!/bin/bash
 set -e
 
-SITEMAP_XML_FILE="../sitemap.xml"
-SITEMAP_XML_FILE_TMP="/tmp/sitemap.xml"
+cwd=$(pwd)
 
-SITEMAP_TXT_FILE="../sitemap.txt"
-SITEMAP_TXT_FILE_TMP="/tmp/sitemap.txt"
+SITEMAP_FILE=("../sitemap.xml" "../sitemap2.xml" "../sitemap.txt")
+SITEMAP_TMP_FILE=("${cwd}/tmp/sitemap.xml" "${cwd}/tmp/sitemap2.xml" "${cwd}/tmp/sitemap.txt")
 
 HOMEPAGE_URL="https://boyinblue.github.io"
 
-rm -rf "$SITEMAP_XML_FILE_TMP"
-rm -rf "$SITEMAP_TXT_FILE_TMP"
+for sitemap_file in $SITEMA_TMP_FILE[@]
+do
+  rm -rf $sitemap_file
+done
 
 function print_header()
 {
@@ -36,13 +37,37 @@ function print_list_xml()
       for file in ${files[@]}
       do
         lastmod=$(date +"%m-%d-%YT%H:%M:%S%:z" -r ${file})
-	echo "  <url>"
-        echo "    <loc>${HOMEPAGE_URL}/${file/.md/.html}</loc>"
-#	echo "    <lastmod>${lastmod}</lastmod>"
-#	echo "    <changefreq>weekly</changefreq>"
-	echo "  </url>"
+	echo "<url>"
+        echo "<loc>${HOMEPAGE_URL}/${file/.md/.html}</loc>"
+#	echo "<lastmod>${lastmod}</lastmod>"
+#	echo "<changefreq>weekly</changefreq>"
+	echo "</url>"
       done
     fi
+  done
+}
+
+function print_dir_list_xml()
+{
+  dirs=$(ls)
+  for dir in ${dirs[@]}
+  do
+    if [[ "${dir:0:3}" =~ ^[0-9]+$ ]]; then
+	  if [ ! -d ${dir} ]; then
+	    continue
+      fi
+
+	  if [ ! -e "${dir}/index.md" ]; then
+	    continue
+	  fi
+
+      lastmod=$(date +"%m-%d-%YT%H:%M:%S%:z" -r ${file})
+      echo "<url>"
+      echo "<loc>${HOMEPAGE_URL}/${dir}</loc>"
+#     echo "<lastmod>${lastmod}</lastmod>"
+#     echo "<changefreq>weekly</changefreq>"
+      echo "</url>"
+	fi
   done
 }
 
@@ -65,27 +90,25 @@ function print_list_txt()
 }
 
 pushd ..
-print_header >> ${SITEMAP_XML_FILE_TMP}
-print_list_xml >> ${SITEMAP_XML_FILE_TMP}
-print_tail >> ${SITEMAP_XML_FILE_TMP}
+print_header > ${SITEMAP_TMP_FILE[0]}
+print_list_xml >> ${SITEMAP_TMP_FILE[0]}
+print_tail >> ${SITEMAP_TMP_FILE[0]}
 
-print_list_txt >> ${SITEMAP_TXT_FILE_TMP}
+print_header > ${SITEMAP_TMP_FILE[1]}
+print_dir_list_xml >> ${SITEMAP_TMP_FILE[1]}
+print_tail >> ${SITEMAP_TMP_FILE[1]}
+
+print_list_txt > ${SITEMAP_TMP_FILE[2]}
 popd
 
-if [ ! -e ${SITEMAP_XML_FILE} ]; then
-  cp ${SITEMAP_XML_FILE_TMP} ${SITEMAP_XML_FILE}
-else
-  diff=$(diff $SITEMAP_XML_FILE_TMP $SITEMAP_XML_FILE)
-  if [ "${diff}" != "" ]; then
-    cp ${SITEMAP_XML_FILE_TMP} ${SITEMAP_XML_FILE}
+for ((i=1;i<=3;i++));
+do
+  if [ ! -e ${SITEMAP_FILE[$i]} ]; then
+    cp ${SITEMAP_TMP_FILE[$i]} ${SITEMAP_FILE[$i]}
+  else
+    diff=$(diff ${SITEMAP_TMP_FILE[$i]} ${SITEMAP_FILE[$i]})
+    if [ "${diff}" != "" ]; then
+      cp ${SITEMAP_TMP_FILE[$i]} ${SITEMAP_FILE[$i]}
+    fi
   fi
-fi
-
-if [ ! -e ${SITEMAP_TXT_FILE} ]; then
-  cp ${SITEMAP_TXT_FILE_TMP} ${SITEMAP_TXT_FILE}
-else
-  diff=$(diff $SITEMAP_TXT_FILE_TMP $SITEMAP_TXT_FILE)
-  if [ "${diff}" != "" ]; then
-    cp ${SITEMAP_TXT_FILE_TMP} ${SITEMAP_TXT_FILE}
-  fi
-fi
+done
