@@ -37,12 +37,16 @@ function print_list_xml()
       files=$(ls ${dir}/*.md)
       for file in ${files[@]}
       do
+	    filename=${file##*/}
+	    if [ "${filename:0:1}" == "_" ]; then
+		  continue
+		fi
         lastmod=$(date +"%m-%d-%YT%H:%M:%S%:z" -r ${file})
-	echo "<url>"
+        echo "<url>"
         echo "<loc>${HOMEPAGE_URL}/${file/.md/.html}</loc>"
-#	echo "<lastmod>${lastmod}</lastmod>"
-#	echo "<changefreq>weekly</changefreq>"
-	echo "</url>"
+#       echo "<lastmod>${lastmod}</lastmod>"
+#       echo "<changefreq>weekly</changefreq>"
+        echo "</url>"
       done
     fi
   done
