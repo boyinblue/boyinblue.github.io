@@ -151,6 +151,7 @@ def make_md_file(dir):
     f_rd.close()
 
     files = os.listdir(dir)
+    files.sort()
     for file in files:
         path = "{}/{}".format(dir, file)
 #        print( "path :", path)
@@ -188,6 +189,7 @@ def iterate_directory(dir):
     """디렉토리를 순회한다."""
     print("iterate_directory :", dir)
     files = os.listdir(dir)
+    files.sort()
     for file in files:
         path = "{}/{}".format(dir, file)
 #        print( "file : {}".format(path) )

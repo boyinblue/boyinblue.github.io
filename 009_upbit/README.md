@@ -30,15 +30,15 @@ API가 아주 잘 디자인되어 있었으며, 단순한 조회의 경우는 �
 
 
 
-[업비트 API 호출시에 "Too many API requests." 문제 해결 방법 3가지](UPbit-Too-many-API-requests.html '업비트 API 호출시에 "Too many API requests." 문제 발생시에 해결 방법에 대해서 설명합니다.')
----
-
-
-업비트 API 호출시에 "Too many API requests." 문제 발생시에 해결 방법에 대해서 설명합니다.
-
-
 [업비트 API를 이용하여 일단위 캔들 조회 방법](UPbit-API-daily-candle-query.html '업비트에서 제공하는 Open API를 통해서 일단위 캔들을 조회하는 방법에 대해서 설명합니다.')
 ---
 
 
 업비트에서 제공하는 Open API를 통해서 일단위 캔들을 조회하는 방법에 대해서 설명합니다.
+
+
+[업비트 API 호출시에 "Too many API requests." 문제 해결 방법 3가지](UPbit-Too-many-API-requests.html '업비트 API 호출시에 "Too many API requests." 문제 발생시에 해결 방법에 대해서 설명합니다.')
+---
+
+
+업비트 API 호출시에 "Too many API requests." 문제 발생시에 해결 방법에 대해서 설명합니다.
