@@ -2,7 +2,7 @@ import os
 
 # 체커가 돌지 않도록 제외할 경로 설정
 exclude_dir_starts_with = [
-        "../009_upbit/2022",
+#        "../009_upbit/2022",
         "../.",
         "../_"
         ]
