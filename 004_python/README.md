@@ -1,14 +1,37 @@
 ---
-title: Python Study
-description: 파이선에 관련된 내용을 정리하는 페이지입니다. 
+title: Pythonn
+description: Python 언어에 대한 내용을 기록하는 페이지입니다.
 ---
 
 
-Python Study
+Python
 ===
 
 
-파이선에 관련된 내용을 정리하는 페이지입니다.
 
-Looks good!
+
+
+
+[title: OpenCV를 이용하여 이미지를 출력하는 방법과 캠을 동작시키는 방법
+](001.md description: OpenCV를 이용해서 이미지를 출력하는 방법과 실시간으로 캠 영상을 표시하는 방법에 대해서 설명합니다.  
+)
+description: OpenCV를 이용해서 이미지를 출력하는 방법과 실시간으로 캠 영상을 표시하는 방법에 대해서 설명합니다.  
+
+
+
+[](README.md )
+
+
+
+[title: 파이선 터틀 그래픽을 이용해서 간단한 랜덤 문자 출력 방법
+](002.md description: 파이선 터플 그래픽을 이용하여 간단한 랜덤 문자를 출력하는 방법에 대해서 설명합니다.
+)
+description: 파이선 터플 그래픽을 이용하여 간단한 랜덤 문자를 출력하는 방법에 대해서 설명합니다.
+
+
+
+[title: Pythonn
+](_README.md description: Python 언어에 대한 내용을 기록하는 페이지입니다.
+)
+description: Python 언어에 대한 내용을 기록하는 페이지입니다.
 
