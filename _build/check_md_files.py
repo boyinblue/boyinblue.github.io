@@ -1,5 +1,4 @@
 import os
-from bs4 import BeautifulSoup
 
 # 체커가 돌지 않도록 제외할 경로 설정
 exclude_dir_starts_with = [
@@ -7,7 +6,8 @@ exclude_dir_starts_with = [
         ]
 
 exclude_dir_match_with = [
-        "../README.md"
+        "../README.md",
+        "_build"
         ]
 
 def is_exclude_path(path):
@@ -76,7 +76,7 @@ def read_yaml_header(arrLines, yaml):
     return 0
 
 def check_yaml_header(yaml, filename):
-
+    """YAML 헤더에 누락된 부분이 있으면 기본 정보를 추가한다."""
     if yaml["YAML_START"] == "":
         yaml["YAML_START"] = "---\n"
     if yaml["title: "] == "":
@@ -86,6 +86,7 @@ def check_yaml_header(yaml, filename):
     if yaml["YAML_END"] == "":
         yaml["YAML_END"] = "---\n"
 
+    """YAML 헤더 내용과 본문 내용을 대체한다"""
     f = open(filename, 'w')
     f.write(yaml["YAML_START"])
     f.write(yaml["title: "])
@@ -95,7 +96,8 @@ def check_yaml_header(yaml, filename):
     f.write(yaml["BODY"])
     f.close()
 
-def check_md_file(filename):
+def get_yaml_header(filename):
+    """MD 파일을 읽어와서 파싱하고 변환한다."""
     arrLines = []
     yaml = { "YAML_START" : "",
             "title: " : "",
@@ -119,20 +121,70 @@ def check_md_file(filename):
     f.close()
 
     if read_yaml_header(arrLines, yaml):
-        return 1
+        return null
 
-    check_yaml_header(yaml, filename)
+    return yaml
+
+def make_md_file_add_link(fp, title, desc, file):
+    print("make_md_file_add_link({}, {}, {})".format
+            (title, desc, file))
+    fp.write("\n\n[{}]({} {})\n".format(
+        title, file, desc))
+    fp.write("{}\n".format(desc))
+
+def make_md_file(dir):
+    """_README.md 파일로부터 README.md 파일을 작성한다."""
+    f_wr = open(dir + "/README.md", 'w')
+    f_rd = open(dir + "/_README.md", 'r')
+
+    lines = f_rd.readlines()
+    f_wr.writelines(lines)
+    f_rd.close()
+
+    files = os.listdir(dir)
+    for file in files:
+        path = "{}/{}".format(dir, file)
+#        print( "path :", path)
+        if file[:-9] == "README.md":
+            continue
+        elif len(file) > 3 and file[-3] == ".md":
+            yaml = get_yaml_header(pat)
+            print(yaml)
+            make_md_file_add_link(f_wr,
+                    yaml['title: '][7:],
+                    yaml['description: '][13:],
+                    file)
+        elif len(file) > 5 and file[-5] == ".html":
+            f_wr.write("\n\n[{}]({})\n".format(file, file))
+        elif os.path.isdir(path):
+            index_path = path + "/index.md"
+            readme_path = path + "/README.md"
+            if not os.path.exists(index_path):
+                if not os.path.exists(readme_path):
+                    continue
+                os.symlink("README.md", index_path)
+
+            yaml = get_yaml_header(index_path)
+            make_md_file_add_link(f_wr,
+                    yaml['title: '][7:],
+                    yaml['description: '][13:],
+                    file)
 
 def iterate_directory(dir):
+    """디렉토리를 순회한다."""
     files = os.listdir(dir)
     for file in files:
         path = "{}/{}".format(dir, file)
 #        print( "file : {}".format(path) )
         if is_exclude_path(path):
             print("  Excluding :", path)
+        elif file == "_README.md":
+#            print("  Make README.md")
+            make_md_file(dir)
         elif file.endswith(".md"):
 #            print("  Check md file")
-            check_md_file(path)
+            yaml = get_yaml_header(path)
+            check_yaml_header(yaml, dir + "/" + file)
         elif os.path.isdir(path):
             iterate_directory(path)
 

@@ -1,14 +1,12 @@
 ---
-title: Python Study
-description: 파이선에 관련된 내용을 정리하는 페이지입니다. 
+title: Python
+description: Python 언어에 대한 내용을 기록하는 페이지입니다.
 ---
 
 
-Python Study
+Python
 ===
 
 
-파이선에 관련된 내용을 정리하는 페이지입니다.
 
-Looks good!
 
