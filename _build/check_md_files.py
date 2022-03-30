@@ -6,7 +6,7 @@ exclude_dir_starts_with = [
         ]
 
 exclude_dir_match_with = [
-        "../README.md",
+#        "../README.md",
         "../_build"
         ]
 
@@ -128,8 +128,9 @@ def get_yaml_header(filename):
 def make_md_file_add_link(fp, title, desc, file):
     print("make_md_file_add_link({}, {}, {})".format
             (title, desc, file))
-    fp.write("\n\n[{}]({} {})\n".format(
+    fp.write("\n\n[{}]({} '{}')\n".format(
         title, file, desc))
+    fp.write("===\n\n\n")
     fp.write("{}\n".format(desc))
 
 def make_md_file(dir):
@@ -154,8 +155,8 @@ def make_md_file(dir):
             yaml = get_yaml_header(pat)
             print(yaml)
             make_md_file_add_link(f_wr,
-                    yaml['title: '][7:],
-                    yaml['description: '][13:],
+                    yaml['title: '][7:-1],
+                    yaml['description: '][13:-1],
                     file)
         elif len(file) > 5 and file[-5] == ".html":
             f_wr.write("\n\n[{}]({})\n".format(file, file))
@@ -169,8 +170,8 @@ def make_md_file(dir):
 
             yaml = get_yaml_header(index_path)
             make_md_file_add_link(f_wr,
-                    yaml['title: '][7:],
-                    yaml['description: '][13:],
+                    yaml['title: '][7:-1],
+                    yaml['description: '][13:-1],
                     file)
 
 def iterate_directory(dir):
