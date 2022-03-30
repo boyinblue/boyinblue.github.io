@@ -9,6 +9,10 @@ exclude_dir_starts_with = [
 
 exclude_dir_match_with = [
 #        "../README.md",
+        "../index.md",
+        "../google62fdc652437cf301.html",
+        "../naverd4f8a457876d1cbdba15ad126ccbf06a.html",
+        "../404.html"
         ]
 
 def is_exclude_path(path):
@@ -129,6 +133,8 @@ def get_yaml_header(filename):
 def make_md_file_add_link(fp, title, desc, file):
     print("make_md_file_add_link({}, {}, {})".format
             (title, desc, file))
+    if len(file) > 3 and file[-3:] == ".md":
+        file = "{}.html".format(file[:-3])
     fp.write("\n\n[{}]({} '{}')\n".format(
         title, file, desc))
     fp.write("===\n\n\n")
@@ -151,7 +157,7 @@ def make_md_file(dir):
         if is_exclude_path(path):
             print("  Excluding :", path)
             continue
-        elif file[:-9] == "README.md":
+        elif file[-9:] == "README.md" or file[-8:] == "index.md":
             continue
         elif len(file) > 3 and file[-3:] == ".md":
             yaml = get_yaml_header(path)
