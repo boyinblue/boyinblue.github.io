@@ -48,9 +48,3 @@ Jenkins는 일련의 빌드 테스트 및 자동 테스트를 수행한 이후�
 
 
 
-
-
-[title: server certificate verification failed. CAfile none CRLfile none 에러 조치 방법
-](003-server-certificate-verification-fail.md description: GitHub 서버로부터 통신을 시도할 때 server certificate verification failed. CAfile none CRLfile none 에러가 발생할 경우 조치하는 방법에 대해서 설명합니다.
-)
-description: GitHub 서버로부터 통신을 시도할 때 server certificate verification failed. CAfile none CRLfile none 에러가 발생할 경우 조치하는 방법에 대해서 설명합니다.

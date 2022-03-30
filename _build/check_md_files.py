@@ -7,7 +7,7 @@ exclude_dir_starts_with = [
 
 exclude_dir_match_with = [
         "../README.md",
-        "_build"
+        "../_build"
         ]
 
 def is_exclude_path(path):
@@ -145,7 +145,10 @@ def make_md_file(dir):
     for file in files:
         path = "{}/{}".format(dir, file)
 #        print( "path :", path)
-        if file[:-9] == "README.md":
+        if is_exclude_path(path):
+            print("  Excluding :", path)
+            continue
+        elif file[:-9] == "README.md":
             continue
         elif len(file) > 3 and file[-3] == ".md":
             yaml = get_yaml_header(pat)
@@ -178,6 +181,7 @@ def iterate_directory(dir):
 #        print( "file : {}".format(path) )
         if is_exclude_path(path):
             print("  Excluding :", path)
+            continue
         elif file == "_README.md":
 #            print("  Make README.md")
             make_md_file(dir)
