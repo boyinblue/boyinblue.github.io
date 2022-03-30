@@ -2,12 +2,13 @@ import os
 
 # 체커가 돌지 않도록 제외할 경로 설정
 exclude_dir_starts_with = [
-        "../009_upbit/2022"
+        "../009_upbit/2022",
+        "../.",
+        "../_"
         ]
 
 exclude_dir_match_with = [
 #        "../README.md",
-        "../_build"
         ]
 
 def is_exclude_path(path):
@@ -135,6 +136,7 @@ def make_md_file_add_link(fp, title, desc, file):
 
 def make_md_file(dir):
     """_README.md 파일로부터 README.md 파일을 작성한다."""
+    print("make_md_file :", dir)
     f_wr = open(dir + "/README.md", 'w')
     f_rd = open(dir + "/_README.md", 'r')
 
@@ -151,14 +153,14 @@ def make_md_file(dir):
             continue
         elif file[:-9] == "README.md":
             continue
-        elif len(file) > 3 and file[-3] == ".md":
-            yaml = get_yaml_header(pat)
-            print(yaml)
+        elif len(file) > 3 and file[-3:] == ".md":
+            yaml = get_yaml_header(path)
+#            print(yaml)
             make_md_file_add_link(f_wr,
                     yaml['title: '][7:-1],
                     yaml['description: '][13:-1],
                     file)
-        elif len(file) > 5 and file[-5] == ".html":
+        elif len(file) > 5 and file[-5:] == ".html":
             f_wr.write("\n\n[{}]({})\n".format(file, file))
         elif os.path.isdir(path):
             index_path = path + "/index.md"
@@ -173,19 +175,22 @@ def make_md_file(dir):
                     yaml['title: '][7:-1],
                     yaml['description: '][13:-1],
                     file)
+#        else:
+#            print("skip! {} {}".format(len(file), file[-3:]))
 
 def iterate_directory(dir):
     """디렉토리를 순회한다."""
+    print("iterate_directory :", dir)
     files = os.listdir(dir)
     for file in files:
         path = "{}/{}".format(dir, file)
 #        print( "file : {}".format(path) )
-        if is_exclude_path(path):
+        if file == "_README.md":
+            print("  Make README.md")
+            make_md_file(dir)
+        elif is_exclude_path(path):
             print("  Excluding :", path)
             continue
-        elif file == "_README.md":
-#            print("  Make README.md")
-            make_md_file(dir)
         elif file.endswith(".md"):
 #            print("  Check md file")
             yaml = get_yaml_header(path)
