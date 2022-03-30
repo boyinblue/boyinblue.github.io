@@ -16,7 +16,8 @@ done
 function print_header()
 {
   echo '<?xml version="1.0" encoding="UTF-8"?>'
-  echo '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">'
+#  echo '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">'
+  echo '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'
 }
 
 function print_tail()
@@ -101,8 +102,10 @@ print_tail >> ${SITEMAP_TMP_FILE[1]}
 print_list_txt > ${SITEMAP_TMP_FILE[2]}
 popd
 
-for ((i=1;i<=3;i++));
+set +e
+for ((i=0;i<=2;i++));
 do
+#  echo "compare(${SITEMAP_FILE[$i]}, ${SITEMAP_TMP_FILE[$i]}"
   if [ ! -e ${SITEMAP_FILE[$i]} ]; then
     cp ${SITEMAP_TMP_FILE[$i]} ${SITEMAP_FILE[$i]}
   else
