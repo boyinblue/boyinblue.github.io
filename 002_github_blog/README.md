@@ -124,9 +124,6 @@ GitHub Pages에서 php 문법 사용 가능 여부에 대해서 설명합니다.
 GitHub Pages를 운영하면서 체득한 유용한 팁들을 제공합니다.
 
 
-[009-seo-header-from-yaml-config.html](009-seo-header-from-yaml-config.html)
-
-
 [SEO를 위해 GitHub Pages 의 md 파일에 헤더를 입력하는 방법](009.html 'GitHub Pages의 markdown 파일의 헤더에 title, description을 지정하는 방법에 대해서 설명합니다.')
 ---
 
