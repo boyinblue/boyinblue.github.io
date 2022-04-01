@@ -7,8 +7,6 @@ mkdir -p tmp
 git pull
 
 ./make_site_map.sh
-./make_readme.sh
-python3 check_md_files.py
 
 diff=$(git diff)
 if [ "${diff}" != "" ]; then
@@ -23,3 +21,9 @@ if [ "${diff}" != "" ]; then
   echo "</code></pre>" >> ${TMP_DIFF_FILE}
   ./send_email.sh ${TMP_DIFF_FILE}
 fi
+
+./make_readme.sh
+python3 check_md_files.py
+git add ..
+git commit -m "[boyinblue.github.io] Auto geerate README.md files"
+git push
