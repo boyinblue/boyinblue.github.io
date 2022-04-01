@@ -244,12 +244,6 @@ def draw_3d_star():
 위와 같이 1도씩 틀어지게하고, 선분 개수를 2배로 늘이면 됩니다. 
 
 
-### 실행 결과는 아래와 같습니다.
-
-
-[입체감 있는 별 그리기](003-python-turtle-3d-start.png)
-
-
 #6. 태양 그리기
 ---
 
@@ -272,7 +266,7 @@ def draw_sun():
 ### 실행 결과
 
 
-![태양 그리기](03-python-turtle-sun-10.png)
+![태양 그리기](003-python-turtle-sun-10.png)
 
 
 <code>turtle.width(3)</code> 구문을 통해서 좀 더 두꺼운 펜으로 
@@ -309,7 +303,9 @@ def draw_sun2():
 18번 반복을 해주면 원래 위치로 돌아옵니다. 
 
 
-실행 결과는 아래와 같습니다.
+### 실행 결과는 아래와 같습니다.
+
+
 ![꽃잎이 18개인 꽃 그리기](003-python-turtle-flower.png)
  
 
