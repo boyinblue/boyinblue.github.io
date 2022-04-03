@@ -47,6 +47,7 @@ https://boyinblue.github.io/008_ubuntu/002.html
 https://boyinblue.github.io/008_ubuntu/003-ubuntu-crontab-does-not-work.html
 https://boyinblue.github.io/008_ubuntu/004-thunderbird-email-setting-naver-gmail-daum.html
 https://boyinblue.github.io/008_ubuntu/005-what-is-dead_letteres.html
+https://boyinblue.github.io/008_ubuntu/006-ubuntu-register-serivce.html
 https://boyinblue.github.io/008_ubuntu/index.html
 https://boyinblue.github.io/008_ubuntu/_README.html
 https://boyinblue.github.io/008_ubuntu/README.html
