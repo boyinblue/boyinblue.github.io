@@ -27,6 +27,7 @@ https://boyinblue.github.io/003_jenkins/_README.html
 https://boyinblue.github.io/003_jenkins/README.html
 https://boyinblue.github.io/004_python/001.html
 https://boyinblue.github.io/004_python/002.html
+https://boyinblue.github.io/004_python/003-python-명령행인자.html
 https://boyinblue.github.io/004_python/003-python-turtle-graphic-example.html
 https://boyinblue.github.io/004_python/index.html
 https://boyinblue.github.io/004_python/_README.html
