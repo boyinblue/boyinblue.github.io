@@ -29,6 +29,7 @@ https://boyinblue.github.io/004_python/001.html
 https://boyinblue.github.io/004_python/002.html
 https://boyinblue.github.io/004_python/003-python-명령행인자.html
 https://boyinblue.github.io/004_python/003-python-turtle-graphic-example.html
+https://boyinblue.github.io/004_python/004-python-vim-setting.html
 https://boyinblue.github.io/004_python/index.html
 https://boyinblue.github.io/004_python/_README.html
 https://boyinblue.github.io/004_python/README.html
