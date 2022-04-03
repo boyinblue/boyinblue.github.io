@@ -98,6 +98,54 @@ let g:python_recommended_style=0
 
 
 위의 설정은 필자가 선호하는 vim 설정이다. 
+그런데 다소 이해가 되지 않는 부분이 있을 것이다. 
 
 
+파이썬에서는 <code>Tab</code>을 <code>Space</code>로 
+변경해주는 것이 핵심이라고 하면서 
+<code>set expandtab!</code> 설정을 통해서 
+오히려 텝을 스페이스로 바꿔주지 않도록 하고 있다. 
 
+
+필자는 기본적으로 C언어 작업과 파이썬을 병행한다. 
+또한 C언어로 코딩할때 텝은 4칸을 선호한다. 
+
+
+따라서 필자가 C언어로 코딩할때는 텝을 그대로 사용 가능하고, 
+텝은 공백 4칸으로 설정이 된다. 
+
+
+반면, 파이썬으로 코딩할때는 아래 구문에 의해서 
+텝이 자동으로 스페이스로 변환된다.
+
+
+<code>let g:python_recommended_style=0</code>
+
+
+위의 코드 이전에 설정한 값들이 
+<code>
+
+
+python syntax 파일 다운로드 방법
+---
+
+
+python syntax 파일은 아래 위치에서 다운로드 받을 수 있다. 
+
+
+https://www.vim.org/scripts/script.php?script_id=790
+
+
+python.vim 파일은 <code>~/.vim/syntax</code> 경로에 저장하면 된다. 
+
+
+결론
+---
+
+
+파이썬은 띄워쓰기에 아주 민감한 언어이다. 
+그 이유는 파이썬에서의 씌워쓰기는 문법의 일부이기 때문이다. 
+
+
+vim에서 파이썬 스크립트를 편리하게 편집하기 위한 
+설정 방법에 대해서도 언급하였다. 
