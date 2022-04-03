@@ -22,7 +22,7 @@ if [ "${diff}" != "" ]; then
   ./send_email.sh ${TMP_DIFF_FILE}
 fi
 
-./make_readme.sh
+#./make_readme.sh
 python3 check_md_files.py
 git add ..
 git commit -m "[boyinblue.github.io] Auto geerate README.md files"
