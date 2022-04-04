@@ -4,7 +4,7 @@ description: 파이썬 스크립트 실행시에 명령행 인자를 추가하�
 ---
 
 
-title: 파이썬 명령행 인자 사용 방법
+파이썬 명령행 인자 사용 방법
 ===
 
 
@@ -120,8 +120,145 @@ $ echo on | sudo python3 light.py
 스크립트 실행 시점에 어떤 동작을 할지를 인자로 넣어주는 방법이 훨씬 깔끔하다. 
 
 
+### 명령행 인자 내용 확인
 
 
+```python
+import sys
 
+for i in range( 1, len(sys.argv) ):
+    print("[ARG{}] {}".format(i, sys.argv[i]))
+```
+
+
+위의 예제는 파이썬 스크립트 실행시에 입력한 인자 목록을 
+출력하는 간단한 파이썬 스크립트이다. 
+
+
+#### 인자 없이 실행
+
+
+```
+$ python3 command_line_param.py
+
+```
+
+
+작성한 파이썬 스크립트를 실행시에 아무 인자도 넣지 않는다면 
+위와 같이 아무 인자도 출력되지 않는다. 
+
+
+#### 인자 1개 입력하여 실행
+
+
+```
+$ python3 command_line_param.py abc
+[ARG1] abc
+```
+
+
+위와 같이 인자 1개를 입력하면 첫 번째 인자로 입력한 문자열이 출력된다. 
+
+
+#### 인자 2개 입력하여 실행
+
+
+```
+$ python3 command_line_param.py abc def
+[ARG1] abc
+[ARG2] def
+```
+
+
+위와 같이 인자 2개를 입력하면 인자로 입력한 문자열이 모두 출력된다. 
+
+
+### 명령행 인자 예제
+
+
+이제 조명을 켤 지 끌 지에 대해서 실행시에 알려줄 수 있다. 
+
+
+```
+import sys
+
+if sys.argv[1] == "on":
+    light_on()
+elif sys.argv[1] == "off":
+    light_off()
+else:
+    print("정의되지 않은 명령입니다.")
+```
+
+
+위와 같이 첫 번째 인자는 <code>sys.argv[1]</code>에 들어온다. 
+그 값이 <code>on</code>이면 조명이 켜지게 되고, 
+그 값이 <code>off</code>이면 조명이 꺼지게 된다. 
+그 이외의 명령이 들어오면 "정의되지 않은 명령입니다."가 출력되면서 
+스크립트가 종료되게 됩니다. 
+
+
+```
+$ python3 light.py on
+조명을 켭니다.
+
+$ python3 light.py off
+조명을 끕니다.
+
+$ python3 light.py quit
+정의되지 않은 명령입니다.
+```
+
+
+명령행 인자를 통해서 표준입력 없이 다양한 동작들을 
+수행할 수 있다는 것을 알게 되었다. 
+
+
+### 명령행 인자로 옵션 받기
+
+
+위와 같은 조명 제어 예제는 아주 간단했다. 
+명령행 인자로 들어오는 인자 순서가 정해져 있기 때문이다. 
+
+
+만약, 순서에 정의되지 않은 옵션을 받고 싶다면 
+아래와 같이 스크립트를 작성해주면 된다. 
+
+
+아래의 스크립트는 실행시에 인자로 
+GitHub username과 token을 입력받는 실제 스크립트 중 일부이다. 
+
+
+```python
+import sys
+
+for i in range( 1, len(sys.argv) ):
+    if "-user=" in sys.argv[i]:
+        GITHUB_USER = sys.argv[i][6:]
+    elif "-token" in sys.argv[i]:
+        GITHUB_TOKEN = sys.argv[i][7:]
+    elif "-target_dir=" in sys.argv[i]:
+        target_dir = sys.argv[i][12:]
+```
+
+
+만약 GitHub ID의 username이 boyinblue이고, token이 ffffffff라면, 
+아래와 같이 실행시에 입력하면 된다. 
+
+
+```python
+$ python3 git_api.py -user=boyinblue -token=ffffffff
+```
+
+
+GitHub API 호출에 필요한 username과 token을 
+스크립트 실행시 호출한 인자에서 가져올 수 있어 편리하다. 
+
+
+### 결론
+
+
+이상으로 파이썬 실행시에 입력받은 인자를 처리하는 방법에 대한 설명을 
+모두 마칩니다. 
 
 
