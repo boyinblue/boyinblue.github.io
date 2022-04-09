@@ -172,6 +172,7 @@ def make_md_file(dir):
         elif os.path.isdir(path):
             index_path = path + "/index.md"
             readme_path = path + "/README.md"
+            link_path = file + "/index.html"
             if not os.path.exists(index_path):
                 if not os.path.exists(readme_path):
                     continue
@@ -181,7 +182,7 @@ def make_md_file(dir):
             make_md_file_add_link(f_wr,
                     yaml['title: '][7:-1],
                     yaml['description: '][13:-1],
-                    file)
+                    link_path)
 #        else:
 #            print("skip! {} {}".format(len(file), file[-3:]))
 
