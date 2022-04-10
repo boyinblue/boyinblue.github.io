@@ -85,6 +85,15 @@ if 구문의 끝에 위치시키면서 코드를 좀 더 간결하게 만들 수
 <code>Tab</code>을 <code>Space</code>로 바꿔주는 것에 있다. 
 
 
+vim 설정 파일의 경로는 <code>~/.vimrc</code>다. 
+선호하는 편집기로 <code>~/.vimrc</code> 파일을 편집해준다. 
+
+
+```bash
+$ vi ~/.vimrc
+```
+
+
 ```
 syntax on
 filetype indent plugin on
@@ -123,7 +132,12 @@ let g:python_recommended_style=0
 
 
 위의 코드 이전에 설정한 값들이 
-<code>
+<code>let g:python_recommended_style=0</code> 설정에 의해서 
+overwrite될 수 있음을 유의한다. 
+
+
+예를들면, <code>set expand tab!</code>과 같은 설정은 
+python 스크립트 편집시에는 전혀 먹히지 않는다는 것이다. 
 
 
 python syntax 파일 다운로드 방법
@@ -133,10 +147,16 @@ python syntax 파일 다운로드 방법
 python syntax 파일은 아래 위치에서 다운로드 받을 수 있다. 
 
 
-https://www.vim.org/scripts/script.php?script_id=790
+[https://www.vim.org/scripts/script.php?script_id=790](https://www.vim.org/scripts/script.php?script_id=790)
 
 
 python.vim 파일은 <code>~/.vim/syntax</code> 경로에 저장하면 된다. 
+
+
+위의 페이지에 접속하는게 번거롭다면 아래 링크에서 다운로드 받으면 된다.
+
+
+[python.vim](python.vim)
 
 
 결론
