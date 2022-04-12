@@ -19,3 +19,10 @@ Raspberry Pi
 
 
 '파이선으로 작성한 GPIO 제어 스크립트가 "RuntimeError: Not running on a RPi!"라는 메시지와 함께 수행되지 못하는 문제를 해결하는 방법에 대해서 설명합니다.'
+
+
+[라즈베리파이4B에서 리모컨 입력 받아서 처리하는 방법 (Ubuntu 21.10)](002-rpi4-ir-receiver-ubuntu-21-10.html '라즈베리파이4B에서 리모컨 입력 받아서 처리하는 방법 (Ubuntu 21.10)')
+---
+
+
+라즈베리파이4B에서 리모컨 입력 받아서 처리하는 방법 (Ubuntu 21.10)
