@@ -27,6 +27,9 @@ IR 센서를 이용해서 리모컨 입력을 받아서 처리하는 작업을 �
 리모컨 입력을 받는 방법에 대해서 설명하고자 합니다. 
 
 
+![IR Receiver VS1838B](002-ir-receiver-vs1838b.jpg)
+
+
 부디 여러분들이 찾는 도움이 되는 자료이기를 바랍니다.  
 
 
@@ -67,6 +70,9 @@ Codename:	impish
 
 VS 1838B를 정면에서 바라보았을 때, 
 가장 왼쪽부터 <code>Output</code>, <code>GND</code>, <code>Vcc</code> 입니다.
+
+
+![VS1838B 핀맵](002-ir-receiver-vs1838b-pin-map.jpg)
 
 
 |핀번호|신호|비고|
@@ -203,12 +209,22 @@ lirc_rpi gpio_in_pin=17
 리모컨을 눌러보면 아래와 같은 메시지가 출력됩니다.
 
 
+아래와 같이 <code>sudo mode2 -d /dev/lirc0</code>를 입력합니다. 
+
+
 ```bash
 $ sudo mode2 -d /dev/lirc0
+```
+
+
+입력한 이후에 리모컨 버튼을 누르면 화면에 뭔가 반응이 있습니다. 
+
+
+```
 Using driver default on device /dev/lirc0
 Trying device: /dev/lirc0
 Using device: /dev/lirc0
-Running as regular user parksejin
+Running as regular user boyinblue
 pulse 224
 timeout 130791
 pulse 146
@@ -217,8 +233,247 @@ pulse 146
 ```
 
 
-결론
-===
+### 리모컨 설정파일 다운로드 방법
+
+
+이 단계까지 왔다면 리모컨 수신 모듈이 정상 동작하고 있다는 것입니다. 
+다음 단계는 리모컨을 학습시키거나 이미 학습된 리모컨 설정파일을 
+다운로드 하는 단계입니다. 
+
+
+아래 경로로 접속하면 다양한 제조사의 리모컨 설정 파일들을 
+다운로드 하실 수 있습니다. 
+
+
+[http://lirc.sourceforge.net/remotes/](http://lirc.sourceforge.net/remotes/)
+
+
+다운로드한 설정파일은 <code>/etc/lirc/lircd.conf.d</code> 디렉토리 
+안에 <code>.conf</code> 확장자로 저장하시면 됩니다. 
+
+
+리모컨 설정파일은 여러개를 저장해도 무관합니다. 
+
+
+저장한 이후에 <code>lirc 서비스</code>를 재시작합니다. 
+
+
+```bash
+$ service lircd restart
+```
+
+
+서비스를 재시작한 이후에 서비스 로그를 살펴보면 아래와 같이 
+다수의 리모컨 설정 파일들이 로드된 것을 확인할 수 있습니다. 
+
+
+```bash
+$ service lircd status
+```
+
+
+제가 <code>/etc/lirc/lircd.conf.d/</code> 경로에 저장해둔 
+<code>Samsung-SIRS30</code>, <code>Samsung_SMT-10</code> 등의 
+리모컨 설정파일들이 로드된 것을 확인할 수 있습니다. 
+
+
+```
+Apr 13 03:41:54 RpiHome lircd-0.10.1[10467]: Info: Using remote: Samsung-SIRS30>
+Apr 13 03:41:54 RpiHome lircd-0.10.1[10467]: Info: Using remote: Samsung_SMT-10>
+Apr 13 03:41:54 RpiHome lircd-0.10.1[10467]: Info: Using remote: Samsung.
+Apr 13 03:41:54 RpiHome lircd-0.10.1[10467]: Info: Using remote: Terratec.
+```
+
+
+아까 <code>/etc/lirc/lircd.conf.d</code> 디렉토리에 
+여러 설정파일들을 넣어두어도 된다고 말씀드렸습니다. 
+
+
+실제로 <code>/etc/lirc/lircd.conf</code> 파일을 열어보면 
+<code>include "lircd.conf.d/*.conf"</code> 구문을 확인할 수 있습니다. 
+
+
+```
+$ cat lircd.conf
+# Populated config files can be found at http://sf.net/p/lirc-remotes. The
+# irdb-get(1) and lirc-setup(1) tools can be used to search and download
+# config files.
+#
+# From 0.9.2 config files could just be dropped as-is in the lircd.conf.d
+# directory and be included by this file.
+
+include "lircd.conf.d/*.conf"
+```
+
+
+### 리모컨 학습하는 방법
+
+
+리모컨 설정 파일을 다운로드 받는 방법도 있지만, 
+해당하는 리모컨 설정 파일이 존재하지 않을 경우에는 
+리모컨 신호를 직접 학습시키는 방법이 있습니다. 
+
+
+<code>sudo irrecord -n -d /dev/lirc0 my_remote.conf</code> 명령으로 
+리모컨을 학습시킨 후 <code>my_remote.conf</code> 파일에 저장할 수 있습니다. 
+
+
+```bash
+$ sudo irrecord -n -d /dev/lirc0 my_remote.conf
+```
+
+
+위의 명령에서 알려주는대로 리모컨을 학습시키면 되는데 학습이 쉽지 않습니다.
+
+
+아래는 제가 리모컨을 학습시킨 로그입니다. 
+
+
+```
+$ sudo irrecord -n -d /dev/lirc0 lircd.conf
+Running as regular user parksejin
+Using driver default on device /dev/lirc0
+
+irrecord -  application for recording IR-codes for usage with lirc
+Copyright (C) 1998,1999 Christoph Bartelmus(lirc@bartelmus.de)
+
+This program will record the signals from your remote control
+and create a config file for lircd.
+
+A proper config file for lircd is maybe the most vital part of this
+package, so you should invest some time to create a working config
+file. Although I put a good deal of effort in this program it is often
+not possible to automatically recognize all features of a remote
+control. Often short-comings of the receiver hardware make it nearly
+impossible. If you have problems to create a config file READ THE
+DOCUMENTATION at https://sf.net/p/lirc-remotes/wiki
+
+If there already is a remote control of the same brand available at
+http://sf.net/p/lirc-remotes you might want to try using such a
+remote as a template. The config files already contains all
+parameters of the protocol used by remotes of a certain brand and
+knowing these parameters makes the job of this program much
+easier. There are also template files for the most common protocols
+available. Templates can be downloaded using irdb-get(1). You use a
+template file by providing the path of the file as a command line
+parameter.
+
+Please take the time to finish the file as described in
+https://sourceforge.net/p/lirc-remotes/wiki/Checklist/ an send it
+to  <lirc@bartelmus.de> so it can be made available to others.
+
+Press RETURN to continue.
+
+Checking for ambient light  creating too much disturbances.
+Please don't press any buttons, just wait a few seconds...
+
+No significant noise (received 0 bytes)
+
+Enter name of remote (only ascii, no spaces) :samsung
+Using samsung.lircd.conf as output filename
+
+Now start pressing buttons on your remote control.
+
+It is very important that you press many different buttons randomly
+and hold them down for approximately one second. Each button should
+generate at least one dot but never more than ten dots of output.
+Don't stop pressing buttons until two lines of dots (2x80) have
+been generated.
+
+Press RETURN now to start recording.
+................................................................................
+Got gap (47137 us)}
+
+Please keep on pressing buttons like described above.
+...............................................................................
+
+Please enter the name for the next button (press <ENTER> to finish recording)
+KEY_STOP
+
+Now hold down button "KEY_STOP".
+``` 
+
+
+학습이 완벽하지 않더라도 설정 파일을 열어보면 
+리모컨의 신호의 비트수와 주파수 등을 확인할 수 있습니다. 
+
+
+```
+begin remote
+
+  name  DVD_PLAYER
+  bits           32
+  flags SPACE_ENC|CONST_LENGTH
+  eps            30
+  aeps          100
+
+  header       4486  4580
+  one           502  1746
+  zero          502   621 
+  ptrail        499
+  gap          108440
+  toggle_bit_mask 0x0 
+  frequency    38000
+
+      begin codes
+      end codes
+
+end remote
+```
+
+
+제가 학습을 시켜본 삼성 TV 리모컨은 비트수가 32비트이고, 
+주파수는 38KHz 입니다. 
+
+
+이 정보만 가지고 여기에 맞는 리모컨 설정 파일을 
+위에서 언급한 홈페이지(http://lirc.sourceforge.net/remotes/)에서 
+찾으면 됩니다.
+
+
+### 리모컨 테스트
+
+
+리모컨 학습에 성공했거나, 혹은 적절한 리모컨 설정 파일을 받았다면, 
+그 다음 단계는 리모컨 신호를 테스트 하는 단계입니다. 
+
+
+<code>irw</code> 명령을 통해서 리모컨 신호가 제대로 인식되는지 
+테스트해볼 시간입니다. 
+
+
+```
+$ irw
+00000000e0e020df 00 KEY_1 Samsung_CS-25M6HNQ
+00000000e0e020df 01 KEY_1 Samsung_CS-25M6HNQ
+00000000e0e020df 00 KEY_1 Samsung_CS-25M6HNQ
+00000000e0e0a05f 00 KEY_2 Samsung_CS-25M6HNQ
+00000000e0e0a05f 01 KEY_2 Samsung_CS-25M6HNQ
+00000000e0e0609f 00 KEY_3 Samsung_CS-25M6HNQ
+00000000e0e0609f 01 KEY_3 Samsung_CS-25M6HNQ
+00000000e0e0a05f 00 KEY_2 Samsung_CS-25M6HNQ
+00000000e0e0a05f 01 KEY_2 Samsung_CS-25M6HNQ
+00000000e0e020df 00 KEY_1 Samsung_CS-25M6HNQ
+00000000e0e020df 01 KEY_1 Samsung_CS-25M6HNQ
+00000000e0e020df 00 KEY_1 Samsung_CS-25M6HNQ
+00000000e0e020df 01 KEY_1 Samsung_CS-25M6HNQ
+```
+
+
+<code>irw</code> 명령을 수행하면 위와 같이 어떤 키가 
+인식되었는지를 로그로 확인할 수 있습니다. 
+
+
+### 유용한 링크
+
+
+[https://shallowsky.com/blog/hardware/raspberry-pi-ir-remote.html](https://shallowsky.com/blog/hardware/raspberry-pi-ir-remote.html)
+
+
+
+
+
+### 결론
 
 
 Ubuntu Linux 21.10이 설치된 라즈베리파이4B에 
