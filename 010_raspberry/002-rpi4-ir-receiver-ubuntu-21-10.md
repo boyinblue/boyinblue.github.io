@@ -464,6 +464,182 @@ $ irw
 인식되었는지를 로그로 확인할 수 있습니다. 
 
 
+### 리모컨 신호를 받아서 처리하는 파이썬 예제
+
+
+아래는 리모컨 신호를 받아서 처리하는 파이썬 예제입니다. 
+비동기(Non-Blocking) 방식과 동기(Blocking) 방식 2가지를 제공합니다. 
+
+
+```python
+#!/usr/bin/env python
+
+import socket
+import time
+
+SOCKET_PATH = "/var/run/lirc/lircd"
+
+sock = None
+sync_mode = True
+
+def init_irw(blocking = False):
+    global sock
+    global sync_mode
+
+    if blocking == True:
+        sock = socket.socket(socket.AF_UNIX, socket.SOCK_STREAM)
+    else:
+        sock = socket.socket(socket.AF_UNIX,
+                    socket.SOCK_STREAM | socket.SOCK_NONBLOCK)
+
+    sync_mode = blocking
+
+    print ('Connect to lirc socket : ', SOCKET_PATH)
+    sock.connect(SOCKET_PATH)
+
+def read_key_async():
+    try:
+        data = sock.recv(128)
+    except BlockingIOError:
+        return None
+    
+    return data
+
+def read_key_sync():
+    while True:
+        data = sock.recv(128)
+    
+        if data:
+            data = data.strip()
+            return data
+
+def read_key():
+    '''Get the next key pressed. Return keyname, updown.
+    '''
+    global sync_mode
+    if sync_mode:
+        data = read_key_sync()
+    else:
+        data = read_key_async()
+
+    if data:
+        words = data.split()
+        return words[2], words[1]
+
+    return '', ''
+
+def main_sync():
+    init_irw(blocking = True)
+
+    while True:
+        keyname, updown = read_key()
+        print('%s (%s)' % (keyname, updown))
+
+def main_async():
+    init_irw(blocking = False)
+
+    while True:
+        keyname, updown = read_key()
+        if keyname == '' and updown == '':
+            time.sleep(0.1)
+            continue
+        print('%s (%s)' % (keyname, updown))
+
+if __name__ == '__main__':
+    #main_async()
+    main_sync()
+```
+
+
+#### 동기화된 리턴 처리
+
+
+동기화된 리턴의 경우 응답이 소켓으로 데이터가 수신될 때까지 
+함수가 리턴되지 않는 방식입니다. 
+즉, 데이터가 들어올 때까지 함수는 내부적으로 blocking 됩니다. 
+
+
+#### 비동기 리턴 처리
+
+
+비동기 함수의 경우 메시지 수신 여부와 관계없이 
+즉각적으로 함수가 리턴됩니다. 
+
+
+만약, 파이썬 프로그램이 여러가지 이벤트들을 처리해야 한다면, 
+리모컨 입력은 비동기 리턴 방식으로 처리를 해야 합니다. 
+
+
+### 코드 설명
+
+
+우선 <code>init_irw()</code> 함수를 호출하여 초기화 합니다. 
+<code>init_irw(blocking = True)</code>로 호출하면 
+동기화된 리턴 방식으로 리모컨 메시지를 가져오게되고, 
+<code>init_irw(blocking = False)</code>로 호출하면 
+비동기 리턴 방식으로 리모컨 메시지를 가져오게 됩니다. 
+
+
+```python
+def init_irw(blocking = False):
+    global sock
+    global sync_mode
+
+    if blocking == True:
+        sock = socket.socket(socket.AF_UNIX, socket.SOCK_STREAM)
+    else:
+        sock = socket.socket(socket.AF_UNIX,
+                    socket.SOCK_STREAM | socket.SOCK_NONBLOCK)
+
+    sync_mode = blocking
+
+    print ('Connect to lirc socket : ', SOCKET_PATH)
+    sock.connect(SOCKET_PATH)
+```
+
+
+비동기 리턴의 경우 <code>socket.SOCK_NONBLOCK</code> 속성을 지정하여 
+소켓을 생성하는 것을 확인할 수 있습니다. 
+
+
+lirc 소켓 파일 경로는 <code>/var/run/lirc/lircd</code>입니다. 
+
+
+```python
+def read_key_async():
+    try:
+        data = sock.recv(128)
+    except BlockingIOError:
+        return None
+
+    return data
+```
+
+
+비동기로 리모컨 신호를 수신을 시도하였는데, 
+소켓에 메시지가 없으면 <code>BlockingIOError</code> 예외가 발생합니다. 
+이 때에 스크립트가 종료되지 않고, 그저 None이 리턴될 수 있도록 
+적절하게 예외처리를 해줍니다. 
+
+
+```python
+    while True:
+        keyname, updown = read_key()
+        if keyname == '' and updown == '':
+            time.sleep(0.1)
+            continue
+        print('%s (%s)' % (keyname, updown))
+```
+
+
+비동기 방식의 처리에서 메시지가 없을 경우 <code>None</code>이 리턴되므로 
+이 때에는 0.1초동안 기다렸다가 다시 소켓을 읽도록 하였습니다. 
+
+
+동기화된 리턴의 경우는 비동기 리턴보다 쉬운 개념이므로 
+설명을 생략하고자 합니다. 
+
+
 ### 유용한 링크
 
 
