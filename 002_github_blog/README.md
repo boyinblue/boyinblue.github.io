@@ -157,3 +157,10 @@ GitHub Pages에서 css를 변경하고자 할 때 편집해야하는 css 파일 
 
 
 GitHub Pages로 새로운 변경점을 반영하려고 할 때 400 에러나 502 에러가 발생할 경우 조치하는 방법입니다.
+
+
+[구글 애드센스 ads.txt 문제 해결 방법](014-google-adsense-ads-txt-warning.html '구글 애드센스에서 ads.txt 파일에 문제가 있을 경우 조치 방법')
+---
+
+
+구글 애드센스에서 ads.txt 파일에 문제가 있을 경우 조치 방법

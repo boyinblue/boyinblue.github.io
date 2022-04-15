@@ -18,6 +18,7 @@ https://boyinblue.github.io/002_github_blog/010-github-no-uploaded-artifact-was-
 https://boyinblue.github.io/002_github_blog/011-github-mapping-values-are-not-allowed-in-this-context.html
 https://boyinblue.github.io/002_github_blog/012-github-pages-css-file-path.html
 https://boyinblue.github.io/002_github_blog/013-github-pages-deploy-error-400-502.html
+https://boyinblue.github.io/002_github_blog/014-google-adsense-ads-txt-warning.html
 https://boyinblue.github.io/002_github_blog/index.html
 https://boyinblue.github.io/002_github_blog/_README.html
 https://boyinblue.github.io/002_github_blog/README.html
