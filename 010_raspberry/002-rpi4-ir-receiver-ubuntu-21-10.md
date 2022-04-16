@@ -314,6 +314,27 @@ include "lircd.conf.d/*.conf"
 리모컨 신호를 직접 학습시키는 방법이 있습니다. 
 
 
+리모컨 학습이 쉽지 않는 경우가 많이 발생합니다. 
+그 이유는, <code>lircd</code> 서비스를 제대로 종료시키지 않아서 
+발생하는 경우가 많습니다. 
+
+
+아래의 명령을 실행하여 <code>lircd</code> 서비스를 종료해줍니다.
+
+
+```bash
+$ sudo systemctl stop lircd.service
+$ sudo systemctl stop lircd.socket
+```
+
+
+<code>lircd.service</code> 서비스를 종료시키더라도, 
+<code>lircd.socket</code> 서비스에 의해서 다시 서비스가 
+활성화될 수 있으므로, 반드시 <code>lircd.socket</code> 서비스 까지 
+종료시킨 이후에 리모컨 학습을 시도하시기 바랍니다. 
+
+
+이제 본격적으로 리모컨 학습을 시작할 차례입니다. 
 <code>sudo irrecord -n -d /dev/lirc0 my_remote.conf</code> 명령으로 
 리모컨을 학습시킨 후 <code>my_remote.conf</code> 파일에 저장할 수 있습니다. 
 
@@ -321,10 +342,6 @@ include "lircd.conf.d/*.conf"
 ```bash
 $ sudo irrecord -n -d /dev/lirc0 my_remote.conf
 ```
-
-
-위의 명령에서 알려주는대로 리모컨을 학습시키면 되는데 학습이 쉽지 않습니다.
-
 
 아래는 제가 리모컨을 학습시킨 로그입니다. 
 
@@ -426,7 +443,8 @@ end remote
 주파수는 38KHz 입니다. 
 
 
-이 정보만 가지고 여기에 맞는 리모컨 설정 파일을 
+혹시 리모컨 학습이 완료되지 못했을 경우에는 
+위의 비트수와 주파수 정보만 가지고 여기에 맞는 리모컨 설정 파일을 
 위에서 언급한 홈페이지(http://lirc.sourceforge.net/remotes/)에서 
 찾으면 됩니다.
 
