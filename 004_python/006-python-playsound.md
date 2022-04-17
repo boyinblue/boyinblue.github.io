@@ -1,4 +1,5 @@
 ---
+title: Need To Update
 description: 파이썬에서 MP3 파일 재생 방법과 playsound를 통해 비동기 재생 방식에 대해서 설명합니다.
 ---
 
