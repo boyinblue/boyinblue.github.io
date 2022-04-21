@@ -51,3 +51,10 @@ Ubuntu Linux 파일 시스템에 생성되는 dead.letter 파일의 정체를 �
 
 
 우분투 리눅스에 python 스크립트를 서비스로 등록하는 방법
+
+
+[vim 띄워쓰기 설정 방법](007-how-to-vim-setting.html 'vim 패키지의 띄워쓰기 설정 방법')
+---
+
+
+vim 패키지의 띄워쓰기 설정 방법
