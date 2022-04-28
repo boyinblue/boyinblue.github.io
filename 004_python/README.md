@@ -54,6 +54,13 @@ vim을 이용하여 파이썬 스크립트 편집시에 띄워쓰기 설정 방�
 파이썬에서 홈 디렉토리의 파일을 오픈하는 방법에 대해서 설명합니다.
 
 
+[파이썬 스크립트 실행시 No module named speech_recognition 에러가 발생했을 때 조치 방법](006-python-no-module-speech-recognition.html '파이썬 스크립트 실행시 No module named speech_recognition 이라는 에러가 발생했을 때 설치해야 하는 패키지명에 대해서 설명합니다. ')
+---
+
+
+파이썬 스크립트 실행시 No module named speech_recognition 이라는 에러가 발생했을 때 설치해야 하는 패키지명에 대해서 설명합니다. 
+
+
 [Need To Update](006-python-playsound.html '파이썬에서 MP3 파일 재생 방법과 playsound를 통해 비동기 재생 방식에 대해서 설명합니다.')
 ---
 
