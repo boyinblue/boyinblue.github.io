@@ -58,3 +58,10 @@ Ubuntu Linux 파일 시스템에 생성되는 dead.letter 파일의 정체를 �
 
 
 vim 패키지의 띄워쓰기 설정 방법
+
+
+[USB-to-Serial 장치를 연결했지만 /dev/tty/ttyUSB0 파일이 생성되지 않는 경우 조치 방법](008-usb-to-serial-no-ttyUSB0.html 'Ubuntu Linux 22.04에 USB-to-Serial 장치를 연결했지만 ttyUSB0 파일이 생성되지 않는 경우 조치하는 방법에 대해서 설명합니다.')
+---
+
+
+Ubuntu Linux 22.04에 USB-to-Serial 장치를 연결했지만 ttyUSB0 파일이 생성되지 않는 경우 조치하는 방법에 대해서 설명합니다.
