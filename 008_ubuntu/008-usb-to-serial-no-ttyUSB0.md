@@ -121,6 +121,38 @@ UDEV  [82549.965710] remove   /devices/platform/scb/fd500000.pcie/pci0000:00/000
 USB-to-Serial로 인식된 코드를 주석 처리 합니다. 
 
 
+### 기존 설정
+
+
+```bash
+$ sudo vi /usr/lib/udev/rules.d/85-brltty.rules
+# Device: 0403:6001
+# Generic Identifier
+# Vendor: Future Technology Devices International, Ltd
+# Product: FT232 USB-Serial (UART) IC
+# Albatross [all models]
+# Cebra [all models]
+# HIMS [Sync Braille]
+# HandyTech [FTDI chip]
+# Hedo [MobilLine]
+# MDV [all models]
+ENV{PRODUCT}=="403/6001/*", ATTRS{manufacturer}=="FTDI", ENV{BRLTTY_BRAILLE_DRIVER}="hd,hm,ht", GOTO="brltty_usb_run"
+ENV{PRODUCT}=="403/6001/*", ATTRS{manufacturer}=="Hedo Reha Technik GmbH", ENV{BRLTTY_BRAILLE_DRIVER}="hd,hm,ht", GOTO="brltty_usb_run"
+```
+
+
+아래 라인들을 주석 처리합니다.
+
+
+```
+ENV{PRODUCT}=="403/6001/*", ATTRS{manufacturer}=="FTDI", ENV{BRLTTY_BRAILLE_DRIVER}="hd,hm,ht", GOTO="brltty_usb_run"
+ENV{PRODUCT}=="403/6001/*", ATTRS{manufacturer}=="Hedo Reha Technik GmbH", ENV{BRLTTY_BRAILLE_DRIVER}="hd,hm,ht", GOTO="brltty_usb_run"
+```
+
+
+### 새 설정
+
+
 ```bash
 $ sudo vi /usr/lib/udev/rules.d/85-brltty.rules
 # Device: 0403:6001
