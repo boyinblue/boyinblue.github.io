@@ -41,9 +41,6 @@ USB-to-Serial 케이블을 연결해도 /dev/ttyUSB0와 같은 파일들이
 
 ```bash
 $ lsusb
-```
-
-
 Bus 003 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
 Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
 Bus 001 Device 007: ID 0403:6001 Future Technology Devices International, Ltd FT232 Serial (UART) IC
@@ -52,6 +49,7 @@ Bus 001 Device 003: ID 03f0:1b4a HP, Inc HP Wireless Slim Keyboard - Skylab KR
 Bus 001 Device 006: ID 03f0:f92a HP, Inc HP Color LaserJet MFP E785
 Bus 001 Device 002: ID 2109:3431 VIA Labs, Inc. Hub
 Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+```
 
 
 아래와 같이 USB-to-Serial 장치가 정상적으로 인식된 것을 확인할 수 있습니다. 
@@ -68,9 +66,6 @@ Bus 001 Device 008: ID 0403:6001 Future Technology Devices International, Ltd FT
 
 ```bash
 sudo udevadm monitor -u
-```
-
-
 monitor will print the received events for:
 UDEV - the event which udev sends out after rule processing
 
@@ -91,6 +86,7 @@ UDEV  [82549.959662] unbind   /devices/platform/scb/fd500000.pcie/pci0000:00/000
 UDEV  [82549.960285] remove   /devices/platform/scb/fd500000.pcie/pci0000:00/0000:00:00.0/0000:01:00.0/usb1/1-1/1-1.4/1-1.4:1.0/gpiochip2 (gpio)
 UDEV  [82549.965710] remove   /devices/platform/scb/fd500000.pcie/pci0000:00/0000:00:00.0/0000:01:00.0/usb1/1-1/1-1.4/1-1.4:1.0/ttyUSB0 (usb-serial)
 UDEV  [82549.974262] unbind   /devices/platform/scb/fd500000.pcie/pci0000:00/0000:00:00.0/0000:01:00.0/usb1/1-1/1-1.4/1-1.4:1.0 (usb)
+```
 
 
 로그를 잘 살펴보면 ttyUSB0로 add되고 bind된 이후에, 
