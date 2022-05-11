@@ -77,6 +77,35 @@ if 구문의 끝에 위치시키면서 코드를 좀 더 간결하게 만들 수
 실행시에 수많은 띄워쓰기 에러 메시지를 만날 수 있다. 
 
 
+vim 패키지 설치
+---
+
+
+처음 Ubuntu Linux를 설치하면 vi 명령이 제법 불편하다. 
+키보드의 방향키가 제대로 동작하지 않는다. 
+기본적인 vi의 경우 방향키 대신에 'h', 'j', 'k', 'l' 등의 키로
+커서를 이동시키도록 되어 있기 때문이다.
+
+
+vi 방향키
+
+
+- 'h' : 왼쪽으로 이동
+- 'j' : 아래로 이동
+- 'k' : 위로 이동
+- 'l' : 오른쪽으로 이동
+
+
+일단 방향키부터 무척 불편하기 때문에 vim 패키지를 설치한다.
+
+
+<code>$ sudo apt-get install vim</code>
+
+
+vim 패키지를 설치한 이후에 <code>vi</code> 편집기를 열면 
+키보드의 방향키가 정상적으로 잘 인식되는 것을 알 수 있다. 
+
+
 파이썬 코딩을 위한 vim 설정
 ---
 
@@ -157,6 +186,15 @@ python.vim 파일은 <code>~/.vim/syntax</code> 경로에 저장하면 된다.
 
 
 [python.vim](python.vim)
+
+
+아래의 명령으로 한 번에 다운로드가 가능하다.
+
+
+```bash
+$ mkdir -p ~/.vim/syntax
+$ wget -O ~/.vim/syntax/syntax.vim https://boyinblue.github.io/004_python/python.vim
+```
 
 
 결론
