@@ -162,14 +162,14 @@ $ ls /dev/ttyUSB*
 ---
 
 
-<code>
+```bash
 $ lsb_release -a
 No LSB modules are available.
 Distributor ID:	Ubuntu
 Description:	Ubuntu 22.04 LTS
 Release:	22.04
 Codename:	jammy
-</code>
+```
 
 
 결론
