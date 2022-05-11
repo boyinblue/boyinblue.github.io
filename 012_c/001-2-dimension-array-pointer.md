@@ -215,7 +215,7 @@ int main()
 ```
 
 
-[전체 소스 코드](https://www.github.com/boyinblue/test/c/419212090/score.c)
+[전체 소스 코드](https://raw.githubusercontent.com/boyinblue/test/main/c/419212090/score.c)
 
 
 이상입니다. 
