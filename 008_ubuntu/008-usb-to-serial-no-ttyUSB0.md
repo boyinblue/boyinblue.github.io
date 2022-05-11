@@ -55,10 +55,10 @@ Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
 아래와 같이 USB-to-Serial 장치가 정상적으로 인식된 것을 확인할 수 있습니다. 
 
 
-<code>
+```
 Bus 001 Device 007: ID 0403:6001 Future Technology Devices International, Ltd FT232 Serial (UART) IC
 Bus 001 Device 008: ID 0403:6001 Future Technology Devices International, Ltd FT232 Serial (UART) IC
-</code>
+```
 
 
 <code>$ sudo udevadm monitor -u</code> 명령으로 인식 로그를 살펴봅니다. 
