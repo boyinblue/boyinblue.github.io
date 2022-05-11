@@ -41,9 +41,6 @@ USB-to-Serial 케이블을 연결해도 /dev/ttyUSB0와 같은 파일들이
 
 ```bash
 $ lsusb
-```
-
-
 Bus 003 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
 Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
 Bus 001 Device 007: ID 0403:6001 Future Technology Devices International, Ltd FT232 Serial (UART) IC
@@ -52,15 +49,16 @@ Bus 001 Device 003: ID 03f0:1b4a HP, Inc HP Wireless Slim Keyboard - Skylab KR
 Bus 001 Device 006: ID 03f0:f92a HP, Inc HP Color LaserJet MFP E785
 Bus 001 Device 002: ID 2109:3431 VIA Labs, Inc. Hub
 Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+```
 
 
 아래와 같이 USB-to-Serial 장치가 정상적으로 인식된 것을 확인할 수 있습니다. 
 
 
-<code>
+```
 Bus 001 Device 007: ID 0403:6001 Future Technology Devices International, Ltd FT232 Serial (UART) IC
 Bus 001 Device 008: ID 0403:6001 Future Technology Devices International, Ltd FT232 Serial (UART) IC
-</code>
+```
 
 
 <code>$ sudo udevadm monitor -u</code> 명령으로 인식 로그를 살펴봅니다. 
@@ -68,9 +66,6 @@ Bus 001 Device 008: ID 0403:6001 Future Technology Devices International, Ltd FT
 
 ```bash
 sudo udevadm monitor -u
-```
-
-
 monitor will print the received events for:
 UDEV - the event which udev sends out after rule processing
 
@@ -91,30 +86,31 @@ UDEV  [82549.959662] unbind   /devices/platform/scb/fd500000.pcie/pci0000:00/000
 UDEV  [82549.960285] remove   /devices/platform/scb/fd500000.pcie/pci0000:00/0000:00:00.0/0000:01:00.0/usb1/1-1/1-1.4/1-1.4:1.0/gpiochip2 (gpio)
 UDEV  [82549.965710] remove   /devices/platform/scb/fd500000.pcie/pci0000:00/0000:00:00.0/0000:01:00.0/usb1/1-1/1-1.4/1-1.4:1.0/ttyUSB0 (usb-serial)
 UDEV  [82549.974262] unbind   /devices/platform/scb/fd500000.pcie/pci0000:00/0000:00:00.0/0000:01:00.0/usb1/1-1/1-1.4/1-1.4:1.0 (usb)
+```
 
 
 로그를 잘 살펴보면 ttyUSB0로 add되고 bind된 이후에, 
 unbind되고 remove 된 것을 알 수 있습니다. 
 
 
-<code>
+```
 UDEV  [82546.645324] add      /devices/platform/scb/fd500000.pcie/pci0000:00/0000:00:00.0/0000:01:00.0/usb1/1-1/1-1.4/1-1.4:1.0/ttyUSB0/tty/ttyUSB0 (tty)
-</code>
+```
 
 
-<code>
+```
 UDEV  [82546.664143] bind     /devices/platform/scb/fd500000.pcie/pci0000:00/0000:00:00.0/0000:01:00.0/usb1/1-1/1-1.4/1-1.4:1.0/ttyUSB0 (usb-serial)
-</code>
+```
 
 
-<code>
+```
 UDEV  [82549.959662] unbind   /devices/platform/scb/fd500000.pcie/pci0000:00/0000:00:00.0/0000:01:00.0/usb1/1-1/1-1.4/1-1.4:1.0/ttyUSB0 (usb-serial)
-</code>
+```
 
 
-<code>
+```
 UDEV  [82549.965710] remove   /devices/platform/scb/fd500000.pcie/pci0000:00/0000:00:00.0/0000:01:00.0/usb1/1-1/1-1.4/1-1.4:1.0/ttyUSB0 (usb-serial)
-</code>
+```
 
 
 해결 방법
@@ -125,12 +121,40 @@ UDEV  [82549.965710] remove   /devices/platform/scb/fd500000.pcie/pci0000:00/000
 USB-to-Serial로 인식된 코드를 주석 처리 합니다. 
 
 
+### 기존 설정
+
+
 ```bash
 $ sudo vi /usr/lib/udev/rules.d/85-brltty.rules
+# Device: 0403:6001
+# Generic Identifier
+# Vendor: Future Technology Devices International, Ltd
+# Product: FT232 USB-Serial (UART) IC
+# Albatross [all models]
+# Cebra [all models]
+# HIMS [Sync Braille]
+# HandyTech [FTDI chip]
+# Hedo [MobilLine]
+# MDV [all models]
+ENV{PRODUCT}=="403/6001/*", ATTRS{manufacturer}=="FTDI", ENV{BRLTTY_BRAILLE_DRIVER}="hd,hm,ht", GOTO="brltty_usb_run"
+ENV{PRODUCT}=="403/6001/*", ATTRS{manufacturer}=="Hedo Reha Technik GmbH", ENV{BRLTTY_BRAILLE_DRIVER}="hd,hm,ht", GOTO="brltty_usb_run"
 ```
 
 
-<code>
+아래 라인들을 주석 처리합니다.
+
+
+```
+ENV{PRODUCT}=="403/6001/*", ATTRS{manufacturer}=="FTDI", ENV{BRLTTY_BRAILLE_DRIVER}="hd,hm,ht", GOTO="brltty_usb_run"
+ENV{PRODUCT}=="403/6001/*", ATTRS{manufacturer}=="Hedo Reha Technik GmbH", ENV{BRLTTY_BRAILLE_DRIVER}="hd,hm,ht", GOTO="brltty_usb_run"
+```
+
+
+### 새 설정
+
+
+```bash
+$ sudo vi /usr/lib/udev/rules.d/85-brltty.rules
 # Device: 0403:6001
 # Generic Identifier
 # Vendor: Future Technology Devices International, Ltd
@@ -143,10 +167,10 @@ $ sudo vi /usr/lib/udev/rules.d/85-brltty.rules
 # MDV [all models]
 #ENV{PRODUCT}=="403/6001/*", ATTRS{manufacturer}=="FTDI", ENV{BRLTTY_BRAILLE_DRIVER}="hd,hm,ht", GOTO="brltty_usb_run"
 #ENV{PRODUCT}=="403/6001/*", ATTRS{manufacturer}=="Hedo Reha Technik GmbH", ENV{BRLTTY_BRAILLE_DRIVER}="hd,hm,ht", GOTO="brltty_usb_run"
-</code>
+```
 
 
-시스템으 재부팅합니다. 
+시스템을 재부팅합니다. 
 
 
 ```bash
@@ -170,14 +194,14 @@ $ ls /dev/ttyUSB*
 ---
 
 
-<code>
+```bash
 $ lsb_release -a
 No LSB modules are available.
 Distributor ID:	Ubuntu
 Description:	Ubuntu 22.04 LTS
 Release:	22.04
 Codename:	jammy
-</code>
+```
 
 
 결론
