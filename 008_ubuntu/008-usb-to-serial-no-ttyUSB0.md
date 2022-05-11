@@ -123,10 +123,6 @@ USB-to-Serial로 인식된 코드를 주석 처리 합니다.
 
 ```bash
 $ sudo vi /usr/lib/udev/rules.d/85-brltty.rules
-```
-
-
-<code>
 # Device: 0403:6001
 # Generic Identifier
 # Vendor: Future Technology Devices International, Ltd
@@ -139,10 +135,10 @@ $ sudo vi /usr/lib/udev/rules.d/85-brltty.rules
 # MDV [all models]
 #ENV{PRODUCT}=="403/6001/*", ATTRS{manufacturer}=="FTDI", ENV{BRLTTY_BRAILLE_DRIVER}="hd,hm,ht", GOTO="brltty_usb_run"
 #ENV{PRODUCT}=="403/6001/*", ATTRS{manufacturer}=="Hedo Reha Technik GmbH", ENV{BRLTTY_BRAILLE_DRIVER}="hd,hm,ht", GOTO="brltty_usb_run"
-</code>
+```
 
 
-시스템으 재부팅합니다. 
+시스템을 재부팅합니다. 
 
 
 ```bash
