@@ -93,24 +93,24 @@ UDEV  [82549.974262] unbind   /devices/platform/scb/fd500000.pcie/pci0000:00/000
 unbind되고 remove 된 것을 알 수 있습니다. 
 
 
-<code>
+```
 UDEV  [82546.645324] add      /devices/platform/scb/fd500000.pcie/pci0000:00/0000:00:00.0/0000:01:00.0/usb1/1-1/1-1.4/1-1.4:1.0/ttyUSB0/tty/ttyUSB0 (tty)
-</code>
+```
 
 
-<code>
+```
 UDEV  [82546.664143] bind     /devices/platform/scb/fd500000.pcie/pci0000:00/0000:00:00.0/0000:01:00.0/usb1/1-1/1-1.4/1-1.4:1.0/ttyUSB0 (usb-serial)
-</code>
+```
 
 
-<code>
+```
 UDEV  [82549.959662] unbind   /devices/platform/scb/fd500000.pcie/pci0000:00/0000:00:00.0/0000:01:00.0/usb1/1-1/1-1.4/1-1.4:1.0/ttyUSB0 (usb-serial)
-</code>
+```
 
 
-<code>
+```
 UDEV  [82549.965710] remove   /devices/platform/scb/fd500000.pcie/pci0000:00/0000:00:00.0/0000:01:00.0/usb1/1-1/1-1.4/1-1.4:1.0/ttyUSB0 (usb-serial)
-</code>
+```
 
 
 해결 방법
