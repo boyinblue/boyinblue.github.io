@@ -56,6 +56,7 @@ https://boyinblue.github.io/008_ubuntu/005-what-is-dead_letteres.html
 https://boyinblue.github.io/008_ubuntu/006-ubuntu-register-serivce.html
 https://boyinblue.github.io/008_ubuntu/007-how-to-vim-setting.html
 https://boyinblue.github.io/008_ubuntu/008-usb-to-serial-no-ttyUSB0.html
+https://boyinblue.github.io/008_ubuntu/009-ubuntu-network-manager-ip-setting.html
 https://boyinblue.github.io/008_ubuntu/index.html
 https://boyinblue.github.io/008_ubuntu/_README.html
 https://boyinblue.github.io/008_ubuntu/README.html
