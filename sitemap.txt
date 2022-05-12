@@ -60,8 +60,6 @@ https://boyinblue.github.io/008_ubuntu/009-ubuntu-network-manager-ip-setting.htm
 https://boyinblue.github.io/008_ubuntu/index.html
 https://boyinblue.github.io/008_ubuntu/_README.html
 https://boyinblue.github.io/008_ubuntu/README.html
-https://boyinblue.github.io/009_upbit/2022-03-23daily-candle-10days.html
-https://boyinblue.github.io/009_upbit/2022-03-24-daily-candle-10days.html
 https://boyinblue.github.io/009_upbit/index.html
 https://boyinblue.github.io/009_upbit/_README.html
 https://boyinblue.github.io/009_upbit/README.html
