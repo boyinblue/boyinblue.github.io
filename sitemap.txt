@@ -34,6 +34,7 @@ https://boyinblue.github.io/004_python/004-python-vim-setting.html
 https://boyinblue.github.io/004_python/005-python-cannot-read-home-directory.html
 https://boyinblue.github.io/004_python/006-python-no-module-speech-recognition.html
 https://boyinblue.github.io/004_python/007-python-playsound.html
+https://boyinblue.github.io/004_python/008-python-wordpress-update.html
 https://boyinblue.github.io/004_python/index.html
 https://boyinblue.github.io/004_python/_README.html
 https://boyinblue.github.io/004_python/README.html
@@ -79,3 +80,5 @@ https://boyinblue.github.io/012_c/001-2-dimension-array-pointer.html
 https://boyinblue.github.io/012_c/index.html
 https://boyinblue.github.io/012_c/_README.html
 https://boyinblue.github.io/012_c/README.html
+https://boyinblue.github.io/013_wordpress/001-wordpress-xmlrpc-api.html
+https://boyinblue.github.io/013_wordpress/_README.html
