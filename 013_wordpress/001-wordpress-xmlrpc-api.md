@@ -54,11 +54,12 @@ XML-RPC API를 통해서 웹페이지를 생성하고 편집하면
 
 
 |Parameter|Type|Mandotory|Description|
-|--|--|--|
+|--|--|--|--|
 |username|string| Y | 워드프레스 ID |
 |password|string| Y | 워드프레스 비밀번호 |
 |post_id|int| Y | 워드프레스 글 번호 |
 |fields|array|    |   |
+
 
 
 #### 2. Query를 위한 xml 작성
