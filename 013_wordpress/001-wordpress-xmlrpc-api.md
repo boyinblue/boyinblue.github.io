@@ -25,7 +25,7 @@ description: 워드프레스의 xmlrpc API를 이용하는 방법에 대해서 �
 
 
 워드프레스의 XML-RPC API에 대해서 가장 잘 정리된 페이지는 
-![https://codex.wordpress.org/XML-RPC_WordPress_API](https://codex.wordpress.org/XML-RPC_WordPress_API)로 접속하시면 됩니다. 
+[https://codex.wordpress.org/XML-RPC_WordPress_API](https://codex.wordpress.org/XML-RPC_WordPress_API)로 접속하시면 됩니다. 
 
 
 사실 XML-RPC는 워드프레스의 취약점 중의 하나입니다만, 
