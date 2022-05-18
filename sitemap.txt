@@ -81,4 +81,6 @@ https://boyinblue.github.io/012_c/index.html
 https://boyinblue.github.io/012_c/_README.html
 https://boyinblue.github.io/012_c/README.html
 https://boyinblue.github.io/013_wordpress/001-wordpress-xmlrpc-api.html
+https://boyinblue.github.io/013_wordpress/index.html
 https://boyinblue.github.io/013_wordpress/_README.html
+https://boyinblue.github.io/013_wordpress/README.html
