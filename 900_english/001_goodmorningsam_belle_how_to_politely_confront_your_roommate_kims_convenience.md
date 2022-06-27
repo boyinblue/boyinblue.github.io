@@ -83,4 +83,6 @@ Link
 ---
 
 
+[How to politely confront your roommate(YouTube)](https://www.youtube.com/watch?v=LaO7S667NSQ)
+
 
