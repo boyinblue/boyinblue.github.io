@@ -45,7 +45,7 @@ Vocaburary
 |confront|argue|   |
 |recently|   |강세 주의|
 |considerate|   |발음 주의|
-|soak|담그다|   |I'm looking forward to a long soak in the tub|
+|soak|담그다|I'm looking forward to a long soak in the tub|
 |water bill|수도 요금|동의어 hydro bill|
 |electro bill|전기 요금|   |
 
