@@ -87,10 +87,10 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Mozilla\Firefox\Preferences 디렉토리에
 ===
 
 
-해당 내용은 아래의 페이지에서 정보를 얻었습니다. 
+해당 내용은 아래의 페이지에서 정보를 얻었습니다.
 
 
-[링크](https://github.com/orange-cloudfoundry/paas-templates/issues/891)
+[SEC_ERROR_PKCS11_GENERAL_ERROR error with Firefox entreprise strategy #891 ](https://github.com/orange-cloudfoundry/paas-templates/issues/891)
 
 
 
