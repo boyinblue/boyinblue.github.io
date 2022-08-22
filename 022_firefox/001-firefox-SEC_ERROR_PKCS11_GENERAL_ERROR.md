@@ -1,6 +1,6 @@
 ---
 title: SEC_ERROR_PKCS11_GENERAL_ERROR 에러 발생시 조치 방법
-description: markdown table 문법에 대해서 기록해두는 페이지입니다. 
+description: Firefox 웹브라우저에서 SEC_ERROR_PKCS11_GENERAL_ERROR 에러가 발생할 경우 조치하는 방법에 대해서 설명합니다.
 ---
 
 
