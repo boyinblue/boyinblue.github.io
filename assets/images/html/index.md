@@ -8,9 +8,13 @@ description: /assets/images/html
 {% assign gallery_image_url = '/assets/images/html/html-float.png' %}
 {% assign gallery_link_url = '/assets/images/html/html-float.png' %}
 {% assign gallery_path = '/assets/images/html/html-float.png' %}
+{% assign gallery_width = '685'  %}
+{% assign gallery_height = '399'  %}
 {% include body-gallery.html %}
 
 {% assign gallery_image_url = '/assets/images/html/logo.png' %}
 {% assign gallery_link_url = '/assets/images/html/logo.png' %}
 {% assign gallery_path = '/assets/images/html/logo.png' %}
+{% assign gallery_width = '128'  %}
+{% assign gallery_height = '128'  %}
 {% include body-gallery.html %}
