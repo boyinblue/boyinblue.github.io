@@ -29,7 +29,6 @@ if [ "${diff}" != "" ]; then
   git add ../sitemap.txt
   git add ../README.md
   git commit -m "[Index] auto generated site map & main page"
-  git push origin main
 
   echo "<pre><code>" > ${TMP_DIFF_FILE}
   echo "${diff}" >> ${TMP_DIFF_FILE}
