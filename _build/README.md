@@ -20,9 +20,9 @@ Crontab에 의해서 자동으로 실행되는 스크립트입니다.
 
 
 - auto.sh
-  - [make\_site\_map.sh](#make\_site\_mapsh)
-  - [make\_readme.sh](#make\_readmesh)
-  - [send\_email.sh](#send\_emailsh)
+  - [make\_site\_map.sh](#make\_site\_map.sh)
+  - [make\_readme.sh](#make\_readme.sh)
+  - [send\_email.sh](#send\_email.sh)
 
 
 <code>make\_site\_map.sh</code> 파일은 사이트맵을 생성하고 업데이트합니다. 

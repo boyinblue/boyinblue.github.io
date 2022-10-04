@@ -4,10 +4,25 @@ TMP_DIFF_FILE="tmp/diff.txt"
 
 mkdir -p tmp
 
+################################
+### Step1. git pull
+################################
 git pull
 
+################################
+### Step2. Making README.md
+################################
+#./make_readme.sh
+./check_md_files.py
+
+################################
+### Step3. Making sitemap
+################################
 ./make_site_map.sh
 
+################################
+### Step4. Sending e-mail
+################################
 diff=$(git diff)
 if [ "${diff}" != "" ]; then
   git add ../sitemap.xml
@@ -22,8 +37,9 @@ if [ "${diff}" != "" ]; then
   ./send_email.sh ${TMP_DIFF_FILE}
 fi
 
-#./make_readme.sh
-python3 check_md_files.py
+################################
+### Step5. git push
+################################
 git add ..
 git commit -m "[boyinblue.github.io] Auto geerate README.md files"
 git push
