@@ -104,3 +104,4 @@ https://boyinblue.github.io/900_english/index.html
 https://boyinblue.github.io/901_diary/20100829_rainnyday.html
 https://boyinblue.github.io/901_diary/README.html
 https://boyinblue.github.io/901_diary/_README.html
+https://boyinblue.github.io/901_diary/index.html
