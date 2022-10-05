@@ -58,7 +58,7 @@ def make_md_for_pics(dir):
 #            print("ext : {}, {}".format(ext, -len(ext)))
             if len(file) >= len(ext) and file[-len(ext):] == ext:
                 print("[IMG] {}".format(path))
-                f_wr.write("\\<!---{}-->\n".format(file))
+                f_wr.write("<!--{}-->\n".format(file))
                 f_wr.write("![이미지]({})\n\n\n".format(file))
                 break
     f_wr.close()
