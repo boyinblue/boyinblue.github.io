@@ -16,7 +16,7 @@ description: 기록하지 않은 일상은 추억이 될 수 없고, 기록하�
 
 
 
-[./20100829_rainnyday](20100829_rainnyday/index.html './20100829_rainnyday')
+[✔️./20100829_rainnyday](20100829_rainnyday/index.html './20100829_rainnyday')
 ---
 
 

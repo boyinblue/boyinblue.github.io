@@ -58,7 +58,7 @@ Vocaburary
 
 
 It isn't easy for me to confront someone. 
-I try to stretch mt patience as much as possible. 
+I try to stretch my patience as much as possible. 
 To have a confrontation with someone is not comfortable for me.
 
 
