@@ -11,7 +11,7 @@ pics_file_exts = [
                 ]
 
 def write_default_md(dir):
-    file = open(dir + "/_README.md", "w")
+    file = open(dir + "/README.md", "w")
     file.write("---\n")
     file.write("title: " + dir + "\n")
     file.write("description: " + dir + "\n")
@@ -22,34 +22,44 @@ def write_default_md(dir):
     file.write("수정을 원하시면 아래의 링크를 이용해서 수정하시기 바랍니다. \n")
     file.write("\n")
     file.write("\n")
-    file.write("[수정](https://www.github.com/boyinblue/boyinblue.github.io/edit/main/{}/_README.md)".format(dir))
+    file.write("[수정](https://www.github.com/boyinblue/boyinblue.github.io/edit/main/901_diary/{}/_README.md)".format(dir))
     file.write("\n")
     file.write("\n")
     file.close()
+
+def is_exist_file(lines, file):
+    for line in lines:
+        if line.find(file) != -1:
+            return True
+    return False
 
 def make_md_for_pics(dir):
     print("make_md_for_pics :", dir)
     files = os.listdir(dir)
     files.sort()
 
-    if not os.path.isfile(dir+"/_README.md"):
+    if not os.path.isfile(dir+"/README.md"):
         write_default_md(dir)
 
-    f_wr = open(dir + "/README.md", "w")
-    f_rd = open(dir + "/_README.md", "r")
-
+    f_rd = open(dir + "/README.md", "r")
     lines = f_rd.readlines()
-    f_wr.writelines(lines)
     f_rd.close()
 
+    f_wr = open(dir + "/README.md", "w")
+    f_wr.writelines(lines)
+
     for file in files:
+        if is_exist_file(lines, file):
+            print(file + " Skip!")
+            continue
         path = "{}/{}".format(dir, file)
-        print("path :", path)
+#        print("path :", path)
         for ext in pics_file_exts:
-            print("ext : {}, {}".format(ext, -len(ext)))
+#            print("ext : {}, {}".format(ext, -len(ext)))
             if len(file) >= len(ext) and file[-len(ext):] == ext:
                 print("[IMG] {}".format(path))
-                f_wr.write("![이미지]({})\n\n".format(path))
+                f_wr.write("\\<!--{}-->\n".format(file))
+                f_wr.write("![이미지]({})\n\n\n".format(file))
                 break
     f_wr.close()
 
