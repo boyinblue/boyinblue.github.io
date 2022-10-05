@@ -88,6 +88,10 @@ function print_list_txt()
       files=$(ls ${dir}/*.md)
       for file in ${files[@]}
       do
+	    filename=${file##*/}
+	    if [ "${filename:0:1}" == "_" ]; then
+		  continue
+		fi
         echo "${HOMEPAGE_URL}/${file/.md/.html}"
       done
     fi

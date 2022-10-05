@@ -196,12 +196,12 @@ def iterate_directory(dir):
     for file in files:
         path = "{}/{}".format(dir, file)
 #        print( "file : {}".format(path) )
-        if is_exclude_path(path):
-            print("  Excluding :", path)
-            continue
-        elif file == "_README.md":
+        if file == "_README.md":
             print("  Make README.md")
             make_md_file(dir)
+        elif is_exclude_path(path):
+            print("  Excluding :", path)
+            continue
         elif file.endswith(".md"):
 #            print("  Check md file")
             yaml = get_yaml_header(path)
