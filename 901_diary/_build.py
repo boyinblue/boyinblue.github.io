@@ -22,7 +22,7 @@ def write_default_md(dir):
     file.write("수정을 원하시면 아래의 링크를 이용해서 수정하시기 바랍니다. \n")
     file.write("\n")
     file.write("\n")
-    file.write("[수정](https://www.github.com/boyinblue/boyinblue.github.io/edit/main/901_diary/{}/_README.md)".format(dir))
+    file.write("[수정](https://www.github.com/boyinblue/boyinblue.github.io/edit/main/901_diary/{}/README.md)\n".format(dir))
     file.write("\n")
     file.write("\n")
     file.close()
@@ -58,7 +58,7 @@ def make_md_for_pics(dir):
 #            print("ext : {}, {}".format(ext, -len(ext)))
             if len(file) >= len(ext) and file[-len(ext):] == ext:
                 print("[IMG] {}".format(path))
-                f_wr.write("\\<!--{}-->\n".format(file))
+                f_wr.write("\\<!---{}-->\n".format(file))
                 f_wr.write("![이미지]({})\n\n\n".format(file))
                 break
     f_wr.close()
