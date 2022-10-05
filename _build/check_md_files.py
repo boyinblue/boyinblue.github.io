@@ -193,6 +193,13 @@ def iterate_directory(dir):
     print("iterate_directory :", dir)
     files = os.listdir(dir)
     files.sort()
+
+    """ 실행 파일이 있으면 미리 실행한다."""
+    if os.path.isfile("_build.py"):
+        os.system("pushd {}".format(dir))
+        os.system("_build.py")
+        os.system("popd")
+
     for file in files:
         path = "{}/{}".format(dir, file)
 #        print( "file : {}".format(path) )
