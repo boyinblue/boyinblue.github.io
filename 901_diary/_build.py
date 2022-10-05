@@ -22,7 +22,7 @@ def write_default_md(dir):
     file.write("수정을 원하시면 아래의 링크를 이용해서 수정하시기 바랍니다. \n")
     file.write("\n")
     file.write("\n")
-    file.write("[수정](https://boyinblue.github.io/edit/main/{}/_README.md)".format(dir))
+    file.write("[수정](https://www.github.com/boyinblue/boyinblue.github.io/edit/main/{}/_README.md)".format(dir))
     file.write("\n")
     file.write("\n")
     file.close()
