@@ -196,6 +196,7 @@ def iterate_directory(dir):
     for file in files:
         path = "{}/{}".format(dir, file)
 #        print( "file : {}".format(path) )
+        """ _README.md 파일은 is_exclude_path() 함수 체크 이전에 돌아야 한다. """
         if file == "_README.md":
             print("  Make README.md")
             make_md_file(dir)
