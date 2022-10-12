@@ -22,8 +22,8 @@ https://boyinblue.github.io/003_jenkins/001.html
 https://boyinblue.github.io/003_jenkins/index.html
 https://boyinblue.github.io/004_python/001.html
 https://boyinblue.github.io/004_python/002.html
-https://boyinblue.github.io/004_python/003-python-turtle-graphic-example.html
 https://boyinblue.github.io/004_python/003-python-명령행인자.html
+https://boyinblue.github.io/004_python/003-python-turtle-graphic-example.html
 https://boyinblue.github.io/004_python/004-python-vim-setting.html
 https://boyinblue.github.io/004_python/005-python-cannot-read-home-directory.html
 https://boyinblue.github.io/004_python/006-python-no-module-speech-recognition.html
@@ -46,9 +46,9 @@ https://boyinblue.github.io/008_ubuntu/008-usb-to-serial-no-ttyUSB0.html
 https://boyinblue.github.io/008_ubuntu/009-ubuntu-network-manager-ip-setting.html
 https://boyinblue.github.io/008_ubuntu/010-ubuntu-xrdp-color-pkla.html
 https://boyinblue.github.io/008_ubuntu/index.html
+https://boyinblue.github.io/009_upbit/index.html
 https://boyinblue.github.io/009_upbit/UPbit-API-daily-candle-query.html
 https://boyinblue.github.io/009_upbit/UPbit-Too-many-API-requests.html
-https://boyinblue.github.io/009_upbit/index.html
 https://boyinblue.github.io/010_raspberry/001-not-running-on-RPi.html
 https://boyinblue.github.io/010_raspberry/002-rpi4-ir-receiver-ubuntu-21-10.html
 https://boyinblue.github.io/010_raspberry/003-rpi4-servo-motor-control.html
