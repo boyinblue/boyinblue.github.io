@@ -31,8 +31,9 @@ def iterate_dir(dir):
   for file in files:
     file_path = dir + "/" + file
     if file == "README.md":
-      replace_readme_to_index(file_path)
-      os.rename(file_path, dir + "/index.md")
+      os.remove(file_path)
+#      replace_readme_to_index(file_path)
+#      os.rename(file_path, dir + "/index.md")
     elif os.path.isdir(file_path):
       iterate_dir(file_path)
 
