@@ -38,11 +38,52 @@ def is_exist_file(lines, file):
             return True
     return False
 
+#############################################
+# 새로운 디렉토리를 추가
+#############################################
+def add_directory_to_readme(dir):
+    print("add_content_to_readme :", dir)
+    files = os.listdir(dir)
+    files.sort()
+
+    if not os.path.isfile(dir+"/README.md"):
+        print("There is no README.md")
+        return
+
+    f_rd = open(dir + "/README.md", "r")
+    lines = f_rd.readlines()
+    f_rd.close()
+
+    f_wr = open(dir + "/README.md", "w")
+    f_wr.writelines(lines)
+
+    for file in files:
+        path = "{}/{}".format(dir, file)
+        if not os.path.isdir(dir + file):
+            print("Skip : Not Dir : ", file)
+            continue
+        elif is_exist_file(lines, file):
+            print("Skip : Exists : ", file))
+            continue
+        elif not os.path.exists(path + "/README.md"):
+            print("Skip : No README.md in sub dir ;", path)
+            continue
+        print("path :", path)
+        yaml = get_yaml_header(path + "/README.md")
+                    yaml['title: '][7:-1],
+                    yaml['description: '][13:-1],
+        fwr.write("<!--{}-->\n".format(file))
+        f_wr.write("[{}]({})\n\n\n".format(
+                yaml['title: '][7:-1],
+                yaml['description: '][13:-1]))
+    f_wr.close()
+
 def add_line_into_body(yaml, line):
     """ YAML 헤더가 아닌 본문은 "BODY" 항목에 누적한다. """
     """ 공란일 경우는 누적하지 않는다. """
     """ 공란은 PADDING 항목으로 고정되도록 하기 위함이다. """
-    """ 공란이 아닌 데이터가 한 번이라도 누적되면 그 이후의 공란으 저장된다."""
+    """ 공란이 아닌 데이터가 한 번이라도 누적되면 """
+    """ 그 이후의 공란으로 저장된다."""
     if yaml["BODY"] == "" and line == "\n":
         return
     
@@ -171,7 +212,11 @@ def make_md_file(dir):
         if is_exclude_path(path):
             print("  Excluding :", path)
             continue
-        elif file[-9:] == "README.md" or file[-8:] == "index.md":
+        elif file[-8:] == "index.md":
+            os.remove(file)
+            continue
+        elif file[-9:] == "README.md":
+            add_directory_to_readme(file)
             continue
         elif len(file) > 3 and file[-3:] == ".md":
             yaml = get_yaml_header(path)
@@ -186,10 +231,8 @@ def make_md_file(dir):
             index_path = path + "/index.md"
             readme_path = path + "/README.md"
             link_path = file + "/index.html"
-            if not os.path.exists(index_path):
-                if not os.path.exists(readme_path):
-                    continue
-                os.symlink("README.md", index_path)
+            if os.path.exists(index_path):
+                os.path.remove(index_path)
 
             yaml = get_yaml_header(index_path)
             make_md_file_add_link(f_wr,
@@ -210,6 +253,9 @@ def iterate_directory(dir):
         os.system("pushd {}".format(dir))
         os.system("_build.py")
         os.system("popd")
+
+    if os.path.isfile("README.md"):
+        add_directory_to_readme(dir)
 
     for file in files:
         path = "{}/{}".format(dir, file)
