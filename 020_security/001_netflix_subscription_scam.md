@@ -104,3 +104,10 @@ Your subscription suspended: Netflix
 
 
 
+
+
+[✔️  IT 보안](index.html '각종 스캠 사례')
+---
+
+
+각종 스캠 사례들을 공유합니다. 

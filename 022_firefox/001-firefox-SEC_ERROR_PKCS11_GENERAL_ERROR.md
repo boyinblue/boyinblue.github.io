@@ -98,3 +98,10 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Mozilla\Firefox\Preferences 디렉토리에
 
 
 
+
+
+[✔️  Firefox](index.html 'Firefox에 대한 내용을 기록하는')
+---
+
+
+Firefox에 대한 내용을 기록하는 카테고리입니다. 

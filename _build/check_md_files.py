@@ -76,7 +76,7 @@ def add_link_to_index(dir, filename):
             continue
         elif os.path.isdir(path2) and os.path.isfile(path2+"/index.md"):
             yaml = get_yaml_header(path2 + "/index.md")
-            f_wr.write("\n\n<!--{}-->\n".format(file))
+            f_wr.write("\n\n".format(file))
             f_wr.write("[✔️  {}]({} \'{}\')\n---\n\n\n".format(
                     yaml['title: '][7:-1],
                     file,
@@ -86,7 +86,7 @@ def add_link_to_index(dir, filename):
         elif file.endswith(".md"):
             yaml = get_yaml_header(path2)
             file = "{}.html".format(file[:-3])
-            f_wr.write("\n\n<!--{}-->\n".format(file))
+            f_wr.write("\n\n".format(file))
             f_wr.write("[✔️  {}]({} \'{}\')\n---\n\n\n".format(
                     yaml['title: '][7:-1],
                     file,
