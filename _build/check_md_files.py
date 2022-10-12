@@ -63,7 +63,7 @@ def add_directory_to_readme(dir):
             print("Skip : Not Dir : ", file)
             continue
         elif is_exist_file(lines, file):
-            print("Skip : Exists : ", file))
+            print("Skip : Exists : ", file)
             continue
         elif not os.path.exists(path + "/README.md"):
             print("Skip : No README.md in sub dir ;", path)
