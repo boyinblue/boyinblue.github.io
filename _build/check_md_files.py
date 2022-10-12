@@ -8,7 +8,8 @@ import os
 exclude_dir_starts_with = [
 #        "../009_upbit/2022",
         "../.",
-        "../_"
+        "../_",
+        "../test/"
         ]
 
 exclude_dir_match_with = [
@@ -213,10 +214,6 @@ def make_md_file(dir):
         if is_exclude_path(path):
             print("  Excluding :", path)
             continue
-        elif file[-8:] == "index.md":
-            print("  Remove : ", path)
-            os.remove(path)
-            continue
         elif file[-9:] == "README.md":
             continue
         elif len(file) > 3 and file[-3:] == ".md":
@@ -229,17 +226,11 @@ def make_md_file(dir):
         elif len(file) > 5 and file[-5:] == ".html":
             f_wr.write("\n\n[{}]({})\n".format(file, file))
         elif os.path.isdir(path):
-            index_path = path + "/index.md"
-            readme_path = path + "/README.md"
-            link_path = file + "/index.html"
-            if os.path.exists(index_path):
-                os.path.remove(index_path)
-
-            yaml = get_yaml_header(index_path)
+            yaml = get_yaml_header(path + "/README.md")
             make_md_file_add_link(f_wr,
                     yaml['title: '][7:-1],
                     yaml['description: '][13:-1],
-                    link_path)
+                    file)
 #        else:
 #            print("skip! {} {}".format(len(file), file[-3:]))
 
