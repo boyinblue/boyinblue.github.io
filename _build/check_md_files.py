@@ -74,10 +74,12 @@ def add_directory_to_readme(dir):
             continue
         print("path :", path)
         yaml = get_yaml_header(path + "/index.md")
-        f_wr.write("<!--{}-->\n".format(file))
-        f_wr.write("[{}]({})\n\n\n".format(
+        f_wr.write("\n\n<!--{}-->\n".format(file))
+        f_wr.write("[{}]({})\n---\n\n\n".format(
                 yaml['title: '][7:-1],
-                yaml['description: '][13:-1]))
+                file))
+        f_wr.write(yaml['description: '][13:-1])
+        f_wr.write("\n")
     f_wr.close()
 
 def add_line_into_body(yaml, line):
@@ -225,7 +227,7 @@ def make_md_file(dir):
                     yaml['description: '][13:-1],
                     file)
         elif len(file) > 5 and file[-5:] == ".html":
-            f_wr.write("\n\n[{}]({})\n".format(file, file))
+            f_wr.write("\n\n[✔️  {}]({})\n".format(file, file))
         elif os.path.isdir(path):
             yaml = get_yaml_header(path + "/index.md")
             make_md_file_add_link(f_wr,
