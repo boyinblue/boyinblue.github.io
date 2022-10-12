@@ -2,7 +2,9 @@
 
 import os
 
+#############################################
 # 체커가 돌지 않도록 제외할 경로 설정
+#############################################
 exclude_dir_starts_with = [
 #        "../009_upbit/2022",
         "../.",
@@ -24,6 +26,15 @@ def is_exclude_path(path):
             return True
     for keyword in exclude_dir_match_with:
         if keyword == path:
+            return True
+    return False
+
+#############################################
+# 추가를 하려는 경로가 이미 존재하는지 확인
+#############################################
+def is_exist_file(lines, file):
+    fo line in lines:
+        if line.find(file) != -1:
             return True
     return False
 
