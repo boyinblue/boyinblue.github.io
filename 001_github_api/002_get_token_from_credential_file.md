@@ -349,3 +349,123 @@ for line in lines:
 
    
 이상입니다. 
+
+
+<!--001_bad_credential.html-->
+[✔️  GitHub API 호출시 Bad Credentials 에러 발생시 조치 방법](001_bad_credential.html)
+---
+
+
+본 페이지에서는 GitHub API 호출시에 Bad credentials 응답이 오는 문제를 해결하는 방법을 기술하고자 합니다.
+
+
+<!--003-server-certificate-verification-fail.html-->
+[✔️  server certificate verification failed. CAfile none CRLfile none 에러 조치 방법](003-server-certificate-verification-fail.html)
+---
+
+
+GitHub 서버로부터 통신을 시도할 때 server certificate verification failed. CAfile none CRLfile none 에러가 발생할 경우 조치하는 방법에 대해서 설명합니다.
+
+
+<!--004-github-how-to-get-the-creation-date-of-repository.html-->
+[✔️  GitHub에서 레포지토리의 생성일을 확인하는 방법](004-github-how-to-get-the-creation-date-of-repository.html)
+---
+
+
+GitHub API를 이용해서 레포지토리의 생성일을 확인하는 방법에 대해서 설명합니다.
+
+
+<!--_README.html-->
+[✔️  GitHub API](_README.html)
+---
+
+
+GitHub API 사용 방법 및 관련 팁을 제공합니다.
+
+
+<!--index.html-->
+[✔️  GitHub API](index.html)
+---
+
+
+GitHub API 사용 방법 및 관련 팁을 제공합니다.
+
+
+<!--001_bad_credential.html-->
+[✔️  GitHub API 호출시 Bad Credentials 에러 발생시 조치 방법](001_bad_credential.html)
+---
+
+
+본 페이지에서는 GitHub API 호출시에 Bad credentials 응답이 오는 문제를 해결하는 방법을 기술하고자 합니다.
+
+
+<!--003-server-certificate-verification-fail.html-->
+[✔️  server certificate verification failed. CAfile none CRLfile none 에러 조치 방법](003-server-certificate-verification-fail.html)
+---
+
+
+GitHub 서버로부터 통신을 시도할 때 server certificate verification failed. CAfile none CRLfile none 에러가 발생할 경우 조치하는 방법에 대해서 설명합니다.
+
+
+<!--004-github-how-to-get-the-creation-date-of-repository.html-->
+[✔️  GitHub에서 레포지토리의 생성일을 확인하는 방법](004-github-how-to-get-the-creation-date-of-repository.html)
+---
+
+
+GitHub API를 이용해서 레포지토리의 생성일을 확인하는 방법에 대해서 설명합니다.
+
+
+<!--_README.html-->
+[✔️  GitHub API](_README.html)
+---
+
+
+GitHub API 사용 방법 및 관련 팁을 제공합니다.
+
+
+<!--index.html-->
+[✔️  GitHub API](index.html)
+---
+
+
+GitHub API 사용 방법 및 관련 팁을 제공합니다.
+
+
+<!--001_bad_credential.html-->
+[✔️  GitHub API 호출시 Bad Credentials 에러 발생시 조치 방법](001_bad_credential.html)
+---
+
+
+본 페이지에서는 GitHub API 호출시에 Bad credentials 응답이 오는 문제를 해결하는 방법을 기술하고자 합니다.
+
+
+<!--003-server-certificate-verification-fail.html-->
+[✔️  server certificate verification failed. CAfile none CRLfile none 에러 조치 방법](003-server-certificate-verification-fail.html)
+---
+
+
+GitHub 서버로부터 통신을 시도할 때 server certificate verification failed. CAfile none CRLfile none 에러가 발생할 경우 조치하는 방법에 대해서 설명합니다.
+
+
+<!--004-github-how-to-get-the-creation-date-of-repository.html-->
+[✔️  GitHub에서 레포지토리의 생성일을 확인하는 방법](004-github-how-to-get-the-creation-date-of-repository.html)
+---
+
+
+GitHub API를 이용해서 레포지토리의 생성일을 확인하는 방법에 대해서 설명합니다.
+
+
+<!--_README.html-->
+[✔️  GitHub API](_README.html)
+---
+
+
+GitHub API 사용 방법 및 관련 팁을 제공합니다.
+
+
+<!--index.html-->
+[✔️  GitHub API](index.html)
+---
+
+
+GitHub API 사용 방법 및 관련 팁을 제공합니다.

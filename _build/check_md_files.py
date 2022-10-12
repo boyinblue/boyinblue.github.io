@@ -73,7 +73,7 @@ def add_link_to_index(dir, filename):
         elif is_exist_file(lines, file):
             print("Skip : Exists : ", path2)
             continue
-        elif os.path.isdir(path2) and os.path.exist(path2+"/index.md"):
+        elif os.path.isdir(path2) and os.path.isfile(path2+"/index.md"):
             yaml = get_yaml_header(path2 + "/index.md")
             f_wr.write("\n\n<!--{}-->\n".format(file))
             f_wr.write("[✔️  {}]({})\n---\n\n\n".format(

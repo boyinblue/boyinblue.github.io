@@ -66,3 +66,99 @@ $ sudo python3 gpio_control.py
 
 
 
+
+
+<!--002-rpi4-ir-receiver-ubuntu-21-10.html-->
+[✔️  라즈베리파이4B에서 리모컨 입력 받아서 처리하는 방법 (Ubuntu 21.10)](002-rpi4-ir-receiver-ubuntu-21-10.html)
+---
+
+
+라즈베리파이4B에서 리모컨 입력 받아서 처리하는 방법 (Ubuntu 21.10)
+
+
+<!--003-rpi4-servo-motor-control.html-->
+[✔️  마이크로 서보 9G 모터 핀 번호 (라즈베리파이4B 서보 모터 제어 방법)](003-rpi4-servo-motor-control.html)
+---
+
+
+마이크로 서보 9G 모터 핀 번호 및 라즈베리파이4B에서 서보 모터 제어 방법 설명
+
+
+<!--_README.html-->
+[✔️  Raspberry Pi](_README.html)
+---
+
+
+초소형 미니 컴퓨터인 라즈베리파이 관련 연구 내용을 정리합니다.
+
+
+<!--index.html-->
+[✔️  Raspberry Pi](index.html)
+---
+
+
+초소형 미니 컴퓨터인 라즈베리파이 관련 연구 내용을 정리합니다.
+
+
+<!--002-rpi4-ir-receiver-ubuntu-21-10.html-->
+[✔️  라즈베리파이4B에서 리모컨 입력 받아서 처리하는 방법 (Ubuntu 21.10)](002-rpi4-ir-receiver-ubuntu-21-10.html)
+---
+
+
+라즈베리파이4B에서 리모컨 입력 받아서 처리하는 방법 (Ubuntu 21.10)
+
+
+<!--003-rpi4-servo-motor-control.html-->
+[✔️  마이크로 서보 9G 모터 핀 번호 (라즈베리파이4B 서보 모터 제어 방법)](003-rpi4-servo-motor-control.html)
+---
+
+
+마이크로 서보 9G 모터 핀 번호 및 라즈베리파이4B에서 서보 모터 제어 방법 설명
+
+
+<!--_README.html-->
+[✔️  Raspberry Pi](_README.html)
+---
+
+
+초소형 미니 컴퓨터인 라즈베리파이 관련 연구 내용을 정리합니다.
+
+
+<!--index.html-->
+[✔️  Raspberry Pi](index.html)
+---
+
+
+초소형 미니 컴퓨터인 라즈베리파이 관련 연구 내용을 정리합니다.
+
+
+<!--002-rpi4-ir-receiver-ubuntu-21-10.html-->
+[✔️  라즈베리파이4B에서 리모컨 입력 받아서 처리하는 방법 (Ubuntu 21.10)](002-rpi4-ir-receiver-ubuntu-21-10.html)
+---
+
+
+라즈베리파이4B에서 리모컨 입력 받아서 처리하는 방법 (Ubuntu 21.10)
+
+
+<!--003-rpi4-servo-motor-control.html-->
+[✔️  마이크로 서보 9G 모터 핀 번호 (라즈베리파이4B 서보 모터 제어 방법)](003-rpi4-servo-motor-control.html)
+---
+
+
+마이크로 서보 9G 모터 핀 번호 및 라즈베리파이4B에서 서보 모터 제어 방법 설명
+
+
+<!--_README.html-->
+[✔️  Raspberry Pi](_README.html)
+---
+
+
+초소형 미니 컴퓨터인 라즈베리파이 관련 연구 내용을 정리합니다.
+
+
+<!--index.html-->
+[✔️  Raspberry Pi](index.html)
+---
+
+
+초소형 미니 컴퓨터인 라즈베리파이 관련 연구 내용을 정리합니다.

@@ -22,3 +22,51 @@ description: 영어 학습을 위한 페이지입니다.
 
 
 
+
+
+<!--001_goodmorningsam_belle_how_to_politely_confront_your_roommate_kims_convenience.html-->
+[✔️  굿모닝쌤 영어수업 (2022년 7월 22일)](001_goodmorningsam_belle_how_to_politely_confront_your_roommate_kims_convenience.html)
+---
+
+
+2022년 7월 22일에 Belle 선생님과 진행한 수업 내용을 메모합니다.
+
+
+<!--index.html-->
+[✔️  영어 공부](index.html)
+---
+
+
+영어 학습을 위한 페이지입니다. 
+
+
+<!--001_goodmorningsam_belle_how_to_politely_confront_your_roommate_kims_convenience.html-->
+[✔️  굿모닝쌤 영어수업 (2022년 7월 22일)](001_goodmorningsam_belle_how_to_politely_confront_your_roommate_kims_convenience.html)
+---
+
+
+2022년 7월 22일에 Belle 선생님과 진행한 수업 내용을 메모합니다.
+
+
+<!--index.html-->
+[✔️  영어 공부](index.html)
+---
+
+
+영어 학습을 위한 페이지입니다. 
+
+
+<!--001_goodmorningsam_belle_how_to_politely_confront_your_roommate_kims_convenience.html-->
+[✔️  굿모닝쌤 영어수업 (2022년 7월 22일)](001_goodmorningsam_belle_how_to_politely_confront_your_roommate_kims_convenience.html)
+---
+
+
+2022년 7월 22일에 Belle 선생님과 진행한 수업 내용을 메모합니다.
+
+
+<!--index.html-->
+[✔️  영어 공부](index.html)
+---
+
+
+영어 학습을 위한 페이지입니다. 
