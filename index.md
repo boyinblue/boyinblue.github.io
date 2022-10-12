@@ -24,6 +24,12 @@ C, Bash, Python, Java, Java Script 등의 프로그래밍 언어 관련 내용�
 [수정 (관리자 모드)](http://www.github.com/boyinblue/boyinblue.github.io/edit/main/index.md)
 
 
+[✔️ Git](014_git 'Git 명령에 대한 사용법과 트러블 슈팅 방법을 정리합니다.')
+---
+
+
+Git 명령에 대한 사용법과 트러블 슈팅 방법을 정리합니다. 
+
 [✔️ GitHub API](001_github_api/index.html 'GitHub API 사용 방법 및 관련 팁을 제공합니다.')
 ---
 
@@ -148,10 +154,3 @@ Firefox에 대한 내용을 기록하는 카테고리입니다.
 
 
 기록하지 않은 일상은 추억이 될 수 없고, 기록하지 않은 성과는 업적이 될 수 없다.
-
-
-[✔️ Git](014_git 'Git 명령에 대한 사용법과 트러블 슈팅 방법을 정리합니다.')
----
-
-
-Git 명령에 대한 사용법과 트러블 슈팅 방법을 정리합니다. 
