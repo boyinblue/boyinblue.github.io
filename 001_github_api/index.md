@@ -303,16 +303,10 @@ GitHub 서버로부터 통신을 시도할 때 server certificate verification f
 
 
 <!--004-github-how-to-get-the-creation-date-of-repository.html-->
-[✔️  GitHub에서 레포지토리의 생성일을 확인하는 방법](004-github-how-to-get-the-creation-date-of-repository.html)
+[✔️ GitHub에서 레포지토리의 생성일을 확인하는 방법](004-github-how-to-get-the-creation-date-of-repository.html)
 ---
 
 
 GitHub API를 이용해서 레포지토리의 생성일을 확인하는 방법에 대해서 설명합니다.
 
 
-<!--_README.html-->
-[✔️  GitHub API](_README.html)
----
-
-
-GitHub API 사용 방법 및 관련 팁을 제공합니다.
