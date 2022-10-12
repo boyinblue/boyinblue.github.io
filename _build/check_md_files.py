@@ -47,15 +47,15 @@ def add_directory_to_readme(dir):
     files = os.listdir(dir)
     files.sort()
 
-    if not os.path.isfile(dir+"/README.md"):
-        print("There is no README.md")
+    if not os.path.isfile(dir+"/index.md"):
+        print("There is no index.md")
         return
 
-    f_rd = open(dir + "/README.md", "r")
+    f_rd = open(dir + "/index.md", "r")
     lines = f_rd.readlines()
     f_rd.close()
 
-    f_wr = open(dir + "/README.md", "w")
+    f_wr = open(dir + "/index.md", "w")
     f_wr.writelines(lines)
 
     for file in files:
@@ -69,11 +69,11 @@ def add_directory_to_readme(dir):
         elif is_exist_file(lines, file):
             print("Skip : Exists : ", path)
             continue
-        elif not os.path.exists(path + "/README.md"):
-            print("Skip : No README.md in sub dir ;", path)
+        elif not os.path.exists(path + "/index.md"):
+            print("Skip : No index.md in sub dir ;", path)
             continue
         print("path :", path)
-        yaml = get_yaml_header(path + "/README.md")
+        yaml = get_yaml_header(path + "/index.md")
         f_wr.write("<!--{}-->\n".format(file))
         f_wr.write("[{}]({})\n\n\n".format(
                 yaml['title: '][7:-1],
@@ -196,11 +196,12 @@ def make_md_file_add_link(fp, title, desc, file):
     fp.write("---\n\n\n")
     fp.write("{}\n".format(desc))
 
+### Deprecated ###
 def make_md_file(dir):
-    """_README.md 파일로부터 README.md 파일을 작성한다."""
+    """_index.md 파일로부터 index.md 파일을 작성한다."""
     print("make_md_file :", dir)
-    f_wr = open(dir + "/README.md", 'w')
-    f_rd = open(dir + "/_README.md", 'r')
+    f_wr = open(dir + "/index.md", 'w')
+    f_rd = open(dir + "/_index.md", 'r')
 
     lines = f_rd.readlines()
     f_wr.writelines(lines)
@@ -214,7 +215,7 @@ def make_md_file(dir):
         if is_exclude_path(path):
             print("  Excluding :", path)
             continue
-        elif file[-9:] == "README.md":
+        elif file[-9:] == "index.md":
             continue
         elif len(file) > 3 and file[-3:] == ".md":
             yaml = get_yaml_header(path)
@@ -226,7 +227,7 @@ def make_md_file(dir):
         elif len(file) > 5 and file[-5:] == ".html":
             f_wr.write("\n\n[{}]({})\n".format(file, file))
         elif os.path.isdir(path):
-            yaml = get_yaml_header(path + "/README.md")
+            yaml = get_yaml_header(path + "/index.md")
             make_md_file_add_link(f_wr,
                     yaml['title: '][7:-1],
                     yaml['description: '][13:-1],
@@ -246,15 +247,15 @@ def iterate_directory(dir):
         os.system("_build.py")
         os.system("popd")
 
-    if os.path.isfile("README.md"):
+    if os.path.isfile("index.md"):
         add_directory_to_readme(dir)
 
     for file in files:
         path = "{}/{}".format(dir, file)
 #        print( "file : {}".format(path) )
         """ _README.md 파일은 is_exclude_path() 함수 체크 이전에 돌아야 한다. """
-        if file == "_README.md":
-            print("  Make README.md")
+        if file == "_index.md":
+            print("  Make index.md")
             make_md_file(dir)
         elif is_exclude_path(path):
             print("  Excluding :", path)
