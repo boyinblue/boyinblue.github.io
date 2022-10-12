@@ -10,27 +10,3 @@ description: ./20100829_rainnyday
 [수정](https://www.github.com/boyinblue/boyinblue.github.io/edit/main/901_diary/./20100829_rainnyday/README.md)
 
 
-<!---P100829001.jpg-->
-![이미지](P100829001.jpg)
-
-
-<!---P100829002.jpg-->
-![이미지](P100829002.jpg)
-
-
-<!---P100829003.jpg-->
-![이미지](P100829003.jpg)
-
-
-<!---P100829004.jpg-->
-![이미지](P100829004.jpg)
-
-
-<!---P100829005.jpg-->
-![이미지](P100829005.jpg)
-
-
-<!---P100829006.jpg-->
-![이미지](P100829006.jpg)
-
-

@@ -63,6 +63,7 @@ def add_link_to_index(dir, filename):
     f_wr.writelines(lines)
 
     for file in files:
+        html_file = file.replace(".md",".html")
         path2 = "{}/{}".format(dir, file)
         if file == filename:
             print("Skip : Self :", path2)
@@ -70,24 +71,26 @@ def add_link_to_index(dir, filename):
         elif is_exclude_path(path2):
             print("Skip : Exclude Dir :", path2)
             continue
-        elif is_exist_file(lines, file):
+        elif is_exist_file(lines, html_file):
             print("Skip : Exists : ", path2)
             continue
         elif os.path.isdir(path2) and os.path.isfile(path2+"/index.md"):
             yaml = get_yaml_header(path2 + "/index.md")
             f_wr.write("\n\n<!--{}-->\n".format(file))
-            f_wr.write("[✔️  {}]({})\n---\n\n\n".format(
+            f_wr.write("[✔️  {}]({} \'{}\')\n---\n\n\n".format(
                     yaml['title: '][7:-1],
-                    file))
+                    file,
+                    yaml['description: '][13:-1]))
             f_wr.write(yaml['description: '][13:-1])
             f_wr.write("\n")
         elif file.endswith(".md"):
             yaml = get_yaml_header(path2)
             file = "{}.html".format(file[:-3])
             f_wr.write("\n\n<!--{}-->\n".format(file))
-            f_wr.write("[✔️  {}]({})\n---\n\n\n".format(
+            f_wr.write("[✔️  {}]({} \'{}\')\n---\n\n\n".format(
                     yaml['title: '][7:-1],
-                    file))
+                    file,
+                    yaml['description: '][13:-11]))
             f_wr.write(yaml['description: '][13:-1])
             f_wr.write("\n")
             
