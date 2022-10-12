@@ -42,44 +42,53 @@ def is_exist_file(lines, file):
 #############################################
 # 새로운 디렉토리를 추가
 #############################################
-def add_directory_to_index(dir):
-    print("add_content_to_readme :", dir)
+def add_link_to_index(dir, filename):
+    print("add_link_to_index({},{})".format(dir, filename))
+    path = dir + "/" + filename
+
     files = os.listdir(dir)
     files.sort()
 
-    if not os.path.isfile(dir+"/index.md"):
-        print("There is no index.md")
+    if not os.path.isfile(path):
+        print("There is no file", filename)
         return
 
-    f_rd = open(dir + "/index.md", "r")
+    f_rd = open(path, "r")
     lines = f_rd.readlines()
     f_rd.close()
 
-    f_wr = open(dir + "/index.md", "w")
+    f_wr = open(path, "w")
     f_wr.writelines(lines)
 
     for file in files:
-        path = "{}/{}".format(dir, file)
-        if not os.path.isdir(path):
-            print("Skip : Not Dir :", path)
+        path2 = "{}/{}".format(dir, file)
+        if file == filename:
+            print("Skip : Self :", path2)
             continue
-        elif is_exclude_path(path):
-            print("Skip : Exclude Dir :", path)
+        elif is_exclude_path(path2):
+            print("Skip : Exclude Dir :", path2)
             continue
         elif is_exist_file(lines, file):
-            print("Skip : Exists : ", path)
+            print("Skip : Exists : ", path2)
             continue
-        elif not os.path.exists(path + "/index.md"):
-            print("Skip : No index.md in sub dir ;", path)
-            continue
-        print("path :", path)
-        yaml = get_yaml_header(path + "/index.md")
-        f_wr.write("\n\n<!--{}-->\n".format(file))
-        f_wr.write("[✔️  {}]({})\n---\n\n\n".format(
-                yaml['title: '][7:-1],
-                file))
-        f_wr.write(yaml['description: '][13:-1])
-        f_wr.write("\n")
+        elif os.path.isdir(path2) and os.path.exist(path2+"/index.md"):
+            yaml = get_yaml_header(path2 + "/index.md")
+            f_wr.write("\n\n<!--{}-->\n".format(file))
+            f_wr.write("[✔️  {}]({})\n---\n\n\n".format(
+                    yaml['title: '][7:-1],
+                    file))
+            f_wr.write(yaml['description: '][13:-1])
+            f_wr.write("\n")
+        elif file.endswith(".md"):
+            yaml = get_yaml_header(path2)
+            file = "{}.html".format(file[:-3])
+            f_wr.write("\n\n<!--{}-->\n".format(file))
+            f_wr.write("[✔️  {}]({})\n---\n\n\n".format(
+                    yaml['title: '][7:-1],
+                    file))
+            f_wr.write(yaml['description: '][13:-1])
+            f_wr.write("\n")
+            
     f_wr.close()
 
 def add_line_into_body(yaml, line):
@@ -188,55 +197,6 @@ def get_yaml_header(filename):
 
     return yaml
 
-def make_md_file_add_link(fp, title, desc, file):
-    print("make_md_file_add_link({}, {}, {})".format
-            (title, desc, file))
-    if len(file) > 3 and file[-3:] == ".md":
-        file = "{}.html".format(file[:-3])
-    fp.write("\n\n[✔️ {}]({} '{}')\n".format(
-        title, file, desc))
-    fp.write("---\n\n\n")
-    fp.write("{}\n".format(desc))
-
-### Deprecated ###
-def make_md_file(dir):
-    """_index.md 파일로부터 index.md 파일을 작성한다."""
-    print("make_md_file :", dir)
-    f_wr = open(dir + "/index.md", 'w')
-    f_rd = open(dir + "/_index.md", 'r')
-
-    lines = f_rd.readlines()
-    f_wr.writelines(lines)
-    f_rd.close()
-
-    files = os.listdir(dir)
-    files.sort()
-    for file in files:
-        path = "{}/{}".format(dir, file)
-#        print( "path :", path)
-        if is_exclude_path(path):
-            print("  Excluding :", path)
-            continue
-        elif file[-9:] == "index.md":
-            continue
-        elif len(file) > 3 and file[-3:] == ".md":
-            yaml = get_yaml_header(path)
-#            print(yaml)
-            make_md_file_add_link(f_wr,
-                    yaml['title: '][7:-1],
-                    yaml['description: '][13:-1],
-                    file)
-        elif len(file) > 5 and file[-5:] == ".html":
-            f_wr.write("\n\n[✔️  {}]({})\n".format(file, file))
-        elif os.path.isdir(path):
-            yaml = get_yaml_header(path + "/index.md")
-            make_md_file_add_link(f_wr,
-                    yaml['title: '][7:-1],
-                    yaml['description: '][13:-1],
-                    file)
-#        else:
-#            print("skip! {} {}".format(len(file), file[-3:]))
-
 def iterate_directory(dir):
     """디렉토리를 순회한다."""
     print("iterate_directory :", dir)
@@ -249,25 +209,19 @@ def iterate_directory(dir):
         os.system("_build.py")
         os.system("popd")
 
-    if os.path.isfile("index.md"):
-        add_directory_to_index(dir)
-
     for file in files:
         path = "{}/{}".format(dir, file)
 #        print( "file : {}".format(path) )
-        """ _README.md 파일은 is_exclude_path() 함수 체크 이전에 돌아야 한다. """
-        if file == "_index.md":
-            print("  Make index.md")
-            make_md_file(dir)
-        elif is_exclude_path(path):
+        if is_exclude_path(path):
             print("  Excluding :", path)
             continue
         elif file.endswith(".md"):
 #            print("  Check md file")
             yaml = get_yaml_header(path)
             check_yaml_header(yaml, dir + "/" + file)
+            add_link_to_index(dir,file)
         elif os.path.isdir(path):
-            add_directory_to_index(path)
+            add_link_to_index(path,"index.md")
             iterate_directory(path)
 
 def main():
