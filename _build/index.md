@@ -58,7 +58,7 @@ make\_site\_map.sh
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 <url>
-  <loc>https://boyinblue.github.io/README.html</loc>
+  <loc>https://boyinblue.github.io/index.html</loc>
 </url>
 </urlset>
 ```
@@ -85,7 +85,7 @@ make\_readme.sh
 ### 산출물
 
 
-README.html 파일로 변환될 <code>README.md</code> 파일이 생성됩니다.
+index.html 파일로 변환될 <code>README.md</code> 파일이 생성됩니다.
 동시에 email로 변경점을 전송하기 위한 <code>tmp/diff.txt</code> 파일도 생성됩니다.
 
 
