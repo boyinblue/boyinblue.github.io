@@ -42,7 +42,7 @@ def is_exist_file(lines, file):
 #############################################
 # 새로운 디렉토리를 추가
 #############################################
-def add_directory_to_readme(dir):
+def add_directory_to_index(dir):
     print("add_content_to_readme :", dir)
     files = os.listdir(dir)
     files.sort()
@@ -75,7 +75,7 @@ def add_directory_to_readme(dir):
         print("path :", path)
         yaml = get_yaml_header(path + "/index.md")
         f_wr.write("\n\n<!--{}-->\n".format(file))
-        f_wr.write("[{}]({})\n---\n\n\n".format(
+        f_wr.write("[✔️  {}]({})\n---\n\n\n".format(
                 yaml['title: '][7:-1],
                 file))
         f_wr.write(yaml['description: '][13:-1])
@@ -250,7 +250,7 @@ def iterate_directory(dir):
         os.system("popd")
 
     if os.path.isfile("index.md"):
-        add_directory_to_readme(dir)
+        add_directory_to_index(dir)
 
     for file in files:
         path = "{}/{}".format(dir, file)
@@ -267,7 +267,7 @@ def iterate_directory(dir):
             yaml = get_yaml_header(path)
             check_yaml_header(yaml, dir + "/" + file)
         elif os.path.isdir(path):
-            add_directory_to_readme(path)
+            add_directory_to_index(path)
             iterate_directory(path)
 
 def main():
