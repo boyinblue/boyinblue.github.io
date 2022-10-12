@@ -33,7 +33,7 @@ def is_exclude_path(path):
 # 추가를 하려는 경로가 이미 존재하는지 확인
 #############################################
 def is_exist_file(lines, file):
-    fo line in lines:
+    for line in lines:
         if line.find(file) != -1:
             return True
     return False
@@ -59,20 +59,21 @@ def add_directory_to_readme(dir):
 
     for file in files:
         path = "{}/{}".format(dir, file)
-        if not os.path.isdir(dir + file):
-            print("Skip : Not Dir : ", file)
+        if not os.path.isdir(path):
+            print("Skip : Not Dir :", path)
+            continue
+        elif is_exclude_path(path):
+            print("Skip : Exclude Dir :", path)
             continue
         elif is_exist_file(lines, file):
-            print("Skip : Exists : ", file)
+            print("Skip : Exists : ", path)
             continue
         elif not os.path.exists(path + "/README.md"):
             print("Skip : No README.md in sub dir ;", path)
             continue
         print("path :", path)
         yaml = get_yaml_header(path + "/README.md")
-                    yaml['title: '][7:-1],
-                    yaml['description: '][13:-1],
-        fwr.write("<!--{}-->\n".format(file))
+        f_wr.write("<!--{}-->\n".format(file))
         f_wr.write("[{}]({})\n\n\n".format(
                 yaml['title: '][7:-1],
                 yaml['description: '][13:-1]))
@@ -213,10 +214,10 @@ def make_md_file(dir):
             print("  Excluding :", path)
             continue
         elif file[-8:] == "index.md":
-            os.remove(file)
+            print("  Remove : ", path)
+            os.remove(path)
             continue
         elif file[-9:] == "README.md":
-            add_directory_to_readme(file)
             continue
         elif len(file) > 3 and file[-3:] == ".md":
             yaml = get_yaml_header(path)
@@ -272,6 +273,7 @@ def iterate_directory(dir):
             yaml = get_yaml_header(path)
             check_yaml_header(yaml, dir + "/" + file)
         elif os.path.isdir(path):
+            add_directory_to_readme(path)
             iterate_directory(path)
 
 def main():
