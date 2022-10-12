@@ -6,7 +6,7 @@ import os
 # 체커가 돌지 않도록 제외할 경로 설정
 #############################################
 exclude_dir_starts_with = [
-#        "../009_upbit/2022",
+        "../009_upbit/2022",
         "../.",
         "../_",
         "../test/"
@@ -51,6 +51,8 @@ def add_link_to_index(dir, filename):
 
     if not os.path.isfile(path):
         print("There is no file", filename)
+        return
+    elif is_exclude_path(path):
         return
 
     f_rd = open(path, "r")
