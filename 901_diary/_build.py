@@ -11,7 +11,7 @@ pics_file_exts = [
                 ]
 
 def write_default_md(dir):
-    file = open(dir + "/README.md", "w")
+    file = open(dir + "/index.md", "w")
     file.write("---\n")
     file.write("title: " + dir + "\n")
     file.write("description: " + dir + "\n")
@@ -22,7 +22,7 @@ def write_default_md(dir):
     file.write("수정을 원하시면 아래의 링크를 이용해서 수정하시기 바랍니다. \n")
     file.write("\n")
     file.write("\n")
-    file.write("[수정](https://www.github.com/boyinblue/boyinblue.github.io/edit/main/901_diary/{}/README.md)\n".format(dir))
+    file.write("[수정](https://www.github.com/boyinblue/boyinblue.github.io/edit/main/901_diary/{}/index.md)\n".format(dir))
     file.write("\n")
     file.write("\n")
     file.close()
@@ -38,14 +38,14 @@ def make_md_for_pics(dir):
     files = os.listdir(dir)
     files.sort()
 
-    if not os.path.isfile(dir+"/README.md"):
+    if not os.path.isfile(dir+"/index.md"):
         write_default_md(dir)
 
-    f_rd = open(dir + "/README.md", "r")
+    f_rd = open(dir + "/index.md", "r")
     lines = f_rd.readlines()
     f_rd.close()
 
-    f_wr = open(dir + "/README.md", "w")
+    f_wr = open(dir + "/index.md", "w")
     f_wr.writelines(lines)
 
     for file in files:

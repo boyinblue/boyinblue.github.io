@@ -21,7 +21,7 @@ C, Bash, Python, Java, Java Script 등의 프로그래밍 언어 관련 내용�
 
 
 *아래 영역부터는 로봇에 의해서 자동 생성되는 부분들입니다.* 
-[수정 (관리자 모드)](http://www.github.com/boyinblue/boyinblue.github.io/edit/main/README.md)
+[수정 (관리자 모드)](http://www.github.com/boyinblue/boyinblue.github.io/edit/main/index.md)
 
 
 [✔️ GitHub API](001_github_api/index.html 'GitHub API 사용 방법 및 관련 팁을 제공합니다.')
