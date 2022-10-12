@@ -1,2 +1,3 @@
 _build/tmp/*
 _build/tmp
+*.swp
