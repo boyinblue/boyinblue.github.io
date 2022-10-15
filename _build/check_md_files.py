@@ -297,6 +297,8 @@ def iterate_directory(dir):
             prev = files2[idx-1]
         elif idx < len(files2) - 1:
             next = files2[idx+1]
+        elif idx == len(files2) - 1:
+            next = None
         path = "{}/{}".format(dir, file)
         yaml = get_yaml_header(path)
         check_yaml_header(yaml, dir + "/" + file)
