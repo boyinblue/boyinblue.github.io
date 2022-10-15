@@ -66,13 +66,13 @@ def add_link_to_index(dir, filename):
         html_file = file.replace(".md",".html")
         path2 = "{}/{}".format(dir, file)
         if file == filename:
-            print("Skip : Self :", path2)
+#            print("Skip : Self :", path2)
             continue
         elif is_exclude_path(path2):
-            print("Skip : Exclude Dir :", path2)
+#            print("Skip : Exclude Dir :", path2)
             continue
         elif is_exist_file(lines, html_file):
-            print("Skip : Exists : ", path2)
+#            print("Skip : Exists : ", path2)
             continue
         elif os.path.isdir(path2) and os.path.isfile(path2+"/index.md"):
             yaml = get_yaml_header(path2 + "/index.md")
@@ -97,12 +97,15 @@ def add_link_to_index(dir, filename):
     f_wr.close()
 
 #############################################
-# 새로운 디렉토리를 추가
+# md 파일에 이전글 다음글 추가
 #############################################
 def add_link_to_md(dir, filename, prev, next):
     print("add_link_to_md({},{})".format(dir, filename))
     path = dir + "/" + filename
-    index = "index.md"
+    if filename == "index.md":
+        index = None
+    else:
+        index = "index.md"
 
     if is_exclude_path(path):
         return
@@ -121,12 +124,12 @@ def add_link_to_md(dir, filename, prev, next):
 
         path2 = "{}/{}".format(dir, file)
         if is_exclude_path(path2):
-            print("Skip : Exclude Dir :", path2)
+#            print("Skip : Exclude Dir :", path2)
             continue
 
         html_file = file.replace(".md",".html")
         if is_exist_file(lines, html_file):
-            print("Skip : Exists : ", path2)
+#            print("Skip : Exists : ", path2)
             continue
 
         if file == prev:
@@ -269,7 +272,6 @@ def iterate_directory(dir):
     files.sort()
 
     files2 = []
-    cnt = 0
 
     for file in files:
         path = "{}/{}".format(dir, file)
@@ -277,17 +279,20 @@ def iterate_directory(dir):
         if is_exclude_path(path):
             print("  Excluding :", path)
             continue
-        elif file != "index.md" and file.endswith(".md"):
-#            print("  Check md file")
-            files2.append(file)
-            cnt = cnt + 1
         elif os.path.isdir(path):
             add_link_to_index(path,"index.md")
             iterate_directory(path)
+            continue
+        elif file == "index.md":
+            continue
+        elif file.endswith(".md"):
+#            print("  Check md file", file)
+            files2.append(file)
 
     prev = None
     next = None
     for idx in range(len(files2)):
+        file = files2[idx]
         if idx > 1:
             prev = files2[idx-1]
         elif idx < len(files2) - 1:
