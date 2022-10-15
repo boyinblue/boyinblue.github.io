@@ -30,3 +30,7 @@ description: 기록하지 않은 일상은 추억이 될 수 없고, 기록하�
 
 
 성남시 수정구 고등동 왕남초등학교 앞에는 다양한 푸드트럭이 오니다. 매주 수요일마다 오는 야채트럭에서 갑오징어를 구입한 일상을 기록합니다. 
+
+
+[✏️ ](https://www.github.com/boyinblue/boyinblue.github.com/edit/main../901_diary/index.md '수정하기')
+
