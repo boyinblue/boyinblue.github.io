@@ -21,7 +21,7 @@ C, Bash, Python, Java, Java Script 등의 프로그래밍 언어 관련 내용�
 
 
 *아래 영역부터는 로봇에 의해서 자동 생성되는 부분들입니다.* 
-[수정 (관리자 모드)](http://www.github.com/boyinblue/boyinblue.github.io/edit/main/index.md)
+[✏️](http://www.github.com/boyinblue/boyinblue.github.io/edit/main/index.md '수정(관리자 모드)')
 
 
 [✔️ Git](014_git 'Git 명령에 대한 사용법과 트러블 슈팅 방법을 정리합니다.')
