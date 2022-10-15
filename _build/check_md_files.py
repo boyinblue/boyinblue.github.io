@@ -43,7 +43,7 @@ def is_exist_file(lines, file):
 #############################################
 # MD 파일 공통 작업 (ex : 편집 링크 추가)
 #############################################
-EDIT_URL = "https://www.github.com/boyinblue/boyinblue.github.com/edit/main/"
+EDIT_URL = "https://www.github.com/boyinblue/boyinblue.github.io/edit/main/"
 
 def check_md_file(dir, file):
     print("check_md_file({},{})".format(dir, file))
