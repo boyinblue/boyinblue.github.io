@@ -83,3 +83,10 @@ sudo pip3 install SpeechRecognition
 
 
 Python 언어에 대한 내용을 기록하는 페이지입니다.
+
+
+[🔽 다음글 : 파이썬에서 MP3 파일 비동기 재생 방법 (playsound async)](007-python-playsound.html '파이썬에서 MP3 파일 재생 방법과 playsound를 통해 비동기 재생 방식에 ')
+---
+
+
+파이썬에서 MP3 파일 재생 방법과 playsound를 통해 비동기 재생 방식에 대해서 설명합니다.
