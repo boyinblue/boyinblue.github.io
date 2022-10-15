@@ -133,16 +133,16 @@ def add_link_to_md(dir, filename, prev, next):
             continue
 
         if file == prev:
-            kind = "이전글"
+            kind = "🔼 이전글"
         elif file == next:
-            kind = "다음글"
+            kind = "🔽 다음글"
         elif file == index:
-            kind = "이 카테고리 글 전체보기"
+            kind = "⬅️ 이 카테고리 글 전체보기"
 
         yaml = get_yaml_header(path2)
         file = "{}.html".format(file[:-3])
         f_wr.write("\n\n".format(file))
-        f_wr.write("[✔️  {} : {}]({} \'{}\')\n---\n\n\n".format(
+        f_wr.write("[{} : {}]({} \'{}\')\n---\n\n\n".format(
                 kind,
                 yaml['title: '][7:-1],
                 file,
