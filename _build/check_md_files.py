@@ -49,6 +49,10 @@ def check_md_file(dir, file):
     print("check_md_file({},{})".format(dir, file))
     path = dir + "/" + file
 
+    edit_url = EDIT_URL + path
+    if path[0:3] == "../":
+        edit_url = EDIT_URL + path[3:]
+
     if not os.path.isfile(path):
         return
     elif is_exclude_path(path):
@@ -65,8 +69,7 @@ def check_md_file(dir, file):
     f_wr.writelines(lines)
 
     f_wr.write("\n\n".format(file))
-    f_wr.write("[✏️ ]({} \'수정하기\')\n".format(
-            EDIT_URL+path))
+    f_wr.write("[✏️ ]({} \'수정하기\')\n".format(edit_url))
     f_wr.write("\n")
 
 #############################################
