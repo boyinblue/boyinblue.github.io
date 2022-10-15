@@ -31,3 +31,7 @@ description: 영어 학습을 위한 페이지입니다.
 2022년 7월 22일에 Belle 선생님과 진행한 수업 내용을 메모합니다.
 
 
+
+
+[✏️ ](https://www.github.com/boyinblue/boyinblue.github.io/edit/main/900_english/index.md '수정하기')
+
