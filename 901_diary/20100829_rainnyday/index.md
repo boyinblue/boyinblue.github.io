@@ -34,3 +34,7 @@ description: ./20100829_rainnyday
 ![이미지](P100829006.jpg)
 
 
+
+
+[✏️ ](https://www.github.com/boyinblue/boyinblue.github.com/edit/main/../901_diary/20100829_rainnyday/index.md '수정하기')
+

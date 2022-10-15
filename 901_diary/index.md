@@ -34,3 +34,7 @@ description: 기록하지 않은 일상은 추억이 될 수 없고, 기록하�
 
 [✏️ ](https://www.github.com/boyinblue/boyinblue.github.com/edit/main../901_diary/index.md '수정하기')
 
+
+
+[✏️ ](https://www.github.com/boyinblue/boyinblue.github.com/edit/main/../901_diary/index.md '수정하기')
+
