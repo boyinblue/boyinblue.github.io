@@ -379,3 +379,7 @@ GitHub API를 이용해서 레포지토리의 생성일을 확인하는 방법�
 
 
 GitHub API 사용 방법 및 관련 팁을 제공합니다.
+
+
+[✏️ ](https://www.github.com/boyinblue/boyinblue.github.io/edit/main/001_github_api/002_get_token_from_credential_file.md '수정하기')
+

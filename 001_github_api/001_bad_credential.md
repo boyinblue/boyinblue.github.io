@@ -91,3 +91,7 @@ Bash 쉘 스크립트 및 파이썬 스크립트를 이용하여 GitHub 토큰�
 
 
 GitHub API 사용 방법 및 관련 팁을 제공합니다.
+
+
+[✏️ ](https://www.github.com/boyinblue/boyinblue.github.io/edit/main/001_github_api/001_bad_credential.md '수정하기')
+

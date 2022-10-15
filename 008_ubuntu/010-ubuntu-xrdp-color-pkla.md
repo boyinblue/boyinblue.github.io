@@ -129,3 +129,7 @@ Ubuntu Linux 22.04에 USB-to-Serial 장치를 연결했지만 ttyUSB0 파일이 
 
 
 Ubuntu Linux에 대한 내용을 기록합니다.
+
+
+[✏️ ](https://www.github.com/boyinblue/boyinblue.github.io/edit/main/008_ubuntu/010-ubuntu-xrdp-color-pkla.md '수정하기')
+

@@ -21,3 +21,7 @@ IT 보안
 본 페이지에서는 넷플릭스 계정 관련 스캠 사례를 공유합니다. 
 
 
+
+
+[✏️ ](https://www.github.com/boyinblue/boyinblue.github.io/edit/main/020_security/index.md '수정하기')
+

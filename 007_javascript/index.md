@@ -21,3 +21,7 @@ Java Script
 [002_example.html](002_example.html)
 
 
+
+
+[✏️ ](https://www.github.com/boyinblue/boyinblue.github.io/edit/main/007_javascript/index.md '수정하기')
+

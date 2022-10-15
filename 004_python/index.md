@@ -82,3 +82,7 @@ vim을 이용하여 파이썬 스크립트 편집시에 띄워쓰기 설정 방�
 
 
 파이썬에서 빈 배열을 선언하는 방법에 대해서 설명합니다.
+
+
+[✏️ ](https://www.github.com/boyinblue/boyinblue.github.io/edit/main/004_python/index.md '수정하기')
+

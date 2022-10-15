@@ -35,3 +35,7 @@ Raspberry Pi
 마이크로 서보 9G 모터 핀 번호 및 라즈베리파이4B에서 서보 모터 제어 방법 설명
 
 
+
+
+[✏️ ](https://www.github.com/boyinblue/boyinblue.github.io/edit/main/010_raspberry/index.md '수정하기')
+

@@ -107,3 +107,7 @@ XRDP 연결시 (색상 프로필을 만들려면 인증이 필요합니다.)라�
 
 
 Ubuntu Linux에 대한 내용을 기록합니다.
+
+
+[✏️ ](https://www.github.com/boyinblue/boyinblue.github.io/edit/main/008_ubuntu/009-ubuntu-network-manager-ip-setting.md '수정하기')
+

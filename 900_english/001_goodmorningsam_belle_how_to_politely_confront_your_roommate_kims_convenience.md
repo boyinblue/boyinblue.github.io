@@ -95,3 +95,7 @@ Link
 
 
 영어 학습을 위한 페이지입니다. 
+
+
+[✏️ ](https://www.github.com/boyinblue/boyinblue.github.io/edit/main/900_english/001_goodmorningsam_belle_how_to_politely_confront_your_roommate_kims_convenience.md '수정하기')
+

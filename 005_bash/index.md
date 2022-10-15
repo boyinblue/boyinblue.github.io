@@ -19,3 +19,7 @@ Bash
 Ubuntu Bash Shell에서 파일의 마지막 수정 시간을 가져오는 방법에 대해서 설명합니다.
 
 
+
+
+[✏️ ](https://www.github.com/boyinblue/boyinblue.github.io/edit/main/005_bash/index.md '수정하기')
+

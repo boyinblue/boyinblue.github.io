@@ -194,3 +194,7 @@ GitHub Pages로 새로운 변경점을 반영하려고 할 때 400 에러나 502
 
 
 무료로 사용할 수 있는 정적 웹서버인 GitHub Pages 개설 및 운영 방법 설명
+
+
+[✏️ ](https://www.github.com/boyinblue/boyinblue.github.io/edit/main/002_github_blog/011-github-mapping-values-are-not-allowed-in-this-context.md '수정하기')
+

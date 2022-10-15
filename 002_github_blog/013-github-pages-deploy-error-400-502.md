@@ -202,3 +202,7 @@ GitHub Pages에서 css를 변경하고자 할 때 편집해야하는 css 파일 
 
 
 무료로 사용할 수 있는 정적 웹서버인 GitHub Pages 개설 및 운영 방법 설명
+
+
+[✏️ ](https://www.github.com/boyinblue/boyinblue.github.io/edit/main/002_github_blog/013-github-pages-deploy-error-400-502.md '수정하기')
+

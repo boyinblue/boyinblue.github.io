@@ -172,3 +172,7 @@ for id in range(len(myList)):
 
 
 Python 언어에 대한 내용을 기록하는 페이지입니다.
+
+
+[✏️ ](https://www.github.com/boyinblue/boyinblue.github.io/edit/main/004_python/009-python-how-to-declare-empty-array.md '수정하기')
+

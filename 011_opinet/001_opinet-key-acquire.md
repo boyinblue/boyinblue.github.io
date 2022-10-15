@@ -172,3 +172,7 @@ API 요청이 정상적으로 처리되면 아래와 같은 응답이 옵니다.
 
 
 대한석유공사의 오피넷에서 제공하는 Open API를 통해서 유가 동향 파악 및 통계 작성하는 방법을 설명합니다.
+
+
+[✏️ ](https://www.github.com/boyinblue/boyinblue.github.io/edit/main/011_opinet/001_opinet-key-acquire.md '수정하기')
+

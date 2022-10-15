@@ -195,3 +195,7 @@ GitHub 서버로부터 통신을 시도할 때 server certificate verification f
 
 
 GitHub API 사용 방법 및 관련 팁을 제공합니다.
+
+
+[✏️ ](https://www.github.com/boyinblue/boyinblue.github.io/edit/main/001_github_api/004-github-how-to-get-the-creation-date-of-repository.md '수정하기')
+

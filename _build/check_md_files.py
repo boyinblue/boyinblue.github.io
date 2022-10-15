@@ -335,7 +335,7 @@ def iterate_directory(dir):
         yaml = get_yaml_header(path)
         check_yaml_header(yaml, dir + "/" + file)
         add_link_to_md(dir,file,prev,next)
-        check_md_file(path,file)
+        check_md_file(dir,file)
 
 def main():
     iterate_directory("..")

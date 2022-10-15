@@ -89,3 +89,7 @@ $ sudo python3 gpio_control.py
 
 
 초소형 미니 컴퓨터인 라즈베리파이 관련 연구 내용을 정리합니다.
+
+
+[✏️ ](https://www.github.com/boyinblue/boyinblue.github.io/edit/main/010_raspberry/001-not-running-on-RPi.md '수정하기')
+

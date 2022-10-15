@@ -230,3 +230,7 @@ int main()
 
 
 C 언어에 대한 내용을 기록하는 페이지입니다.
+
+
+[✏️ ](https://www.github.com/boyinblue/boyinblue.github.io/edit/main/012_c/001-2-dimension-array-pointer.md '수정하기')
+

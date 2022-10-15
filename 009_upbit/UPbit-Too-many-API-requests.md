@@ -179,3 +179,7 @@ JSONDecodeError가 발생하게 됩니다.
 
 
 업비트에서 제공하는 API를 통해 암호화폐의 시장 상황을 모니터링하고 나아가 자동으로 거래를 할 수 있는 자동화 시스템을 구축하는 것이 목표입니다.
+
+
+[✏️ ](https://www.github.com/boyinblue/boyinblue.github.io/edit/main/009_upbit/UPbit-Too-many-API-requests.md '수정하기')
+

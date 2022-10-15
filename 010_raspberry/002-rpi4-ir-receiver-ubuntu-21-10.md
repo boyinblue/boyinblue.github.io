@@ -698,3 +698,7 @@ IR 센서를 이용해서 리모컨 입력을 받는 방법에 대한 설명을 
 
 
 초소형 미니 컴퓨터인 라즈베리파이 관련 연구 내용을 정리합니다.
+
+
+[✏️ ](https://www.github.com/boyinblue/boyinblue.github.io/edit/main/010_raspberry/002-rpi4-ir-receiver-ubuntu-21-10.md '수정하기')
+

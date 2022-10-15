@@ -111,3 +111,7 @@ Your subscription suspended: Netflix
 
 
 각종 스캠 사례들을 공유합니다. 
+
+
+[✏️ ](https://www.github.com/boyinblue/boyinblue.github.io/edit/main/020_security/001_netflix_subscription_scam.md '수정하기')
+

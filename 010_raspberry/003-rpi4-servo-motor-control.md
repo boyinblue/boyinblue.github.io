@@ -179,3 +179,7 @@ if __name__ == '__main__':
 
 
 초소형 미니 컴퓨터인 라즈베리파이 관련 연구 내용을 정리합니다.
+
+
+[✏️ ](https://www.github.com/boyinblue/boyinblue.github.io/edit/main/010_raspberry/003-rpi4-servo-motor-control.md '수정하기')
+

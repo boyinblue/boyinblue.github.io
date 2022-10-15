@@ -272,3 +272,7 @@ OpenCV를 이용해서 이미지를 출력하는 방법과 실시간으로 캠 �
 
 
 Python 언어에 대한 내용을 기록하는 페이지입니다.
+
+
+[✏️ ](https://www.github.com/boyinblue/boyinblue.github.io/edit/main/004_python/004-python-vim-setting.md '수정하기')
+

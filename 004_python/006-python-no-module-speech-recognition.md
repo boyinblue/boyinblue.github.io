@@ -90,3 +90,7 @@ Python 언어에 대한 내용을 기록하는 페이지입니다.
 
 
 파이썬에서 MP3 파일 재생 방법과 playsound를 통해 비동기 재생 방식에 대해서 설명합니다.
+
+
+[✏️ ](https://www.github.com/boyinblue/boyinblue.github.io/edit/main/004_python/006-python-no-module-speech-recognition.md '수정하기')
+

@@ -182,3 +182,7 @@ Python 언어에 대한 내용을 기록하는 페이지입니다.
 
 
 파이썬에서 빈 배열을 선언하는 방법에 대해서 설명합니다.
+
+
+[✏️ ](https://www.github.com/boyinblue/boyinblue.github.io/edit/main/004_python/008-python-wordpress-update.md '수정하기')
+

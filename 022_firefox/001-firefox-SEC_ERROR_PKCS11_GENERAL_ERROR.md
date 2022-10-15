@@ -105,3 +105,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Mozilla\Firefox\Preferences 디렉토리에
 
 
 Firefox에 대한 내용을 기록하는 카테고리입니다. 
+
+
+[✏️ ](https://www.github.com/boyinblue/boyinblue.github.io/edit/main/022_firefox/001-firefox-SEC_ERROR_PKCS11_GENERAL_ERROR.md '수정하기')
+

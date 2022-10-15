@@ -61,3 +61,7 @@ API가 아주 잘 디자인되어 있었으며, 단순한 조회의 경우는 �
 업비트 API 호출시에 "Too many API requests." 문제 발생시에 해결 방법에 대해서 설명합니다.
 
 
+
+
+[✏️ ](https://www.github.com/boyinblue/boyinblue.github.io/edit/main/009_upbit/index.md '수정하기')
+
