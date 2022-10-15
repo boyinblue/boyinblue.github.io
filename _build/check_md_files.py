@@ -2,6 +2,7 @@
 
 import os
 
+
 #############################################
 # 체커가 돌지 않도록 제외할 경로 설정
 #############################################
@@ -38,6 +39,35 @@ def is_exist_file(lines, file):
         if line.find(file) != -1:
             return True
     return False
+
+#############################################
+# MD 파일 공통 작업 (ex : 편집 링크 추가)
+#############################################
+EDIT_URL = "https://www.github.com/boyinblue/boyinblue.github.com/edit/main/"
+
+def check_md_file(dir, file):
+    print("check_md_file({},{})".format(dir, file))
+    path = dir + "/" + file
+
+    if not os.path.isfile(path):
+        return
+    elif is_exclude_path(path):
+        return
+
+    f_rd = open(path, "r")
+    lines = f_rd.readlines()
+    f_rd.close()
+
+    if is_exist_file(lines, EDIT_URL):
+        return
+
+    f_wr = open(path, "w")
+    f_wr.writelines(lines)
+
+    f_wr.write("\n\n".format(file))
+    f_wr.write("[✏️ ]({} \'수정하기\')\n".format(
+            EDIT_URL+path))
+    f_wr.write("\n")
 
 #############################################
 # 새로운 디렉토리를 추가
@@ -281,6 +311,7 @@ def iterate_directory(dir):
             continue
         elif os.path.isdir(path):
             add_link_to_index(path,"index.md")
+            check_md_file(path,"index.md")
             iterate_directory(path)
             continue
         elif file == "index.md":
@@ -301,6 +332,7 @@ def iterate_directory(dir):
         yaml = get_yaml_header(path)
         check_yaml_header(yaml, dir + "/" + file)
         add_link_to_md(dir,file,prev,next)
+        check_md_file(path,file)
 
 def main():
     iterate_directory("..")
