@@ -30,9 +30,6 @@ def write_default_md(dir):
     file.write("|장소|(입력해주세요)|\n")
     file.write("\n")
     file.write("\n")
-    file.write("[수정](https://www.github.com/boyinblue/boyinblue.github.io/edit/main/901_diary/{}/index.md)\n".format(dir))
-    file.write("\n")
-    file.write("\n")
     file.close()
 
 def is_exist_file(lines, file):
