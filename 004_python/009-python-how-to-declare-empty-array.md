@@ -21,7 +21,7 @@ C언어에서 배열 선언
 
 
 예를들어, C 문법에서 배열을 선언하고자 한다면, 
-<pre><code>int array[10];</code></pre> 구문으로 가능합니다. 
+<code>int array[10];</code> 구문으로 가능합니다. 
 
 
 ```C
@@ -86,7 +86,7 @@ myList.append("https://blog.naver.com/boyinblue")
 ---
 
 
-파이썬에서 배열의 킄기를 확인하려면 <pre><code>len()</code></pre> 
+파이썬에서 배열의 킄기를 확인하려면 <code>len()</code> 
 함수를 사용하면 됩니다. 
 
 
@@ -149,10 +149,10 @@ for id in range(len(myList)):
 ✔️ 파이썬에서는 배열이 아니라 리스트라는 용어를 사용한다. 
 
 
-✔️ 선언은 <pre><code>myArray = []</code></pre> 와 같이 하면 된다. 
+✔️ 선언은 <code>myArray = []</code> 와 같이 하면 된다. 
 
 
-✔️ 리스트의 크기를 확인하려면 <pre><code>len(myList)</code></pre>와 같은 
+✔️ 리스트의 크기를 확인하려면 <code>len(myList)</code>와 같은 
 형식으로 작성하면 된다. 
 
 
