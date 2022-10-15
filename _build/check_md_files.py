@@ -290,15 +290,13 @@ def iterate_directory(dir):
             files2.append(file)
 
     prev = None
-    next = None
     for idx in range(len(files2)):
+        next = None
         file = files2[idx]
         if idx > 1:
             prev = files2[idx-1]
         elif idx < len(files2) - 1:
             next = files2[idx+1]
-        elif idx == len(files2) - 1:
-            next = None
         path = "{}/{}".format(dir, file)
         yaml = get_yaml_header(path)
         check_yaml_header(yaml, dir + "/" + file)
