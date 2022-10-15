@@ -96,6 +96,59 @@ def add_link_to_index(dir, filename):
             
     f_wr.close()
 
+#############################################
+# 새로운 디렉토리를 추가
+#############################################
+def add_link_to_md(dir, filename, prev, next):
+    print("add_link_to_md({},{})".format(dir, filename))
+    path = dir + "/" + filename
+    index = "index.md"
+
+    if is_exclude_path(path):
+        return
+
+    f_rd = open(path, "r")
+    lines = f_rd.readlines()
+    f_rd.close()
+
+    f_wr = open(path, "w")
+    f_wr.writelines(lines)
+
+    files = [ prev, next, index ]
+    for file in files:
+        if file is None:
+            continue
+
+        path2 = "{}/{}".format(dir, file)
+        if is_exclude_path(path2):
+            print("Skip : Exclude Dir :", path2)
+            continue
+
+        html_file = file.replace(".md",".html")
+        if is_exist_file(lines, html_file):
+            print("Skip : Exists : ", path2)
+            continue
+
+        if file == prev:
+            kind = "이전글"
+        elif file == next:
+            kind = "다음글"
+        elif file == index:
+            kind = "이 카테고리 글 전체보기"
+
+        yaml = get_yaml_header(path2)
+        file = "{}.html".format(file[:-3])
+        f_wr.write("\n\n".format(file))
+        f_wr.write("[✔️  {} : {}]({} \'{}\')\n---\n\n\n".format(
+                kind,
+                yaml['title: '][7:-1],
+                file,
+                yaml['description: '][13:-11]))
+        f_wr.write(yaml['description: '][13:-1])
+        f_wr.write("\n")
+            
+    f_wr.close()
+
 def add_line_into_body(yaml, line):
     """ YAML 헤더가 아닌 본문은 "BODY" 항목에 누적한다. """
     """ 공란일 경우는 누적하지 않는다. """
@@ -205,8 +258,6 @@ def get_yaml_header(filename):
 def iterate_directory(dir):
     """디렉토리를 순회한다."""
     print("iterate_directory :", dir)
-    files = os.listdir(dir)
-    files.sort()
 
     """ 실행 파일이 있으면 미리 실행한다."""
     if os.path.isfile("_build.py"):
@@ -214,20 +265,37 @@ def iterate_directory(dir):
         os.system("_build.py")
         os.system("popd")
 
+    files = os.listdir(dir)
+    files.sort()
+
+    files2 = []
+    cnt = 0
+
     for file in files:
         path = "{}/{}".format(dir, file)
 #        print( "file : {}".format(path) )
         if is_exclude_path(path):
             print("  Excluding :", path)
             continue
-        elif file.endswith(".md"):
+        elif file != "index.md" and file.endswith(".md"):
 #            print("  Check md file")
-            yaml = get_yaml_header(path)
-            check_yaml_header(yaml, dir + "/" + file)
-            add_link_to_index(dir,file)
+            files2.append(file)
+            cnt = cnt + 1
         elif os.path.isdir(path):
             add_link_to_index(path,"index.md")
             iterate_directory(path)
+
+    prev = None
+    next = None
+    for idx in range(len(files2)):
+        if idx > 1:
+            prev = files2[idx-1]
+        elif idx < len(files2) - 1:
+            next = files2[idx+1]
+        path = "{}/{}".format(dir, file)
+        yaml = get_yaml_header(path)
+        check_yaml_header(yaml, dir + "/" + file)
+        add_link_to_md(dir,file,prev,next)
 
 def main():
     iterate_directory("..")
