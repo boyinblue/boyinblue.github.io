@@ -80,7 +80,7 @@ def add_link_to_index(dir, filename):
     path = dir + "/" + filename
 
     files = os.listdir(dir)
-    files.sort()
+    files.sort(reverse=True)
 
     if not os.path.isfile(path):
         print("There is no file", filename)
@@ -302,7 +302,7 @@ def iterate_directory(dir):
         os.system("popd")
 
     files = os.listdir(dir)
-    files.sort()
+    files.sort(reverse=True)
 
     files2 = []
 
