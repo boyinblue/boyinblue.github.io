@@ -84,7 +84,13 @@ GitHub Pages로 만든 사이트들
 [https://jekyllrb.com/docs/pages/](https://jekyllrb.com/docs/pages/)
 
 
-Jekyll의 빌드 구조를 이해하는데 아주 도움이 되는 페이지다. 
+Jekyll의 빌드시 페이지 구조를 이해하는데 아주 도움이 되는 페이지다. 
+
+
+[https://jekyllrb.com/docs/posts/](https://jekyllrb.com/docs/posts/)
+
+
+Jekyll의 빌드시 포스트 구조를 이해하는데 아주 도움이 되는 페이지다.
 
 
 내가 작성한 글들
