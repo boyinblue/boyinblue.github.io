@@ -1,13 +1,24 @@
 ---
-title: ./20100829_rainnyday
-description: ./20100829_rainnyday
+title: 넋 놓고 비가 오는 날에는 전을 굽자. (2010년 8월 29일 일기)
+description: 2022년 8월 29일 경기도 수원시 영통에는 많은 비가 왔습니다. 넋 놓고 비가 오는 날에는 전이 어울립니다.
+tags:
+- 영통
+- 비오는 날
+- 2010년
+- 8월
 ---
 
 
-이 페이지는 로봇에 의해서 자동 생성되었습니다. 수정을 원하시면 아래의 링크를 이용해서 수정하시기 바랍니다. 
+넋 놓고 비가 오는 날에는 전을 굽자.
+===
 
 
-[수정](https://www.github.com/boyinblue/boyinblue.github.io/edit/main/901_diary/./20100829_rainnyday/README.md)
+|구분|내용| 
+|---|---|
+|날짜|2010년 8월 29일|
+|주제|넋 놓고 비가 오는 날에는 전을 굽자| 
+|테그|영통, 비오는 날, 2010년, 8월| 
+|장소|경기도 수원시 영통구 영통동|
 
 
 <!--P100829001.jpg-->
@@ -34,7 +45,5 @@ description: ./20100829_rainnyday
 ![이미지](P100829006.jpg)
 
 
-
-
+이 페이지는 로봇에 의해서 자동 생성되었습니다. 수정을 원하시면 아래의 링크를 이용해서 수정하시기 바랍니다. 
 [✏️ ](https://www.github.com/boyinblue/boyinblue.github.com/edit/main/../901_diary/20100829_rainnyday/index.md '수정하기')
-
