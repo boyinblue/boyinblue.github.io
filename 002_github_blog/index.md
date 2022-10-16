@@ -74,7 +74,7 @@ GitHub Pages로 만든 사이트들
 
 |사이트|GitHub Repo|비고|
 |---|---|---|
-|[peterroelants.github.io](https://peterroelants.github.io)|[Repo](https://github.com/peterroelants/peterroelants.github.io)]|테그 활용 방법|
+|[peterroelants.github.io](https://peterroelants.github.io)|[Repo](https://github.com/peterroelants/peterroelants.github.io)|테그 활용 방법|
 
 
 도움되는 사이트들
