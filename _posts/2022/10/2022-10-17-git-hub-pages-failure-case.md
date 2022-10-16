@@ -54,4 +54,11 @@ Jekyll이 무엇인지 모르고 일단 찍먹해봤었기 때문에
 사이트 맵 자동화 기능, feed.xml 파일 자동화 기능을 사용할 수 없습니다. 
 
 
+Jekyll의 기본적인 빌드 구조
+---
 
+
+아래의 링크에 접속하면 Jekyll이 빌드시에 규칙을 알아볼 수 있다. 
+
+
+[https://jekyllrb.com/docs/pages/](https://jekyllrb.com/docs/pages/)
