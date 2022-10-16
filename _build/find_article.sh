@@ -9,6 +9,6 @@ else
 fi
 
 pushd .. >> /dev/null
-echo "Keyword : ${keyworkd}"
+echo "Keyword : ${keyword}"
 grep -rn ${keyword}
 popd >> /dev/null
