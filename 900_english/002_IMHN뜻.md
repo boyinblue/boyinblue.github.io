@@ -1,0 +1,20 @@
+---
+title: IMHO 뜻
+description: 영문 메일에서 자주 사용하는 약어인 IMHO의 뜻에 대해서 설명합니다.
+tags:
+- English
+---
+
+
+IMHO 뜻
+===
+
+
+영문 메일에서 자주 사용하는 약어인 IMHO의 뜻에 대해서 설명합니다. 
+
+
+> IMHO stands for 'in my humble opinion'
+제 겸손한 의견으로는 
+
+
+이상입니다.
