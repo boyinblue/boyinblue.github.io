@@ -63,3 +63,6 @@ Jekyll의 기본적인 빌드 구조
 
 
 [https://jekyllrb.com/docs/pages/](https://jekyllrb.com/docs/pages/)
+
+
+[https://jekyllrb.com/docs/posts/](https://jekyllrb.com/docs/posts/)
