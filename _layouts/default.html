@@ -19,7 +19,7 @@
           <small id="project_title">{{ site.title | default: site.github.repository_name }}</small>
           <small id="project_tagline">{{ site.description | default: site.github.project_tagline }}</small>
 		  <a href="https://boyinblue.github.io" title="홈으로">🏠</a>
-          <a href="mailto:boyinblue@hanmail.net"i title="이메일">📧</a></p>
+          <a href="mailto:boyinblue@hanmail.net" title="이메일">📧</a>
         </header>
     </div>
 
@@ -32,27 +32,25 @@
         <!-- page tags -->
         <p data-ke-size="size16">
         {% for tag in page.tags %}
-        <a style="background-color: #0040ff; color: #fff; border-radius: 10px; padding: 3px 5px; font-size: 12px; font-weight: bold; text-decoration: none;" href="https://naver.com">{{ tag }}</a>
+        <a style="background-color: #0040ff; color: #fff; border-radius: 10px; padding: 3px 5px; font-size: 12px; font-weight: bold; text-decoration: none;" href="/tags.html#{{ tag | cgi_escape }}">{{ tag }}</a>
         {% endfor %}
         </p>
 
         <!-- site tags -->
+        <p data-ke-size="size16">
         {% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
         {% assign tag_words = site_tags | split:',' | sort %}
-        <ul class="tag-box inline">
         {% for tag in tag_words %}
-          <li><a href="#{{ tag | cgi_escape }}">{{ tag }} <span>{{ site.tags[tag] | size }}</span></a></li>
+        <a style="background-color: #0040ff; color: #fff; border-radius: 10px; padding: 3px 5px; font-size: 12px; font-weight: bold; text-decoration: none;" href="/tags.html#{{ tag | cgi_escape }}">{{ tag }} {{ site.tags[tag] | size }}</a>
         {% endfor %}
-        </ul>
+        </p>
 
         <!-- posts -->
-        <ul>
+        <p>
           {% for post in site.posts limit:5 %}
-            <li>
-              <a href="{{ post.url }}">[{{ post.date | date: "%Y-%m-%d" }}] {{ post.title }}</a>
-            </li>
+          <a href="{{ post.url }}">[{{ post.date | date: "%Y-%m-%d" }}] {{ post.title }}</a><br>
           {% endfor %}
-        </ul>
+        </p>
       </section>
     </div>
 
