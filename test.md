@@ -1,4 +1,5 @@
 ---
+layout: post-with-tag
 category:
 - GitHub
 ---
