@@ -78,7 +78,3 @@ GitHub 서버로부터 통신을 시도할 때 server certificate verification f
 
 
 GitHub API를 이용해서 레포지토리의 생성일을 확인하는 방법에 대해서 설명합니다.
-
-
-[✏️ ](https://www.github.com/boyinblue/boyinblue.github.io/edit/main/001_github_api/index.md '수정하기')
-
