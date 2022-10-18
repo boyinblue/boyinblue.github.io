@@ -23,6 +23,7 @@ category:
 |---|---|---|
 {% for github in site.github %}
   |site.github.{{ github | first }}|  |  |
+{% endfor %}
 |site.github.repository_url|{{ site.github.repository_url }}|  |
 
 
