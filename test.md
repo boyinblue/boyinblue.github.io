@@ -2,6 +2,9 @@
 layout: post-with-tag
 category:
 - GitHub
+tags:
+- GitHub
+- Blog
 ---
 
 
