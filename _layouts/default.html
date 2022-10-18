@@ -19,7 +19,7 @@
           <small id="project_title">{{ site.title | default: site.github.repository_name }}</small>
           <small id="project_tagline">{{ site.description | default: site.github.project_tagline }}</small>
 		  <a href="https://boyinblue.github.io" title="홈으로">🏠</a>
-          <a href="mailto:boyinblue@hanmail.net"i title="이메일">>📧</a></p>
+          <a href="mailto:boyinblue@hanmail.net"i title="이메일">📧</a></p>
         </header>
     </div>
 
@@ -31,7 +31,7 @@
 
         <!-- page tags -->
         {% for tag in page.tags %}
-          #️⃣{{ tag }}
+        <p data-ke-size="size16"><a style="background-color: #0040ff; color: #fff; border-radius: 10px; padding: 3px 5px; font-size: 12px; font-weight: bold; text-decoration: none;" href="https://naver.com">#️⃣{{ tag }}</a></p>
         {% endfor %}
 
         <!-- site tags -->
