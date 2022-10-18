@@ -40,12 +40,12 @@
         {{ content }}
 
         <!-- page tags -->
-        {% for tag in page.tags %}
+        {% for tag in page.tags limit:3 %}
           #️⃣{{ tag }}
         {% endfor %}
 
         <!-- site tags -->
-        {% for tag in site.tags %}
+        {% for tag in site.tags limit:3 %}
           #️⃣{{ tag }}
         {% endfor %}
 
