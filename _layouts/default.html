@@ -47,11 +47,9 @@
         <!-- posts -->
         <ul>
           {% for post in site.posts limit:5 %}
-            {% if post }
             <li>
               <a href="{{ post.url }}">[{{ post.date | date: "%Y-%m-%d" }}] {{ post.title }}</a>
             </li>
-            {% endif }
           {% endfor %}
         </ul>
       </section>
