@@ -39,7 +39,7 @@
         <!-- category -->
         {% if page.category %}
           <p>
-          <small style="background-color: #f4d03f; color: #000000; border-radius: 3px; padding: 3px 5px; font-size: 20px; font-weight: bold; text-decoration: none;"> 이 카테고리의 모든 글('{{ page.category }}')</small><br>
+          <small style="background-color: #f4d03f; color: #000000; border-radius: 3px; padding: 3px 5px; font-size: 20px; font-weight: bold; text-decoration: none;"> 카테고리 글 더보기 ('{{ page.category }}')</small><br>
           {% assign cnt = 0 %}
           {% for post in site.posts %}
             {% if post.category == page.category %}
