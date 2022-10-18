@@ -3,8 +3,8 @@ set -e
 
 cwd=$(pwd)
 
-SITEMAP_FILE=("../sitemap.xml" "../sitemap2.xml" "../sitemap.txt")
-SITEMAP_TMP_FILE=("${cwd}/tmp/sitemap.xml" "${cwd}/tmp/sitemap2.xml" "${cwd}/tmp/sitemap.txt")
+SITEMAP_FILE=("../sitemap.xml" "../sitemap.txt")
+SITEMAP_TMP_FILE=("${cwd}/tmp/sitemap.xml" "${cwd}/tmp/sitemap.txt")
 
 HOMEPAGE_URL="https://boyinblue.github.io"
 
@@ -52,30 +52,6 @@ function print_list_xml()
   done
 }
 
-function print_dir_list_xml()
-{
-  dirs=$(ls)
-  for dir in ${dirs[@]}
-  do
-    if [[ "${dir:0:3}" =~ ^[0-9]+$ ]]; then
-	  if [ ! -d ${dir} ]; then
-	    continue
-      fi
-
-	  if [ ! -e "${dir}/index.md" ]; then
-	    continue
-	  fi
-
-      lastmod=$(date +"%m-%d-%YT%H:%M:%S%:z" -r ${file})
-      echo "<url>"
-      echo "<loc>${HOMEPAGE_URL}/${dir}</loc>"
-#     echo "<lastmod>${lastmod}</lastmod>"
-#     echo "<changefreq>weekly</changefreq>"
-      echo "</url>"
-	fi
-  done
-}
-
 function print_list_txt()
 {
   dirs=$(ls)
@@ -103,15 +79,11 @@ print_header > ${SITEMAP_TMP_FILE[0]}
 print_list_xml >> ${SITEMAP_TMP_FILE[0]}
 print_tail >> ${SITEMAP_TMP_FILE[0]}
 
-print_header > ${SITEMAP_TMP_FILE[1]}
-print_dir_list_xml >> ${SITEMAP_TMP_FILE[1]}
-print_tail >> ${SITEMAP_TMP_FILE[1]}
-
-print_list_txt > ${SITEMAP_TMP_FILE[2]}
+print_list_txt > ${SITEMAP_TMP_FILE[1]}
 popd
 
 set +e
-for ((i=0;i<=2;i++));
+for ((i=0;i<=1;i++));
 do
 #  echo "compare(${SITEMAP_FILE[$i]}, ${SITEMAP_TMP_FILE[$i]}"
   if [ ! -e ${SITEMAP_FILE[$i]} ]; then
