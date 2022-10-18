@@ -4,6 +4,14 @@ permalink: /tags/
 description: 이 사이트에서 제공하는 모든 테그들을 살펴봅니다.
 ---
 
+
+모든 테그들
+===
+
+
+본 페이지에서 제공하는 모든 테그들입니다. 
+
+
 {% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
 <!-- site_tags: {{ site_tags }} -->
 {% assign tag_words = site_tags | split:',' | sort %}
@@ -12,7 +20,7 @@ description: 이 사이트에서 제공하는 모든 테그들을 살펴봅니�
 <div id="tags">
   <p>
   {% for tag in tag_words %}
-  <a style="background-color: #0040ff; color: #fff; border-radius: 10px; padding: 3px 5px; font-size: 12px; font-weight: bold; text-decoration: none;" href="#{{ tag | cgi_escape }}">{{ tag }}</a> ({{ site.tags[tag] | size }}) 
+  <a style="background-color: #0040ff; color: #fff; border-radius: 10px; padding: 3px 5px; font-size: 12px; font-weight: bold; text-decoration: none;" href="#{{ tag | cgi_escape }}">{{ tag }} {{ site.tags[tag] | size }}</a>
   {% endfor %}
   </p>
 
