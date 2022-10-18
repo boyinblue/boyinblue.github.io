@@ -14,10 +14,15 @@ category:
 |site.baseurl|{{ site.baseurl }}|  |
 |site.category|{{ site.category }}|  |
 |site.categories|{{ site.categories }}|  |
-|site.tags|{{ site.tags }}|  |
+|site.tags|{% for tag in site.tags %}{{ tag | first }}{% endfor %}|  |
 |site.tag|{{ site.tag }}|  |
 |site.posts|생략|모든 포스트들이 나옴|
-|site.github|{{ site.github | first }}|  |
+
+
+|Variable|Value|Note|
+|---|---|---|
+{% for github in site.github %}
+  |site.github.{{ github | first }}|  |  |
 |site.github.repository_url|{{ site.github.repository_url }}|  |
 
 
