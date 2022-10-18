@@ -148,7 +148,6 @@ tags:
 \{\% for tag in page.tags \%\}
   #️⃣\{\{ tag \}\}
 \{\% endfor \%\}
-
 ```
 
 
