@@ -2,6 +2,7 @@
 title: server certificate verification failed. CAfile none CRLfile none 에러 조치 방법
 permalink: /001_github_api/003-server-certificate-verification-fail.html
 description: GitHub 서버로부터 통신을 시도할 때 server certificate verification failed. CAfile none CRLfile none 에러가 발생할 경우 조치하는 방법에 대해서 설명합니다.
+category: github-api
 ---
 
 

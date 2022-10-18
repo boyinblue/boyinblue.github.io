@@ -1,6 +1,7 @@
 ---
 title: GitHub에서 레포지토리의 생성일을 확인하는 방법
 description: GitHub API를 이용해서 레포지토리의 생성일을 확인하는 방법에 대해서 설명합니다.
+category: github-api
 ---
 
 

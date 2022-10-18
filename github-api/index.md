@@ -2,6 +2,7 @@
 title: GitHub API
 permalink: /001_github_api/
 description: GitHub API 사용 방법 및 관련 팁을 제공합니다.
+category: github-api
 ---
 
 
