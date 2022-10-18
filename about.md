@@ -23,16 +23,14 @@ description: About this blog and it's author.
 저는 현업 SW 개발자입니다. 
 
 
-|기간|경력|비고|
-|2017년 11월 1일 ~ 현재|미국계 회사|FW 및 SW 개발|
-|2008년 7월 7일 ~ 2017년 10월 31일|삼성전자|FW 및 SW 개발|
+|기간|소속|직책|
+|2017년 11월 1일 ~ 현재|미국계 회사|FW 및 SW 개발자|
+|2008년 7월 7일 ~ 2017년 10월 31일|삼성전자|FW 및 SW 개발자|
 |2006년 3월 1일 ~ 2008년 6월 30일|대한민국 육군|정보통신 소대장|
 
 
 질문이나 의견이 있으면 주저하지 마시고 연락주시기 바랍니다. 
 
 
-[네이버 블로그](https://blog.naver.com/boyinblue)
-
-
+[네이버 블로그](https://blog.naver.com/boyinblue) 
 [이메일](mailto:boyinblue@hanmail.net)
