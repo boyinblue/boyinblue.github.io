@@ -3,42 +3,23 @@ category:
 - GitHub
 ---
 
-<html>
-  <head>
-    <title>Environment Check</title>
-  </head>
-  <body>
-    site.title : {{ site.title }}<br>
-    <table>
-      <tr>
-        <td>Main Category</td>
-        <td>Sub Category</td>
-        <td>Value</td>
-      </tr>
-      <tr>
-        <td>site</td>
-        <td>title</td>
-        <td>{{ site.title }}</td>
-      </tr>
-      <tr>
-        <td>site</td>
-        <td>url</td>
-        <td>{{ site.url }}</td>
-      </tr>
-      <tr>
-        <td>site</td>
-        <td>baseurl</td>
-        <td>{{ site.baseurl }}</td>
-      </tr>
-      <tr>
-        <td>site</td>
-        <td>description</td>
-        <td>{{ site.description }}</td>
-      </tr>
-      <tr>
-        <td>site</td>
-        <td>posts</td>
-        <td>{{ site.posts }}</td>
-      </tr>
-  </body>
-</html>
+
+|Variable|Value|Note|
+|---|---|---|
+|site.title|{{ site.title }}|  |
+|site.description|{{ site.description }}|  |
+|site.url|{{ site.url }}|  |
+|site.baseurl|{{ site.baseurl }}|  |
+|site.category|{{ site.category }}|  |
+|site.tags|{{ site.tags }}|  |
+|site.posts|생략|모든 포스트들이 나옴|
+
+
+|Variable|Value|Note|
+|---|---|---|
+|page.title|{{ page.title }}|  |
+|page.description|{{ page.description }}|  |
+|page.url|{{ page.url }}|  |
+|page.baseurl|{{ page.baseurl }}|  |
+|page.category|{{ page.category }}|  |
+|page.tags|{{ page.tags }}|  |
