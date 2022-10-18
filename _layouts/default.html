@@ -39,7 +39,7 @@
         <!-- category -->
         {% if page.category %}
           <p>
-          <small> '{{ page.category }}' 카테고리 모든 글 </small><br>
+          <small style="background-color: #f4d03f; color: #000000; border-radius: 3px; padding: 3px 5px; font-size: 12px; font-weight: bold; text-decoration: none;"> 이 카테고리의 모든 글('{{ page.category }}')</small><br>
           {% assign cnt = 0 %}
           {% for post in site.posts %}
             {% if post.category == page.category %}
@@ -55,6 +55,7 @@
 
         <!-- posts -->
         <p>
+          <small style="background-color: #a9dfbf; color: #000000; border-radius: 3px; padding: 3px 5px; font-size: 12px; font-weight: bold; text-decoration: none;"> 블로글 글 더보기</small><br>
           {% for post in site.posts limit:5 %}
           <a href="{{ post.url }}">[{{ post.date | date: "%Y-%m-%d" }}] {{ post.title }}</a><br>
           {% endfor %}
