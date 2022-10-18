@@ -18,7 +18,7 @@ description: "An archive of posts sorted by tag."
 
 <div id="tags">
   {% for tag in tag_words %}
-    <a href="#{{ tag | cgi_escape }}">#️⃣{{ tag }} <span>({{ site.tags[tag] | size }})</span></a> 
+    #️⃣ <a href="#{{ tag | cgi_escape }}">{{ tag }} <span>[{{ site.tags[tag] | size }}]</span></a> 
   {% endfor %}
   </ul>
 
