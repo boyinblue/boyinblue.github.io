@@ -1,6 +1,7 @@
 ---
 title: GitHub Pages
 description: 무료로 사용할 수 있는 정적 웹서버인 GitHub Pages 개설 및 운영 방법 설명
+category: github-pages
 tags:
 - GitHub
 - GitHub Pages
@@ -92,6 +93,18 @@ Jekyll의 빌드시 페이지 구조를 이해하는데 아주 도움이 되는 
 
 
 Jekyll의 빌드시 포스트 구조를 이해하는데 아주 도움이 되는 페이지다.
+
+
+[https://shopify.github.io/liquid/](https://shopify.github.io/liquid/)
+
+
+Liquid 문법에 대해서 살펴볼 수 있는 페이지다. 
+
+
+[https://jekyllrb.com/](https://jekyllrb.com/)
+
+
+Jekyll에 대한 내용이 잘 정리된 페이지다. 
 
 
 내가 작성한 글들
