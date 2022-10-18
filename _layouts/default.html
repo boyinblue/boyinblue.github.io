@@ -30,9 +30,11 @@
         {{ content }}
 
         <!-- page tags -->
+        <p data-ke-size="size16">
         {% for tag in page.tags %}
-        <p data-ke-size="size16"><a style="background-color: #0040ff; color: #fff; border-radius: 10px; padding: 3px 5px; font-size: 12px; font-weight: bold; text-decoration: none;" href="https://naver.com">#️⃣{{ tag }}</a></p>
+        <a style="background-color: #0040ff; color: #fff; border-radius: 10px; padding: 3px 5px; font-size: 12px; font-weight: bold; text-decoration: none;" href="https://naver.com">{{ tag }}</a>
         {% endfor %}
+        </p>
 
         <!-- site tags -->
         {% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
