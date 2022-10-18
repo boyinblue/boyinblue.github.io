@@ -37,18 +37,21 @@
         </p>
 
         <!-- category -->
-        <p>
-        {% assign cnt = 0 %}
-        {% for post in site.posts %}
-          {% if post.category == page.category %}
-            {% increment cnt %}
-            {% if cnt >= 5 %}
-              break
+        {% if page.category }
+          <p>
+          <small> {{ page.category }} 카테고리 모든 글 </small>
+          {% assign cnt = 0 %}
+          {% for post in site.posts %}
+            {% if post.category == page.category %}
+              {% capture cnt}{% increment cnt %}{% endcapture }
+              {% if cnt >= 5 %}
+                break
+              {% endif %}
+              <a href="{{ post.url }}">[{{ post.date | date: "%Y-%m-%d" }}] {{ post.title }}</a><br>
             {% endif %}
-            <a href="{{ post.url }}">[{{ post.date | date: "%Y-%m-%d" }}] {{ post.title }}</a><br>
-          {% endif %}
-        {% endfor %}
-        </p>
+          {% endfor %}
+          </p>
+        {% endif %}
 
         <!-- posts -->
         <p>
