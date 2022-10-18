@@ -38,6 +38,20 @@
       <section id="main_content" class="inner">
         <!-- content -->
         {{ content }}
+
+        <!-- tags -->
+        {% for tag in page.tags %}
+          #️⃣{{ tag }}
+        {% endfor %}
+
+        <!-- posts -->
+        <ul>
+          {% for post in site.posts limit:5 %}
+            <li>
+              <a href="{{ post.url }}">[{{ post.date | date: "%Y-%m-%d }}] {{ post.title }}</a>
+            </li>
+          {% endfor %}
+        </ul>
       </section>
     </div>
 
