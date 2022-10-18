@@ -45,9 +45,20 @@
         {% endfor %}
 
         <!-- site tags -->
-        {% for tag in site.tags %}
-          #️⃣{{ tag }}
+        {% capture site_tags %}
+          {% for tag in site.tags %}
+            {{ tag | first }}
+            {% unless forloop.last %}
+              ,
+            {% endunless %}
+          {% endfor %}
+        {% endcapture %}
+        {% assign tag_words = site_tags | split:',' | sort %}
+        <ul class="tag-box inline">
+        {% for tag in tag_words %}
+          <li><a href="#{{ tag | cgi_escape }}">{{ tag }} <span>{{ site.tags[tag] | size }}</span></a></li>
         {% endfor %}
+        </ul>
 
         <!-- posts -->
         <ul>
