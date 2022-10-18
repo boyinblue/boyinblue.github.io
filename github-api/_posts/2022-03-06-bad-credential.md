@@ -2,6 +2,7 @@
 title: GitHub API 호출시 Bad Credentials 에러 발생시 조치 방법
 permalink: /001_github_api/001_bad_credential.html
 description: 본 페이지에서는 GitHub API 호출시에 Bad credentials 응답이 오는 문제를 해결하는 방법을 기술하고자 합니다.
+category: github-api
 ---
 
 
