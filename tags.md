@@ -1,6 +1,7 @@
 ---
-title: Tags
-description: "An archive of posts sorted by tag."
+title: 테그들
+permalink: /tags/
+description: 이 사이트에서 제공하는 모든 테그들을 살펴봅니다.
 ---
 
 {% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
@@ -9,9 +10,11 @@ description: "An archive of posts sorted by tag."
 <!-- tag_words: {{ tag_words }} -->
 
 <div id="tags">
+  <p>
   {% for tag in tag_words %}
-  #️⃣ <a href="#{{ tag | cgi_escape }}">{{ tag }}</a> ({{ site.tags[tag] | size }}) 
+  <a style="background-color: #0040ff; color: #fff; border-radius: 10px; padding: 3px 5px; font-size: 12px; font-weight: bold; text-decoration: none;" href="#{{ tag | cgi_escape }}">{{ tag }}</a> ({{ site.tags[tag] | size }}) 
   {% endfor %}
+  </p>
 
   {% for item in (0..site.tags.size) %}
     {% unless forloop.last %}
