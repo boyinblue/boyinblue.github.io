@@ -39,8 +39,13 @@
         <!-- content -->
         {{ content }}
 
-        <!-- tags -->
+        <!-- page tags -->
         {% for tag in page.tags %}
+          #️⃣{{ tag }}
+        {% endfor %}
+
+        <!-- site tags -->
+        {% for tag in site.tags %}
           #️⃣{{ tag }}
         {% endfor %}
 

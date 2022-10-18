@@ -40,29 +40,147 @@ Jekyll이 무엇인지 모르고 일단 찍먹해봤었기 때문에
 ---
 
 
-`_posts/년도/월` 디렉토리에 `YYYY-MM-DD'로 시작하는 
+`_posts/` 디렉토리에 `YYYY-MM-DD'로 시작하는 
 파일명으로 md 파일을 작성해야 합니다. 
 
 
 - '_posts'
-  - 2022
-    - 10
-      - 2022-10-17-github-현타.md
-      - 2022-10-18-내일작성할블로그.md
+  - 2022-10-17-github-현타.md
+  - 2022-10-18-내일작성할블로그.md
 
 
 이 규칙을 지키지 않으면 Jekyll에서 기본적으로 제공하는 
 사이트 맵 자동화 기능, feed.xml 파일 자동화 기능을 사용할 수 없습니다. 
 
 
-Jekyll의 기본적인 빌드 구조
+왜냐하면 지킬에서 참조하는 site.posts 변수는 
+_posts 디렉토리 안에 있는 파일들을 이용하기 때문입니다. 
+
+
+카테고리 분류를 하고 싶다면?
 ---
 
 
-아래의 링크에 접속하면 Jekyll이 빌드시에 규칙을 알아볼 수 있다. 
+만약, 카테고리 기능을 이용하고 싶다면, 
+'_posts' 디렉토리 안에 카테고리 키워드를 입력하면 됩니다. 
 
 
+예를들면, Blog라는 카테고리를 이용하고 싶다면, 
+아래와 같은 디렉토리 구조로 파일을 업로드하면 됩니다. 
+
+
+- '_posts'
+  - Blog
+    - 2022-10-17-github-현타.md
+    - 2022-10-18-내일작성할블로그.md
+
+
+포스트에 테그를 입력하고 싶다면?
+---
+
+
+포스트에 테그를 입력하고 싶다면, Front Matter에 Tags를 입력하면 됩니다. 
+
+
+만약, 'Blog' 테그와 'Diary' 테그를 추가하고 싶다면, 
+아래처럼 Front Matter를 입력하면 됩니다. 
+
+
+```yaml
+---
+title: 제목을 입력합니다.
+description: 포스트를 잘 나타내는 설명을 입력합니다.
+tags:
+- Blog
+- Diary
+---
+
+
+모든 포스트에 대한 링크를 표시하려면
+---
+
+
+만약 모든 포스트에 대한 링크를 표기하려면 
+아래와 같은 Liquid 문법을 활용하시면 됩니다. 
+
+
+```html
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">[{{ post.date }}] {{ post.title }}</a>
+    </li>
+ {% endfor %}
+</ul>
+
+
+포스트 개수를 한정해서 링크를 표시하려면
+---
+
+
+위와 같이 모든 포스트 링크를 출력하게 되면, 
+엄청나게 많은 포스트의 링크가 출력되게 됩니다. 
+
+
+그래서 3개, 5개, 10개 정도만 출력할 필요가 생깁니다. 
+이 때는 '{%' 구문에 'limit:3'처럼 개수를 한정하면 됩니다. 
+
+
+```html
+<ul>
+  {% for post in site.posts limit:3 %}
+    <li>
+      <a href="{{ post.url }}">[{{ post.date }}] {{ post.title }}</a>
+    </li>
+ {% endfor %}
+</ul>
+
+
+페이지에 작성된 테그들을 표시하려면
+---
+
+
+만약, 페이지에 작성된 테그들을 표시하려면
+아래와 같은 Liquid 문법을 활용하시면 됩니다. 
+
+
+```
+<!-- tags -->
+{% for tag in page.tags %}
+  #️⃣{{ tag }}
+{% endfor %}
+
+```
+
+
+도움이 되는 링크들
+---
+
+
+아래의 링크에 접속하면 Jekyll이 빌드시에 규칙을 알아볼 수 있습니다. 
+Jekyll을 통해서 서비스되는 콘텐츠들은 2종류로 구분할 수 있습니다. 
+
+
+하나는 'pages'이고, 나머지 하나는 'posts' 입니다. 
+'pages'는 고정적인 페이지를 의미하고, 
+'posts'는 그때그때 작성하는 블로그 같은 개념입니다. 
+
+
+예를 들면, 블로그에 대한 소개나 저자에 대한 소개는 
+'pages'으로 작성하면 좋고, 
+매일 작성하는 일기는 'posts' 형식으로 작성을 하시면 됩니다. 
+
+
+### 페이지 작성 관련
 [https://jekyllrb.com/docs/pages/](https://jekyllrb.com/docs/pages/)
 
 
+### 포스트 작성 관련
 [https://jekyllrb.com/docs/posts/](https://jekyllrb.com/docs/posts/)
+
+
+### Liquid 문법 관련
+[https://shopify.github.io/liquid/](https://shopify.github.io/liquid/)
+
+
+이상입니다. 
