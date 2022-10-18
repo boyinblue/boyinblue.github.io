@@ -29,10 +29,6 @@
         <!-- content -->
         {{ content }}
 
-        <!-- 글 정보 -->
-        {% if category %}<small>{{ category }}</small>{% endif %}
-        {% if categories %}<small>{{ categories }}</small>{% endif %}
-
         <!-- page tags -->
         <p>
         {% for tag in page.tags %}
@@ -43,7 +39,7 @@
         <!-- category -->
         {% if page.category %}
           <p>
-          <small> {{ page.category }} 카테고리 모든 글 </small>
+          <small> '{{ page.category }}' 카테고리 모든 글 </small><br>
           {% assign cnt = 0 %}
           {% for post in site.posts %}
             {% if post.category == page.category %}
