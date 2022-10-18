@@ -29,6 +29,10 @@
         <!-- content -->
         {{ content }}
 
+        <!-- 글 정보 -->
+        {% if category %}<small>{{ category }}</small>{% endif %}
+        {% if categories %}<small>{{ categories }}</small>{% endif %}
+
         <!-- page tags -->
         <p>
         {% for tag in page.tags %}
