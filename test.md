@@ -17,7 +17,7 @@ category:
 |site.tags|{{ site.tags }}|  |
 |site.tag|{{ site.tag }}|  |
 |site.posts|생략|모든 포스트들이 나옴|
-|site.github|{{ site.github }}|  |
+|site.github|{{ site.github | first }}|  |
 |site.github.repository_url|{{ site.github.repository_url }}|  |
 
 
