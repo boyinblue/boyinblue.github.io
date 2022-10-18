@@ -1,6 +1,6 @@
 ---
 title: 일기장
-permalink: /901_diary/
+permalink: /901_diary/index.html
 description: 기록하지 않은 일상은 추억이 될 수 없고, 기록하지 않은 성과는 업적이 될 수 없다.
 tags:
 - Diary
