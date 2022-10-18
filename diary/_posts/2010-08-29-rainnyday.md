@@ -2,6 +2,7 @@
 title: 넋 놓고 비가 오는 날에는 전을 굽자. (2010년 8월 29일 일기)
 permalink: /901_diary/20100829_rainnyday/
 description: 2022년 8월 29일 경기도 수원시 영통에는 많은 비가 왔습니다. 넋 놓고 비가 오는 날에는 전이 어울립니다.
+category: diary
 tags:
 - 영통
 - 비오는 날
