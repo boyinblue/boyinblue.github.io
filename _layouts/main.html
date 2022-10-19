@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,maximum-scale=2">
+    <link rel="stylesheet" type="text/css" media="screen" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+
+{% seo %}
+    {% include head-custom.html %}
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a href="/"><small id="project_title">{{ site.title | default: site.github.repository_name }}</small></a>
+          <small id="project_tagline">{{ site.description | default: site.github.project_tagline }}</small>
+		  <a href="/" title="홈으로">🏠</a>
+          <a href="mailto:boyinblue@hanmail.net" title="이메일">📧</a>
+          <a href="/category" title="모든 카테고리 보기">📑</a>
+          <a href="{{ site.github.repository_url }}/edit/main/{{ page.path }}" title="수정">✏️</a>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <!-- content -->
+        {{ content }}
+
+        <!-- posts -->
+        <p>
+          <small style="background-color: #a9dfbf; color: #000000; border-radius: 3px; padding: 3px 5px; font-size: 16px; font-weight: bold; text-decoration: none;"> 블로그 글 더보기</small><br>
+          {% for post in site.posts limit:10 %}
+          <a href="{{ post.url }}">[{{ post.date | date: "%Y-%m-%d" }}] {{ post.title }}</a><br>
+          {% endfor %}
+        </p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        Proudly Published with <a href="https://pages.github.com">GitHub Pages</a>
+      </footer>
+    </div>
+  </body>
+</html>
