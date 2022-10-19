@@ -2,6 +2,7 @@
 title: GitHub 블로그를 네이버 서치 어드바이저에 등록 방법 (네이버 웹마스터 도구에 사이트 추가 방법) 
 permalink: /002_github_blog/003_naver_search_advisor.html
 description: 네이버 서치 어드바이저에 GitHub 블로그 등록 방법에 대해서 설명합니다.
+category: github-pages
 ---
 
 

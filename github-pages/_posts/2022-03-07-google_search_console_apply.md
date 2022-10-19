@@ -2,6 +2,7 @@
 title: GitHub Pages에서 구글 서치 콘솔 등록 방법 아주 쉽다 (사이트 소유권 확인 방법)
 permalink: /002_github_blog/002_google_search_console_apply.html
 description: GitHub 블로그에 구글 서치 콘솔을 등록하는 방법에 대해서 설명합니다.
+category: github-pages
 ---
 
 

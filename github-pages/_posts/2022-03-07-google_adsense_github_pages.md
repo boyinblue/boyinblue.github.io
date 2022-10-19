@@ -2,6 +2,7 @@
 title: GitHub 블로그에 구글 애드센스 스크립트 삽입하는 방법 및 삽입 위치
 permalink: /002_github_blog/004_google_adsense_github_pages.html
 description: GitHub Pages에 구글 애드센스 스크립트를 삽입하는 위치를 설명합니다.
+category: github-pages
 ---
 
 

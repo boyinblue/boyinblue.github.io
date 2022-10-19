@@ -2,6 +2,7 @@
 title: SEO를 위해 GitHub Pages 의 md 파일에 헤더를 입력하는 방법
 permalink: /002_github_blog/009.html
 description: GitHub Pages의 markdown 파일의 헤더에 title, description을 지정하는 방법에 대해서 설명합니다.
+category: github-pages
 ---
 
 

@@ -2,6 +2,7 @@
 title: GitHub Pages에서 php 문법을 사용 가능할까?
 permalink: /002_github_blog/006.html
 description: GitHub Pages에서 php 문법 사용 가능 여부에 대해서 설명합니다. 
+category: github-pages
 ---
 
 

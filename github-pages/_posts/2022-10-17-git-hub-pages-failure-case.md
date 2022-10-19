@@ -1,6 +1,7 @@
 ---
 title: 깃허브 블로그 실패 사례
 description: GitHub Pages로 6개월동안 삽질하고 깨닫게 된 것들
+category: github-pages
 tags:
 - GitHub Pages
 - Jekyll
