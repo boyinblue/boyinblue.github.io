@@ -1,141 +1,30 @@
+--
+layout: null
+---
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url>
-<loc>https://boyinblue.github.io/004_python/001.html</loc>
-</url>
-<url>
-<loc>https://boyinblue.github.io/004_python/002.html</loc>
-</url>
-<url>
-<loc>https://boyinblue.github.io/004_python/003-python-명령행인자.html</loc>
-</url>
-<url>
-<loc>https://boyinblue.github.io/004_python/003-python-turtle-graphic-example.html</loc>
-</url>
-<url>
-<loc>https://boyinblue.github.io/004_python/004-python-vim-setting.html</loc>
-</url>
-<url>
-<loc>https://boyinblue.github.io/004_python/005-python-cannot-read-home-directory.html</loc>
-</url>
-<url>
-<loc>https://boyinblue.github.io/004_python/006-python-no-module-speech-recognition.html</loc>
-</url>
-<url>
-<loc>https://boyinblue.github.io/004_python/007-python-playsound.html</loc>
-</url>
-<url>
-<loc>https://boyinblue.github.io/004_python/008-python-wordpress-update.html</loc>
-</url>
-<url>
-<loc>https://boyinblue.github.io/004_python/009-python-how-to-declare-empty-array.html</loc>
-</url>
-<url>
-<loc>https://boyinblue.github.io/004_python/index.html</loc>
-</url>
-<url>
-<loc>https://boyinblue.github.io/005_bash/001.html</loc>
-</url>
-<url>
-<loc>https://boyinblue.github.io/005_bash/index.html</loc>
-</url>
-<url>
-<loc>https://boyinblue.github.io/006_java/index.html</loc>
-</url>
-<url>
-<loc>https://boyinblue.github.io/007_javascript/001.html</loc>
-</url>
-<url>
-<loc>https://boyinblue.github.io/007_javascript/index.html</loc>
-</url>
-<url>
-<loc>https://boyinblue.github.io/008_ubuntu/001.html</loc>
-</url>
-<url>
-<loc>https://boyinblue.github.io/008_ubuntu/002.html</loc>
-</url>
-<url>
-<loc>https://boyinblue.github.io/008_ubuntu/003-ubuntu-crontab-does-not-work.html</loc>
-</url>
-<url>
-<loc>https://boyinblue.github.io/008_ubuntu/004-thunderbird-email-setting-naver-gmail-daum.html</loc>
-</url>
-<url>
-<loc>https://boyinblue.github.io/008_ubuntu/005-what-is-dead_letteres.html</loc>
-</url>
-<url>
-<loc>https://boyinblue.github.io/008_ubuntu/006-ubuntu-register-serivce.html</loc>
-</url>
-<url>
-<loc>https://boyinblue.github.io/008_ubuntu/007-how-to-vim-setting.html</loc>
-</url>
-<url>
-<loc>https://boyinblue.github.io/008_ubuntu/008-usb-to-serial-no-ttyUSB0.html</loc>
-</url>
-<url>
-<loc>https://boyinblue.github.io/008_ubuntu/009-ubuntu-network-manager-ip-setting.html</loc>
-</url>
-<url>
-<loc>https://boyinblue.github.io/008_ubuntu/010-ubuntu-xrdp-color-pkla.html</loc>
-</url>
-<url>
-<loc>https://boyinblue.github.io/008_ubuntu/index.html</loc>
-</url>
-<url>
-<loc>https://boyinblue.github.io/009_upbit/index.html</loc>
-</url>
-<url>
-<loc>https://boyinblue.github.io/009_upbit/UPbit-API-daily-candle-query.html</loc>
-</url>
-<url>
-<loc>https://boyinblue.github.io/009_upbit/UPbit-Too-many-API-requests.html</loc>
-</url>
-<url>
-<loc>https://boyinblue.github.io/010_raspberry/001-not-running-on-RPi.html</loc>
-</url>
-<url>
-<loc>https://boyinblue.github.io/010_raspberry/002-rpi4-ir-receiver-ubuntu-21-10.html</loc>
-</url>
-<url>
-<loc>https://boyinblue.github.io/010_raspberry/003-rpi4-servo-motor-control.html</loc>
-</url>
-<url>
-<loc>https://boyinblue.github.io/010_raspberry/index.html</loc>
-</url>
-<url>
-<loc>https://boyinblue.github.io/011_opinet/001_opinet-key-acquire.html</loc>
-</url>
-<url>
-<loc>https://boyinblue.github.io/011_opinet/index.html</loc>
-</url>
-<url>
-<loc>https://boyinblue.github.io/012_c/001-2-dimension-array-pointer.html</loc>
-</url>
-<url>
-<loc>https://boyinblue.github.io/012_c/index.html</loc>
-</url>
-<url>
-<loc>https://boyinblue.github.io/013_wordpress/001-wordpress-xmlrpc-api.html</loc>
-</url>
-<url>
-<loc>https://boyinblue.github.io/013_wordpress/index.html</loc>
-</url>
-<url>
-<loc>https://boyinblue.github.io/021_markdown/001_markdown_table.html</loc>
-</url>
-<url>
-<loc>https://boyinblue.github.io/021_markdown/index.html</loc>
-</url>
-<url>
-<loc>https://boyinblue.github.io/022_firefox/001-firefox-SEC_ERROR_PKCS11_GENERAL_ERROR.html</loc>
-</url>
-<url>
-<loc>https://boyinblue.github.io/022_firefox/index.html</loc>
-</url>
-<url>
-<loc>https://boyinblue.github.io/900_english/2022-06-28-goodmorningsam_belle_how_to_politely_confront_your_roommate_kims_convenience.html</loc>
-</url>
-<url>
-<loc>https://boyinblue.github.io/900_english/2022-10-17-IMHN뜻.html</loc>
-</url>
+{% for post in site.posts %}
+ {% unless post.published == false %}
+ <url>
+   <loc>{{ site.url }}{{ post.url }}</loc>
+   {% if post.sitemap.lastmod %}
+     <lastmod>{{ post.sitemap.lastmod | date: "%Y-%m-%d" }}</lastmod>
+   {% elsif post.date %}
+     <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
+   {% else %}
+     <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+   {% endif %}
+   {% if post.sitemap.changefreq %}
+     <changefreq>{{ post.sitemap.changefreq }}</changefreq>
+   {% else %}
+     <changefreq>monthly</changefreq>
+   {% endif %}
+   {% if post.sitemap.priority %}
+     <priority>{{ post.sitemap.priority }}</priority>
+   {% else %}
+     <priority>0.5</priority>
+   {% endif %}
+ </url>
+ {% endunless %}
+{% endfor %}
 </urlset>
