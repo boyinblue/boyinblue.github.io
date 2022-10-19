@@ -3,8 +3,8 @@ set -e
 
 cwd=$(pwd)
 
-SITEMAP_FILE=("../sitemap.xml" "../sitemap.txt")
-SITEMAP_TMP_FILE=("${cwd}/tmp/sitemap.xml" "${cwd}/tmp/sitemap.txt")
+SITEMAP_FILE=("../sitemap2.xml" "../sitemap.txt")
+SITEMAP_TMP_FILE=("${cwd}/tmp/sitemap2.xml" "${cwd}/tmp/sitemap.txt")
 
 HOMEPAGE_URL="https://boyinblue.github.io"
 
