@@ -1,5 +1,7 @@
 ---
 layout: post-with-tag
+title: 테스트 페이지
+description: GitHub Pages의 Jekyll Liquid의 변수들을 확인하는 테스트 페이지입니다.
 category:
 - GitHub
 tags:
@@ -40,9 +42,7 @@ tags:
 |page.category|{{ page.category }}|  |
 |page.categories|{{ page.categories }}|  |
 |page.tags|{{ page.tags }}|  |
-|page||  |
-
-
-```
-{{ page }}
-```
+|page.dir|{{ page.dir }}|  |
+|page.name|{{ page.name }}|  |
+|page.path|{{ page.path }}|  |
+|page.content|생략|콘텐츠가 너무 많이 나옴|
