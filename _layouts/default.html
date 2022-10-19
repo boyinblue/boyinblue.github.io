@@ -36,6 +36,36 @@
         {% endfor %}
         </p>
 
+        <!-- page info -->
+        <p>
+        <table>
+          <tr>
+            <td>구분</td>
+            <td>내용</td>
+          </tr>
+          <tr>
+            <td>제목</td>
+            <td>{{ page.title }}</td>
+          </tr>
+          <tr>
+            <td>요약</td>
+            <td>{{ page.description }}</td>
+          </tr>
+          <tr>
+            <td>카테고리</td>
+            <td>{{ page.category }}</td>
+          </tr>
+          <tr>
+            <td>URL</td>
+            <td>{{ page.url }}</td>
+          </tr>
+          <tr>
+            <td>Permalink</td>
+            <td>{{ page.permalink }}</td>
+          </tr>
+        </table>
+        </p>
+
         <!-- category -->
         {% if page.category %}
           <p>
