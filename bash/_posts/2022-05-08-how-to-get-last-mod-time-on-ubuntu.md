@@ -1,6 +1,8 @@
 ---
 title: 파일의 마지막 수정 시간을 가져오는 방법(Ubuntu Bash)
+permalink: /005_bash/001.html
 description: Ubuntu Bash Shell에서 파일의 마지막 수정 시간을 가져오는 방법에 대해서 설명합니다.
+category: bash
 ---
 
 
@@ -110,16 +112,3 @@ date +"%m-%d-%YT%H:%M:%S%:z" -r test.php
 마지막으로 크롤링을 수행했던 시간과 해당 파일의 마지막 수정 시간을 비교한다. 
 그 결과 마지막 수정 시간 이후에 크롤링 이력이 있으면 해당 페이지는 크롤링하지 않을 것이고, 
 반대로 마지막 크롤링 시간 이후에 해당 파일이 수정되었다면 해당 페이지를 다시 크롤링 할 가능성이 크다.   
-
-
-
-
-[✔️  Bash](index.html 'Ubuntu Bash 스크립트 언어 관련 ')
----
-
-
-Ubuntu Bash 스크립트 언어 관련 내용을 정리합니다.
-
-
-[✏️ ](https://www.github.com/boyinblue/boyinblue.github.io/edit/main/005_bash/001.md '수정하기')
-

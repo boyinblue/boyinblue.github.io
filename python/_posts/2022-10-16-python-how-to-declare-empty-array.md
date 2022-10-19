@@ -1,6 +1,8 @@
 ---
 title: 파이썬 빈 배열 선언 방법
+permalink: /004_python/009-python-how-to-declare-empty-array.html
 description: 파이썬에서 빈 배열을 선언하는 방법에 대해서 설명합니다.
+category: python
 ---
 
 
@@ -157,22 +159,3 @@ for id in range(len(myList)):
 
 
 이상입니다. 
-
-
-
-[✔️  이전글 : 파이썬으로 워드프레스 글 자동 발행하기](008-python-wordpress-update.html '파이썬으로 워드프레스 글을 자동 발행하는 방법에 ')
----
-
-
-파이썬으로 워드프레스 글을 자동 발행하는 방법에 대해서 설명합니다.
-
-
-[✔️  이 카테고리 글 전체보기 : Python](index.html 'Python 언어에 대한 내용을 기록')
----
-
-
-Python 언어에 대한 내용을 기록하는 페이지입니다.
-
-
-[✏️ ](https://www.github.com/boyinblue/boyinblue.github.io/edit/main/004_python/009-python-how-to-declare-empty-array.md '수정하기')
-

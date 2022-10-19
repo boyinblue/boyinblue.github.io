@@ -1,6 +1,8 @@
 ---
 title: 파이썬 스크립트 실행시 No module named speech_recognition 에러가 발생했을 때 조치 방법
+permalink: /004_python/006-python-no-module-speech-recognition.html
 description: 파이썬 스크립트 실행시 No module named speech_recognition 이라는 에러가 발생했을 때 설치해야 하는 패키지명에 대해서 설명합니다. 
+category: python
 ---
 
 
@@ -69,28 +71,3 @@ sudo pip3 install SpeechRecognition
 
 
 이상입니다.
-
-
-[🔼 이전글 : 파이썬 홈디렉토리 파일 오픈 방법](005-python-cannot-read-home-directory.html '파이썬에서 홈 디렉토리의 파일을 오픈하는 방법에 ')
----
-
-
-파이썬에서 홈 디렉토리의 파일을 오픈하는 방법에 대해서 설명합니다.
-
-
-[⬅️ 이 카테고리 글 전체보기 : Python](index.html 'Python 언어에 대한 내용을 기록')
----
-
-
-Python 언어에 대한 내용을 기록하는 페이지입니다.
-
-
-[🔽 다음글 : 파이썬에서 MP3 파일 비동기 재생 방법 (playsound async)](007-python-playsound.html '파이썬에서 MP3 파일 재생 방법과 playsound를 통해 비동기 재생 방식에 ')
----
-
-
-파이썬에서 MP3 파일 재생 방법과 playsound를 통해 비동기 재생 방식에 대해서 설명합니다.
-
-
-[✏️ ](https://www.github.com/boyinblue/boyinblue.github.io/edit/main/004_python/006-python-no-module-speech-recognition.md '수정하기')
-
