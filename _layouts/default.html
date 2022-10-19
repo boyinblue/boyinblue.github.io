@@ -56,13 +56,27 @@
             <td>{{ page.category }}</td>
           </tr>
           <tr>
+            <td>디렉토리</td>
+            <td>{{ page.dir }}</td>
+          </tr>
+          <tr>
+            <td>파일명</td>
+            <td>{{ page.name }}</td>
+          </tr>
+          <tr>
+            <td>경로</td>
+            <td>{{ page.path }}</td>
+          </tr>
+          <tr>
             <td>URL</td>
             <td>{{ page.url }}</td>
           </tr>
+          {% if page.permalink %}
           <tr>
             <td>Permalink</td>
             <td>{{ page.permalink }}</td>
           </tr>
+          {% endif %}
         </table>
 
         <!-- category -->
