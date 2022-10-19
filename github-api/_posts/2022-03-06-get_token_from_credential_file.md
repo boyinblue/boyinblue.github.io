@@ -229,7 +229,7 @@ for line in lines:
 ```
 
 
-[예제 다운로드](004-get-token.py)
+[예제 다운로드](/test/python/004-get-token.py)
 
 
 위의 예제는 아래와 같은 순서로 구성되어 있습니다. 
