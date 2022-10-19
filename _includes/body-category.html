@@ -17,7 +17,7 @@
       {% capture this_word %}{{ cath_words[item] | strip_newlines }}{% endcapture %}
       <h2 id="{{ this_word | cgi_escape }}">{{ this_word }}</h2>
       <details>
-        <summary>{{ this_word | cgi_escape }} 카테고리 모든 글 보기}}</summary>
+              <summary><a href="#">{{ this_word | cgi_escape }} 카테고리 모든 글 보기</summary></a>
         <ul class="posts">
       {% for post in site.categories[this_word] %}
         {% if post.title != null %}
