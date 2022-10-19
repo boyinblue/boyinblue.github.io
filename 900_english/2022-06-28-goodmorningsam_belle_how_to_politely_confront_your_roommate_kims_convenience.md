@@ -1,5 +1,6 @@
 ---
 title: 굿모닝쌤 영어수업 (2022년 7월 22일)
+permalink: /900_english/001_goodmorningsam_belle_how_to_politely_confront_your_roommate_kims_convenience.html
 description: 2022년 7월 22일에 Belle 선생님과 진행한 수업 내용을 메모합니다.
 ---
 
