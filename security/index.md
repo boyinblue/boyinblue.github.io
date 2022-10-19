@@ -1,6 +1,6 @@
 ---
 title: IT 보안
-permalink: /020_securiy/index.html
+permalink: /020_security/index.html
 description: 각종 스캠 사례들을 공유합니다. 
 ---
 
