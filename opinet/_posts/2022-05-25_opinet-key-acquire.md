@@ -1,6 +1,8 @@
 ---
 title: 오피넷 유가정보 API 무료 토큰 획득하는 방법
+permalink: /001_opinet/001_opinet-key-acquire.html
 description: 대한석유공사가 운영중인 오피넷(Opinet)에서 제공하는 유가정보 API 토큰을 획득하는 방법에 대해서 설명합니다.
+category: opinet
 ---
 
 
@@ -147,7 +149,7 @@ API 요청이 정상적으로 처리되면 아래와 같은 응답이 옵니다.
 ---
 
 
-[오피넷 유가정보 API 메뉴얼](Opinet_API_Free.pdf)
+[오피넷 유가정보 API 메뉴얼](/assets/pdf/Opinet_API_Free.pdf)
 
 
 기타 다른 항목들은 위의 문서를 참고하시기 바랍니다. 
