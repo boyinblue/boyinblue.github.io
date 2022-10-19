@@ -1,5 +1,9 @@
 ---
 title: 색상 프로필을 만들려면 인증이 필요합니다.
+description: Need To Update
+---
+
+
 permalink: /008_ubuntu/010-ubuntu-xrdp-color-pkla.html
 description: XRDP 연결시 (색상 프로필을 만들려면 인증이 필요합니다.)라는 메시지가 반복적으로 표시될 경우 해결 방법
 category: ubuntu
@@ -59,3 +63,10 @@ $ sudo mv color.pkla /etc/polkit-1/localauthority/50-local.d/
 
 
 이상입니다
+
+
+[🔽 다음글 : 우분투 리눅스에서 NetworkManager로 IP 설정 방법](2022-05-11-ubuntu-network-manager-ip-setting.html '')
+---
+
+
+
