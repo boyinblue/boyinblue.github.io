@@ -1,6 +1,8 @@
 ---
 title: 워드프레스의 xmlrpc API 이용 방법
+permalink: /013_wordpress/001-wordpress-xmlrpc-api.html
 description: 워드프레스의 xmlrpc API를 이용하는 방법에 대해서 설명합니다.
+category: wordpress
 ---
 
 
@@ -128,17 +130,7 @@ Query를 전송한 URL을 다시 한번 살펴보시기 바랍니다.
 이상입니다. 
 
 
-
-
-
-
-
-[✔️  워드프레스 ](index.html '워드프레스에 대한 내용을 설명하')
----
+[✔️  워드프레스 ](index.html '워드프레스에 대한 내용을 설명하는 페이지입니다.')
 
 
 워드프레스에 대한 내용을 설명하는 페이지입니다. 
-
-
-[✏️ ](https://www.github.com/boyinblue/boyinblue.github.io/edit/main/013_wordpress/001-wordpress-xmlrpc-api.md '수정하기')
-
