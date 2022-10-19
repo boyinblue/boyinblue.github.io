@@ -40,3 +40,4 @@ tags:
 |page.category|{{ page.category }}|  |
 |page.categories|{{ page.categories }}|  |
 |page.tags|{{ page.tags }}|  |
+|page|{{ page }}|  |
