@@ -32,3 +32,16 @@ Display
 |내용 9|내용 10|내용 11|내용 12|
 
 
+
+
+
+
+[✔️  markdown 문법](index.html 'markdown 문법에 대해서 기록')
+---
+
+
+markdown 문법에 대해서 기록하는 페이지입니다.
+
+
+[✏️ ](https://www.github.com/boyinblue/boyinblue.github.io/edit/main/021_markdown/001_markdown_table.md '수정하기')
+

@@ -79,3 +79,9 @@ Ubuntu Linux 22.04에 USB-to-Serial 장치를 연결했지만 ttyUSB0 파일이 
 
 
 XRDP 연결시 (색상 프로필을 만들려면 인증이 필요합니다.)라는 메시지가 반복적으로 표시될 경우 해결 방법
+
+
+
+
+[✏️ ](https://www.github.com/boyinblue/boyinblue.github.io/edit/main/008_ubuntu/index.md '수정하기')
+

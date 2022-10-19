@@ -16,27 +16,94 @@
     <!-- HEADER -->
     <div id="header_wrap" class="outer">
         <header class="inner">
-          {% if site.github.is_project_page %}
-            <a id="forkme_banner" href="{{ site.github.repository_url }}">View on GitHub</a>
-          {% endif %}
-
-          <h3 id="project_title">{{ site.title | default: site.github.repository_name }}</h3>
+          <small id="project_title">{{ site.title | default: site.github.repository_name }}</small>
           <small id="project_tagline">{{ site.description | default: site.github.project_tagline }}</small>
-		  <a href="https://boyinblue.github.io">🏠</a>
-
-          {% if site.show_downloads %}
-            <section id="downloads">
-              <a class="zip_download_link" href="{{ site.github.zip_url }}">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="{{ site.github.tar_url }}">Download this project as a tar.gz file</a>
-            </section>
-          {% endif %}
+		  <a href="https://boyinblue.github.io" title="홈으로">🏠</a>
+          <a href="mailto:boyinblue@hanmail.net" title="이메일">📧</a>
+          <a href="{{ site.github.repository_url }}/edit/main/{{ page.path }}" title="수정">✏️</a>
         </header>
     </div>
 
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
+        <!-- content -->
         {{ content }}
+
+        <!-- page tags -->
+        <p>
+        {% for tag in page.tags %}
+        <a style="background-color: #0040ff; color: #fff; border-radius: 10px; padding: 3px 5px; font-size: 12px; font-weight: bold; text-decoration: none;" href="/tags/#{{ tag | cgi_escape }}">{{ tag }}</a>
+        {% endfor %}
+        </p>
+
+        <!-- page info -->
+        <small style="background-color: #f5a9f2; color: #000000; border-radius: 3px; padding: 3px 5px; font-size: 16px; font-weight: bold; text-decoration: none;"> 페이지 정보</small><br>
+        <table font-size=10px border=0>
+          <tr font-size=10px>
+            <td font-size=10px>구분</td>
+            <td>내용</td>
+          </tr>
+          <tr>
+            <td>제목</td>
+            <td>{{ page.title }}</td>
+          </tr>
+          <tr>
+            <td>요약</td>
+            <td>{{ page.description }}</td>
+          </tr>
+          <tr>
+            <td>카테고리</td>
+            <td>{{ page.category }}</td>
+          </tr>
+          <tr>
+            <td>디렉토리</td>
+            <td>{{ page.dir }}</td>
+          </tr>
+          <tr>
+            <td>파일명</td>
+            <td>{{ page.name }}</td>
+          </tr>
+          <tr>
+            <td>경로</td>
+            <td>{{ page.path }}</td>
+          </tr>
+          <tr>
+            <td>URL</td>
+            <td>{{ page.url }}</td>
+          </tr>
+          {% if page.permalink %}
+          <tr>
+            <td>Permalink</td>
+            <td>{{ page.permalink }}</td>
+          </tr>
+          {% endif %}
+        </table>
+
+        <!-- category -->
+        {% if page.category %}
+          <p date-ke-size="size10">
+          <small style="background-color: #f4d03f; color: #000000; border-radius: 3px; padding: 3px 5px; font-size: 16px; font-weight: bold; text-decoration: none;"> 카테고리 글 더보기 ('{{ page.category }}')</small><br>
+          {% assign cnt = 0 %}
+          {% for post in site.posts %}
+            {% if post.category == page.category %}
+              <a href="{{ post.url }}">[{{ post.date | date: "%Y-%m-%d" }}] {{ post.title }}</a><br>
+              {% assign cnt = cnt | plus:1 %}
+              {% if cnt >= 5 %}
+              {% break %}
+              {% endif %}
+            {% endif %}
+          {% endfor %}
+          </p>
+        {% endif %}
+
+        <!-- posts -->
+        <p>
+          <small style="background-color: #a9dfbf; color: #000000; border-radius: 3px; padding: 3px 5px; font-size: 16px; font-weight: bold; text-decoration: none;"> 블로글 글 더보기</small><br>
+          {% for post in site.posts limit:5 %}
+          <a href="{{ post.url }}">[{{ post.date | date: "%Y-%m-%d" }}] {{ post.title }}</a><br>
+          {% endfor %}
+        </p>
       </section>
     </div>
 
