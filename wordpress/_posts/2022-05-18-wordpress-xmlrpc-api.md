@@ -1,5 +1,9 @@
 ---
 title: 워드프레스의 xmlrpc API 이용 방법
+description: Need To Update
+---
+
+
 permalink: /013_wordpress/001-wordpress-xmlrpc-api.html
 description: Need To Update
 category: wordpress
