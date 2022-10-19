@@ -1,6 +1,8 @@
 ---
 title: 자바스크립트에서 2차원 배열 선언 및 사용 방법
+permalink: /007_javascript/001.html
 description: 자바 스크립트에서 2차원 배열의 선언을 지원하지는 않지만, 약간의 트릭을 이용하여 2차원 배열을 선언할 수 있는 방법을 설명합니다.
+category: Java Script
 ---
 
 
@@ -210,20 +212,6 @@ for (var i = 0; i < rows; i++)
 위의 스크립트를 수행하면 아래 화면과 같이 2차원 배열의 내용이 모두 출력됩니다.  
 
    
-![출력결과](001_javascript-2dims-array-example.png)
+![출력결과](/assets/images/001_javascript-2dims-array-example.png)
 
-
-
-
-
-
-
-[✔️  Java Script](index.html 'Java Script 언어에 대한 내용을 기')
----
-
-
-Java Script 언어에 대한 내용을 기록하고 설명합니다.
-
-
-[✏️ ](https://www.github.com/boyinblue/boyinblue.github.io/edit/main/007_javascript/001.md '수정하기')
 
