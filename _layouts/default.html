@@ -85,7 +85,7 @@
         <!-- category -->
         {% if page.category %}
           <p date-ke-size="size10">
-          <small style="background-color: #f4d03f; color: #000000; border-radius: 3px; padding: 3px 5px; font-size: 16px; font-weight: bold; text-decoration: none;"> 카테고리 글 더보기 ('{{ page.category }}')</small><br>
+          <small style="background-color: #f4d03f; color: #000000; border-radius: 3px; padding: 3px 5px; font-size: 16px; font-weight: bold; text-decoration: none;"> 카테고리 글 더보기 ({{ page.category }})</small><br>
           {% assign cnt = 0 %}
           {% for post in site.posts %}
             {% if post.category == page.category %}
@@ -97,11 +97,12 @@
             {% endif %}
           {% endfor %}
           </p>
+          <a style="background-color: #0040ff; color: #fff; border-radius: 10px; padding: 3px 5px; font-size: 12px; font-weight: bold; text-decoration: none;" href="/category/#{{ page.category | cgi_escape }}">카테고리 모든 글</a>
         {% endif %}
 
         <!-- posts -->
         <p>
-          <small style="background-color: #a9dfbf; color: #000000; border-radius: 3px; padding: 3px 5px; font-size: 16px; font-weight: bold; text-decoration: none;"> 블로글 글 더보기</small><br>
+          <small style="background-color: #a9dfbf; color: #000000; border-radius: 3px; padding: 3px 5px; font-size: 16px; font-weight: bold; text-decoration: none;"> 블로그 글 더보기</small><br>
           {% for post in site.posts limit:5 %}
           <a href="{{ post.url }}">[{{ post.date | date: "%Y-%m-%d" }}] {{ post.title }}</a><br>
           {% endfor %}
@@ -112,10 +113,7 @@
     <!-- FOOTER  -->
     <div id="footer_wrap" class="outer">
       <footer class="inner">
-        {% if site.github.is_project_page %}
-        <p class="copyright">{{ site.title | default: site.github.repository_name }} maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
-        {% endif %}
-        Published with <a href="https://pages.github.com">GitHub Pages</a>
+        Proudly Published with <a href="https://pages.github.com">GitHub Pages</a>
       </footer>
     </div>
   </body>
