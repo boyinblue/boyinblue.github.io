@@ -1,5 +1,6 @@
 ---
 title: GitHub 블로그를 네이버 서치 어드바이저에 등록 방법 (네이버 웹마스터 도구에 사이트 추가 방법) 
+permalink: /002_github_blog/003_naver_search_advisor.html
 description: 네이버 서치 어드바이저에 GitHub 블로그 등록 방법에 대해서 설명합니다.
 ---
 
@@ -59,7 +60,7 @@ naverXXXXXXXXXX.html 파일을 GitHub 블로그의 최상위 디렉토리에 올
 업로드한 파일에 접속되는 것을 확인하였다면 아래 사진과 같이 네이버 서치 어드바이저에 등록 완료된 것입니다. 
    
 
-![네이버 서치 어드바이저 등록 완료](003_naver_search_console_register.png "네이버 서치 어드바이저 등록 완료")
+![네이버 서치 어드바이저 등록 완료](/assets/images/003_naver_search_console_register.png "네이버 서치 어드바이저 등록 완료")
    
 
 네이버 서치 어드바이저에 등록 완료되었다고해서 네이버 검색 엔진에 노출된다는 보장은 없지만 

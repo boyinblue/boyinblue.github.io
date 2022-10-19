@@ -1,5 +1,6 @@
 ---
 title: GitHub Pages
+permalink: /002_github_blog/index.html
 description: 무료로 사용할 수 있는 정적 웹서버인 GitHub Pages 개설 및 운영 방법 설명
 category: github-pages
 tags:
