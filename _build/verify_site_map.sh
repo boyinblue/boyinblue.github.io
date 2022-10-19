@@ -8,10 +8,10 @@ declare -A array
 function verify_url
 {
   url="${1}"
-  echo "URL : ${url}" >> ${LOG_FILE}
   retval=$(curl ${url} | grep "잘못된 주소를 입력")
 
   if [ "${retval}" != "" ]; then
+    echo "URL : ${url}" >> ${LOG_FILE}
     echo "404 Error : ${retval}" >> ${LOG_FILE}
     return 0
   fi
