@@ -1,5 +1,6 @@
 ---
 title: Jenkins
+permalink: /003_jenkins/index.html
 description: 본 페이지는 GitHub와 Jenkins를 연동하여 빌드 자동화 및 테스트 자동화를 하는 방법과 팁을 설명합니다.
 ---
 
