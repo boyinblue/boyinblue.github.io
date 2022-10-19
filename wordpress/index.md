@@ -18,3 +18,7 @@ category: wordpress
 
 워드프레스의 xmlrpc API를 이용하는 방법에 대해서 설명합니다.
 
+
+
+[✏️ ](https://www.github.com/boyinblue/boyinblue.github.io/edit/main/wordpress/index.md '수정하기')
+
