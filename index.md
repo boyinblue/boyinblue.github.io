@@ -24,7 +24,6 @@ C, Bash, Python, Java, Java Script 등의 프로그래밍 언어 관련 내용�
 ---
 
 
-```
 /
 ├── [about]("/about")
 ├── [tags]("/tags")
@@ -33,7 +32,6 @@ C, Bash, Python, Java, Java Script 등의 프로그래밍 언어 관련 내용�
 │   └── [git 요청이 중단되었습니다.]("/014_git/001_git_TheRequstWasAborted_CouldNotCreateSSL_TLS_SecureChannel.html")
 │   └── ...)
 ...
-```
 
 
 [✔️ Git](014_git 'Git 명령에 대한 사용법과 트러블 슈팅 방법을 정리합니다.')

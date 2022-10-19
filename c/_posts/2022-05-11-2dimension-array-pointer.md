@@ -1,6 +1,8 @@
 ---
 title: C언어에서 2차원 배열 포인터 사용 방법
+permalink: /012_c/001-2-dimension-array-pointer.html
 description: C언어에서 2차원 배열 포인터를 사용하는 방법에 대해서 설명합니다.
+category: C
 ---
 
 
