@@ -1,6 +1,8 @@
 ---
 title: SEC_ERROR_PKCS11_GENERAL_ERROR 에러 발생시 조치 방법
+permalink: /022_firefox/001-firefox-SEC_ERROR_PKCS11_GENERAL_ERROR.html
 description: Firefox 웹브라우저에서 SEC_ERROR_PKCS11_GENERAL_ERROR 에러가 발생할 경우 조치하는 방법에 대해서 설명합니다.
+category: firefox
 ---
 
 
