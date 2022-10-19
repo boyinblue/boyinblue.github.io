@@ -8,16 +8,7 @@
   <body>
 
     <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a href="/"><small id="project_title">{{ site.title | default: site.github.repository_name }}</small></a>
-          <small id="project_tagline">{{ site.description | default: site.github.project_tagline }}</small>
-		  <a href="/" title="홈으로">🏠</a>
-          <a href="mailto:boyinblue@hanmail.net" title="이메일">📧</a>
-          <a href="/category" title="모든 카테고리 보기">📑</a>
-          <a href="{{ site.github.repository_url }}/edit/main/{{ page.path }}" title="수정">✏️</a>
-        </header>
-    </div>
+    {% include body-header.html %}
 
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
@@ -106,10 +97,6 @@
     </div>
 
     <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        Proudly Published with <a href="https://pages.github.com">GitHub Pages</a>
-      </footer>
-    </div>
+    {% include body-footer.html %}
   </body>
 </html>
