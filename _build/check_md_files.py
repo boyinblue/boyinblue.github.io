@@ -314,7 +314,7 @@ def iterate_directory(dir):
             continue
         elif os.path.isdir(path):
             add_link_to_index(path,"index.md")
-            check_md_file(path,"index.md")
+            #check_md_file(path,"index.md")
             iterate_directory(path)
             continue
         elif file == "index.md":
@@ -333,9 +333,9 @@ def iterate_directory(dir):
             next = files2[idx+1]
         path = "{}/{}".format(dir, file)
         yaml = get_yaml_header(path)
-        check_yaml_header(yaml, dir + "/" + file)
+        #check_yaml_header(yaml, dir + "/" + file)
         add_link_to_md(dir,file,prev,next)
-        check_md_file(dir,file)
+        #check_md_file(dir,file)
 
 def main():
     iterate_directory("..")
