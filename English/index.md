@@ -4,8 +4,6 @@ permalink: /900_english/index.html
 description: 영어 학습을 위한 페이지입니다. 
 category: English
 ---
-
-
 외국계 회사를 다니다보니 영어에 대한 필요성이 높습니다. 
 랭디, YBM 전화영어, 굿모닝쌤, 캐럿글로벌 등을 통해서 
 영어 실력을 키우기 위해 노력해왔습니다. 

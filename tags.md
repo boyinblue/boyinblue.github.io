@@ -2,16 +2,8 @@
 title: 테그들
 permalink: /tags/
 description: 이 사이트에서 제공하는 모든 테그들을 살펴봅니다.
+category: menu
 ---
-
-
-모든 테그들
-===
-
-
-본 페이지에서 제공하는 모든 테그들입니다. 
-
-
 {% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
 <!-- site_tags: {{ site_tags }} -->
 {% assign tag_words = site_tags | split:',' | sort %}
