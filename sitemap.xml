@@ -27,4 +27,16 @@ layout: null
  </url>
  {% endunless %}
 {% endfor %}
+ <url>
+  <loc>{{ site.url }}/about/</loc>
+ </url>
+ <url>
+  <loc>{{ site.url }}/category/</loc>
+ </url>
+ <url>
+  <loc>{{ site.url }}/tags/</loc>
+ </url>
+ <url>
+  <loc>{{ site.url }}/link/</loc>
+ </url>
 </urlset>
