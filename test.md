@@ -17,8 +17,12 @@ tags:
 |site.url|{{ site.url }}|  |
 |site.permalink|{{ page.permalink }}|  |
 |site.baseurl|{{ site.baseurl }}|  |
+
+
 |site.category|{{ site.category }}|  |
-|site.categories|{{ site.categories }}|  |
+|site.categories|{% for cate in site.categories %}{{ cate | first }}{% endfor %}|  |
+
+
 |site.tags|{% for tag in site.tags %}{{ tag | first }} {% endfor %}|  |
 |site.tag|{{ site.tag }}|  |
 |site.posts|생략|모든 포스트들이 나옴|
@@ -26,7 +30,7 @@ tags:
 
 |Variable|Value|Note|
 |---|---|---|
-{% for github in site.github %}|site.github.{{ github[0] }}|  |  |{% endfor %}
+{% for github in site.github %}|site.github.{{ github | first }}|  |  |{% endfor %}
 |site.github.repository_url|{{ site.github.repository_url }}|  |
 
 
