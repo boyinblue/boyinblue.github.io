@@ -1,22 +1,17 @@
 ---
 title: 무료 도메인 네임 및 무료 웹서버 추천 (GitHub 블로그 개설 방법 및 장점)
 permalink: /002_github_blog/001_advantage_of_github_blog.html
-description: 본 페이지에서는 무료 웹서버로 활용할 수 있는 GitHub 블로그(GitHub Pages)에 대해서 소개하고자 합니다.
+description: 무료 웹서버로 활용할 수 있는 GitHub 블로그(GitHub Pages)를 소개합니다.
 category: github-pages
 ---
-
-
-무료 도메인 네임 및 무료 웹서버 추천 (GitHub 블로그 개설 방법 및 장점) 
 ===
-   
+GitHub Pages는 네이버 블로그, 티스토리 블로그 등의 단점을 보완할 수 있는 매력적인 블로그 서비스입니다.   
 
-본 페이지에서는 무료 웹서버로 활용할 수 있는 GitHub 블로그(GitHub Pages)에 대해서 소개하고자 합니다. 
-기존의 네이버 블로그, 티스토리 블로그 등의 단점을 보완할 수 있는 매력적인 블로그 서비스입니다.   
-   
 
-왜 GitHub Blog가 훌륭한가?   
+GitHub Blog 장점
 ---
    
+
 그동안 네이버 블로그, 티스토리 블로그 등을 통해서 블로그를 운영해왔습니다. 
 우리가 흔히 접할 수 있는 이런 블로그 서비스들은 장점도 많지만 단점도 있습니다. 
 네이버 블로그와 티스토리 블로그의 단점들을 보완하기 위해서 여러가지 많은 고민들을 했습니다. 

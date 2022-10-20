@@ -1,20 +1,9 @@
 ---
-title: Git 요청이 중단되었습니다. SSL\/TLS 보안 채널을 만들 수 없습니다. (Visual Studio Code \/ Git 2.37.3)
+title: Git 요청이 중단되었습니다. SSL TLS 보안 채널을 만들 수 없습니다. (Visual Studio Code, Git 2.37.3)
 permalink: /014_git/001_git_TheRequstWasAborted_CouldNotCreateSSL_TLS_SecureChannel.html
 description: Visual Studio Code에서 Git에 접근시에 요청이 중단되었습니다. SSL/TLS 보안 채널을 만들 수 없습니다. 에러가 발생할 때 조치하는 방법에 대해서 설명합니다.
 tags: Git
 ---
-
-
-[Git] 요청이 중단되었습니다. SSL/TLS 보안 채널을 만들 수 없습니다. (VS Code)
-===
-
-
-본 페이지에서는 Visual Studio Code에서 Git에 접근시에 
-"요청이 중단되었습니다. SSL/TLS 보안 채널을 만들 수 없습니다."
-라는 에러가 발생할 경우 조치하는 방법에 대해서 설명합니다. 
-
-
 문제 발생 환경
 ---
 
@@ -66,14 +55,3 @@ Visual Studio Code 터미널이 아닌 PowerShell에서
 
 
 이상입니다. 
-
-
-
-
-
-
-[✔️  Git ](index.html 'Git 명령에 대한 사용법과 트러블 슈팅 방')
----
-
-
-Git 명령에 대한 사용법과 트러블 슈팅 방법을 정리합니다. 

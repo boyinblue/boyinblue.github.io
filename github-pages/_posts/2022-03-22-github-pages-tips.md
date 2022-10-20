@@ -4,12 +4,6 @@ permalink: /002_github_blog/008.html
 description: GitHub Pages를 운영하면서 체득한 유용한 팁들을 제공합니다.
 category: github-pages
 ---
-
-
-GitHub Pages 운영시의 꿀팁들
-===
-
-
 GitHub Pages를 이용해서 웹페이지를 운영하기 시작한지 2주가 좀 지났습니다. 
 처음에는 전혀 개념을 잡지 못해서 제법 시간과 노력이 필요했습니다. 
 GitHub에는 익숙한 SW 개발자이지만 jekyll이 어떻게 빌드되고 웹페이지가 생성되는지 파악하는데 제법 시간이 소요되었습니다. 

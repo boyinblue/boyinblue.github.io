@@ -4,12 +4,6 @@ permalink: /002_github_blog/012-github-pages-css-file-path.html
 description: GitHub Pages에서 css를 변경하고자 할 때 편집해야하는 css 파일 위치에 대해서 설명합니다.
 category: github-pages
 ---
-
-
-GitHub Pages에서 css 파일 위치
-===
-
-
 GitHub Pages를 개설한지도 3주 가까이 되어가는 것 같습니다. 
 어떠한 배경 지식도 없이 GitHub Pages를 이용하면 
 무료로 웹서버를 운영할 수 있다는 메리트 하나만으로 시작했습니다. 

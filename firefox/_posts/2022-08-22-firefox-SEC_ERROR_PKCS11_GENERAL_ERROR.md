@@ -2,15 +2,11 @@
 title: SEC_ERROR_PKCS11_GENERAL_ERROR 에러 발생시 조치 방법
 permalink: /022_firefox/001-firefox-SEC_ERROR_PKCS11_GENERAL_ERROR.html
 description: Firefox 웹브라우저에서 SEC_ERROR_PKCS11_GENERAL_ERROR 에러가 발생할 경우 조치하는 방법에 대해서 설명합니다.
+thumb_name: SEC_ERROR_PKCS11_GENERAL_ERROR
+thumb_url: https://user-images.githubusercontent.com/    50429025/185848984-01adfb6f-1c44-4de6-8b16-6174ed31d90e.jpg
 category: firefox
 ---
-
-
 ![SEC_ERROR_PKCS11_GENERAL_ERROR](https://user-images.githubusercontent.com/50429025/185848984-01adfb6f-1c44-4de6-8b16-6174ed31d90e.jpg)
-
-
-SEC_ERROR_PKCS11_GENERAL_ERROR 에러 발생시 조치 방법
-===
 
 
 사무실에서 사용하는 Note PC의 웹브라우저로 사내 인트라넷을 접속해보면 "SEC_ERROR_PKCS11_GENERAL_ERROR"라는 에러가 지속적으로 발생하기 시작했습니다. Microsoft Edge, Chrome, Firefox 등을 사용하고 있는데 Chrome은 괜찮은데 유독 Microsoft Edge와 Firefox에서만 접속 장애가 발생하더군요. 
@@ -93,21 +89,3 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Mozilla\Firefox\Preferences 디렉토리에
 
 
 [SEC_ERROR_PKCS11_GENERAL_ERROR error with Firefox entreprise strategy #891 ](https://github.com/orange-cloudfoundry/paas-templates/issues/891)
-
-
-
-
-
-
-
-
-
-[✔️  Firefox](index.html 'Firefox에 대한 내용을 기록하는')
----
-
-
-Firefox에 대한 내용을 기록하는 카테고리입니다. 
-
-
-[✏️ ](https://www.github.com/boyinblue/boyinblue.github.io/edit/main/022_firefox/001-firefox-SEC_ERROR_PKCS11_GENERAL_ERROR.md '수정하기')
-

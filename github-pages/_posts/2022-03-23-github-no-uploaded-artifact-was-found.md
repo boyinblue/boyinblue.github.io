@@ -4,12 +4,6 @@ permalink: /002_github_blog/010-github-no-uploaded-artifact-was-found.html
 description: 'GitHub Pages에서 빌드 에러가 발생시에 조치하는 방법에 대해서 설명합니다.'
 category: github-pages
 ---
-
-
-GitHub Pages 빌드 에러
-===
-
-
 최근에 GitHub Pages를 이용해서 웹페이지를 구성하였고, 
 글쓰기의 재미에 푹 빠져있습니다. 
 GitHub Pages는 무척 흥미로운 무료 웹서버로 참 매력적인 서비스임에 틀림없습니다. 

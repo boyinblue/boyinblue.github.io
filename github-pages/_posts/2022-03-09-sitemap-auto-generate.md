@@ -4,12 +4,6 @@ permalink: /002_github_blog/007.html
 description: 사이트맵을 자동으로 생성하는 bash 스크립트 예제를 제공합니다.
 category: github-pages
 ---
-
-
-[GitHub Pages] 사이트맵을 자동으로 생성해주는 bash 스크립트
-===
-
-
 최근 GitHub Pages를 접하게 되면서 신선한 충격을 받았습니다. 
 기존의 네이버 블로그와 티스토리를 운영하면서 느꼈던 제약에서 벗어나 
 좀 더 자유롭게 블로그를 운영할 수 있어서 참 만족스럽습니다.   

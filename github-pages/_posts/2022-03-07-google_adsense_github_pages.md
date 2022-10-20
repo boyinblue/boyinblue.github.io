@@ -4,12 +4,6 @@ permalink: /002_github_blog/004_google_adsense_github_pages.html
 description: GitHub Pages에 구글 애드센스 스크립트를 삽입하는 위치를 설명합니다.
 category: github-pages
 ---
-
-
-GitHub 블로그에 구글 애드센스 스크립트 삽입하는 방법 및 삽입 위치
-===
-   
-
 무료 웹서버로 활용할 수 있는 GitHub Pages에 블로그를 개설했다면 각종 검색엔진에 사이트를 등록하여 검색으로 인한 유입량을 늘려야 하겠지요. 
 더불어, 구글 애드센스를 연동하면 소소하지만 수익을 얻을 수도 있습니다. 
 티스토리와 같은 블로그는 직접 스킨을 편집할 수 있는 기능이 있지만, 

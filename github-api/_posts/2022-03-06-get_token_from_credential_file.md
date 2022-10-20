@@ -4,12 +4,6 @@ permalink: /001_github_api/002_get_token_from_credential_file.html
 category: github-api
 description: Bash 쉘 스크립트 및 파이썬 스크립트를 이용하여 GitHub 토큰를 파싱하는 방법을 설명합니다.
 ---
-
-
-[GitHub API] .git-credentials 파일로부터 id와 token을 안전하게 파싱하는 방법
-===
-   
-
 GitHub API를 사용하기 위해서는 인증 과정이 필요합니다. 
 깃헙에서 토큰을 발급받아서 서버와 통신하는 방식은 SW 개발자들 사이에서 널리 사용되고 있습니다. 
 credential을 저장할 수 있도록 설정해두면 ID와 token을 매번 입력하지 않아도 되어 편리합니다. 

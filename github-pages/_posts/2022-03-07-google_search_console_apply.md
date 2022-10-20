@@ -1,15 +1,9 @@
 ---
-title: GitHub Pages에서 구글 서치 콘솔 등록 방법 아주 쉽다 (사이트 소유권 확인 방법)
+title: GitHub Pages에 구글 서치 콘솔 등록 방법 아주 쉽다 (사이트 소유권 확인 방법)
 permalink: /002_github_blog/002_google_search_console_apply.html
 description: GitHub 블로그에 구글 서치 콘솔을 등록하는 방법에 대해서 설명합니다.
 category: github-pages
 ---
-
-
-GitHub Pages에 구글 서치 콘솔 등록 방법 아주 쉽다 (사이트 소유권 확인 방법)
-===
-   
-
 저는 네이버 블로그와 티스토리 블로그를 오랫동안 운영해왔습니다. 
 최근에 아주 매력적인 GitHub 블로그(정확한 명칭은 GitHub Pages)를 발견하였고 매료되었습니다. 
 정확히 명칭은 GitHub Pages 입니다만, 국내에서는 GitHub 블로그로 편의상 불려지고 있습니다.   

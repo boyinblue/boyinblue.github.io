@@ -4,12 +4,6 @@ permalink: /001_github_api/
 description: GitHub API 사용 방법 및 관련 팁을 제공합니다.
 category: github-api
 ---
-
-
-GitHub API
-===
-
-
 많은 SW 개발자들이 깃헙(GitHub)을 사용하고 있습니다. 
 GitHub는 훌륭한 형상관리 시스템임에 틀림없습니다. 
 

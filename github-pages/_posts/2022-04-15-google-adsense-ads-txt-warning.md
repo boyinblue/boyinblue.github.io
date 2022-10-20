@@ -4,15 +4,6 @@ permalink: /002_github_blog/014-google-adsense-ads-txt-warning.html
 description: 구글 애드센스에서 ads.txt 파일에 문제가 있을 경우 조치 방법
 category: github-pages
 ---
-
-
-구글 애드센스 ads.txt 문제 해결 방법
-===
-
-
-구글 애드센스에서 ads.txt 파일에 문제가 있을 경우 조치 방법
-
-
 GitHub Pages에서 ads.txt 파일 생성이 필요한 이유
 ---
 
