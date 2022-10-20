@@ -28,24 +28,23 @@ C, Bash, Python, Java, Java Script 등의 프로그래밍 언어 관련 내용�
 사이트는 아래와 같은 구조로 되어 있습니다. 
 
 
-<p>
-[/](/)
-├── [about](/about) 웹사이트 및 저자 소개
-├── [category](/category) 모든 카테고리 열람
-├── [tags](/tags) 모든 테그 열람
-├── [link](/link) 자주 가는 페이지
+<pre>
+/
+├── about/ 웹사이트 및 저자 소개
+├── category/ 모든 카테고리 열람
+├── tags/ 모든 테그 열람
+├── link/ 자주 가는 페이지
 │
-├── [git](/014_git) git 카테고리
-│   └── [git 요청이 중단되었습니다.](/014_git/001_git_TheRequstWasAborted_CouldNotCreateSSL_TLS_SecureChannel.html)
-│   └── ...)
-...
-</p>
+├── 카테고리들
+├── ...
+</pre>
 
 
 [✔️ Git](014_git 'Git 명령에 대한 사용법과 트러블 슈팅 방법을 정리합니다.')
 
 
 Git 명령에 대한 사용법과 트러블 슈팅 방법을 정리합니다. 
+
 
 [✔️ GitHub API](001_github_api/index.html 'GitHub API 사용 방법 및 관련 팁을 제공합니다.')
 
