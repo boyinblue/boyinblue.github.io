@@ -2,6 +2,7 @@
 title: 영어 공부
 permalink: /900_english/index.html
 description: 영어 학습을 위한 페이지입니다. 
+category: English
 ---
 
 
