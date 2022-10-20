@@ -20,7 +20,8 @@ tags:
 
 
 |site.category|{{ site.category }}|  |
-|site.categories|{% for cate in site.categories %}{{ cate | first }}{% endfor %}|  |
+|site.categories|{% for cate in site.categories %}{{ cate | first }} {% endfor %}|  |
+|site.categories[diary]|{{ site.categories[diary] }}|  |
 
 
 |site.tags|{% for tag in site.tags %}{{ tag | first }} {% endfor %}|  |
