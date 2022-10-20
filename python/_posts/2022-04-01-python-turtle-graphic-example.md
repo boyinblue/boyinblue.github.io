@@ -4,12 +4,6 @@ permalink: /004_python/003-python-turtle-graphic-example.html
 description: 파이썬 터틀 그래픽을 이용해서 원, 삼각형, 사각형, 입체 모양의 별, 꽃, 바퀴 등의 재미있는 모양을 그려보는 예제를 제공합니다.
 category: python
 ---
-
-
-파이썬 터틀 그래픽 재미있는 모양 예제
-===
-
-
 저희 첫째 아들과 파이썬 터틀그래픽으로 재미있는 모양들을 그려보면서 
 즐거운 시간을 보냈습니다. 
 

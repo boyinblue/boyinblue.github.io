@@ -4,15 +4,6 @@ permalink: /004_python/007-python-playsound.html
 description: 파이썬에서 MP3 파일 재생 방법과 playsound를 통해 비동기 재생 방식에 대해서 설명합니다.
 category: python
 ---
-
-
-파이썬에서 MP3 파일 비동기 재생 방법 (playsound async)
-===
-
-
-파이썬에서 MP3 파일 재생 방법과 playsound를 통해 비동기 재생 방식에 대해서 설명합니다. 
-
-
 ### playsound 패키지
 
 

@@ -2,15 +2,6 @@
 title: mySQL 기본 명령어 정리
 description: mySQL 기본적인 명령어를 기록해두는 페이지입니다.
 ---
-
-
-mySQL 기본 명령어 정리
-===
-
-
-mySQL 기본적인 명령어를 기록해두는 페이지입니다.
-
-
 ### mySQL 설치 방법
 
 
@@ -268,6 +259,3 @@ mysql> select user_login, user_email from wp_users;
 
 
 <code>quit;</code> 명령을 입력하면 mySQL 콘솔을 종료시킬 수 있습니다. 
-
-
-

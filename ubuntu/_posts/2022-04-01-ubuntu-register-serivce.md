@@ -4,12 +4,6 @@ permalink: /008_ubuntu/006-ubuntu-register-serivce.html
 description: 우분투 리눅스에 python 스크립트를 서비스로 등록하는 방법
 category: ubuntu
 ---
-
-
-우분투 리눅스에 서비스 등록하는 방법
-===
-
-
 우분투 리눅스가 시작되자마자 특정 프로그램 또는 스크립트가 
 수행되도록 하는 방법은 여러가지가 있다. 
 

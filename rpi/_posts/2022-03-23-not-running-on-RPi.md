@@ -1,15 +1,9 @@
 ---
-title: '라즈베리파이로 GPIO 제어시 \"RuntimeError: Not running on a RPi!\" 문제 해결 방법 (3가지)'
+title: '라즈베리파이로 GPIO 제어시 RuntimeError: Not running on a RPi 문제 해결 방법 3가지'
 permalink: 010_raspberry/001-not-running-on-RPi.html
-description: '파이선으로 작성한 GPIO 제어 스크립트가 "RuntimeError: Not running on a RPi!"라는 메시지와 함께 수행되지 못하는 문제를 해결하는 방법에 대해서 설명합니다.'
+description: 파이선으로 작성한 GPIO 제어 스크립트가 RuntimeError Not running on a RPi라는 메시지와 함께 수행되지 못하는 문제를 해결하는 방법 설명
 category: rpi
 ---
-
-
-라즈베리파이로 GPIO 제어시 "RuntimeError: Not running on a RPi!" 문제 해결 방법 (3가지)
-===
-
-
 라즈베리파이로 가장 먼저 손쉽게 제어할 수 있는 것이 바로 GPIO 블록입니다. 
 그 중에서도 GPO를 통해서 신호를 출력하는 방법은 단 몇 줄이면 충분합니다. 
 아주 간단하게 LED를 켜거나 끌 수 있습니다.   
@@ -65,33 +59,3 @@ $ sudo python3 gpio_control.py
 
 
 본 페이지에서는 라즈베리파이에서 "RuntimeError: Not running on a RPi!" 에러가 발생했을 때 조치할 수 있는 3가지 방법에 대해서 알아보았습니다.
-
-
-
-
-
-
-
-[✔️  라즈베리파이4B에서 리모컨 입력 받아서 처리하는 방법 (Ubuntu 21.10)](002-rpi4-ir-receiver-ubuntu-21-10.html '라즈베리파이4B에서 리모컨 입력 받아서 처리하는 방법 (Ubu')
----
-
-
-라즈베리파이4B에서 리모컨 입력 받아서 처리하는 방법 (Ubuntu 21.10)
-
-
-[✔️  마이크로 서보 9G 모터 핀 번호 (라즈베리파이4B 서보 모터 제어 방법)](003-rpi4-servo-motor-control.html '마이크로 서보 9G 모터 핀 번호 및 라즈베리파이4B에서 서보 모')
----
-
-
-마이크로 서보 9G 모터 핀 번호 및 라즈베리파이4B에서 서보 모터 제어 방법 설명
-
-
-[✔️  Raspberry Pi](index.html '초소형 미니 컴퓨터인 라즈베리파이 관련 연구 ')
----
-
-
-초소형 미니 컴퓨터인 라즈베리파이 관련 연구 내용을 정리합니다.
-
-
-[✏️ ](https://www.github.com/boyinblue/boyinblue.github.io/edit/main/010_raspberry/001-not-running-on-RPi.md '수정하기')
-

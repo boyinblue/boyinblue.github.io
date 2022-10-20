@@ -4,12 +4,6 @@ permalink: /008_ubuntu/001.html
 description: ssmtp 패키지를 이용하여 이메일을 전송하는 방법에 대해서 설명합니다.
 category: ubuntu
 ---
-
-
-Ubuntu Linux에서 ssmtp로 이메일 전송하는 초간단 방법 (이메일 전송 자동화)
-===
-
-   
 많은 개발자들이 오해하고 있는 것이 있다. 
 리눅스에서 메일을 송신하려면 SMTP 서버를 구축해야 되는지 말이다. 
 구글에서 "Ubuntu 리눅스에서 메일을 보내는 방법"을 검색해보면 SMTP부터 구성하도록 작성된 글들이 많다. 

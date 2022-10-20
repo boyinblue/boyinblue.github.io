@@ -4,12 +4,6 @@ permalink: /004_python/index.html
 description: Python 언어에 대한 내용을 기록하는 페이지입니다.
 categpry: python
 ---
-
-
-Python
-===
-
-
 [✔️ OpenCV를 이용하여 이미지를 출력하는 방법과 캠을 동작시키는 방법](001.html 'OpenCV를 이용해서 이미지를 출력하는 방법과 실시간으로 캠 영상을 표시하는 방법에 대해서 설명합니다.  ')
 
 

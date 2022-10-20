@@ -4,12 +4,6 @@ permalink: /004_python/004-python-vim-setting.html
 description: vim을 이용하여 파이썬 스크립트 편집시에 띄워쓰기 설정 방법
 category: python
 ---
-
-
-파이썬 vim 띄워쓰기 설정 방법
-===
-
-
 파이썬은 띄워쓰기에 아주 민감한 프로그래밍 언어이다. 
 이 페이지에서는 vim을 이용하여 파이썬 스크립트를 작성할 때 
 띄워쓰기 오류를 줄이기 위한 설정 방법을 제공한다. 

@@ -4,15 +4,6 @@ permalink: /004_python/009-python-how-to-declare-empty-array.html
 description: 파이썬에서 빈 배열을 선언하는 방법에 대해서 설명합니다.
 category: python
 ---
-
-
-파이썬 빈 배열 선언 방법
-===
-
-
-파이썬에서 빈 배열을 선언하는 방법에 대해서 설명합니다. 
-
-
 SW 개발자들은 평생 배워야 합니다. 
 C, Bash Script, Python, PHP 등의 다양한 언어를 사용하다보면 
 서로 다른 프로그래밍 문법을 혼동해서 사용하는 경우가 있습니다. 

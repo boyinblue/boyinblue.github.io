@@ -1,15 +1,9 @@
 ---
-title: 업비트 API 호출시에 "Too many API requests." 문제 해결 방법 3가지
+title: 업비트 API 호출시에 Too many API requests. 문제 해결 방법 3가지
 permalink: /009_upbit/UPbit-Too-many-API-requests.html
-description: 업비트 API 호출시에 "Too many API requests." 문제 발생시에 해결 방법에 대해서 설명합니다.
+description: 업비트 API 호출시에 Too many API requests. 문제 발생시에 해결 방법에 대해서 설명합니다.
 category: upbit
 ---
-
-
-업비트 API 호출시에 "Too many API requests." 문제 해결 방법
-===
-
-
 이 페이지를 검색해서 열람하시는 분들이라면 
 API와 업비트의 Open API에 대해서 익숙하신 분들이시겠지요. 
 

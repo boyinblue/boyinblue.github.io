@@ -4,16 +4,6 @@ description: mySQL에 대해서 기록하는 페이지입니다.
 ---
 
 
-mySQL
-===
-
-
-mySQL에 대해서 기록하는 페이지입니다. 
-
-
-
-
-
 [mySQL 기본 명령어 정리](001-mysql-basic-query.html 'mySQL 기본적인 명령어를 기록해두는 페이지입니다.')
 ---
 

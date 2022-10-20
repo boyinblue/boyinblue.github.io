@@ -4,12 +4,6 @@ permalink: /008_ubuntu/index.html
 description: Ubuntu Linux에 대한 내용을 기록합니다.
 category: ubuntu
 ---
-
-
-Ubuntu Linux
-===
-
-
 [✔️ Ubuntu Linux에서 ssmtp로 이메일 전송하는 초간단 방법 (이메일 전송 자동화)](001.html 'ssmtp 패키지를 이용하여 이메일을 전송하는 방법에 대해서 설명합니다.')
 
 
@@ -68,7 +62,4 @@ Ubuntu Linux 22.04에 USB-to-Serial 장치를 연결했지만 ttyUSB0 파일이 
 
 
 XRDP 연결시 (색상 프로필을 만들려면 인증이 필요합니다.)라는 메시지가 반복적으로 표시될 경우 해결 방법
-
-
-[✏️ ](https://www.github.com/boyinblue/boyinblue.github.io/edit/main/ubuntu/index.md '수정하기')
 

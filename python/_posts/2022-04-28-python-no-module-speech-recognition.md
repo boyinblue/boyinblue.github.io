@@ -4,8 +4,6 @@ permalink: /004_python/006-python-no-module-speech-recognition.html
 description: 파이썬 스크립트 실행시 No module named speech_recognition 이라는 에러가 발생했을 때 설치해야 하는 패키지명에 대해서 설명합니다. 
 category: python
 ---
-
-
 ### 문제의 상황
 
 

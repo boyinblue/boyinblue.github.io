@@ -4,12 +4,6 @@ permalink: /008_ubuntu/002.html
 description: Ubuntu Linux 쉘에서 공인 IP를 확인하는 방법을 설명합니다. 
 category: ubuntu
 ---
-
-
-공인 IP를 확인하는 방법(Windows, Ubuntu Linux 공통)
-===
-
-   
 네트워크에 대해서 잘 모르는 학부생 시절에 사설IP와 공인IP의 차이점에 대해서 잘 알지 못했다. 
 학부생 시절 여름방학에 게임을 만드는 한 업체에서 현장실습을 할 기회가 있었는데, 
 거기에서 공인IP와 사설IP의 차이점에 대해서 알 수 있었다.   

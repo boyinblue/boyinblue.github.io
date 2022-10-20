@@ -1,19 +1,9 @@
 ---
 title: 업비트 API를 이용하여 일단위 캔들 조회 방법
-description: Need To Update
----
-
-
 permalink: /009_upbit/UPbit-API-daily-candle-query.md
-description: 업비트에서 제공하는 Open API를 통해서 일단위 캔들을 조회하는 방법에 대해서 설명합니다.
+description: 업비트에서 제공하는 Open API를 통해서 일단위 캔들을 조회하는 방법 설명
 category: upbit
 ---
-
-
-업비트 API를 이용하여 일단위 캔들 조회 방법
-===
-
-
 기존 증권사의 API에 비해서 UPbit의 Open API는 아주 편리하게 되어 있습니다. 
 캔들 조회는 토큰이 없어도 가능할 뿐만 아니라, 
 JavaScript, Python, Ruby, Java 등 다양한 프로그래밍 언어를 이용해서 응용프로그램을 작성할 수 있도록 다양한 예제가 제공됩니다. 
@@ -139,19 +129,3 @@ curl –-request GET \
 
 curl 명령을 통한 시세 조회 (python)
 ---
-
-
-[✔️  업비트 API 호출시에 "Too many API requests." 문제 해결 방법 3가지](UPbit-Too-many-API-requests.html '업비트 API 호출시에 "Too many API requests." 문제 발생시에 해결 방법에 ')
-
-
-업비트 API 호출시에 "Too many API requests." 문제 발생시에 해결 방법에 대해서 설명합니다.
-
-
-[✔️  UPbit API](index.html '업비트에서 제공하는 API를 통해 암호화폐의 시장 상황을 모니터링하고 나아가 자동으로 거래를 할 수 있는 자동화 시스템을 구축하는')
-
-
-업비트에서 제공하는 API를 통해 암호화폐의 시장 상황을 모니터링하고 나아가 자동으로 거래를 할 수 있는 자동화 시스템을 구축하는 것이 목표입니다.
-
-
-[✏️ ](https://www.github.com/boyinblue/boyinblue.github.io/edit/main/upbit/_posts/2022-03-23-UPbit-API-daily-candle-query.md '수정하기')
-
