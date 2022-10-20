@@ -3,13 +3,8 @@ title: Jenkins Hook이 제대로 전달되지 못하는 경우 해결 방법 (Gi
 permalink: /003_jenkins/001.html
 description: Jenkins에서 GitHub Pull Request Builder가 역방향 프록시 설정 오류 메시지가 발생하면서 빌드되지 않는 오류를 해결하는 방법에 대해서 설명합니다. 
 ---
-
-
-Jenkins Hook이 제대로 전달되지 못하는 경우 해결 방법 (GitHub Pull Request Builder 오류 및 역방향 프록시 설정 오류)
-===
-   
-
-본 페이지에서는 GitHub에서 Jenkins로 전송되는 Hook에 의해서 GitHub Pull Request Builder가 제대로 트리거되지 못하는 문제를 해결하는 방법에 대해서 기술합니다. 
+GitHub와 Jenkins를 연동해두면, GitHub에 Pull Request가 등록되면 자동으로 Jenkins쪽에 Hook이 전달됩니다. 
+GitHub Pull Request Builder가 제대로 트리거되지 못하는 문제가 발생했습니다. 
 Jenkins의 GitHub Pull Request Builder가 제대로 시작되지 못하는 원인은 여러가지가 있겠습니다만, 
 그 중에서도 특별히 Jenkins 서버의 주소 설정이 올바르지 않아서 "역방향 프록시 설정 오류" 에러가 뜨는 상태의 문제에 대해서 기술하고자 합니다.    
 
@@ -64,16 +59,4 @@ Pull Requester Build가 동작하지 않는 문제가 깔끔하게 해결되었�
 만약 URL 주소가 <code>http://localhost:8080/</code>으로 되어 있는 경우에도 
 역방향 프록시 오류를 유발할 수 있으므로 
 반드시 Jenkins 서버의 URL을 올바르게 입력해주시기 바랍니다. 
-
-
-
-
-[✔️  Jenkins](index.html '본 페이지는 GitHub와 Jenkins를 연동하여 빌드 자동화 및 테스트 자동화를 하는 방법과')
----
-
-
-본 페이지는 GitHub와 Jenkins를 연동하여 빌드 자동화 및 테스트 자동화를 하는 방법과 팁을 설명합니다.
-
-
-[✏️ ](https://www.github.com/boyinblue/boyinblue.github.io/edit/main/003_jenkins/001.md '수정하기')
 

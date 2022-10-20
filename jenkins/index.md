@@ -1,14 +1,8 @@
 ---
 title: Jenkins
 permalink: /003_jenkins/index.html
-description: 본 페이지는 GitHub와 Jenkins를 연동하여 빌드 자동화 및 테스트 자동화를 하는 방법과 팁을 설명합니다.
+description: GitHub와 Jenkins를 연동하여 빌드 자동화 및 테스트 자동화를 하는 방법과 팁을 설명합니다.
 ---
-
-
-Jenkins
-===
-
-
 GitHub와 Jenkins를 연동하여 빌드 자동화, 테스트 자동화, 릴리즈 자동화를 구축하면, SW 개발자의 시간과 노력을 현저하게 절감할 수 있습니다. 
 
 
@@ -26,9 +20,3 @@ Jenkins는 자동으로 일련의 과정을 수행하고 그 결과를
 
 
 Jenkins에서 GitHub Pull Request Builder가 역방향 프록시 설정 오류 메시지가 발생하면서 빌드되지 않는 오류를 해결하는 방법에 대해서 설명합니다. 
-
-
-
-
-[✏️ ](https://www.github.com/boyinblue/boyinblue.github.io/edit/main/003_jenkins/index.md '수정하기')
-
