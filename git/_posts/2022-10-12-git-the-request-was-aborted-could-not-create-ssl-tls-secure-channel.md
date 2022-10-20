@@ -77,7 +77,3 @@ Visual Studio Code 터미널이 아닌 PowerShell에서
 
 
 Git 명령에 대한 사용법과 트러블 슈팅 방법을 정리합니다. 
-
-
-[✏️ ](https://www.github.com/boyinblue/boyinblue.github.io/edit/main/014_git/001_git_TheRequstWasAborted_CouldNotCreateSSL_TLS_SecureChannel.md '수정하기')
-
