@@ -1,9 +1,5 @@
 ---
 title: 업비트 API 호출시에 "Too many API requests." 문제 해결 방법 3가지
-description: Need To Update
----
-
-
 permalink: /009_upbit/UPbit-Too-many-API-requests.html
 description: 업비트 API 호출시에 "Too many API requests." 문제 발생시에 해결 방법에 대해서 설명합니다.
 category: upbit
@@ -169,30 +165,3 @@ JSONDecodeError가 발생하게 됩니다.
 
 
 업비트 API 요청시에 "Too many API requests" 응답을 회피하는 방법에 대해서 알아보았습니다. 
-
-
-
-
-[✔️  업비트 API를 이용하여 일단위 캔들 조회 방법](UPbit-API-daily-candle-query.html '업비트에서 제공하는 Open API를 통해서 일단위 캔들을 조회하는 방법에 ')
----
-
-
-업비트에서 제공하는 Open API를 통해서 일단위 캔들을 조회하는 방법에 대해서 설명합니다.
-
-
-[✔️  UPbit API](index.html '업비트에서 제공하는 API를 통해 암호화폐의 시장 상황을 모니터링하고 나아가 자동으로 거래를 할 수 있는 자동화 시스템을 구축하는')
----
-
-
-업비트에서 제공하는 API를 통해 암호화폐의 시장 상황을 모니터링하고 나아가 자동으로 거래를 할 수 있는 자동화 시스템을 구축하는 것이 목표입니다.
-
-
-[✏️ ](https://www.github.com/boyinblue/boyinblue.github.io/edit/main/009_upbit/UPbit-Too-many-API-requests.md '수정하기')
-
-
-
-[🔽 다음글 : 업비트 API를 이용하여 일단위 캔들 조회 방법](2022-03-23-UPbit-API-daily-candle-query.html '')
----
-
-
-
