@@ -87,8 +87,8 @@
         <hr>
 
         <!-- category -->
+        <p date-ke-size="size10">
         {% if page.category %}
-          <p date-ke-size="size10">
           <small style="background-color: #f4d03f; color: #000000; border-radius: 3px; padding: 3px 5px; font-size: 16px; font-weight: bold; text-decoration: none;"> 카테고리 글 더보기 ({{ page.category }})</small><br>
           {% assign cnt = 0 %}
           {% for post in site.posts %}
@@ -101,8 +101,21 @@
             {% endif %}
           {% endfor %}
           <a style="background-color: #0040ff; color: #fff; border-radius: 10px; padding: 3px 5px; font-size: 12px; font-weight: bold; text-decoration: none;" href="/category/#{{ page.category | cgi_escape }}">카테고리 모든 글</a>
-          </p>
+        {% else %}
+          <small style="background-color: #f4d03f; color: #000000; border-radius: 3px; padding: 3px 5px; font-size: 16px; font-weight: bold; text-decoration: none;"> 미분류 글 더보기 </small><br>
+          {% assign cnt = 0 %}
+          {% for post in site.posts %}
+            {% unless post.category %}
+              <a href="{{ post.url }}">[{{ post.date | date: "%Y-%m-%d" }}] {{ post.title }}</a><br>
+              {% assign cnt = cnt | plus:1 %}
+              {% if cnt >= 5 %}
+              {% break %}
+              {% endif %}
+            {% endunless %}
+          {% endfor %}
+          <a style="background-color: #0040ff; color: #fff; border-radius: 10px; padding: 3px 5px; font-size: 12px; font-weight: bold; text-decoration: none;" href="/category/#{{ page.category | cgi_escape }}">카테고리 모든 글</a>
         {% endif %}
+        </p>
 
         <!-- posts -->
         {% include body-posts.html %}
