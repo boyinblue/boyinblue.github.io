@@ -18,7 +18,8 @@ git pull
 ################################
 ### Step3. Making sitemap
 ################################
-./make_site_map.sh
+#./make_site_map.sh
+./make_site_map.py
 
 ################################
 ### Step4. Sending e-mail
