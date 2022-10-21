@@ -70,6 +70,7 @@ GitHub Pages로 만든 사이트들
 |[peterroelants.github.io](https://peterroelants.github.io)|[Repo](https://github.com/peterroelants/peterroelants.github.io)|테그 활용 방법|
 |[blog.lanyonm.org](https://blog.lanyonm.org)|[Repo](https://github.com/lanyonm/lanyonm.github.io)|테그 활용 방법|
 |[ansohxxn.github.io](https://ansohxxn.github.io)|[Repo](https://github.com/ansohxxn/ansohxxn.github.io)|디자인|
+|[devinlife.github.io](https://devinlife.github.io)|[Repo](https://github.com/devinlife/devinlife.github.io)|   |
 
 
 도움되는 사이트들
