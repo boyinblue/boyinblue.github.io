@@ -1,9 +1,19 @@
 title: 현업 SW 개발자의 연구 노트
 description: 정보 비망록
+name: 현업 SW 개발자
 show_downloads: false
+logo: "/assets/logo.png"
+favicon: "/assets/favicon.png"
+
 google_analytics: G-95SGD9KQRE
 theme: jekyll-theme-slate
 markdown: kramdown
+
+commenets:
+  provider: "disqus"
+  disqus:
+    shortname: boyinblue-github-io
+
 defaults:
   # _posts
   - scope:
@@ -11,3 +21,5 @@ defaults:
       type: pages
     values:
 
+include:
+  - _pages
