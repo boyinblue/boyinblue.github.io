@@ -1,6 +1,6 @@
 ---
 title: markdown 문법
-permalink: /021_markdown/markdown.html
+permalink: /021_markdown/index.html
 description: markdown 문법에 대해서 기록하는 페이지입니다.
 category: markdown
 ---
