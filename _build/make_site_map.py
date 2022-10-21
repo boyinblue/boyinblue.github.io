@@ -105,7 +105,7 @@ def main():
     iterate_directory("..", fp_xml, fp_txt)
 
     # Tail
-    fp_xml.write('</urlsel>\n')
+    fp_xml.write('</urlset>\n')
 
     # File Close
     fp_xml.close()
