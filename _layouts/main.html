@@ -20,21 +20,104 @@
         <!-- content -->
         {{ content }}
 
-        <!-- categories -->
-        {% include body-category.html %}
-		
-		<!-- icons -->
+        <!-- page tags -->
+        <p>
+        {% for tag in page.tags %}
+        <a style="background-color: #0040ff; color: #fff; border-radius: 10px; padding: 3px 5px; font-size: 12px; font-weight: bold; text-decoration: none;" href="/tags/#{{ tag | cgi_escape }}">{{ tag }}</a>
+        {% endfor %}
+        </p>
+
+        <!-- page info -->
+        <small style="background-color: #f5a9f2; color: #000000; border-radius: 3px; padding: 3px 5px; font-size: 16px; font-weight: bold; text-decoration: none;"> 페이지 정보</small><br>
+        <table>
+          <thead>
+            <tr>
+              <th>구분</th>
+              <th>내용</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>제목</td>
+              <td>{{ page.title }}</td>
+            </tr>
+            <tr>
+              <td>요약</td>
+              <td>{{ page.description }}</td>
+            </tr>
+            <tr>
+              <td>카테고리</td>
+              <td>{% if page.category %}{{ page.category }}{% else %}<b style="color:red">미분류</b>{% endif %}</td>
+            </tr>
+            <!--
+            <tr>
+              <td>디렉토리</td>
+              <td>{{ page.dir }}</td>
+            </tr>
+            <tr>
+              <td>파일명</td>
+              <td>{{ page.name }}</td>
+            </tr>
+            <tr>
+              <td>경로</td>
+              <td>{{ page.path }}</td>
+            </tr>
+            <tr>
+              <td>URL</td>
+              <td>{{ page.url }}</td>
+            </tr>
+            {% if page.permalink %}
+            <tr>
+              <td>Permalink</td>
+              <td>{{ page.permalink }}</td>
+            </tr>
+            {% endif %}
+            -->
+          </tbody>
+        </table>
+
+        <!-- icons -->
         {% include body-icons.html %}
 
         <hr>
 
-        <!-- posts -->
-        <p>
-          <small style="background-color: #a9dfbf; color: #000000; border-radius: 3px; padding: 3px 5px; font-size: 16px; font-weight: bold; text-decoration: none;"> 블로그 글 더보기</small><br>
-          {% for post in site.posts limit:10 %}
-          <a href="{{ post.url }}">[{{ post.date | date: "%Y-%m-%d" }}] {{ post.title }}</a><br>
+        <!-- disqus -->
+        {% include body-disqus.html %}
+
+        <hr>
+
+        <!-- category -->
+        <p date-ke-size="size10">
+        {% if page.category %}
+          <small style="background-color: #f4d03f; color: #000000; border-radius: 3px; padding: 3px 5px; font-size: 16px; font-weight: bold; text-decoration: none;"> 카테고리 글 더보기 ({{ page.category }})</small><br>
+          {% assign cnt = 0 %}
+          {% for post in site.posts %}
+            {% if post.category == page.category %}
+              <a href="{{ post.url }}">[{{ post.date | date: "%Y-%m-%d" }}] {{ post.title }}</a><br>
+              {% assign cnt = cnt | plus:1 %}
+              {% if cnt >= 5 %}
+              {% break %}
+              {% endif %}
+            {% endif %}
           {% endfor %}
+          <a style="background-color: #0040ff; color: #fff; border-radius: 10px; padding: 3px 5px; font-size: 12px; font-weight: bold; text-decoration: none;" href="/category/#{{ page.category | cgi_escape }}">카테고리 모든 글</a>
+        {% else %}
+          <small style="background-color: #f4d03f; color: #000000; border-radius: 3px; padding: 3px 5px; font-size: 16px; font-weight: bold; text-decoration: none;"> 미분류 글 더보기 </small><br>
+          {% assign cnt = 0 %}
+          {% for post in site.posts %}
+            {% unless post.category %}
+              <a href="{{ post.url }}">[{{ post.date | date: "%Y-%m-%d" }}] {{ post.title }}</a><br>
+              {% assign cnt = cnt | plus:1 %}
+              {% if cnt >= 5 %}
+              {% break %}
+              {% endif %}
+            {% endunless %}
+          {% endfor %}
+        {% endif %}
         </p>
+
+        <!-- posts -->
+        {% include body-posts.html %}
       </section>
     </div>
 
