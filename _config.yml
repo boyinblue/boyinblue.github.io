@@ -4,3 +4,10 @@ show_downloads: false
 google_analytics: G-95SGD9KQRE
 theme: jekyll-theme-slate
 markdown: kramdown
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: pages
+    values:
+
