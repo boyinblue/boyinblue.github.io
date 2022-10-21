@@ -28,53 +28,7 @@
         </p>
 
         <!-- page info -->
-        <small style="background-color: #f5a9f2; color: #000000; border-radius: 3px; padding: 3px 5px; font-size: 16px; font-weight: bold; text-decoration: none;"> 페이지 정보</small><br>
-        <table>
-          <thead>
-            <tr>
-              <th>구분</th>
-              <th>내용</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>제목</td>
-              <td>{{ page.title }}</td>
-            </tr>
-            <tr>
-              <td>요약</td>
-              <td>{{ page.description }}</td>
-            </tr>
-            <tr>
-              <td>카테고리</td>
-              <td>{% if page.category %}{{ page.category }}{% else %}<b style="color:red">미분류</b>{% endif %}</td>
-            </tr>
-            <!--
-            <tr>
-              <td>디렉토리</td>
-              <td>{{ page.dir }}</td>
-            </tr>
-            <tr>
-              <td>파일명</td>
-              <td>{{ page.name }}</td>
-            </tr>
-            <tr>
-              <td>경로</td>
-              <td>{{ page.path }}</td>
-            </tr>
-            <tr>
-              <td>URL</td>
-              <td>{{ page.url }}</td>
-            </tr>
-            {% if page.permalink %}
-            <tr>
-              <td>Permalink</td>
-              <td>{{ page.permalink }}</td>
-            </tr>
-            {% endif %}
-            -->
-          </tbody>
-        </table>
+        {% include body-page-info.html %}
 
         <!-- icons -->
         {% include body-icons.html %}
