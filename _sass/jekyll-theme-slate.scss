@@ -60,13 +60,10 @@ nav {
 /*  background: #aaaaaa;*/
 }
 
-section {
-/*  background: #cccccc;*/
-  margin: 5;
-}
-
 h1, h2, h3, h4, h5, h6 {
+  margin: 10px 0;
   font-weight: 700;
+  color:#222222;
   font-family: 'Lucida Grande', 'Calibri', Helvetica, Arial, sans-serif;
   letter-spacing: -1px;
 }
@@ -284,13 +281,12 @@ Full-Width Styles
 
 .outer {
   width: 100%;
-  padding: 0px;
 }
 
 .inner {
   position: relative;
   max-width: 640px;
-  padding: 0px 0px;
+  padding: 20px 10px;
   margin: 0 auto;
 }
 
@@ -319,7 +315,7 @@ Full-Width Styles
 }
 
 #header_wrap .inner {
-/*  padding: 10px 10px 10px 10px; */
+  padding: 10px 10px 10px 10px;
 }
 
 #project_title {
@@ -381,11 +377,13 @@ Full-Width Styles
   background: #f2f2f2;
   border-top: 1px solid #111;
   border-bottom: 1px solid #111;
-  margin: 5px;
+}
+
+#main_content {
+  padding-top: 1px;
 }
 
 #footer_wrap {
-  color: #F2F2F2;
   background: #212121;
 }
 
