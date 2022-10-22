@@ -35,8 +35,8 @@ boyinblue.github.io/004_python/005-python-cannot-read-home-directory.html
 boyinblue.github.io/004_python/004-python-vim-setting.html
 boyinblue.github.io/004_python/003-python-%EB%AA%85%EB%A0%B9%ED%96%89%EC%9D%B8%EC%9E%90.html
 boyinblue.github.io/004_python/003-python-turtle-graphic-example.html
-boyinblue.github.io/013_opinet/index.html
-boyinblue.github.io/001_opinet/001_opinet-key-acquire.html
+boyinblue.github.io/011_opinet/index.html
+boyinblue.github.io/011_opinet/001_opinet-key-acquire.html
 boyinblue.github.io/_pages/mysql/index.md
 boyinblue.github.io/_pages/mysql/2022-05-13-mysql-column-list-query.md
 boyinblue.github.io/_pages/mysql/2022-05-13-mysql-basic-query.md
