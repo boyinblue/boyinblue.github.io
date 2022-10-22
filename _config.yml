@@ -2,6 +2,11 @@ title: 현업 SW 개발자의 연구 노트
 description: 정보 비망록
 name: 현업 SW 개발자
 show_downloads: false
+
+image:
+  path: "/assets/logo.png"
+  height: 256
+  width: 256
 logo: "/assets/logo.png"
 favicon: "/assets/favicon.png"
 
