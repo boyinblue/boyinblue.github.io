@@ -22,7 +22,7 @@ tags:
 
 
 |site.category|{{ site.category }}|  |
-|site.categories|{{} site.categories }}|  |
+|site.categories|{{ site.categories }}|  |
 |site.categories|{% for cate in site.categories %}{{ cate | first }} {% endfor %}|  |
 |site.categories[diary]|{{ site.categories[diary] }}|  |
 
