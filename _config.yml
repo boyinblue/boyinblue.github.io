@@ -15,11 +15,15 @@ commenets:
   disqus:
     shortname: boyinblue-github-io
 
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
 author:
   twitter: JisuPar18835589
 
 defaults:
-  # _posts
+  # _pages
   - 
     scope:
       path: ""
@@ -28,10 +32,8 @@ defaults:
   -
     scope:
       path: ""
-    value:
+    values:
       image: "/assets/logo.png"
 
 include:
   - _pages
-
-categories: [git, github, github-pages]

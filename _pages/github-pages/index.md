@@ -79,7 +79,7 @@ Theme 페이지
 
 |Theme|GitHub Repo|비고|
 |---|---|---|
-|jekyll-theme-slave|https://github.com/pages-themes/slate|  |
+|jekyll-theme-slave|[https://github.com/pages-themes/slate](https://github.com/pages-themes/slate)|  |
 
 
 도움되는 사이트들
