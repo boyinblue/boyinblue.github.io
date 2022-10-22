@@ -8,7 +8,6 @@ import os
 #############################################
 exclude_dir_starts_with = [
         "../.",
-        "../_",
         "../test/"
         ]
 
@@ -107,6 +106,9 @@ def add_link_to_index(dir, filename):
 #            print("Skip : Exists : ", path2)
             continue
         elif os.path.isdir(path2) and os.path.isfile(path2+"/index.md"):
+            if not os.path.exists(path2 + "/index.md"):
+                print("### Not Exists" + path2 + "/index.md")
+                continue
             yaml = get_yaml_header(path2 + "/index.md")
             f_wr.write("\n\n".format(file))
             f_wr.write("[✔️  {}]({} \'{}\')\n---\n\n\n".format(
@@ -140,6 +142,10 @@ def add_link_to_md(dir, filename, prev, next):
         index = "index.md"
 
     if is_exclude_path(path):
+        return
+
+    if not os.path.exists(path):
+        print("### Not Exists", path)
         return
 
     f_rd = open(path, "r")
@@ -312,9 +318,9 @@ def iterate_directory(dir):
             print("  Excluding :", path)
             continue
         elif os.path.isdir(path):
+            iterate_directory(path)
             add_link_to_index(path,"index.md")
             #check_md_file(path,"index.md")
-            iterate_directory(path)
             continue
         elif file == "index.md":
             continue

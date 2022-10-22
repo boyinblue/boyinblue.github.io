@@ -392,6 +392,10 @@ Small Device Styles
 }
 
 @media screen and (max-width: 480px) {
+  aside {
+    display: none
+  }
+
   body {
     font-size:14px;
   }
@@ -440,6 +444,10 @@ Small Device Styles
 }
 
 @media screen and (max-width: 320px) {
+  aside {
+    display: none
+  }
+
   body {
     font-size:14px;
   }
