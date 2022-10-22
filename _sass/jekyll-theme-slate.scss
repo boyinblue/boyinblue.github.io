@@ -75,6 +75,7 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   font-size: 32px;
   font-weight: 700;
+  margin-top: 0;
   padding: 5px 5px 5px 5px;
 }
 
@@ -383,11 +384,8 @@ Full-Width Styles
   border-bottom: 1px solid #111;
 }
 
-#main_content {
-  padding-top: 40px;
-}
-
 #footer_wrap {
+  color: #F2F2F2;
   background: #212121;
 }
 
