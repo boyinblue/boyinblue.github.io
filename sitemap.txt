@@ -1,3 +1,6 @@
+boyinblue.github.io/docs/SUPPORT.md
+boyinblue.github.io/docs/CONTRIBUTING.md
+boyinblue.github.io/docs/CODE_OF_CONDUCT.md
 boyinblue.github.io/013_wordpress/index.html
 boyinblue.github.io/013_wordpress/001-wordpress-xmlrpc-api.html
 boyinblue.github.io/vscode/index.html
@@ -88,3 +91,4 @@ boyinblue.github.io/about/
 boyinblue.github.io/900_english/index.html
 boyinblue.github.io/english/002_IMHN%EB%9C%BB.html
 boyinblue.github.io/900_english/001_goodmorningsam_belle_how_to_politely_confront_your_roommate_kims_convenience.html
+boyinblue.github.io/README.md
