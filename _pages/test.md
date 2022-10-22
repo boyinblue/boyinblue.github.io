@@ -15,12 +15,14 @@ tags:
 |---|---|---|
 |site.title|{{ site.title }}|  |
 |site.description|{{ site.description }}|  |
+|site.name|{{ site.name }}|  |
 |site.url|{{ site.url }}|  |
 |site.permalink|{{ page.permalink }}|  |
 |site.baseurl|{{ site.baseurl }}|  |
 
 
 |site.category|{{ site.category }}|  |
+|site.categories|{{} site.categories }}|  |
 |site.categories|{% for cate in site.categories %}{{ cate | first }} {% endfor %}|  |
 |site.categories[diary]|{{ site.categories[diary] }}|  |
 
