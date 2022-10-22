@@ -1,7 +1,7 @@
 ---
 title: About
 permalink: /about/
-description: About this blog and it's author.
+description: 본 웹페이지와 저자에 대한 설명
 ---
 
 
@@ -9,7 +9,7 @@ description: About this blog and it's author.
 
 
 이 블로그에 대해서
-===
+---
 
 
 이 블로그는 업무중에 습득한 일반적인 내용들을 기록해두는 페이지입니다. 
@@ -24,7 +24,7 @@ description: About this blog and it's author.
 
 
 저자에 대해서
-===
+---
 
 
 저는 현업 SW 개발자입니다. 
@@ -39,5 +39,9 @@ description: About this blog and it's author.
 질문이나 의견이 있으면 주저하지 마시고 연락주시기 바랍니다. 
 
 
-[네이버 블로그](https://blog.naver.com/boyinblue) 
-[이메일](mailto:boyinblue@hanmail.net)
+연관 페이지
+---
+
+
+- [네이버 블로그](https://blog.naver.com/boyinblue) 
+- [이메일](mailto:boyinblue@hanmail.net)
