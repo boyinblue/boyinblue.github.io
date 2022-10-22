@@ -39,6 +39,9 @@ layout: null
  <url>
   <loc>{{ site.url }}/link/</loc>
  </url>
+<url><loc>https://boyinblue.github.io/docs/SUPPORT.md</loc></url>
+<url><loc>https://boyinblue.github.io/docs/CONTRIBUTING.md</loc></url>
+<url><loc>https://boyinblue.github.io/docs/CODE_OF_CONDUCT.md</loc></url>
 <url><loc>https://boyinblue.github.io/013_wordpress/index.html</loc></url>
 <url><loc>https://boyinblue.github.io/013_wordpress/001-wordpress-xmlrpc-api.html</loc></url>
 <url><loc>https://boyinblue.github.io/vscode/index.html</loc></url>
@@ -129,4 +132,5 @@ layout: null
 <url><loc>https://boyinblue.github.io/900_english/index.html</loc></url>
 <url><loc>https://boyinblue.github.io/english/002_IMHN%EB%9C%BB.html</loc></url>
 <url><loc>https://boyinblue.github.io/900_english/001_goodmorningsam_belle_how_to_politely_confront_your_roommate_kims_convenience.html</loc></url>
+<url><loc>https://boyinblue.github.io/README.md</loc></url>
 </urlset>
