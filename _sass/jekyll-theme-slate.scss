@@ -285,13 +285,14 @@ Full-Width Styles
 .outer {
   width: 100%;
   padding: 10px;
+  background: #dddddd
 }
 
 .inner {
   position: relative;
   max-width: 640px;
   padding: 0px 0px;
-  margin: 0 auto;
+  margin: 5 auto;
 }
 
 #forkme_banner {
