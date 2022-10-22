@@ -24,7 +24,4 @@ defaults:
 include:
   - _pages
 
-categories:
-  - git
-  - github
-  - github-pages
+categories: [git, github, github-pages]
