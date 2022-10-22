@@ -73,6 +73,15 @@ GitHub Pages로 만든 사이트들
 |[devinlife.github.io](https://devinlife.github.io)|[Repo](https://github.com/devinlife/devinlife.github.io)|   |
 
 
+Theme 페이지
+---
+
+
+|Theme|GitHub Repo|비고|
+|---|---|---|
+|jekyll-theme-slave|https://github.com/pages-themes/slate|  |
+
+
 도움되는 사이트들
 ---
 
@@ -99,6 +108,12 @@ Liquid 문법에 대해서 살펴볼 수 있는 페이지다.
 
 
 Jekyll에 대한 내용이 잘 정리된 페이지다. 
+
+
+[https://jekyll.github.io/jekyll-seo-tag/advanced-usage/#customizing-image-output](https://jekyll.github.io/jekyll-seo-tag/advanced-usage/#customizing-image-output)
+
+
+SEO에 대한 내용이 풍부하다.
 
 
 내가 작성한 글들

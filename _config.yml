@@ -3,10 +3,6 @@ description: 정보 비망록
 name: 현업 SW 개발자
 show_downloads: false
 
-image:
-  path: "/assets/logo.png"
-  height: 256
-  width: 256
 logo: "/assets/logo.png"
 favicon: "/assets/favicon.png"
 
@@ -21,10 +17,16 @@ commenets:
 
 defaults:
   # _posts
-  - scope:
+  - 
+    scope:
       path: ""
-      type: pages
+      type: "pages"
     values:
+  -
+    scope:
+      path: ""
+    value:
+      image: "/assets/logo.png"
 
 include:
   - _pages
