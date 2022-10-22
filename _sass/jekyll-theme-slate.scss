@@ -53,6 +53,12 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+nav {
+  width: 15%;
+  height: 70%;
+  float: left;
+}
+
 h1, h2, h3, h4, h5, h6 {
   margin: 10px 0;
   font-weight: 700;
@@ -396,6 +402,10 @@ Small Device Styles
     display: none
   }
 
+  nav {
+    display: none
+  }
+
   body {
     font-size:14px;
   }
@@ -445,6 +455,10 @@ Small Device Styles
 
 @media screen and (max-width: 320px) {
   aside {
+    display: none
+  }
+
+  nav {
     display: none
   }
 
