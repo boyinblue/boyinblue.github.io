@@ -86,34 +86,13 @@ Theme 페이지
 ---
 
 
-[https://jekyllrb.com/docs/pages/](https://jekyllrb.com/docs/pages/)
-
-
-Jekyll의 빌드시 페이지 구조를 이해하는데 아주 도움이 되는 페이지다. 
-
-
-[https://jekyllrb.com/docs/posts/](https://jekyllrb.com/docs/posts/)
-
-
-Jekyll의 빌드시 포스트 구조를 이해하는데 아주 도움이 되는 페이지다.
-
-
-[https://shopify.github.io/liquid/](https://shopify.github.io/liquid/)
-
-
-Liquid 문법에 대해서 살펴볼 수 있는 페이지다. 
-
-
-[https://jekyllrb.com/](https://jekyllrb.com/)
-
-
-Jekyll에 대한 내용이 잘 정리된 페이지다. 
-
-
-[https://jekyll.github.io/jekyll-seo-tag/advanced-usage/#customizing-image-output](https://jekyll.github.io/jekyll-seo-tag/advanced-usage/#customizing-image-output)
-
-
-SEO에 대한 내용이 풍부하다.
+|URL|비고|
+|---|---|
+|[https://jekyllrb.com/](https://jekyllrb.com/)|Jekyll에 대한 내용이 잘 정리된 페이지다. |
+|- [https://jekyllrb.com/docs/pages/](https://jekyllrb.com/docs/pages/)|페이지 구조|
+|- [https://jekyllrb.com/docs/posts/](https://jekyllrb.com/docs/posts/)|포스트 구조|
+|[https://shopify.github.io/liquid/](https://shopify.github.io/liquid/)|Liquid 문법에 대해서 살펴볼 수 있는 페이지다.|
+|[https://jekyll.github.io/jekyll-seo-tag/advanced-usage/#customizing-image-output](https://jekyll.github.io/jekyll-seo-tag/advanced-usage/#customizing-image-output)|SEO에 대한 내용이 풍부하다.|
 
 
 내가 작성한 글들

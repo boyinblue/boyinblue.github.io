@@ -15,6 +15,9 @@ commenets:
   disqus:
     shortname: boyinblue-github-io
 
+author:
+  twitter: JisuPar18835589
+
 defaults:
   # _posts
   - 
