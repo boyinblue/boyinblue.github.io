@@ -53,7 +53,7 @@ boyinblue.github.io/007_javascript/index.html
 boyinblue.github.io/007_javascript/001.html
 boyinblue.github.io/006_java/index.html
 boyinblue.github.io/html/index.html
-boyinblue.github.io/vscode/how-to-install-vscode.html
+boyinblue.github.io/html/html-horizontal-objects-with-float-style.html
 boyinblue.github.io/002_github_blog/index.html
 boyinblue.github.io/_pages/github-pages/2022-10-17-git-hub-pages-failure-case.md
 boyinblue.github.io/002_github_blog/014-google-adsense-ads-txt-warning.html
@@ -87,6 +87,4 @@ boyinblue.github.io/005_bash/index.html
 boyinblue.github.io/005_bash/001.html
 boyinblue.github.io/about/
 boyinblue.github.io/900_english/index.html
-boyinblue.github.io/english/002_IMHN%EB%9C%BB.html
-boyinblue.github.io/900_english/001_goodmorningsam_belle_how_to_politely_confront_your_roommate_kims_convenience.html
 boyinblue.github.io/README.md
