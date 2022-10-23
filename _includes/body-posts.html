@@ -3,18 +3,19 @@
 <div id="posts">
   <small style="background-color: #a9dfbf; color: #000000; border-radius: 3px; padding: 3px 5px; font-size: 16px; font-weight: bold; text-decoration: none;"> 블로그 글 더보기</small><br>
   {% for post in site.posts limit:5 %}
-    <p style="float: left;">
-      <a href="{{ post.url }}">
+    <a href="{{ post.url }}"></a>
+      <p style="float: left;">
       {% if post.image %}
         <img src="{{ post.image }}" width=100px style="float: left;">
       {% else %}
         <img src="{{ site.image.path }}" width=100px style="float: left;">
       {% endif %}
-    
+      </p>
+      <p style="clear: both;">
       {{ post.date | date: "%Y-%m-%d" }}<br>
       {{ post.title }}<br>
-      </a>
-    </p style="clear: both;">
+      </p>
+    </a>
   {% endfor %}
 </div>
 
