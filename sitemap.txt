@@ -52,6 +52,8 @@ boyinblue.github.io/003_jenkins/001.html
 boyinblue.github.io/007_javascript/index.html
 boyinblue.github.io/007_javascript/001.html
 boyinblue.github.io/006_java/index.html
+boyinblue.github.io/html/index.html
+boyinblue.github.io/vscode/how-to-install-vscode.html
 boyinblue.github.io/002_github_blog/index.html
 boyinblue.github.io/_pages/github-pages/2022-10-17-git-hub-pages-failure-case.md
 boyinblue.github.io/002_github_blog/014-google-adsense-ads-txt-warning.html
