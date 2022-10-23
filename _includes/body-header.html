@@ -2,7 +2,9 @@
 
     <div id="header_wrap" class="outer">
         <header class="inner">
-          <a href="/"><small id="project_title">{% if site.favicon %}<img src="{{ site.favicon }}" valign="middle">{% endif %}{{ site.title | default: site.github.repository_name }}</small></a>
+          <a href="/">
+            {% if site.favicon %}<div style="float: left"><img src="{{ site.favicon }}"></div>{% endif %}
+            <div><small id="project_title">{{ site.title | default: site.github.repository_name }}</small></div></a>
         </header>
     </div>
 
