@@ -4,8 +4,7 @@ title: 현업 SW 개발자의 연구 노트
 description: 개발 업무를 수행하며 습득한 일반적인 내용들을 정리해두는 페이지입니다.
 category: menu
 comments: true
-image:
-  path: /assets/logo.png
+image: /assets/logo.png
 ---
 C, Bash, Python, Java, Java Script 등의 프로그래밍 언어 관련 내용을 다룹니다. 
 
