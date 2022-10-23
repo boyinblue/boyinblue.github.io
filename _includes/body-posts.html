@@ -10,15 +10,15 @@
       <img src="{{ site.image.path }}" width=100px style="float: left;">
     {% endif %}
     <p style="margin: 10px 0 10px 0;">
-    <h3>{{ post.title }}</h3>
-    {{ post.description }}<br>
-    ({{ post.date | date: "%Y-%m-%d" }} 작성)<br>
-    <a href="{{ post.url }}">더보기</a>
-      </p>
-      </div>
-      <div style="clear: both; width: 0">
-      </div>
-    </a>
+      <h3>{{ post.title }}</h3>
+      {{ post.description }}<br>
+      ({{ post.date | date: "%Y-%m-%d" }} 작성)<br>
+      <a href="{{ post.url }}">더보기</a>
+    </p>
+    </div>
+
+    <div style="clear: both; width: 0">
+    </div>
   {% endfor %}
 </div>
 
