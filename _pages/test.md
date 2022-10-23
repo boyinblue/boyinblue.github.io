@@ -28,6 +28,7 @@ site
 
 site.categories
 ---
+
 |Variable|Value|Note|
 |---|---|---|
 |site.category|{{ site.category }}|  |
@@ -38,6 +39,8 @@ site.categories
 
 site.tags
 ---
+
+
 |Variable|Value|Note|
 |---|---|---|
 |site.tags|{% for tag in site.tags %}{{ tag | first }} {% endfor %}|  |
