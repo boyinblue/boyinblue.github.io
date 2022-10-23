@@ -10,6 +10,9 @@ tags:
 - Blog
 ---
 
+site
+---
+
 
 |Variable|Value|Note|
 |---|---|---|
@@ -19,25 +22,45 @@ tags:
 |site.url|{{ site.url }}|  |
 |site.permalink|{{ page.permalink }}|  |
 |site.baseurl|{{ site.baseurl }}|  |
+|site.image|{{ site.image }}|  |
+|site.image.path|{{ site.image.path }}|  |
 
 
+site.categories
+---
+|Variable|Value|Note|
+|---|---|---|
 |site.category|{{ site.category }}|  |
-|site.categories|{{ site.categories }}|  |
+<!-- |site.categories|{{ site.categories }}|  | -->
 |site.categories|{% for cate in site.categories %}{{ cate | first }} {% endfor %}|  |
 |site.categories[diary]|{{ site.categories[diary] }}|  |
 
 
+site.tags
+---
+|Variable|Value|Note|
+|---|---|---|
 |site.tags|{% for tag in site.tags %}{{ tag | first }} {% endfor %}|  |
 |site.tag|{{ site.tag }}|  |
+
+
+site.posts
+---
+|Variable|Value|Note|
+|---|---|---|
 |site.posts|생략|모든 포스트들이 나옴|
 
 
+site.github
+---
 |Variable|Value|Note|
 |---|---|---|
 {% for github in site.github %}|site.github.{{ github | first }}|  |  |{% endfor %}
 |site.github.repository_url|{{ site.github.repository_url }}|  |
 
 
+page
+---
 |Variable|Value|Note|
 |---|---|---|
 |page.title|{{ page.title }}|  |
