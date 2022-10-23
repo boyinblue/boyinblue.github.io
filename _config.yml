@@ -5,6 +5,7 @@ show_downloads: false
 
 logo: "/assets/logo.png"
 favicon: "/assets/favicon.png"
+image: "/assets/logo.png"
 
 google_analytics: G-95SGD9KQRE
 theme: jekyll-theme-slate
