@@ -10,10 +10,10 @@
       {% else %}
         <img src="{{ site.image.path }}" width=100px style="float: left;">
       {% endif %}
-      </div>
-      <div style="clear: both;">
       {{ post.date | date: "%Y-%m-%d" }}<br>
       {{ post.title }}<br>
+      </div>
+      <div style="clear: both;">
       </div>
     </a>
   {% endfor %}
