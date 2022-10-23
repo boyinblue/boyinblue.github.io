@@ -56,16 +56,22 @@ body {
 nav {
   position: fixed;
   overflow: auto;
+  border-radius: 10px;
+  background: #ffffff;
   top: 60px;
   left: 10px;
   width: 15%;
   float: left;
+  border: 3;
 /*  background: #aaaaaa;*/
 }
 
 section {
   top: 50px;
   margin-bottom: 200px;
+  border-radius: 10px;
+  background: #ffffff;
+  border: 3;
 }
 
 h1, h2, h3, h4, h5, h6 {
