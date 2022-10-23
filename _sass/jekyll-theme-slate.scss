@@ -56,9 +56,15 @@ body {
 nav {
   position: fixed;
   overflow: auto;
+  top: 30px;
+  left: 10px;
   width: 15%;
   float: left;
 /*  background: #aaaaaa;*/
+}
+
+section {
+  top: 30px;
 }
 
 h1, h2, h3, h4, h5, h6 {
