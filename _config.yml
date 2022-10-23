@@ -7,7 +7,7 @@ favicon: "/assets/favicon.png"
 image: "/assets/logo.png"
 
 show_downloads: false
-footer: on
+footer: false
 
 google_analytics: G-95SGD9KQRE
 theme: jekyll-theme-slate
