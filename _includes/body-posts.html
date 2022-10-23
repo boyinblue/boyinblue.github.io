@@ -4,6 +4,7 @@
         <p>
           <small style="background-color: #a9dfbf; color: #000000; border-radius: 3px; padding: 3px 5px; font-size: 16px; font-weight: bold; text-decoration: none;"> 블로그 글 더보기</small><br>
           {% for post in site.posts limit:5 %}
+          <a href="{{ post.url }}">
           <div id="preview">
             {% if post.image %}
               <img src="{{ post.image }}" width=100px>
@@ -12,8 +13,10 @@
             {% endif %}
           </div>
           <div id="preview">
-            <a href="{{ post.url }}">[{{ post.date | date: "%Y-%m-%d" }}] {{ post.title }}</a><br>
+            {{ post.date | date: "%Y-%m-%d" }}<br>
+            {{ post.title }}<br>
           </div>
+          </a>
           {% endfor %}
         </p>
 </div>
