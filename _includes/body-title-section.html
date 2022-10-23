@@ -3,8 +3,6 @@
         {% if page.title %}<h1>{{ page.title }}</h1>{% endif %}
         {% if page.description %}<blockquote>{{ page.description }}</blockquote>{% endif %}
         {% capture image_url %}{% if page.image.path %}{{ page.image.path }}{% elsif page.image %}{{ page.image }}{% else %}{{ site.image }}{% endif %}{% endcapture %}
-        image_url : "{{ image_url }}"<br>
-        site.image : "{{ site.image }}"<br>
-        {% if image_url != {{ site.image }} %}<img src="{{ image_url }}">{% endif %}
+        {% if {{ image_url }} != {{ site.image }} %}<img src="{{ image_url }}">{% endif %}
 
 <!-- end of body header (_includes/body-title-section.html) -->
