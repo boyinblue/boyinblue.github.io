@@ -24,12 +24,6 @@ author:
   twitter: JisuPar18835589
 
 defaults:
-  # _pages
-  - 
-    scope:
-      path: ""
-      type: "pages"
-    values:
   -
     scope:
       path: ""
