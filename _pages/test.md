@@ -29,6 +29,7 @@ site
 site.categories
 ---
 
+
 |Variable|Value|Note|
 |---|---|---|
 |site.category|{{ site.category }}|  |
@@ -49,6 +50,8 @@ site.tags
 
 site.posts
 ---
+
+
 |Variable|Value|Note|
 |---|---|---|
 |site.posts|생략|모든 포스트들이 나옴|
@@ -56,6 +59,8 @@ site.posts
 
 site.github
 ---
+
+
 |Variable|Value|Note|
 |---|---|---|
 {% for github in site.github %}|site.github.{{ github | first }}|  |  |{% endfor %}
@@ -64,6 +69,8 @@ site.github
 
 page
 ---
+
+
 |Variable|Value|Note|
 |---|---|---|
 |page.title|{{ page.title }}|  |
