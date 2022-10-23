@@ -1,10 +1,10 @@
 <!-- start of body-posts.html -->
 
-<div style="border:1px dashed;">
+<div>
   <small style="background-color: #a9dfbf; color: #000000; border-radius: 3px; padding: 3px 5px; font-size: 16px; font-weight: bold; text-decoration: none;"> 블로그 글 더보기</small><br>
   {% for post in site.posts limit:5 %}
-    <a href="{{ post.url }}"></a>
-      <div style="float: left;">
+    <a href="{{ post.url }}">
+      <div style="float: left; border:1px dashed;">
       {% if post.image %}
         <img src="{{ post.image }}" width=100px style="float: left;">
       {% else %}
@@ -13,9 +13,10 @@
       <p style="margin: 10px 0 10px 0;">
       {{ post.date | date: "%Y-%m-%d" }}<br>
       {{ post.title }}<br>
+      {{ post.description }}<br>
       </p>
       </div>
-      <div style="clear: both;">
+      <div style="clear: both; width: 0">
       </div>
     </a>
   {% endfor %}

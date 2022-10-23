@@ -1,7 +1,7 @@
 ---
-title: Visual Studio Code (VS Code) 
-permalink: /vscode/index.html
-description: Visual Studio Code에 대한 내용을 기록해두는 페이지입니다.
-category: vscode
+title: HTML5
+permalink: /html/index.html
+description: HTML 테그에 대한 내용을 기록합니다. 
+category: html
 ---
 
