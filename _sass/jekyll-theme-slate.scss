@@ -63,8 +63,6 @@ section, nav, aside {
 }
 
 section {
-  top: 60px;
-  padding: 10px, 0px, 10px, 0px;
   margin-bottom: 200px;
   border-radius: 10px;
   background: #ffffff;
@@ -81,6 +79,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
+  margin-top: 0px;
   font-size: 32px;
   color: #ffffff;
   background: #000000;
@@ -154,7 +153,7 @@ strong {
 
 img {
   position: relative;
-  max-width: 739px;
+  max-width: 640px;
   padding: 5px;
   margin: 10px 0 10px 0;
   border: 1px solid #ebebeb;
