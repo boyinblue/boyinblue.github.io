@@ -4,9 +4,16 @@
       {% if site.image %}
         <a href="/about"><img style="margin: 0px; padding: 0px; border-radius: 10px;" src="{{ site.image }}" width=95%></a><br>
       {% endif %}
-
+      
+      {% if site.favicon-invert %}<div style="float: left;" ><img valign="middle" src="{{ site.favicon-invert }}" style="margin-right: 10; padding: 7"></div>{% endif %}
+            <div><small id="project_title">{{ site.title | default: site.github.repository_name }}</small></div></a>
+      
       {% if site.name %}
-        <h6>{{ site.name }}{% if site.favicon %}<img src="{{ site.favicon }}" valign="middle">{% endif %}</h6>
+        <div style="float: left;"><h6>{{ site.name }}</h6></div>
+      {% endif %}
+
+      {% if site.favicon %}
+        <div><img src="{{ site.favicon }}" valign="middle">{% endif %}</div>
       {% endif %}
       
       <a href="/about">├─ 사이트 및 저자 소개</a><br>
