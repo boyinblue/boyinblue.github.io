@@ -4,7 +4,7 @@ permalink: /002_github_blog/001_advantage_of_github_blog.html
 description: 무료 웹서버로 활용할 수 있는 GitHub 블로그(GitHub Pages)를 소개합니다.
 category: github-pages
 ---
-===
+
 GitHub Pages는 네이버 블로그, 티스토리 블로그 등의 단점을 보완할 수 있는 매력적인 블로그 서비스입니다.   
 
 
