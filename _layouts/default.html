@@ -37,14 +37,14 @@
 
         <!-- icons -->
         {% include body-icons.html %}
+      </section>
 
-        <hr>
-
+      <section id="main_content" class="inner">
         <!-- disqus -->
         {% include body-disqus.html %}
+      </section>
 
-        <hr>
-
+      <section id="main_content" class="inner">
         <!-- category -->
         <p date-ke-size="size10">
         {% if page.category %}
@@ -74,7 +74,9 @@
           {% endfor %}
         {% endif %}
         </p>
-
+      </section>
+      
+      <section id="main_content" class="inner">
         <!-- posts -->
         {% include body-posts.html %}
       </section>
