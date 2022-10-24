@@ -399,6 +399,7 @@ Full-Width Styles
 #left_bar {
   position: fixed;
   overflow: auto;
+  float: left;
   top: 60px;
   left:10px;
   width: 200px;
@@ -407,6 +408,7 @@ Full-Width Styles
 #right_bar {
   position: fixed;
   overflow: auto;
+  float: right;
   top: 60px;
   right:10px;
   width: 200px;
