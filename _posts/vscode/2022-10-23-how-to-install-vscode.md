@@ -1,6 +1,6 @@
 ---
 title: 우분투 리눅스에 Visual Studio Code 설치하는 방법
-permalink: /vscode/how-to-install-vscode.html
+permalink: /vscode/how-to-install-vscode.md
 description: 우분투 리눅스에 Visual Studio Code 설치하는 방법
 thumb: assets/images/how-to-download-vscode.png
 ---

@@ -1,6 +1,6 @@
 ---
 title: 라즈베리파이4B 리모컨 입력 처리 방법 (Ubuntu 21.10)
-permalink: /010_raspberry/002-rpi4-ir-receiver-ubuntu-21-10.md
+permalink: /010_raspberry/002-rpi4-ir-receiver-ubuntu-21-10.html
 description: 라즈베리파이4B에서 리모컨 입력 받아서 처리하는 방법 (Ubuntu 21.10)
 category: rpi
 ---

@@ -1,6 +1,6 @@
 ---
 title: 업비트 API를 이용하여 일단위 캔들 조회 방법
-permalink: /009_upbit/UPbit-API-daily-candle-query.md
+permalink: /009_upbit/UPbit-API-daily-candle-query.html
 description: 업비트에서 제공하는 Open API를 통해서 일단위 캔들을 조회하는 방법 설명
 category: upbit
 ---
