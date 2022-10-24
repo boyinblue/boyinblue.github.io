@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang="{{ site.lang | default: 'en-US' }}">
 
   <head>
     {% include head-custom.html %}
@@ -29,20 +29,22 @@
         <a style="background-color: #0040ff; color: #fff; border-radius: 10px; padding: 3px 5px; font-size: 12px; font-weight: bold; text-decoration: none;" href="/tags/#{{ tag | cgi_escape }}">{{ tag }}</a>
         {% endfor %}
         </p>
+      </section>
 
+      <section id="main_content" class="inner">
         <!-- page info -->
         {% include body-page-info.html %}
 
         <!-- icons -->
         {% include body-icons.html %}
+      </section>
 
-        <hr>
-
+      <section id="main_content" class="inner">
         <!-- disqus -->
         {% include body-disqus.html %}
+      </section>
 
-        <hr>
-
+      <section id="main_content" class="inner">
         <!-- category -->
         <p date-ke-size="size10">
         {% if page.category %}
@@ -72,7 +74,9 @@
           {% endfor %}
         {% endif %}
         </p>
-
+      </section>
+      
+      <section id="main_content" class="inner">
         <!-- posts -->
         {% include body-posts.html %}
       </section>
