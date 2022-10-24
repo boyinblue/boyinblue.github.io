@@ -13,7 +13,7 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
+article, nav, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
@@ -25,7 +25,7 @@ time, mark, audio, video {
 }
 
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
+article, nav, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
 }
@@ -53,25 +53,20 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-nav, aside {
-  position: fixed;
-  overflow: auto;
+section, nav, aside {
   border-radius: 10px;
   background: #ffffff;
-  top: 60px;
   border: 3;
 /*  background: #aaaaaa;*/
 }
 
 nav {
   float: left;
-  width: 15%;
   left: 10px;
 }
 
 aside {
   float: right;
-  width: 15%;
   right: 10px;
 }
 
@@ -408,20 +403,28 @@ Full-Width Styles
 #main_content {
   padding-top: 10px;
   margin-bottom: 10px;
+  top: 60px;
+}
+
+#left_bar {
+  position: fixed;
+  overflow: auto;
+  top: 60px;
+  left:10px;
+  width: 200px;
+}
+
+#right_bar {
+  position: fixed;
+  overflow: auto;
+  top: 60px;
+  right:10px;
+  width: 200px;
 }
 
 #footer_wrap {
   background: #212121;
 }
-
-#preview {
-  float: left;
-}
-
-#prevew_off {
-  float: top;
-}
-
 
 /*******************************************************************************
 Small Device Styles
