@@ -1,6 +1,8 @@
 ---
 title: mySQL
+permalink: /_pages/mysql/index.html
 description: mySQL에 대해서 기록하는 페이지입니다. 
+category: mysql
 ---
 
 

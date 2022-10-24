@@ -1,5 +1,6 @@
 ---
 title: 깃허브 블로그 실패 사례
+permalink: /_pages/github-pages/2022-10-17-git-hub-pages-failure-case.html
 description: GitHub Pages로 6개월동안 삽질하고 깨닫게 된 것들
 category: github-pages
 tags:

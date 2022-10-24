@@ -6,26 +6,33 @@ import os
 #############################################
 # 체커가 돌지 않도록 제외할 경로 설정
 #############################################
-exclude_dir_starts_with = [
+exclude_path_starts_with = [
         "../.",
         "../test/"
         ]
 
-exclude_dir_match_with = [
-#        "../README.md",
+exclude_path_match_with = [
+        "../README.md",
         "../index.md",
         "../google62fdc652437cf301.html",
         "../naverd4f8a457876d1cbdba15ad126ccbf06a.html",
         "../404.html"
         ]
 
+exclude_path_contains_with = [
+        "README.md"
+        ]
+
 def is_exclude_path(path):
     """ 제외할 경로인지 확인 """
-    for keyword in exclude_dir_starts_with:
+    for keyword in exclude_path_starts_with:
         if path.startswith(keyword):
             return True
-    for keyword in exclude_dir_match_with:
+    for keyword in exclude_path_match_with:
         if keyword == path:
+            return True
+    for keyword in exclude_path_contains_with:
+        if keyword in path:
             return True
     return False
 

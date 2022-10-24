@@ -1,6 +1,8 @@
 ---
 title: mysql 컬럼 목록 조회 쿼리
+permalink: /_pages/mysql/2022-05-13-mysql-column-list-query.html
 description: mysql 컬럼 목록을 살펴보는 방법에 대해서 설명합니다.
+category: mysql
 ---
 ### mysql 컬럭 목록을 간략하게 살펴보는 쿼리
 
