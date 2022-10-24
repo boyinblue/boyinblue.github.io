@@ -386,6 +386,7 @@ Full-Width Styles
 
 #main_content_wrap {
   position: fixed;
+  overflow: auto;
   margin-bottom: 10px;
   top: 60px;
 }
