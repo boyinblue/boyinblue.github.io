@@ -46,7 +46,9 @@ Theme Styles
 body {
   box-sizing: border-box;
   color:#373737;
-  background: #212121;
+  background: #ccccff;
+  border-top: 1px solid #111;
+  border-bottom: 1px solid #111;
   font-size: 16px;
   font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -385,12 +387,6 @@ Full-Width Styles
 
 #main_content_wrap {
   margin-bottom: 5px;
-  background: #ccccff;
-  border-top: 1px solid #111;
-  border-bottom: 1px solid #111;
-}
-
-#main_content {
   padding-top: 10px;
   margin-bottom: 10px;
   top: 60px;
