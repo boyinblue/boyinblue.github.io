@@ -3,6 +3,7 @@ description: 정보 비망록
 name: 현업 SW 개발자
 
 favicon: "/assets/favicon.png"
+favicon-invert: "/assets/favicon_invert.png"
 image: "/assets/logo.png"
 
 show_downloads: false
