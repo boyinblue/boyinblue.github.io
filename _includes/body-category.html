@@ -12,6 +12,8 @@
   {% endfor %}
   </p>
 
+  no_detail_tag = {% no_detail_tag %}<br>
+
   {% for item in (0..site.categories.size) %}
     {% unless forloop.last %}
       {% capture this_word %}{{ cath_words[item] | strip_newlines }}{% endcapture %}
