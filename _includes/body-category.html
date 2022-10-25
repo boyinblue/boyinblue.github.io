@@ -16,7 +16,6 @@
     {% unless forloop.last %}
       {% capture this_word %}{{ cath_words[item] | strip_newlines }}{% endcapture %}
       <h2 id="{{ this_word }}">{{ this_word }}</h2>
-      <img style="border-radius: 20px;" src="{{ site.image.path }}" width=100%>
       {% for post in site.categories[this_word] %}
         <a href="{{ post.url }}"><img style="border-radius: 20px;" src="{{ site.image.path }}" width=100%></a>
         {% if post.image.path %}

@@ -2,6 +2,8 @@
 
   <small style="background-color: #f4d03f; color: #000000; border-radius: 3px; padding: 3px 5px; font-size: 16px; font-weight: bold; text-decoration: none;"> 블로그 글 더보기</small><br>
   {% for post in site.posts limit:5 %}
+  <a href="{{ post.url }}">
+  <h3>{{ post.title }}</h3>
   <div style="height: 300; border-radius: 3px;">
     <div style="width: 20%; float: left; margin: 2px; height: 100%">
     {% if post.image.path %}
@@ -14,15 +16,15 @@
     </div>
 
     <div style="float: right; margin: 10px 0 10px 0; width: 75%; height: 100%">
-      <h3>{{ post.title }}</h3>
       {{ post.description }}<br>
       ({{ post.date | date: "%Y-%m-%d" }} 작성)<br>
-      <a href="{{ post.url }}">더보기</a>
+      더보기
     </div>
 
     <div style="clear: both; width: 0">
     </div>
   </div>
+  </a>
   {% endfor %}
 
 <!-- end of body-posts.html -->
