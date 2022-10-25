@@ -42,7 +42,7 @@ vscode 단축키 확인하는 방법
 
 
 ### 전체 페이지에서 검색
-><kbd> Ctrl </kbd> + <kbd> Shift </kbd> + < F </kbd>
+><kbd> Ctrl </kbd> + <kbd> Shift </kbd> + <kbd> F </kbd>
 
 
 이동 기능
