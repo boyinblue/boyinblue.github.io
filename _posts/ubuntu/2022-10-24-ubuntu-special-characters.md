@@ -3,6 +3,7 @@ title: 우분투 리눅스에서 입력할 수 있는 특수문자들
 permalink: /ubuntu/ubuntu-special-characters.html
 description: 우분투 리눅스에서 입력할 수 있는 다양한 특수문자 제공
 category: ubuntu
+images: /assets/images/ubuntu/ubuntu-linux-special-characters.png
 ---
 
 
