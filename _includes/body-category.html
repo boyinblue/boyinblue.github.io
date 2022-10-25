@@ -17,7 +17,8 @@
       {% capture this_word %}{{ cath_words[item] | strip_newlines }}{% endcapture %}
       <h2 id="{{ this_word | cgi_escape }}">{{ this_word }}</h2>
       {% for post in site.categories[this_word] %}
-        <img style="border-radius: 20px;" src="{{ site.image.path }}" width=100%>
+        {% capture img_tag %}<img style="border-radius: 20px;" src="{{ site.image.path }}" width=100%>{% endcapture %}
+        {{ image_tag }}
         {% if post.image.path %}
           {% assign image_url = {{ post.image.path }} %}
         {% elsif post.image %}
@@ -30,7 +31,7 @@
           <div style="width: 20%; float: left; margin: 2px; height: 100%">
           </div>
       
-          <div style="float: right; margin: 10px 0 10px 0; width: 75%; height: 100%; overflow: clip">
+          <div style="float: right; margin: 10px 0 10px 0; width: 75%; height: 100%; overflow: hidden">
             <h3>{{ post.title }}</h3>
             <pre>{{ post.description }}</pre>
             ({{ post.date | date: "%Y-%m-%d" }} 작성)<br>
