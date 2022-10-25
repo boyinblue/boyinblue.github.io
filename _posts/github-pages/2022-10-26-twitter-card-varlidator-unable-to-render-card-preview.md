@@ -5,6 +5,7 @@ category: github-pages
 tags:
 - github-pages
 - twitter
+image: /assets/images/github-pages/twitter-card.png
 ---
 
 트위터 카드란?
