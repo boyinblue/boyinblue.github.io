@@ -26,6 +26,7 @@ boyinblue.github.io022_firefox/index.html
 boyinblue.github.io/901_diary/index.html
 boyinblue.github.io/category/
 boyinblue.github.io/012_c/index.html
+boyinblue.github.io/_pages/beyondcompare/index.md
 boyinblue.github.io/005_bash/index.html
 boyinblue.github.io/about/
 boyinblue.github.io/900_english/index.html
