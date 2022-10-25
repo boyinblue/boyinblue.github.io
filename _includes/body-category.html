@@ -24,15 +24,14 @@
         {% else %}
           {% assign image_url = {{ site.image.path }} %}
         {% endif %}
+        <img style="border-radius: 20px;" src="{{ image_url }}" width=100%>
         <div style="height: 300; border-radius: 3px;">
           <div style="width: 20%; float: left; margin: 2px; height: 100%">
-          
-          <img style="border-radius: 20px;" src="{{ image_url }}" width=100%>
           </div>
       
           <div style="float: right; margin: 10px 0 10px 0; width: 75%; height: 100%; overflow: hidden">
             <h3>{{ post.title }}</h3>
-            {{ post.description }}<br>
+            <pre>{{ post.description }}</pre>
             ({{ post.date | date: "%Y-%m-%d" }} 작성)<br>
             <a href="{{ post.url }}">더보기</a>
           </div>
