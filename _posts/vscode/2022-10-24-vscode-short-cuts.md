@@ -5,6 +5,7 @@ description: 소스코드 편집 스킬을 향상시켜줄 단축키들 설명
 category: vscode
 tags:
 - vscode
+image: /assets/images/vscode/vscode-shortcuts-for-linux.png
 ---
 
 Visual Studio Code 단축키
