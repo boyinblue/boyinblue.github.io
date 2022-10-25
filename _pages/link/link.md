@@ -20,7 +20,7 @@ category: menu
 
 GitHub
 ---
-- [GitHub (boyinblue)](https://www.github.com/boinblue)
+- [GitHub (boyinblue)](https://www.github.com/boyinblue)
 - [GitHub (esregnet0409)](https://www.github.com/esregnet0409)
 
 SNS
