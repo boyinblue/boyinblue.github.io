@@ -2,6 +2,7 @@
 title: mySQL 기본 명령어 정리
 permalink: /_pages/mysql/2022-05-13-mysql-basic-query.html
 description: mySQL 기본적인 명령어를 기록해두는 페이지입니다.
+image: /assets/images/mysql-service-is-running-well.png
 ---
 ### mySQL 설치 방법
 
