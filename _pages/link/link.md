@@ -9,7 +9,6 @@ category: menu
 ---
 - [구글 애널리닉스](https://analytics.google.com '구글 애널리틱스')
 - [구글 서치 콘솔](https://search.google.com/search-console '구글 서치콘솔')
-네이버
 - [네이버 서치 어드바이저](https://searchadvisor.naver.com/ '네이버 서치 어드바이저')
 
 자주 가는 페이지
