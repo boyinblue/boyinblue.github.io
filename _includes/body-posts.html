@@ -4,7 +4,7 @@
   {% for post in site.posts limit:5 %}
   <a href="{{ post.url }}">
   <h3>{{ post.title }}</h3>
-  <div style="height: 300; border-radius: 3px;">
+  <div style="height: 300; border-radius: 3px; background: #bb0033">
     <div style="width: 20%; float: left; margin: 2px; height: 100%">
     {% if post.image.path %}
       <img style="border-radius: 20px;" src="{{ post.image.path }}" width=100%>
@@ -25,6 +25,7 @@
     </div>
   </div>
   </a>
+  <hr>
   {% endfor %}
 
 <!-- end of body-posts.html -->
