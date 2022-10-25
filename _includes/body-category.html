@@ -17,15 +17,17 @@
       {% capture this_word %}{{ cath_words[item] | strip_newlines }}{% endcapture %}
       <h2 id="{{ this_word | cgi_escape }}">{{ this_word }}</h2>
       {% for post in site.categories[this_word] %}
+        {% if post.image.path %}
+          {% assign image_url = {{ post.image.path }} %}
+        {% elsif post.image %}
+          {% assign image_url = {{ post.image }} %}
+        {% else %}
+          {% assign image_url = {{ site.image.path }} %}
+        {% endif %}
         <div style="height: 300; border-radius: 3px;">
           <div style="width: 20%; float: left; margin: 2px; height: 100%">
-          {% if post.image.path %}
-            <img style="border-radius: 20px;" src="{{ post.image.path }}" width=100%>
-          {% elsif post.image %}
-            <img style="border-radius: 20px;" src="{{ post.image }}" width=100%>
-          {% else %}
-            <img style="border-radius: 20px;" src="{{ site.image.path }}" width=100%>
-          {% endif %}
+          
+          <img style="border-radius: 20px;" src="{{ image_url }}" width=100%>
           </div>
       
           <div style="float: right; margin: 10px 0 10px 0; width: 75%; height: 100%">

@@ -15,7 +15,7 @@
 
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
+      <section class="inner">
 
         <!-- title section -->
         {% include body-title-section.html %}
@@ -31,20 +31,22 @@
         </p>
       </section>
 
-      <section id="main_content" class="inner">
+      <aside class="inner">
         <!-- page info -->
         {% include body-page-info.html %}
 
+        <hr>
+
         <!-- icons -->
         {% include body-icons.html %}
-      </section>
 
-      <section id="main_content" class="inner">
+        <hr>
+
         <!-- disqus -->
         {% include body-disqus.html %}
-      </section>
 
-      <section id="main_content" class="inner">
+        <hr>
+
         <!-- category -->
         <p date-ke-size="size10">
         {% if page.category %}
@@ -74,12 +76,12 @@
           {% endfor %}
         {% endif %}
         </p>
-      </section>
-      
-      <section id="main_content" class="inner">
+
+        <hr>
+
         <!-- posts -->
         {% include body-posts.html %}
-      </section>
+
     </div>
 
     <!-- FOOTER  -->
