@@ -12,17 +12,10 @@
   {% endfor %}
   </p>
 
-  no_detail_tag = {% no_detail_tag %}<br>
-
   {% for item in (0..site.categories.size) %}
     {% unless forloop.last %}
       {% capture this_word %}{{ cath_words[item] | strip_newlines }}{% endcapture %}
       <h2 id="{{ this_word | cgi_escape }}">{{ this_word }}</h2>
-      {% if no_detail_tag == False %}
-      <details>
-        <summary><a href="#{{ this_word | cgi_escape }}">{{ this_word | cgi_escape }} 카테고리 모든 글 보기</a></summary>
-      {% endif %}
-
       {% for post in site.categories[this_word] %}
         <div style="height: 300; border-radius: 3px;">
           <div style="width: 20%; float: left; margin: 2px; height: 100%">
@@ -45,11 +38,7 @@
           <div style="clear: both; width: 0">
           </div>
         </div>
-        {% endfor %}      
-      
-      {% if no_detail_tag == False %}
-      </details>
-      {% endif %}
+      {% endfor %}      
     {% endunless %}
   {% endfor %}
 </div>
