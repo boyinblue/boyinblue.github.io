@@ -10,7 +10,7 @@ image: /assets/images/beyond-compare/beyond-compare-whitespace.png
 
 
 Beyond Compare에서 화이트 스페이스(white space)를 표시하기 위해서는 
-`View' - 'Visible Whitespace' 메뉴를 선택하면 된다.
+`View` - `Visible Whitespace` 메뉴를 선택하면 된다.
 
 
 White Space란?
@@ -53,7 +53,7 @@ code convention을 구성하는 팀도 있다.
 
 파이썬에서는 인덴트가 단순한 가독성을 높이기 위한 측면 뿐만 아니라, 
 문법의 일부라고 할 수 있다. 
-파이썬에서는 <kbd>{</kbd> 또는 <kdb>}</kbd> 같은 명시적인 부호 없이 
+파이썬에서는 <kbd>{</kbd> 또는 <kbd>}</kbd> 같은 명시적인 부호 없이 
 인덴트를 이용해서 코드 블록을 구분하기 때문이다. 
 
 
@@ -75,7 +75,7 @@ Beyond Compare에서 화이트 스페이스(white space)를
 ### 화이트 스페이스 설정 메뉴
 
 
->메뉴에서 `View`를 선택한 이후에, 'Visible Whitespace'를 선택하면 된다. 
+>메뉴에서 `View`를 선택한 이후에, `Visible Whitespace`를 선택하면 된다. 
 
 
 ### 단축키
