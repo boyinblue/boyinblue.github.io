@@ -10,15 +10,15 @@
     {% for cath in site.categories %}
       {% assign cath_name = cath | first %}
       {% assign cath_names = cath_names | push: cath_name %}
-      <a style="background-color: #0040ff; color: #fff; border-radius: 10px; padding: 3px 5px; font-size: 12px; font-weight: bold; text-decoration: none;" href="#{{ cath_name }}">{{ cath_name }} {{ site.categories[cath_name] | size }}</a>
+      <a style="background-color: #ffffff; color: #000; border-radius: 0px; border: 3px; padding: 5px 5px; font-size: 12px; font-weight: bold; text-decoration: none;" href="#{{ cath_name }}">{{ cath_name }} {{ site.categories[cath_name] | size }}</a>
     {% endfor %}
     </p>
   {% endif %}
 
-  cath_names : {{ cath_names }} ({{ cath_names | size }})<br />
-
   {% for cath_name in cath_names %}
     <h2 id="{{ cath_name }}">{{ cath_name }} 카테고리 ({{ site.categories[cath_name] | size }})</h2>
+    {% assign post_num = site.categories[cath_name] | size %}
+    {% if post_num == 0 %}카테고리에 글이 하나도 없습니다. 😥{% break %}{% endif %}
     {% for post in site.categories[cath_name] %}
       {% assign preview_image_url = post.image %}
       {% assign preview_url = post.url %}
