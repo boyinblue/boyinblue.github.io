@@ -5,9 +5,6 @@ description: 이 사이트에서 제공하는 모든 카테고리들을 살펴�
 category: menu
 ---
 
-<!-- {% include body-category.html %} -->
-
-<div id="categories">
   <p>
   {% for cath in site.categories %}
   {% assign cath_name = cath | first %}
@@ -74,4 +71,3 @@ category: menu
       </div>
     </a>
 {% endfor %}
-</div>
