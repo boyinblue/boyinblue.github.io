@@ -25,14 +25,12 @@ category: menu
         {% else %}
           {% assign image_url = site.image.path %}
         {% endif %}
-        <div style="height: 300; border-radius: 3px;">
+        <div style="height: 300; border-radius: 3px; clear:both;">
           <figure><img src="{{ image_url }}" style="width: 20%; float: left; margin: 2px; height: 100%;"></figure>
-          <div style="float: right; margin: 10px 0 10px 0; width: 75%; height: 100%; overflow: hidden">
-            <h3 style="overflow: hidden">{{ post.title }}</h3>
+          <div style="float: right; margin: 0; width: 75%; height: 100%; overflow: hidden">
+            <h3 style="padding: 0;">{{ post.title }}</h3>
             <pre style="overflow: hidden">{{ post.description }}</pre>
             ({{ post.date | date: "%Y-%m-%d" }} 작성)<br />
-          </div>
-          <div style="clear: both; width: 0">
           </div>
         </div>
       </a>
@@ -52,17 +50,15 @@ category: menu
       {% assign image_url = {{ site.image.path }} %}
     {% endif %}
     <a href="{{ post.url }}">
-      <div style="height: 300; border-radius: 3px;">
+      <div style="height: 300; border-radius: 3px; clear: both;">
         <div style="width: 20%; float: left; margin: 2px; height: 100%">
           <figure><img style="border-radius: 20px;" src="{{ image_url }}" width=100%></figure>
-        </div>      
+        </div>
         <div style="float: right; margin: 10px 0 10px 0; width: 75%; height: 100%; overflow: hidden">
           <h3 style="overflow: hidden">{{ post.title }}</h3>
           <pre style="overflow: hidden">{{ post.description }}</pre>
           ({{ post.date | date: "%Y-%m-%d" }} 작성)<br />
         </div>      
-        <div style="clear: both; width: 0">
-        </div>
       </div>
     </a>
 {% endfor %}
