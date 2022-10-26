@@ -27,7 +27,7 @@ category: menu
         {% endif %}
         <div style="height: 300; border-radius: 3px;">
           <div style="width: 20%; float: left; margin: 2px; height: 100%;">
-<!--> <img style="border-radius: 20px;" src="{{ image_url }}" width=100%>
+<!-- --> <img style="border-radius: 20px;" src="{{ image_url }}" width=100%> <!-- -->
           </div>
           <div style="float: right; margin: 10px 0 10px 0; width: 75%; height: 100%; overflow: hidden">
             <h3 style="overflow: hidden">{{ post.title }}</h3>
