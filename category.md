@@ -24,7 +24,11 @@ category: menu
       {% else %}
         {% assign image_url = site.image.path %}
       {% endif %}
-      {% include body-preview.html url=post.url image_url=image_url title=post.title description=post.description post_date=post.date %}
+      {% assign url = post.url %}
+      {% assign title = post.title %}
+      {% assign description = post.description %}
+      {% assign post_date = post.date %}
+      {% include body-preview.html url=url image_url=image_url title=title description=description post_date=post_date %}
     {% endfor %}      
   {% endfor %}
 
@@ -40,6 +44,10 @@ category: menu
     {% else %}
       {% assign image_url = {{ site.image.path }} %}
     {% endif %}
-    {% include body-preview.html url=post.url image_url=image_url title=post.title description=post.description post_date=post.date %}
+    {% assign url = post.url %}
+    {% assign title = post.title %}
+    {% assign description = post.description %}
+    {% assign post_date = post.date %}
+    {% include body-preview.html url=url image_url=image_url title=title description=description post_date=post_date %}
   {% endfor %}
 </div>
