@@ -56,7 +56,7 @@ HTML 메타 테그(Open Graph)
 ---
 
 
-[Twitter Card Validator](https://cards-dev.twitter.com/validator '트위터 카드 검증 페이지)
+[Twitter Card Validator](https://cards-dev.twitter.com/validator '트위터 카드 검증 페이지')
 
 
 위의 홈페이지에 접속하셔서 체크할 페이지의 URL을 입력하시면 됩니다. 
@@ -66,7 +66,7 @@ HTML 메타 테그(Open Graph)
 ---
 
 
-![트위터 카드 검증 실패](/assets/images/twitter-card-validator-unable-to-render-card-preview.png)
+![트위터 카드 검증 실패](/assets/images/github-pages/twitter-card-validator-unable-to-render-card-preview.png)
 
 
 제가 작성한 페이지를 입력했더니 위의 화면처럼 "Unable to render Card preview"라는 메시지를 토해냅니다. 
@@ -86,7 +86,7 @@ HTML 메타 테그(Open Graph)
 실제로 트위터로 업로드를 해봤더니 정상적으로 트위터 카드가 발행되었습니다. 
 
 
-![트위터 카드 업로드 오래 걸림](/assets/imagES/unable-to-tweet-with-github-pages.png)
+![트위터 카드 업로드 오래 걸림](/assets/images/github-pages/unable-to-tweet-with-github-pages.png)
 
 
 다만, 시간이 오래 걸립니다. 거의 10분을 소요된 것 같습니다. 
