@@ -11,7 +11,7 @@
   {% for cath in site.categories %}
     <h2 id="{{ cath_name }}">{{ cath_name }}</h2>
     {% for post in site.categories[cath_name] %}
-      <a href="{{ post.url }}"><img style="border-radius: 20px;" src="{{ site.image.path }}" width=100%></a>
+      <a href="{{ post.url }}">
         {% if post.image.path %}
           {% assign image_url = {{ post.image.path }} %}
         {% elsif post.image %}
@@ -34,6 +34,7 @@
           <div style="clear: both; width: 0">
           </div>
         </div>
+      </a>
     {% endfor %}      
   {% endfor %}
 
