@@ -29,6 +29,7 @@ category: menu
       {% assign description = post.description %}
       {% assign post_date = post.date %}
       {% include body-preview.html url=url image_url=image_url title=title description=description post_date=post_date %}
+      <hr>
     {% endfor %}      
   {% endfor %}
 
@@ -49,5 +50,6 @@ category: menu
     {% assign description = post.description %}
     {% assign post_date = post.date %}
     {% include body-preview.html url=url image_url=image_url title=title description=description post_date=post_date %}
+    <hr>
   {% endfor %}
 </div>
