@@ -26,9 +26,7 @@ category: menu
           {% assign image_url = site.image.path %}
         {% endif %}
         <div style="height: 300; border-radius: 3px;">
-          <div style="width: 20%; float: left; margin: 2px; height: 100%;">
-            <figure><img src="{{ image_url }}"></figure>
-          </div>
+          <figure><img src="{{ image_url }}" style="width: 20%; float: left; margin: 2px; height: 100%;"></figure>
           <div style="float: right; margin: 10px 0 10px 0; width: 75%; height: 100%; overflow: hidden">
             <h3 style="overflow: hidden">{{ post.title }}</h3>
             <pre style="overflow: hidden">{{ post.description }}</pre>
