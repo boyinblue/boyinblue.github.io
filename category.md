@@ -14,6 +14,7 @@ category: menu
   </p>
 
   {% for cath in site.categories %}
+    {% assign cath_name = cath | first %}
     <h2 id="{{ cath_name }}">{{ cath_name }}</h2>
     {% for post in site.categories[cath_name] %}
       <a href="{{ post.url }}">
