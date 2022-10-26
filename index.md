@@ -17,4 +17,5 @@ C, Bash, Python, Java, Java Script 등의 프로그래밍 언어 관련 내용�
 카테고리
 ---
 
-{% include body-category.html cate_detail=False %}
+{% assign cate_detail = False %}
+{% include body-category.html %}
