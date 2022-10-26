@@ -8,7 +8,7 @@
     <p>
     {% for cath in site.categories %}
       {% assign cath_name = cath | first %}
-      {% assign cath_names | push: cath_name %}
+      {% assign cath_names = cath_names | push: cath_name %}
       <a style="background-color: #0040ff; color: #fff; border-radius: 10px; padding: 3px 5px; font-size: 12px; font-weight: bold; text-decoration: none;" href="#{{ cath_name }}">{{ cath_name }} {{ site.categories[cath_name] | size }}</a>
     {% endfor %}
     </p>
@@ -16,7 +16,7 @@
 
   {% for cath in cath_names %}
     {% assign cath_name = cath | first %}
-    <h2 id="{{ cath_name }}">{{ cath_name }} ({{ site.categories[cath_name] | size }})</h2>
+    <h2 id="{{ cath_name }}">{{ cath_name }} 카테고리 ({{ site.categories[cath_name] | size }})</h2>
     {% for post in site.categories[cath_name] %}
       {% assign preview_image_url = post.image %}
       {% assign preview_url = post.url %}
@@ -28,19 +28,19 @@
     {% endfor %}      
   {% endfor %}
 
-  <h2 id="미분류">미분류</h2>
-  {% for post in site.posts %}
-    {% if post.category %}
-      {% continue %}
-    {% endif %}
-    {% assign preview_image_url = post.image.path %}
-    {% assign preview_url = post.url %}
-    {% assign preview_title = post.title %}
-    {% assign preview_description = post.description %}
-    {% assign preview_date = post.date %}
-    {% include body-preview.html %}
-    <hr>
-  {% endfor %}
+  {% unless category %}
+    <h2 id="미분류">미분류 카테고리</h2>
+    {% for post in site.posts %}
+      {% if post.category %}{% continue %}{% endif %}
+      {% assign preview_image_url = post.image.path %}
+      {% assign preview_url = post.url %}
+      {% assign preview_title = post.title %}
+      {% assign preview_description = post.description %}
+      {% assign preview_date = post.date %}
+      {% include body-preview.html %}
+      <hr>
+    {% endfor %}
+  {% endunless %}
 </div>
 
 <!-- end of body-category.html -->
