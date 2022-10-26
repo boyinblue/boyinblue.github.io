@@ -46,7 +46,9 @@
 
   <h2 id="미분류">미분류</h2>
   {% for post in site.posts %}
-    {% unless post.category %}
+    {% if post.category %}
+      {% continue %}
+    {% endif %}
     {% if post.image.path %}
       {% assign image_url = {{ post.image.path }} %}
     {% elsif post.image %}
@@ -70,7 +72,7 @@
         </div>
       </div>
     </a>
-  {% endfor %}
+{% endfor %}
 </div>
 
 <!-- end of body-category.html -->
