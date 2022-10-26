@@ -2,7 +2,9 @@
 
 <div id="categories">
 
+  summery init : {{ summery }} <br />
   {% assign summary = summary | default false %}
+  summery : {{ summery }}
   {% assign cath_names = "" | split: ',' %}
   {% if category %}
     {% assign cath_names = cath_names | push: category %}
