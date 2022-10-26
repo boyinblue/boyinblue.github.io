@@ -31,7 +31,7 @@ Visual Studio Code 다운로드
 [Visual Studio Code](https://code.visualstudio.com "Visual Studio Code Download")
 
 
-{% include body-preview url='https://code.visualstudio.com' %}
+{% include body-preview.html url='https://code.visualstudio.com' %}
 
 
 위의 경로로 접속하시면 Visual Studio Code를 무료로 다운로드 가능합니다. 
