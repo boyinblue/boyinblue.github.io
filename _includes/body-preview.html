@@ -6,7 +6,7 @@
       <h3 style="padding: 0;">{{ title | default "Title을 입력해주세요." }}</h3>
       <pre style="overflow: hidden">{{ description | default "Description을 입력해주세요." }}</pre>
       {% if post_date %}
-        ({{ post.date | date: "%Y-%m-%d" }} 작성)<br />
+        ({{ post_date | date: "%Y-%m-%d" }} 작성)<br />
       {% endif %}
     </div>
   </div>
