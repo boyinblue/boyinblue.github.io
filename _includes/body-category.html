@@ -2,13 +2,10 @@
 
 <div id="categories">
 
-  summery init : {{ summery }} <br />
   {% assign summary = summary | default false %}
-  summery : {{ summery }}
   {% assign cath_names = "" | split: ',' %}
   {% if category %}
     {% assign cath_names = cath_names | push: category %}
-    {% assign summary = false %}
   {% else %}
     <p>
     {% for cath in site.categories %}
@@ -26,7 +23,7 @@
     </p>
   {% endif %}
 
-  {% if summary != true %}
+  {% if summary == false %}
     {% for cath_name in cath_names %}
       <h3 id="{{ cath_name }}">{{ cath_name }} 카테고리 ({{ site.categories[cath_name] | size }})</h3>
       {% assign post_num = site.categories[cath_name] | size %}
