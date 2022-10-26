@@ -1,10 +1,5 @@
 <!-- start of body-category.html -->
 
-{% capture site_caths %}{% for cath in site.categories %}{{ cath | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
-<!-- site_cates: {{ site_cates }} -->
-{% assign cath_words = site_caths | split:',' | sort %}
-<!-- cath_words: {{ cath_words }} -->
-
 <div id="categories">
   <p>
   {% for cath in site.categories %}
