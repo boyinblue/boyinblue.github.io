@@ -18,4 +18,4 @@ C, Bash, Python, Java, Java Script 등의 프로그래밍 언어 관련 내용�
 ---
 
 {% assign summery=true %}
-{% include body-category.html summery=true %}
+{% include body-category.html %}
