@@ -9,7 +9,7 @@
   </p>
 
   {% for cath in site.categories %}
-    <h2 id="{{ cath_name }}">{{ cath_name }}</h2>
+    <h2 id="{{ cath_name }}" style="clear: both;"">{{ cath_name }}</h2>
     {% for post in site.categories[cath_name] %}
       <a href="{{ post.url }}">
         {% if post.image.path %}
