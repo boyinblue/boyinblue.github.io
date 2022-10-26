@@ -15,7 +15,7 @@
     </p>
   {% endif %}
 
-  cath_names : {{ cath_names }}<br />
+  cath_names : {{ cath_names }} ({{ cath_names | size }})<br />
 
   {% for cath_name in cath_names %}
     <h2 id="{{ cath_name }}">{{ cath_name }} 카테고리 ({{ site.categories[cath_name] | size }})</h2>
