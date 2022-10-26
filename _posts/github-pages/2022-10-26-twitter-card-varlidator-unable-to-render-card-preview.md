@@ -56,7 +56,7 @@ HTML 메타 테그(Open Graph)
 ---
 
 
-[Twitter Card Validator](https://cards-dev.twitter.com/validator '트위터 카드 검증 페이지)
+[Twitter Card Validator](https://cards-dev.twitter.com/validator '트위터 카드 검증 페이지')
 
 
 위의 홈페이지에 접속하셔서 체크할 페이지의 URL을 입력하시면 됩니다. 
