@@ -2,12 +2,14 @@
 
   <div style="height: 300; border-radius: 3px; clear:both;">
     <a href="{{ url }}"><figure><img src="{{ image_url | default site.image.path }}" style="border-radius: 20px; width: 20%; float: left; margin: 2px; height: 100%;"></figure></a>
-    <div style="clear:both; margin: 0; height: 100%; overflow: hidden">
+    <div style="float: left; margin: 0; height: 100%; overflow: hidden">
       <h3 style="padding: 0;">{{ title | default "Title을 입력해주세요." }}</h3>
       <pre style="overflow: hidden">{{ description | default "Description을 입력해주세요." }}</pre>
       {% if post_date %}
         ({{ post_date | date: "%Y-%m-%d" }} 작성)<br />
       {% endif %}
+    </div>
+    <div style="clear: both;">
     </div>
   </div>
 
