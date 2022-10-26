@@ -2,7 +2,7 @@
 title: 링크 프리뷰 구현하는 방법(float 스타일 사용)
 permalink: /html/html-horizontal-objects-with-float-style.html
 description: 티스토리 블로그에 다른 게시물 링크의 이미지 및 내용이 미리 표시되는 것처럼 프리뷰를 구현하는 방법 설명
-image: /assets/images/html-float.png
+image: /assets/images/html/html-float.png
 category: html
 ---
 
