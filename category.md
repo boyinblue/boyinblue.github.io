@@ -17,23 +17,14 @@ category: menu
     {% assign cath_name = cath | first %}
     <h2 id="{{ cath_name }}">{{ cath_name }}</h2>
     {% for post in site.categories[cath_name] %}
-      <a href="{{ post.url }}">
-        {% if post.image.path %}
-          {% assign image_url = post.image.path %}
-        {% elsif post.image %}
-          {% assign image_url = post.image %}
-        {% else %}
-          {% assign image_url = site.image.path %}
-        {% endif %}
-        <div style="height: 300; border-radius: 3px; clear:both;">
-          <figure><img src="{{ image_url }}" style="width: 20%; float: left; margin: 2px; height: 100%;"></figure>
-          <div style="float: right; margin: 0; width: 75%; height: 100%; overflow: hidden">
-            <h3 style="padding: 0;">{{ post.title }}</h3>
-            <pre style="overflow: hidden">{{ post.description }}</pre>
-            ({{ post.date | date: "%Y-%m-%d" }} 작성)<br />
-          </div>
-        </div>
-      </a>
+      {% if post.image.path %}
+        {% assign image_url = post.image.path %}
+      {% elsif post.image %}
+        {% assign image_url = post.image %}
+      {% else %}
+        {% assign image_url = site.image.path %}
+      {% endif %}
+      {% include body-preview.html url=post.url image_url=image_url title=post.title description=post.description post_date=post.date %}
     {% endfor %}      
   {% endfor %}
 
@@ -49,17 +40,6 @@ category: menu
     {% else %}
       {% assign image_url = {{ site.image.path }} %}
     {% endif %}
-    <a href="{{ post.url }}">
-      <div style="height: 300; border-radius: 3px; clear: both;">
-        <div style="width: 20%; float: left; margin: 2px; height: 100%">
-          <figure><img style="border-radius: 20px;" src="{{ image_url }}" width=100%></figure>
-        </div>
-        <div style="float: right; margin: 10px 0 10px 0; width: 75%; height: 100%; overflow: hidden">
-          <h3 style="overflow: hidden">{{ post.title }}</h3>
-          <pre style="overflow: hidden">{{ post.description }}</pre>
-          ({{ post.date | date: "%Y-%m-%d" }} 작성)<br />
-        </div>      
-      </div>
-    </a>
-{% endfor %}
+    {% include body-preview.html url=post.url image_url=image_url title=post.title description=post.description post_date=post.date %}
+  {% endfor %}
 </div>
