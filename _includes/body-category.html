@@ -7,17 +7,15 @@
 
 <div id="categories">
   <p>
-  {% for cath in cath_words %}
+  {% for cath in site.categories %}
   <a style="background-color: #0040ff; color: #fff; border-radius: 10px; padding: 3px 5px; font-size: 12px; font-weight: bold; text-decoration: none;" href="#{{ cath }}">{{ cath }} {{ site.categories[cath] | size }}</a>
   {% endfor %}
   </p>
 
-  {% for item in (0..site.categories.size) %}
-    {% unless forloop.last %}
-      {% capture this_word %}{{ cath_words[item] | strip_newlines }}{% endcapture %}
-      <h2 id="{{ this_word }}">{{ this_word }}</h2>
-      {% for post in site.categories[this_word] %}
-        <a href="{{ post.url }}"><img style="border-radius: 20px;" src="{{ site.image.path }}" width=100%></a>
+  {% for cath in site.categories %}
+    <h2 id="{{ cath }}">{{ cath }}</h2>
+    {% for post in site.categories[cath] %}
+      <a href="{{ post.url }}"><img style="border-radius: 20px;" src="{{ site.image.path }}" width=100%></a>
         {% if post.image.path %}
           {% assign image_url = {{ post.image.path }} %}
         {% elsif post.image %}
@@ -25,9 +23,9 @@
         {% else %}
           {% assign image_url = {{ site.image.path }} %}
         {% endif %}
-        <img style="border-radius: 20px;" src="{{ image_url }}" width=100%>
         <div style="height: 300; border-radius: 3px;">
           <div style="width: 20%; float: left; margin: 2px; height: 100%">
+            <img style="border-radius: 20px;" src="{{ image_url }}" width=100%>
           </div>
       
           <div style="float: right; margin: 10px 0 10px 0; width: 75%; height: 100%; overflow: hidden">
@@ -40,8 +38,7 @@
           <div style="clear: both; width: 0">
           </div>
         </div>
-      {% endfor %}      
-    {% endunless %}
+    {% endfor %}      
   {% endfor %}
 
   <h2 id="미분류">미분류</h2>
