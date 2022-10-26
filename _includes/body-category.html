@@ -8,13 +8,14 @@
 <div id="categories">
   <p>
   {% for cath in site.categories %}
-  <a style="background-color: #0040ff; color: #fff; border-radius: 10px; padding: 3px 5px; font-size: 12px; font-weight: bold; text-decoration: none;" href="#{{ cath }}">{{ cath }} {{ site.categories[cath] | size }}</a>
+  {% assign cath_name = cath | first %}
+  <a style="background-color: #0040ff; color: #fff; border-radius: 10px; padding: 3px 5px; font-size: 12px; font-weight: bold; text-decoration: none;" href="#{{ cath }}">{{ cath_name }} {{ site.categories[cath_name] | size }}</a>
   {% endfor %}
   </p>
 
   {% for cath in site.categories %}
-    <h2 id="{{ cath }}">{{ cath }}</h2>
-    {% for post in site.categories[cath] %}
+    <h2 id="{{ cath }}">{{ cath_name }}</h2>
+    {% for post in site.categories[cath_name] %}
       <a href="{{ post.url }}"><img style="border-radius: 20px;" src="{{ site.image.path }}" width=100%></a>
         {% if post.image.path %}
           {% assign image_url = {{ post.image.path }} %}
