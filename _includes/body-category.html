@@ -12,7 +12,7 @@
       {% assign cath_name = cath | first %}
       {% assign cath_names = cath_names | push: cath_name %}
       <div style="float: left; border: 1px solid #000; margin: 5px">
-      {% if summary = true %}
+      {% if summary == true %}
         <a style="background-color: #ffffff; color: #000; border-radius: 0px; border: 3px; padding: 5px 5px; font-size: 12px; font-weight: bold; text-decoration: none;" href="/category/#{{ cath_name }}">{{ cath_name }} {{ site.categories[cath_name] | size }}</a>
       {% else %}
         <a style="background-color: #ffffff; color: #000; border-radius: 0px; border: 3px; padding: 5px 5px; font-size: 12px; font-weight: bold; text-decoration: none;" href="#{{ cath_name }}">{{ cath_name }} {{ site.categories[cath_name] | size }}</a>
@@ -25,7 +25,7 @@
 
   {% if summary == false %}
     {% for cath_name in cath_names %}
-      <h3 id="{{ cath_name }}">{{ cath_name }} 카테고리 ({{ site.categories[cath_name] | size }})</h2>
+      <h3 id="{{ cath_name }}">{{ cath_name }} 카테고리 ({{ site.categories[cath_name] | size }})</h3>
       {% assign post_num = site.categories[cath_name] | size %}
       {% if post_num == 0 %}카테고리에 글이 하나도 없습니다. 😥{% break %}{% endif %}
       {% for post in site.categories[cath_name] %}
@@ -40,7 +40,7 @@
     {% endfor %}
 
     {% unless category %}
-      <h3 id="미분류">미분류 카테고리</h2>
+      <h3 id="미분류">미분류 카테고리</h3>
       {% for post in site.posts %}
         {% if post.category %}{% continue %}{% endif %}
         {% assign preview_image_url = post.image %}
