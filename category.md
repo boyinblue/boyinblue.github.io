@@ -5,6 +5,7 @@ description: 이 사이트에서 제공하는 모든 카테고리들을 살펴�
 category: menu
 ---
 
+<div id="categories">
   <p>
   {% for cath in site.categories %}
   {% assign cath_name = cath | first %}
@@ -25,16 +26,13 @@ category: menu
         {% endif %}
         <div style="height: 300; border-radius: 3px;">
           <div style="width: 20%; float: left; margin: 2px; height: 100%">
-            ![]({{ image_url }})
+            <img style="border-radius: 20px;" src="{{ image_url }}" width=100%>
           </div>
-
           <div style="float: right; margin: 10px 0 10px 0; width: 75%; height: 100%; overflow: hidden">
             <h3 style="overflow: hidden">{{ post.title }}</h3>
             <pre style="overflow: hidden">{{ post.description }}</pre>
             ({{ post.date | date: "%Y-%m-%d" }} 작성)<br>
-            <a href="{{ post.url }}">더보기</a>
           </div>
-      
           <div style="clear: both; width: 0">
           </div>
         </div>
@@ -71,3 +69,4 @@ category: menu
       </div>
     </a>
 {% endfor %}
+</div>
