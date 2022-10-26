@@ -34,7 +34,7 @@ Visual Studio Code 다운로드
 {% assign image_url='https://code.visualstudio.com/opengraphimg/opengraph-home.png' %}
 {% assign title='Visual Studio Code - Code Editing. Redefined' %}
 {% assign description='Visual Studio Code is a code editor redefined and optimized for building and debugging modern web and cloud applications.  Visual Studio Code is free and available on your favorite platform - Linux, macOS, and Windows.' %}
-{% include body-preview.html image_ur=image_url title=title description=description %}
+{% include body-preview.html %}
 
 
 위의 경로로 접속하시면 Visual Studio Code를 무료로 다운로드 가능합니다. 
