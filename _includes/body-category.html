@@ -2,6 +2,7 @@
 
 <div id="categories">
 
+  {% assign summary = summary | default false %}
   {% assign cath_names = "" | split: ',' %}
   {% if category %}
     {% assign cath_names = cath_names | push: category %}
