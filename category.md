@@ -18,11 +18,11 @@ category: menu
     {% for post in site.categories[cath_name] %}
       <a href="{{ post.url }}">
         {% if post.image.path %}
-          {% assign image_url = {{ post.image.path }} %}
+          {% assign image_url = post.image.path %}
         {% elsif post.image %}
-          {% assign image_url = {{ post.image }} %}
+          {% assign image_url = post.image %}
         {% else %}
-          {% assign image_url = {{ site.image.path }} %}
+          {% assign image_url = site.image.path %}
         {% endif %}
         <div style="height: 300; border-radius: 3px;">
           <div style="width: 20%; float: left; margin: 2px; height: 100%">
