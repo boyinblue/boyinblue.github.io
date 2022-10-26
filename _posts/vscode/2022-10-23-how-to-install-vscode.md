@@ -30,10 +30,10 @@ Visual Studio Code 다운로드
 
 [Visual Studio Code](https://code.visualstudio.com "Visual Studio Code Download")
 
-{% assign url='https://code.visualstudio.com' %}
-{% assign image_url='https://code.visualstudio.com/opengraphimg/opengraph-home.png' %}
-{% assign title='Visual Studio Code - Code Editing. Redefined' %}
-{% assign description='Visual Studio Code is a code editor redefined and optimized for building and debugging modern web and cloud applications.  Visual Studio Code is free and available on your favorite platform - Linux, macOS, and Windows.' %}
+{% assign preview_url='https://code.visualstudio.com' %}
+{% assign preview_image_url='https://code.visualstudio.com/opengraphimg/opengraph-home.png' %}
+{% assign preview_title='Visual Studio Code - Code Editing. Redefined' %}
+{% assign preview_description='Visual Studio Code is a code editor redefined and optimized for building and debugging modern web and cloud applications.  Visual Studio Code is free and available on your favorite platform - Linux, macOS, and Windows.' %}
 {% include body-preview.html %}
 
 

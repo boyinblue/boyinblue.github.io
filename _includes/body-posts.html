@@ -3,18 +3,12 @@
   <small style="background-color: #f4d03f; color: #000000; border-radius: 3px; padding: 3px 5px; font-size: 16px; font-weight: bold; text-decoration: none;"> 블로그 글 더보기</small><br>
   {% for post in site.posts limit:5 %}
   
-    {% if post.image.path %}
-      {% assign image_url = post.image.path %}
-    {% elsif post.image %}
-      {% assign image_url = post.image %}
-    {% else %}
-      {% assign image_url = site.image.path %}
-    {% endif %}
-    {% assign url = post.url %}
-    {% assign title = post.title %}
-    {% assign description = post.description %}
-    {% assign post_date = post.date %}
-    {% include body-preview.html url=url image_url=image_url title=title description=description post_date=post_date %}
+    {% assign preview_image_url = post.image %}
+    {% assign preview_url = post.url %}
+    {% assign preview_title = post.title %}
+    {% assign preview_description = post.description %}
+    {% assign preview_post_date = post.date %}
+    {% include body-preview.html %}
   {% endfor %}
 
 <!-- end of body-posts.html -->

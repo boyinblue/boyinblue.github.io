@@ -1,12 +1,12 @@
 <!-- start of body-preview.html -->
 
   <div style="height: 300; border-radius: 3px;">
-    <a href="{{ url }}"><figure><img src="{{ image_url | default site.image.path }}" style="float: left; width: 20%; height: 100%; border-radius: 20px; margin: 2px;"></figure></a>
+    <a href="{{ preview_url }}"><figure><img src="{{ preview_image_url | default site.image.path }}" style="float: left; width: 20%; height: 100%; border-radius: 20px; margin: 2px;"></figure></a>
     <div style="float: right; margin: 0; width: 75%; height: 100%;">
-      <h3 style="padding: 0;">{{ title | default "Title을 입력해주세요." }}</h3>
-      <pre style="overflow: hidden">{{ description | default "Description을 입력해주세요." }}</pre>
-      {% if post_date %}
-        ({{ post_date | date: "%Y-%m-%d" }} 작성)<br />
+      <h3 style="padding: 0;">{{ preview_title | default "Title을 입력해주세요." }}</h3>
+      <pre style="overflow: hidden">{{ preview_description | default "Description을 입력해주세요." }}</pre>
+      {% if preview_date %}
+        ({{ preview_date | date: "%Y-%m-%d" }} 작성)<br />
       {% endif %}
     </div>
     <div style="clear: both; width: 0">
