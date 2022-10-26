@@ -25,10 +25,9 @@ category: menu
         {% assign image_url = site.image.path %}
       {% endif %}
       {% assign url = post.url %}
-      {% assign title = post.title %}
       {% assign description = post.description %}
       {% assign post_date = post.date %}
-      {% include body-preview.html url=url image_url=image_url title=title description=description post_date=post_date %}
+      {% include body-preview.html url=url image_url=image_url title=post.title description=description post_date=post_date %}
     {% endfor %}      
   {% endfor %}
 
