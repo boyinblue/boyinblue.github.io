@@ -2,26 +2,19 @@
 
   <small style="background-color: #f4d03f; color: #000000; border-radius: 3px; padding: 3px 5px; font-size: 16px; font-weight: bold; text-decoration: none;"> 블로그 글 더보기</small><br>
   {% for post in site.posts limit:5 %}
-  <a href="{{ post.url }}">
-  <h3>{{ post.title }}</h3>
-  <div style="height: 300; border-radius: 3px; clear: both;">
-    <div style="width: 20%; float: left; margin: 2px; height: 100%">
+  
     {% if post.image.path %}
-      <img style="border-radius: 20px;" src="{{ post.image.path }}" width=100%>
+      {% assign image_url = post.image.path %}
     {% elsif post.image %}
-      <img style="border-radius: 20px;" src="{{ post.image }}" width=100%>
+      {% assign image_url = post.image %}
     {% else %}
-      <img style="border-radius: 20px;" src="{{ site.image.path }}" width=100%>
+      {% assign image_url = site.image.path %}
     {% endif %}
-    </div>
-
-    <div style="float: right; margin: 10px 0 10px 0; width: 75%; height: 100%">
-      {{ post.description }}<br />
-      ({{ post.date | date: "%Y-%m-%d" }} 작성)<br />
-    </div>
-  </div>
-  </a>
-  <hr>
+    {% assign url = post.url %}
+    {% assign title = post.title %}
+    {% assign description = post.description %}
+    {% assign post_date = post.date %}
+    {% include body-preview.html url=url image_url=image_url title=title description=description post_date=post_date %}
   {% endfor %}
 
 <!-- end of body-posts.html -->

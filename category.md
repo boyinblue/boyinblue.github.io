@@ -8,14 +8,14 @@ category: menu
 <div id="categories">
   <p>
   {% for cath in site.categories %}
-  {% assign cath_name = cath | first %}
-  <a style="background-color: #0040ff; color: #fff; border-radius: 10px; padding: 3px 5px; font-size: 12px; font-weight: bold; text-decoration: none;" href="#{{ cath_name }}">{{ cath_name }} {{ site.categories[cath_name] | size }}</a>
+    {% assign cath_name = cath | first %}
+    <a style="background-color: #0040ff; color: #fff; border-radius: 10px; padding: 3px 5px; font-size: 12px; font-weight: bold; text-decoration: none;" href="#{{ cath_name }}">{{ cath_name }} {{ site.categories[cath_name] | size }}</a>
   {% endfor %}
   </p>
 
   {% for cath in site.categories %}
     {% assign cath_name = cath | first %}
-    <h2 id="{{ cath_name }}">{{ cath_name }}</h2>
+    <h2 id="{{ cath_name }}">{{ cath_name }} ({{ site.categories[cath_name] | size }})</h2>
     {% for post in site.categories[cath_name] %}
       {% if post.image.path %}
         {% assign image_url = post.image.path %}
@@ -39,11 +39,11 @@ category: menu
       {% continue %}
     {% endif %}
     {% if post.image.path %}
-      {% assign image_url = {{ post.image.path }} %}
+      {% assign image_url = post.image.path %}
     {% elsif post.image %}
-      {% assign image_url = {{ post.image }} %}
+      {% assign image_url = post.image %}
     {% else %}
-      {% assign image_url = {{ site.image.path }} %}
+      {% assign image_url = site.image.path %}
     {% endif %}
     {% assign url = post.url %}
     {% assign title = post.title %}
