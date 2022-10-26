@@ -2,7 +2,7 @@
 title: mySQL 기본 명령어 정리
 permalink: /_pages/mysql/2022-05-13-mysql-basic-query.html
 description: mySQL 기본적인 명령어를 기록해두는 페이지입니다.
-image: /assets/images/mysql-service-is-running-well.png
+image: /assets/images/mysql/mysql-service-is-running-well.png
 category: mysql
 ---
 ### mySQL 설치 방법
@@ -39,7 +39,7 @@ $ sudo service mysql status
 아래와 같이 <code>active (running)</code>으로 상태가 표시되어야 합니다. 
 
 
-![mysql 서비스가 정상적으로 실행중인 상태](/assets/images/mysql-service-is-running-well.png)
+![mysql 서비스가 정상적으로 실행중인 상태](/assets/images/mysql/mysql-service-is-running-well.png)
 
 
 ### mySQL 콘솔 접속 방법
