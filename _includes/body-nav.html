@@ -20,9 +20,9 @@
         <li><a href="/link">유용한 링크</a></li>
       </ul>
       <hr>
-      <ul>
-        <li><a href="/002_github_blog">GitHub Pages</a></li>
-      </ul>
+      {% assign cate_mode="summary" %}
+      {% assign category="all" %}
+      {% include body-category.html %}
     </nav>
 
 <!-- end of body nav (_includes/body-nav.html) -->

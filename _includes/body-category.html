@@ -2,12 +2,9 @@
 
 <div id="categories">
 
-  category : {{ category }}<br />
-  cate_mode : {{ cate_mode }}<br />
   {% assign cate_names = "" | split: ',' %}
   {% if cate_mode == "summary" %}{% assign category = "all" %}{% endif %}
 
-  category2 : {{ category }}<br />
   {% if category != "all" %}
     {% assign cate_names = cate_names | push: category %}
   {% else %}
@@ -43,19 +40,17 @@
       {% endfor %}      
     {% endfor %}
 
-    {% unless category %}
-      <h3 id="미분류">미분류 카테고리</h3>
-      {% for post in site.posts %}
-        {% if post.category %}{% continue %}{% endif %}
-        {% assign preview_image_url = post.image %}
-        {% assign preview_url = post.url %}
-        {% assign preview_title = post.title %}
-        {% assign preview_description = post.description %}
-        {% assign preview_date = post.date %}
-        {% include body-preview.html %}
-        <hr>
-      {% endfor %}
-    {% endunless %}
+    <h3 id="미분류">미분류 카테고리</h3>
+    {% for post in site.posts %}
+      {% if post.category %}{% continue %}{% endif %}
+      {% assign preview_image_url = post.image %}
+      {% assign preview_url = post.url %}
+      {% assign preview_title = post.title %}
+      {% assign preview_description = post.description %}
+      {% assign preview_date = post.date %}
+      {% include body-preview.html %}
+      <hr>
+    {% endfor %}
   {% endif %}
 </div>
 
