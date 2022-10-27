@@ -28,5 +28,5 @@ tags:
 
 
 {% assign summary=false %}
-{% assign category=diary %}
+{% assign category="diary" %}
 {% include body-category.html %}

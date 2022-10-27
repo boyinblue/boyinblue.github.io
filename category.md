@@ -6,5 +6,5 @@ category: menu
 ---
 
 {% assign summary=false %}
-{% assign ctegory=all %}
+{% assign category="all" %}
 {% include body-category.html %}
