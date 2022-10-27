@@ -7,4 +7,6 @@ tags:
 - git
 ---
 
-{% include body-category.html summary=false %}
+{% assign summary=false %}
+{% assign category=site.category %}
+{% include body-category.html %}
