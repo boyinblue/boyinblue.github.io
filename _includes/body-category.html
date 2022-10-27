@@ -14,7 +14,7 @@
     <p>
     {% for cath in site.categories %}
       {% assign cate_name = cath | first %}
-      {% assign cate_names = cat_names | push: cate_name %}
+      {% assign cate_names = cate_names | push: cate_name %}
       <div style="float: left; border: 1px solid #000; margin: 5px">
       {% if cate_mode == "summary" %}
         <a style="background-color: #ffffff; color: #000; border-radius: 0px; border: 3px; padding: 5px 5px; font-size: 12px; font-weight: bold; text-decoration: none;" href="/category/#{{ cate_name }}">{{ cate_name }} {{ site.categories[cate_name] | size }}</a>
