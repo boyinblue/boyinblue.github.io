@@ -2,10 +2,11 @@
 
 <div id="categories">
 
+  {% assign category = category | default "all" %}
   {% assign summary = summary | default false %}
   {% assign cath_names = "" | split: ',' %}
-  {% if summary == true %}{% assign category = "" %}{% endif %}
-  {% if category != "" %}
+  {% if summary == true %}{% assign category = "all" %}{% endif %}
+  {% if category != "all" %}
     {% assign cath_names = cath_names | push: category %}
   {% else %}
     <p>
@@ -20,7 +21,7 @@
       {% endif %}
       </div>
     {% endfor %}
-    <div style="clear:both"></div>
+      <div style="clear:both"></div>
     </p>
   {% endif %}
 
