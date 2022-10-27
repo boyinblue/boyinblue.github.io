@@ -7,6 +7,6 @@ tags:
 - git
 ---
 
-{% assign summary=false %}
+{% assign cate_mode="detail" %}
 {% assign category=site.category %}
 {% include body-category.html %}

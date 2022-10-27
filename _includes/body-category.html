@@ -3,12 +3,11 @@
 <div id="categories">
 
   category : {{ category }}<br />
-  summary : {{ summary }}<br />
+  cate_mode : {{ cate_mode }}<br />
   {% assign cate_names = "" | split: ',' %}
-  {% if summary == true %}{% assign category = "all" %}{% endif %}
+  {% if cate_mode == "summary" %}{% assign category = "all" %}{% endif %}
 
   category2 : {{ category }}<br />
-  summary2 : {{ summary }}<br />
   {% if category != "all" %}
     {% assign cate_names = cate_names | push: category %}
   {% else %}
@@ -17,7 +16,7 @@
       {% assign cate_name = cath | first %}
       {% assign cate_names = cat_names | push: cate_name %}
       <div style="float: left; border: 1px solid #000; margin: 5px">
-      {% if summary %}
+      {% if cate_mode == "summary" %}
         <a style="background-color: #ffffff; color: #000; border-radius: 0px; border: 3px; padding: 5px 5px; font-size: 12px; font-weight: bold; text-decoration: none;" href="/category/#{{ cate_name }}">{{ cate_name }} {{ site.categories[cate_name] | size }}</a>
       {% else %}
         <a style="background-color: #ffffff; color: #000; border-radius: 0px; border: 3px; padding: 5px 5px; font-size: 12px; font-weight: bold; text-decoration: none;" href="#{{ cate_name }}">{{ cate_name }} {{ site.categories[cate_name] | size }}</a>
@@ -28,7 +27,7 @@
     </p>
   {% endif %}
 
-  {% if summary != true %}
+  {% if cate_mode != "detail" %}
     {% for cate_name in cate_names %}
       <h3 id="{{ cate_name }}">{{ cate_name }} 카테고리 ({{ site.categories[cate_name] | size }})</h3>
       {% assign post_num = site.categories[cate_name] | size %}

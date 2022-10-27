@@ -27,6 +27,6 @@ tags:
 성남시 수정구 고등동 왕남초등학교 앞에는 다양한 푸드트럭이 오니다. 매주 수요일마다 오는 야채트럭에서 갑오징어를 구입한 일상을 기록합니다. 
 
 
-{% assign summary=false %}
+{% assign cate_mode="detail" %}
 {% assign category="diary" %}
 {% include body-category.html %}
