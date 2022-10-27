@@ -457,6 +457,7 @@ Small Device Styles
   #left_bar {
     position: fixed;
     clear: both;
+  }
 
   #downloads {
     display: none;
@@ -504,6 +505,11 @@ Small Device Styles
 @media screen and (max-width: 320px) {
   body {
     font-size:14px;
+  }
+
+  #left_bar {
+    position: fixed;
+    clear: both;
   }
 
   #downloads {
