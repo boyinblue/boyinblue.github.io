@@ -13,7 +13,7 @@ category: menu
   <p>
   {% for tag in tag_words %}
     <div id="tag_btn">
-      <a style="background-color: #0040ff; color: #fff; border-radius: 10px; padding: 3px 5px; font-size: 12px; font-weight: bold; text-decoration: none;" href="#{{ tag | cgi_escape }}">
+      <a style="background-color: #ffffff; color:#000000; padding: 5px 5px; font-size: 12px; font-weight: bold; text-decoration: none;" href="#{{ tag | cgi_escape }}">
     #{{ tag }} {{ site.tags[tag] | size }}</a>
     </div>
   {% endfor %}
@@ -25,7 +25,6 @@ category: menu
       {% capture this_word %}{{ tag_words[item] | strip_newlines }}{% endcapture %}
       <h2 id="{{ this_word | cgi_escape }}">#{{ this_word }}</h2>
       {% for post in site.tags[this_word] %}
-
         {% assign preview_image_url = post.image %}
         {% assign preview_url = post.url %}
         {% assign preview_title = post.title %}
@@ -33,7 +32,6 @@ category: menu
         {% assign preview_date = post.date %}
         {% include body-preview.html %}
       {% endfor %}
-      </ul>
     {% endunless %}
   {% endfor %}
 </div>
