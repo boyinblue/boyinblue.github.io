@@ -447,6 +447,7 @@ Small Device Styles
   #left_bar {
     position: fixed;
     clear: both;
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -469,7 +470,7 @@ Small Device Styles
   }
 
   #project_title {
-  font-size: 20px;
+    font-size: 20px;
   }
 
   h1 {
@@ -522,7 +523,7 @@ Small Device Styles
   }
 
   #project_title {
-  font-size: 20px;
+    font-size: 20px;
   }
 
   h1 {
@@ -554,5 +555,4 @@ Small Device Styles
     max-width: 320px;
     font-size: 11px;
   }
-
 }
