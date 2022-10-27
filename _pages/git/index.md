@@ -7,6 +7,5 @@ tags:
 - git
 ---
 
-{% assign cate_mode="detail" %}
 {% assign category=page.category %}
 {% include body-category.html %}

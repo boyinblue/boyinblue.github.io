@@ -6,7 +6,7 @@
   {% for cath in site.categories %}
     {% assign cate_name = cath | first %}
     <div class="category_btn">
-      <a class="link" href="#{{ cate_name }}">{{ cate_name }} {{ site.categories[cate_name] | size }}</a>
+      <a class="link" href="/category/#{{ cate_name }}">{{ cate_name }} {{ site.categories[cate_name] | size }}</a>
     </div>
     {% endfor %}
     <div style="clear:both"></div>
