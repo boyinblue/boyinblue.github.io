@@ -443,16 +443,20 @@ Small Device Styles
   img {
     max-width: 100%;
   }
+
+  #left_bar {
+    position: fixed;
+    clear: both;
 }
 
 @media screen and (max-width: 480px) {
-  nav {
-    display: none
-  }
-
   body {
     font-size:14px;
   }
+
+  #left_bar {
+    position: fixed;
+    clear: both;
 
   #downloads {
     display: none;
@@ -498,10 +502,6 @@ Small Device Styles
 }
 
 @media screen and (max-width: 320px) {
-  nav {
-    display: none
-  }
-
   body {
     font-size:14px;
   }
