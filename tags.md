@@ -17,7 +17,7 @@ category: menu
     #{{ tag }} {{ site.tags[tag] | size }}</a>
     </div>
   {% endfor %}
-    <div style="clar: both;"></div>
+    <div style="clear: both;"></div>
   </p>
 
   {% for item in (0..site.tags.size) %}
