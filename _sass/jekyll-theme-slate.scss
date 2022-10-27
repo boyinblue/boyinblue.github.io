@@ -545,6 +545,14 @@ Small Device Styles
     clear: both;
   }
 
+  #left_bar {
+    position: relative;
+    width: 100%;
+    clear: both;
+    min-width: 320px;
+    max-width: 480px;
+  }
+
   #downloads {
     display: none;
   }
