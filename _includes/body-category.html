@@ -27,7 +27,7 @@
     </p>
   {% endif %}
 
-  {% if cate_mode != "detail" %}
+  {% if cate_mode == "detail" %}
     {% for cate_name in cate_names %}
       <h3 id="{{ cate_name }}">{{ cate_name }} 카테고리 ({{ site.categories[cate_name] | size }})</h3>
       {% assign post_num = site.categories[cate_name] | size %}
