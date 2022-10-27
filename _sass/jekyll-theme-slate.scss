@@ -413,6 +413,7 @@ Full-Width Styles
 }
 
 #left_bar {
+  display: inline-block;
   position: fixed;
   overflow: auto;
   float: left;
@@ -487,8 +488,8 @@ Small Device Styles
 
   #left_bar {
     position: relative;
-    clear: both;
     width: 100%;
+    clear: both;
     left: 0;
     min-width: 320px;
     max-width: 480px;
