@@ -8,5 +8,5 @@ tags:
 ---
 
 {% assign cate_mode="detail" %}
-{% assign category=site.category %}
+{% assign category=page.category %}
 {% include body-category.html %}
