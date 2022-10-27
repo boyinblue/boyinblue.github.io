@@ -445,7 +445,7 @@ Small Device Styles
   }
 
   #left_bar {
-    position: fixed;
+    position: relative;
     clear: both;
   }
 }
@@ -456,7 +456,7 @@ Small Device Styles
   }
 
   #left_bar {
-    position: fixed;
+    position: relative;
     clear: both;
   }
 
@@ -509,7 +509,6 @@ Small Device Styles
   }
 
   #left_bar {
-    position: fixed;
     clear: both;
   }
 
