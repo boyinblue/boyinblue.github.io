@@ -219,7 +219,6 @@ blockquote {
   border-left: 3px solid #bbb;
 }
 
-
 ul, ol, dl {
   margin-bottom: 15px
 }
@@ -429,6 +428,12 @@ Full-Width Styles
   top: 60px;
   right:10px;
   width: 200px;
+}
+
+#category_btn {
+  float: left;
+  border: 1px solid #000;
+  margin: 5px
 }
 
 #footer_wrap {
