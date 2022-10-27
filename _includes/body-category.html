@@ -8,7 +8,7 @@
   {% if cate_mode == "summary" %}{% assign category = "all" %}{% endif %}
 
   category2 : {{ category }}<br />
-  {% if category == "all" %}
+  {% if category != "all" %}
     {% assign cate_names = cate_names | push: category %}
   {% else %}
     <p>
