@@ -13,8 +13,3 @@ C, Bash, Python, Java, Java Script 등의 프로그래밍 언어 관련 내용�
 
 이 공간은 저를 위한 기록이지만, 어쩌면 누군가에게 작은 도움이라도 될 수 있기를 바랍니다. 
 
-
-카테고리
----
-
-{% assign cate_mode="summary" %}
