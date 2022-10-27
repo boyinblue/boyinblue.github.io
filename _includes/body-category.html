@@ -2,6 +2,8 @@
 
 <div id="categories">
 
+  category : {{ category }}<br />
+  summary : {{ summary }}<br />
   {% assign category = category | default "all" %}
   {% assign summary = summary | default false %}
   {% assign cath_names = "" | split: ',' %}
@@ -12,6 +14,7 @@
     <p>
     {% for cath in site.categories %}
       {% assign cath_name = cath | first %}
+      cate_name : {{ cate_name }}<br />
       {% assign cath_names = cath_names | push: cath_name %}
       <div style="float: left; border: 1px solid #000; margin: 5px">
       {% if summary == true %}
