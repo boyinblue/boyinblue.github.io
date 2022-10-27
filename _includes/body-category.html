@@ -8,6 +8,9 @@
   {% assign summary = summary | default false %}
   {% assign cate_names = "" | split: ',' %}
   {% if summary == true %}{% assign category = "all" %}{% endif %}
+
+  category2 : {{ category }}<br />
+  summary2 : {{ summary }}<br />
   {% if category != "all" %}
     {% assign cate_names = cate_names | push: category %}
   {% else %}
