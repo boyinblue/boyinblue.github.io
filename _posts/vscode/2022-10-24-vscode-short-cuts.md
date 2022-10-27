@@ -24,7 +24,7 @@ Visual Studio Code 단축키
 리눅스 단축키
 ---
 
-![리눅스 단축키](/assets/images/vscode/vscode-shortcuts-for-linux.png '리눅스 단축키')
+[![리눅스 단축키](/assets/images/vscode/vscode-shortcuts-for-linux.png '리눅스 단축키')](/assets/images/vscode/vscode-shortcuts-for-linux.png '리눅    스 단축키')
 
 
 vscode 단축키 확인하는 방법
