@@ -17,7 +17,7 @@
       {% assign cate_name = cath | first %}
       {% assign cate_names = cat_names | push: cate_name %}
       <div style="float: left; border: 1px solid #000; margin: 5px">
-      {% if summary == true %}
+      {% if summary %}
         <a style="background-color: #ffffff; color: #000; border-radius: 0px; border: 3px; padding: 5px 5px; font-size: 12px; font-weight: bold; text-decoration: none;" href="/category/#{{ cate_name }}">{{ cate_name }} {{ site.categories[cate_name] | size }}</a>
       {% else %}
         <a style="background-color: #ffffff; color: #000; border-radius: 0px; border: 3px; padding: 5px 5px; font-size: 12px; font-weight: bold; text-decoration: none;" href="#{{ cate_name }}">{{ cate_name }} {{ site.categories[cate_name] | size }}</a>
@@ -28,7 +28,7 @@
     </p>
   {% endif %}
 
-  {% if summary == false %}
+  {% if summary != true %}
     {% for cate_name in cate_names %}
       <h3 id="{{ cate_name }}">{{ cate_name }} 카테고리 ({{ site.categories[cate_name] | size }})</h3>
       {% assign post_num = site.categories[cate_name] | size %}
