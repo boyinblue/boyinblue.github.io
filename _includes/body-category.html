@@ -3,43 +3,31 @@
 <div id="categories">
 
   {% assign cate_names = "" | split: ',' %}
-  {% if cate_mode == "summary" %}{% assign category = "all" %}{% endif %}
-
   {% if category != "all" %}
     {% assign cate_names = cate_names | push: category %}
   {% else %}
-    <p>
     {% for cath in site.categories %}
       {% assign cate_name = cath | first %}
       {% assign cate_names = cate_names | push: cate_name %}
-      <div style="float: left; border: 1px solid #000; margin: 5px">
-      {% if cate_mode == "summary" %}
-        <a style="background-color: #ffffff; color: #000; border-radius: 0px; border: 3px; padding: 5px 5px; font-size: 12px; font-weight: bold; text-decoration: none;" href="/category/#{{ cate_name }}">{{ cate_name }} {{ site.categories[cate_name] | size }}</a>
-      {% else %}
-        <a style="background-color: #ffffff; color: #000; border-radius: 0px; border: 3px; padding: 5px 5px; font-size: 12px; font-weight: bold; text-decoration: none;" href="#{{ cate_name }}">{{ cate_name }} {{ site.categories[cate_name] | size }}</a>
-      {% endif %}
-      </div>
     {% endfor %}
-      <div style="clear:both"></div>
-    </p>
   {% endif %}
 
-  {% if cate_mode == "detail" %}
-    {% for cate_name in cate_names %}
-      <h3 id="{{ cate_name }}">{{ cate_name }} 카테고리 ({{ site.categories[cate_name] | size }})</h3>
-      {% assign post_num = site.categories[cate_name] | size %}
-      {% if post_num == 0 %}카테고리에 글이 하나도 없습니다. 😥{% break %}{% endif %}
-      {% for post in site.categories[cate_name] %}
-        {% assign preview_image_url = post.image %}
-        {% assign preview_url = post.url %}
-        {% assign preview_title = post.title %}
-        {% assign preview_description = post.description %}
-        {% assign preview_date = post.date %}
-        {% include body-preview.html %}
-        <hr>
-      {% endfor %}      
-    {% endfor %}
+  {% for cate_name in cate_names %}
+    <h3 id="{{ cate_name }}">{{ cate_name }} 카테고리 ({{ site.categories[cate_name] | size }})</h3>
+    {% assign post_num = site.categories[cate_name] | size %}
+    {% if post_num == 0 %}카테고리에 글이 하나도 없습니다. 😥{% break %}{% endif %}
+    {% for post in site.categories[cate_name] %}
+      {% assign preview_image_url = post.image %}
+      {% assign preview_url = post.url %}
+      {% assign preview_title = post.title %}
+      {% assign preview_description = post.description %}
+      {% assign preview_date = post.date %}
+      {% include body-preview.html %}
+      <hr>
+    {% endfor %}      
+  {% endfor %}
 
+  {% if category == "all" %}
     <h3 id="미분류">미분류 카테고리</h3>
     {% for post in site.posts %}
       {% if post.category %}{% continue %}{% endif %}
@@ -49,9 +37,9 @@
       {% assign preview_description = post.description %}
       {% assign preview_date = post.date %}
       {% include body-preview.html %}
-      <hr>
+    <hr>
     {% endfor %}
-  {% endif %}
+  %}
 </div>
 
 <!-- end of body-category.html -->
