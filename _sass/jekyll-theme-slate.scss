@@ -474,9 +474,9 @@ Small Device Styles
 
   #left_bar {
     position: relative;
+    max-width: 640px;
     clear: both;
-    width: 100%;
-    left: 0;
+    left: 0;  
   }
 }
 
