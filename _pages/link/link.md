@@ -22,6 +22,10 @@ GitHub
 - [GitHub (esregnet0409)](https://www.github.com/esregnet0409)
 - [테마 샘플 페이지](https://pages-themes.github.io/slate)
 
+Jekll
+---
+- [jekyllrb.com](https://jekyllrb.com/docs/pagination)
+
 SNS
 ---
 - [트위터](https://twitter.com)
