@@ -90,9 +90,9 @@ layout: null
 ---
 
 
-[x] paginate를 이용하기 위해서는 반드시 /index.html 파일만 가능하다. 
-[x] permalink를 이용해서는 안 된다. 
-[x] md 파일이 아닌 html 형식의 파일만 이용 가능하다. 
+- [x] paginate를 이용하기 위해서는 반드시 /index.html 파일만 가능하다. 
+- [x] permalink를 이용해서는 안 된다. 
+- [x] md 파일이 아닌 html 형식의 파일만 이용 가능하다. 
 
 
 트러블 슈팅
