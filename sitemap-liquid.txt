@@ -34,3 +34,6 @@
  <url>
   <loc>{{ site.url }}/link/</loc>
  </url>
+ <url>
+  <loc>{{ site.url }}/raw.html</loc>
+ </url>
