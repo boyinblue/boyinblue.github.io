@@ -48,6 +48,8 @@ there
 Hello
 there
 {% endcapture %}
+
+{{ string_with_newlines | newline_to_br }}
 ```
 
 
@@ -61,6 +63,8 @@ HTML 테그를 제거하는 필터
 {% raw %}
 {{ "Have <em>you</em> read <strong>Ulysses</strong>?" | strip_html }}
 {% endraw %}
+
+{{ string_with_newlines | newline_to_br }}
 ---
 
 
