@@ -5,8 +5,8 @@
   <p>
   {% for cath in site.categories %}
     {% assign cate_name = cath | first %}
-    <div id="category_btn">
-      <a style="background-color: #ffffff; color: #000; border-radius: 0px; border: 3px; padding: 5px 5px; font-size: 12px; font-weight: bold; text-decoration: none;" href="#{{ cate_name }}">{{ cate_name }} {{ site.categories[cate_name] | size }}</a>
+    <div class="category_btn">
+      <a class="link" href="/category/#{{ cate_name }}">{{ cate_name }} {{ site.categories[cate_name] | size }}</a>
     </div>
     {% endfor %}
     <div style="clear:both"></div>

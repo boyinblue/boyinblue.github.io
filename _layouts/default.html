@@ -38,9 +38,10 @@
         <!-- page tags -->
         <p>
         {% for tag in page.tags %}
-        <div id="tag_btn">
+        <div class="tag_btn">
           <a style="background-color: #ffffff; color: #000000; padding: 3px 5px; font-size: 12px; font-weight: bold; text-decoration: none;" href="/tags/#{{ tag | cgi_escape }}">{{ tag }}</a>
         </div>
+        <div style="clear: both;"></div>
         {% endfor %}
         </p>
       </section>
@@ -62,43 +63,8 @@
         <hr>
 
         <!-- category -->
-        <p date-ke-size="size10">
-        {% if page.category %}
-          <small style="background-color: #f4d03f; color: #000000; border-radius: 3px; padding: 3px 5px; font-size: 16px; font-weight: bold; text-decoration: none;"> 카테고리 글 더보기 ({{ page.category }})</small><br>
-          {% assign cnt = 0 %}
-          {% for post in site.posts %}
-            {% if post.category == page.category %}
-              <a href="{{ post.url }}">
-              <h3>{{ post.title }}</h3>
-              <div style="height: 300; border-radius: 3px;">
-                <div style="width: 20%; float: left; margin: 2px; height: 100%">
-                {% if post.image.path %}
-                  <img style="border-radius: 20px;" src="{{ post.image.path }}" width=100%>
-                {% elsif post.image %}
-                  <img style="border-radius: 20px;" src="{{ post.image }}" width=100%>
-                {% else %}
-                  <img style="border-radius: 20px;" src="{{ site.image.path }}" width=100%>
-                {% endif %}
-                </div>
-            
-                <div style="float: right; margin: 10px 0 10px 0; width: 75%; height: 100%">
-                  {{ post.description }}<br>
-                  ({{ post.date | date: "%Y-%m-%d" }} 작성)<br>
-                  더보기
-                </div>
-            
-                <div style="clear: both; width: 0">
-                </div>
-              </div>
-              </a>
-              {% assign cnt = cnt | plus:1 %}
-              {% if cnt >= 5 %}
-              {% break %}
-              {% endif %}
-            {% endif %}
-          {% endfor %}
-          <a style="background-color: #0040ff; color: #fff; border-radius: 10px; padding: 3px 5px; font-size: 12px; font-weight: bold; text-decoration: none;" href="/category/#{{ page.category | cgi_escape }}">카테고리 모든 글</a>
-        {% endif %}
+        {% assign category=page.category %}
+        {% include body-category.html %}
         </p>
 
         <hr>

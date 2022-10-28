@@ -12,7 +12,7 @@ category: menu
 <div id="tags">
   <p>
   {% for tag in tag_words %}
-    <div id="tag_btn">
+    <div class="tag_btn">
       <a style="background-color: #ffffff; color:#000000; padding: 5px 5px; font-size: 12px; font-weight: bold; text-decoration: none;" href="#{{ tag | cgi_escape }}">
     #{{ tag }} ({{ site.tags[tag] | size }})</a>
     </div>

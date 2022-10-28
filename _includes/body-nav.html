@@ -3,7 +3,7 @@
     <nav id="left_bar">
       {% if site.image %}
         <div stype="float: left;">
-          <a href="/about"><img style="margin: 0px; padding: 0px; border-radius: 10px;" src="{{ site.image }}"></a><br />
+          <a href="/about"><img style="margin: 0px; padding: 0px; border-radius: 10px; width: 200px;" src="{{ site.image }}"></a><br />
         </div>
       {% endif %}
       
@@ -11,15 +11,11 @@
         <div style="float: left;"><h6>{{ site.name }}</h6></div>
       {% endif %}
 
-      {% if site.favicon %}
-        <div style="float: left;"><img src="{{ site.favicon }}" valign="middle"></div>
-      {% endif %}
-      
-      <div id="common_btn"><a href="/about">사이트 및 저자 소개</a></div>
-      <div id="common_btn"><a href="/category">전체 카테고리 보기</a></div>
-      <div id="common_btn"><a href="/tags">전체 테그 보기</a></div>
-      <div id="common_btn"><a href="/link">유용한 링크</a></div>
-      <hr>
+      <div class="common_btn"><a class="link" href="/about">사이트 및 저자 소개</a></div>
+      <div class="common_btn"><a class="link" href="/category">전체 카테고리 보기</a></div>
+      <div class="common_btn"><a class="link" href="/tags">전체 테그 보기</a></div>
+      <div class="common_btn"><a class="link" href="/link">유용한 링크</a></div>
+      <hr style="border: 3px;">
       {% include body-category-summary.html %}
     </nav>
 

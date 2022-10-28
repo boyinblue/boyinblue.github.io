@@ -413,6 +413,7 @@ Full-Width Styles
 }
 
 #left_bar {
+  display: inline-block;
   position: fixed;
   overflow: auto;
   float: left;
@@ -430,22 +431,33 @@ Full-Width Styles
   width: 200px;
 }
 
-#category_btn {
+.category_btn {
   float: left;
   border: 1px solid #000;
   margin: 5px
 }
 
-#tag_btn {
+.tag_btn {
   float: left;
   border: 1px solid #000;
   margin: 5px
 }
 
-#common_btn {
+.common_btn {
   float: left;
   border: 1px solid #000;
   margin: 5px
+}
+
+.link {
+  background-color: #ffffff;
+  color: #000;
+  border-radius: 0px;
+  border: 3px;
+  padding: 5px 5px;
+  font-size: 12px;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 #footer_wrap {
@@ -463,10 +475,8 @@ Small Device Styles
 
   #left_bar {
     position: relative;
+    width: 640px;
     clear: both;
-    width: 100%;
-    top: 0;
-    left: 0;
   }
 }
 
@@ -475,18 +485,12 @@ Small Device Styles
     font-size:14px;
   }
 
-  #main_content_wrap {
-    overflow: auto;
-    margin-bottom: 10px;
-    margin-top: 60px;
-  }
-
   #left_bar {
     position: relative;
-    clear: both;
     width: 100%;
-    top: 0;
-    left: 0;
+    clear: both;
+    min-width: 320px;
+    max-width: 480px;
   }
 
   #downloads {
@@ -539,6 +543,14 @@ Small Device Styles
 
   #left_bar {
     clear: both;
+  }
+
+  #left_bar {
+    position: relative;
+    width: 100%;
+    clear: both;
+    min-width: 320px;
+    max-width: 480px;
   }
 
   #downloads {
