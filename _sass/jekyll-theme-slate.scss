@@ -470,9 +470,7 @@ Small Device Styles
   }
 
   #left_bar {
-    position: relative;
-    width: 640px;
-    clear: both;
+    display: none;
   }
 }
 
@@ -482,11 +480,7 @@ Small Device Styles
   }
 
   #left_bar {
-    position: relative;
-    width: 100%;
-    clear: both;
-    min-width: 320px;
-    max-width: 480px;
+    display: none;
   }
 
   #downloads {
