@@ -1,12 +1,15 @@
 ---
+layout : post-with-tag
 title : 현업 SW 개발자의 연구 노트
 description : 전체 콘텐츠를 텍스트로 제공합니다.
 ---
 
 {% for post in site.posts %}
+<section>
 Title : {{ post.title }}<br>
 URL : <a href="{{ post.url }}">{{ post.url }}</a><br>
 Description : {{ post.description }}<br>
 Content : {{ post.content | strip_html }}
 <hr>
+</section>
 {% endfor %}
