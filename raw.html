@@ -4,13 +4,17 @@ title : 현업 SW 개발자의 연구 노트
 description : 전체 콘텐츠를 텍스트로 제공합니다.
 ---
 
+<h1>모든 콘텐츠 열람</h1>
+
+<blockquote>본 웹사이트에 포함된 모든 콘텐츠들을 텍스트로 제공합니다. </blockquote>
+
 {% for post in site.posts %}
 <section>
 Title : {{ post.title }}<br>
 URL : <a href="{{ post.url }}">{{ post.url }}</a><br>
 Description : {{ post.description }}<br>
 Content : {{ post.content | strip_html | newline_to_br }}
-{{ post.content | strip_html | split: '\n' | compact | newline_to_br }}
+{{ post.content | strip_html | split: '\n' | compact | join "<br />" }}
 <hr>
 </section>
 {% endfor %}
