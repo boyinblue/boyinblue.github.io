@@ -36,6 +36,7 @@ paginate_path: "/blog/page:num"
 ---
 layout: null
 ---
+{% raw %}
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 {% for post in site.posts %}
@@ -63,6 +64,8 @@ layout: null
  {% endunless %}
 {% endfor %}
  </urlset>
+{% endraw %}
+```
 
 
 변수
