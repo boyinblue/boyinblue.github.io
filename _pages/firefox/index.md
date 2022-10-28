@@ -1,6 +1,6 @@
 ---
 title: Firefox
-permalink: 022_firefox/index.html
+permalink: /022_firefox/index.html
 description: Firefox에 대한 내용을 기록하는 카테고리입니다. 
 category: firefox
 ---
