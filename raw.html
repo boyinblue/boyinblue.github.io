@@ -9,7 +9,7 @@ description : 전체 콘텐츠를 텍스트로 제공합니다.
 Title : {{ post.title }}<br>
 URL : <a href="{{ post.url }}">{{ post.url }}</a><br>
 Description : {{ post.description }}<br>
-Content : {{ post.content | strip_html }}
+Content : {{ post.content | strip_html | newline_to_br }}
 <hr>
 </section>
 {% endfor %}
