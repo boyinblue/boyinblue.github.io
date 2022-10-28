@@ -14,7 +14,7 @@ category: menu
   {% for tag in tag_words %}
     <div id="tag_btn">
       <a style="background-color: #ffffff; color:#000000; padding: 5px 5px; font-size: 12px; font-weight: bold; text-decoration: none;" href="#{{ tag | cgi_escape }}">
-    #{{ tag }} {{ site.tags[tag] | size }}</a>
+    #{{ tag }} ({{ site.tags[tag] | size }})</a>
     </div>
   {% endfor %}
     <div style="clear: both;"></div>
