@@ -63,11 +63,11 @@
         <hr>
 
         <!-- category -->
-        {% assign category=page.category %}
-        {% include body-category.html %}
-        </p>
-
-        <hr>
+        {% if page.category != "" %}
+          {% assign category=page.category %}
+          {% include body-category.html %}
+          <hr>
+        {% endif %}
 
         <!-- posts -->
         {% include body-posts.html %}

@@ -210,9 +210,9 @@ pre code {
 
 blockquote {
   color:#FF1493;
+  background: #eafaf9;
   margin-bottom: 20px;
-  padding: 0 0 0 20px;
-  border-left: 3px solid #bbb;
+  border: 3px dashed #000000;
   font-weight: bold;
 }
 
@@ -226,7 +226,7 @@ ul {
   padding-left: 20px;
   border-radius: 10px;
   background: #ffdfd3;
-  border: 1px dashed 3px #000000;
+  border: 3px dashed #000000;
   font-weight: bold;
 }
 
