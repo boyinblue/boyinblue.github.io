@@ -438,19 +438,28 @@ Full-Width Styles
 .category_btn {
   float: left;
   border: 1px solid #000;
-  margin: 5px
+  margin: 5px;
+  text-decoration-line: underline;
+  text-decoration-color: #fffaa0;
+  text-decoration-thickness: 3px;
 }
 
 .tag_btn {
   float: left;
   border: 1px solid #000;
-  margin: 5px
+  margin: 5px;
+  text-decoration-line: underline;
+  text-decoration-color: #fad626;
+  text-decoration-thickness: 3px;
 }
 
 .common_btn {
   float: left;
   border: 1px solid #000;
-  margin: 5px
+  margin: 5px;
+  text-decoration-line: underline;
+  text-decoration-color: #dcfffb;
+  text-decoration-thickness: 3px;
 }
 
 .link {
