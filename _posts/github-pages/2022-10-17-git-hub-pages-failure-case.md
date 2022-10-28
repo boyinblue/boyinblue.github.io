@@ -101,13 +101,15 @@ tags:
 
 
 ```html
+{% raw %}
 <ul>
-  \{\% for post in site.posts \%\}
+  {% for post in site.posts %}
     <li>
-      <a href="\{\{ post.url \}\}">[\{\{ post.date \}\}] \{\{ post.title \}\}</a>
+      <a href="{{ post.url }}">[{{ post.date }}] {{ post.title }}</a>
     </li>
- \{\% endfor \%\}
+ {% endfor %}
 </ul>
+{% endraw %}
 ```
 
 
