@@ -124,13 +124,15 @@ tags:
 
 
 ```html
+{% raw %}
 <ul>
-  \{\% for post in site.posts limit:3 \%\}
+  {% for post in site.posts limit:3 %}
     <li>
-      <a href="\{\{ post.url \}\}">[\{\{ post.date \}\}] \{\{ post.title \}\}</a>
+      <a href="{{ post.url }}">[{{ post.date }}] {{ post.title }}</a>
     </li>
- \{\% endfor \%\}
+ {% endfor %}
 </ul>
+{% endraw %}
 ```
 
 
@@ -144,9 +146,11 @@ tags:
 
 ```
 <!-- tags -->
-\{\% for tag in page.tags \%\}
-  #️⃣\{\{ tag \}\}
-\{\% endfor \%\}
+{% raw %}
+{% for tag in page.tags %}
+  #️⃣{{ tag }}
+{% endfor %}
+{% endraw %}
 ```
 
 
