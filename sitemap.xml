@@ -39,6 +39,9 @@ layout: null
  <url>
   <loc>{{ site.url }}/link/</loc>
  </url>
+ <url>
+  <loc>{{ site.url }}/raw.html</loc>
+ </url>
 <url><loc>https://boyinblue.github.io/tags/</loc></url>
 <url><loc>https://boyinblue.github.io/docs/SUPPORT.md</loc></url>
 <url><loc>https://boyinblue.github.io/docs/CONTRIBUTING.md</loc></url>
@@ -55,6 +58,7 @@ layout: null
 <url><loc>https://boyinblue.github.io/004_python/index.html</loc></url>
 <url><loc>https://boyinblue.github.io/011_opinet/index.html</loc></url>
 <url><loc>https://boyinblue.github.io/_pages/mysql/index.html</loc></url>
+<url><loc>https://boyinblue.github.io/_pages/memo/%ED%9A%8C%EC%82%AC%EC%96%B4%EB%A6%B0%EC%9D%B4%EC%A7%91.md</loc></url>
 <url><loc>https://boyinblue.github.io/021_markdown/index.html</loc></url>
 <url><loc>https://boyinblue.github.io/link/</loc></url>
 <url><loc>https://boyinblue.github.io/003_jenkins/index.html</loc></url>

@@ -14,6 +14,7 @@ boyinblue.github.io/010_raspberry/index.html
 boyinblue.github.io/004_python/index.html
 boyinblue.github.io/011_opinet/index.html
 boyinblue.github.io/_pages/mysql/index.html
+boyinblue.github.io/_pages/memo/%ED%9A%8C%EC%82%AC%EC%96%B4%EB%A6%B0%EC%9D%B4%EC%A7%91.md
 boyinblue.github.io/021_markdown/index.html
 boyinblue.github.io/link/
 boyinblue.github.io/003_jenkins/index.html
