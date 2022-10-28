@@ -212,7 +212,8 @@ blockquote {
   color:#FF1493;
   background: #eafaf9;
   margin-bottom: 20px;
-  border: 3px dashed #000000;
+  border-radius: 10px;
+  border: 1px dashed #000000;
   font-weight: bold;
 }
 
@@ -224,9 +225,10 @@ ul {
   list-style-position: inside;
   list-style: disc;
   padding-left: 20px;
+  padding-right: 20px;
   border-radius: 10px;
   background: #ffdfd3;
-  border: 3px dashed #000000;
+  border: 1px dashed #000000;
   font-weight: bold;
 }
 
