@@ -119,9 +119,9 @@ index.html 파일을 찾지 못해서다.
 ---
 
 
-{% assign preview_image_url = https://jekyllrb.com/img/jekyll-og.png %}
-{% assign preview_url = http://jekyllrb.com/docs/pagination/ %}
-{% assign preview_title = Pagination %}
+{% assign preview_image_url = "https://jekyllrb.com/img/jekyll-og.png" %}
+{% assign preview_url = "http://jekyllrb.com/docs/pagination/" %}
+{% assign preview_title = "Pagination" %}
 {% assign preview_description = "With many websites — especially blogs — it’s very common to break the main listing of posts up into smaller lists and display them over multiple pages. Jekyll offers a pagination plugin, so you can automatically generate the appropriate files and folders you need for paginated listings." %}
 {% include body-preview.html %}
 

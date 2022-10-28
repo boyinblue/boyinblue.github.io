@@ -23,9 +23,6 @@ commenets:
   disqus:
     shortname: boyinblue-github-io
 
-paginate: 5
-paginate_path: "/blog/page:num"
-
 author:
   twitter: JisuPar18835589
 
