@@ -2,7 +2,6 @@
 title: 링크 모음
 permalink: /link/
 description: 각종 유용한 링크를 제공합니다.
-category: menu
 ---
 
 웹마스터 도구들
@@ -21,10 +20,12 @@ GitHub
 ---
 - [GitHub (boyinblue)](https://www.github.com/boyinblue)
 - [GitHub (esregnet0409)](https://www.github.com/esregnet0409)
+- [테마 샘플 페이지](https://pages-themes.github.io/slate)
 
 SNS
 ---
 - [트위터](https://twitter.com)
+- [페이스북](https://www.facebook.com/profile.php?id=100001470561808)
 - [인스타그램 (esregnet0409](https://www.instagram.com/esregnet0409)
 - [인스타그램 (es_regnet_0409)](https://www.instagram.com/es_regnet_0409)
 
