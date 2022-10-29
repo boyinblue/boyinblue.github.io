@@ -2,6 +2,7 @@
 title: 스캠 주의 Your subscription suspended netflix 넷플릭스 구독 관련 스캠 메일 사례
 permalink: /020_security/001_netflix_subscription_scam.html
 description: 본 페이지에서는 넷플릭스 계정 관련 스캠 사례를 공유합니다. 
+image: https://user-images.githubusercontent.com/50429025/180110103-cc62465e-efcf-48ce-9adc-9cedbbe20f2b.png
 ---
 다양한 방법들로 우리의 계정과 자산을 노리는 스캠 사례가 많이 있습니다. 
 필자의 경우도 최근에 스미싱을 비롯한 여러 종류의 스캠 시도들을 경험했습니다. 
@@ -96,17 +97,3 @@ Your subscription suspended: Netflix
 
 
 이상입니다. 
-
-
-
-
-
-[✔️  IT 보안](index.html '각종 스캠 사례')
----
-
-
-각종 스캠 사례들을 공유합니다. 
-
-
-[✏️ ](https://www.github.com/boyinblue/boyinblue.github.io/edit/main/020_security/001_netflix_subscription_scam.md '수정하기')
-
