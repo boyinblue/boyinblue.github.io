@@ -5,9 +5,8 @@ description: Firefox 웹브라우저에서 SEC_ERROR_PKCS11_GENERAL_ERROR 에러
 thumb_name: SEC_ERROR_PKCS11_GENERAL_ERROR
 thumb_url: https://user-images.githubusercontent.com/    50429025/185848984-01adfb6f-1c44-4de6-8b16-6174ed31d90e.jpg
 category: firefox
+image: https://user-images.githubusercontent.com/50429025/185848984-01adfb6f-1c44-4de6-8b16-6174ed31d90e.jpg
 ---
-![SEC_ERROR_PKCS11_GENERAL_ERROR](https://user-images.githubusercontent.com/50429025/185848984-01adfb6f-1c44-4de6-8b16-6174ed31d90e.jpg)
-
 
 사무실에서 사용하는 Note PC의 웹브라우저로 사내 인트라넷을 접속해보면 "SEC_ERROR_PKCS11_GENERAL_ERROR"라는 에러가 지속적으로 발생하기 시작했습니다. Microsoft Edge, Chrome, Firefox 등을 사용하고 있는데 Chrome은 괜찮은데 유독 Microsoft Edge와 Firefox에서만 접속 장애가 발생하더군요. 
 
@@ -82,7 +81,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Mozilla\Firefox\Preferences 디렉토리에
 
 
 관련 링크
-===
+---
 
 
 해당 내용은 아래의 페이지에서 정보를 얻었습니다.
