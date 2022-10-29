@@ -52,11 +52,4 @@ $ sudo mv color.pkla /etc/polkit-1/localauthority/50-local.d/
 [우분투 22.04에서 xrdp 연결시 색상 프로필을 만들려면 인증이 필요합니다. 라는 메시지가 뜨지 않도록 조치하는 방법](https://worldclassproduct.tistory.com/entry/%EC%9A%B0%EB%B6%84%ED%88%AC-2204-%EC%83%89%EC%83%81-%ED%94%84%EB%A1%9C%ED%95%84%EC%9D%84-%EB%A7%8C%EB%93%A4%EB%A0%A4%EB%A9%B4-%EC%9D%B8%EC%A6%9D%EC%9D%B4-%ED%95%84%EC%9A%94%ED%95%A9%EB%8B%88%EB%8B%A4-%ED%95%B4%EA%B2%B0-%EB%B0%A9%EB%B2%95)
 
 
-이상입니다
-
-
-[🔽 다음글 : 우분투 리눅스에서 NetworkManager로 IP 설정 방법](2022-05-11-ubuntu-network-manager-ip-setting.html '')
----
-
-
-
+이상입니다. 
