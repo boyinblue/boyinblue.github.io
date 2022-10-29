@@ -47,7 +47,7 @@ for i in range(0,4):
 ### 수행결과
 
 
-![사각형 그리기](/assets/images/003-python-turtle-square.png)
+![사각형 그리기](/assets/images/python/003-python-turtle-square.png)
 
 
 위의 스크립트를 간략하게 설명하자면 <code>for</code> 구문을 통해서 
@@ -99,7 +99,7 @@ time.sleep(3)
 ### 수행 결과는 아래와 같습니다. 
 
 
-![삼각형 그리기](/assets/images/003-python-turtle-triangle.png)
+![삼각형 그리기](/assets/images/python/003-python-turtle-triangle.png)
 
 
 모양을 사각형에서 삼각형으로 바꾸는 것 외에도 
@@ -159,7 +159,7 @@ if __name__ == '__main__':
 ### 수행 결과는 아래와 같습니다. 
 
 
-![별 그리기](/assets/images/003-python-turtle-start.png)
+![별 그리기](/assets/images/python/003-python-turtle-start.png)
 
 
 144도씩 총 5번을 회전해서 별이 완성되었습니다. 
@@ -204,7 +204,7 @@ def draw_star_reverse():
 ### 실행 결과는 아래와 같습니다. 
 
 
-![별 반대쪽으로 그리기](/assets/images/003-python-turtle-start2.png)
+![별 반대쪽으로 그리기](/assets/images/python/003-python-turtle-start2.png)
 
 
 <code>turtle.left(144)</code> 구문 대신에 
@@ -234,7 +234,7 @@ def draw_3d_star():
 ### 수행 결과
 
 
-![입체 모양 별 그리기](/assets/images/003-python-turtle-3d-start.png)
+![입체 모양 별 그리기](/assets/images/python/003-python-turtle-3d-start.png)
 
 
 위와 같이 1도씩 틀어지게하고, 선분 개수를 2배로 늘이면 됩니다. 
@@ -262,7 +262,7 @@ def draw_sun():
 ### 실행 결과
 
 
-![태양 그리기](/assets/images/003-python-turtle-sun-10.png)
+![태양 그리기](/assets/images/python/003-python-turtle-sun-10.png)
 
 
 <code>turtle.width(3)</code> 구문을 통해서 좀 더 두꺼운 펜으로 
@@ -302,7 +302,7 @@ def draw_sun2():
 ### 실행 결과는 아래와 같습니다.
 
 
-![꽃잎이 18개인 꽃 그리기](/assets/images/003-python-turtle-flower.png)
+![꽃잎이 18개인 꽃 그리기](/assets/images/python/003-python-turtle-flower.png)
  
 
 #8. 꽃잎이 36개인 꽃 그리기
@@ -312,7 +312,7 @@ def draw_sun2():
 ### 실행 결과
 
 
-![꽃잎이 36개인 꽃 글기](/assets/images/003-python-turtle-flower-36.png)
+![꽃잎이 36개인 꽃 글기](/assets/images/python/003-python-turtle-flower-36.png)
 
 
 실행 결과를 보면 국화랑 비슷한 모양입니다. 
@@ -337,7 +337,7 @@ def draw_tier():
 89도씩 90번을 회전하면 선분으로 타이어를 그릴 수 있습니다. 
 
 
-![타이어 그리기](/assets/images/003-python-turtle-tier.png)
+![타이어 그리기](/assets/images/python/003-python-turtle-tier.png)
 
 
 이번에는 <code>turtle.speed()</code> 메쏘드를 살짝 끼워 넣었습니다. 
@@ -389,7 +389,7 @@ def draw_wheel():
 ### 수행 결과
 
 
-![자동차 휠 그리기](/assets/images/003-python-turtle-wheel.png)
+![자동차 휠 그리기](/assets/images/python/003-python-turtle-wheel.png)
 
 
 결과를 보면, 5각형 모양의 별이 그려지는듯 하더니, 
