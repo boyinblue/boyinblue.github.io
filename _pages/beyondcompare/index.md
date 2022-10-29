@@ -22,4 +22,5 @@ Beyond Compare는 화이트 스페이스(white space)까지 비교가 가능하�
 문장의 끝에 위치하는 불필요한 white space까지 손쉽게 확인할 수 있습니다. 
 
 
-
+{% assign category=page.category %}
+{% include body-category.html %}

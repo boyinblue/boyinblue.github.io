@@ -20,5 +20,5 @@ tags:
 |2022-10-28|회사 구형 PC 반납|   |
 
 
-{% assign category="diary" %}
+{% assign category=page.category %}
 {% include body-category.html %}

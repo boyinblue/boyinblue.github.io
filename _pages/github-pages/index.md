@@ -101,5 +101,5 @@ Theme 페이지
 ---
 
 
-{% assign category="github-pages" %}
+{% assign category=page.category %}
 {% include body-category.html %}

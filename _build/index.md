@@ -20,7 +20,7 @@ Crontab에 의해서 자동으로 실행되는 스크립트입니다.
 
 
 - auto.sh
-  - [make_site_map.sh](#make\_site\_map.sh)
+  - [make_site_map.sh](#make\_site\_map.py)
   - [make_readme.sh](#make\_readme.sh)
   - [send_email.sh](#send\_email.sh)
 
