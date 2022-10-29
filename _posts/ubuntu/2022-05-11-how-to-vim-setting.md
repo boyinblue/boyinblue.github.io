@@ -145,7 +145,7 @@ python.vim 파일은 <code>~/.vim/syntax</code> 경로에 저장하면 된다.
 위의 페이지에 접속하는게 번거롭다면 아래 링크에서 다운로드 받으면 된다.
 
 
-[python.vim](python.vim)
+[python.vim](/test/python/python.vim)
 
 
 아래의 명령으로 한 번에 다운로드가 가능하다.
