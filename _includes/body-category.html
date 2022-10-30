@@ -17,6 +17,9 @@
     {% if cate_name == "" %}
       탈출
       {% continue %}
+    {% unless cate_name %}
+      탈출2
+      {% continue %}
     {% else %}
       불가
     {% endif %}
