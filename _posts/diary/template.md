@@ -25,6 +25,7 @@ image: /assets/images/diary/logo.png
 
 식사 이력
 ---
+
 |구분|메뉴|비고|
 |---|---|---|
 |아침|   |   |
