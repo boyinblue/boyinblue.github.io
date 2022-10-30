@@ -12,3 +12,8 @@ function show_page_info() {
     const page_info = document.getElementById('page_info');
     page_info.style.display = 'block';
 }
+
+function show_comment() {
+    const comment_window = document.getElementById('disqus_thread');
+    comment_window.style.display = 'block';
+}
