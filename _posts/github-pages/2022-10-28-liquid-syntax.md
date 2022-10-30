@@ -2,7 +2,7 @@
 title: GitHub Pages Jekyll Liquid 문법 정리
 description: GitHub Pages Jekyll Liquid 문법 정리
 category: github-pages
-image: http://shopify.github.io/liquid/images/icons/water-drop-64x.png
+image: https://shopify.github.io/liquid/images/icons/water-drop-64x.png
 ---
 
 필터
@@ -80,6 +80,6 @@ Have you read Uiysses?
 
 {% assign preview_title = "Liquid template language" %}
 {% assign preview_description = "Documentation for the Liquid template language, created by Shopify." %}
-{% assign preview_image_url = "http://shopify.github.io/liquid/images/icons/water-drop-64x.png" %}
+{% assign preview_image_url = "https://shopify.github.io/liquid/images/icons/water-drop-64x.png" %}
 {% assign preview_url = "http://shopify.github.io/liquid/" %}
 {% include body-preview.html %}
