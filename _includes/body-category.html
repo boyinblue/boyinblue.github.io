@@ -14,7 +14,12 @@
 
   {% for cate_name in cate_names %}
     {% assign cate_name = cate_name | strip %}
-    {% if cate_name == "" %}{% continue %}{% endif %}
+    {% if cate_name == "" %}
+      탈출
+      {% continue %}
+    {% else %}
+      불가
+    {% endif %}
     <h3 id="{{ cate_name }}">[{{ cate_name }}] 카테고리 ({{ site.categories[cate_name] | size }})</h3>
     {% assign post_num = site.categories[cate_name] | size %}
     {% if post_num == 0 %}카테고리에 글이 하나도 없습니다. 😥{% break %}{% endif %}
