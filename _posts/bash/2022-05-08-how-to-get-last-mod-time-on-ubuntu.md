@@ -3,6 +3,7 @@ title: 파일의 마지막 수정 시간을 가져오는 방법(Ubuntu Bash)
 permalink: /005_bash/001.html
 description: Ubuntu Bash Shell에서 파일의 마지막 수정 시간을 가져오는 방법에 대해서 설명합니다.
 category: bash
+image: /assets/images/bash/logo.svc
 ---
 최종 수정 시간을 가져오는 간단한 방법 (Good)
 ---
