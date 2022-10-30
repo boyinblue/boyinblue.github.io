@@ -37,6 +37,10 @@ ol, ul {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+  border: 1px solid #373737;
+  margin-bottom: 20px;
+  text-align: left;
+  max-width: 640px;
 }
 
 /*******************************************************************************
@@ -176,7 +180,6 @@ p img {
   display: inline;
   vertical-align: middle;
   text-align: center;
-  border: none;
 }
 
 pre, code {
@@ -259,12 +262,6 @@ hr {
   border: none;
   background: url('../images/bg_hr.png') repeat-x center;
 }
-
-table {
-  border: 1px solid #373737;
-  margin-bottom: 20px;
-  text-align: left;
- }
 
 th {
   font-family: 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif;
