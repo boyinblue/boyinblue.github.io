@@ -2,7 +2,6 @@
 
         <!-- page info -->
         <small style="background-color: #f4d03f; color: #000000; border-radius: 3px; padding: 3px 5px; font-size: 16px; font-weight: bold; text-decoration: none;"> 페이지 정보</small><br>
-        <input type='button' onclick='show_page_info()'/>
         <div id="page_info" style="display: none;">
         <table>
           <thead>
@@ -24,7 +23,6 @@
               <td>카테고리</td>
               <td>{% if page.category %}{{ page.category }}{% else %}<b style="color:red">미분류</b>{% endif %}</td>
             </tr>
-            <!--
             <tr>
               <td>디렉토리</td>
               <td>{{ page.dir }}</td>
@@ -53,7 +51,6 @@
               <td>{{ page.image }}</td>
             </tr>
             {% endif %}
-            -->
           </tbody>
         </table>
         </div>
