@@ -35,6 +35,8 @@ setInterval(function() {
     }
 }, 250);
 
+const header_window = document.getElementById('header_wrap');
+
 function hasScrolled() {
     var st = $(this).scrollTop();
     
@@ -46,12 +48,10 @@ function hasScrolled() {
     // This is necessary so you never see what is "behind" the navbar.
     if (st > lastScrollTop && st > navbarHeight){
         // Scroll Down
-        $('header').removeClass('nav-down').addClass('nav-up');
+        header_window.style.display = 'block';
     } else {
         // Scroll Up
-        if(st + $(window).height() < $(document).height()) {
-            $('header').removeClass('nav-up').addClass('nav-down');
-        }
+        header_window.style.display = 'none';
     }
     
     lastScrollTop = st;
