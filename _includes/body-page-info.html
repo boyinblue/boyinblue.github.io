@@ -1,7 +1,18 @@
 <!-- start of body header (_includes/body-page-info.html) -->
 
+        <script>
+function show_page_info() {
+  // 토글 할 버튼 선택 (btn1)
+  const page_info = document.getElementById('page_info');
+  
+  page_info.style.display = 'block';
+}
+        </script>
+
         <!-- page info -->
         <small style="background-color: #f4d03f; color: #000000; border-radius: 3px; padding: 3px 5px; font-size: 16px; font-weight: bold; text-decoration: none;"> 페이지 정보</small><br>
+        <input type='button' onclick='show_page_info()'/>
+        <div id="page_info" style="display: none;">
         <table>
           <thead>
             <tr>
@@ -54,5 +65,6 @@
             -->
           </tbody>
         </table>
+        </div>
 
 <!-- end of body header (_includes/body-page-info.html) -->
