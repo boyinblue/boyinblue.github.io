@@ -1,6 +1,11 @@
 #!/bin/bash
 
-lines=$(curl "${1}")
+url="${1}"
+if [ "${url}" == "" ]; then
+  read -p "URL : " url
+fi
+  
+lines=$(curl "${url}")
 
 IFS_OLD=$IFS
 IFS=$'\n'
@@ -19,7 +24,24 @@ do
 done
 IFS=$IFS_OLD
 
+echo "------------------------------------"
+echo " Raw Data "
+echo "------------------------------------"
 echo "Title : ${title}"
 echo "Description : ${description}"
 echo "Image : ${image}"
-echo "URL : ${1}"
+echo "URL : ${url}"
+echo "------------------------------------"
+echo ""
+
+echo "------------------------------------"
+echo " Preview Data "
+echo "------------------------------------"
+echo "{% assign preview_image_url = ${image} %}"
+echo "{% assign preview_url = ${url} %}"
+echo "{% assign preview_title = ${title} %}"
+echo "{% assign preview_description = ${description} %}"
+echo "{% include body-preview.html %}"
+echo "------------------------------------"
+echo ""
+
