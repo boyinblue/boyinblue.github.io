@@ -35,30 +35,25 @@
         <div style="clear: both;"></div>
         </p>
       </section>
+      
+      <!-- icons -->
+      {% include body-icons.html %}
 
-      <aside class="inner">
-        <!-- icons -->
-        {% include body-icons.html %}
+      <!-- page info -->
+      {% include body-page-info.html %}
 
-        <!-- page info -->
-        {% include body-page-info.html %}
+      <!-- disqus -->
+      {% include body-disqus.html %}
 
-        <hr>
+      <!-- category -->
+      {% if page.category == nil %}
+      {% elsif page.category != "" %}
+        {% assign category=page.category %}
+        {% include body-category.html %}
+      {% endif %}
 
-        <!-- disqus -->
-        {% include body-disqus.html %}
-
-        <hr>
-
-        <!-- category -->
-        {% if page.category != "" %}
-          {% assign category=page.category %}
-          {% include body-category.html %}
-          <hr>
-        {% endif %}
-
-        <!-- posts -->
-        {% include body-posts.html %}
+      <!-- posts -->
+      {% include body-posts.html %}
 
     </div>
 

@@ -312,6 +312,13 @@ Full-Width Styles
   margin: 0px auto;
 }
 
+.aside_inner {
+  position: relative;
+  max-width: 640px;
+  padding: 10px;
+  margin: 10px auto;
+}
+
 .memo {
   // 마우스를 따라다니는 메모
   position: absolute;

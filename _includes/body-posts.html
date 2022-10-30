@@ -1,5 +1,6 @@
 <!-- start of body-posts.html -->
 
+  <aside class="aside_inner">
   <small style="background-color: #f4d03f; color: #000000; border-radius: 3px; padding: 3px 5px; font-size: 16px; font-weight: bold; text-decoration: none;"> 블로그 글 더보기</small><br>
   {% for post in site.posts limit:5 %}
   
@@ -10,5 +11,6 @@
     {% assign preview_post_date = post.date %}
     {% include body-preview.html %}
   {% endfor %}
+  </aside>
 
 <!-- end of body-posts.html -->
