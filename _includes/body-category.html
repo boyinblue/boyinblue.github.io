@@ -15,11 +15,12 @@
   {% for cate_name in cate_names %}
     {% assign cate_name = cate_name | strip %}
     size : {{ cate_name | size }}
-    {% if cate_name == "" %}
-      탈출
-      {% continue %}
     {% unless cate_name %}
       탈출2
+      {% continue %}
+    {% endunless %}
+    {% if cate_name == "" %}
+      탈출
       {% continue %}
     {% else %}
       불가
