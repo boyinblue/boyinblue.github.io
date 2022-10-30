@@ -46,9 +46,12 @@
       {% include body-disqus.html %}
 
       <!-- category -->
-      {% if page.category != "" %}
+      {% if page.category == nil %}
+      {% elsif page.category != "" %}
+        <aside class="aside_inner">
         {% assign category=page.category %}
         {% include body-category.html %}
+        </aside>
       {% endif %}
 
       <!-- posts -->
