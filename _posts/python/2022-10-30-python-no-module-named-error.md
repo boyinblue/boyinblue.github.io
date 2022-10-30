@@ -2,6 +2,7 @@
 title: 파이썬 No module named 에러시 설치해야 할 모듈 정리
 description: 파이썬 스크립트 실행시 No module named 에러시 설치해야 할 모듈 정리
 category: python
+image: /assets/images/python/logo.png
 ---
 ### 문제의 상황
 
