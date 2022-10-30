@@ -66,7 +66,3 @@ GitHub 블로그에서 구글 애드센스 스크립트 삽입하는 위치를 �
 해당 경로에 파일이 없을 경우 당황하지 마시고 해당 파일을 생성하시면 되겠습니다.   
 
 이것으로 GitHub 페이지에 구글 애드센스 스크립트를 삽입하는 방법에 대한 글을 모두 마칩니다. 유용한 정보였기를 바랍니다. 
-
-
-[✏️ ](https://www.github.com/boyinblue/boyinblue.github.io/edit/main/002_github_blog/004_google_adsense_github_pages.md '수정하기')
-

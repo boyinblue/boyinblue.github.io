@@ -73,21 +73,3 @@ GitHub는 친절하게도 아래와 같이 메일 아래쪽에 토큰을 재발�
 2. 토큰값을 저장한 파일이 커밋되는 일이 없도록 .gitignore 파일에 토큰값이 저장된 파일을 추가합니다. 
 
 이상입니다.   
-
-
-[✔️  다음글 : GitHub API .git-credentials 파일로부터 id와 token을 안전하게 파싱하는 방법](002_get_token_from_credential_file.html 'Bash 쉘 스크립트 및 파이썬 스크립트를 이용하여 GitHub 토큰를 파싱하는 ')
----
-
-
-Bash 쉘 스크립트 및 파이썬 스크립트를 이용하여 GitHub 토큰를 파싱하는 방법을 설명합니다.
-
-
-[✔️  이 카테고리 글 전체보기 : GitHub API](index.html 'GitHub API 사용 방법 및 관련')
----
-
-
-GitHub API 사용 방법 및 관련 팁을 제공합니다.
-
-
-[✏️ ](https://www.github.com/boyinblue/boyinblue.github.io/edit/main/001_github_api/001_bad_credential.md '수정하기')
-

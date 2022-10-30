@@ -92,5 +92,3 @@ google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, XXXXXXXXXXXXXXXX
 구글 애드센스에서 제공하는 <code>ads.txt</code> 파일을 
 웹 페이지의 루트 디렉토리에 업로드해주면 깔끔하게 해결됩니다. 
 
-
-[✏️ ](https://www.github.com/boyinblue/boyinblue.github.io/edit/main/002_github_blog/014-google-adsense-ads-txt-warning.md '수정하기')
