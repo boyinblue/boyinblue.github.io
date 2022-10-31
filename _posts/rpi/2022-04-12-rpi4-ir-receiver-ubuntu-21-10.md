@@ -3,8 +3,10 @@ title: 라즈베리파이4B 리모컨 입력 처리 방법 (Ubuntu 21.10)
 permalink: /010_raspberry/002-rpi4-ir-receiver-ubuntu-21-10.html
 description: 라즈베리파이4B에서 리모컨 입력 받아서 처리하는 방법 (Ubuntu 21.10)
 category: rpi
+image: /assets/images/rpi/002-ir-receiver-vs1838b-pin-map.jpg
 ---
-사실, 라즈베리파이를 이용해서 프로젝트를 진행하거나, 
+
+라즈베리파이를 이용해서 프로젝트를 진행하거나, 
 스터디를 진행함에 있어서 가장 쉽게 접근할 수 있고, 
 가장 손쉽게 정보를 얻을 수 있는 방법은 라즈비안을 사용하는 것입니다. 
 
@@ -22,7 +24,7 @@ IR 센서를 이용해서 리모컨 입력을 받아서 처리하는 작업을 �
 리모컨 입력을 받는 방법에 대해서 설명하고자 합니다. 
 
 
-![IR Receiver VS1838B](/assets/images/002-ir-receiver-vs1838b.jpg)
+![IR Receiver VS1838B](/assets/images/rpi/002-ir-receiver-vs1838b.jpg)
 
 
 부디 여러분들이 찾는 도움이 되는 자료이기를 바랍니다.  
@@ -67,7 +69,7 @@ VS 1838B를 정면에서 바라보았을 때,
 가장 왼쪽부터 <code>Output</code>, <code>GND</code>, <code>Vcc</code> 입니다.
 
 
-![VS1838B 핀맵](/assets/images/002-ir-receiver-vs1838b-pin-map.jpg)
+![VS1838B 핀맵](/assets/images/rpi/002-ir-receiver-vs1838b-pin-map.jpg)
 
 
 |핀번호|신호|비고|
@@ -656,7 +658,11 @@ def read_key_async():
 ### 유용한 링크
 
 
-[https://shallowsky.com/blog/hardware/raspberry-pi-ir-remote.html](https://shallowsky.com/blog/hardware/raspberry-pi-ir-remote.html)
+{% assign preview_image_url = 'http://shallowsky.com/blog/images/hardware/img_8068sm.jpg' %}
+{% assign preview_url = 'https://shallowsky.com/blog/hardware/raspberry-pi-ir-remote.html' %}
+{% assign preview_title = 'Reading an IR Remote on a Raspberry Pi with LIRC' %}
+{% assign preview_description = 'None' %}
+{% include body-preview.html %}
 
 
 ### 결론

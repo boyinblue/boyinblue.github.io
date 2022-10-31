@@ -3,7 +3,9 @@ title: 공인 IP를 확인하는 방법(Windows, Ubuntu Linux 공통)
 permalink: /008_ubuntu/002.html
 description: Ubuntu Linux 쉘에서 공인 IP를 확인하는 방법을 설명합니다. 
 category: ubuntu
+image: /assets/images/ubuntu/002-how-to-get-public-ip.png
 ---
+
 네트워크에 대해서 잘 모르는 학부생 시절에 사설IP와 공인IP의 차이점에 대해서 잘 알지 못했다. 
 학부생 시절 여름방학에 게임을 만드는 한 업체에서 현장실습을 할 기회가 있었는데, 
 거기에서 공인IP와 사설IP의 차이점에 대해서 알 수 있었다.   
@@ -137,7 +139,7 @@ $ curl https://ifconfig.me
 웹 브라우저로 열어보면 훨씬 더 많은 내용을 확인할 수 있다.   
 
    
-![http://ifconfig.me](/assets/images/002-how-to-get-public-ip.png "What Is My IP Address? - ifconfig.me")
+![http://ifconfig.me](/assets/images/ubuntu/002-how-to-get-public-ip.png "What Is My IP Address? - ifconfig.me")
 
    
 웹 페이지를 살펴보면 공인IP 외에도 더 많은 정보를 읽어올 수 있는 URL들을 제공한다.   
