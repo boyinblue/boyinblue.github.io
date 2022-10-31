@@ -3,6 +3,7 @@ title: GitHub API 호출시 Bad Credentials 에러 발생시 조치 방법
 permalink: /001_github_api/001_bad_credential.html
 description: GitHub API 호출시에 Bad credentials 응답이 오는 문제를 해결하는 방법을 기술하고자 합니다.
 category: github-api
+image: /assets/images/github-api/001_github-badcredential-token-expire.png
 ---
 GitHub와 Jenkins를 연동하여 자동화 시스템을 구축한 개발자라면 Jenkins 구동 중에 GitHub API를 통하여 다양한 고급 기능을 구사할 수 있습니다. 
 Jenkins 수행 결과를 Pull Request에 레이블로 달거나 코멘트를 자동으로 남기는 등의 작업을 자동으로 수행할 수 있습니다.   

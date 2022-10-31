@@ -3,6 +3,7 @@ title: Git server certificate verification failed. CAfile none CRLfile none 에�
 permalink: /001_github_api/003-server-certificate-verification-fail.html
 description: GitHub 서버로부터 통신을 시도할 때 server certificate verification failed. CAfile none CRLfile none 에러가 발생할 경우 조치하는 방법에 대해서 설명합니다.
 category: github-api
+image: /assets/images/github-api/logo.png
 ---
 필자는 초소형 컴퓨터인 라즈베리파이4B를 이용하여 본 웹페이지의 글을 작성하고 있다. 
 라즈베리파이4B를 웹서버로 사용하는 것은 아니고, 
@@ -48,7 +49,7 @@ RTC 값을 수동으로 설정해주는 것으로 본 문제를 해결할 수는
 
 {% assign preview_image_url = 'https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FdI1EFK%2Fbtrb8gSuhde%2FCdMg8M1vbjjBv5mB54t8tK%2Fimg.png' %}
 {% assign preview_url = 'https://frankler.tistory.com/64' %}
-{% assign preview_title = '[>라즈베리파이] 현재 시간 정보를 자동으로 가져와서 유지하는 방법' %}
+{% assign preview_title = '[라즈베리파이] 현재 시간 정보를 자동으로 가져와서 유지하는 방법' %}
 {% assign preview_description = '라즈베리파이는
  현재 시간 정보를 유지하지 못합니다. 작고 저렴하지만 파워풀한 라즈베리파이에 RTC(Real Time Clock) 블록은 포함되어 있지 않습니다. 다시 말하면 라즈베리파이에는 현
 재 시간 정보를 유지하는..' %}
