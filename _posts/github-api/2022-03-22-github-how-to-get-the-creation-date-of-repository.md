@@ -3,7 +3,9 @@ title: GitHub에서 레포지토리의 생성일을 확인하는 방법
 permalink: /001_github_api/004-github-how-to-get-the-creation-date-of-repository.html
 description: GitHub API를 이용해서 레포지토리의 생성일을 확인하는 방법에 대해서 설명합니다.
 category: github-api
+image: /assets/images/github-api/004-github-how-to-get-creation-date-of-repository.png
 ---
+
 GitHub Pages를 생성하고 16일만에 구글의 애드센스를 게시할 수 있게 되었습니다. 
 웹 페이지를 처음 생성한 초기에는 사용법에 익숙하지 않아서 많이 힘들었습니다. 
 아시다시피 GitHub Pages는 GitHub에서 관리되는 웹서버입니다. 
@@ -40,7 +42,7 @@ https://api.github.com/repos/boyinblue/boyinblue.github.io
 실행 결과는 아래와 같습니다. 
 
 
-![GitHub 레포지토리의 생성일을 확인하는 방법](/asset/images/github-api/004-github-how-to-get-creation-date-of-repository.png "GitHub 레포지토리의 생성일을 확인하는 방법")
+![GitHub 레포지토리의 생성일을 확인하는 방법](/assets/images/github-api/004-github-how-to-get-creation-date-of-repository.png "GitHub 레포지토리의 생성일을 확인하는 방법")
 
 
 GitHub API의 응답은 json 형식으로 리턴됩니다. 
