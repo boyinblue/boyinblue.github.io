@@ -60,8 +60,63 @@ category: English
 |humiliation|치욕|   |
 |percept|   |   |
 |critter|별 볼일 없고 조그마한 생물|   |
-|NFT upload|   |   |
 |handy|유용한, 편리한|   |
+
+
+|표현|의미|설명|
+|---|---|---|
+|chit-chat|   |   |
+|wokplace terms|직장에서 사용하는 용어들|   |
+|wokplace terminology|직장에서 사용하는 용어|   |
+
+
+|표현|의미|설명|
+|---|---|---|
+|delivary food coupon|배달 음식 쿠폰|  |
+|middle man|중개업자|   |
+|nervous laugh|어색한 웃음|   |
+
+
+|표현|의미|설명|
+|---|---|---|
+|trainer wheels|자전거 보조 바퀴|   |
+|be safe on|   |How to be safe on the internet|
+|What do you call it in English?|그게 영어로 뭐더라?|   |
+
+
+foursuqre
+---
+
+
+all day every day
+---
+
+
+philanthropist
+---
+
+
+tech-savvy
+---
+
+
+geeks
+---
+
+
+nerd
+---
+
+
+seldom
+---
+
+
+기타 메모
+---
+
+- NFT upload가 훌륭한 부업이 될 수 있다.
+- 
 
 
 {% assign category=page.category %}
