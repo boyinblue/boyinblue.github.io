@@ -37,11 +37,32 @@ category: English
 |evolve into|   |   |
 
 
-2022년 7월 22일 수업(금요일)
----
-[✔️ 굿모닝쌤 영어수업 (2022년 7월 22일)](001_goodmorningsam_belle_how_to_politely_confront_your_roommate_kims_convenience.html '2022년 7월 22일에 Belle 선생님과 진행한 수업 내용을 메모합니다.')
+|표현|의미|설명|
+|---|---|---|
+|wide selection||   |
+|account for|   |   |
+|steadily|   |   |
 
 
-2022년 7월 22일에 Belle 선생님과 진행한 수업 내용을 메모합니다.
+|표현|의미|설명|
+|---|---|---|
+|at first sight|   |   |
+|at first glance|   |   |
+|at one's peak|   |   |
+|a thing of the past|   |   |
+|die-hard|   |   |
+|big fan|   |   |
 
 
+|표현|의미|설명|
+|---|---|---|
+|monument|   |   |
+|humiliation|치욕|   |
+|percept|   |   |
+|critter|별 볼일 없고 조그마한 생물|   |
+|NFT upload|   |   |
+|handy|유용한, 편리한|   |
+
+
+{% assign category=page.category %}
+{% include body-category.html %}
