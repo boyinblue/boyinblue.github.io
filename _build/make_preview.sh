@@ -1,5 +1,11 @@
 #!/bin/bash
 
+#################################################
+# 필요 패키지
+#################################################
+# xclip : 스크립트 결과를 클립 보드로 복사함
+#################################################
+
 url="${1}"
 if [ "${url}" == "" ]; then
   read -p "URL : " url
@@ -34,14 +40,17 @@ echo "URL : ${url}"
 echo "------------------------------------"
 echo ""
 
+output="{% assign preview_image_url = ${image} %}\n"
+output+="{% assign preview_url = ${url} %}\n"
+output+="{% assign preview_title = ${title} %}\n"
+output+="{% assign preview_description = ${description} %}\n"
+output+="{% include body-preview.html %}\n"
+
+echo -e "${output}" | xclip
+
 echo "------------------------------------"
 echo " Preview Data "
 echo "------------------------------------"
-echo "{% assign preview_image_url = ${image} %}"
-echo "{% assign preview_url = ${url} %}"
-echo "{% assign preview_title = ${title} %}"
-echo "{% assign preview_description = ${description} %}"
-echo "{% include body-preview.html %}"
+echo -e "${output}"
 echo "------------------------------------"
 echo ""
-
