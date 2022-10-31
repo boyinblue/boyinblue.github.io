@@ -2,6 +2,6 @@
 title: 
 description: 
 category: writing
-image: /assets/images/writing/logo.png
+image: /assets/images/tistory/logo.png
 ---
 
