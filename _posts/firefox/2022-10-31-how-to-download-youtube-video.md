@@ -16,8 +16,8 @@ tags:
 요약
 ---
 
-- `파이어폭스` 웹브라우저 설치
-- `Easy Youtube Video Downloader Express` 확장 기능 설치
+- 파이어폭스 웹브라우저 설치
+- Easy Youtube Video Downloader Express 확장 기능 설치
 - 유튜브 콘텐츠를 무료로 제한없이 다운로드
 
 
@@ -39,8 +39,8 @@ tags:
 
 아래 경로로 접속해서 파이어폭스 웹브라우저를 설치합니다. 
 
-{% assign preview_image_url = https://www.mozilla.org/media/protocol/img/logos/firefox/browser/og.4ad05d4125a5.png %}
-{% assign preview_url = https://www.mozilla.org/ko/firefox/new/ %}
+{% assign preview_image_url = 'https://www.mozilla.org/media/protocol/img/logos/firefox/browser/og.4ad05d4125a5.png' %}
+{% assign preview_url = 'https://www.mozilla.org/ko/firefox/new/' %}
 {% assign preview_title = 'Firefox 최신 버전 다운로드' %}
 {% assign preview_description = '빠른 페이지 로딩, 작은 메모리 사용 및 다양한 기능을 갖춘 새로운 Firefox가 여기 있습니다.' %}
 {% include body-preview.html %}
@@ -48,7 +48,7 @@ tags:
 
 ### 2. 애플리케이션 메뉴열기 - 부가 기능 및 테마
 
-![](assets/images/firefox/유튜브-동영상-다운로드-firefox-addons-01.png)
+![](/assets/images/firefox/유튜브-동영상-다운로드-firefox-addons-01.png)
 
 웹브라우저 오른쪽 상단에 있는 `애플리케이션 메뉴열기` 버튼을 클릭하고, 
 `부가 기능 및 테마` 메뉴를 선택합니다. 
@@ -56,14 +56,14 @@ tags:
 
 ### 3. 더 많은 부가 기능 찾기에서 검색
 
-![](assets/images/firefox/유튜브-동영상-다운로드-firefox-addons-02.png)
+![](/assets/images/firefox/유튜브-동영상-다운로드-firefox-addons-02.png)
 
 `더 많은 부가 기능 찾기`에서 `Easy Youtube Video Downloader Express`를 검색합니다. 
 
 
 ### 4. 부가기능 프로그램 이름과 제작자 이름을 확인
 
-![](assets/images/firefox/유튜브-동영상-다운로드-firefox-addons-03.png)
+![](/assets/images/firefox/유튜브-동영상-다운로드-firefox-addons-03.png)
 
 프로그램 이름이 `Easy Youtube Video Downloader Express`인지 확인하고, 
 제작자가 `Dishita`인 것도 확인합니다. 
@@ -73,7 +73,7 @@ tags:
 
 ### 5. 필요한 권한을 체크합니다. 
 
-![](assets/images/firefox/유튜브-동영상-다운로드-firefox-addons-04.png)
+![](/assets/images/firefox/유튜브-동영상-다운로드-firefox-addons-04.png)
 
 `Easy Youtube Video Downloader Express`는 2가지 권한만 필요합니다. 
 
@@ -83,14 +83,14 @@ tags:
 
 ### 6. Firefox에 추가 버튼을 눌러 설치
 
-![](assets/images/firefox/유튜브-동영상-다운로드-firefox-addons-05.png)
+![](/assets/images/firefox/유튜브-동영상-다운로드-firefox-addons-05.png)
 
 `Firefox에 추가` 버튼을 눌러서 애드온을 설치합니다. 
 
 
 ### 7. 추가 버튼을 선택
 
-![](assets/images/firefox/유튜브-동영상-다운로드-firefox-addons-06.png)
+![](/assets/images/firefox/유튜브-동영상-다운로드-firefox-addons-06.png)
 
 어떤 권한이 필요한지를 한 번 더 체크하는 절차가 진행됩니다. 
 `추가` 버튼을 눌러서 설치를 계속합니다. 
@@ -98,14 +98,14 @@ tags:
 
 ### 8. 설치 완료
 
-![](assets/images/firefox/유튜브-동영상-다운로드-firefox-addons-07.png)
+![](/assets/images/firefox/유튜브-동영상-다운로드-firefox-addons-07.png)
 
 설치가 모두 완료되었습니다. 
 
 
 ### 9. 다운로드 실행
 
-![](assets/images/firefox/유튜브-동영상-다운로드-firefox-addons-08.png)
+![](/assets/images/firefox/유튜브-동영상-다운로드-firefox-addons-08.png)
 
 다운로드를 원하는 영상을 선택한 후, `내려받기` 버튼을 클릭합니다. 
 어떤 화질로 다운로드 할 것인지를 선택하면 잠시 후 다운로드가 완료됩니다. 
