@@ -3,7 +3,9 @@ title: GitHub Pages에서 php 문법을 사용 가능할까?
 permalink: /002_github_blog/006.html
 description: GitHub Pages에서 php 문법 사용 가능 여부에 대해서 설명합니다. 
 category: github-pages
+image: /assets/images/github-pages/006-githubpages-not-support-php.png
 ---
+
 최근에 GitHub Pages를 접하면서 깜짝 깜짝 놀라고 있습니다. 
 기존의 네이버 블로그와 티스토리 블로그와 같은 정형화된 블로그들의 한계를 맞보고, 
 새로운 웹서비스를 찾아보다가 GitHub Pages가 눈에 들어왔습니다. 
@@ -57,7 +59,7 @@ GitHub Pages Article 확인
 실제로 php가 동작하지 않는 것을 확인했지만, 실제로 [GitHub Pages Article](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages "GitHub Pages Article") 을 살펴보겠습니다.
    
 
-![GitHub Pages Article](/assets/images/006-githubpages-not-support-php.png "GitHub Pages Article")
+![GitHub Pages Article](/assets/images/github-pages/006-githubpages-not-support-php.png "GitHub Pages Article")
 
    
 위의 이미지는 GitHub Pages 문서에 명시된 부분을 캡쳐한 내용입니다. 

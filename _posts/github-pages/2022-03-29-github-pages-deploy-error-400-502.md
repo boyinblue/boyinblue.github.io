@@ -3,6 +3,7 @@ title: GitHub Pages deploy 시에 400 에러나 502 에러가 발생할 경우 �
 permalink: /002_github_blog/013-github-pages-deploy-error-400-502.html
 description: GitHub Pages로 새로운 변경점을 반영하려고 할 때 400 에러나 502 에러가 발생할 경우 조치하는 방법입니다.
 category: github-pages
+image: /assets/images/github-pages/013-github-pages-deploy-error-400-502.png
 ---
 어젯밤에 갑자기 GitHub Pages로 업데이트하는 모든 commit에 대해서 deploy가 되지 않는 문제가 발생했습니다. 
 
@@ -23,7 +24,7 @@ category: github-pages
 여러가지 시도들을 하면서 결국에는 문제를 해결하게 됩니다. 
 
 
-![Github Pages Deploy Error](/assets/images/013-github-pages-deploy-error-400-502.png)
+![Github Pages Deploy Error](/assets/images/github-pages/013-github-pages-deploy-error-400-502.png)
 
 
 제가 목격한 문제의 현상은 아래와 같습니다. 

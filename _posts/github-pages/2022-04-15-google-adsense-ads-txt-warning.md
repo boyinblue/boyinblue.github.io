@@ -3,7 +3,9 @@ title: 구글 애드센스 ads.txt 문제 해결 방법
 permalink: /002_github_blog/014-google-adsense-ads-txt-warning.html
 description: 구글 애드센스에서 ads.txt 파일에 문제가 있을 경우 조치 방법
 category: github-pages
+image: /assets/images/github-pages/014-google-adsense-ads-txt-warning.png
 ---
+
 GitHub Pages에서 ads.txt 파일 생성이 필요한 이유
 ---
 
@@ -38,7 +40,7 @@ GitHub Pages는 참 매력적이 점이 많이 있습니다.
 ---
 
 
-![수익 손실 위험 - 수익에 심각한 영향을 미치지 않도록 사이트에서 발견된 ads.txt 파일 문제를 해결해야 합니다.](014-google-adsense-ads-txt-warning.png)
+![수익 손실 위험 - 수익에 심각한 영향을 미치지 않도록 사이트에서 발견된 ads.txt 파일 문제를 해결해야 합니다.](/assets/images/github-pages/014-google-adsense-ads-txt-warning.png)
 
 
 GitHub Pages를 생성한지 약 십여일만에 구글 애드센스 연동이 가능했고, 

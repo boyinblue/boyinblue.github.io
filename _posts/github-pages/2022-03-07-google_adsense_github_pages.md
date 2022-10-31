@@ -3,15 +3,17 @@ title: GitHub 블로그에 구글 애드센스 스크립트 삽입하는 방법 
 permalink: /002_github_blog/004_google_adsense_github_pages.html
 description: GitHub Pages에 구글 애드센스 스크립트를 삽입하는 위치를 설명합니다.
 category: github-pages
+image: /assets/images/github-pages/004_google_adsense_script_insert_position.png
 ---
+
 무료 웹서버로 활용할 수 있는 GitHub Pages에 블로그를 개설했다면 각종 검색엔진에 사이트를 등록하여 검색으로 인한 유입량을 늘려야 하겠지요. 
 더불어, 구글 애드센스를 연동하면 소소하지만 수익을 얻을 수도 있습니다. 
 티스토리와 같은 블로그는 직접 스킨을 편집할 수 있는 기능이 있지만, 
 GitHub Pages는 막상 어디에 구글 애드센스 스크립트를 삽입해야 하는지 다소 막연할 수 있습니다. 
 저도 처음에는 구글 애드센스의 스크립트를 GitHub 블로그의 어디에 삽입해야 하는지 몰라서 다소 난감했습니다. 
 결론부터 말씀드리자면, 사용하는 스킨에 따라서 구글 애드센스의 스크립트를 삽입하는 위치가 다를 수 있습니다.   
-   
-   
+
+
 GitHub 블로그의 Head Script 위치 확인하는 방법
 ---
    
@@ -20,7 +22,7 @@ GitHub Pages를 처음 개설하면 READMD.md 파일밖에 존재하지 않기 �
 이 때는 GitHub Pages의 메인 페이지에서 html 소스 보기를 하면 헤더 스크립트 파일을 어디에 작성해야 하는지에 대해서 알 수 있습니다.   
    
 
-![GitHub 애드센스 스크립트 작성 위치](/assets/images/004_google_adsense_script_insert_position.png "GitHub 애드센스 스크립트 작성 위치")
+![GitHub 애드센스 스크립트 작성 위치](/assets/images/github-pages/004_google_adsense_script_insert_position.png "GitHub 애드센스 스크립트 작성 위치")
    
 
 HTML 소스보기를 확인해보면 위의 빨간줄로 강조한 부분에 주석으로 커스터마이징 할 수 있는 파일 경로가 표기되어 있습니다.   
