@@ -12,6 +12,7 @@ if [ "${url}" == "" ]; then
 fi
   
 lines=$(curl "${url}")
+description="None"
 
 IFS_OLD=$IFS
 IFS=$'\n'
