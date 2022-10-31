@@ -46,7 +46,13 @@ RTC 값을 수동으로 설정해주는 것으로 본 문제를 해결할 수는
 아래 페이지에는 라즈베리파이의 현재 시간 값을 자동으로 가져오는 방법에 대한 내용이 기술되어 있습니다.   
 
 
-[링크 : 라즈베리파이 현재 시간 정보를 자동으로 가져와서 유지하는 방법](https://frankler.tistory.com/64)
-   
-   
-이상입니다.   
+{% assign preview_image_url = 'https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FdI1EFK%2Fbtrb8gSuhde%2FCdMg8M1vbjjBv5mB54t8tK%2Fimg.png' %}
+{% assign preview_url = 'https://frankler.tistory.com/64' %}
+{% assign preview_title = '[>라즈베리파이] 현재 시간 정보를 자동으로 가져와서 유지하는 방법' %}
+{% assign preview_description = '라즈베리파이는
+ 현재 시간 정보를 유지하지 못합니다. 작고 저렴하지만 파워풀한 라즈베리파이에 RTC(Real Time Clock) 블록은 포함되어 있지 않습니다. 다시 말하면 라즈베리파이에는 현
+재 시간 정보를 유지하는..' %}
+{% include body-preview.html %}
+
+
+이상입니다.
