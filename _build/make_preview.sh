@@ -42,8 +42,8 @@ echo ""
 
 output="{% assign preview_image_url = ${image} %}\n"
 output+="{% assign preview_url = ${url} %}\n"
-output+="{% assign preview_title = ${title} %}\n"
-output+="{% assign preview_description = ${description} %}\n"
+output+="{% assign preview_title = '${title}' %}\n"
+output+="{% assign preview_description = '${description}' %}\n"
 output+="{% include body-preview.html %}\n"
 
 echo -e "${output}" | xclip

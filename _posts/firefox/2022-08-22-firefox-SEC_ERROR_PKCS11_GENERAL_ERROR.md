@@ -87,4 +87,8 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Mozilla\Firefox\Preferences 디렉토리에
 해당 내용은 아래의 페이지에서 정보를 얻었습니다.
 
 
-[SEC_ERROR_PKCS11_GENERAL_ERROR error with Firefox entreprise strategy #891 ](https://github.com/orange-cloudfoundry/paas-templates/issues/891)
+{% assign preview_image_url = /assets/images/firefox/firefox.png %}
+{% assign preview_url = https://github.com/orange-cloudfoundry/paas-templates/issues/891 %}
+{% assign preview_title = 'Expected behavior As a paas-templates operator and user In order to use portals and web ui components with Firefox browser I need to adapt web access to entreprise strategy Observed behavior Since ...' %}
+{% assign preview_description = '' %}
+{% include body-preview.html %}
