@@ -3,6 +3,7 @@ title: 마이크로 서보 9G 모터 핀 번호 (라즈베리파이4B 서보 모
 permalink: /010_raspberry/003-rpi4-servo-motor-control.html
 description: 마이크로 서보 9G 모터 핀 번호 및 라즈베리파이4B에서 서보 모터 제어 방법 설명
 categpry: rpi
+image: /assets/images/rpi/003-rpi4-servo-motor-control.jpg
 ---
 우리는 라즈베리파이와 아두이노를 교육용으로 널리 사용하고 있습니다. 
 교육용 키트에 주로 사용되는 마이크로 서보 9G 모터에 대해서 설명합니다. 
@@ -30,7 +31,7 @@ PWM 신호를 통해서 모터의 각도를 제어할 수 있습니다.
 #### 서보 모터 핀번호
 
 
-![서보 모터 핀번호](/assets/images/003-rpi4-servo-motor-control.jpg)
+![서보 모터 핀번호](/assets/images/rpi/003-rpi4-servo-motor-control.jpg)
 
 
 |핀 번호|색  깔|설  명|비  고|
