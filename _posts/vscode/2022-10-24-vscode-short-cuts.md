@@ -74,8 +74,8 @@ vscode 단축키 확인하는 방법
 
 
 ### 확대 (Zoom In)
-><kbd> Ctrl </kbd> + <kbd> + </kbd>
+<kbd> Ctrl </kbd> + <kbd> + </kbd>
 
 
 ### 축소 (Zoom Out)
-><kbd> Ctrl </kbd> + <kbd> - </kbd>
+<kbd> Ctrl </kbd> + <kbd> - </kbd>
