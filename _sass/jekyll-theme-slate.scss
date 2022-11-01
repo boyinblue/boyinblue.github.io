@@ -463,9 +463,10 @@ Full-Width Styles
 }
 
 .menu_btn {
+  display: block;
   border: 1px solid #000;
   margin: 0px;
-  width: 180px;
+  width: 200px;
   text-decoration-line: underline;
   text-decoration-color: #dcfffb;
   text-decoration-thickness: 1px;
