@@ -89,7 +89,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Mozilla\Firefox\Preferences 디렉토리에
 
 
 {% assign preview_image_url = "/assets/images/firefox/firefox.png" %}
-{% assign preview_url = https://github.com/orange-cloudfoundry/paas-templates/issues/891 %}
+{% assign preview_url = "https://github.com/orange-cloudfoundry/paas-templates/issues/891" %}
 {% assign preview_title = 'Expected behavior As a paas-templates operator and user In order to use portals and web ui components with Firefox browser I need to adapt web access to entreprise strategy Observed behavior Since ...' %}
 {% assign preview_description = 'None' %}
 {% include body-preview.html %}
