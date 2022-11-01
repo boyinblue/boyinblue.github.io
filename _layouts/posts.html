@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en-US' }}">
+
+  <head>
+    {% include head-custom.html %}
+  </head>
+
+  <body>
+    <!-- Link Info -->
+    <div id="link_info" class="memo"></div>
+
+    <!-- HEADER -->
+    {% include body-header.html %}
+
+    <!-- NAV -->
+    {% include body-nav.html %}
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section class="inner">
+
+      <!-- posts -->
+      {% include body-posts.html %}
+    </div>
+
+    <!-- FOOTER  -->
+    {% include body-footer.html %}
+
+    <!-- Java Script Load -->
+    <script async type="text/javascript" src="/assets/js/script.js"></script>
+  </body>
+</html>
