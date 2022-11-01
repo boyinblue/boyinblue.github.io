@@ -38,11 +38,11 @@ vscode 단축키 확인하는 방법
 
 
 ### 현재 페이지에서 검색
-><kbd> Ctrl </kbd> + <kbd> F </kbd>
+<kbd> Ctrl </kbd> + <kbd> F </kbd>
 
 
 ### 전체 페이지에서 검색
-><kbd> Ctrl </kbd> + <kbd> Shift </kbd> + <kbd> F </kbd>
+<kbd> Ctrl </kbd> + <kbd> Shift </kbd> + <kbd> F </kbd>
 
 
 이동 기능
@@ -50,15 +50,19 @@ vscode 단축키 확인하는 방법
 
 
 ### 이전 커서 위치로 이동
-><kbd> Alt </kbd> + <kbd> ⬅️ </kbd>
+<kbd> Alt </kbd> + <kbd> ⬅️ </kbd>
 
 
 ### 다음 커서 위치로 이동
-><kbd> Alt </kbd> + <kbd> ➡️ </kbd>
+<kbd> Alt </kbd> + <kbd> ➡️ </kbd>
 
 
 ### 정의로 이동
-><kbd> F12 </kbd>
+<kbd> F12 </kbd>
+
+
+### 라인 번호로 이동
+<kbd> Ctrl </kbd> + <kbd> G </kbd>
 
 
 선택 관련
