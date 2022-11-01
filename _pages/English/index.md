@@ -17,6 +17,53 @@ category: English
 - 영어 시험 성적 메모 (필자를 위한 기록)
 
 
+2022년 11월 1일 수업(화요일)
+---
+
+### come a long way
+
+to improve a lot, or to make a lot of progress
+- (ex) The newspaper production process `has come a long way` from the old days.
+- (ex) Indonesia `has come a long way` since it was devastated by the financial crisis.
+- (ex) Machine has come a long way in recent years.
+
+### find oneself
+
+to realize that you are in a particular situation or place, or doing a patriculr things, when you did not intened to
+- (ex) These days the edito, subeditors and journalists who put the paper together are likely to find themselves in a totally different building or may be even in a different city.
+- (ex) We fell asleep on the train and woke up to find ourselves in London.
+- (ex) It's not the first time you've found yourself in this situation.
+
+### in the minarity
+
+belong to a group of people or things that form less than half of a larger group
+- (ex) Here human beings are in the minority as much of th work is done by machines controlled by computers.
+- (ex) Boys are very much in the minority at the dance class.
+- (ex) Opponents of the new law appeared to be in the minority.
+
+
+2022년 10월 31일 수업(월요일)
+---
+
+### all the rage
+to be very popular at a particular time
+- (ex) Seventeen years ago, the South Korean television series, "Autumn in My Heart", was all he rage in China, making the beginning of Korean wave.
+- (ex) The poem was all the rage then.
+- (ex) This is understandable, as gas has been all the rage in te e U.S. in recent years.
+
+### sweep
+to quickly spread throught and influence an area
+- (ex) A new wave of Chinese culture is sweeping the world, gaining attention from foreign viewers.
+- (ex) It's the latest craze sweeping the nation.
+- (ex) A flu epidemic is sweeping through Moscow.
+
+### ease
+to make or become less severe, diffucult, unpleasant, painful, etc.
+- (ex) I hope that kind Chinese users can quickly translate the Chinese versions in time to ease my pain of waiting.
+- (ex) After the arrival of the United Nations solders, tension in he area began to ease.
+- (ex) These pills should ease the pain.
+
+
 2022년 10월 25일 수업(화요일)
 ---
 
