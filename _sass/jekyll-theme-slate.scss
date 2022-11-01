@@ -454,9 +454,11 @@ Full-Width Styles
 }
 
 .common_btn {
+  border-radius: 3px;
   float: left;
-  border: 1px solid #000;
+  border: 0px;
   margin: 5px;
+  background: #dddd;
   text-decoration-line: underline;
   text-decoration-color: #dcfffb;
   text-decoration-thickness: 1px;
