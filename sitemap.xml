@@ -43,6 +43,7 @@ layout: null
   <loc>{{ site.url }}/raw.html</loc>
  </url>
 <url><loc>https://boyinblue.github.io/tags/</loc></url>
+<url><loc>https://boyinblue.github.io/posts.md</loc></url>
 <url><loc>https://boyinblue.github.io/docs/SUPPORT.md</loc></url>
 <url><loc>https://boyinblue.github.io/docs/CONTRIBUTING.md</loc></url>
 <url><loc>https://boyinblue.github.io/docs/CODE_OF_CONDUCT.md</loc></url>
