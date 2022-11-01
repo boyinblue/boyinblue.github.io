@@ -2,6 +2,7 @@
 
   <aside class="aside_inner">
   <small style="background-color: #f4d03f; color: #000000; border-radius: 3px; padding: 3px 5px; font-size: 16px; font-weight: bold; text-decoration: none;"> 블로그 글 더보기</small><br>
+  {% unless limit %}{% assign limit = 5 %}{% endunless %}
   {% for post in site.posts limit:5 %}
     {% if post.title == page.title %}{% continue %}{% endif %}
     {% assign preview_image_url = post.image %}
