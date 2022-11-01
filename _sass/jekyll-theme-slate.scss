@@ -463,6 +463,7 @@ Full-Width Styles
 }
 
 .menu_btn {
+  box-sizing: border-box;
   display: block;
   color: #000;
   font-weight: bold;
