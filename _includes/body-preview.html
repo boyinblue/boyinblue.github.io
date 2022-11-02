@@ -6,7 +6,7 @@
       <h4 style="padding: 0; margin: 0;">{{ preview_title | default "Title을 입력해주세요." }}</h4>
       <pre style="overflow: hidden">{{ preview_description | default "Description을 입력해주세요." }}</pre>
       {% if preview_date %}({{ preview_date | date: "%Y-%m-%d" }} 작성) {% endif %}
-      {% if preview_num_of_words %}{{ preview_num_of_words }} 단어 {{ preview_num_of_words | divided_by 300 }} 분 소요 분량{% endif %}
+      {% if preview_num_of_words %}{{ preview_num_of_words }} 단어 {{ preview_num_of_words | divided_by: 300 }} 분 소요 분량{% endif %}
     </div>
     <div style="clear: both; width: 0">
     </div>
