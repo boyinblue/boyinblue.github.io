@@ -1,4 +1,5 @@
 title: 현업 SW 개발자의 연구 노트
+tagline: 정보 비망록
 description: 정보 비망록
 name: 현업 SW 개발자
 
@@ -24,7 +25,10 @@ commenets:
     shortname: boyinblue-github-io
 
 author:
+  name: boyinblu
+  picture: /assets/logo.png
   twitter: JisuPar18835589
+  url: https://blog.naver.com/boyinblue
 
 defaults:
   -
