@@ -46,4 +46,5 @@ boyinblue.github.io/012_c/index.html
 boyinblue.github.io/_pages/beyondcompare/index.md
 boyinblue.github.io/005_bash/index.html
 boyinblue.github.io/900_english/index.html
+boyinblue.github.io/_drafts/2022-11-02.md
 boyinblue.github.io/README.md
