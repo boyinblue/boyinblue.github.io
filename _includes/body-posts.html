@@ -3,13 +3,14 @@
   <aside class="aside_inner">
   <small style="background-color: #f4d03f; color: #000000; border-radius: 3px; padding: 3px 5px; font-size: 16px; font-weight: bold; text-decoration: none;"> 블로그 글 더보기</small><br>
   {% unless limit %}{% assign limit = 5 %}{% endunless %}
-  {% for post in site.posts limit:5 %}
+  {% for post in site.posts limit:limit %}
     {% if post.title == page.title %}{% continue %}{% endif %}
     {% assign preview_image_url = post.image %}
     {% assign preview_url = post.url %}
     {% assign preview_title = post.title %}
     {% assign preview_description = post.description %}
     {% assign preview_date = post.date %}
+    {% assign preview_num_of_words = post.content | num_of_words %}
     {% include body-preview.html %}
     <hr>
   {% endfor %}
