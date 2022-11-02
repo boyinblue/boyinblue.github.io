@@ -29,7 +29,7 @@ GitHub Pages로 작성된 포스트를 읽는데 걸리는 시간을 계산하�
 {% capture count_words %}{{ page.content | number_of_words }}{% endcapture %}
 {% capture time_words %}{{ count_words | divided_by: 5 }}{% endcapture %}
 - 단어수 : {{ count_words }}
-- 읽는데 걸리는 시간 : ~ {{ time_words | diided_by: 60 }} 분
+- 읽는데 걸리는 시간 : ~ {{ time_words | divided_by: 60 }} 분
 {% endraw %}
 ```
 
@@ -39,4 +39,4 @@ GitHub Pages로 작성된 포스트를 읽는데 걸리는 시간을 계산하�
 {% capture count_words %}{{ page.content | number_of_words }}{% endcapture %}
 {% capture time_words %}{{ count_words | divided_by: 5 }}{% endcapture %}
 - 단어수 : {{ count_words }}
-- 읽는데 걸리는 시간 : ~ {{ time_words | diided_by: 60 }} 분
+- 읽는데 걸리는 시간 : ~ {{ time_words | divided_by: 60 }} 분
