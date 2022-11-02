@@ -95,11 +95,4 @@ Theme 페이지
 |- [https://jekyllrb.com/docs/includes/](https://jekyllrb.com/docs/includes/)|include 구문 설명|
 |[https://shopify.github.io/liquid/](https://shopify.github.io/liquid/)|Liquid 문법에 대해서 살펴볼 수 있는 페이지다.|
 |[https://jekyll.github.io/jekyll-seo-tag/advanced-usage/#customizing-image-output](https://jekyll.github.io/jekyll-seo-tag/advanced-usage/#customizing-image-output)|SEO에 대한 내용이 풍부하다.|
-
-
-내가 작성한 글들
----
-
-
-{% assign category=page.category %}
-{% include body-category.html %}
+|[https://metatags.io/](https://metatags.io/)|메타 테그 확인할 수 있다.|
