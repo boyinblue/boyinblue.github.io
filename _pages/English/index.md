@@ -163,8 +163,3 @@ seldom
 ---
 
 - NFT upload가 훌륭한 부업이 될 수 있다.
-- 
-
-
-{% assign category=page.category %}
-{% include body-category.html %}
