@@ -319,6 +319,8 @@ Full-Width Styles
 .memo {
   // 마우스를 따라다니는 메모
   position: absolute;
+  z-index: 9;
+  display: none;
   top: 0; // 초기 위치값을 설정해줍니다.
   left: 0; // 초기 위치값을 설정해줍니다.
   width: 150px; //원 가로사이즈

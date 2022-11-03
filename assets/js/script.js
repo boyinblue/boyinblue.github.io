@@ -8,6 +8,14 @@ document.addEventListener("mousemove", (e) => { // mousemove이벤트를 이용�
     link_info.style.top = mouseY + 'px';
     });
 
+function show_link_info() {
+    link_info.display = 'block'
+}
+
+function hide_link_info() {
+    link_info.display = 'none'
+}
+
 function show_page_info() {
     const page_info = document.getElementById('page_info');
     page_info.style.display = 'block';
