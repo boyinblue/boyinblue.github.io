@@ -320,11 +320,12 @@ Full-Width Styles
   // 마우스를 따라다니는 메모
   position: absolute;
   z-index: 9;
-  opacity: 0.8;
   display: none;
+  max-width: 640px;
   top: 0; // 초기 위치값을 설정해줍니다.
   left: 0; // 초기 위치값을 설정해줍니다.
   border-radius: 10px;
+  border: 1px #000000;
   background-color: #9bf50b; //컬러설정
 }
 
