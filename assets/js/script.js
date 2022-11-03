@@ -19,7 +19,7 @@ function hide_link_info() {
 function show_page_info(msg) {
     const page_info = document.getElementById('page_info');
     page_info.style.display = 'block';
-    page_info.value = msg;
+    page_info.innerText = msg;
 }
 
 function show_comment() {
