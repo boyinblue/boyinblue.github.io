@@ -10,17 +10,16 @@ document.addEventListener("mousemove", (e) => { // mousemove이벤트를 이용�
 
 function show_link_info() {
     link_info.style.display = 'block'
+    link_info.innerText = msg;
 }
 
 function hide_link_info() {
     link_info.style.display = 'none'
 }
 
-function show_page_info(msg) {
+function show_page_info() {
     const page_info = document.getElementById('page_info');
     page_info.style.display = 'block';
-    alert(msg);
-    page_info.innerText = msg;
 }
 
 function show_comment() {
