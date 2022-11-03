@@ -1,8 +1,5 @@
 boyinblue.github.io/tags/
 boyinblue.github.io/posts.md
-boyinblue.github.io/docs/SUPPORT.md
-boyinblue.github.io/docs/CONTRIBUTING.md
-boyinblue.github.io/docs/CODE_OF_CONDUCT.md
 boyinblue.github.io/category/
 boyinblue.github.io/about/
 boyinblue.github.io/_pages/writing/index.md
