@@ -19,7 +19,8 @@ exclude_dir_starts_with = [
         "../.",
         "../_build",
         "../_posts",
-        "../test/"
+        "../test/",
+        "../docs/"
         ]
 
 exclude_dir_match_with = [
