@@ -16,9 +16,10 @@ function hide_link_info() {
     link_info.style.display = 'none'
 }
 
-function show_page_info() {
+function show_page_info(msg) {
     const page_info = document.getElementById('page_info');
     page_info.style.display = 'block';
+    page_info.value = msg;
 }
 
 function show_comment() {
