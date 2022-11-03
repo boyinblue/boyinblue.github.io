@@ -9,11 +9,11 @@ document.addEventListener("mousemove", (e) => { // mousemove이벤트를 이용�
     });
 
 function show_link_info() {
-    link_info.display = 'block'
+    link_info.style.display = 'block'
 }
 
 function hide_link_info() {
-    link_info.display = 'none'
+    link_info.style.display = 'none'
 }
 
 function show_page_info() {
