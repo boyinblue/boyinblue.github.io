@@ -8,7 +8,7 @@ document.addEventListener("mousemove", (e) => { // mousemove이벤트를 이용�
     link_info.style.top = mouseY + 'px';
     });
 
-function show_link_info() {
+function show_link_info(msg) {
     link_info.style.display = 'block'
     link_info.innerText = msg;
 }
