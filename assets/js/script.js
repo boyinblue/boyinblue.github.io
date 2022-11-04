@@ -15,7 +15,7 @@ document.addEventListener("mousemove", (e) => { // mousemove이벤트를 이용�
         header_wrap.style.opacity = 0.1;
     }
     else {
-        header_wrap.style.opacity = 0.5;
+        header_wrap.style.opacity = 1;
     }
     });
 
