@@ -13,7 +13,7 @@ document.addEventListener("scroll", function() { // scroll이벤트를 이용
     // 마우스의 좌표는 clientX와 clientY를 이용해 알수 있다. -> 브라우저 window의 좌표값 위치를 전달한다.
     // pageX, pageY와는 다름.
     var currentScrollValue = document.documentElement.scrollTop;
-    console.log("currentScrollValue is " + currentScrollValue);
+//    console.log("currentScrollValue is " + currentScrollValue);
     
     if( currentScrollValue === 0 ) {
         header_wrap.style.opacity = 1;
@@ -47,9 +47,11 @@ function toggle_menu() {
     if( nav_bar.style.width == 20 ) {
         nav_bar.style.width = 200;
         nav_bar.style.height = 20;
+        console.log("Expand" + nav_bar.style.width);
     }
     else {
         nav_bar.style.width = 20;
         nav_bar.style.height = 50;
+        console.log("Reduce" + nav_bar.style.width);
     }
 }
