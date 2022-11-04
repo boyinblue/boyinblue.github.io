@@ -21,7 +21,7 @@ document.addEventListener("scroll", function() { // scroll이벤트를 이용
     else {
         header_wrap.style.opacity = 0.2;
     }
-    });    
+    });
 
 function show_link_info(msg) {
     link_info.style.display = 'block'
