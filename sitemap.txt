@@ -17,6 +17,7 @@ boyinblue.github.io/_pages/memo/%ED%9A%8C%EC%82%AC%EC%96%B4%EB%A6%B0%EC%9D%B4%EC
 boyinblue.github.io/_pages/memo/%ED%96%87%EC%82%AC%EB%A0%88%EB%B3%B5%EC%88%AD%EC%95%84.md
 boyinblue.github.io/_pages/memo/%ED%8A%B9%EC%88%98%EB%AC%B8%EC%9E%90.md
 boyinblue.github.io/_pages/memo/%EC%BD%94%EC%8A%A4%ED%8A%B8%EC%BD%94.md
+boyinblue.github.io/_pages/memo/%EC%BB%B4%ED%8F%AC%EC%A6%88%EC%BB%A4%ED%94%BC-%EC%84%B1%EB%82%A8%EA%B3%A0%EB%93%B1%EC%A0%90.md
 boyinblue.github.io/_pages/memo/%EC%B6%94%EC%A0%81.md
 boyinblue.github.io/_pages/memo/%EC%95%A0%EB%93%9C%EC%84%BC%EC%8A%A4.md
 boyinblue.github.io/_pages/memo/%EC%8B%A0%EC%A1%B0.md
@@ -40,6 +41,7 @@ boyinblue.github.io/001_github_api/
 boyinblue.github.io/014_git/index.html
 boyinblue.github.io/022_firefox/index.html
 boyinblue.github.io/901_diary/index.html
+boyinblue.github.io/diary/2022/10/27/%EB%A1%9C%EC%8A%A4%ED%8C%85%EA%B3%A0.html
 boyinblue.github.io/012_c/index.html
 boyinblue.github.io/_pages/beyondcompare/index.md
 boyinblue.github.io/005_bash/index.html
