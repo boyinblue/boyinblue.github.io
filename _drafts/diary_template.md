@@ -1,0 +1,1 @@
+../_posts/diary/template.md
