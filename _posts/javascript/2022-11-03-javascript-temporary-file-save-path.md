@@ -1,5 +1,5 @@
 ---
-title: 자바스크립트 임시 파일 저장되는 위치 (Edge 기준)
+title: 자바스크립트 임시 파일 저장되는 위치 (Chrome, Edge)
 description: 자바 스크립트에서 2차원 배열의 선언을 지원하지는 않지만, 약간의 트릭을 이용하여 2차원 배열을 선언할 수 있는 방법을 설명합니다.
 image: /assets/images/javascript/logo.png
 category: javascript
@@ -36,3 +36,10 @@ Microsoft Edge 브라우저를 기준으로 js 파일이 로컬의 어느 경로
 >C:\windows\사용자\(계정명)\AppData\Local\Microsoft\Edge\User Data\Default\Code Cache\js
 
 위의 경로에 있는 모든 파일들을 삭제하면 자바스크립트 임시파일들만 삭제할 수 있다. 
+
+
+3. js 파일 저장되는 위치 (Chrome 기준)
+---
+
+Chrome 브라우저에서 js 파일이 임시 저장되는 경로는 아래와 같다. (우분투 리눅스)
+>~/.cache/google-chrome/Default/Code Cache/js

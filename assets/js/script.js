@@ -8,7 +8,7 @@ document.addEventListener("mousemove", (e) => { // mousemove이벤트를 이용�
     link_info.style.left = mouseX + 'px';
     link_info.style.top = mouseY + 'px';
 
-document.addEventListener("scroll", (e) => { // mousemove이벤트를 이용해 움
+document.addEventListener("scroll", function() { // scroll이벤트를 이용
     // 마우스의 좌표는 clientX와 clientY를 이용해 알수 있다. -> 브라우저 window의 좌표값 위치를 전달한다.
     // pageX, pageY와는 다름.
     var currentScrollValue = document.documentElement.scrollTop;
