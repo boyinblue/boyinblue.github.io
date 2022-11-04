@@ -98,4 +98,19 @@ image: /assets/images/ubuntu/ubuntu-linux-special-characters.png
 - [https://snskeyboard.com](https://snskeyboard.com)
 
 
+GitHub Pages 특수문자
+---
+
+GitHub Pages에서 사용할 수 있는 다양한 이모티콘들이 존재한다. 
+아래 홈페이지에 접속하면 다양한 이모지들을 살펴볼 수 있다. 
+
+{% assign preview_image_url = 'https://github.githubassets.com/images/modules/gists/gist-og-image.png' %}
+{% assign preview_url = 'https://gist.github.com/rxaviers/7360908' %}
+{% assign preview_title = 'Complete list of github markdown emoji markup' %}
+{% assign preview_description = 'Complete list of github markdown emoji markup. GitHub Gist: instantly share code, notes, and snippets.' %}
+{% include body-preview.html %}
+
+https://gist.github.com/rxaviers/7360908
+
+
 이상입니다. 
