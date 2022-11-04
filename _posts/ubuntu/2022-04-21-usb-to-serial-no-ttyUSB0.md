@@ -3,6 +3,7 @@ title: USB-to-Serial 장치를 연결했지만 /dev/tty/ttyUSB0 파일이 생성
 permalink: /008_ubuntu/008-usb-to-serial-no-ttyUSB0.html
 description: Ubuntu Linux 22.04에 USB-to-Serial 장치를 연결했지만 ttyUSB0 파일이 생성되지 않는 경우 조치 방법 설명
 category: ubuntu
+image: /assets/images/ubuntu/logo.png
 ---
 리눅스 PC에 <code>USB-to-Serial</code> 케이블을 연결하면 자동으로 
 <code>/dev/ttyUSB0</code>와 같은 장치 파일일 생성되어야 합니다. 

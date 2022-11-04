@@ -3,6 +3,7 @@ title: 색상 프로필을 만들려면 인증이 필요합니다.
 permalink: /008_ubuntu/010-ubuntu-xrdp-color-pkla.html
 description: XRDP 연결시 (색상 프로필을 만들려면 인증이 필요합니다.)라는 메시지가 반복적으로 표시될 경우 해결 방법
 category: ubuntu
+image: /assets/images/ubuntu/logo.png
 ---
 요약
 ---

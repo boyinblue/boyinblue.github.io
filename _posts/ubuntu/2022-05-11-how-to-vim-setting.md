@@ -3,6 +3,7 @@ title: vim 띄워쓰기 설정 방법
 permalink: /008_ubuntu/007-how-to-vim-setting.html
 description: vim 패키지 설치 방법과 띄워쓰기 설정 방법
 category: ubuntu
+image: /assets/images/ubuntu/logo.png
 ---
 Ubuntu Linux를 처음 설치하게 되면 기본적으로 vi 에디터를 사용 가능하다. 
 리눅스를 오래동안 사용해온 필자에게도 vi 사용은 제법 불편하다.

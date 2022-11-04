@@ -3,6 +3,7 @@ title: 워드프레스의 xmlrpc API 이용 방법
 permalink: /013_wordpress/001-wordpress-xmlrpc-api.html
 description: 워드프레스 자동화 방법 중의 하나인 xmlrpc API 이용 방법에 대해서 설명합니다.
 category: wordpress
+image: /assets/images/wordpress/logo.png
 ---
 많은 웹페이지들이 워드프레스로 만들어지고 있습니다. 
 또한, 네이버 블로그나 티스토리 같은 블로그들을 이용하던 분들 역시도 

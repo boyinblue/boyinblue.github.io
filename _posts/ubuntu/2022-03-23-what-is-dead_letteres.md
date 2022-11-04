@@ -3,6 +3,7 @@ title: dead.letter 파일의 정체 (삭제 요망)
 permalink: /008_ubuntu/005-what-is-dead_letteres.html
 description: Ubuntu Linux 파일 시스템에 생성되는 dead.letter 파일의 정체를 알아보고 어떻게 다뤄야 하는지에 대해서 알아보겠습니다.
 category: ubuntu
+image: /assets/images/ubuntu/logo.png
 ---
 dead.letter 파일의 정체는 무엇인가?
 ---

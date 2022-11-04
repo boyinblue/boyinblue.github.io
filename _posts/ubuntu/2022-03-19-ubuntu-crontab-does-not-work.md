@@ -3,6 +3,7 @@ title: Ubuntu Linux Crontab 실행 안됨 (crontab에서는 bash 문법 허용 �
 permalink: /008_ubuntu/003-ubuntu-crontab-does-not-work.html
 description: 우분투 리눅스에서 crontabl이 실행되지 않는 문제 해결 방법에 대해서 설명합니다.
 category: ubuntu
+image: /assets/images/ubuntu/logo.png
 ---
 리눅스에서 주기적으로 어떤 동작이나 작업을 수행시키고 싶을 때 
 우리는 crontab을 사용합니다. 
