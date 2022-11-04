@@ -6,7 +6,6 @@ name: 현업 SW 개발자
 favicon: "/assets/favicon.png"
 favicon-invert: "/assets/favicon-invert.png"
 image: "/assets/logo.png"
-type: Blog
 
 show_downloads: false
 footer: false
@@ -39,11 +38,6 @@ defaults:
     values:
       image: "/assets/logo.png"
       author: boyinblue
-  -
-    scope:
-      path: "_posts"
-    values:
-      type: Blog
 
 include:
   - _pages
