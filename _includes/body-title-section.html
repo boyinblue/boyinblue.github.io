@@ -1,9 +1,10 @@
 <!-- start of body header (_includes/body-title-section.html) -->
 
-        {% if page.title %}<div style="float: left; margin: 0px; padding: 0px"><h1>{{ page.title }}</h1></div>{% endif %}
         {% assign url = site.url | remove_first: "https://" | append: page.url %}
-        <div style="position:absolute; bottom:0px; right:0px;"><a href="https://hits.sh/{{ url }}/"><img alt="Hits" style="border: 0px;" src="https://hits.sh/{{ url }}.svg?view=today-total"/></a></div>
-        <div style="clear:both; "></div>
+        <div style="margin: 0px; padding: 0px">
+          {% if page.title %}<h1>{{ page.title }}</h1>{% endif %}
+          <div style="position:absolute; bottom:0px; right:0px;"><a href="https://hits.sh/{{ url }}/"><img alt="Hits" style="border: 0px;" src="https://hits.sh/{{ url }}.svg?view=today-total"/></a></div>
+        </div>
         {% if page.description %}<blockquote>{{ page.description }}</blockquote>{% endif %}
         {% capture image_url %}{% if page.image.path %}{{ page.image.path }}{% elsif page.image %}{{ page.image }}{% else %}{{ site.image }}{% endif %}{% endcapture %}
         {% if image_url != site.image %}<img src="{{ image_url }}">{% endif %}
