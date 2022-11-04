@@ -10,6 +10,7 @@ boyinblue.github.io/008_ubuntu/index.html
 boyinblue.github.io/test.html
 boyinblue.github.io/020_security/index.html
 boyinblue.github.io/010_raspberry/index.html
+boyinblue.github.io/_pages/react/index.md
 boyinblue.github.io/004_python/index.html
 boyinblue.github.io/011_opinet/index.html
 boyinblue.github.io/_pages/mysql/index.html
