@@ -4,5 +4,10 @@
         {% if page.description %}<blockquote>{{ page.description }}</blockquote>{% endif %}
         {% capture image_url %}{% if page.image.path %}{{ page.image.path }}{% elsif page.image %}{{ page.image }}{% else %}{{ site.image }}{% endif %}{% endcapture %}
         {% if image_url != site.image %}<img src="{{ image_url }}">{% endif %}
+        {% assign url = site.url | remove_first: "https://" | concat: page.url %}
+        Path : {% url %}
+        <!--
+        <a href="https://hits.sh/boyinblue.github.io/github-pages/2022/11/04/how-to-count-visitors-on-github-pages.html/"><img alt="Hits" src="https://hits.sh/boyinblue.github.io/github-pages/2022/11/04/how-to-count-visitors-on-github-pages.html.svg?view=today-total"/></a>
+        -->
 
 <!-- end of body header (_includes/body-title-section.html) -->
