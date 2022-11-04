@@ -3,6 +3,7 @@ title: markdown table 문법
 permalink: /_pages/markdown/2022-06-28-markdown_table.html
 description: markdown table 문법에 대해서 기록해두는 페이지입니다. 
 category: markdown
+image: /assets/images/markdown/logo.svg
 ---
 
 
