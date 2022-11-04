@@ -6,6 +6,7 @@ category: github-pages
 tags:
 - GitHub Pages
 - Jekyll
+image: /assets/images/github-pages/logo.png
 ---
 GitHub Pages를 개설한지 16일만에 구글 애드센스 승인을 받았습니다. 
 자신감을 가지고 6개월동안 블로그를 운영했습니다. 

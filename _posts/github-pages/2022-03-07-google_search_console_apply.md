@@ -3,6 +3,7 @@ title: GitHub Pages에 구글 서치 콘솔 등록 방법 아주 쉽다 (사이�
 permalink: /002_github_blog/002_google_search_console_apply.html
 description: GitHub 블로그에 구글 서치 콘솔을 등록하는 방법에 대해서 설명합니다.
 category: github-pages
+image: /assets/images/github-pages/logo.png
 ---
 저는 네이버 블로그와 티스토리 블로그를 오랫동안 운영해왔습니다. 
 최근에 아주 매력적인 GitHub 블로그(정확한 명칭은 GitHub Pages)를 발견하였고 매료되었습니다. 

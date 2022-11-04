@@ -3,6 +3,7 @@ title: GitHub Pages 운영시의 꿀팁들
 permalink: /002_github_blog/008.html
 description: GitHub Pages를 운영하면서 체득한 유용한 팁들을 제공합니다.
 category: github-pages
+image: /assets/images/github-pages/logo.png
 ---
 GitHub Pages를 이용해서 웹페이지를 운영하기 시작한지 2주가 좀 지났습니다. 
 처음에는 전혀 개념을 잡지 못해서 제법 시간과 노력이 필요했습니다. 

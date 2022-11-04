@@ -3,6 +3,7 @@ title: GitHub Pages를 다음 검색 엔진에 등록 신청하는 방법
 permalink: /002_github_blog/005_add_to_daum_search_engine.html
 description: 다음 검색 엔진에 GitHub Pages를 등록 신청하는 방법을 설명합니다.
 category: github-pages
+image: /assets/images/github-pages/logo.png
 ---
 GitHub Pages로 홈페이지를 개설해서 운영하기 시작했습니다. 
 처음에는 무료로 사용할 수 있는 웹서버이면서 별도의 도메인 등록이 필요하지 않아서 참 매력적이라고 생각했습니다. 

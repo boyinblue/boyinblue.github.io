@@ -3,6 +3,7 @@ title: mapping values are not allwed in this context at line 2 column 33 해결 
 permalink: /002_github_blog/011-github-mapping-values-are-not-allowed-in-this-context.html
 description: GitHub Pages의 md 파일 상단에 YAML 형식의 헤더를 추가했을 때 발생하는 mapping values are not allwed in this context at line 2 column 33에러를 조치하는 방법에 대해서 설명한다.
 category: github-pages
+image: /assets/images/github-pages/logo.png
 ---
 지난 시간에 GitHub Pages가 더 잘 검색되도록 하기 위해서 
 md 파일의 상단에 아래와 같은 형식으로 title과 description의 YAML 형식의 헤더를 추가하는 방법에 대해서 언급했다.
