@@ -19,7 +19,7 @@ document.addEventListener("scroll", function() { // scroll이벤트를 이용
         header_wrap.style.opacity = 1;
     }
     else {
-        header_wrap.style.opacity = 0.2;
+        header_wrap.style.opacity = 0.4;
     }
     });
 
@@ -46,8 +46,10 @@ const nav_bar = document.getElementById("left_bar");
 function toggle_menu() {
     if( nav_bar.style.width == 20 ) {
         nav_bar.style.width = 200;
+        nav_bar.style.height = 20;
     }
     else {
         nav_bar.style.width = 20;
+        nav_bar.style.height = 50;
     }
 }
