@@ -25,6 +25,3 @@ tags:
 |2022-10-09|홍천 비발디 파크 노래방|   |
 |2022-10-06|'나를 기록하는 방법' 김서령 작가 교육|   |
 
-
-{% assign category=page.category %}
-{% include body-category.html %}
