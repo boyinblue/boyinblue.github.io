@@ -1,4 +1,5 @@
 const link_info = document.getElementById('link_info');
+const header_wrap = document.getElementById('header_wrap');
 document.addEventListener("mousemove", (e) => { // mousemove이벤트를 이용해 움
     // 마우스의 좌표는 clientX와 clientY를 이용해 알수 있다. -> 브라우저 window의 좌표값 위치를 전달한다.
     // pageX, pageY와는 다름.
@@ -6,6 +7,13 @@ document.addEventListener("mousemove", (e) => { // mousemove이벤트를 이용�
     const mouseY = e.pageY;
     link_info.style.left = mouseX + 'px';
     link_info.style.top = mouseY + 'px';
+
+    if( e.pageY != e.clientY ) {
+        header_wrap.style.opacity = 0.1;
+    }
+    else {
+        header_wrap.style.opacity = 1;
+    }
     });
 
 function show_link_info(msg) {
