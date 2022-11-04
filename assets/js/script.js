@@ -44,7 +44,7 @@ function show_comment() {
 
 const nav_bar = document.getElementById("left_bar");
 function toggle_menu() {
-    if( nav_bar.style.width == 20 ) {
+    if( nav_bar.style.width === 20 ) {
         nav_bar.style.width = 200;
         nav_bar.style.height = 20;
         console.log("Expand" + nav_bar.style.width);
