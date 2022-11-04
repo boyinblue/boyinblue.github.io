@@ -87,3 +87,4 @@ page
 |page.name|{{ page.name }}|  |
 |page.path|{{ page.path }}|  |
 |page.content|생략|콘텐츠가 너무 많이 나옴|
+|page|{{ page | strip_html }}|  |

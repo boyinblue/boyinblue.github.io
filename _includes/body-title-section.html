@@ -1,6 +1,7 @@
 <!-- start of body header (_includes/body-title-section.html) -->
 
         {% if page.title %}<h1>{{ page.title }}</h1>{% endif %}
+        {% assign url = site.url | remove_first: "https://" | append: page.url %}
         <div style="float: right; background: #ccff00;">
         <a href="https://hits.sh/{{ url }}/"><img alt="Hits" style="border: 0px;" src="https://hits.sh/{{ url }}.svg?view=today-total"/></a>
         </div>
@@ -8,6 +9,5 @@
         {% if page.description %}<blockquote>{{ page.description }}</blockquote>{% endif %}
         {% capture image_url %}{% if page.image.path %}{{ page.image.path }}{% elsif page.image %}{{ page.image }}{% else %}{{ site.image }}{% endif %}{% endcapture %}
         {% if image_url != site.image %}<img src="{{ image_url }}">{% endif %}
-        {% assign url = site.url | remove_first: "https://" | append: page.url %}
 
 <!-- end of body header (_includes/body-title-section.html) -->
