@@ -41,3 +41,13 @@ function show_comment() {
     const comment_window = document.getElementById("disqus_window");
     comment_window.style.display = "block";
 }
+
+const nav_bar = document.getElementById("left_bar");
+function toggle_menu() {
+    if( nav_bar.style.width == 20 ) {
+        nav_bar.style.width = 200;
+    }
+    else {
+        nav_bar.style.width = 20;
+    }
+}
