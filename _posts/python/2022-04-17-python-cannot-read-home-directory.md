@@ -3,6 +3,7 @@ title: 파이썬 홈디렉토리 파일 오픈 방법
 permalink: /004_python/005-python-cannot-read-home-directory.html
 description: 파이썬에서 홈 디렉토리의 파일을 오픈하는 방법에 대해서 설명합니다.
 category: python
+image: /assets/images/python/logo.png
 ---
 파이썬의 플랫폼 독립성과 홈 디렉토리
 ---

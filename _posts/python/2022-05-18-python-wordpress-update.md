@@ -3,6 +3,7 @@ title: 파이썬으로 워드프레스 글 자동 발행하기
 permalink: /004_python/008-python-wordpress-update.html
 description: 파이썬으로 워드프레스 글을 자동 발행하는 방법에 대해서 설명합니다.
 category: python
+image: /assets/images/python/logo.png
 ---
 ### 패키지 설치
 

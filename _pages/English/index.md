@@ -16,6 +16,40 @@ category: English
 - 경험해본 영어 공부 프로그램에 대한 리뷰 제공
 - 영어 시험 성적 메모 (필자를 위한 기록)
 
+2022년 11월 3일 수업(목요일)
+---
+
+### anaglyph glasses
+
+
+### theatre
+
+극장, 연극
+
+
+### credited with
+
+- 동의어
+  - recognized with
+  - honored with
+
+
+### above all
+
+- 동의어
+  - first of all
+
+
+### in terms of
+
+- 동의어
+  - about
+
+
+### who took the lead
+
+
+
 
 2022년 11월 1일 수업(화요일)
 ---

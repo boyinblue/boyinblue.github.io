@@ -3,6 +3,7 @@ title: OpenCV를 이용하여 이미지를 출력하는 방법과 캠을 동작�
 permalink: /004_python/001.html
 description: OpenCV를 이용해서 이미지를 출력하는 방법과 실시간으로 캠 영상을 표시 방법을 설명합니다.  
 category: python
+image: /assets/images/python/logo.png
 ---
 Ubuntu Linux와 Python 언어를 기준으로 작성되었습니다.   
    
