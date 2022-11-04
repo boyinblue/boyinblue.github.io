@@ -43,6 +43,25 @@ hits.sh 이용
 2. 블로그 주소를 입력한다.
 3. 자동으로 생성된 HTML 테그를 적당한 곳에 활용한다. 
 
+### 페이지별로 방문자 확인
+Jekyll의 Liquid 문법을 조금 응용하면 페이지별로 방문자 카운터를 달 수 있다. 
+
+```
+{% raw %}
+{% assign url = site.url | remove_first: "https://" | append: page.url %}
+<a href="https://hits.sh/{{ url }}/"><img alt="Hits" style="border: 0px; margin: 0px;" src="https://hits.sh/{{ url }}.svg?view=today-total"/></a>
+{% endraw %}
+```
+
+예를 들어 `https://boyinblue.github.io/about/` 페이지에 카운터를 달아보자. 
+`site.url`은 `https://boyinblue.github.io`이고 `page.url`은 `/about/`이다. 
+
+
+`remove_first` 필터를 이용해서 `https://`로 시작되는 부분을 제거한다. 
+그리고 `page.url`을 append 시키면 `boyinblue.github.io/about/`이라는 구분자가 완성된다. 
+이 구분자를 a tag의 href와 img tag의 src에 넣어주면 된다. 
+
+
 ### 홈페이지
 {% assign preview_image_url = 'https://hits.sh/og-img-1200x630.png' %}
 {% assign preview_url = 'https://hits.sh/' %}
@@ -57,3 +76,8 @@ hits.sh 이용
 {% assign preview_description = 'GitHub 프로필이나 레파지토리, 블로그 등을 방문하다 보면 종종 방문자 카운터가 달린 것을 종종 볼 수 있다.' %}
 {% include body-preview.html %}
 
+{% assign preview_image_url = 'https://repository-images.githubusercontent.com/385596748/ded7d369-de63-406d-b633-9f4198961116' %}
+{% assign preview_url = 'https://github.com/silentsoft/hits' %}
+{% assign preview_title = 'GitHub - silentsoft/hits: Hit Counter for Your GitHub or Any Kind of Websites You Want.' %}
+{% assign preview_description = ':chart_with_upwards_trend: Hit Counter for Your GitHub or Any Kind of Websites You Want. - GitHub - silentsoft/hits: Hit Counter for Your GitHub or Any Kind of Websites You Want.' %}
+{% include body-preview.html %}
