@@ -8,16 +8,19 @@ document.addEventListener("mousemove", (e) => { // mousemove이벤트를 이용�
     link_info.style.left = mouseX + 'px';
     link_info.style.top = mouseY + 'px';
 
-    var msg = e.pageY + "," + e.clientY;
-    show_link_info(msg);
-
-    if( e.pageY != e.clientY ) {
-        header_wrap.style.opacity = 0.1;
-    }
-    else {
+document.addEventListener("scroll", (e) => { // mousemove이벤트를 이용해 움
+    // 마우스의 좌표는 clientX와 clientY를 이용해 알수 있다. -> 브라우저 window의 좌표값 위치를 전달한다.
+    // pageX, pageY와는 다름.
+    var currentScrollValue = document.documentElement.scrollTop;
+        console.log('currentScrollValue is ' + currentScrollValue);
+    
+    if( currentScrollValue == 0 ) {
         header_wrap.style.opacity = 1;
     }
-    });
+    else {
+        header_wrap.style.opacity = 0.2;
+    }
+    });    
 
 function show_link_info(msg) {
     link_info.style.display = 'block'
