@@ -331,6 +331,12 @@ Full-Width Styles
   background-color: #9bf50b; //컬러설정
 }
 
+.emoji {
+  width: 1em !important;
+  height: 1em !important;
+  vertical-align: text-bottom;
+}
+
 #forkme_banner {
   display: block;
   position: absolute;
