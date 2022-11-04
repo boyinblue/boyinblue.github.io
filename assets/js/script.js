@@ -8,6 +8,8 @@ document.addEventListener("mousemove", (e) => { // mousemove이벤트를 이용�
     link_info.style.left = mouseX + 'px';
     link_info.style.top = mouseY + 'px';
 
+    show_link_info(e.pageY + "," + e.clientY);
+
     if( e.pageY != e.clientY ) {
         header_wrap.style.opacity = 0.1;
     }
