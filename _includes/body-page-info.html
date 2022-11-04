@@ -24,6 +24,12 @@
               <td>카테고리</td>
               <td>{% if page.category %}{{ page.category }}{% else %}<b style="color:red">미분류</b>{% endif %}</td>
             </tr>
+            {% if page.author %}
+            <tr>
+              <td>저자</td>
+              <td>{{ page.author }}</td>
+            </tr>
+            {% endif %}
             {% if last_modified_at %}
             <tr>
               <td>마지막 수정</td>
