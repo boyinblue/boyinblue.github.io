@@ -4,6 +4,7 @@
 /* VARIABLES CSS */
 :root {
     --nav--width: 92px;
+    --nav--height: 20px;
 
     /* Colores */
     --first-color: #0c5df4;
@@ -54,7 +55,7 @@ a {
     top: 0;
     left: 0;
     width: var(--nav--width);
-    height: 100vh;
+    height: var(--nav--hegith);
     background-color: var(--bg-color);
     color: var(--white-color);
     padding: 1.5rem 1.5rem 2rem;
@@ -118,6 +119,7 @@ a {
 /* Expander menu */
 .expander {
     width: calc(var(--nav--width) + 9.25rem);
+    height: 100vh;
 }
 
 /* Add padding body*/
