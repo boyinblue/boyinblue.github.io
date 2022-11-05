@@ -16,3 +16,4 @@ description: /home/parksejin/project/boyinblue.github.io/assets/images/cafe
 |장소|(입력해주세요)|
 
 
+[로스팅고](/home/parksejin/project/boyinblue.github.io/assets/images/cafe/로스팅고)[컴포즈커피-성남고등점](/home/parksejin/project/boyinblue.github.io/assets/images/cafe/컴포즈커피-성남고등점)

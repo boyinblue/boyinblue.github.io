@@ -58,11 +58,13 @@ def make_md_for_pics(dir):
     f_wr.writelines(lines)
 
     for file in files:
+        path = "{}/{}".format(dir, file)
+#        print("path :", path)
         if is_exist_file(lines, file):
             print(file + " Skip!")
             continue
-        path = "{}/{}".format(dir, file)
-#        print("path :", path)
+        elif os.path.isdir(path):
+            f_wr.write("[{}]({})".format(file, path))
         for ext in pics_file_exts:
 #            print("ext : {}, {}".format(ext, -len(ext)))
             if len(file) >= len(ext) and file[-len(ext):] == ext:
@@ -82,7 +84,7 @@ def iterate_directory(dir):
         path = "{}/{}".format(dir, file)
         if file == "." or file == "..":
             continue
-        elif os.path.isdir(file):
+        elif os.path.isdir(path):
             make_md_for_pics(path)
             iterate_directory(path)
 
