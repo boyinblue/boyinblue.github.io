@@ -16,7 +16,7 @@ description: /home/parksejin/project/boyinblue.github.io/assets/images/upbit
 |장소|(입력해주세요)|
 
 
-boyinblue.github.io/assets/images/upbit/UPbit-OpenAPI-Query-Quarter.png
+/assets/images/upbit/UPbit-OpenAPI-Query-Quarter.png
 ![이미지](UPbit-OpenAPI-Query-Quarter.png)
 
 

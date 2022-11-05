@@ -16,7 +16,7 @@ description: /home/parksejin/project/boyinblue.github.io/assets/images/jenkins
 |장소|(입력해주세요)|
 
 
-boyinblue.github.io/assets/images/jenkins/logo.png
+/assets/images/jenkins/logo.png
 ![이미지](logo.png)
 
 

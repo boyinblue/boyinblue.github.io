@@ -16,7 +16,7 @@ description: /home/parksejin/project/boyinblue.github.io/assets/images/costco
 |장소|(입력해주세요)|
 
 
-boyinblue.github.io/assets/images/costco/CJ-고메-크리스피-핫도그.jpg
+/assets/images/costco/CJ-고메-크리스피-핫도그.jpg
 ![이미지](CJ-고메-크리스피-핫도그.jpg)
 
 

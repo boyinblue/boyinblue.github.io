@@ -16,7 +16,7 @@ description: /home/parksejin/project/boyinblue.github.io/assets/images/mysql
 |장소|(입력해주세요)|
 
 
-boyinblue.github.io/assets/images/mysql/mysql-service-is-running-well.png
+/assets/images/mysql/mysql-service-is-running-well.png
 ![이미지](mysql-service-is-running-well.png)
 
 

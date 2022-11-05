@@ -16,75 +16,75 @@ description: /home/parksejin/project/boyinblue.github.io/assets/images
 |장소|(입력해주세요)|
 
 
-[bash](boyinblue.github.io/assets/images/bash/)
+[bash](/assets/images/bash/)
 
 
-[beyond-compare](boyinblue.github.io/assets/images/beyond-compare/)
+[beyond-compare](/assets/images/beyond-compare/)
 
 
-[cafe](boyinblue.github.io/assets/images/cafe/)
+[cafe](/assets/images/cafe/)
 
 
-[costco](boyinblue.github.io/assets/images/costco/)
+[costco](/assets/images/costco/)
 
 
-[diary](boyinblue.github.io/assets/images/diary/)
+[diary](/assets/images/diary/)
 
 
-[firefox](boyinblue.github.io/assets/images/firefox/)
+[firefox](/assets/images/firefox/)
 
 
-[github-api](boyinblue.github.io/assets/images/github-api/)
+[github-api](/assets/images/github-api/)
 
 
-[github-pages](boyinblue.github.io/assets/images/github-pages/)
+[github-pages](/assets/images/github-pages/)
 
 
-[html](boyinblue.github.io/assets/images/html/)
+[html](/assets/images/html/)
 
 
-[javascript](boyinblue.github.io/assets/images/javascript/)
+[javascript](/assets/images/javascript/)
 
 
-[jenkins](boyinblue.github.io/assets/images/jenkins/)
+[jenkins](/assets/images/jenkins/)
 
 
-[markdown](boyinblue.github.io/assets/images/markdown/)
+[markdown](/assets/images/markdown/)
 
 
-[memo](boyinblue.github.io/assets/images/memo/)
+[memo](/assets/images/memo/)
 
 
-[mysql](boyinblue.github.io/assets/images/mysql/)
+[mysql](/assets/images/mysql/)
 
 
-[px](boyinblue.github.io/assets/images/px/)
+[px](/assets/images/px/)
 
 
-[python](boyinblue.github.io/assets/images/python/)
+[python](/assets/images/python/)
 
 
-[react](boyinblue.github.io/assets/images/react/)
+[react](/assets/images/react/)
 
 
-[rpi](boyinblue.github.io/assets/images/rpi/)
+[rpi](/assets/images/rpi/)
 
 
-[tistory](boyinblue.github.io/assets/images/tistory/)
+[tistory](/assets/images/tistory/)
 
 
-[ubuntu](boyinblue.github.io/assets/images/ubuntu/)
+[ubuntu](/assets/images/ubuntu/)
 
 
-[upbit](boyinblue.github.io/assets/images/upbit/)
+[upbit](/assets/images/upbit/)
 
 
-[vscode](boyinblue.github.io/assets/images/vscode/)
+[vscode](/assets/images/vscode/)
 
 
-[wordpress](boyinblue.github.io/assets/images/wordpress/)
+[wordpress](/assets/images/wordpress/)
 
 
-[writing](boyinblue.github.io/assets/images/writing/)
+[writing](/assets/images/writing/)
 
 

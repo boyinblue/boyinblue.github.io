@@ -16,58 +16,58 @@ description: /home/parksejin/project/boyinblue.github.io/assets/images/diary
 |장소|(입력해주세요)|
 
 
-[20100829_rainnyday](boyinblue.github.io/assets/images/diary/20100829_rainnyday/)
+[20100829_rainnyday](/assets/images/diary/20100829_rainnyday/)
 
 
-[20221012_고등동_왕남초등학교_야채트럭_드림유통](boyinblue.github.io/assets/images/diary/20221012_고등동_왕남초등학교_야채트럭_드림유통/)
+[20221012_고등동_왕남초등학교_야채트럭_드림유통](/assets/images/diary/20221012_고등동_왕남초등학교_야채트럭_드림유통/)
 
 
-boyinblue.github.io/assets/images/diary/20221014-독자를-사로잡는-매력적인-인터뷰-기사-작성-방법-이은지-강사.jpg
+/assets/images/diary/20221014-독자를-사로잡는-매력적인-인터뷰-기사-작성-방법-이은지-강사.jpg
 ![이미지](20221014-독자를-사로잡는-매력적인-인터뷰-기사-작성-방법-이은지-강사.jpg)
 
 
-[20221021_회사헬쓰장](boyinblue.github.io/assets/images/diary/20221021_회사헬쓰장/)
+[20221021_회사헬쓰장](/assets/images/diary/20221021_회사헬쓰장/)
 
 
-[20221022-코스트코-양재점](boyinblue.github.io/assets/images/diary/20221022-코스트코-양재점/)
+[20221022-코스트코-양재점](/assets/images/diary/20221022-코스트코-양재점/)
 
 
-[20221027-연탄불포차](boyinblue.github.io/assets/images/diary/20221027-연탄불포차/)
+[20221027-연탄불포차](/assets/images/diary/20221027-연탄불포차/)
 
 
-boyinblue.github.io/assets/images/diary/20221028_172638_야탑서울안과의원.jpg
+/assets/images/diary/20221028_172638_야탑서울안과의원.jpg
 ![이미지](20221028_172638_야탑서울안과의원.jpg)
 
 
-[20221029-신구대학교-수목원-회사-어린이날-행사](boyinblue.github.io/assets/images/diary/20221029-신구대학교-수목원-회사-어린이날-행사/)
+[20221029-신구대학교-수목원-회사-어린이날-행사](/assets/images/diary/20221029-신구대학교-수목원-회사-어린이날-행사/)
 
 
-[20221030-희망대공원](boyinblue.github.io/assets/images/diary/20221030-희망대공원/)
+[20221030-희망대공원](/assets/images/diary/20221030-희망대공원/)
 
 
-[20221031-uplus](boyinblue.github.io/assets/images/diary/20221031-uplus/)
+[20221031-uplus](/assets/images/diary/20221031-uplus/)
 
 
-boyinblue.github.io/assets/images/diary/20221101_124109-lunch.jpg
+/assets/images/diary/20221101_124109-lunch.jpg
 ![이미지](20221101_124109-lunch.jpg)
 
 
-boyinblue.github.io/assets/images/diary/20221102_162556-내문장이그렇게이상한가요.jpg
+/assets/images/diary/20221102_162556-내문장이그렇게이상한가요.jpg
 ![이미지](20221102_162556-내문장이그렇게이상한가요.jpg)
 
 
-boyinblue.github.io/assets/images/diary/20221103_120355-lunch.jpg
+/assets/images/diary/20221103_120355-lunch.jpg
 ![이미지](20221103_120355-lunch.jpg)
 
 
-[20221104](boyinblue.github.io/assets/images/diary/20221104/)
+[20221104](/assets/images/diary/20221104/)
 
 
-boyinblue.github.io/assets/images/diary/20221105_174454-판교현대백화점-회전목마.jpg
+/assets/images/diary/20221105_174454-판교현대백화점-회전목마.jpg
 ![이미지](20221105_174454-판교현대백화점-회전목마.jpg)
 
 
-boyinblue.github.io/assets/images/diary/logo.png
+/assets/images/diary/logo.png
 ![이미지](logo.png)
 
 

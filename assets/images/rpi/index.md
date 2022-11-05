@@ -16,23 +16,23 @@ description: /home/parksejin/project/boyinblue.github.io/assets/images/rpi
 |장소|(입력해주세요)|
 
 
-boyinblue.github.io/assets/images/rpi/002-ir-receiver-vs1838b-pin-map.jpg
+/assets/images/rpi/002-ir-receiver-vs1838b-pin-map.jpg
 ![이미지](002-ir-receiver-vs1838b-pin-map.jpg)
 
 
-boyinblue.github.io/assets/images/rpi/002-ir-receiver-vs1838b.jpg
+/assets/images/rpi/002-ir-receiver-vs1838b.jpg
 ![이미지](002-ir-receiver-vs1838b.jpg)
 
 
-boyinblue.github.io/assets/images/rpi/003-rpi4-servo-motor-control.jpg
+/assets/images/rpi/003-rpi4-servo-motor-control.jpg
 ![이미지](003-rpi4-servo-motor-control.jpg)
 
 
-boyinblue.github.io/assets/images/rpi/logo.svg
+/assets/images/rpi/logo.svg
 ![이미지](logo.svg)
 
 
-boyinblue.github.io/assets/images/rpi/rpi-performance-hard-to-use-notion-web.png
+/assets/images/rpi/rpi-performance-hard-to-use-notion-web.png
 ![이미지](rpi-performance-hard-to-use-notion-web.png)
 
 

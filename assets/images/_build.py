@@ -14,7 +14,9 @@ pics_file_exts = [
                 ".SVG"
                 ]
 
-project_root_idx = os.path.abspath('.').find("boyinblue.github.io")
+repo_name = "boyinblue.github.io"
+cwd = os.path.abspath('.')
+project_root_idx = cwd.find("boyinblue.github.io") + len(repo_name)
 project_root = os.path.abspath('.')[:project_root_idx]
 
 def write_default_md(dir):

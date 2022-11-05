@@ -16,11 +16,11 @@ description: /home/parksejin/project/boyinblue.github.io/assets/images/html
 |장소|(입력해주세요)|
 
 
-boyinblue.github.io/assets/images/html/html-float.png
+/assets/images/html/html-float.png
 ![이미지](html-float.png)
 
 
-boyinblue.github.io/assets/images/html/logo.png
+/assets/images/html/logo.png
 ![이미지](logo.png)
 
 

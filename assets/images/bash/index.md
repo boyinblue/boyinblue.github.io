@@ -16,11 +16,11 @@ description: /home/parksejin/project/boyinblue.github.io/assets/images/bash
 |장소|(입력해주세요)|
 
 
-boyinblue.github.io/assets/images/bash/echo-manual-escape-option.png
+/assets/images/bash/echo-manual-escape-option.png
 ![이미지](echo-manual-escape-option.png)
 
 
-boyinblue.github.io/assets/images/bash/logo.svg
+/assets/images/bash/logo.svg
 ![이미지](logo.svg)
 
 
