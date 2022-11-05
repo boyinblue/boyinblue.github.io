@@ -17,7 +17,7 @@ pics_file_exts = [
 def write_default_md(dir):
     file = open(dir + "/index.md", "w")
     file.write("---\n")
-    file.write("title: " + dir + "\n")
+    file.write("title: 전체 이미지 보기\n")
     file.write("description: " + dir + "\n")
     file.write("---\n")
     file.write("\n")
@@ -90,6 +90,7 @@ def iterate_directory(dir):
 
 def main():
     path = os.path.abspath('.')
+    make_md_for_pics(path)
     iterate_directory(path)
 
 if __name__ == '__main__':
