@@ -24,7 +24,7 @@ def write_default_md(dir):
     file.write("\n")
     file.write("|구분|내용|\n")
     file.write("|---|---|\n")
-    file.write("|날짜|202년 월 일|\n")
+    file.write("|날짜|2022년 월 일|\n")
     file.write("|주제|(입력해주세요)|\n")
     file.write("|테그|(입력해주세요)|\n")
     file.write("|장소|(입력해주세요)|\n")
@@ -63,6 +63,7 @@ def make_md_for_pics(dir):
 #            print("ext : {}, {}".format(ext, -len(ext)))
             if len(file) >= len(ext) and file[-len(ext):] == ext:
                 print("[IMG] {}".format(path))
+                f_wr.write("{}\n".format(path))
 #                f_wr.write("<!--{}-->\n".format(file))
                 f_wr.write("![이미지]({})\n\n\n".format(file))
                 break
@@ -79,6 +80,7 @@ def iterate_directory(dir):
             continue
         elif os.path.isdir(file):
             make_md_for_pics(path)
+            iterate_directory(path)
 
 def main():
     iterate_directory(".")
