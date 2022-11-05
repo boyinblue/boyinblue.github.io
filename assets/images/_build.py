@@ -6,7 +6,8 @@ import os
 pics_file_exts = [
                 ".jpg",
                 ".jpeg",
-                ".png",
+                ".JPG",
+                ".JPEG"
                 ]
 
 def write_default_md(dir):
@@ -15,6 +16,18 @@ def write_default_md(dir):
     file.write("title: " + dir + "\n")
     file.write("description: " + dir + "\n")
     file.write("---\n")
+    file.write("\n")
+    file.write("\n")
+    file.write("제목을 입력해주세요\n")
+    file.write("===\n")
+    file.write("\n")
+    file.write("\n")
+    file.write("|구분|내용|\n")
+    file.write("|---|---|\n")
+    file.write("|날짜|202년 월 일|\n")
+    file.write("|주제|(입력해주세요)|\n")
+    file.write("|테그|(입력해주세요)|\n")
+    file.write("|장소|(입력해주세요)|\n")
     file.write("\n")
     file.write("\n")
     file.close()
@@ -48,7 +61,7 @@ def make_md_for_pics(dir):
 #        print("path :", path)
         for ext in pics_file_exts:
 #            print("ext : {}, {}".format(ext, -len(ext)))
-            if len(file) >= len(ext) and file[-len(ext):].lower() == ext.lower():
+            if len(file) >= len(ext) and file[-len(ext):] == ext:
                 print("[IMG] {}".format(path))
 #                f_wr.write("<!--{}-->\n".format(file))
                 f_wr.write("![이미지]({})\n\n\n".format(file))
@@ -64,9 +77,8 @@ def iterate_directory(dir):
         path = "{}/{}".format(dir, file)
         if file == "." or file == "..":
             continue
-        elif os.path.isdir(path):
+        elif os.path.isdir(file):
             make_md_for_pics(path)
-            iterate_directory(path)
 
 def main():
     iterate_directory(".")
