@@ -7,7 +7,11 @@ pics_file_exts = [
                 ".jpg",
                 ".jpeg",
                 ".JPG",
-                ".JPEG"
+                ".JPEG",
+                ".png",
+                ".PNG",
+                ".svg",
+                ".SVG"
                 ]
 
 def write_default_md(dir):
@@ -83,7 +87,8 @@ def iterate_directory(dir):
             iterate_directory(path)
 
 def main():
-    iterate_directory(".")
+    path = os.path.abspath('.')
+    iterate_directory(path)
 
 if __name__ == '__main__':
     main()

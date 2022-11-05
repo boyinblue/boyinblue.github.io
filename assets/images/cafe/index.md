@@ -1,6 +1,6 @@
 ---
-title: ./cafe
-description: ./cafe
+title: /home/parksejin/project/boyinblue.github.io/assets/images/cafe
+description: /home/parksejin/project/boyinblue.github.io/assets/images/cafe
 ---
 
 

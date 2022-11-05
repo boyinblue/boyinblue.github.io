@@ -1,6 +1,6 @@
 ---
-title: ./costco
-description: ./costco
+title: /home/parksejin/project/boyinblue.github.io/assets/images/costco
+description: /home/parksejin/project/boyinblue.github.io/assets/images/costco
 ---
 
 
@@ -16,7 +16,7 @@ description: ./costco
 |장소|(입력해주세요)|
 
 
-./costco/CJ-고메-크리스피-핫도그.jpg
+/home/parksejin/project/boyinblue.github.io/assets/images/costco/CJ-고메-크리스피-핫도그.jpg
 ![이미지](CJ-고메-크리스피-핫도그.jpg)
 
 

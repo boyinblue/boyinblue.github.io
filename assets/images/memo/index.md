@@ -1,6 +1,6 @@
 ---
-title: ./memo
-description: ./memo
+title: /home/parksejin/project/boyinblue.github.io/assets/images/memo
+description: /home/parksejin/project/boyinblue.github.io/assets/images/memo
 ---
 
 
@@ -16,19 +16,23 @@ description: ./memo
 |장소|(입력해주세요)|
 
 
-./memo/봄사랑김밥말고-메뉴판.jpg
+/home/parksejin/project/boyinblue.github.io/assets/images/memo/봄사랑김밥말고-메뉴판.jpg
 ![이미지](봄사랑김밥말고-메뉴판.jpg)
 
 
-./memo/성남사랑상품권-1만원권.jpg
+/home/parksejin/project/boyinblue.github.io/assets/images/memo/성남사랑상품권-1만원권.jpg
 ![이미지](성남사랑상품권-1만원권.jpg)
 
 
-./memo/성남사랑상품권-5천원권.jpg
+/home/parksejin/project/boyinblue.github.io/assets/images/memo/성남사랑상품권-5천원권.jpg
 ![이미지](성남사랑상품권-5천원권.jpg)
 
 
-./memo/참조은마트.jpg
+/home/parksejin/project/boyinblue.github.io/assets/images/memo/성남사랑상품권-6퍼센트-할인.png
+![이미지](성남사랑상품권-6퍼센트-할인.png)
+
+
+/home/parksejin/project/boyinblue.github.io/assets/images/memo/참조은마트.jpg
 ![이미지](참조은마트.jpg)
 
 

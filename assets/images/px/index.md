@@ -1,6 +1,6 @@
 ---
-title: ./px
-description: ./px
+title: /home/parksejin/project/boyinblue.github.io/assets/images/px
+description: /home/parksejin/project/boyinblue.github.io/assets/images/px
 ---
 
 
@@ -16,11 +16,11 @@ description: ./px
 |장소|(입력해주세요)|
 
 
-./px/20221030_170228.jpg
+/home/parksejin/project/boyinblue.github.io/assets/images/px/20221030_170228.jpg
 ![이미지](20221030_170228.jpg)
 
 
-./px/DrG-MEDI-UV-ULTRA-SUN.jpg
+/home/parksejin/project/boyinblue.github.io/assets/images/px/DrG-MEDI-UV-ULTRA-SUN.jpg
 ![이미지](DrG-MEDI-UV-ULTRA-SUN.jpg)
 
 
