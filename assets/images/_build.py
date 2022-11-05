@@ -64,7 +64,7 @@ def make_md_for_pics(dir):
             print(file + " Skip!")
             continue
         elif os.path.isdir(path):
-            f_wr.write("[{}]({})".format(file, path))
+            f_wr.write("[{}]({}/)\n\n\n".format(file, path))
         for ext in pics_file_exts:
 #            print("ext : {}, {}".format(ext, -len(ext)))
             if len(file) >= len(ext) and file[-len(ext):] == ext:
