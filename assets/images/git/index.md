@@ -1,5 +1,5 @@
 ---
-title: /home/parksejin/project/boyinblue.github.io/assets/images/git
+title: 전체 이미지 보기
 description: /home/parksejin/project/boyinblue.github.io/assets/images/git
 ---
 
@@ -16,7 +16,7 @@ description: /home/parksejin/project/boyinblue.github.io/assets/images/git
 |장소|(입력해주세요)|
 
 
-/home/parksejin/project/boyinblue.github.io/assets/images/git/logo.png
+boyinblue.github.io/assets/images/git/logo.png
 ![이미지](logo.png)
 
 

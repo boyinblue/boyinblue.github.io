@@ -16,75 +16,75 @@ description: /home/parksejin/project/boyinblue.github.io/assets/images
 |장소|(입력해주세요)|
 
 
-[bash](/home/parksejin/project/boyinblue.github.io/assets/images/bash/)
+[bash](boyinblue.github.io/assets/images/bash/)
 
 
-[beyond-compare](/home/parksejin/project/boyinblue.github.io/assets/images/beyond-compare/)
+[beyond-compare](boyinblue.github.io/assets/images/beyond-compare/)
 
 
-[cafe](/home/parksejin/project/boyinblue.github.io/assets/images/cafe/)
+[cafe](boyinblue.github.io/assets/images/cafe/)
 
 
-[costco](/home/parksejin/project/boyinblue.github.io/assets/images/costco/)
+[costco](boyinblue.github.io/assets/images/costco/)
 
 
-[diary](/home/parksejin/project/boyinblue.github.io/assets/images/diary/)
+[diary](boyinblue.github.io/assets/images/diary/)
 
 
-[firefox](/home/parksejin/project/boyinblue.github.io/assets/images/firefox/)
+[firefox](boyinblue.github.io/assets/images/firefox/)
 
 
-[github-api](/home/parksejin/project/boyinblue.github.io/assets/images/github-api/)
+[github-api](boyinblue.github.io/assets/images/github-api/)
 
 
-[github-pages](/home/parksejin/project/boyinblue.github.io/assets/images/github-pages/)
+[github-pages](boyinblue.github.io/assets/images/github-pages/)
 
 
-[html](/home/parksejin/project/boyinblue.github.io/assets/images/html/)
+[html](boyinblue.github.io/assets/images/html/)
 
 
-[javascript](/home/parksejin/project/boyinblue.github.io/assets/images/javascript/)
+[javascript](boyinblue.github.io/assets/images/javascript/)
 
 
-[jenkins](/home/parksejin/project/boyinblue.github.io/assets/images/jenkins/)
+[jenkins](boyinblue.github.io/assets/images/jenkins/)
 
 
-[markdown](/home/parksejin/project/boyinblue.github.io/assets/images/markdown/)
+[markdown](boyinblue.github.io/assets/images/markdown/)
 
 
-[memo](/home/parksejin/project/boyinblue.github.io/assets/images/memo/)
+[memo](boyinblue.github.io/assets/images/memo/)
 
 
-[mysql](/home/parksejin/project/boyinblue.github.io/assets/images/mysql/)
+[mysql](boyinblue.github.io/assets/images/mysql/)
 
 
-[px](/home/parksejin/project/boyinblue.github.io/assets/images/px/)
+[px](boyinblue.github.io/assets/images/px/)
 
 
-[python](/home/parksejin/project/boyinblue.github.io/assets/images/python/)
+[python](boyinblue.github.io/assets/images/python/)
 
 
-[react](/home/parksejin/project/boyinblue.github.io/assets/images/react/)
+[react](boyinblue.github.io/assets/images/react/)
 
 
-[rpi](/home/parksejin/project/boyinblue.github.io/assets/images/rpi/)
+[rpi](boyinblue.github.io/assets/images/rpi/)
 
 
-[tistory](/home/parksejin/project/boyinblue.github.io/assets/images/tistory/)
+[tistory](boyinblue.github.io/assets/images/tistory/)
 
 
-[ubuntu](/home/parksejin/project/boyinblue.github.io/assets/images/ubuntu/)
+[ubuntu](boyinblue.github.io/assets/images/ubuntu/)
 
 
-[upbit](/home/parksejin/project/boyinblue.github.io/assets/images/upbit/)
+[upbit](boyinblue.github.io/assets/images/upbit/)
 
 
-[vscode](/home/parksejin/project/boyinblue.github.io/assets/images/vscode/)
+[vscode](boyinblue.github.io/assets/images/vscode/)
 
 
-[wordpress](/home/parksejin/project/boyinblue.github.io/assets/images/wordpress/)
+[wordpress](boyinblue.github.io/assets/images/wordpress/)
 
 
-[writing](/home/parksejin/project/boyinblue.github.io/assets/images/writing/)
+[writing](boyinblue.github.io/assets/images/writing/)
 
 

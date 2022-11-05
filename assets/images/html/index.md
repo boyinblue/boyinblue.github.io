@@ -1,5 +1,5 @@
 ---
-title: /home/parksejin/project/boyinblue.github.io/assets/images/html
+title: 전체 이미지 보기
 description: /home/parksejin/project/boyinblue.github.io/assets/images/html
 ---
 
@@ -16,11 +16,11 @@ description: /home/parksejin/project/boyinblue.github.io/assets/images/html
 |장소|(입력해주세요)|
 
 
-/home/parksejin/project/boyinblue.github.io/assets/images/html/html-float.png
+boyinblue.github.io/assets/images/html/html-float.png
 ![이미지](html-float.png)
 
 
-/home/parksejin/project/boyinblue.github.io/assets/images/html/logo.png
+boyinblue.github.io/assets/images/html/logo.png
 ![이미지](logo.png)
 
 

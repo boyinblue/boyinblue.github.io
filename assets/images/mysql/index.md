@@ -1,5 +1,5 @@
 ---
-title: /home/parksejin/project/boyinblue.github.io/assets/images/mysql
+title: 전체 이미지 보기
 description: /home/parksejin/project/boyinblue.github.io/assets/images/mysql
 ---
 
@@ -16,7 +16,7 @@ description: /home/parksejin/project/boyinblue.github.io/assets/images/mysql
 |장소|(입력해주세요)|
 
 
-/home/parksejin/project/boyinblue.github.io/assets/images/mysql/mysql-service-is-running-well.png
+boyinblue.github.io/assets/images/mysql/mysql-service-is-running-well.png
 ![이미지](mysql-service-is-running-well.png)
 
 

@@ -1,5 +1,5 @@
 ---
-title: /home/parksejin/project/boyinblue.github.io/assets/images/bash
+title: 전체 이미지 보기
 description: /home/parksejin/project/boyinblue.github.io/assets/images/bash
 ---
 
@@ -16,11 +16,11 @@ description: /home/parksejin/project/boyinblue.github.io/assets/images/bash
 |장소|(입력해주세요)|
 
 
-/home/parksejin/project/boyinblue.github.io/assets/images/bash/echo-manual-escape-option.png
+boyinblue.github.io/assets/images/bash/echo-manual-escape-option.png
 ![이미지](echo-manual-escape-option.png)
 
 
-/home/parksejin/project/boyinblue.github.io/assets/images/bash/logo.svg
+boyinblue.github.io/assets/images/bash/logo.svg
 ![이미지](logo.svg)
 
 

@@ -1,5 +1,5 @@
 ---
-title: /home/parksejin/project/boyinblue.github.io/assets/images/tistory
+title: 전체 이미지 보기
 description: /home/parksejin/project/boyinblue.github.io/assets/images/tistory
 ---
 
@@ -16,11 +16,11 @@ description: /home/parksejin/project/boyinblue.github.io/assets/images/tistory
 |장소|(입력해주세요)|
 
 
-/home/parksejin/project/boyinblue.github.io/assets/images/tistory/20220929-tistory-plus-map-viewer.jpg
+boyinblue.github.io/assets/images/tistory/20220929-tistory-plus-map-viewer.jpg
 ![이미지](20220929-tistory-plus-map-viewer.jpg)
 
 
-/home/parksejin/project/boyinblue.github.io/assets/images/tistory/logo.png
+boyinblue.github.io/assets/images/tistory/logo.png
 ![이미지](logo.png)
 
 

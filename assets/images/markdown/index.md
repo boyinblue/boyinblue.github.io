@@ -1,5 +1,5 @@
 ---
-title: /home/parksejin/project/boyinblue.github.io/assets/images/markdown
+title: 전체 이미지 보기
 description: /home/parksejin/project/boyinblue.github.io/assets/images/markdown
 ---
 
@@ -16,7 +16,7 @@ description: /home/parksejin/project/boyinblue.github.io/assets/images/markdown
 |장소|(입력해주세요)|
 
 
-/home/parksejin/project/boyinblue.github.io/assets/images/markdown/logo.svg
+boyinblue.github.io/assets/images/markdown/logo.svg
 ![이미지](logo.svg)
 
 

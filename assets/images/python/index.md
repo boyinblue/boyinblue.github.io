@@ -1,5 +1,5 @@
 ---
-title: /home/parksejin/project/boyinblue.github.io/assets/images/python
+title: 전체 이미지 보기
 description: /home/parksejin/project/boyinblue.github.io/assets/images/python
 ---
 
@@ -16,47 +16,47 @@ description: /home/parksejin/project/boyinblue.github.io/assets/images/python
 |장소|(입력해주세요)|
 
 
-/home/parksejin/project/boyinblue.github.io/assets/images/python/003-python-turtle-3d-start.png
+boyinblue.github.io/assets/images/python/003-python-turtle-3d-start.png
 ![이미지](003-python-turtle-3d-start.png)
 
 
-/home/parksejin/project/boyinblue.github.io/assets/images/python/003-python-turtle-flower-36.png
+boyinblue.github.io/assets/images/python/003-python-turtle-flower-36.png
 ![이미지](003-python-turtle-flower-36.png)
 
 
-/home/parksejin/project/boyinblue.github.io/assets/images/python/003-python-turtle-flower.png
+boyinblue.github.io/assets/images/python/003-python-turtle-flower.png
 ![이미지](003-python-turtle-flower.png)
 
 
-/home/parksejin/project/boyinblue.github.io/assets/images/python/003-python-turtle-square.png
+boyinblue.github.io/assets/images/python/003-python-turtle-square.png
 ![이미지](003-python-turtle-square.png)
 
 
-/home/parksejin/project/boyinblue.github.io/assets/images/python/003-python-turtle-start.png
+boyinblue.github.io/assets/images/python/003-python-turtle-start.png
 ![이미지](003-python-turtle-start.png)
 
 
-/home/parksejin/project/boyinblue.github.io/assets/images/python/003-python-turtle-start2.png
+boyinblue.github.io/assets/images/python/003-python-turtle-start2.png
 ![이미지](003-python-turtle-start2.png)
 
 
-/home/parksejin/project/boyinblue.github.io/assets/images/python/003-python-turtle-sun-10.png
+boyinblue.github.io/assets/images/python/003-python-turtle-sun-10.png
 ![이미지](003-python-turtle-sun-10.png)
 
 
-/home/parksejin/project/boyinblue.github.io/assets/images/python/003-python-turtle-tier.png
+boyinblue.github.io/assets/images/python/003-python-turtle-tier.png
 ![이미지](003-python-turtle-tier.png)
 
 
-/home/parksejin/project/boyinblue.github.io/assets/images/python/003-python-turtle-triangle.png
+boyinblue.github.io/assets/images/python/003-python-turtle-triangle.png
 ![이미지](003-python-turtle-triangle.png)
 
 
-/home/parksejin/project/boyinblue.github.io/assets/images/python/003-python-turtle-wheel.png
+boyinblue.github.io/assets/images/python/003-python-turtle-wheel.png
 ![이미지](003-python-turtle-wheel.png)
 
 
-/home/parksejin/project/boyinblue.github.io/assets/images/python/logo.png
+boyinblue.github.io/assets/images/python/logo.png
 ![이미지](logo.png)
 
 

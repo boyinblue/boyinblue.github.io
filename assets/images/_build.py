@@ -14,6 +14,9 @@ pics_file_exts = [
                 ".SVG"
                 ]
 
+project_root_idx = os.path.abspath('.').find("boyinblue.github.io")
+project_root = os.path.abspath('.')[:project_root_idx]
+
 def write_default_md(dir):
     file = open(dir + "/index.md", "w")
     file.write("---\n")
@@ -59,17 +62,18 @@ def make_md_for_pics(dir):
 
     for file in files:
         path = "{}/{}".format(dir, file)
+        url_path = path.replace(project_root, "")
 #        print("path :", path)
         if is_exist_file(lines, file):
             print(file + " Skip!")
             continue
         elif os.path.isdir(path):
-            f_wr.write("[{}]({}/)\n\n\n".format(file, path))
+            f_wr.write("[{}]({}/)\n\n\n".format(file, url_path))
         for ext in pics_file_exts:
 #            print("ext : {}, {}".format(ext, -len(ext)))
             if len(file) >= len(ext) and file[-len(ext):] == ext:
                 print("[IMG] {}".format(path))
-                f_wr.write("{}\n".format(path))
+                f_wr.write("{}\n".format(url_path))
 #                f_wr.write("<!--{}-->\n".format(file))
                 f_wr.write("![이미지]({})\n\n\n".format(file))
                 break

@@ -1,5 +1,5 @@
 ---
-title: /home/parksejin/project/boyinblue.github.io/assets/images/cafe
+title: 전체 이미지 보기
 description: /home/parksejin/project/boyinblue.github.io/assets/images/cafe
 ---
 
@@ -16,9 +16,9 @@ description: /home/parksejin/project/boyinblue.github.io/assets/images/cafe
 |장소|(입력해주세요)|
 
 
-[로스팅고](/home/parksejin/project/boyinblue.github.io/assets/images/cafe/로스팅고/)
+[로스팅고](boyinblue.github.io/assets/images/cafe/로스팅고/)
 
 
-[컴포즈커피-성남고등점](/home/parksejin/project/boyinblue.github.io/assets/images/cafe/컴포즈커피-성남고등점/)
+[컴포즈커피-성남고등점](boyinblue.github.io/assets/images/cafe/컴포즈커피-성남고등점/)
 
 
