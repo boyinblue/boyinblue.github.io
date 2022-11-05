@@ -6,5 +6,10 @@ category: writing
 
 >결승전결
 
-{% assign category=page.category %}
-{% include body-category.html %}
+유용한 링크
+---
+
+
+[국립국어원 표준국어대사전](https://stdict.korean.go.kr 국립국어원 표준국어대사전)
+
+
