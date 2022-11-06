@@ -431,8 +431,8 @@ Full-Width Styles
 #menu_outline {
   display: block;
   position: fixed;
-  top: 0px;
-  right: 0px;
+  top: 10px;
+  right: 10px;
   z-index: 6;
   margin: 0px;
   padding: 0px;
@@ -527,8 +527,6 @@ Small Device Styles
   #menu_outline {
     display: block;
     position: fixed;
-    top: 0px;
-    right: 0px;
     z-index: 6;
     margin: 0px;
     padding: 0px;
@@ -536,6 +534,8 @@ Small Device Styles
 
   #left_bar {
     display: none;
+    margin: 0px auto;
+    position: relative;
   }
 }
 
@@ -547,8 +547,6 @@ Small Device Styles
   #menu_outline {
     display: block;
     position: fixed;
-    top: 0px;
-    right: 0px;
     z-index: 6;
     margin: 0px;
     padding: 0px;
@@ -556,6 +554,8 @@ Small Device Styles
 
   #left_bar {
     display: none;
+    margin: 0px auto;
+    position: relative;
   }
 
   #downloads {
@@ -609,8 +609,6 @@ Small Device Styles
   #menu_outline {
     display: block;
     position: fixed;
-    top: 0px;
-    right: 0px;
     z-index: 6;
     margin: 0px;
     padding: 0px;
@@ -622,6 +620,7 @@ Small Device Styles
     clear: both;
     min-width: 320px;
     max-width: 480px;
+    margin: 0px auto;
   }
 
   #downloads {
