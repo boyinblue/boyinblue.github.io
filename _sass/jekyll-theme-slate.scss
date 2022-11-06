@@ -430,6 +430,10 @@ Full-Width Styles
 
 #menu_outline {
   display: none;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  z-index: 6;
 }
 
 #left_bar {
