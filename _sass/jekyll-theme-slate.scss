@@ -534,6 +534,8 @@ Small Device Styles
     display: none;
     margin: 0px auto;
     position: relative;
+    max-width: 640px;
+    clear: both;
   }
 }
 
@@ -551,6 +553,9 @@ Small Device Styles
     display: none;
     margin: 0px auto;
     position: relative;
+    min-width: 320px;
+    max-width: 480px;
+    clear: both;
   }
 
   #downloads {
@@ -610,8 +615,8 @@ Small Device Styles
     position: relative;
     width: 100%;
     clear: both;
-    min-width: 320px;
-    max-width: 480px;
+    min-width: 240px;
+    max-width: 320px;
     margin: 0px auto;
   }
 
