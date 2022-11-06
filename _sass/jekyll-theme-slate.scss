@@ -429,7 +429,7 @@ Full-Width Styles
 }
 
 #menu_outline {
-  display: none;
+  display: block;
   position: fixed;
   top: 0px;
   right: 0px;
@@ -590,6 +590,10 @@ Small Device Styles
 @media screen and (max-width: 320px) {
   body {
     font-size:14px;
+  }
+
+  #menu_outline {
+    display: block;
   }
 
   #left_bar {
