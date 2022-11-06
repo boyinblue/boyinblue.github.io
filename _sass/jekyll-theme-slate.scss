@@ -478,6 +478,7 @@ Small Device Styles
 
   #left_bar {
     display: none;
+    width: 100%;
     margin: 0px auto;
     position: relative;
     max-width: 640px;
@@ -497,6 +498,7 @@ Small Device Styles
 
   #left_bar {
     display: none;
+    width: 100%;
     margin: 0px auto;
     position: relative;
     min-width: 320px;
@@ -504,7 +506,7 @@ Small Device Styles
     clear: both;
   }
 
-    .inner {
+  .inner {
     min-width: 320px;
     max-width: 480px;
   }
