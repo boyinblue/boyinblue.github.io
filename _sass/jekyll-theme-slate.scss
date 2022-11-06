@@ -434,6 +434,8 @@ Full-Width Styles
   top: 0px;
   right: 0px;
   z-index: 6;
+  margin: 0px;
+  padding: 0px;
 }
 
 #left_bar {
@@ -524,6 +526,12 @@ Small Device Styles
 
   #menu_outline {
     display: block;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    z-index: 6;
+    margin: 0px;
+    padding: 0px;
   }
 
   #left_bar {
@@ -538,6 +546,12 @@ Small Device Styles
 
   #menu_outline {
     display: block;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    z-index: 6;
+    margin: 0px;
+    padding: 0px;
   }
 
   #left_bar {
@@ -594,6 +608,12 @@ Small Device Styles
 
   #menu_outline {
     display: block;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    z-index: 6;
+    margin: 0px;
+    padding: 0px;
   }
 
   #left_bar {
