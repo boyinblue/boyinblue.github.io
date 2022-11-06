@@ -44,14 +44,9 @@ function show_comment() {
 
 const nav_bar = document.getElementById("left_bar");
 function toggle_menu() {
-    if( nav_bar.style.width === "20px" ) {
-        nav_bar.style.width = "200px";
-        nav_bar.style.height = "20px";
-        console.log("Expand" + nav_bar.style.width);
-    }
-    else {
-        nav_bar.style.width = "20px";
-        nav_bar.style.height = "50px";
-        console.log("Reduce" + nav_bar.style.width);
+    if ( nav_bar.style.display == 'none' ) {
+        nav_bar.style.display = 'block';
+    } else {
+        nav_bar.style.display = 'none';
     }
 }

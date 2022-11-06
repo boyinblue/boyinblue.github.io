@@ -428,6 +428,10 @@ Full-Width Styles
   margin-top: 60px;
 }
 
+#menu_outline {
+  display: none;
+}
+
 #left_bar {
   display: inline-block;
   position: fixed;
@@ -514,9 +518,12 @@ Small Device Styles
     max-width: 100%;
   }
 
+  #menu_outline {
+    display: block;
+  }
+
   #left_bar {
-    width: 20px;
-    height: 20px;
+    display: none;
   }
 }
 
@@ -525,9 +532,12 @@ Small Device Styles
     font-size:14px;
   }
 
+  #menu_outline {
+    display: block;
+  }
+
   #left_bar {
-    width: 20px;
-    height: 20px;
+    display: none;
   }
 
   #downloads {
@@ -576,10 +586,6 @@ Small Device Styles
 @media screen and (max-width: 320px) {
   body {
     font-size:14px;
-  }
-
-  #left_bar {
-    clear: both;
   }
 
   #left_bar {
