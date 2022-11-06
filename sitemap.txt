@@ -17,6 +17,7 @@ boyinblue.github.io/assets/images/memo/index.md
 boyinblue.github.io/assets/images/markdown/index.md
 boyinblue.github.io/assets/images/jenkins/index.md
 boyinblue.github.io/assets/images/javascript/index.md
+boyinblue.github.io/assets/images/index.md
 boyinblue.github.io/assets/images/html/index.md
 boyinblue.github.io/assets/images/github-pages/index.md
 boyinblue.github.io/assets/images/github-api/index.md
