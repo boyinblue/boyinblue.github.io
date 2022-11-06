@@ -44,7 +44,7 @@ function show_comment() {
 
 const nav_bar = document.getElementById("left_bar");
 function toggle_menu() {
-    if ( nav_bar.style.display == 'none' ) {
+    if ( nav_bar.style.display != 'block' ) {
         nav_bar.style.display = 'block';
     } else {
         nav_bar.style.display = 'none';

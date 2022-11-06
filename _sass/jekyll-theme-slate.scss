@@ -431,6 +431,7 @@ Full-Width Styles
 #menu_outline {
   display: block;
   position: fixed;
+  background: #ffffff;
   top: 10px;
   right: 10px;
   z-index: 6;
@@ -527,9 +528,6 @@ Small Device Styles
   #menu_outline {
     display: block;
     position: fixed;
-    z-index: 6;
-    margin: 0px;
-    padding: 0px;
   }
 
   #left_bar {
@@ -547,9 +545,6 @@ Small Device Styles
   #menu_outline {
     display: block;
     position: fixed;
-    z-index: 6;
-    margin: 0px;
-    padding: 0px;
   }
 
   #left_bar {
@@ -609,9 +604,6 @@ Small Device Styles
   #menu_outline {
     display: block;
     position: fixed;
-    z-index: 6;
-    margin: 0px;
-    padding: 0px;
   }
 
   #left_bar {
