@@ -71,7 +71,8 @@ GitHub Pages로 만든 사이트들
 |[blog.lanyonm.org](https://blog.lanyonm.org)|[Repo](https://github.com/lanyonm/lanyonm.github.io)|테그 활용 방법|
 |[ansohxxn.github.io](https://ansohxxn.github.io)|[Repo](https://github.com/ansohxxn/ansohxxn.github.io)|디자인|
 |[devinlife.github.io](https://devinlife.github.io)|[Repo](https://github.com/devinlife/devinlife.github.io)|   |
-|[feel5ny.github.io](https://feel5ny.github.io)|[Repo](https://github.com/feel5ny/feel5ny.github.io)   |
+|[feel5ny.github.io](https://feel5ny.github.io)|[Repo](https://github.com/feel5ny/feel5ny.github.io)|   |
+|[076923.github.io](https://076923.github.io)|[Repo](https://github.com/076923/076923.github.io)|   |
 
 
 Theme 페이지

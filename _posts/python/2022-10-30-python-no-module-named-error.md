@@ -30,6 +30,7 @@ $ sudo pip3 install SpeechRecognition
 |---|---|---|
 |No module named 'speech_recognition'|sudo pip3 install SpeechRecognition|  |
 |No module named 'bs4'|sudo pip3 install beautifulsoup4|   |
+|No module named 'tkinter'|sudo apt-get install python3-tk|   |
 
 
 pip3: 명령이 없습니다 에러 발생할 경우
