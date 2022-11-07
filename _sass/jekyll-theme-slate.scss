@@ -360,14 +360,6 @@ Full-Width Styles
   text-shadow: #111 0px 0px 10px;
 }
 
-#logo_title {
-  color: #000000;
-  font-size: 18px;
-  font-weight: 700;
-  background: none;
-  text-shadow: #888888 0px 0px 10px;
-}
-
 #project_tagline {
   color: #fff;
   font-size: 18px;
@@ -411,13 +403,6 @@ Full-Width Styles
   top: 60px;
   right:10px;
   width: 200px;
-}
-
-#logo {
-  width: 200px;
-  margin: 0px;
-  padding: 0px;
-  border-radius: 3px;
 }
 
 .category_btn {
@@ -505,11 +490,7 @@ Small Device Styles
     max-width: 640px;
     clear: both;
   }
-
-  #logo {
-    width: 20px;
-  }
-}
+}  
 
 @media screen and (max-width: 480px) {
   body {
