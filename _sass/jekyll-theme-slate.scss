@@ -436,7 +436,7 @@ Full-Width Styles
 
 .menu_btn {
   box-sizing: border-box;
-  display: inline;
+  display: inline-block;
   color: #000;
   font-weight: bold;
   border: 1px solid #000;
@@ -474,7 +474,11 @@ Small Device Styles
 
   #main_content_wrap {
     position: static;
-}
+  }
+
+  .menu_btn {
+    width: 120px;
+  }
 
   #left_bar {
     display: none;
