@@ -455,8 +455,8 @@ Full-Width Styles
   color: #000;
   font-weight: bold;
   border: 1px solid #000;
-  margin: 0px;
-  padding: 0px;
+  margin: 0px 0px 5px 0px;
+  padding: 0px 5px 0px 5px;
   width: 200px;
   text-decoration-line: underline;
   text-decoration-color: #dcfffb;
@@ -493,7 +493,6 @@ Small Device Styles
 
   .menu_btn {
     width: 120px;
-    margin: 0px 0px 5px 5px;
   }
 
   #left_bar {
