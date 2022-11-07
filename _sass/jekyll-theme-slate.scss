@@ -342,7 +342,7 @@ Full-Width Styles
 
 #header_wrap {
   position: fixed;
-  overflow: auto;
+  overflow: hidden;
   z-index: 5;
   background: #212121;
   background: -moz-linear-gradient(top, #373737, #212121);
@@ -354,6 +354,7 @@ Full-Width Styles
 
 #project_title {
   margin: 0;
+  padding: 0;
   color: #fff;
   font-size: 20px;
   font-weight: 700;
@@ -381,6 +382,7 @@ Full-Width Styles
   top: 10px;
   right: 10px;
   z-index: 6;
+  height: 20px;
   margin: 0px;
   padding: 0px;
 }
@@ -435,12 +437,12 @@ Full-Width Styles
 
 .menu_btn {
   box-sizing: border-box;
-  display: block;
+  display: inline-block;
   color: #000;
   font-weight: bold;
   border: 1px solid #000;
   margin: 0px;
-  padding: 0px 5px;
+  padding: 0px 5px 0px 5px;
   width: 200px;
   text-decoration-line: underline;
   text-decoration-color: #dcfffb;
@@ -471,36 +473,36 @@ Small Device Styles
     max-width: 100%;
   }
 
-  #menu_outline {
-    display: block;
-    position: fixed;
+  #main_content_wrap {
+    position: static;
+  }
+
+  .menu_btn {
+    width: 120px;
+    margin: 0px 0px 5px 0px;
   }
 
   #left_bar {
     display: none;
     width: 100%;
-    margin: 0px auto;
-    position: relative;
+    float: none;
+    margin: 0px auto 10px auto;
+    position: static;
     max-width: 640px;
     clear: both;
   }
-}
+}  
 
 @media screen and (max-width: 480px) {
   body {
     font-size:14px;
   }
 
-  #menu_outline {
-    display: block;
-    position: fixed;
-  }
-
   #left_bar {
     display: none;
     width: 100%;
     margin: 0px auto;
-    position: relative;
+    position: static;
     min-width: 320px;
     max-width: 480px;
     clear: both;
@@ -550,13 +552,8 @@ Small Device Styles
     font-size:14px;
   }
 
-  #menu_outline {
-    display: block;
-    position: fixed;
-  }
-
   #left_bar {
-    position: relative;
+    position: static;
     width: 100%;
     clear: both;
     min-width: 240px;
