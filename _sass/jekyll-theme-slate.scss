@@ -405,6 +405,10 @@ Full-Width Styles
   width: 200px;
 }
 
+#logo {
+  width: 200px;
+}
+
 .category_btn {
   float: left;
   border: 1px solid #000;
@@ -488,6 +492,10 @@ Small Device Styles
     position: static;
     max-width: 640px;
     clear: both;
+  }
+
+  #logo {
+    width: 20px;
   }
 }
 
