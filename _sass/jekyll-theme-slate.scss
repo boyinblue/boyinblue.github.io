@@ -471,6 +471,10 @@ Small Device Styles
     max-width: 100%;
   }
 
+  #main_content_wrap {
+    position: static;
+}
+
   #menu_outline {
     display: block;
     position: fixed;
