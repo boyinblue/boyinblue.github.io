@@ -5,13 +5,13 @@
     </div>
 
     <nav id="left_bar">
-      <div style="display: inline-block;">
+      <div style="display: inline-block; width: 100%;">
       {% if site.image %}
         <a href="/about"><img id="logo" src="{{ site.image }}"></a>
       {% endif %}
       
       {% if site.name %}
-        <h6>{{ site.name }}</h6>
+        <small id="project_tagline">{{ site.name }}</small>
       {% endif %}
         <a href="https://hits.sh/www.github.com/boyinblue/boyinblue.github.io/"><img alt="Hits" style="border: 0px; margin: 0px; padding: 0px;" src="https://hits.sh/www.github.com/boyinblue/boyinblue.github.io.svg?view=today-total"/></a>
       </div>

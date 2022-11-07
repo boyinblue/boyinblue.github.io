@@ -3,7 +3,7 @@ title: Raspberry Pi
 permalink: /010_raspberry/index.html
 description: 초소형 미니 컴퓨터인 라즈베리파이 관련 연구 내용을 정리합니다.
 category: rpi
-image: /assets/images/logo.svg
+image: /assets/images/rpi/logo.svg
 ---
 
 라즈베리파이 성능
