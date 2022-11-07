@@ -342,7 +342,7 @@ Full-Width Styles
 
 #header_wrap {
   position: fixed;
-  overflow: auto;
+  overflow: hidden;
   z-index: 5;
   background: #212121;
   background: -moz-linear-gradient(top, #373737, #212121);
