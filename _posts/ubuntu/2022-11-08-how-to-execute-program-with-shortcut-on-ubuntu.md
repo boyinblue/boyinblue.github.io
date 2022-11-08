@@ -25,23 +25,27 @@ image: /assets/images/ubuntu/ubuntu-linux-short-cut-execute-4.png
 
 ### 1. 바로 가기 보기 및 사용자 설정
 ![](/assets/images/ubuntu/ubuntu-linux-short-cut-execute.png)
-설정 -> 키보드 -> 바로 가기 보기 및 사용자 설정 메뉴로 들어갑니다.
+`설정` -> `키보드` -> `바로 가기 보기 및 사용자 설정` 메뉴로 들어갑니다.
 
 ### 2. 바로 가기 사용자 설정 선택
 ![](/assets/images/ubuntu/ubuntu-linux-short-cut-execute-2.png)
+`키보드 바로 가기` 메뉴에서 가장 아래쪽으로 스크롤해보면 `바로 가기 사용자 설정` 메뉴가 나옵니다. 
 
 ### 3. 바로 가기 추가
 ![](/assets/images/ubuntu/ubuntu-linux-short-cut-execute-3.png)
+`바로 가기 추가` 버튼을 선택합니다. 
 
 ### 이름, 명령을 입력
 ![](/assets/images/ubuntu/ubuntu-linux-short-cut-execute-4.png)
+적당한 `이름`과 `명령`을 입력한 후에 `바로 가기 설정` 버튼을 선택합니다.
 
 ### 바로 가기 설정을 눌러 단축키 등록
 ![](/assets/images/ubuntu/ubuntu-linux-short-cut-execute-5.png)
+사용할 단축키를 키보드로 입력합니다. 
 
 ### 단축키를 입력해서 테스트
 ![](/assets/images/ubuntu/ubuntu-linux-short-cut-execute-6.png)
-
+등록한 단축키를 누르면 등록한 프로그램이 자동으로 실행됩니다. 
 
 제약 사항
 ---
@@ -89,10 +93,10 @@ ModuleNotFoundError: No module named 'tkinter'
 
 파이썬 스크립트는 쉐뱅을 이용하면 실행 파일을 만들지 않아도 실행 가능합니다. 
 
-{% assign preview_image_url = '"https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Fk.kakaocdn.net%2Fdn%2FclJgXB%2FbtrM5QDKJhh%2FJFx4VJXt9iUpQQbYKTms20%2Fimg.png"' %}
+{% assign preview_image_url = 'https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Fk.kakaocdn.net%2Fdn%2FclJgXB%2FbtrM5QDKJhh%2FJFx4VJXt9iUpQQbYKTms20%2Fimg.png' %}
 {% assign preview_url = 'https://worldclassproduct.tistory.com/entry/%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-%EC%9E%90%EB%8F%99%EC%8B%A4%ED%96%89-%EB%B0%A9%EB%B2%95-usrbinenv-python3' %}
-{% assign preview_title = '"파이썬 스크립트 자동실행 방법 (#!/usr/bin/env python3)"' %}
-{% assign preview_description = '"파이썬을 처음 시작했을 때는 파이썬 스크립트를 실행시킬 때마다 python 혹은 python3 명령을 붙여주었다. 하지만 파이썬에 어느 정도 익숙해진 지금은 shebang(셔뱅)을 이용해서 파이썬 스크립트를 자동으로 실행될 수 있도록 작성하고 있다. 셔뱅(shebang)이란? 셔뱅(shebang)이라는 것이 처음에는 조금 낯설 수 있겠다. 하지만 우리는 이미 습관적으로 셔뱅을 구사하고 있다. 우리가 bash script를 작성할 때 아주 습관적으로 가장 첫 번째 줄에 #!/bin/bash를 입력한다. 마찬가지로 파이썬 스크립트에 #!/usr/bin/env python3 구문을 입력하면 쉘은 알아서 python3를 실행하여 해당 스크립트를 수행한다. 배쉬 스크립트 셔뱅 예제 (script.sh) #!/bi.."' %}
+{% assign preview_title = '파이썬 스크립트 자동실행 방법 (#!/usr/bin/env python3)' %}
+{% assign preview_description = '파이썬을 처음 시작했을 때는 파이썬 스크립트를 실행시킬 때마다 python 혹은 python3 명령을 붙여주었다. 하지만 파이썬에 어느 정도 익숙해진 지금은 shebang(셔뱅)을 이용해서 파이썬 스크립트를 자동으로 실행될 수 있도록 작성하고 있다. 셔뱅(shebang)이란? 셔뱅(shebang)이라는 것이 처음에는 조금 낯설 수 있겠다. 하지만 우리는 이미 습관적으로 셔뱅을 구사하고 있다. 우리가 bash script를 작성할 때 아주 습관적으로 가장 첫 번째 줄에 #!/bin/bash를 입력한다. 마찬가지로 파이썬 스크립트에 #!/usr/bin/env python3 구문을 입력하면 쉘은 알아서 python3를 실행하여 해당 스크립트를 수행한다. 배쉬 스크립트 셔뱅 예제 (script.sh) #!/bi..' %}
 {% include body-preview.html %}
 
 ### 단축키가 중복될 경우 다른 단축키 사용
