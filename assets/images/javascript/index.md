@@ -16,7 +16,7 @@ description: /home/parksejin/project/boyinblue.github.io/assets/images/javascrip
 |장소|(입력해주세요)|
 
 
-{% assign gallery_image_url = /assets/images/javascript/001_javascript-2dims-array-example.png %}
+{% assign gallery_image_url = '/assets/images/javascript/001_javascript-2dims-array-example.png' %}
 {% include body-gallery.html %}
-{% assign gallery_image_url = /assets/images/javascript/logo.png %}
+{% assign gallery_image_url = '/assets/images/javascript/logo.png' %}
 {% include body-gallery.html %}

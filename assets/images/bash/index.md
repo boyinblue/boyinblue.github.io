@@ -16,7 +16,7 @@ description: /home/parksejin/project/boyinblue.github.io/assets/images/bash
 |장소|(입력해주세요)|
 
 
-{% assign gallery_image_url = /assets/images/bash/echo-manual-escape-option.png %}
+{% assign gallery_image_url = '/assets/images/bash/echo-manual-escape-option.png' %}
 {% include body-gallery.html %}
-{% assign gallery_image_url = /assets/images/bash/logo.svg %}
+{% assign gallery_image_url = '/assets/images/bash/logo.svg' %}
 {% include body-gallery.html %}

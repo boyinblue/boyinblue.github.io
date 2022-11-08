@@ -16,7 +16,7 @@ description: /home/parksejin/project/boyinblue.github.io/assets/images/tistory
 |장소|(입력해주세요)|
 
 
-{% assign gallery_image_url = /assets/images/tistory/20220929-tistory-plus-map-viewer.jpg %}
+{% assign gallery_image_url = '/assets/images/tistory/20220929-tistory-plus-map-viewer.jpg' %}
 {% include body-gallery.html %}
-{% assign gallery_image_url = /assets/images/tistory/logo.png %}
+{% assign gallery_image_url = '/assets/images/tistory/logo.png' %}
 {% include body-gallery.html %}

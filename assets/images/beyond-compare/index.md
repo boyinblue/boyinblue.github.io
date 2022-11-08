@@ -16,7 +16,7 @@ description: /home/parksejin/project/boyinblue.github.io/assets/images/beyond-co
 |장소|(입력해주세요)|
 
 
-{% assign gallery_image_url = /assets/images/beyond-compare/beyond-compare-visible-whitespace.png %}
+{% assign gallery_image_url = '/assets/images/beyond-compare/beyond-compare-visible-whitespace.png' %}
 {% include body-gallery.html %}
-{% assign gallery_image_url = /assets/images/beyond-compare/beyond-compare-whitespace.png %}
+{% assign gallery_image_url = '/assets/images/beyond-compare/beyond-compare-whitespace.png' %}
 {% include body-gallery.html %}

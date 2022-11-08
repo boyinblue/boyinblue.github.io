@@ -16,9 +16,9 @@ description: /home/parksejin/project/boyinblue.github.io/assets/images/px
 |장소|(입력해주세요)|
 
 
-{% assign gallery_image_url = /assets/images/px/20221030_170228.jpg %}
+{% assign gallery_image_url = '/assets/images/px/20221030_170228.jpg' %}
 {% include body-gallery.html %}
-{% assign gallery_image_url = /assets/images/px/DrG-MEDI-UV-ULTRA-SUN.jpg %}
+{% assign gallery_image_url = '/assets/images/px/DrG-MEDI-UV-ULTRA-SUN.jpg' %}
 {% include body-gallery.html %}
-{% assign gallery_image_url = /assets/images/px/아망드커피/20221103_173522.jpg %}
+{% assign gallery_image_url = '/assets/images/px/아망드커피/20221103_173522.jpg' %}
 {% include body-gallery.html %}
