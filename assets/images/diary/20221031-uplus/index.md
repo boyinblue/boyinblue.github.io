@@ -1,46 +1,41 @@
 ---
-title: /home/parksejin/project/boyinblue.github.io/assets/images/diary/20221031-uplus
-description: /home/parksejin/project/boyinblue.github.io/assets/images/diary/20221031-uplus
+title: 전체 이미지 보기
+description: /assets/images/diary/20221031-uplus
 ---
 
 
-제목을 입력해주세요
-===
 
+{% assign gallery_image_url = '/assets/images/diary/20221031-uplus/20221031_142209-cafe-dessert.jpg' %}
+{% assign gallery_link_url = '/assets/images/diary/20221031-uplus/20221031_142209-cafe-dessert.jpg' %}
+{% assign gallery_path = '/assets/images/diary/20221031-uplus/20221031_142209-cafe-dessert.jpg' %}
+{% include body-gallery.html %}
 
-|구분|내용|
-|---|---|
-|날짜|2022년 월 일|
-|주제|(입력해주세요)|
-|테그|(입력해주세요)|
-|장소|(입력해주세요)|
+{% assign gallery_image_url = '/assets/images/diary/20221031-uplus/20221031_142224-cafe-interior.jpg' %}
+{% assign gallery_link_url = '/assets/images/diary/20221031-uplus/20221031_142224-cafe-interior.jpg' %}
+{% assign gallery_path = '/assets/images/diary/20221031-uplus/20221031_142224-cafe-interior.jpg' %}
+{% include body-gallery.html %}
 
+{% assign gallery_image_url = '/assets/images/diary/20221031-uplus/20221031_142718-cafe-louis-vosty.jpg' %}
+{% assign gallery_link_url = '/assets/images/diary/20221031-uplus/20221031_142718-cafe-louis-vosty.jpg' %}
+{% assign gallery_path = '/assets/images/diary/20221031-uplus/20221031_142718-cafe-louis-vosty.jpg' %}
+{% include body-gallery.html %}
 
-/home/parksejin/project/boyinblue.github.io/assets/images/diary/20221031-uplus/20221031_142209-cafe-dessert.jpg
-![이미지](20221031_142209-cafe-dessert.jpg)
+{% assign gallery_image_url = '/assets/images/diary/20221031-uplus/20221031_144730-cafe.jpg' %}
+{% assign gallery_link_url = '/assets/images/diary/20221031-uplus/20221031_144730-cafe.jpg' %}
+{% assign gallery_path = '/assets/images/diary/20221031-uplus/20221031_144730-cafe.jpg' %}
+{% include body-gallery.html %}
 
+{% assign gallery_image_url = '/assets/images/diary/20221031-uplus/20221031_154425-usim.jpg' %}
+{% assign gallery_link_url = '/assets/images/diary/20221031-uplus/20221031_154425-usim.jpg' %}
+{% assign gallery_path = '/assets/images/diary/20221031-uplus/20221031_154425-usim.jpg' %}
+{% include body-gallery.html %}
 
-/home/parksejin/project/boyinblue.github.io/assets/images/diary/20221031-uplus/20221031_142224-cafe-interior.jpg
-![이미지](20221031_142224-cafe-interior.jpg)
+{% assign gallery_image_url = '/assets/images/diary/20221031-uplus/20221031_181216-threadmill.jpg' %}
+{% assign gallery_link_url = '/assets/images/diary/20221031-uplus/20221031_181216-threadmill.jpg' %}
+{% assign gallery_path = '/assets/images/diary/20221031-uplus/20221031_181216-threadmill.jpg' %}
+{% include body-gallery.html %}
 
-
-/home/parksejin/project/boyinblue.github.io/assets/images/diary/20221031-uplus/20221031_142718-cafe-louis-vosty.jpg
-![이미지](20221031_142718-cafe-louis-vosty.jpg)
-
-
-/home/parksejin/project/boyinblue.github.io/assets/images/diary/20221031-uplus/20221031_144730-cafe.jpg
-![이미지](20221031_144730-cafe.jpg)
-
-
-/home/parksejin/project/boyinblue.github.io/assets/images/diary/20221031-uplus/20221031_154425-usim.jpg
-![이미지](20221031_154425-usim.jpg)
-
-
-/home/parksejin/project/boyinblue.github.io/assets/images/diary/20221031-uplus/20221031_181216-threadmill.jpg
-![이미지](20221031_181216-threadmill.jpg)
-
-
-/home/parksejin/project/boyinblue.github.io/assets/images/diary/20221031-uplus/4001614.jpeg
-![이미지](4001614.jpeg)
-
-
+{% assign gallery_image_url = '/assets/images/diary/20221031-uplus/4001614.jpeg' %}
+{% assign gallery_link_url = '/assets/images/diary/20221031-uplus/4001614.jpeg' %}
+{% assign gallery_path = '/assets/images/diary/20221031-uplus/4001614.jpeg' %}
+{% include body-gallery.html %}

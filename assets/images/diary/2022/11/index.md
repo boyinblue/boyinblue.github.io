@@ -1,21 +1,11 @@
 ---
 title: 전체 이미지 보기
-description: /home/parksejin/project/boyinblue.github.io/assets/images/diary/2022/11
+description: /assets/images/diary/2022/11
 ---
 
 
-제목을 입력해주세요
-===
 
-
-|구분|내용|
-|---|---|
-|날짜|2022년 월 일|
-|주제|(입력해주세요)|
-|테그|(입력해주세요)|
-|장소|(입력해주세요)|
-
-
-![](/assets/images/icon_download.png)[06](/assets/images/diary/2022/11/06/)
-
-
+{% assign gallery_image_url = '/assets/icon/folder-outline.svg' %}
+{% assign gallery_path = '/assets/images/diary/2022/11/06' %}
+{% assign gallery_link_url = '/assets/images/diary/2022/11/06' %}
+{% include body-gallery.html %}
