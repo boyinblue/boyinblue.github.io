@@ -56,7 +56,7 @@ def get_any_image_from_subdir(dir):
             continue
         for ext in pics_file_exts:
             if len(file) >= len(ext) and file[-len(ext):] == ext:
-                return file
+                return dir + "/" + file
     return get_any_image_from_subdir(dir + "/" + file)
 
 def make_md_for_pics(dir):
@@ -84,13 +84,15 @@ def make_md_for_pics(dir):
         elif os.path.isdir(path):
             any_image = get_any_image_from_subdir(path)
             print("any_image :", any_image)
-            f_wr.write("{{% assign gallery_image_url = '{}' %}}\n".format(url_path + "/" + any_image))
+            f_wr.write("{{% assign gallery_image_url = '{}' %}}\n".format(url_path + "/" + any_image.replace(project_root, "")))
+            f_wr.write("{{% assign gallery_path = '{} %}}\n".format(url_path))
             f_wr.write("{% include body-gallery.html %}\n")
         for ext in pics_file_exts:
 #            print("ext : {}, {}".format(ext, -len(ext)))
             if len(file) >= len(ext) and file[-len(ext):] == ext:
                 print("[IMG] {}".format(path))
                 f_wr.write("{{% assign gallery_image_url = '{}' %}}\n".format(url_path))
+                f_wr.write("{{% assign gallery_path = '{} %}}\n".format(url_path))
                 f_wr.write("{% include body-gallery.html %}\n")
                 break
     f_wr.close()

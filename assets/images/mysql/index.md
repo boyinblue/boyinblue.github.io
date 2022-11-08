@@ -17,4 +17,5 @@ description: /home/parksejin/project/boyinblue.github.io/assets/images/mysql
 
 
 {% assign gallery_image_url = '/assets/images/mysql/mysql-service-is-running-well.png' %}
+{% assign gallery_path = '/assets/images/mysql/mysql-service-is-running-well.png %}
 {% include body-gallery.html %}

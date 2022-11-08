@@ -17,4 +17,5 @@ description: /home/parksejin/project/boyinblue.github.io/assets/images/upbit
 
 
 {% assign gallery_image_url = '/assets/images/upbit/UPbit-OpenAPI-Query-Quarter.png' %}
+{% assign gallery_path = '/assets/images/upbit/UPbit-OpenAPI-Query-Quarter.png %}
 {% include body-gallery.html %}

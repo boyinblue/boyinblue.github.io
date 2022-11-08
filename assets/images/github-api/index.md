@@ -17,10 +17,14 @@ description: /home/parksejin/project/boyinblue.github.io/assets/images/github-ap
 
 
 {% assign gallery_image_url = '/assets/images/github-api/001_github-badcredential-regenerate-token.png' %}
+{% assign gallery_path = '/assets/images/github-api/001_github-badcredential-regenerate-token.png %}
 {% include body-gallery.html %}
 {% assign gallery_image_url = '/assets/images/github-api/001_github-badcredential-token-expire.png' %}
+{% assign gallery_path = '/assets/images/github-api/001_github-badcredential-token-expire.png %}
 {% include body-gallery.html %}
 {% assign gallery_image_url = '/assets/images/github-api/004-github-how-to-get-creation-date-of-repository.png' %}
+{% assign gallery_path = '/assets/images/github-api/004-github-how-to-get-creation-date-of-repository.png %}
 {% include body-gallery.html %}
 {% assign gallery_image_url = '/assets/images/github-api/logo.png' %}
+{% assign gallery_path = '/assets/images/github-api/logo.png %}
 {% include body-gallery.html %}
