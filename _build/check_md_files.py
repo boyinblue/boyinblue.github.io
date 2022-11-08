@@ -2,7 +2,6 @@
 
 import os
 
-
 #############################################
 # 체커가 돌지 않도록 제외할 경로 설정
 #############################################
@@ -317,10 +316,12 @@ def iterate_directory(dir):
     print("iterate_directory :", dir)
 
     """ 실행 파일이 있으면 미리 실행한다."""
-    if os.path.isfile("_build.py"):
-        os.system("pushd {}".format(dir))
-        os.system("_build.py")
-        os.system("popd")
+    if os.path.isfile(dir + "/_build.py"):
+        
+        prev_dir = os.path.abspath('.')
+        os.chdir(dir)
+        os.system("./_build.py")
+        os.chdir(prev_dir)
 
     files = os.listdir(dir)
     files.sort(reverse=True)
