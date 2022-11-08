@@ -17,5 +17,5 @@ description: /home/parksejin/project/boyinblue.github.io/assets/images/markdown
 
 
 {% assign gallery_image_url = '/assets/images/markdown/logo.svg' %}
-{% assign gallery_path = '/assets/images/markdown/logo.svg %}
+{% assign gallery_path = '/assets/images/markdown/logo.svg' %}
 {% include body-gallery.html %}

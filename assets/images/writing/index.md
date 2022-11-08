@@ -17,5 +17,5 @@ description: /home/parksejin/project/boyinblue.github.io/assets/images/writing
 
 
 {% assign gallery_image_url = '/assets/images/writing/logo.png' %}
-{% assign gallery_path = '/assets/images/writing/logo.png %}
+{% assign gallery_path = '/assets/images/writing/logo.png' %}
 {% include body-gallery.html %}

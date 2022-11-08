@@ -17,5 +17,5 @@ description: /home/parksejin/project/boyinblue.github.io/assets/images/costco
 
 
 {% assign gallery_image_url = '/assets/images/costco/CJ-고메-크리스피-핫도그.jpg' %}
-{% assign gallery_path = '/assets/images/costco/CJ-고메-크리스피-핫도그.jpg %}
+{% assign gallery_path = '/assets/images/costco/CJ-고메-크리스피-핫도그.jpg' %}
 {% include body-gallery.html %}

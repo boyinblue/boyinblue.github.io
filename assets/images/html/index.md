@@ -17,8 +17,8 @@ description: /home/parksejin/project/boyinblue.github.io/assets/images/html
 
 
 {% assign gallery_image_url = '/assets/images/html/html-float.png' %}
-{% assign gallery_path = '/assets/images/html/html-float.png %}
+{% assign gallery_path = '/assets/images/html/html-float.png' %}
 {% include body-gallery.html %}
 {% assign gallery_image_url = '/assets/images/html/logo.png' %}
-{% assign gallery_path = '/assets/images/html/logo.png %}
+{% assign gallery_path = '/assets/images/html/logo.png' %}
 {% include body-gallery.html %}
