@@ -16,7 +16,5 @@ description: /home/parksejin/project/boyinblue.github.io/assets/images/wordpress
 |장소|(입력해주세요)|
 
 
-/assets/images/wordpress/logo.png
-![이미지](logo.png)
-
-
+{% assign gallery_image_url = /assets/images/wordpress/logo.png %}
+{% include body-gallery.html %}

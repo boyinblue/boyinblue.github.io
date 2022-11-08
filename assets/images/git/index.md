@@ -16,7 +16,5 @@ description: /home/parksejin/project/boyinblue.github.io/assets/images/git
 |장소|(입력해주세요)|
 
 
-/assets/images/git/logo.png
-![이미지](logo.png)
-
-
+{% assign gallery_image_url = /assets/images/git/logo.png %}
+{% include body-gallery.html %}

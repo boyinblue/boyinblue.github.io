@@ -16,23 +16,15 @@ description: /home/parksejin/project/boyinblue.github.io/assets/images/memo
 |장소|(입력해주세요)|
 
 
-/assets/images/memo/봄사랑김밥말고-메뉴판.jpg
-![이미지](봄사랑김밥말고-메뉴판.jpg)
-
-
-/assets/images/memo/성남사랑상품권-1만원권.jpg
-![이미지](성남사랑상품권-1만원권.jpg)
-
-
-/assets/images/memo/성남사랑상품권-5천원권.jpg
-![이미지](성남사랑상품권-5천원권.jpg)
-
-
-/assets/images/memo/성남사랑상품권-6퍼센트-할인.png
-![이미지](성남사랑상품권-6퍼센트-할인.png)
-
-
-/assets/images/memo/참조은마트.jpg
-![이미지](참조은마트.jpg)
-
-
+{% assign gallery_image_url = /assets/images/memo/logo.png %}
+{% include body-gallery.html %}
+{% assign gallery_image_url = /assets/images/memo/봄사랑김밥말고-메뉴판.jpg %}
+{% include body-gallery.html %}
+{% assign gallery_image_url = /assets/images/memo/성남사랑상품권-1만원권.jpg %}
+{% include body-gallery.html %}
+{% assign gallery_image_url = /assets/images/memo/성남사랑상품권-5천원권.jpg %}
+{% include body-gallery.html %}
+{% assign gallery_image_url = /assets/images/memo/성남사랑상품권-6퍼센트-할인.png %}
+{% include body-gallery.html %}
+{% assign gallery_image_url = /assets/images/memo/참조은마트.jpg %}
+{% include body-gallery.html %}

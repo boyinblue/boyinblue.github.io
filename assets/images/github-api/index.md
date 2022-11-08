@@ -16,19 +16,11 @@ description: /home/parksejin/project/boyinblue.github.io/assets/images/github-ap
 |장소|(입력해주세요)|
 
 
-/assets/images/github-api/001_github-badcredential-regenerate-token.png
-![이미지](001_github-badcredential-regenerate-token.png)
-
-
-/assets/images/github-api/001_github-badcredential-token-expire.png
-![이미지](001_github-badcredential-token-expire.png)
-
-
-/assets/images/github-api/004-github-how-to-get-creation-date-of-repository.png
-![이미지](004-github-how-to-get-creation-date-of-repository.png)
-
-
-/assets/images/github-api/logo.png
-![이미지](logo.png)
-
-
+{% assign gallery_image_url = /assets/images/github-api/001_github-badcredential-regenerate-token.png %}
+{% include body-gallery.html %}
+{% assign gallery_image_url = /assets/images/github-api/001_github-badcredential-token-expire.png %}
+{% include body-gallery.html %}
+{% assign gallery_image_url = /assets/images/github-api/004-github-how-to-get-creation-date-of-repository.png %}
+{% include body-gallery.html %}
+{% assign gallery_image_url = /assets/images/github-api/logo.png %}
+{% include body-gallery.html %}

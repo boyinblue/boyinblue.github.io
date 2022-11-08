@@ -16,7 +16,5 @@ description: /home/parksejin/project/boyinblue.github.io/assets/images/writing
 |장소|(입력해주세요)|
 
 
-/assets/images/writing/logo.png
-![이미지](logo.png)
-
-
+{% assign gallery_image_url = /assets/images/writing/logo.png %}
+{% include body-gallery.html %}

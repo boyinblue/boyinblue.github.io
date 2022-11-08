@@ -16,47 +16,25 @@ description: /home/parksejin/project/boyinblue.github.io/assets/images/python
 |장소|(입력해주세요)|
 
 
-/assets/images/python/003-python-turtle-3d-start.png
-![이미지](003-python-turtle-3d-start.png)
-
-
-/assets/images/python/003-python-turtle-flower-36.png
-![이미지](003-python-turtle-flower-36.png)
-
-
-/assets/images/python/003-python-turtle-flower.png
-![이미지](003-python-turtle-flower.png)
-
-
-/assets/images/python/003-python-turtle-square.png
-![이미지](003-python-turtle-square.png)
-
-
-/assets/images/python/003-python-turtle-start.png
-![이미지](003-python-turtle-start.png)
-
-
-/assets/images/python/003-python-turtle-start2.png
-![이미지](003-python-turtle-start2.png)
-
-
-/assets/images/python/003-python-turtle-sun-10.png
-![이미지](003-python-turtle-sun-10.png)
-
-
-/assets/images/python/003-python-turtle-tier.png
-![이미지](003-python-turtle-tier.png)
-
-
-/assets/images/python/003-python-turtle-triangle.png
-![이미지](003-python-turtle-triangle.png)
-
-
-/assets/images/python/003-python-turtle-wheel.png
-![이미지](003-python-turtle-wheel.png)
-
-
-/assets/images/python/logo.png
-![이미지](logo.png)
-
-
+{% assign gallery_image_url = /assets/images/python/003-python-turtle-3d-start.png %}
+{% include body-gallery.html %}
+{% assign gallery_image_url = /assets/images/python/003-python-turtle-flower-36.png %}
+{% include body-gallery.html %}
+{% assign gallery_image_url = /assets/images/python/003-python-turtle-flower.png %}
+{% include body-gallery.html %}
+{% assign gallery_image_url = /assets/images/python/003-python-turtle-square.png %}
+{% include body-gallery.html %}
+{% assign gallery_image_url = /assets/images/python/003-python-turtle-start.png %}
+{% include body-gallery.html %}
+{% assign gallery_image_url = /assets/images/python/003-python-turtle-start2.png %}
+{% include body-gallery.html %}
+{% assign gallery_image_url = /assets/images/python/003-python-turtle-sun-10.png %}
+{% include body-gallery.html %}
+{% assign gallery_image_url = /assets/images/python/003-python-turtle-tier.png %}
+{% include body-gallery.html %}
+{% assign gallery_image_url = /assets/images/python/003-python-turtle-triangle.png %}
+{% include body-gallery.html %}
+{% assign gallery_image_url = /assets/images/python/003-python-turtle-wheel.png %}
+{% include body-gallery.html %}
+{% assign gallery_image_url = /assets/images/python/logo.png %}
+{% include body-gallery.html %}

@@ -16,75 +16,51 @@ description: /home/parksejin/project/boyinblue.github.io/assets/images
 |장소|(입력해주세요)|
 
 
-![](/assets/images/icon_download.png)[bash](/assets/images/bash/)
-
-
-![](/assets/images/icon_download.png)[beyond-compare](/assets/images/beyond-compare/)
-
-
-![](/assets/images/icon_download.png)[cafe](/assets/images/cafe/)
-
-
-![](/assets/images/icon_download.png)[costco](/assets/images/costco/)
-
-
-![](/assets/images/icon_download.png)[diary](/assets/images/diary/)
-
-
-![](/assets/images/icon_download.png)[firefox](/assets/images/firefox/)
-
-
-![](/assets/images/icon_download.png)[github-api](/assets/images/github-api/)
-
-
-![](/assets/images/icon_download.png)[github-pages](/assets/images/github-pages/)
-
-
-![](/assets/images/icon_download.png)[html](/assets/images/html/)
-
-
-![](/assets/images/icon_download.png)[javascript](/assets/images/javascript/)
-
-
-![](/assets/images/icon_download.png)[jenkins](/assets/images/jenkins/)
-
-
-![](/assets/images/icon_download.png)[markdown](/assets/images/markdown/)
-
-
-![](/assets/images/icon_download.png)[memo](/assets/images/memo/)
-
-
-![](/assets/images/icon_download.png)[mysql](/assets/images/mysql/)
-
-
-![](/assets/images/icon_download.png)[px](/assets/images/px/)
-
-
-![](/assets/images/icon_download.png)[python](/assets/images/python/)
-
-
-![](/assets/images/icon_download.png)[react](/assets/images/react/)
-
-
-![](/assets/images/icon_download.png)[rpi](/assets/images/rpi/)
-
-
-![](/assets/images/icon_download.png)[tistory](/assets/images/tistory/)
-
-
-![](/assets/images/icon_download.png)[ubuntu](/assets/images/ubuntu/)
-
-
-![](/assets/images/icon_download.png)[upbit](/assets/images/upbit/)
-
-
-![](/assets/images/icon_download.png)[vscode](/assets/images/vscode/)
-
-
-![](/assets/images/icon_download.png)[wordpress](/assets/images/wordpress/)
-
-
-![](/assets/images/icon_download.png)[writing](/assets/images/writing/)
-
-
+{% assign gallery_image_url = /assets/images/bash/echo-manual-escape-option.png %}
+{% include body-gallery.html %}
+{% assign gallery_image_url = /assets/images/beyond-compare/beyond-compare-visible-whitespace.png %}
+{% include body-gallery.html %}
+{% assign gallery_image_url = /assets/images/cafe/20221017_105200-스위트콘라떼.jpg %}
+{% include body-gallery.html %}
+{% assign gallery_image_url = /assets/images/costco/CJ-고메-크리스피-핫도그.jpg %}
+{% include body-gallery.html %}
+{% assign gallery_image_url = /assets/images/diary/20221014-독자를-사로잡는-매력적인-인터뷰-기사-작성-방법-이은지-강사.jpg %}
+{% include body-gallery.html %}
+{% assign gallery_image_url = /assets/images/firefox/firefox.png %}
+{% include body-gallery.html %}
+{% assign gallery_image_url = /assets/images/github-api/001_github-badcredential-regenerate-token.png %}
+{% include body-gallery.html %}
+{% assign gallery_image_url = /assets/images/github-pages/003_naver_search_console_register.png %}
+{% include body-gallery.html %}
+{% assign gallery_image_url = /assets/images/html/html-float.png %}
+{% include body-gallery.html %}
+{% assign gallery_image_url = /assets/images/javascript/001_javascript-2dims-array-example.png %}
+{% include body-gallery.html %}
+{% assign gallery_image_url = /assets/images/jenkins/logo.png %}
+{% include body-gallery.html %}
+{% assign gallery_image_url = /assets/images/markdown/logo.svg %}
+{% include body-gallery.html %}
+{% assign gallery_image_url = /assets/images/memo/logo.png %}
+{% include body-gallery.html %}
+{% assign gallery_image_url = /assets/images/mysql/mysql-service-is-running-well.png %}
+{% include body-gallery.html %}
+{% assign gallery_image_url = /assets/images/px/20221030_170228.jpg %}
+{% include body-gallery.html %}
+{% assign gallery_image_url = /assets/images/python/003-python-turtle-3d-start.png %}
+{% include body-gallery.html %}
+{% assign gallery_image_url = /assets/images/react/logo.png %}
+{% include body-gallery.html %}
+{% assign gallery_image_url = /assets/images/rpi/002-ir-receiver-vs1838b-pin-map.jpg %}
+{% include body-gallery.html %}
+{% assign gallery_image_url = /assets/images/tistory/20220929-tistory-plus-map-viewer.jpg %}
+{% include body-gallery.html %}
+{% assign gallery_image_url = /assets/images/ubuntu/002-how-to-get-public-ip.png %}
+{% include body-gallery.html %}
+{% assign gallery_image_url = /assets/images/upbit/UPbit-OpenAPI-Query-Quarter.png %}
+{% include body-gallery.html %}
+{% assign gallery_image_url = /assets/images/vscode/how-to-download-vscode.png %}
+{% include body-gallery.html %}
+{% assign gallery_image_url = /assets/images/wordpress/logo.png %}
+{% include body-gallery.html %}
+{% assign gallery_image_url = /assets/images/writing/logo.png %}
+{% include body-gallery.html %}

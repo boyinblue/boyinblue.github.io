@@ -16,7 +16,5 @@ description: /home/parksejin/project/boyinblue.github.io/assets/images/markdown
 |장소|(입력해주세요)|
 
 
-/assets/images/markdown/logo.svg
-![이미지](logo.svg)
-
-
+{% assign gallery_image_url = /assets/images/markdown/logo.svg %}
+{% include body-gallery.html %}

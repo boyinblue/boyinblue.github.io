@@ -16,11 +16,7 @@ description: /home/parksejin/project/boyinblue.github.io/assets/images/vscode
 |장소|(입력해주세요)|
 
 
-/assets/images/vscode/how-to-download-vscode.png
-![이미지](how-to-download-vscode.png)
-
-
-/assets/images/vscode/vscode-shortcuts-for-linux.png
-![이미지](vscode-shortcuts-for-linux.png)
-
-
+{% assign gallery_image_url = /assets/images/vscode/how-to-download-vscode.png %}
+{% include body-gallery.html %}
+{% assign gallery_image_url = /assets/images/vscode/vscode-shortcuts-for-linux.png %}
+{% include body-gallery.html %}

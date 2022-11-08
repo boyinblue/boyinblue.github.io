@@ -47,6 +47,18 @@ def is_exist_file(lines, file):
             return True
     return False
 
+def get_any_image_from_subdir(dir):
+    print("get_any_image_from_subdir({})".format(dir))
+    files = os.listdir(dir)
+    files.sort()
+    for file in files:
+        if file == "." or file == "..":
+            continue
+        for ext in pics_file_exts:
+            if len(file) >= len(ext) and file[-len(ext):] == ext:
+                return file
+    return get_any_image_from_subdir(dir + "/" + file)
+
 def make_md_for_pics(dir):
     print("make_md_for_pics :", dir)
     files = os.listdir(dir)
@@ -70,14 +82,16 @@ def make_md_for_pics(dir):
             print(file + " Skip!")
             continue
         elif os.path.isdir(path):
-            f_wr.write("![](/assets/images/icon_download.png)[{}]({}/)\n\n\n".format(file, url_path))
+            any_image = get_any_image_from_subdir(path)
+            print("any_image :", any_image)
+            f_wr.write("{{% assign gallery_image_url = {} %}}\n".format(url_path + "/" + any_image))
+            f_wr.write("{% include body-gallery.html %}\n")
         for ext in pics_file_exts:
 #            print("ext : {}, {}".format(ext, -len(ext)))
             if len(file) >= len(ext) and file[-len(ext):] == ext:
                 print("[IMG] {}".format(path))
-                f_wr.write("{}\n".format(url_path))
-#                f_wr.write("<!--{}-->\n".format(file))
-                f_wr.write("![이미지]({})\n\n\n".format(file))
+                f_wr.write("{{% assign gallery_image_url = {} %}}\n".format(url_path))
+                f_wr.write("{% include body-gallery.html %}\n")
                 break
     f_wr.close()
 
