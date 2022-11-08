@@ -22,6 +22,6 @@ description: /home/parksejin/project/boyinblue.github.io/assets/images/px
 {% assign gallery_image_url = '/assets/images/px/DrG-MEDI-UV-ULTRA-SUN.jpg' %}
 {% assign gallery_path = '/assets/images/px/DrG-MEDI-UV-ULTRA-SUN.jpg' %}
 {% include body-gallery.html %}
-{% assign gallery_image_url = '/assets/images/px/아망드커피//assets/images/px/아망드커피/20221103_173522.jpg' %}
+{% assign gallery_image_url = '/assets/images/px/아망드커피/20221103_173522.jpg' %}
 {% assign gallery_path = '/assets/images/px/아망드커피' %}
 {% include body-gallery.html %}
