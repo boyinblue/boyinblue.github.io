@@ -85,13 +85,13 @@ def add_preview_to_index(fp, dir, file):
     yaml = get_yaml_header(path)
     fp.write("\n\n")
     if yaml['image: '] != "":
-        fp.write("{{% assign preview_image_url = {} %}}\n".format(yaml['image: '][7:-1]))
+        fp.write("{{% assign preview_image_url = '{}' %}}\n".format(yaml['image: '][7:-1]))
     if yaml['permalink: '] != "":
-        fp.write("{{% assign preview_url = {} %}}\n".format(yaml['permalink: '][11:-1]))
+        fp.write("{{% assign preview_url = '{}' %}}\n".format(yaml['permalink: '][11:-1]))
     else:
-        fp.write("{{% assign preview_url = {}.html %}}\n".format(file[:-3]))
-    fp.write("{{% assign preview_title = {} %}}\n".format(yaml['title: '][7:-1]))
-    fp.write("{{% assign preview_description = {} %}}\n".format(yaml['description: '][13:-1]))
+        fp.write("{{% assign preview_url = '{}.html' %}}\n".format(file[:-3]))
+    fp.write("{{% assign preview_title = '{}' %}}\n".format(yaml['title: '][7:-1]))
+    fp.write("{{% assign preview_description = '{}' %}}\n".format(yaml['description: '][13:-1]))
     fp.write("{% include body-preview.html %}\n")
 
 #############################################
@@ -288,6 +288,7 @@ def get_yaml_header(filename):
             "description: " : "",
             "image: " : "",
             "permalink: " : "",
+            "category: " : "",
             "YAML_END" : "",
             "PADDING" : "\n\n",
             "BODY" : "" }
