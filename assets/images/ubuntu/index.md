@@ -24,6 +24,34 @@ description: /home/parksejin/project/boyinblue.github.io/assets/images/ubuntu
 ![이미지](logo.png)
 
 
+/assets/images/ubuntu/ubuntu-linux-short-cut-execute-2.png
+![이미지](ubuntu-linux-short-cut-execute-2.png)
+
+
+/assets/images/ubuntu/ubuntu-linux-short-cut-execute-3.png
+![이미지](ubuntu-linux-short-cut-execute-3.png)
+
+
+/assets/images/ubuntu/ubuntu-linux-short-cut-execute-4.png
+![이미지](ubuntu-linux-short-cut-execute-4.png)
+
+
+/assets/images/ubuntu/ubuntu-linux-short-cut-execute-5.png
+![이미지](ubuntu-linux-short-cut-execute-5.png)
+
+
+/assets/images/ubuntu/ubuntu-linux-short-cut-execute-6.png
+![이미지](ubuntu-linux-short-cut-execute-6.png)
+
+
+/assets/images/ubuntu/ubuntu-linux-short-cut-execute-7.png
+![이미지](ubuntu-linux-short-cut-execute-7.png)
+
+
+/assets/images/ubuntu/ubuntu-linux-short-cut-execute.png
+![이미지](ubuntu-linux-short-cut-execute.png)
+
+
 /assets/images/ubuntu/ubuntu-linux-special-characters.png
 ![이미지](ubuntu-linux-special-characters.png)
 

@@ -70,7 +70,7 @@ def make_md_for_pics(dir):
             print(file + " Skip!")
             continue
         elif os.path.isdir(path):
-            f_wr.write("[{}]({}/)\n\n\n".format(file, url_path))
+            f_wr.write("![](/assets/images/icon_download.png)[{}]({}/)\n\n\n".format(file, url_path))
         for ext in pics_file_exts:
 #            print("ext : {}, {}".format(ext, -len(ext)))
             if len(file) >= len(ext) and file[-len(ext):] == ext:

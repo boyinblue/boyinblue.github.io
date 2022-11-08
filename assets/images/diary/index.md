@@ -16,36 +16,36 @@ description: /home/parksejin/project/boyinblue.github.io/assets/images/diary
 |장소|(입력해주세요)|
 
 
-[20100829_rainnyday](/assets/images/diary/20100829_rainnyday/)
+![](/assets/images/icon_download.png)[20100829_rainnyday](/assets/images/diary/20100829_rainnyday/)
 
 
-[20221012_고등동_왕남초등학교_야채트럭_드림유통](/assets/images/diary/20221012_고등동_왕남초등학교_야채트럭_드림유통/)
+![](/assets/images/icon_download.png)[20221012_고등동_왕남초등학교_야채트럭_드림유통](/assets/images/diary/20221012_고등동_왕남초등학교_야채트럭_드림유통/)
 
 
 /assets/images/diary/20221014-독자를-사로잡는-매력적인-인터뷰-기사-작성-방법-이은지-강사.jpg
 ![이미지](20221014-독자를-사로잡는-매력적인-인터뷰-기사-작성-방법-이은지-강사.jpg)
 
 
-[20221021_회사헬쓰장](/assets/images/diary/20221021_회사헬쓰장/)
+![](/assets/images/icon_download.png)[20221021_회사헬쓰장](/assets/images/diary/20221021_회사헬쓰장/)
 
 
-[20221022-코스트코-양재점](/assets/images/diary/20221022-코스트코-양재점/)
+![](/assets/images/icon_download.png)[20221022-코스트코-양재점](/assets/images/diary/20221022-코스트코-양재점/)
 
 
-[20221027-연탄불포차](/assets/images/diary/20221027-연탄불포차/)
+![](/assets/images/icon_download.png)[20221027-연탄불포차](/assets/images/diary/20221027-연탄불포차/)
 
 
 /assets/images/diary/20221028_172638_야탑서울안과의원.jpg
 ![이미지](20221028_172638_야탑서울안과의원.jpg)
 
 
-[20221029-신구대학교-수목원-회사-어린이날-행사](/assets/images/diary/20221029-신구대학교-수목원-회사-어린이날-행사/)
+![](/assets/images/icon_download.png)[20221029-신구대학교-수목원-회사-어린이날-행사](/assets/images/diary/20221029-신구대학교-수목원-회사-어린이날-행사/)
 
 
-[20221030-희망대공원](/assets/images/diary/20221030-희망대공원/)
+![](/assets/images/icon_download.png)[20221030-희망대공원](/assets/images/diary/20221030-희망대공원/)
 
 
-[20221031-uplus](/assets/images/diary/20221031-uplus/)
+![](/assets/images/icon_download.png)[20221031-uplus](/assets/images/diary/20221031-uplus/)
 
 
 /assets/images/diary/20221101_124109-lunch.jpg
@@ -60,7 +60,7 @@ description: /home/parksejin/project/boyinblue.github.io/assets/images/diary
 ![이미지](20221103_120355-lunch.jpg)
 
 
-[20221104](/assets/images/diary/20221104/)
+![](/assets/images/icon_download.png)[20221104](/assets/images/diary/20221104/)
 
 
 /assets/images/diary/20221105_174454-판교현대백화점-회전목마.jpg
