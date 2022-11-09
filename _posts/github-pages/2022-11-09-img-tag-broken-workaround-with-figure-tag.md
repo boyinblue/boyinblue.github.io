@@ -28,6 +28,15 @@ for 반복문과 img 테그를 조합해서 미리 보기 기능을 구현했다
 {% endraw %}
 ```
 
+### 또 다른 코드
+```
+{%- for post in site.posts limit:5 %}
+  {%- if post.image %}
+    <a href="{{ post.url }}"><img style="border-radius: 20px;" src="{{ post.image }}"></a><br />
+  {% endif %}
+{% endfor %}
+```
+
 ### 실행 결과
 ```
 {%- for post in site.posts limit:5 %}
@@ -37,7 +46,7 @@ for 반복문과 img 테그를 조합해서 미리 보기 기능을 구현했다
 {% endfor %}
 ```
 
-실제로 생성되는 html 코드를 보면 `<img>` 부분이 `%ltmg>'로 깨진 것을 확인할 수 있다. 
+실제로 생성되는 html 코드를 보면 `<img>` 부분이 `%ltmg>`로 깨진 것을 확인할 수 있다. 
 
 근본 해결 방법
 ---
@@ -50,6 +59,16 @@ for 반복문과 img 테그를 조합해서 미리 보기 기능을 구현했다
 ---
 
 `<img>` 테그에 `<figure>` 테그를 씌우면 테그가 깨지는 문제를 회피할 수 있다. 
+
+```
+{% raw %}
+{%- for post in site.posts limit:5 %}
+  {%- if post.image %}
+    <figure><img style="border-radius: 20px;" src="{{ post.image }}"></figure><br />
+  {% endif %}
+{% endfor %}
+{% endraw %}
+```
 
 
 요약
