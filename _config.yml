@@ -7,7 +7,6 @@ favicon: "/assets/favicon.png"
 favicon-invert: "/assets/favicon-invert.png"
 image: "/assets/logo.png"
 
-show_downloads: false
 footer: false
 
 google_analytics: G-95SGD9KQRE

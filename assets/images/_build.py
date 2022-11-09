@@ -18,25 +18,17 @@ repo_name = "boyinblue.github.io"
 cwd = os.path.abspath('.')
 project_root_idx = cwd.find("boyinblue.github.io") + len(repo_name)
 project_root = os.path.abspath('.')[:project_root_idx]
+folder_image = "/assets/icon/folder-outline.svg"
+
+def absolute_path_to_url(path):
+    return path.replace(project_root, "")
 
 def write_default_md(dir):
     file = open(dir + "/index.md", "w")
     file.write("---\n")
     file.write("title: 전체 이미지 보기\n")
-    file.write("description: " + dir + "\n")
+    file.write("description: " + absolute_path_to_url(dir) + "\n")
     file.write("---\n")
-    file.write("\n")
-    file.write("\n")
-    file.write("제목을 입력해주세요\n")
-    file.write("===\n")
-    file.write("\n")
-    file.write("\n")
-    file.write("|구분|내용|\n")
-    file.write("|---|---|\n")
-    file.write("|날짜|2022년 월 일|\n")
-    file.write("|주제|(입력해주세요)|\n")
-    file.write("|테그|(입력해주세요)|\n")
-    file.write("|장소|(입력해주세요)|\n")
     file.write("\n")
     file.write("\n")
     file.close()
@@ -46,6 +38,20 @@ def is_exist_file(lines, file):
         if line.find(file) != -1:
             return True
     return False
+
+def get_any_image_from_subdir(dir):
+    print("get_any_image_from_subdir({})".format(dir))
+    files = os.listdir(dir)
+    files.sort()
+    for file in files:
+        if file == "." or file == "..":
+            continue
+        for ext in pics_file_exts:
+            if len(file) >= len(ext) and file[-len(ext):] == ext:
+                return dir + "/" + file
+        if not os.path.isdir(file):
+            continue
+        return get_any_image_from_subdir(dir + "/" + file)
 
 def make_md_for_pics(dir):
     print("make_md_for_pics :", dir)
@@ -64,20 +70,26 @@ def make_md_for_pics(dir):
 
     for file in files:
         path = "{}/{}".format(dir, file)
-        url_path = path.replace(project_root, "")
+        url_path = absolute_path_to_url(path)
 #        print("path :", path)
         if is_exist_file(lines, file):
             print(file + " Skip!")
             continue
         elif os.path.isdir(path):
-            f_wr.write("![](/assets/images/icon_download.png)[{}]({}/)\n\n\n".format(file, url_path))
+            any_image = get_any_image_from_subdir(path)
+            print("any_image :", any_image)
+            f_wr.write("\n{{% assign gallery_image_url = '{}' %}}\n".format(folder_image))
+            f_wr.write("{{% assign gallery_path = '{}' %}}\n".format(url_path))
+            f_wr.write("{{% assign gallery_link_url = '{}' %}}\n".format(url_path))
+            f_wr.write("{% include body-gallery.html %}\n")
         for ext in pics_file_exts:
 #            print("ext : {}, {}".format(ext, -len(ext)))
             if len(file) >= len(ext) and file[-len(ext):] == ext:
                 print("[IMG] {}".format(path))
-                f_wr.write("{}\n".format(url_path))
-#                f_wr.write("<!--{}-->\n".format(file))
-                f_wr.write("![이미지]({})\n\n\n".format(file))
+                f_wr.write("\n{{% assign gallery_image_url = '{}' %}}\n".format(url_path))
+                f_wr.write("{{% assign gallery_link_url = '{}' %}}\n".format(url_path))
+                f_wr.write("{{% assign gallery_path = '{}' %}}\n".format(url_path))
+                f_wr.write("{% include body-gallery.html %}\n")
                 break
     f_wr.close()
 

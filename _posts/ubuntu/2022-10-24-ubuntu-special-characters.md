@@ -95,7 +95,11 @@ image: /assets/images/ubuntu/ubuntu-linux-special-characters.png
 다양한 특수문자를 제공하는 사이트에서 복사해서 쓰면 됩니다. 
 
 
-- [https://snskeyboard.com](https://snskeyboard.com)
+{% assign preview_image_url = 'https://snskeyboard.com/_assets/_og_i.jpg' %}
+{% assign preview_url = 'https://snskeyboard.com' %}
+{% assign preview_title = '특이한 특수문자 이모티콘 텍대 모음 | ⌨️SNS Keyboard' %}
+{% assign preview_description = 'SNS와 채팅에 활용할 수 있는 다양한 특수문자 이모티콘 목록을 제공하는 온라인 도구입니다.' %}
+{% include body-preview.html %}
 
 
 GitHub Pages 특수문자
@@ -109,8 +113,6 @@ GitHub Pages에서 사용할 수 있는 다양한 이모티콘들이 존재한�
 {% assign preview_title = 'Complete list of github markdown emoji markup' %}
 {% assign preview_description = 'Complete list of github markdown emoji markup. GitHub Gist: instantly share code, notes, and snippets.' %}
 {% include body-preview.html %}
-
-https://gist.github.com/rxaviers/7360908
 
 
 다양한 무료 아이콘

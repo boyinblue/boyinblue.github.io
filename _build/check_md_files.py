@@ -2,7 +2,6 @@
 
 import os
 
-
 #############################################
 # 체커가 돌지 않도록 제외할 경로 설정
 #############################################
@@ -78,6 +77,23 @@ def check_md_file(dir, file):
     f_wr.write("\n")
 
 #############################################
+# Preview
+#############################################
+def add_preview_to_index(fp, dir, file):
+    path = dir + "/" + file
+    yaml = get_yaml_header(path)
+    fp.write("\n\n")
+    if yaml['image: '] != "":
+        fp.write("{{% assign preview_image_url = '{}' %}}\n".format(yaml['image: '][7:-1]))
+    if yaml['permalink: '] != "":
+        fp.write("{{% assign preview_url = '{}' %}}\n".format(yaml['permalink: '][11:-1]))
+    else:
+        fp.write("{{% assign preview_url = '{}.html' %}}\n".format(file[:-3]))
+    fp.write("{{% assign preview_title = '{}' %}}\n".format(yaml['title: '][7:-1]))
+    fp.write("{{% assign preview_description = '{}' %}}\n".format(yaml['description: '][13:-1]))
+    fp.write("{% include body-preview.html %}\n")
+
+#############################################
 # 새로운 디렉토리를 추가
 #############################################
 def add_link_to_index(dir, filename):
@@ -116,24 +132,9 @@ def add_link_to_index(dir, filename):
             if not os.path.exists(path2 + "/index.md"):
                 print("### Not Exists" + path2 + "/index.md")
                 continue
-            yaml = get_yaml_header(path2 + "/index.md")
-            f_wr.write("\n\n".format(file))
-            f_wr.write("[✔️  {}]({} \'{}\')\n---\n\n\n".format(
-                    yaml['title: '][7:-1],
-                    file,
-                    yaml['description: '][13:-1]))
-            f_wr.write(yaml['description: '][13:-1])
-            f_wr.write("\n")
+            add_preview_to_index(f_wr, path2, "index.md")
         elif file.endswith(".md"):
-            yaml = get_yaml_header(path2)
-            file = "{}.html".format(file[:-3])
-            f_wr.write("\n\n".format(file))
-            f_wr.write("[✔️  {}]({} \'{}\')\n---\n\n\n".format(
-                    yaml['title: '][7:-1],
-                    file,
-                    yaml['description: '][13:-11]))
-            f_wr.write(yaml['description: '][13:-1])
-            f_wr.write("\n")
+            add_preview_to_index(f_wr, dir, file)
             
     f_wr.close()
 
@@ -269,6 +270,10 @@ def check_yaml_header(yaml, filename):
     f.write(yaml["YAML_START"])
     f.write(yaml["title: "])
     f.write(yaml["description: "])
+    if yaml["image: "] != "":
+        f.write(yaml["image: "])
+    if yaml["permalink: "] != "":
+        f.write(yaml["permalink: "])
     f.write(yaml["YAML_END"])
     f.write(yaml["PADDING"])
     f.write(yaml["BODY"])
@@ -280,6 +285,9 @@ def get_yaml_header(filename):
     yaml = { "YAML_START" : "",
             "title: " : "",
             "description: " : "",
+            "image: " : "",
+            "permalink: " : "",
+            "category: " : "",
             "YAML_END" : "",
             "PADDING" : "\n\n",
             "BODY" : "" }
@@ -308,10 +316,12 @@ def iterate_directory(dir):
     print("iterate_directory :", dir)
 
     """ 실행 파일이 있으면 미리 실행한다."""
-    if os.path.isfile("_build.py"):
-        os.system("pushd {}".format(dir))
-        os.system("_build.py")
-        os.system("popd")
+    if os.path.isfile(dir + "/_build.py"):
+        
+        prev_dir = os.path.abspath('.')
+        os.chdir(dir)
+        os.system("./_build.py")
+        os.chdir(prev_dir)
 
     files = os.listdir(dir)
     files.sort(reverse=True)

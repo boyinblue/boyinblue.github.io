@@ -13,8 +13,7 @@ def iterate_directory(dir):
             continue
         elif file == "index.md":
             os.remove(path)
-            continue
-        elif os.path.isdir(file):
+        elif os.path.isdir(path):
             iterate_directory(path)
 
 def main():

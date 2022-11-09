@@ -1,34 +1,26 @@
 ---
 title: 전체 이미지 보기
-description: /home/parksejin/project/boyinblue.github.io/assets/images/github-api
+description: /assets/images/github-api
 ---
 
 
-제목을 입력해주세요
-===
 
+{% assign gallery_image_url = '/assets/images/github-api/001_github-badcredential-regenerate-token.png' %}
+{% assign gallery_link_url = '/assets/images/github-api/001_github-badcredential-regenerate-token.png' %}
+{% assign gallery_path = '/assets/images/github-api/001_github-badcredential-regenerate-token.png' %}
+{% include body-gallery.html %}
 
-|구분|내용|
-|---|---|
-|날짜|2022년 월 일|
-|주제|(입력해주세요)|
-|테그|(입력해주세요)|
-|장소|(입력해주세요)|
+{% assign gallery_image_url = '/assets/images/github-api/001_github-badcredential-token-expire.png' %}
+{% assign gallery_link_url = '/assets/images/github-api/001_github-badcredential-token-expire.png' %}
+{% assign gallery_path = '/assets/images/github-api/001_github-badcredential-token-expire.png' %}
+{% include body-gallery.html %}
 
+{% assign gallery_image_url = '/assets/images/github-api/004-github-how-to-get-creation-date-of-repository.png' %}
+{% assign gallery_link_url = '/assets/images/github-api/004-github-how-to-get-creation-date-of-repository.png' %}
+{% assign gallery_path = '/assets/images/github-api/004-github-how-to-get-creation-date-of-repository.png' %}
+{% include body-gallery.html %}
 
-/assets/images/github-api/001_github-badcredential-regenerate-token.png
-![이미지](001_github-badcredential-regenerate-token.png)
-
-
-/assets/images/github-api/001_github-badcredential-token-expire.png
-![이미지](001_github-badcredential-token-expire.png)
-
-
-/assets/images/github-api/004-github-how-to-get-creation-date-of-repository.png
-![이미지](004-github-how-to-get-creation-date-of-repository.png)
-
-
-/assets/images/github-api/logo.png
-![이미지](logo.png)
-
-
+{% assign gallery_image_url = '/assets/images/github-api/logo.png' %}
+{% assign gallery_link_url = '/assets/images/github-api/logo.png' %}
+{% assign gallery_path = '/assets/images/github-api/logo.png' %}
+{% include body-gallery.html %}

@@ -1,22 +1,11 @@
 ---
 title: 전체 이미지 보기
-description: /home/parksejin/project/boyinblue.github.io/assets/images/markdown
+description: /assets/images/markdown
 ---
 
 
-제목을 입력해주세요
-===
 
-
-|구분|내용|
-|---|---|
-|날짜|2022년 월 일|
-|주제|(입력해주세요)|
-|테그|(입력해주세요)|
-|장소|(입력해주세요)|
-
-
-/assets/images/markdown/logo.svg
-![이미지](logo.svg)
-
-
+{% assign gallery_image_url = '/assets/images/markdown/logo.svg' %}
+{% assign gallery_link_url = '/assets/images/markdown/logo.svg' %}
+{% assign gallery_path = '/assets/images/markdown/logo.svg' %}
+{% include body-gallery.html %}
