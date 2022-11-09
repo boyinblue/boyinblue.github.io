@@ -20,9 +20,9 @@ for 반복문과 img 테그를 조합해서 미리 보기 기능을 구현했다
 ### 코드
 ```
 {% raw %}
-{% for post in site.posts limit:5 %}
-  {% if post.image %}
-    <img src="{{ post.image }}"><br />
+{%- for post in site.posts limit:5 %}
+  {%- if post.image %}
+    <img style="border-radius: 20px;" src="{{ post.image }}"><br />
   {% endif %}
 {% endfor %}
 {% endraw %}
@@ -30,9 +30,9 @@ for 반복문과 img 테그를 조합해서 미리 보기 기능을 구현했다
 
 ### 실행 결과
 ```
-{% for post in site.posts limit:5 %}
-  {% if post.image %}
-    <img src="{{ post.image }}"><br />
+{%- for post in site.posts limit:5 %}
+  {%- if post.image %}
+    <img style="border-radius: 20px;" src="{{ post.image }}"><br />
   {% endif %}
 {% endfor %}
 ```
