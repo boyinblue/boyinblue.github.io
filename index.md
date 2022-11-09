@@ -7,8 +7,7 @@ image: /assets/logo.png
 C, Bash, Python, Java, Java Script 등의 프로그래밍 언어 관련 내용을 다룹니다. 
 
 
-그 외에도 Jenkins, Ubuntu Linux, 라즈베리파이, GitHub, GitHub API, GitHub Pages 등에 대해서도 틈틈히 기록해두고자 합니다. 
+그외에도 Jenkins, Ubuntu Linux, 라즈베리파이, GitHub, GitHub API, GitHub Pages도 기록합니다. 
 
 
-이 공간은 저를 위한 기록이지만, 어쩌면 누군가에게 작은 도움이라도 될 수 있기를 바랍니다. 
-
+이 공간을 방문하는 분들께 도움되는 정보를 제공하여 SW 개발자 분들께 도움이 되고 싶습니다. 
