@@ -3,7 +3,9 @@
   <div style="height: 300; border-radius: 3px;">
     <a href="{{ gallery_link_url }}"><figure><img src="{{ gallery_image_url }}" style="float: left; width: 20%; height: 100%; border-radius: 10px; margin: 2px;"></figure></a>
     <div style="float: right; margin: 0; width: 75%; height: 100%;">
-      {{ gallery_path }}
+      Path : {{ gallery_path }}<br />
+      {% if gallery_width %}W : {{ gallery_width }}<br /> {% endif %}
+      {% if gallery_height %}W : {{ gallery_height }} {% endif %}
     </div>
     <div style="clear: both; width: 0">
     </div>
