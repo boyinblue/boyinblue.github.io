@@ -23,6 +23,8 @@ description: /assets/images/diary
 {% assign gallery_image_url = '/assets/images/diary/20221014-독자를-사로잡는-매력적인-인터뷰-기사-작성-방법-이은지-강사.jpg' %}
 {% assign gallery_link_url = '/assets/images/diary/20221014-독자를-사로잡는-매력적인-인터뷰-기사-작성-방법-이은지-강사.jpg' %}
 {% assign gallery_path = '/assets/images/diary/20221014-독자를-사로잡는-매력적인-인터뷰-기사-작성-방법-이은지-강사.jpg' %}
+{% assign gallery_width = '1612'  %}
+{% assign gallery_height = '1209'  %}
 {% include body-gallery.html %}
 
 {% assign gallery_image_url = '/assets/icon/folder-outline.svg' %}
@@ -43,6 +45,8 @@ description: /assets/images/diary
 {% assign gallery_image_url = '/assets/images/diary/20221028_172638_야탑서울안과의원.jpg' %}
 {% assign gallery_link_url = '/assets/images/diary/20221028_172638_야탑서울안과의원.jpg' %}
 {% assign gallery_path = '/assets/images/diary/20221028_172638_야탑서울안과의원.jpg' %}
+{% assign gallery_width = '806'  %}
+{% assign gallery_height = '604'  %}
 {% include body-gallery.html %}
 
 {% assign gallery_image_url = '/assets/icon/folder-outline.svg' %}
@@ -63,16 +67,22 @@ description: /assets/images/diary
 {% assign gallery_image_url = '/assets/images/diary/20221101_124109-lunch.jpg' %}
 {% assign gallery_link_url = '/assets/images/diary/20221101_124109-lunch.jpg' %}
 {% assign gallery_path = '/assets/images/diary/20221101_124109-lunch.jpg' %}
+{% assign gallery_width = '806'  %}
+{% assign gallery_height = '604'  %}
 {% include body-gallery.html %}
 
 {% assign gallery_image_url = '/assets/images/diary/20221102_162556-내문장이그렇게이상한가요.jpg' %}
 {% assign gallery_link_url = '/assets/images/diary/20221102_162556-내문장이그렇게이상한가요.jpg' %}
 {% assign gallery_path = '/assets/images/diary/20221102_162556-내문장이그렇게이상한가요.jpg' %}
+{% assign gallery_width = '806'  %}
+{% assign gallery_height = '604'  %}
 {% include body-gallery.html %}
 
 {% assign gallery_image_url = '/assets/images/diary/20221103_120355-lunch.jpg' %}
 {% assign gallery_link_url = '/assets/images/diary/20221103_120355-lunch.jpg' %}
 {% assign gallery_path = '/assets/images/diary/20221103_120355-lunch.jpg' %}
+{% assign gallery_width = '806'  %}
+{% assign gallery_height = '604'  %}
 {% include body-gallery.html %}
 
 {% assign gallery_image_url = '/assets/icon/folder-outline.svg' %}
@@ -83,9 +93,13 @@ description: /assets/images/diary
 {% assign gallery_image_url = '/assets/images/diary/20221105_174454-판교현대백화점-회전목마.jpg' %}
 {% assign gallery_link_url = '/assets/images/diary/20221105_174454-판교현대백화점-회전목마.jpg' %}
 {% assign gallery_path = '/assets/images/diary/20221105_174454-판교현대백화점-회전목마.jpg' %}
+{% assign gallery_width = '806'  %}
+{% assign gallery_height = '604'  %}
 {% include body-gallery.html %}
 
 {% assign gallery_image_url = '/assets/images/diary/logo.png' %}
 {% assign gallery_link_url = '/assets/images/diary/logo.png' %}
 {% assign gallery_path = '/assets/images/diary/logo.png' %}
+{% assign gallery_width = '128'  %}
+{% assign gallery_height = '128'  %}
 {% include body-gallery.html %}
