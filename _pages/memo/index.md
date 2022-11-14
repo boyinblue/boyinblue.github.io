@@ -129,3 +129,17 @@ category: memo
 {% assign preview_title = '블로그 꾸미기 및 관리 툴' %}
 {% assign preview_description = '블로그 꾸미기와 관리 툴에 대해 기록합니다. ' %}
 {% include body-preview.html %}
+
+
+{% assign preview_image_url = '/assets/images/memo/logo.png' %}
+{% assign preview_url = '아토피.html' %}
+{% assign preview_title = '둘째 아토피 치료 관련 기록 ' %}
+{% assign preview_description = '완치를 위한 관리 방법을 메모한다.' %}
+{% include body-preview.html %}
+
+
+{% assign preview_image_url = '/assets/images/memo/logo.png' %}
+{% assign preview_url = '_template.html' %}
+{% assign preview_title = '' %}
+{% assign preview_description = '' %}
+{% include body-preview.html %}
