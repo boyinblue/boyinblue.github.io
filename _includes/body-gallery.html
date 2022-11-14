@@ -3,7 +3,7 @@
   <div style="height: 300; border-radius: 3px;">
     <a href="{{ gallery_link_url }}">
       <figure>
-        {% if gallery_width < 100 %}
+        {% if gallery_width < "100" %}
           <img src="{{ gallery_image_url }}" style="float: left; border-radius: 10px; margin: 2px;">
         {% else %}
           <img src="{{ gallery_image_url }}" style="float: left; width: 20%; height: 100%; border-radius: 10px; margin: 2px;">
