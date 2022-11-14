@@ -62,6 +62,7 @@ Jekyll의 Liquid 문법을 조금 응용하면 페이지별로 방문자 카운�
 
 
 ### 홈페이지
+아래 홈페이지에서 카운터 서비스를 개설한다. 
 {% assign preview_image_url = 'https://hits.sh/og-img-1200x630.png' %}
 {% assign preview_url = 'https://hits.sh/' %}
 {% assign preview_title = 'Hits' %}
@@ -69,14 +70,27 @@ Jekyll의 Liquid 문법을 조금 응용하면 페이지별로 방문자 카운�
 {% include body-preview.html %}
 
 ### 관련 페이지
+아래 블로그에 더 자세한 내용이 설명되어 있다. hit.sh 서비스를 만든 개발자의 블로그다. 
 {% assign preview_image_url = 'https://blog.silentsoft.org/static/images/twitter-card.png' %}
 {% assign preview_url = 'https://blog.silentsoft.org/archives/192' %}
 {% assign preview_title = 'GitHub, 블로그에 방문자 카운터를 달아보자' %}
 {% assign preview_description = 'GitHub 프로필이나 레파지토리, 블로그 등을 방문하다 보면 종종 방문자 카운터가 달린 것을 종종 볼 수 있다.' %}
 {% include body-preview.html %}
 
+hit.sh 개발자의 GitHub Repository인데 무슨 내용인지 봐도 잘 모르겠다. 
 {% assign preview_image_url = 'https://repository-images.githubusercontent.com/385596748/ded7d369-de63-406d-b633-9f4198961116' %}
 {% assign preview_url = 'https://github.com/silentsoft/hits' %}
 {% assign preview_title = 'GitHub - silentsoft/hits: Hit Counter for Your GitHub or Any Kind of Websites You Want.' %}
 {% assign preview_description = ':chart_with_upwards_trend: Hit Counter for Your GitHub or Any Kind of Websites You Want. - GitHub - silentsoft/hits: Hit Counter for Your GitHub or Any Kind of Websites You Want.' %}
+{% include body-preview.html %}
+
+
+도움이 될만한 페이지들
+---
+
+GitHub Pages에 댓글 기능 활성화 방법
+{% assign preview_image_url = 'https://boyinblue.github.io/assets/images/github-pages/gitcus-embeding-example.png' %}
+{% assign preview_url = 'https://boyinblue.github.io/github-pages/2022/11/14/%EA%B9%83%ED%97%88%EB%B8%8C-%ED%8E%98%EC%9D%B4%EC%A7%80-%EA%B8%B0%EC%8A%A4%EC%BB%A4%EC%8A%A4-%EC%97%B0%EB%8F%99-%EB%B0%A9%EB%B2%95.html' %}
+{% assign preview_title = 'Github Pages에 giscus 연동하는 방법' %}
+{% assign preview_description = 'How to embed discussion on the GitHub pages.' %}
 {% include body-preview.html %}
