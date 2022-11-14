@@ -136,10 +136,3 @@ category: memo
 {% assign preview_title = '둘째 아토피 치료 관련 기록 ' %}
 {% assign preview_description = '완치를 위한 관리 방법을 메모한다.' %}
 {% include body-preview.html %}
-
-
-{% assign preview_image_url = '/assets/images/memo/logo.png' %}
-{% assign preview_url = '_template.html' %}
-{% assign preview_title = '' %}
-{% assign preview_description = '' %}
-{% include body-preview.html %}

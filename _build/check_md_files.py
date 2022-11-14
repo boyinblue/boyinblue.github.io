@@ -19,7 +19,8 @@ exclude_path_match_with = [
         ]
 
 exclude_path_contains_with = [
-        "README.md"
+        "README.md",
+        "_template.md"
         ]
 
 def is_exclude_path(path):
