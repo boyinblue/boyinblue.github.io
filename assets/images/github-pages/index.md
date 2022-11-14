@@ -88,3 +88,31 @@ description: /assets/images/github-pages
 {% assign gallery_width = '612'  %}
 {% assign gallery_height = '432'  %}
 {% include body-gallery.html %}
+
+{% assign gallery_image_url = '/assets/images/github-pages/gitcus-embeding-example.png' %}
+{% assign gallery_link_url = '/assets/images/github-pages/gitcus-embeding-example.png' %}
+{% assign gallery_path = '/assets/images/github-pages/gitcus-embeding-example.png' %}
+{% assign gallery_width = '677'  %}
+{% assign gallery_height = '350'  %}
+{% include body-gallery.html %}
+
+{% assign gallery_image_url = '/assets/images/github-pages/gitcus-embeding-setting-02.png' %}
+{% assign gallery_link_url = '/assets/images/github-pages/gitcus-embeding-setting-02.png' %}
+{% assign gallery_path = '/assets/images/github-pages/gitcus-embeding-setting-02.png' %}
+{% assign gallery_width = '733'  %}
+{% assign gallery_height = '644'  %}
+{% include body-gallery.html %}
+
+{% assign gallery_image_url = '/assets/images/github-pages/gitcus-embeding-setting-03.png' %}
+{% assign gallery_link_url = '/assets/images/github-pages/gitcus-embeding-setting-03.png' %}
+{% assign gallery_path = '/assets/images/github-pages/gitcus-embeding-setting-03.png' %}
+{% assign gallery_width = '742'  %}
+{% assign gallery_height = '409'  %}
+{% include body-gallery.html %}
+
+{% assign gallery_image_url = '/assets/images/github-pages/gitcus-embeding.png' %}
+{% assign gallery_link_url = '/assets/images/github-pages/gitcus-embeding.png' %}
+{% assign gallery_path = '/assets/images/github-pages/gitcus-embeding.png' %}
+{% assign gallery_width = '737'  %}
+{% assign gallery_height = '946'  %}
+{% include body-gallery.html %}
