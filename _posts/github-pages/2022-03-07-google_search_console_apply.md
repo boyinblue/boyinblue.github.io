@@ -7,8 +7,8 @@ image: /assets/images/github-pages/logo.png
 ---
 저는 네이버 블로그와 티스토리 블로그를 오랫동안 운영해왔습니다. 
 최근에 아주 매력적인 GitHub 블로그(정확한 명칭은 GitHub Pages)를 발견하였고 매료되었습니다. 
-정확히 명칭은 GitHub Pages 입니다만, 국내에서는 GitHub 블로그로 편의상 불려지고 있습니다.   
-   
+정확한 명칭은 GitHub Pages 입니다만, 국내에서는 편의상 GitHub 블로그로 불려지고 있습니다. 
+
 
 GitHub 블로그는 여러가지 매력적인 장점들이 있습니다. 
 markdown 문법으로 손쉽게 페이지를 작성할 수 있고, 
