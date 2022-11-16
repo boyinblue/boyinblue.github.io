@@ -16,3 +16,4 @@ function make_category
 }
 
 make_category "https://frankler.tistory.com"
+make_category "https://worldclassproduct.tistory.com"
