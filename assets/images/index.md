@@ -157,3 +157,8 @@ description: /assets/images
 {% assign gallery_path = '/assets/images/writing' %}
 {% assign gallery_link_url = '/assets/images/writing' %}
 {% include body-gallery.html %}
+
+{% assign gallery_image_url = '/assets/icon/folder-outline.svg' %}
+{% assign gallery_path = '/assets/images/dex' %}
+{% assign gallery_link_url = '/assets/images/dex' %}
+{% include body-gallery.html %}
