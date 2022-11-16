@@ -20,6 +20,7 @@ description: 각종 유용한 링크를 제공합니다.
 - [mesti](https://www.mesti.xyz)
 - [월드클래스](https://worldclassproduct.tistory.com)
 - [FW개발자](https://frankler.tistory.com)
+- [코라시스넷 작은도서관](https://knu.nl.go.kr/)
 
 GitHub
 ---
@@ -38,7 +39,7 @@ SNS
 - [인스타그램 (esregnet0409](https://www.instagram.com/esregnet0409)
 - [인스타그램 (es_regnet_0409)](https://www.instagram.com/es_regnet_0409)
 
-FW개발자 카테고리들
+FW개발자 블로그 카테고리들
 ---
 - ['Study/IT 분야 연구' 카테고리의 글 목록](https://frankler.tistory.com/category/Study/IT%20%EB%B6%84%EC%95%BC%20%EC%97%B0%EA%B5%AC)
 - ['일상정보/아방이와 벤도리' 카테고리의 글 목록](https://frankler.tistory.com/category/%EC%9D%BC%EC%83%81%EC%A0%95%EB%B3%B4/%EC%95%84%EB%B0%A9%EC%9D%B4%EC%99%80%20%EB%B2%A4%EB%8F%84%EB%A6%AC)
