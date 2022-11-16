@@ -1,51 +1,16 @@
-<!-- start of body-category.html -->
+<!-- start of body-ads-top.html -->
 
-<div id="categories">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7295400628259164"
+     crossorigin="anonymous"></script>
+<!-- 상하단광고 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-7295400628259164"
+     data-ad-slot="8601781306"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
-  {% assign cate_names = "" | split: ',' %}
-  {% if category != "all" %}
-    {% assign cate_names = cate_names | push: category %}
-  {% else %}
-    {% for cath in site.categories %}
-      {% assign cate_name = cath | first %}
-      {% assign cate_names = cate_names | push: cate_name %}
-    {% endfor %}
-  {% endif %}
-
-  {% for cate_name in cate_names %}
-    {% assign cate_name = cate_name | strip %}
-    {% unless cate_name %}{% continue %}{% endunless %}
-    {% if cate_name == "" %}{% continue %}{% endif %}
-    <h3 id="{{ cate_name }}">{{ cate_name }} 카테고리 ({{ site.categories[cate_name] | size }})</h3>
-    {% assign post_num = site.categories[cate_name] | size %}
-    {% if post_num == 0 %}카테고리에 글이 하나도 없습니다. 😥{% break %}{% endif %}
-    {% for post in site.categories[cate_name] %}
-      {% if post.title == page.title %}{% continue %}{% endif %}
-      {% assign preview_image_url = post.image %}
-      {% assign preview_url = post.url %}
-      {% assign preview_title = post.title %}
-      {% assign preview_description = post.description %}
-      {% assign preview_date = post.date %}
-      {% assign preview_num_of_words = post.content | number_of_words %}
-      {% include body-preview.html %}
-      <hr>
-    {% endfor %}
-  {% endfor %}
-
-  {% if category == "all" %}
-    <h3 id="미분류">미분류 카테고리</h3>
-    {% for post in site.posts %}
-      {% if post.category %}{% continue %}{% endif %}
-      {% assign preview_image_url = post.image %}
-      {% assign preview_url = post.url %}
-      {% assign preview_title = post.title %}
-      {% assign preview_description = post.description %}
-      {% assign preview_date = post.date %}
-      {% assign preview_num_of_words = post.content | number_of_words %}
-      {% include body-preview.html %}
-    <hr>
-    {% endfor %}
-  {% endif %}
-</div>
-
-<!-- end of body-category.html -->
+<!-- end of body-ads-top.html -->
