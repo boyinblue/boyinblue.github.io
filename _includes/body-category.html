@@ -20,7 +20,7 @@
     {% assign post_num = site.categories[cate_name] | size %}
     {% if post_num == 0 %}카테고리에 글이 하나도 없습니다. 😥{% break %}{% endif %}
     {% for post in site.categories[cate_name] %}
-      {% if post.title == page.title %}{% continue %}{% endif %}
+      {% if post.title == page.title %}{% include body-ads-preview.html %}{% endif %}
       {% assign preview_image_url = post.image %}
       {% assign preview_url = post.url %}
       {% assign preview_title = post.title %}
