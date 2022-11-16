@@ -16,10 +16,12 @@ document.addEventListener("scroll", function() { // scroll이벤트를 이용
 //    console.log("currentScrollValue is " + currentScrollValue);
     
     if( currentScrollValue === 0 ) {
-        header_wrap.style.opacity = 1;
+        #header_wrap.style.opacity = 1;
+        header_wrap.style.display = 'block';
     }
     else {
-        header_wrap.style.opacity = 0.4;
+        #header_wrap.style.opacity = 0.4;
+        header_wrap.style.display = 'none';
     }
     });
 
