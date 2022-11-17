@@ -27,7 +27,7 @@ image: https://user-images.githubusercontent.com/50429025/202333506-346aa78a-768
 아래는 이메일 상담 결과다. 
 
 
-~[테더링 관련 상담](https://user-images.githubusercontent.com/50429025/202333506-346aa78a-7680-4c1d-9d0b-ad5484fcaf60.jpg '기본 데이터 소진하면 테더링을 이용할 수 없다.')
+![테더링 관련 상담](https://user-images.githubusercontent.com/50429025/202333506-346aa78a-7680-4c1d-9d0b-ad5484fcaf60.jpg '기본 데이터 소진하면 테더링을 이용할 수 없다.')
 
 
 역시나 기본 데이터가 모두 소진된 상태에서는 테더링을 이용할 수 없다는 것을 확인했다. 
