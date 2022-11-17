@@ -3,7 +3,7 @@ title: 삼성 Dex 배경화면을 단색으로 바꾸는 방
 description: How to change background as black color on Samsung DeX Desktop
 category: dex
 tags: dex
-image: 
+image: https://user-images.githubusercontent.com/50429025/201841400-4059a7e3-7d41-4c66-b36a-89f0c8267501.jpg
 ---
 
 그동안 사무실에서 딴짓을 많이 했다. 
