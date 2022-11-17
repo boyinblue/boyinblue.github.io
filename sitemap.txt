@@ -33,6 +33,7 @@ boyinblue.github.io/assets/images/diary/20221022-%EC%BD%94%EC%8A%A4%ED%8A%B8%EC%
 boyinblue.github.io/assets/images/diary/20221021_%ED%9A%8C%EC%82%AC%ED%97%AC%EC%93%B0%EC%9E%A5/index.md
 boyinblue.github.io/assets/images/diary/20221012_%EA%B3%A0%EB%93%B1%EB%8F%99_%EC%99%95%EB%82%A8%EC%B4%88%EB%93%B1%ED%95%99%EA%B5%90_%EC%95%BC%EC%B1%84%ED%8A%B8%EB%9F%AD_%EB%93%9C%EB%A6%BC%EC%9C%A0%ED%86%B5/index.md
 boyinblue.github.io/assets/images/diary/2022/index.md
+boyinblue.github.io/assets/images/diary/2022/9/index.md
 boyinblue.github.io/assets/images/diary/2022/11/index.md
 boyinblue.github.io/assets/images/diary/2022/11/06/index.md
 boyinblue.github.io/assets/images/diary/20100829_rainnyday/index.md
