@@ -6,30 +6,30 @@ from urllib import parse
 HOMEPAGE_URL = "boyinblue.github.io"
 
 # INPUT
-SITEMAP_LIQUID = "../sitemap-liquid.txt"
+SITEMAP_LIQUID = "../../sitemap-liquid.txt"
 
 # OUTPUT
-SITEMAP_XML_FILE = "../sitemap.xml"
-SITEMAP_TXT_FILE = "../sitemap.txt"
+SITEMAP_XML_FILE = "../../sitemap.xml"
+SITEMAP_TXT_FILE = "../../sitemap.txt"
 
 #############################################
 # 체커가 돌지 않도록 제외할 경로 설정
 #############################################
 exclude_dir_starts_with = [
-        "../.",
-        "../_build",
-        "../_posts",
-        "../_drafts",
-        "../test/",
-        "../docs/"
+        "../../.",
+        "../../_build",
+        "../../_posts",
+        "../../_drafts",
+        "../../test/",
+        "../../docs/"
         ]
 
 exclude_dir_match_with = [
-#        "../README.md",
-        "../index.md",
-        "../google62fdc652437cf301.html",
-        "../naverd4f8a457876d1cbdba15ad126ccbf06a.html",
-        "../404.html"
+#        "../../README.md",
+        "../../index.md",
+        "../../google62fdc652437cf301.html",
+        "../../naverd4f8a457876d1cbdba15ad126ccbf06a.html",
+        "../../404.html"
         ]
 
 def is_exclude_path(path):
@@ -104,7 +104,7 @@ def main():
         fp_xml.write(line)
 
     # URLs
-    iterate_directory("..", fp_xml, fp_txt)
+    iterate_directory("../..", fp_xml, fp_txt)
 
     # Tail
     fp_xml.write('</urlset>\n')
