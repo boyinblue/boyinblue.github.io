@@ -14,3 +14,13 @@ description: /assets/images/diary/2022/11
 {% assign gallery_path = '/assets/images/diary/2022/11/09' %}
 {% assign gallery_link_url = '/assets/images/diary/2022/11/09' %}
 {% include body-gallery.html %}
+
+{% assign gallery_image_url = '/assets/icon/folder-outline.svg' %}
+{% assign gallery_path = '/assets/images/diary/2022/11/19' %}
+{% assign gallery_link_url = '/assets/images/diary/2022/11/19' %}
+{% include body-gallery.html %}
+
+{% assign gallery_image_url = '/assets/icon/folder-outline.svg' %}
+{% assign gallery_path = '/assets/images/diary/2022/11/21' %}
+{% assign gallery_link_url = '/assets/images/diary/2022/11/21' %}
+{% include body-gallery.html %}
