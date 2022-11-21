@@ -7,7 +7,7 @@ description: 각종 유용한 링크를 제공합니다.
 네이버
 ---
 - [네이버 서치 어드바이저](https://searchadvisor.naver.com/ '네이버 서치 어드바이저')
-- [네이버 마이플레이스](https://m.place.naver.com/my/ '네이버 마이플레이스'))
+- [네이버 마이플레이스](https://m.place.naver.com/my/ '네이버 마이플레이스')
 
 구글
 ---
