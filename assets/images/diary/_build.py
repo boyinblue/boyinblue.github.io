@@ -65,10 +65,10 @@ def make_md_for_pics(md_path, image_path):
 def get_diary_post_dir(dir, match_str):
     year, month, day = match_str.split('/')
 #    print("Y : {}, M : {}, D : {}".format(year, month, day))
-    diary_path_dir = "{}/_posts/diary/20{}{}".format(project_root, year, month)
+    diary_path_dir = "{}/_posts/diary_20{}{}".format(project_root, year, month)
     if not os.path.isdir(diary_path_dir):
         os.mkdir(diary_path_dir)
-    diary_post_path = "{}/_posts/diary/20{}{}/20{}-{}-{}.md".format(project_root, year, month, year, month, day)
+    diary_post_path = "{}/_posts/diary_20{}{}/20{}-{}-{}.md".format(project_root, year, month, year, month, day)
     return diary_post_path
 
 """ 디렉토리 순회 (재귀함수) """
