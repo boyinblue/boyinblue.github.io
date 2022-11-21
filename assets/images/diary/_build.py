@@ -27,11 +27,13 @@ def absolute_path_to_url(path):
     return path.replace(project_root, "")
 
 """ index.md 파일이 없을 경우 default 파일 생성 """
-def write_default_md(path):
+def write_default_md(path, match_str):
+    year, month, day = match_str.split('/')
+
     file = open(path, "w")
     file.write("---\n")
-    file.write("title: 일기\n")
-    file.write("description: " + absolute_path_to_url(path) + "\n")
+    file.write("title: {}년 {}월 {}일 일기\n".format(year, month, day))
+    file.write("description: {}년 {}월 {}일 일기\n".format(year, month, day))
     file.write("category: diary\n")
     file.write("---\n")
     file.write("\n")
@@ -85,7 +87,7 @@ def iterate_directory(dir):
         diary_post_path = get_diary_post_dir(dir, extracted)
         print("diary post path :", diary_post_path)
         if not os.path.exists(diary_post_path):
-            write_default_md(diary_post_path)
+            write_default_md(diary_post_path, extracted)
 
     for file in files:
         path = "{}/{}".format(dir, file)
