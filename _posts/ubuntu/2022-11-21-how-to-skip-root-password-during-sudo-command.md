@@ -2,7 +2,7 @@
 title: 우분투 리눅스에서 sudo 명령시에 루트 비밀번호 입력을 스킵하는 방법
 description : How to skip root password during sudo command
 category: ubuntu
-image: assets/images/ubuntu/ubuntu-linux-sudo-password-skip.jpg
+image: /assets/images/ubuntu/ubuntu-linux-sudo-password-skip.jpg
 ---
 
 우분투 리눅스를 이용하여 스크립트를 작성하다보면 루트 권한이 필요한 경우가 종종 있다. 
