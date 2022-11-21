@@ -125,7 +125,7 @@ image: /assets/images/event/logo.png
 {% include body-preview.html %}
 
 
-{% assign preview_image_url = '/assets/images/event.logo.png' %}
+{% assign preview_image_url = '/assets/images/event/logo.png' %}
 {% assign preview_url = '2022-11-21.html' %}
 {% assign preview_title = '2022-11-21 종료되는 이벤트 정보' %}
 {% assign preview_description = '2022-11-21에 종료되는 이벤트 정보들을 제공합니다.' %}
