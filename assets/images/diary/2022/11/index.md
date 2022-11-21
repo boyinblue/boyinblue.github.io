@@ -24,3 +24,8 @@ description: /assets/images/diary/2022/11
 {% assign gallery_path = '/assets/images/diary/2022/11/21' %}
 {% assign gallery_link_url = '/assets/images/diary/2022/11/21' %}
 {% include body-gallery.html %}
+
+{% assign gallery_image_url = '/assets/icon/folder-outline.svg' %}
+{% assign gallery_path = '/assets/images/diary/2022/11/14' %}
+{% assign gallery_link_url = '/assets/images/diary/2022/11/14' %}
+{% include body-gallery.html %}
