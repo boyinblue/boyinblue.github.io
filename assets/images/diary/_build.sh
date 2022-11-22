@@ -7,6 +7,4 @@ day=$(date +"%d")
 target_dir="$year/$month/$day"
 mkdir -p "$target_dir"
 
-pushd "$target_dir"
-ln -s ../../../logo.png logo.png
-popd
+cp _index.md "$target_dir/index.md"
