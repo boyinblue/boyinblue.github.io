@@ -1,10 +1,9 @@
 #!/usr/bin/env python3
 
 import os
+import sys
 import glob
 from PIL import Image
-
-IMAGE_PATH = "../../assets/images"
 
 def iterate_dir(dir):
     print(dir)
@@ -38,4 +37,4 @@ def check_image(path):
         resize_image(img, path)
 
 if __name__ == '__main__':
-    iterate_dir(IMAGE_PATH)
+    iterate_dir(".")
