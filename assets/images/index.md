@@ -1,9 +1,3 @@
----
-title: 전체 이미지 보기
-description: /assets/images
----
-
-
 
 {% assign gallery_image_url = '/assets/icon/folder-outline.svg' %}
 {% assign gallery_path = '/assets/images/bash' %}
@@ -40,8 +34,18 @@ description: /assets/images
 {% include body-gallery.html %}
 
 {% assign gallery_image_url = '/assets/icon/folder-outline.svg' %}
+{% assign gallery_path = '/assets/images/dex' %}
+{% assign gallery_link_url = '/assets/images/dex' %}
+{% include body-gallery.html %}
+
+{% assign gallery_image_url = '/assets/icon/folder-outline.svg' %}
 {% assign gallery_path = '/assets/images/diary' %}
 {% assign gallery_link_url = '/assets/images/diary' %}
+{% include body-gallery.html %}
+
+{% assign gallery_image_url = '/assets/icon/folder-outline.svg' %}
+{% assign gallery_path = '/assets/images/event' %}
+{% assign gallery_link_url = '/assets/images/event' %}
 {% include body-gallery.html %}
 
 {% assign gallery_image_url = '/assets/icon/folder-outline.svg' %}
@@ -157,13 +161,5 @@ description: /assets/images
 {% assign gallery_path = '/assets/images/writing' %}
 {% assign gallery_link_url = '/assets/images/writing' %}
 {% include body-gallery.html %}
-
-{% assign gallery_image_url = '/assets/icon/folder-outline.svg' %}
-{% assign gallery_path = '/assets/images/dex' %}
-{% assign gallery_link_url = '/assets/images/dex' %}
-{% include body-gallery.html %}
-
-{% assign gallery_image_url = '/assets/icon/folder-outline.svg' %}
-{% assign gallery_path = '/assets/images/event' %}
-{% assign gallery_link_url = '/assets/images/event' %}
+link_url = '/assets/images/event' %}
 {% include body-gallery.html %}
