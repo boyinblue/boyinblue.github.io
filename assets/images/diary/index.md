@@ -130,3 +130,10 @@ s/images/diary/20221028_172638_야탑서울안과의원.jpg' %}
 {% assign preview_title = '전체 이미지 보기' %}
 {% assign preview_description = '/assets/images/diary/2022/11/21' %}
 {% include body-preview.html %}
+
+{% assign gallery_image_url = '/assets/images/diary/20221014-독자를-사로잡는-매력적인-인터뷰-기사-작성-방법-이은지-강사.jpg' %}
+{% assign gallery_link_url = '/assets/images/diary/20221014-독자를-사로잡는-매력적인-인터뷰-기사-작성-방법-이은지-강사.jpg' %}
+{% assign gallery_path = '/assets/images/diary/20221014-독자를-사로잡는-매력적인-인터뷰-기사-작성-방법-이은지-강사.jpg' %}
+{% assign gallery_width = '1612'  %}
+{% assign gallery_height = '1209'  %}
+{% include body-gallery.html %}
