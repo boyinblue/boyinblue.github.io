@@ -1,9 +1,3 @@
----
-title: 각종 이벤트 정보를 제공합니다. 
-description: 각종 이벤트 정보를 제공합니다. 
-category: event
-image: /assets/images/event/logo.png
----
 
 
 {% assign preview_image_url = '/assets/images/event/logo.png' %}
@@ -142,5 +136,8 @@ image: /assets/images/event/logo.png
 {% assign preview_image_url = '/assets/images/event/logo.png' %}
 {% assign preview_url = '2022-11-18.html' %}
 {% assign preview_title = '2022-11-18 종료되는 이벤트 정보' %}
+{% assign preview_description = '2022-11-18에 종료되는 이벤트 정보들을 제공합니다.' %}
+{% include body-preview.html %}
+ 종료되는 이벤트 정보' %}
 {% assign preview_description = '2022-11-18에 종료되는 이벤트 정보들을 제공합니다.' %}
 {% include body-preview.html %}
