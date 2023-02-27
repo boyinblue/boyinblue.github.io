@@ -208,3 +208,44 @@
 {% include body-gallery.html %}
 link_url = '/assets/images/event' %}
 {% include body-gallery.html %}
+
+{% assign gallery_image_url = '/assets/images/bg_hr.png' %}
+{% assign gallery_link_url = '/assets/images/bg_hr.png' %}
+{% assign gallery_path = '/assets/images/bg_hr.png' %}
+{% assign gallery_width = '4'  %}
+{% assign gallery_height = '21'  %}
+{% include body-gallery.html %}
+
+{% assign gallery_image_url = '/assets/images/blacktocat.png' %}
+{% assign gallery_link_url = '/assets/images/blacktocat.png' %}
+{% assign gallery_path = '/assets/images/blacktocat.png' %}
+{% assign gallery_width = '30'  %}
+{% assign gallery_height = '30'  %}
+{% include body-gallery.html %}
+
+{% assign gallery_image_url = '/assets/icon/folder-outline.svg' %}
+{% assign gallery_path = '/assets/images/cafe' %}
+{% assign gallery_link_url = '/assets/images/cafe' %}
+{% include body-gallery.html %}
+
+{% assign gallery_image_url = '/assets/icon/folder-outline.svg' %}
+{% assign gallery_path = '/assets/images/diary' %}
+{% assign gallery_link_url = '/assets/images/diary' %}
+{% include body-gallery.html %}
+
+{% assign gallery_image_url = '/assets/icon/folder-outline.svg' %}
+{% assign gallery_path = '/assets/images/github-pages' %}
+{% assign gallery_link_url = '/assets/images/github-pages' %}
+{% include body-gallery.html %}
+
+{% assign gallery_image_url = '/assets/images/icon_download.png' %}
+{% assign gallery_link_url = '/assets/images/icon_download.png' %}
+{% assign gallery_path = '/assets/images/icon_download.png' %}
+{% assign gallery_width = '30'  %}
+{% assign gallery_height = '30'  %}
+{% include body-gallery.html %}
+
+{% assign gallery_image_url = '/assets/icon/folder-outline.svg' %}
+{% assign gallery_path = '/assets/images/px' %}
+{% assign gallery_link_url = '/assets/images/px' %}
+{% include body-gallery.html %}
