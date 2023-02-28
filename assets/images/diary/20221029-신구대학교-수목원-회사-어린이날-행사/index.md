@@ -1,9 +1,3 @@
----
-title: 전체 이미지 보기
-description: /assets/images/diary/20221029-신구대학교-수목원-회사-어린이날-행사
----
-
-
 
 {% assign gallery_image_url = '/assets/images/diary/20221029-신구대학교-수목원-회사-어린이날-행사/20221029-비누만들기.jpg' %}
 {% assign gallery_link_url = '/assets/images/diary/20221029-신구대학교-수목원-회사-어린이날-행사/20221029-비누만들기.jpg' %}
@@ -36,6 +30,10 @@ description: /assets/images/diary/20221029-신구대학교-수목원-회사-어�
 {% assign gallery_image_url = '/assets/images/diary/20221029-신구대학교-수목원-회사-어린이날-행사/회사-어린이날-행사-퀴즈쇼-결과.jpg' %}
 {% assign gallery_link_url = '/assets/images/diary/20221029-신구대학교-수목원-회사-어린이날-행사/회사-어린이날-행사-퀴즈쇼-결과.jpg' %}
 {% assign gallery_path = '/assets/images/diary/20221029-신구대학교-수목원-회사-어린이날-행사/회사-어린이날-행사-퀴즈쇼-결과.jpg' %}
+{% assign gallery_width = '1080'  %}
+{% assign gallery_height = '982'  %}
+{% include body-gallery.html %}
+��사-퀴즈쇼-결과.jpg' %}
 {% assign gallery_width = '1080'  %}
 {% assign gallery_height = '982'  %}
 {% include body-gallery.html %}
