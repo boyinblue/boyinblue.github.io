@@ -1,9 +1,3 @@
----
-title: 전체 이미지 보기
-description: /assets/images/costco
----
-
-
 
 {% assign gallery_image_url = '/assets/images/costco/20220828＿175626.jpg' %}
 {% assign gallery_link_url = '/assets/images/costco/20220828＿175626.jpg' %}
