@@ -240,11 +240,11 @@ link_url = '/assets/images/event' %}
 
 {% assign gallery_image_url = '/assets/images/icon_download.png' %}
 
+
 {% assign gallery_image_url = '/assets/icon/folder-outline.svg' %}
 {% assign gallery_path = '/assets/images/px' %}
 {% assign gallery_link_url = '/assets/images/px' %}
 {% include body-gallery.html %}
-
 {% include body-gallery.html %}
 
 {% assign gallery_image_url = '/assets/icon/folder-outline.svg' %}

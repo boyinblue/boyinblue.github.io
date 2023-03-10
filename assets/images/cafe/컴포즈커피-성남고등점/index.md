@@ -19,6 +19,3 @@
 {% assign gallery_width = '3548'  %}
 {% assign gallery_height = '2020'  %}
 {% include body-gallery.html %}
-% assign gallery_width = '3548'  %}
-{% assign gallery_height = '2020'  %}
-{% include body-gallery.html %}
