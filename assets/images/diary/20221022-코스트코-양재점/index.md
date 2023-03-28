@@ -12,6 +12,3 @@
 {% assign gallery_width = '1209'  %}
 {% assign gallery_height = '1209'  %}
 {% include body-gallery.html %}
-{% assign gallery_width = '1209'  %}
-{% assign gallery_height = '1209'  %}
-{% include body-gallery.html %}
