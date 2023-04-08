@@ -13,5 +13,3 @@
 {% assign gallery_path = '/assets/images/cafe/컴포즈커피-성남고등점' %}
 {% assign gallery_link_url = '/assets/images/cafe/컴포즈커피-성남고등점' %}
 {% include body-gallery.html %}
-/cafe/컴포즈커피-성남고등점' %}
-{% include body-gallery.html %}
