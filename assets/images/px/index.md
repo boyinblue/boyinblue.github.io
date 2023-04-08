@@ -2045,6 +2045,11 @@ e = '' %}
 {%{% assign preview_url = 'index.html' %}
 {% assign preview_title = '' %}
 {% assign preview_description = '' %}
+{% inc
+
+{% assign preview_url = 'index.html' %}
+{% assign preview_title = '' %}
+{% assign preview_description = '' %}
 {% include body-preview.html %}
 
 
@@ -2052,12 +2057,7 @@ e = '' %}
 {% assign preview_title = '' %}
 {% assign preview_description = '' %}
 {% include body-preview.html %}
-{% assign preview_description = '' %}
-{% include body-preview.html %}
-
-
-{% assign preview_url = 'index.html' %}
-{% assign preview_title = '' %}
+ign preview_title = '' %}
 {% assign preview_description = '' %}
 {% include body-preview.html %}
 
