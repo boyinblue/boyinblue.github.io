@@ -54,6 +54,3 @@
 {% assign gallery_width = '580'  %}
 {% assign gallery_height = '435'  %}
 {% include body-gallery.html %}
-sign gallery_width = '580'  %}
-{% assign gallery_height = '435'  %}
-{% include body-gallery.html %}
