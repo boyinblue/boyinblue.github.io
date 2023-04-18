@@ -2386,11 +2386,7 @@ ign preview_title = '' %}
 {% include body-preview.html %}
 
 
-{% assign preview_url = 'index.html' %}
-{% assign preview_title = '' %}
-{% assign preview_description = '' %}
-{% include body-preview.html %}
-
+{% assign preview_url = 'index
 
 {% assign preview_url = 'index.html' %}
 {% assign preview_title = '' %}
@@ -2399,6 +2395,10 @@ ign preview_title = '' %}
 
 
 {% assign preview_url = 'index.html' %}
+{% assign preview_title = '' %}
+{% assign preview_description = '' %}
+{% include body-preview.html %}
+.html' %}
 {% assign preview_title = '' %}
 {% assign preview_description = '' %}
 {% include body-preview.html %}
