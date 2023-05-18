@@ -1,9 +1,3 @@
----
-title: 전체 이미지 보기
-description: /assets/images/cafe/메가커피-성남고등점
----
-
-
 
 {% assign gallery_image_url = '/assets/images/cafe/메가커피-성남고등점/20220816＿084213.jpg' %}
 {% assign gallery_link_url = '/assets/images/cafe/메가커피-성남고등점/20220816＿084213.jpg' %}

@@ -1,9 +1,3 @@
----
-title: 전체 이미지 보기
-description: /assets/images/diary
----
-
-
 
 {% assign gallery_image_url = '/assets/icon/folder-outline.svg' %}
 {% assign gallery_path = '/assets/images/diary/20100829_rainnyday' %}
@@ -102,4 +96,20 @@ description: /assets/images/diary
 {% assign gallery_path = '/assets/images/diary/logo.png' %}
 {% assign gallery_width = '128'  %}
 {% assign gallery_height = '128'  %}
+{% include body-gallery.html %}
+'  %}
+{% assign gallery_height = '128'  %}
+{% include body-gallery.html %}
+
+
+{% assign preview_url = '_index.html' %}
+{% assign preview_title = '전체 이미지 보기' %}
+{% assign preview_description = '/assets/images/diary/2022/11/21' %}
+{% include body-preview.html %}
+
+{% assign gallery_image_url = '/assets/images/diary/20221014-독자를-사로잡는-매력적인-인터뷰-기사-작성-방법-이은지-강사.jpg' %}
+{% assign gallery_link_url = '/assets/images/diary/20221014-독자를-사로잡는-매력적인-인터뷰-기사-작성-방법-이은지-강사.jpg' %}
+{% assign gallery_path = '/assets/images/diary/20221014-독자를-사로잡는-매력적인-인터뷰-기사-작성-방법-이은지-강사.jpg' %}
+{% assign gallery_width = '1612'  %}
+{% assign gallery_height = '1209'  %}
 {% include body-gallery.html %}

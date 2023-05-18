@@ -1,9 +1,3 @@
----
-title: 전체 이미지 보기
-description: /assets/images/diary/20221022-코스트코-양재점
----
-
-
 
 {% assign gallery_image_url = '/assets/images/diary/20221022-코스트코-양재점/20221022-코스트코-현대카드-발급.jpg' %}
 {% assign gallery_link_url = '/assets/images/diary/20221022-코스트코-양재점/20221022-코스트코-현대카드-발급.jpg' %}

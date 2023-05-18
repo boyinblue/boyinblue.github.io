@@ -17,12 +17,15 @@
 
       <!-- NAV -->
       {% include body-nav.html %}
+      
+      <!-- 상단광고 -->
+      {% include body-ads-top.html %}
 
       <section class="inner">
-
+        
         <!-- title section -->
         {% include body-title-section.html %}
-
+        
         <!-- content -->
         {{ content }}
 
@@ -43,8 +46,8 @@
       <!-- page info -->
       {% include body-page-info.html %}
 
-      <!-- disqus -->
-      {% include body-disqus.html %}
+      <!-- giscus -->
+      {% include body-giscus.html %}
 
       <!-- category -->
       {% if page.category == nil %}

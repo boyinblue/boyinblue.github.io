@@ -5,6 +5,7 @@ category: memo
 ---
 
 
+
 {% assign preview_image_url = '/assets/images/memo/logo.png' %}
 {% assign preview_url = '회사어린이집.html' %}
 {% assign preview_title = '회사 어린이집에 대한 메모' %}
@@ -47,10 +48,24 @@ category: memo
 {% include body-preview.html %}
 
 
+{% assign preview_image_url = 'https://user-images.githubusercontent.com/50429025/202002259-10eedd86-4d8d-4314-9554-89c24700f448.jpg' %}
+{% assign preview_url = '오장동흥남집-서현AK플라자.html' %}
+{% assign preview_title = '오장동흥남집 서현AK플라자 푸드코트 (평점을 두루 살펴보고 방문하자)' %}
+{% assign preview_description = '분당 서현역 근처에 있는 미스터포토에서 여권 사진을 찍고 오장동흥남집에서 식사를 했다. ' %}
+{% include body-preview.html %}
+
+
 {% assign preview_image_url = '/assets/images/memo/logo.png' %}
 {% assign preview_url = '애드센스.html' %}
 {% assign preview_title = '구글 애드센스 메모' %}
 {% assign preview_description = 'Google Adsense 수익' %}
+{% include body-preview.html %}
+
+
+{% assign preview_image_url = '/assets/images/memo/logo.png' %}
+{% assign preview_url = '아토피.html' %}
+{% assign preview_title = '둘째 아토피 치료 관련 기록 ' %}
+{% assign preview_description = '완치를 위한 관리 방법을 메모한다.' %}
 {% include body-preview.html %}
 
 
@@ -89,7 +104,6 @@ category: memo
 {% include body-preview.html %}
 
 
-{% assign preview_image_url = '/assets/images/memo/logo.png' %}
 {% assign preview_url = '메가커커피-성남고등점.html' %}
 {% assign preview_title = '메가커피 성남고등점 관련 메모' %}
 {% assign preview_description = '메가커피를 이용한 기록을 남깁니다. ' %}

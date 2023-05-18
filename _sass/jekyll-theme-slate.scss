@@ -178,7 +178,6 @@ img {
 }
 
 p img {
-  display: inline;
   vertical-align: middle;
   text-align: center;
 }
@@ -306,14 +305,14 @@ Full-Width Styles
 
 .inner {
   position: relative;
-  max-width: 640px;
+  max-width: 800px;
   padding: 10px;
-  margin: 0px auto;
+  margin: 0px auto 10px auto;
 }
 
 .aside_inner {
   position: relative;
-  max-width: 640px;
+  max-width: 800px;
   padding: 10px;
   margin: 10px auto;
 }

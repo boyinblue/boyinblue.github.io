@@ -2,7 +2,7 @@
 title: 유튜브 비디오 무료로 다운로드 받는 방법
 description: Firefox add-ons를 이용해서 Youtube Video를 Download 하는 방법을 설명
 category: firefox
-image: /assets/images/firefox/firefox.png
+image: /assets/images/firefox/유튜브-동영상-다운로드-firefox-addons-08.png
 tags:
 - firefox
 - add-ons

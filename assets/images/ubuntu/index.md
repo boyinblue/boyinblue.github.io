@@ -74,3 +74,10 @@ description: /assets/images/ubuntu
 {% assign gallery_width = '568'  %}
 {% assign gallery_height = '568'  %}
 {% include body-gallery.html %}
+
+{% assign gallery_image_url = '/assets/images/ubuntu/ubuntu-linux-sudo-password-skip.jpg' %}
+{% assign gallery_link_url = '/assets/images/ubuntu/ubuntu-linux-sudo-password-skip.jpg' %}
+{% assign gallery_path = '/assets/images/ubuntu/ubuntu-linux-sudo-password-skip.jpg' %}
+{% assign gallery_width = '768'  %}
+{% assign gallery_height = '432'  %}
+{% include body-gallery.html %}

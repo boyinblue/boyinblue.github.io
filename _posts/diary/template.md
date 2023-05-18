@@ -7,8 +7,8 @@ image: /assets/images/diary/logo.png
 
 요약
 ---
-✅
-✅
+- ✅
+- ✅
 
 
 개인적인 업무

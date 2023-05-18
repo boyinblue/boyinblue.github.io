@@ -1,9 +1,3 @@
----
-title: 전체 이미지 보기
-description: /assets/images/diary/20221027-연탄불포차
----
-
-
 
 {% assign gallery_image_url = '/assets/images/diary/20221027-연탄불포차/20221027_174403.jpg' %}
 {% assign gallery_link_url = '/assets/images/diary/20221027-연탄불포차/20221027_174403.jpg' %}

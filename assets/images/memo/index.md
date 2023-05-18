@@ -1,9 +1,3 @@
----
-title: 전체 이미지 보기
-description: /assets/images/memo
----
-
-
 
 {% assign gallery_image_url = '/assets/images/memo/20220728＿000921.jpg' %}
 {% assign gallery_link_url = '/assets/images/memo/20220728＿000921.jpg' %}

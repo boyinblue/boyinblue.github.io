@@ -19,7 +19,8 @@ exclude_path_match_with = [
         ]
 
 exclude_path_contains_with = [
-        "README.md"
+        "README.md",
+        "_template.md"
         ]
 
 def is_exclude_path(path):
@@ -317,10 +318,14 @@ def iterate_directory(dir):
 
     """ 실행 파일이 있으면 미리 실행한다."""
     if os.path.isfile(dir + "/_build.py"):
-        
         prev_dir = os.path.abspath('.')
         os.chdir(dir)
         os.system("./_build.py")
+        os.chdir(prev_dir)
+    elif os.path.isfile(dir + "/_build.sh"):
+        prev_dir = os.path.abspath('.')
+        os.chdir(dir)
+        os.system("./_build.sh")
         os.chdir(prev_dir)
 
     files = os.listdir(dir)
