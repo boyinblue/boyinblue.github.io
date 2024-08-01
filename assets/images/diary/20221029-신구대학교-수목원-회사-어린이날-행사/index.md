@@ -33,7 +33,3 @@
 {% assign gallery_width = '1080'  %}
 {% assign gallery_height = '982'  %}
 {% include body-gallery.html %}
-��사-퀴즈쇼-결과.jpg' %}
-{% assign gallery_width = '1080'  %}
-{% assign gallery_height = '982'  %}
-{% include body-gallery.html %}
