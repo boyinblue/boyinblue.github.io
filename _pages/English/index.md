@@ -19,12 +19,24 @@ category: English
 2022년 11월 3일 수업(목요일)
 ---
 
-### anaglyph glasses
+### anaglyph
+
+|구분|내용|비고|
+|---|---|---|
+|발음|ǽnəɡlìf|   |
+|뜻|입체 사진|   |
+|예제|anaglyph glasses|3D 입체 안경|
 
 
 ### theatre
 
-극장, 연극
+|구분|내용|비고|
+|---|---|---|
+|뜻|극장, 연극|   |
+|theater|미국식 철자|   |
+|theatre|영국식 철자|   |
+
+[theater와 theatre의 차이(https://grammarist.com/spelling/theater-theatre/)](https://grammarist.com/spelling/theater-theatre/)
 
 
 ### credited with
@@ -165,7 +177,7 @@ to make or become less severe, diffucult, unpleasant, painful, etc.
 |What do you call it in English?|그게 영어로 뭐더라?|   |
 
 
-foursuqre
+foursuaqre
 ---
 
 
@@ -197,3 +209,13 @@ seldom
 ---
 
 - NFT upload가 훌륭한 부업이 될 수 있다.
+
+
+노인과 바다
+---
+
+어니스트 헤밍웨이의 노인과 바다에 나오는 단어와 표현들을 정리해두고자 한다. 
+
+|표현|의미|설명|
+|---|---|---|
+|skiff|a small, light boat for rowing or sailing, usually used by only one person|   |
