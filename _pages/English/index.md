@@ -45,6 +45,12 @@ category: English
   - recognized with
   - honored with
 
+|구분|내용|비고|
+|---|---|---|
+|
+|동의어 #1|recognized with|   |
+|동의어 #2|honored with|   |
+
 
 ### above all
 
