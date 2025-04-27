@@ -27,7 +27,7 @@ category: AI
 아래 명령으로 파이썬을 설치합니다. 
 
 ```
-# sudo apt-get install python3
+# sudo apt-get install python3 python3-pip
 ```
 
 ### Visual Studio Code
@@ -70,6 +70,7 @@ nvidia-smi 명령 사용법을 알아보려면 man 명령을 입력하면 됩니
 
 ```
 # pip install pytorch
+# sudo pip install numpy
 ```
 
 ### 개발 환경 테스트
