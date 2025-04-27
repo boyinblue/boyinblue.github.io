@@ -73,7 +73,7 @@ nvidia-smi 명령 사용법을 알아보려면 man 명령을 입력하면 됩니
 PyTorch 패키지를 이용하면 학습에 필요한 행렬 연산을 손쉽게 해줍니다. 
 
 ```
-# pip install torch numpy matplotlib
+# pip install torch numpy matplotlib transformers accelerate datasets evaluate
 ```
 
 matplotlib는 데이터를 시각적으로 표현하기 위함입니다. (python 일반적으로 사용하는 패키지)
