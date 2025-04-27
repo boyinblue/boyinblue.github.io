@@ -5,7 +5,7 @@ description: Git 명령에 대한 사용법과 트러블 슈팅 방법을 정리
 category: git
 tags:
 - git
-image: /assets/images/bash/logo.svc
+image: /assets/images/git/logo.svc
 ---
 
 {% assign category=page.category %}
