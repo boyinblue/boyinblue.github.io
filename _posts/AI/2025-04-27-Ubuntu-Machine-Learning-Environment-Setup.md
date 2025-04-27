@@ -24,11 +24,14 @@ category: AI
 
 머신러닝을 꼭 파이썬으로 수행해야 될 이유는 없어보이지만 
 알고있는 거의 모든 개발자들이 파이썬을 이용하여 머신러닝 혹은 딥러닝을 수행합니다. 
-아래 명령으로 파이썬을 설치합니다. 
+아래 명령으로 파이썬과 pip 패키지를 설치합니다. 
 
 ```
 # sudo apt-get install python3 python3-pip
 ```
+
+pip 패키지를 설치하는 이유는 pip 명령을 통해 여러가지 패키지를 설치하기 위함입니다. 
+이는 Python3 관련된 일반적인 내용입니다. 
 
 ### Visual Studio Code
 
@@ -41,7 +44,8 @@ Visual Studio Code 설치하는 방법은 본 페이지에서는 생략하겠습
 ### NVIDIA 드라이버 확인 방법
 
 머신러닝을 위해서는 대규모의 행렬 연산을 수행해야 합니다. 
-CPU보다 GPU가 훨씬 빠릅니다. (경우에 따라서 다르지만 약 3배 정도 빠릅니다.)
+CPU보다 GPU가 훨씬 빠릅니다. 
+경우에 따라서 다르지만 3배 ~ 16배 정도 빠른 것을 경험했습니다. 
 GPU가 없더라도 머신러닝을 할 수는 있지만 파라미터가 많은 복잡한 연산은 아예 불가할 수 있습니다.  
 
 ```
@@ -65,13 +69,14 @@ nvidia-smi 명령 사용법을 알아보려면 man 명령을 입력하면 됩니
 # man nvidia-smi
 ```
 
-### PyTorch 설치
-학습에 필요한 행렬 연산을 손쉽게 해줍니다. 
+### PyTorch 및 기타 패키지 설치
+PyTorch 패키지를 이용하면 학습에 필요한 행렬 연산을 손쉽게 해줍니다. 
 
 ```
-# pip install pytorch
-# sudo pip install numpy
+# pip install torch numpy matplotlib
 ```
+
+matplotlib는 데이터를 시각적으로 표현하기 위함입니다. (python 일반적으로 사용하는 패키지)
 
 ### 개발 환경 테스트
 아래 스크립트를 이용하면 정상적으로 개발 환경이 설정되었는지 확인할 수 있습니다.
@@ -92,4 +97,5 @@ print(torch.backends.cudnn.version())
 
 |내용|명령어|
 |---|---|
-|nvidia-smi|
+|NVIDIA HW, Driver, CUDA 확인|nvidia-smi|
+|GPU On|nvidia-smi -pm 1|
