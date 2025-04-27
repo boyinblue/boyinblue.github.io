@@ -105,4 +105,11 @@ GitHub Pages deploy에러가 발생했다면 변경점이 deploy 에러를 유�
 [GitHub Pages 빌드 에러 조치 방법](010-github-no-uploaded-artifact-was-found.html)
 
 
+{% assign preview_image_url = '010-github-no-uploaded-artifact-was-found.html' %}
+{% assign preview_url = 'https://place.map.kakao.com/2146813612' %}
+{% assign preview_title = 'GitHub Pages 빌드 에러 조치 방법' %}
+{% assign preview_description = 'GitHub Pages 빌드 에러 조치 방법' %}
+{% include body-preview.html %}
+
+
 이상입니다. 

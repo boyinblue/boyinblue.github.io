@@ -3,6 +3,8 @@ title: GitHub에서 레포지토리의 생성일을 확인하는 방법
 permalink: /001_github_api/004-github-how-to-get-the-creation-date-of-repository.html
 description: GitHub API를 이용해서 레포지토리의 생성일을 확인하는 방법에 대해서 설명합니다.
 category: github-api
+tags:
+- github-api
 image: /assets/images/github-api/004-github-how-to-get-creation-date-of-repository.png
 ---
 
