@@ -1,5 +1,5 @@
 ---
-layout: post-with-tag
+layout: null
 title: 테스트 페이지
 permalink: /test.html
 description: GitHub Pages의 Jekyll Liquid의 변수들을 확인하는 테스트 페이지입니다.
