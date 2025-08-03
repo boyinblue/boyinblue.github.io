@@ -332,6 +332,13 @@ recipe(레십) : 레시피
 immerse : 액체에 담그다, 물속에 잠그다, 몰두하다
 
 
+종교 관련 단어들
+---
+
+Puritans : 청교도
+
+
+
 꿀벌 관련 단어들
 ---
 
@@ -376,3 +383,5 @@ stands for (ex: MoE stands for mixture of expert)
 break down : 쪼개서 설명하다
 narrow down : 선택지를 줄이다
 over the past few years : 지난 몇년 동안
+raise the bar : 목표를 높게 잡다.
+lay one's eyes on ~ : ~에 시선을 집중하다
