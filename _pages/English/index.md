@@ -262,10 +262,26 @@ experimental : 실험적인
 feasibility : 실현 가능성
 
 
+화학 관련 단어들
+---
+
+enzyme(엔자임) : 효소의
+substrate : 기질
+protain : 프로틴
+speed up chemical reactions : 화학 작용을 가속화하다
+
+
 기술 관련 단어들
 ---
 
 state-of-the-art : 최첨단의
+
+
+지구 온난화 관련 단어들
+---
+
+green house effect
+global warming
 
 
 회사 관련 단어들
@@ -279,18 +295,10 @@ expenditure : 지출, 비용, 경비
 budget : 예산
 
 
-지구 온난화 관련 단어들
----
-
-green house effect
-global warming
-
-
-
 묘사 관련 단어들
 ---
 
-stunnibng : extremely beautiful
+stunning : extremely beautiful
 majestic : grand
 vast : extreamly large
 grandeur
@@ -303,6 +311,7 @@ enrich : 풍부하게 하다
 
 permafrost : 영구 동토층
 territory : 지역
+province(프롸빈스) : 주
 
 
 AI 관련 단어들
@@ -317,7 +326,40 @@ LLM : Large language model
 요리 관련 단어들
 ---
 
+cook : 요리하다, 요리사
+cooker : 조리도구
+recipe(레십) : 레시피
 immerse : 액체에 담그다, 물속에 잠그다, 몰두하다
+
+
+꿀벌 관련 단어들
+---
+
+honeybee : 꿀벌
+queen : 여왕벌
+drone : 수컷 꿀벌
+worker : 암컷 일벌
+stinger : 벌침
+appendage : 수컷 꿀벌 부속 부위 (아마도 생식기)
+
+
+append로 시작하는 단어들
+---
+
+appendix : 
+appendage : 
+
+
+맛 관련 단어들
+---
+
+savory : 풍미가 좋은
+crispy : 
+chewy : 
+crunch : 
+salty : 
+sweety : 
+sour : 
 
 
 자주 쓰면 좋은 단어들
