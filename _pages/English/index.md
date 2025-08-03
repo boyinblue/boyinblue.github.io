@@ -236,6 +236,19 @@ substrate : 기질
 speed up chemical reactions
 
 
+바다 관련 단어들
+---
+
+coral reef : 산호초
+
+
+
+학교 생활 관련 단어들
+---
+
+
+
+
 자주 쓰면 좋은 단어들
 ---
 
