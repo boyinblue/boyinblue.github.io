@@ -239,14 +239,85 @@ speed up chemical reactions
 바다 관련 단어들
 ---
 
-coral reef : 산호초
+coral reef : 산호초 (ex : On its coasts are coral reefs and volcanic beaches)
 
 
 
 학교 생활 관련 단어들
 ---
 
+master degree : 석사
+stipend(스타이픈드) : 장학금
+at collage, at the university : 학교 앞에는 at을 붙여야 한다.
+SOI : 
+CV : 
 
+
+학문 관련 단어들
+---
+
+thesis(써씨스) : 논문
+hyperthesis : 가설
+experimental : 실험적인
+feasibility : 실현 가능성
+
+
+기술 관련 단어들
+---
+
+state-of-the-art : 최첨단의
+
+
+회사 관련 단어들
+---
+
+entreprenieurial(엔트리프리뉴리얼) : 기억가적인
+subsidiary : 자회사의
+profitable : 
+sustainable : 지속 가능한
+expenditure : 지출, 비용, 경비
+budget : 예산
+
+
+지구 온난화 관련 단어들
+---
+
+green house effect
+global warming
+
+
+
+묘사 관련 단어들
+---
+
+stunnibng : extremely beautiful
+majestic : grand
+vast : extreamly large
+grandeur
+enrich : 풍부하게 하다
+
+
+
+지역 관련 단어들
+---
+
+permafrost : 영구 동토층
+territory : 지역
+
+
+AI 관련 단어들
+---
+
+MoE : mixture of expert
+attention is all you need
+transformer
+LLM : Large language model
+
+
+요리 관련 단어들
+---
+
+immerse : 액체에 담그다, 물속에 잠그다, 몰두하다
 
 
 자주 쓰면 좋은 단어들
@@ -257,3 +328,9 @@ so far
 significant
 for the sake of
 resulting in 
+in no time = really quickly or very soon (ex : I will be there in no time)
+state-of-the-art : 최첨단의
+stands for (ex: MoE stands for mixture of expert)
+break down : 쪼개서 설명하다
+narrow down : 선택지를 줄이다
+over the past few years : 지난 몇년 동안
