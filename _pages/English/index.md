@@ -82,14 +82,14 @@ to improve a lot, or to make a lot of progress
 ### find oneself
 
 to realize that you are in a particular situation or place, or doing a patriculr things, when you did not intened to
-- (ex) These days the edito, subeditors and journalists who put the paper together are likely to find themselves in a totally different building or may be even in a different city.
+- (ex) These days the editor, subeditors and journalists who put the paper together are likely to find themselves in a totally different building or may be even in a different city.
 - (ex) We fell asleep on the train and woke up to find ourselves in London.
 - (ex) It's not the first time you've found yourself in this situation.
 
 ### in the minarity
 
 belong to a group of people or things that form less than half of a larger group
-- (ex) Here human beings are in the minority as much of th work is done by machines controlled by computers.
+- (ex) Here human beings are in the minority as much of the work is done by machines controlled by computers.
 - (ex) Boys are very much in the minority at the dance class.
 - (ex) Opponents of the new law appeared to be in the minority.
 
@@ -225,3 +225,22 @@ seldom
 |표현|의미|설명|
 |---|---|---|
 |skiff|a small, light boat for rowing or sailing, usually used by only one person|   |
+
+
+화학 관련 단어들
+---
+
+protain : 단백질
+enzyme(엔자임)
+substrate : 기질
+speed up chemical reactions
+
+
+자주 쓰면 좋은 단어들
+---
+
+as well
+so far
+significant
+for the sake of
+resulting in 
