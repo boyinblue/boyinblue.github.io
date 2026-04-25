@@ -3,6 +3,7 @@ title: Bash
 permalink: /005_bash/index.html
 description: Ubuntu Bash 스크립트 언어 관련 내용을 정리합니다.
 category: bash
+created_at: 2022-03-06T00:00:00+09:00
 ---
 
 {% assign category=page.category %}

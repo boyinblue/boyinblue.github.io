@@ -7,6 +7,16 @@
 
 {% seo %}
 
+{% assign page_created_at = page.created_at | default: page.date %}
+{% assign page_lastmod = page.last_modified_at | default: last_modified_at | default: page.date %}
+{% if page_created_at %}
+<meta name="created_at" content="{{ page_created_at | date_to_xmlschema }}">
+<meta property="article:published_time" content="{{ page_created_at | date_to_xmlschema }}">
+{% endif %}
+{% if page_lastmod %}
+<meta property="article:modified_time" content="{{ page_lastmod | date_to_xmlschema }}">
+{% endif %}
+
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
 <script>

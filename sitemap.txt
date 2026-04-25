@@ -10,8 +10,8 @@ boyinblue.github.io/../assets/images/tistory/index.md
 boyinblue.github.io/../assets/images/rpi/index.md
 boyinblue.github.io/../assets/images/react/index.md
 boyinblue.github.io/../assets/images/python/index.md
+boyinblue.github.io/../assets/images/px/%EC%9E%87%EB%AA%B8%EA%B3%BC%ED%95%99%EC%B9%98%EC%95%BD/index.md
 boyinblue.github.io/../assets/images/px/%EC%95%84%EB%A7%9D%EB%93%9C%EC%BB%A4%ED%94%BC/index.md
-boyinblue.github.io/../assets/images/px/index.md
 boyinblue.github.io/../assets/images/mysql/index.md
 boyinblue.github.io/../assets/images/memo/index.md
 boyinblue.github.io/../assets/images/markdown/index.md
@@ -23,7 +23,9 @@ boyinblue.github.io/../assets/images/github-pages/index.md
 boyinblue.github.io/../assets/images/github-api/index.md
 boyinblue.github.io/../assets/images/git/index.md
 boyinblue.github.io/../assets/images/firefox/index.md
+boyinblue.github.io/../assets/images/event/index.md
 boyinblue.github.io/../assets/images/diary/index.md
+boyinblue.github.io/../assets/images/diary/_index.md
 boyinblue.github.io/../assets/images/diary/20221104/index.md
 boyinblue.github.io/../assets/images/diary/20221031-uplus/index.md
 boyinblue.github.io/../assets/images/diary/20221030-%ED%9D%AC%EB%A7%9D%EB%8C%80%EA%B3%B5%EC%9B%90/index.md
@@ -33,11 +35,19 @@ boyinblue.github.io/../assets/images/diary/20221022-%EC%BD%94%EC%8A%A4%ED%8A%B8%
 boyinblue.github.io/../assets/images/diary/20221021_%ED%9A%8C%EC%82%AC%ED%97%AC%EC%93%B0%EC%9E%A5/index.md
 boyinblue.github.io/../assets/images/diary/20221012_%EA%B3%A0%EB%93%B1%EB%8F%99_%EC%99%95%EB%82%A8%EC%B4%88%EB%93%B1%ED%95%99%EA%B5%90_%EC%95%BC%EC%B1%84%ED%8A%B8%EB%9F%AD_%EB%93%9C%EB%A6%BC%EC%9C%A0%ED%86%B5/index.md
 boyinblue.github.io/../assets/images/diary/2022/index.md
-boyinblue.github.io/../assets/images/diary/2022/9/index.md
+boyinblue.github.io/../assets/images/diary/2022/12/index.md
+boyinblue.github.io/../assets/images/diary/2022/12/01/index.md
 boyinblue.github.io/../assets/images/diary/2022/11/index.md
+boyinblue.github.io/../assets/images/diary/2022/11/26/index.md
+boyinblue.github.io/../assets/images/diary/2022/11/21/index.md
+boyinblue.github.io/../assets/images/diary/2022/11/20/index.md
+boyinblue.github.io/../assets/images/diary/2022/11/19/index.md
+boyinblue.github.io/../assets/images/diary/2022/11/14/index.md
+boyinblue.github.io/../assets/images/diary/2022/11/09/index.md
 boyinblue.github.io/../assets/images/diary/2022/11/06/index.md
 boyinblue.github.io/../assets/images/diary/20100829_rainnyday/index.md
 boyinblue.github.io/../assets/images/dex/index.md
+boyinblue.github.io/../assets/images/costco/%EA%BC%AC%EB%A7%89%EB%B9%84%EB%B9%94%EB%B0%A5/index.md
 boyinblue.github.io/../assets/images/costco/index.md
 boyinblue.github.io/../assets/images/cafe/%EC%BB%B4%ED%8F%AC%EC%A6%88%EC%BB%A4%ED%94%BC-%EC%84%B1%EB%82%A8%EA%B3%A0%EB%93%B1%EC%A0%90/index.md
 boyinblue.github.io/../assets/images/cafe/%EB%A9%94%EA%B0%80%EC%BB%A4%ED%94%BC-%EC%84%B1%EB%82%A8%EA%B3%A0%EB%93%B1%EC%A0%90/index.md
@@ -52,6 +62,7 @@ boyinblue.github.io/vscode/index.html
 boyinblue.github.io/009_upbit/index.html
 boyinblue.github.io/008_ubuntu/index.html
 boyinblue.github.io/test.html
+boyinblue.github.io/../_pages/software-engineering/index.md
 boyinblue.github.io/020_security/index.html
 boyinblue.github.io/010_raspberry/index.html
 boyinblue.github.io/../_pages/react/index.md
@@ -88,7 +99,7 @@ boyinblue.github.io/007_javascript/index.html
 boyinblue.github.io/006_java/index.html
 boyinblue.github.io/html/index.html
 boyinblue.github.io/002_github_blog/index.html
-boyinblue.github.io/001_github_api/
+boyinblue.github.io/001_github_api/index.html
 boyinblue.github.io/014_git/index.html
 boyinblue.github.io/022_firefox/index.html
 boyinblue.github.io/../_pages/event/index.md
@@ -115,7 +126,7 @@ boyinblue.github.io/../_pages/event/2022-11-18.md
 boyinblue.github.io/901_diary/index.html
 boyinblue.github.io/../_pages/dex/index.md
 boyinblue.github.io/diary/2022/10/27/%EB%A1%9C%EC%8A%A4%ED%8C%85%EA%B3%A0.html
-boyinblue.github.io/012_c/index.html
+boyinblue.github.io/../_pages/c/index.md
 boyinblue.github.io/../_pages/beyondcompare/index.md
 boyinblue.github.io/005_bash/index.html
 boyinblue.github.io/900_english/index.html
